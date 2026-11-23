@@ -5,7 +5,7 @@ WoW: Forever, by catagris. It is not one of Polestar's own addons and it needs P
 
 The aim: when every guide in the pack is finished, a Horde character has done every quest
 the reference data knows how to guide, in every zone, dungeons and raids included. It is not a fast
-leveling route: it is every quest, in an order that keeps walking back to a minimum. 3,854 of the
+leveling route: it is every quest, in an order that keeps walking back to a minimum. 3,856 of the
 4,107 quests the data lists for the Horde are handed in by a guide.
 
 The guides are generated: a custom route planner decides which quests go in which guide and in what

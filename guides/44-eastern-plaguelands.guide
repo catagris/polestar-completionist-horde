@@ -16,12 +16,6 @@ step Nara Wildmane
   zone map 1456
   turnin 92343
 
-step Get to the Roots of It
-  when onquest 92343
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 92343 optional
-
 step Lady Sylvanas Windrunner
   zone map 1458
   accept 5961
@@ -841,11 +835,15 @@ step Your Fortune Awaits You...
   zone map 1429
   turnin 7937 direct @84.8,64.4 map 1429 optional
 
-step Little Pamela
-  when onquest 5142
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1423
-  turnin 5142 optional
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1436
+  turnin 7938 direct @41.9,72.8 map 1436 optional
+
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  turnin 7944 direct @46.6,35.7 map 1413 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
