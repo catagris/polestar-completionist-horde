@@ -1,0 +1,171 @@
+guide completionist-horde/21-swamp-of-sorrows
+title 21 Swamp of Sorrows (35-45) (Completionist)
+faction Horde
+levels 35-45
+zone Swamp of Sorrows
+next completionist-horde/22-desolace
+pitch On along the line: Swamp of Sorrows, quests of level 35 to 45.
+# Generated from the reference data: change the planner, not this file.
+# Routed 20 quests; estimated level at the end 36.7 (heuristic XP, class quests not counted).
+
+step Owen Thadd
+  zone map 1458
+  accept 81947 npc 211022
+
+step Helgrum the Swift
+  zone map 1435
+  sethome "Stonard"
+  getfp "Stonard"
+  accept 1418
+
+step Noboru the Cudgel
+  goto 54.9,34.1 "Noboru the Cudgel"
+  accept 1392 item 6196 -- Drops from Noboru the Cudgel
+
+step Cortello's Riddle
+  zone map 1434
+  goto 29.2,88.6 "Cortello's Riddle"
+  accept 624 item 4056 -- Found in Cortello's Riddle
+
+step Amaryllis Webb
+  zone map 1435
+  accept 93176
+
+step Arbor Tarantula
+  zone map 1434
+  collect 213566 x1 quest 93176.1
+
+step Flesh Picker
+  zone map 1443
+  collect 213567 x1 quest 93176.3
+
+step Hay Weevil
+  zone map 1417
+  collect 213568 x1 quest 93176.2
+
+step Galen Goodward
+  zone map 1435
+  accept 1393
+
+step Book
+  collect 220345 x1 quest 81947.1
+
+step Galen's Strongbox
+  complete 1393 @53.1,29.6 map 1435
+  turnin 1393
+
+step Dar
+  accept 698
+  accept 1430
+
+step Lost in Transit
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 93663
+  complete 93663 @44.7,57.2
+
+step Sawtooth Crocolisk
+  collect 6169 x8 quest 698.1
+
+step Monstrous Crawler
+  collect 6184 x10 quest 1430.1
+
+step Tok'Kar
+  turnin 698
+  accept 699
+
+step Sawtooth Snapper
+  collect 6168 x6 quest 699.1
+
+step Tok'Kar
+  turnin 699
+  accept 1422
+  turnin 1422
+  accept 1426
+
+step Marsh Murloc
+  kill 747 x10 quest 1426.1
+
+step Marsh Inkspewer and Marsh Flesheater
+  zone map 1419
+  kill 750 x10 quest 1426.2
+  kill 751 x10 quest 1426.3
+
+step Katar
+  zone map 1435
+  turnin 1426
+  accept 1427
+  turnin 1427
+  accept 1428
+
+step Marsh Inkspewer and Marsh Flesheater
+  zone map 1419
+  kill 750 x10 quest 1428.1
+  kill 751 x10 quest 1428.2
+
+step Level 38
+  zone map 1435
+  level 38
+
+step Fel'zerul
+  accept 1424
+
+step Atal'ai Artifact
+  collect 6175 x10 quest 1424.1
+
+step Fel'zerul
+  turnin 1424
+
+step Fel'zerul
+  accept 1429
+
+step Marsh Oracle
+  kill 752 x10 quest 1428.3
+
+step Katar
+  turnin 1428
+
+step Dar
+  turnin 1430
+
+step Amaryllis Webb
+  turnin 93176
+
+step A Soggy Scroll
+  turnin 624
+  accept 625
+
+step Karana
+  accept 93429
+  turnin 1392
+  accept 1389
+  accept 93430
+
+step Lost in Transit
+  turnin 93663
+
+step Lost One Fisherman
+  collect 258530 x1 quest 93430.1
+
+step Draenethyst Crystals
+  collect 6071 x6 quest 1389.1
+
+step Lost One Hunter
+  kill 759 x10 quest 93429.1
+
+step Pelluk
+  turnin 93430
+  turnin 1389
+  accept 93464
+  turnin 93429
+
+step Neeka Bloodscar
+  zone map 1418
+  turnin 1418
+
+step Atal'ai Exile
+  zone map 1425
+  turnin 1429
+
+step Owen Thadd
+  zone map 1458
+  turnin 81947

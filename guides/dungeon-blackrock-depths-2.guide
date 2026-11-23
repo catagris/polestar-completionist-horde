@@ -1,0 +1,50 @@
+guide completionist-horde/dungeon-blackrock-depths-2
+title Blackrock Depths, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 1-60
+zone Searing Gorge
+next completionist-horde/39-swamp-of-sorrows-2
+pitch Blackrock Depths, in Searing Gorge.
+why Every Horde quest of Blackrock Depths: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Thrall
+  zone map 1454
+  turnin 4001
+
+step Thrall
+  accept 4002
+
+step Thrall
+  turnin 4002
+
+step Thrall
+  accept 4003
+
+step Inside Blackrock Depths, again
+  zone map 1427
+  complete 4132 @34.8,85.3
+  complete 4003 @34.8,85.3
+  turnin 4003 @34.8,85.3
+
+step Warlord Goretooth
+  zone map 1418
+  turnin 4132
+
+step Inside Blackrock Depths, again
+  zone map 1427
+  accept 4004 @34.8,85.3
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step What Is Going On?
+  when onquest 4001
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 4001 optional
+
+step Operation: Death to Angerforge
+  when onquest 4132
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 4132 optional

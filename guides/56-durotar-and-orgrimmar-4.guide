@@ -1,0 +1,169 @@
+guide completionist-horde/56-durotar-and-orgrimmar-4
+title 56 Durotar and Orgrimmar (48-60) (Completionist)
+faction Horde
+levels 48-60
+zone Durotar
+next completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
+pitch On along the line: Durotar and Orgrimmar, quests of level 48 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 16 quests; estimated level at the end 48.8 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route.
+
+step Dran Droffers
+  zone map 1454
+  accept 649
+  turnin 649
+  accept 650
+
+step Additional Runecloth
+  when turnedin 7824
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 14047 x20 anywhere optional
+  turnin 7832 direct optional
+
+step Kaymard Copperpinch
+  zone map 1454
+  accept 79495
+  turnin 79495
+
+step Assisting Arch Druid Runetotem
+  when available 936
+  tip One of several exclusive quests; the route takes Assisting Arch Druid Runetotem (3784). This one shows for a character the game offers it to instead.
+  zone map 1454
+  accept 936 optional
+
+step Level 50
+  zone map 1454
+  level 50
+
+step Zilzibin Drumlore
+  accept 4511
+
+step Karus
+  turnin 4511
+
+step Level 54
+  level 54
+
+step The New Frontier
+  when available 1018
+  tip One of several exclusive quests; the route takes The New Frontier (1000). This one shows for a character the game offers it to instead.
+  zone map 1454
+  accept 1018 optional
+
+step Level 58
+  zone map 1454
+  level 58
+
+step Sagorne Creststrider
+  accept 8259
+  turnin 8259
+
+step Mokvar
+  accept 97411 @34.9,38.1 map 1454
+  turnin 97411 @34.9,38.1 map 1454
+
+step Mokvar
+  accept 84155
+  turnin 84155
+
+step Mokvar
+  accept 84160
+  turnin 84160
+
+step Mokvar
+  accept 84161
+  turnin 84161
+
+step Mokvar
+  accept 84156
+  turnin 84156
+
+step A Fair Trade
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 15997 x200 anywhere optional
+  turnin 7341 direct optional
+
+step Wolf Swapping - Arctic Wolf
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12351 x1 anywhere optional
+  turnin 7660 direct optional
+
+step Mokvar
+  accept 84157
+  turnin 84157
+
+step Mokvar
+  accept 84158
+  turnin 84158
+
+step Mokvar
+  accept 84159
+  turnin 84159
+
+step Wolf Swapping - Red Wolf
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12330 x1 anywhere optional
+  turnin 7661 direct optional
+
+step Additional Runecloth
+  when turnedin 7836
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 14047 x20 anywhere optional
+  turnin 7837 direct optional
+
+step Assisting Arch Druid Runetotem
+  when onquest 936
+  zone map 1456
+  turnin 936 optional
+
+step The New Frontier
+  when onquest 1018
+  zone map 1456
+  turnin 1018 optional
+
+step Master Gadrin
+  when group 2937
+  zone map 1411
+  accept 2937
+
+step Shadra
+  when group 2937
+  tip Summoning Shadra is group work: elites. Grouping up is advised.
+  zone map 1425
+  collect 9324 x1 quest 2937.1
+
+step Gilveradin Sunchaser
+  zone map 1425
+  turnin 650
+  accept 77
+
+step Horde Supply Crate
+  collect 8684 x10 quest 77.1
+
+step Gilveradin Sunchaser
+  turnin 77
+  accept 81
+
+step Apothecary Lydon
+  when group 2937
+  zone map 1416
+  turnin 2937
+
+step Razor Hill
+  zone map 1411
+  sethome "Razor Hill"
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Ivory Raptor Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13317 x1 anywhere optional
+  turnin 7664 direct optional
+
+step Red Raptor Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8586 x1 anywhere optional
+  turnin 7665 direct optional

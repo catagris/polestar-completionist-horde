@@ -1,0 +1,488 @@
+guide completionist-horde/06-tirisfal-glades-and-the-undercity-2
+title 06 Tirisfal Glades and the Undercity (8-12) (Completionist)
+faction Horde
+levels 8-12
+zone Tirisfal Glades
+next completionist-horde/07-mulgore-and-thunder-bluff-2
+pitch On along the line: Tirisfal Glades and the Undercity, quests of level 8 to 12.
+# Generated from the reference data: change the planner, not this file.
+# Routed 4 quests; estimated level at the end 8.5 (heuristic XP, class quests not counted).
+
+step Undercity
+  zone map 1458
+  getfp "Undercity"
+
+step Undertaker Mordo
+  zone map 1420
+  accept 363 only Undead
+
+step Shadow Priest Sarvis
+  turnin 363 only Undead
+  accept 364
+
+step Mindless Zombie and Wretched Zombie
+  kill 1501 x8 quest 364.1
+  kill 1502 x8 quest 364.2
+
+step Novice Elreth
+  accept 376
+
+step Shadow Priest Sarvis
+  turnin 364
+  accept 3095 only Warrior,Undead
+  accept 3096 only Rogue,Undead
+  accept 3097 only Priest,Undead
+  accept 3098 only Mage,Undead
+  accept 3099 only Warlock,Undead
+  accept 3901
+  accept 98601 only Paladin,Undead
+
+step Maximillion
+  only Warlock
+  zone map 1420
+  turnin 3099 only Undead
+
+step Aramis Hammerhand
+  only Paladin
+  zone map 1420
+  turnin 98601 only Undead
+  accept 90902 only Undead
+
+step Isabella
+  only Mage
+  zone map 1420
+  turnin 3098 only Undead
+
+step Dark Cleric Duesten
+  only Priest
+  zone map 1420
+  turnin 3097 only Undead
+
+step David Trias
+  only Rogue
+  zone map 1420
+  turnin 3096 only Undead
+
+step Dannal Stern
+  only Warrior
+  zone map 1420
+  turnin 3095 only Undead
+
+step Mangy Duskbat
+  zone map 1420
+  collect 3264 x6 quest 376.2
+
+step Rattlecage Skeleton
+  kill 1890 x12 quest 3901.1
+
+step Young Scavenger
+  collect 3265 x6 quest 376.1
+
+step Novice Elreth
+  turnin 376
+  accept 6395
+  turnin 3901
+  accept 98389
+  accept 3902
+  accept 380
+
+step Equipment Boxes
+  collect 11127 x6 quest 3902.1
+
+step Young Night Web Spider
+  kill 1504 x10 quest 380.1
+
+step Night Web Spider and Webbed Forsaken
+  kill 1505 x8 quest 380.2
+  kill 271961 x6 quest 98389.1
+
+step Marla's Grave and Injured Deathguard
+  interact 178090 quest 6395.1
+  kill 259377 x5 quest 90902.1 only Paladin,Undead
+
+step Deathguard Saltain
+  turnin 3902
+  turnin 90902 only Paladin,Undead
+  turnin 98389
+  turnin 6395
+  turnin 380
+  accept 381
+
+step Continue Your Training
+  only Paladin,Undead
+  zone map 1420
+  accept 91209 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 91209 @31.0,66.2 optional
+
+step Coming to Terms
+  only Paladin,Undead
+  zone map 1420
+  accept 91208 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 91208 @31.0,66.2 optional
+
+step Scarlet Convert
+  zone map 1420
+  collect 3266 x12 quest 381.1
+
+step Executor Arren
+  turnin 381
+  accept 382
+
+step Coming to Terms
+  only Paladin,Undead
+  zone map 1420
+  turnin 91208 optional
+
+step Meven Korgal
+  zone map 1420
+  collect 2885 x1 quest 382.1
+
+step Executor Arren
+  turnin 382
+  accept 383
+  accept 96656 only Undead
+
+step Deathguard Simmer
+  accept 365
+
+step Tirisfal Pumpkin
+  collect 2846 x10 quest 365.1
+
+step Gordo
+  accept 5481
+
+step Gloom Weed
+  collect 12737 x3 quest 5481.1
+
+step Junior Apothecary Holland
+  sethome "Gallows' End Tavern"
+  turnin 5481
+  accept 5482
+
+step Deathguard Bartholomew
+  accept 86784
+
+step Continue Your Training
+  only Paladin,Undead
+  zone map 1420
+  turnin 91209 optional
+
+step Doom Weed
+  zone map 1420
+  collect 13702 x10 quest 5482.1
+
+step Dry Branch
+  collect 279991 x6 quest 86784.1
+
+step Junior Apothecary Holland
+  turnin 5482
+  accept 99142
+  accept 404
+
+step Ravaged Corpse
+  collect 2855 x7 quest 404.1
+
+step Eleanor Shackleton
+  turnin 86784
+  turnin 96656 only Undead
+
+step The Great Outdoors
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 96607
+  complete 96607 @57.3,55.5
+
+step The Great Outdoors
+  turnin 96607
+
+step Camping 101: Tailoring
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97961 optional
+  complete 97961 @57.3,55.5 optional
+
+step Camping 101: Tailoring
+  when skill Tailoring 1
+  zone map 1420
+  turnin 97961 optional
+
+step Camping 101: Skinning
+  when skill Skinning 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97960 optional
+  complete 97960 @57.3,55.5 optional
+
+step Camping 101: Mining
+  when skill Mining 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97959 optional
+  complete 97959 @57.3,55.5 optional
+
+step Camping 101: Leatherworking
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97958 optional
+  complete 97958 @57.3,55.5 optional
+
+step Camping 101: Herbalism
+  when skill Herbalism 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97957 optional
+  complete 97957 @57.3,55.5 optional
+
+step Camping 101: Fishing
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97956 optional
+  complete 97956 @57.3,55.5 optional
+
+step Camping 101: Fishing
+  when skill Fishing 1
+  zone map 1420
+  turnin 97956 optional
+
+step Camping 101: First Aid
+  when skill "First Aid" 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97955 optional
+  complete 97955 @57.3,55.5 optional
+
+step Camping 101: Engineering
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97954 optional
+  complete 97954 @57.3,55.5 optional
+
+step Camping 101: Enchanting
+  when skill Enchanting 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97953 optional
+  complete 97953 @57.3,55.5 optional
+
+step Camping 101: Blacksmithing
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97952 optional
+  complete 97952 @57.3,55.5 optional
+
+step Camping 101: Alchemy
+  when skill Alchemy 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 97951 optional
+  complete 97951 @57.3,55.5 optional
+
+step Camping 101: Cooking
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1420
+  accept 96658
+  complete 96658 @57.3,55.5
+
+step Shelene Rhobart
+  accept 97558
+  accept 356
+
+step Camping 101: Leatherworking
+  when skill Leatherworking 1
+  zone map 1420
+  turnin 97958 optional
+
+step Camping 101: Skinning
+  when skill Skinning 1
+  zone map 1420
+  turnin 97960 optional
+
+step Vampiric Duskbat
+  zone map 1420
+  collect 278242 x8 quest 97558.1
+
+step Cursed Darkhound
+  collect 278243 x6 quest 97558.2
+
+step Bleeding Horror, Wandering Spirit and Tomb Weed
+  kill 1529 x8 quest 356.1
+  kill 1532 x8 quest 356.2
+  collect 286204 x5 quest 99142.1
+
+step Camping 101: Cooking
+  turnin 96658
+
+step Camping 101: Alchemy
+  when skill Alchemy 1
+  zone map 1420
+  turnin 97951 optional
+
+step Camping 101: Enchanting
+  when skill Enchanting 1
+  zone map 1420
+  turnin 97953 optional
+
+step Camping 101: First Aid
+  when skill "First Aid" 1
+  zone map 1420
+  turnin 97955 optional
+
+step Camping 101: Herbalism
+  when skill Herbalism 1
+  zone map 1420
+  turnin 97957 optional
+
+step Deathguard Linnea
+  zone map 1420
+  turnin 356
+
+step Deathguard Linnea
+  when group 99156
+  zone map 1420
+  accept 99156
+
+step Gretchen Dedmar
+  zone map 1420
+  accept 375
+
+step Coleman Farthing
+  accept 362
+
+step Coleman Farthing
+  accept 354
+
+step Vampiric Duskbat
+  collect 2876 x5 quest 375.1
+
+step Nissa Agamand
+  collect 2828 x1 quest 354.2
+
+step Gregor Agamand
+  collect 2829 x1 quest 354.1
+
+step Thurman Agamand
+  collect 2830 x1 quest 354.3
+
+step Vile Fin Minor Oracle
+  collect 278244 x3 quest 97558.3
+
+step Riptear
+  when group 99156
+  tip Rear Guard Patrol is group work: elites. Grouping up is advised.
+  zone map 1420
+  collect 286326 x1 quest 99156.1
+
+step Devlin Agamand
+  zone map 1420
+  collect 2831 x1 quest 362.1
+
+step Junior Apothecary Holland
+  turnin 99142
+
+step Deathguard Dillinger
+  turnin 404
+  accept 426
+  accept 95314
+  turnin 365
+  accept 367
+  accept 407
+  accept 445
+
+step Executor Zygand
+  turnin 383
+  accept 427
+  accept 99141
+  accept 398
+  accept 358
+  turnin 407
+
+step Coleman Farthing
+  turnin 354
+  turnin 362
+  accept 355
+  turnin 375
+
+step Ravenous Darkhound
+  collect 2858 x5 quest 367.1
+
+step Deathguard Linnea
+  when group 99156
+  zone map 1420
+  turnin 99156
+
+step Shelene Rhobart
+  zone map 1420
+  turnin 97558
+
+step Deathguard Kristof
+  collect 286201 x1 quest 99141.2
+
+step Gordo
+  collect 286202 x1 quest 99141.3
+
+step Bottle
+  collect 268801 x8 quest 95314.1
+
+step Scarlet Warrior
+  kill 1535 x10 quest 427.1
+
+step Darkeye Bonecaster
+  collect 3163 x3 quest 426.2
+
+step Cracked Skull Soldier
+  collect 3162 x5 quest 426.1
+
+step Rot Hide Mongrel and Maggot Eye
+  kill 1675 x5 quest 358.2
+  collect 3635 x1 quest 398.1
+
+step Rot Hide Graverobber
+  kill 1941 x8 quest 358.1
+  collect 2834 x8 quest 358.3
+
+step Deathguard Dillinger
+  collect 286200 x1 quest 99141.1
+
+step Deathguard Dillinger
+  turnin 426
+  turnin 95314
+  turnin 367
+  accept 368
+  turnin 398
+  turnin 427
+  turnin 99141
+  accept 370
+
+step Deathguard Burgess
+  accept 374
+  turnin 355
+  turnin 358
+  accept 359
+  accept 405
+  accept 408
+
+step Wailing Ancestor, Rotting Ancestor and Captain Dargol
+  kill 1534 x8 quest 408.1
+  kill 1530 x8 quest 408.2
+  collect 3082 x1 quest 408.3
+
+step Vile Fin Puddlejumper
+  collect 2859 x5 quest 368.1
+
+step Deathguard Linnea
+  turnin 359
+  accept 360
+
+step Apothecary Renferrel
+  zone map 1421
+  turnin 445
+
+step Gallows' End Tavern
+  zone map 1420
+  sethome "Gallows' End Tavern"

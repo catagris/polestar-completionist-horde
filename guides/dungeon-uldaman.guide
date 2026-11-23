@@ -1,0 +1,125 @@
+guide completionist-horde/dungeon-uldaman
+title Uldaman (Completionist)
+faction Horde
+category Dungeons
+levels 36-47
+zone Badlands
+next completionist-horde/dungeon-uldaman-2
+pitch Uldaman, in Badlands.
+why Every Horde quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Patrick Garrett
+  zone map 1458
+  accept 2342
+
+step Level 37
+  zone map 1454
+  level 37
+
+step Dran Droffers
+  accept 2283
+
+step Getting there
+  zone map 1418
+  note The entrance is in Badlands: the arrow leads to it.
+
+step Jarkal Mossmeld
+  accept 2202
+
+step Rigglefuzz
+  accept 2418
+
+step Theldurin the Lost
+  accept 709
+
+step Pozzik
+  zone map 1441
+  accept 1192
+
+step Inside Uldaman
+  zone map 1418
+  complete 2418 @67.8,44.4
+  complete 709 @67.8,44.4
+  complete 1192 @67.8,44.4
+  complete 2202 @67.8,44.4
+  complete 2342 @67.8,44.4
+
+step Jarkal Mossmeld
+  turnin 2202
+
+step Rigglefuzz
+  turnin 2418
+
+step Theldurin the Lost
+  turnin 709
+
+step To the Undercity for Yagyin's Digest
+  accept 728
+
+step Pozzik
+  zone map 1441
+  turnin 1192
+
+step Inside Uldaman
+  zone map 1418
+  complete 2283 @67.8,44.4
+
+step Level 40
+  level 40
+
+step Inside Uldaman
+  accept 2278 @67.8,44.4
+  complete 2278 @67.8,44.4
+  turnin 2278 @67.8,44.4
+
+step Inside Uldaman, again
+  accept 2280 @67.8,44.4
+
+step Badlands Reagent Run II
+  when skill Alchemy 210
+  zone map 1418
+  accept 2203 optional
+
+step Badlands Reagent Run II
+  when onquest 2203
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  complete 2203 @2.4,46.1 optional
+
+step Badlands Reagent Run II
+  when onquest 2203
+  zone map 1418
+  turnin 2203 optional
+
+step Power in Uldaman
+  only Mage
+  when turnedin 1955
+  zone map 1445
+  accept 1956 optional
+
+step Power in Uldaman
+  only Mage
+  when onquest 1956
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  complete 1956 @46.1,57.1 optional
+
+step Power in Uldaman
+  only Mage
+  when onquest 1956
+  zone map 1445
+  turnin 1956 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Solution to Doom
+  when onquest 709
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 709 optional
+
+step Power Stones
+  when onquest 2418
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 2418 optional

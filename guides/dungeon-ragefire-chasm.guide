@@ -1,0 +1,29 @@
+guide completionist-horde/dungeon-ragefire-chasm
+title Ragefire Chasm (Completionist)
+faction Horde
+category Dungeons
+levels 9-16
+zone Orgrimmar
+next completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2
+pitch Ragefire Chasm, in Orgrimmar.
+why Every Horde quest of Ragefire Chasm: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Neeru Fireblade
+  accept 5761
+
+step Thrall
+  when turnedin 5727
+  accept 5728
+
+step Rahauro
+  zone map 1456
+  accept 5723
+  accept 5722
+
+step Varimathras
+  zone map 1458
+  accept 5725
+
+step Getting there
+  zone map 1454
+  note The entrance is in Orgrimmar: the arrow leads to it.

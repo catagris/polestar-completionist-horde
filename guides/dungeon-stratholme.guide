@@ -1,0 +1,586 @@
+guide completionist-horde/dungeon-stratholme
+title Stratholme (Completionist)
+faction Horde
+category Dungeons
+levels 57-60
+zone Eastern Plaguelands
+next completionist-horde/dungeon-stratholme-2
+pitch Stratholme, in Eastern Plaguelands.
+why Every Horde quest of Stratholme: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Level 58
+  zone map 1454
+  level 58
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1454
+  accept 8920
+
+step An Earnest Proposition
+  only Warrior
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8920 @34.95,38.29
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1454
+  turnin 8920
+
+step Mokvar
+  only Druid
+  zone map 1454
+  accept 8913
+
+step Mokvar
+  only Shaman
+  zone map 1454
+  accept 8918
+
+step A Supernatural Device
+  zone map 1454
+  accept 8923
+
+step Mokvar
+  only Hunter
+  zone map 1454
+  accept 8914
+
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  accept 8915
+
+step An Earnest Proposition
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8915 @34.95,38.29
+
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  turnin 8915
+
+step Mokvar
+  only Priest
+  zone map 1454
+  accept 8916
+
+step Getting there
+  zone map 1423
+  note The entrance is in Eastern Plaguelands: the arrow leads to it.
+
+step Pip Quickwit, At Your Service!
+  accept 5047 @26.3,18.3
+
+step Pip Quickwit, At Your Service!
+  zone map 1452
+  turnin 5047
+
+step The Matron Protectorate
+  zone map 1423
+  accept 5160 @26.3,18.3
+
+step The Matron Protectorate
+  zone map 1452
+  turnin 5160
+
+step Wrath of the Blue Flight
+  accept 5161
+
+step Wrath of the Blue Flight
+  turnin 5161
+
+step Wrath of the Blue Flight
+  accept 5162
+
+step Wrath of the Blue Flight
+  zone map 1422
+  turnin 5162
+
+step Catalogue of the Wayward
+  accept 5164
+
+step Catalogue of the Wayward
+  turnin 5164
+
+step Elven Legends
+  zone map 1444
+  accept 7481
+
+step Elven Legends
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 7481 @74.4,44
+
+step Elven Legends
+  turnin 7481
+
+step Doctor Theolen Krastinov, the Butcher
+  when turnedin 5383
+  zone map 1422
+  accept 5382
+
+step Doctor Theolen Krastinov, the Butcher
+  when turnedin 5383
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 5382 @70.22,73.71
+
+step Doctor Theolen Krastinov, the Butcher
+  when turnedin 5383
+  zone map 1422
+  turnin 5382
+
+step Krastinov's Bag of Horrors
+  when turnedin 5382
+  zone map 1422
+  accept 5515
+
+step Krastinov's Bag of Horrors
+  when turnedin 5382
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 5515 @70.22,73.71
+
+step Krastinov's Bag of Horrors
+  when turnedin 5382
+  zone map 1422
+  turnin 5515
+
+step Kirtonos the Herald
+  when turnedin 5515
+  zone map 1422
+  accept 5384
+
+step Kirtonos the Herald
+  when turnedin 5515
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 5384 @70.22,73.71
+
+step Kirtonos the Herald
+  when turnedin 5515
+  zone map 1422
+  turnin 5384
+
+step The Human, Ras Frostwhisper
+  when turnedin 5384
+  zone map 1422
+  accept 5461
+
+step The Human, Ras Frostwhisper
+  when turnedin 5384
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  complete 5461 @70.57,74.11
+
+step The Human, Ras Frostwhisper
+  when turnedin 5384
+  zone map 1422
+  turnin 5461
+
+step The Dying, Ras Frostwhisper
+  when turnedin 5461
+  zone map 1422
+  accept 5462
+
+step The Dying, Ras Frostwhisper
+  when turnedin 5461
+  zone map 1423
+  turnin 5462
+
+step Betina Bigglezink
+  zone map 1423
+  accept 5212
+
+step Duke Nicholas Zverenhoff
+  accept 5251
+
+step Egan
+  accept 5282
+
+step Leonid Barthalomew the Revered
+  accept 5243
+
+step Leonid Barthalomew the Revered
+  when turnedin 5462
+  zone map 1423
+  accept 5463
+
+step Nathanos Blightcaller
+  zone map 1423
+  accept 6163
+
+step Smokey LaRue
+  accept 5214
+
+step Lorekeeper Lydros
+  only Orc,Undead,Tauren,Troll
+  zone map 1423
+  accept 7480 @26.3,18.3
+
+step Artist Renfray
+  zone map 1422
+  accept 5848
+
+step Catalogue of the Wayward
+  accept 5166
+
+step Lilith the Lithe
+  zone map 1452
+  accept 5305
+
+step Malyfous's Catalogue
+  accept 5063
+  accept 5067
+  accept 5068
+
+step Seril Scourgebane
+  accept 5307
+
+step Inside Stratholme
+  zone map 1423
+  accept 5122 @26.3,18.3
+  collect 21514 @26.3,18.3
+  complete 5063 @26.3,18.3
+  complete 5067 @26.3,18.3
+  complete 5068 @26.3,18.3
+  complete 5122 @26.3,18.3
+  turnin 5122 @26.3,18.3
+  complete 5166 @26.3,18.3
+  complete 5212 @26.3,18.3
+  complete 5214 @26.3,18.3
+  complete 5243 @26.3,18.3
+  complete 5251 @26.3,18.3
+  complete 5282 @26.3,18.3
+  complete 5305 @26.3,18.3
+  complete 5307 @26.3,18.3
+  complete 5848 @26.3,18.3
+  complete 6163 @26.3,18.3
+
+step Inside Stratholme
+  when turnedin 5462
+  zone map 1423
+  turnin 5463 @26.3,18.3
+
+step Inside Stratholme
+  only Orc,Undead,Tauren,Troll
+  zone map 1423
+  complete 7480 @26.3,18.3
+
+step Inside Stratholme
+  only Druid
+  zone map 1423
+  complete 8913 @26.3,18.3
+
+step Inside Stratholme
+  only Shaman
+  zone map 1423
+  complete 8918 @26.3,18.3
+
+step Betina Bigglezink
+  zone map 1423
+  turnin 5212
+
+step Duke Nicholas Zverenhoff
+  turnin 5251
+
+step Egan
+  turnin 5282
+
+step Leonid Barthalomew the Revered
+  turnin 5243
+
+step Nathanos Blightcaller
+  turnin 6163
+
+step Smokey LaRue
+  turnin 5214
+
+step Tirion Fordring
+  turnin 5848
+
+step Find Myranda
+  zone map 1422
+  accept 5861
+
+step Find Myranda
+  when onquest 5861
+  zone map 1422
+  turnin 5861
+
+step Lorekeeper Lydros
+  only Orc,Undead,Tauren,Troll
+  zone map 1423
+  turnin 7480 @26.3,18.3
+
+step Jeziba
+  zone map 1422
+  turnin 5166
+
+step Scarlet Subterfuge
+  when turnedin 5861
+  zone map 1422
+  accept 5862
+
+step Scarlet Subterfuge
+  when onquest 5862
+  zone map 1422
+  turnin 5862
+
+step In Dreams
+  when turnedin 5862
+  zone map 1422
+  accept 5944
+
+step In Dreams
+  when onquest 5944
+  zone map 1422
+  complete 5944 @53.9,24.3
+
+step In Dreams
+  when onquest 5944
+  zone map 1422
+  turnin 5944
+
+step Lilith the Lithe
+  zone map 1452
+  turnin 5305
+
+step Malyfous Darkhammer
+  turnin 5063
+  turnin 5067
+  turnin 5068
+
+step Seril Scourgebane
+  turnin 5307
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8923
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step A Portable Power Source
+  accept 8925
+
+step A Portable Power Source
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8925 @52.47,27.23
+
+step Level 60
+  zone map 1423
+  level 60
+
+step Inside Stratholme
+  accept 8829 item 21514
+  complete 8829 @26.3,18.3
+
+step Aurel Goldleaf
+  zone map 1451
+  turnin 8829
+
+step A Portable Power Source
+  zone map 1446
+  turnin 8925
+
+step A Shifty Merchant
+  accept 8928
+
+step A Shifty Merchant
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8928 @52.47,27.23
+
+step A Shifty Merchant
+  turnin 8928
+
+step Return to Mokvar
+  accept 8978
+
+step Betina Bigglezink
+  zone map 1423
+  accept 5213
+
+step Inside Stratholme, again
+  accept 5125 @26.3,18.3
+  collect 13250 @26.3,18.3
+  accept 5262 item 13250
+  turnin 5125 @26.3,18.3
+  complete 5213 @26.3,18.3
+
+step Inside Stratholme
+  when turnedin 5463
+  zone map 1423
+  accept 5464 @26.3,18.3
+
+step Inside Stratholme
+  only Hunter
+  zone map 1423
+  complete 8914 @26.3,18.3
+
+step Betina Bigglezink
+  zone map 1423
+  turnin 5213
+
+step Duke Nicholas Zverenhoff
+  turnin 5262
+
+step Leonid Barthalomew the Revered
+  when turnedin 5463
+  zone map 1423
+  turnin 5464
+
+step Duke Nicholas Zverenhoff
+  zone map 1423
+  accept 5263
+
+step Inside Stratholme, again
+  complete 5263 @26.3,18.3
+
+step Inside Stratholme
+  only Priest
+  zone map 1423
+  complete 8916 @26.3,18.3
+
+step Duke Nicholas Zverenhoff
+  zone map 1423
+  turnin 5263
+
+step Lord Maxwell Tyrosus
+  accept 5264
+
+step Dead Man's Plea
+  when turnedin 8930
+  zone map 1423
+  accept 8945
+
+step Dead Man's Plea
+  when onquest 8945
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8945 @26.1,11.3
+
+step Dead Man's Plea
+  when onquest 8945
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1423
+  turnin 8945 @26.3,18.3
+
+step Proof of Life
+  when turnedin 8945
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1423
+  turnin 8946 direct @26.1,11.3 map 1423
+
+step Anthion's Strange Request
+  when turnedin 8946
+  zone map 1423
+  accept 8947
+
+step Anthion's Strange Request
+  when onquest 8947
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8947 @26.1,11.3
+
+step Anthion's Strange Request
+  when onquest 8947
+  zone map 1423
+  turnin 8947
+
+step Lord Maxwell Tyrosus
+  when onquest 5264
+  zone map 1423
+  turnin 5264
+
+step The Argent Hold
+  when turnedin 5264
+  zone map 1423
+  accept 5265
+
+step The Argent Hold
+  when onquest 5265
+  zone map 1423
+  turnin 5265
+
+step The Right Piece of Lord Valthalak's Amulet
+  when available 8991
+  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
+  when turnedin 8985
+  zone map 1427
+  accept 8991 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8991
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8991 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8991
+  zone map 1427
+  turnin 8991 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when available 8968
+  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8966). This one shows for a character the game offers it to instead.
+  when turnedin 8962
+  zone map 1427
+  accept 8968 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8968
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8968 @39.8,96.5 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8968
+  zone map 1427
+  turnin 8968 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Flesh Does Not Lie
+  when onquest 5212
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5212 optional
+
+step The Great Ezra Grimm
+  when onquest 5214
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5214 optional
+
+step Houses of the Holy
+  when onquest 5243
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5243 optional
+
+step The Archivist
+  when onquest 5251
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5251 optional

@@ -1,0 +1,346 @@
+guide completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2
+title 26 Hillsbrad Foothills and Alterac Mountains (33-43) (Completionist)
+faction Horde
+levels 33-43
+zone Alterac Mountains
+next completionist-horde/dungeon-scarlet-monastery
+next completionist-horde/27-odd-jobs-in-the-eastern-kingdoms-2
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 33 to 43.
+# Generated from the reference data: change the planner, not this file.
+# Routed 19 quests; estimated level at the end 34.1 (heuristic XP, class quests not counted).
+
+step Thrall
+  when onquest 5726
+  zone map 1454
+  turnin 5726
+
+step Hidden Enemies
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 5727
+  complete 5727 @31.7,37.8
+
+step Hidden Enemies
+  when onquest 5727
+  zone map 1454
+  turnin 5727
+
+step Nogg
+  when onquest 2950
+  zone map 1454
+  turnin 2950
+
+step Keldran
+  when onquest 1436
+  zone map 1454
+  turnin 1436
+
+step Inside Ragefire Chasm
+  when onquest 5722
+  zone map 1454
+  complete 5723 @49.4,95.1
+  turnin 5722 @49.4,95.1
+  complete 5725 @49.4,95.1
+  complete 5728 @49.4,95.1
+  complete 5761 @49.4,95.1
+
+step Neeru Fireblade
+  when complete 5761
+  zone map 1454
+  turnin 5761
+
+step Thrall
+  when complete 5728
+  zone map 1454
+  turnin 5728
+
+step Thrall
+  zone map 1454
+  accept 5729
+
+step Inside Ragefire Chasm, again
+  accept 5724 @49.4,95.1
+
+step Neeru Fireblade
+  when onquest 5729
+  zone map 1454
+  turnin 5729
+
+step Neeru Fireblade
+  zone map 1454
+  accept 5730
+
+step Thrall
+  when onquest 5730
+  zone map 1454
+  turnin 5730
+
+step Rahauro
+  when complete 5723
+  zone map 1456
+  turnin 5723
+
+step Rahauro
+  when onquest 5724
+  zone map 1456
+  turnin 5724
+
+step Melor Stonehoof
+  zone map 1456
+  accept 1136
+
+step Compendium of the Fallen
+  only Orc,Tauren,Troll
+  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1456
+  accept 1049 optional
+
+step Varimathras
+  when complete 5725
+  zone map 1458
+  turnin 5725
+
+step Owen Thadd
+  zone map 1458
+  accept 79948 npc 211022
+
+step Into The Scarlet Monastery
+  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 1048 optional
+
+step Test of Lore
+  tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 1160 optional
+
+step Sharlindra
+  accept 495
+
+step Krusk
+  zone map 1416
+  accept 533
+  accept 556
+
+step Henchman Valik
+  accept 535
+
+step Tarren Mill
+  zone map 1424
+  sethome "Tarren Mill"
+
+step Syndicate Footpad and Drunken Footpad
+  collect 3601 x1 quest 533.1
+  collect 3703 x1 quest 535.1
+
+step Henchman Valik
+  zone map 1416
+  turnin 535
+
+step Dalaran Shield Guard
+  collect 3714 x10 quest 556.1
+
+step Manual
+  collect 215815 x1 quest 79948.1
+
+step Keeper Bel'varil
+  turnin 556
+  accept 557
+  turnin 533
+  accept 503
+
+step Novice Thaivand
+  accept 552
+
+step Jailor Borhuin
+  collect 3704 x1 quest 503.1
+
+step Gol'dir
+  complete 503 @60.6,43.8 map 1416
+  turnin 503
+  accept 506
+
+step Elemental Slave
+  collect 3715 x4 quest 557.1
+
+step Ferocious Yeti
+  collect 3708 x1 quest 552.1
+
+step Level 35
+  zone map 1424
+  level 35
+
+step WANTED
+  accept 566 object 556670
+
+step Baron Vardus
+  zone map 1416
+  collect 3626 x1 quest 566.1
+
+step High Executor Darthalia
+  turnin 566
+  turnin 557
+
+step Melisara
+  when group 518
+  zone map 1416
+  accept 518
+
+step Krusk
+  zone map 1416
+  turnin 506
+  accept 507
+
+step Melisara
+  turnin 495
+  turnin 552
+  accept 553
+
+step Lord Aliden Perenolde
+  kill 2423 x1 quest 507.1
+
+step Elysa
+  turnin 507
+  accept 508
+
+step Strahnbrad Mystery
+  tip Singed Note drops from Argus Shadow Mage, Syndicate Wizard: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 213421 x1 optional
+  accept 95534 item 213421 optional
+  complete 95534 @48.6,59.0
+
+step Strahnbrad Mystery
+  when onquest 95534
+  zone map 1424
+  turnin 95534
+
+step Flame of Uzel
+  zone map 1416
+  interact 1770 quest 553.3
+
+step Flame of Azel and Flame of Veraz
+  interact 1768 quest 553.1
+  interact 1769 quest 553.2
+
+step Crushridge Mauler
+  when group 518
+  tip The Crown of Will is group work: elites. Grouping up is advised.
+  zone map 1416
+  kill 2254 x10 quest 518.1
+
+step Melisara
+  when group 518
+  zone map 1416
+  turnin 518
+
+step Melisara
+  when group 519
+  zone map 1416
+  accept 519
+
+step Glommus
+  when group 519
+  tip The Crown of Will is group work: elites. Grouping up is advised.
+  zone map 1416
+  collect 3552 x1 quest 519.3
+
+step Muckrake
+  when group 519
+  tip The Crown of Will is group work: elites. Grouping up is advised.
+  zone map 1416
+  collect 3551 x1 quest 519.2
+
+step Targ
+  when group 519
+  tip The Crown of Will is group work: elites. Grouping up is advised.
+  zone map 1416
+  collect 3550 x1 quest 519.1
+
+step Melisara
+  when group 519
+  zone map 1416
+  turnin 519
+
+step Melisara
+  when group 520
+  zone map 1416
+  accept 520
+
+step Krusk
+  zone map 1416
+  turnin 508
+
+step Mug'thol
+  when group 520
+  tip The Crown of Will is group work: elites. Grouping up is advised.
+  zone map 1416
+  collect 3553 x1 quest 520.1
+  collect 3554 x1 quest 520.2
+
+step Melisara
+  when group 520
+  zone map 1416
+  turnin 520
+
+step Melisara
+  zone map 1416
+  accept 521
+
+step Helcular's Grave
+  zone map 1424
+  turnin 553
+
+step Owen Thadd
+  zone map 1458
+  turnin 79948
+
+step Frostmaw
+  zone map 1416
+  collect 5811 x1 quest 1136.1
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Alliance Relations
+  when onquest 1436
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 1436 optional
+
+step Nogg's Ring Redo
+  when onquest 2950
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 2950 optional
+
+step Searching for the Lost Satchel
+  when onquest 5722
+  tip Still in your log from an earlier guide: hand it in now.
+  turnin 5722 @49.4,95.1 optional
+
+step Testing an Enemy's Strength
+  when onquest 5723
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 5723 optional
+
+step The Power to Destroy...
+  when onquest 5725
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 5725 optional
+
+step Hidden Enemies
+  when onquest 5726
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 5726 optional
+
+step Hidden Enemies
+  when onquest 5728
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 5728 optional
+
+step Slaying the Beast
+  when onquest 5761
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 5761 optional

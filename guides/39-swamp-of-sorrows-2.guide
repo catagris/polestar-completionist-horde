@@ -1,0 +1,111 @@
+guide completionist-horde/39-swamp-of-sorrows-2
+title 39 Swamp of Sorrows (44-58) (Completionist)
+faction Horde
+levels 44-58
+zone Swamp of Sorrows
+next completionist-horde/40-blasted-lands
+pitch On along the line: Swamp of Sorrows, quests of level 44 to 58.
+# Generated from the reference data: change the planner, not this file.
+# Routed 10 quests; estimated level at the end 44.4 (heuristic XP, class quests not counted).
+
+step Thrall
+  when onquest 4004
+  zone map 1454
+  turnin 4004
+
+step Fel'zerul
+  zone map 1435
+  sethome "Stonard"
+  turnin 1444
+
+step Magtoor
+  accept 93679
+  turnin 93679
+  accept 93684
+
+step Level 45
+  level 45
+
+step Fall From Grace
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 2784
+  complete 2784 @34.3,66.1
+
+step Fall From Grace
+  turnin 2784
+
+step Fallen Hero of the Horde
+  accept 2621
+
+step Dispatch Commander Ruag
+  turnin 2621
+
+step Dispatch Commander Ruag
+  accept 2622
+
+step Bengor
+  turnin 2622
+
+step Bengor
+  accept 2623
+
+step Fallen Hero of the Horde
+  turnin 2623
+
+step A Tale of Sorrow
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 2801
+  complete 2801 @34.3,66.1
+
+step A Tale of Sorrow
+  turnin 2801
+
+step Fallen Hero of the Horde
+  accept 2681
+
+step Fallen Hero of the Horde
+  complete 2681
+  turnin 2681
+
+step Fallen Hero of the Horde
+  accept 2702
+
+step Corporal Thund Splithoof
+  turnin 2702
+
+step Corporal Thund Splithoof
+  accept 2701
+
+step Spectral Lockbox
+  turnin 2701
+
+step Fallen Hero of the Horde
+  accept 2721
+
+step Level 48
+  zone map 1452
+  level 48
+
+step In Eranikus' Own Words
+  when turnedin 3374
+  zone map 1452
+  accept 3512
+
+step In Eranikus' Own Words
+  when onquest 3512
+  zone map 1452
+  turnin 3512
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to Fel'Zerul
+  when onquest 1444
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1435
+  turnin 1444 optional
+
+step The Princess Saved?
+  when onquest 4004
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 4004 optional

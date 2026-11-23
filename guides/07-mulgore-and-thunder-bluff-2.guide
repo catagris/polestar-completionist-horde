@@ -1,0 +1,442 @@
+guide completionist-horde/07-mulgore-and-thunder-bluff-2
+title 07 Mulgore and Thunder Bluff (8-14) (Completionist)
+faction Horde
+levels 8-14
+zone Mulgore
+next completionist-horde/08-silverpine-forest
+pitch On along the line: Mulgore and Thunder Bluff, quests of level 8 to 14.
+# Generated from the reference data: change the planner, not this file.
+# Routed 2 quests; estimated level at the end 8.7 (heuristic XP, class quests not counted).
+
+step Camping 101: Mining
+  when onquest 97959
+  when skill Mining 1
+  zone map 1458
+  turnin 97959 optional
+
+step Camping 101: Engineering
+  when onquest 97954
+  when skill Engineering 1
+  zone map 1458
+  turnin 97954 optional
+
+step Camping 101: Blacksmithing
+  when onquest 97952
+  when skill Blacksmithing 1
+  zone map 1458
+  turnin 97952 optional
+
+step Captain Perrine and Scarlet Missionary
+  zone map 1458
+  kill 1662 x1 quest 370.1
+
+step Bethor Iceshard
+  when onquest 405
+  zone map 1458
+  turnin 405
+
+step Bethor Iceshard
+  zone map 1458
+  accept 357
+
+step Thunder Bluff
+  zone map 1456
+  getfp "Thunder Bluff"
+
+step Eyahn Eagletalon
+  accept 744
+
+step Kodo Hide Bag
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1456
+  accept 769 optional
+  complete 769 @44.4,44.7 optional
+
+step Kodo Hide Bag
+  when skill Leatherworking 1
+  zone map 1456
+  turnin 769 optional
+
+step Gathering Leather
+  when skill Skinning 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1456
+  accept 768 optional
+  complete 768 @44.4,44.7 optional
+
+step Gathering Leather
+  when skill Skinning 1
+  zone map 1456
+  turnin 768 optional
+
+step Exploring the Horde
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 93739
+  complete 93739 @31.7,37.8
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Exploring the Horde
+  turnin 93739
+
+step Captain Perrine and Scarlet Missionary
+  zone map 1420
+  kill 1536 x3 quest 370.3
+
+step Scarlet Zealot
+  zone map 1422
+  kill 1537 x3 quest 370.2
+  collect 2875 x10 quest 374.1
+
+step Deathguard Burgess
+  when onquest 360
+  zone map 1420
+  turnin 374
+  turnin 370
+  accept 371
+  turnin 360
+  turnin 408
+
+step Scarlet Friar
+  zone map 1420
+  kill 1538 x5 quest 371.2
+
+step Captain Vachon
+  kill 1664 x1 quest 371.1
+
+step Executor Zygand
+  when onquest 368
+  zone map 1420
+  turnin 371
+  accept 372
+  turnin 368
+  accept 369
+
+step Vicious Night Web Spider
+  zone map 1420
+  collect 2872 x4 quest 369.1
+
+step Captain Melrache and Scarlet Bodyguard
+  kill 1665 x1 quest 372.1
+  kill 1660 x2 quest 372.2
+
+step Executor Zygand
+  when onquest 369
+  zone map 1420
+  turnin 372
+  turnin 369
+  accept 492
+  turnin 492
+
+step Gunther's Books
+  zone map 1420
+  collect 2833 x1 quest 357.1
+
+step Dirt-stained Map
+  zone map 1412
+  goto 63.2,82.7 "Dirt-stained Map"
+  accept 781 item 4851 -- Found in Dirt-stained Map
+
+step Chief Hawkwind
+  turnin 781
+  accept 752
+  accept 3376
+  accept 747
+
+step Plainstrider
+  collect 4739 x7 quest 747.1
+  collect 4740 x7 quest 747.2
+
+step Greatmother Hawkwind
+  turnin 752
+  accept 753
+
+step Water Pitcher
+  collect 4755 x1 quest 753.1
+
+step Chief Sharptusk Thornmantle
+  collect 10459 x1 quest 3376.1
+
+step Brave Windfeather
+  turnin 3376
+  turnin 753
+  accept 755
+
+step Grull Hawkwind
+  zone map 1413
+  turnin 747
+  accept 750
+  accept 3091 only Warrior,Tauren
+  accept 3092 only Hunter,Tauren
+  accept 3093 only Shaman,Tauren
+  accept 3094 only Druid,Tauren
+
+step Meela Dawnstrider
+  only Shaman
+  zone map 1413
+  turnin 3093 only Tauren
+
+step Gart Mistrunner
+  only Druid
+  zone map 1413
+  turnin 3094 only Tauren
+
+step Lanka Farshot
+  only Hunter
+  zone map 1413
+  turnin 3092 only Tauren
+
+step Harutt Thunderhorn
+  only Warrior
+  zone map 1413
+  turnin 3091 only Tauren
+
+step Mountain Cougar
+  zone map 1413
+  collect 4742 x10 quest 750.1
+
+step Grull Hawkwind
+  turnin 750
+  accept 780
+
+step Bristleback Battleboar
+  collect 4848 x8 quest 780.1
+  collect 4849 x8 quest 780.2
+
+step Grull Hawkwind
+  turnin 780
+
+step Antur Fallow
+  accept 1656
+
+step Seer Graytongue
+  turnin 755
+  accept 757
+  accept 95805
+
+step Bristleback Quilboar
+  collect 4770 x12 quest 757.1
+
+step Ritual Fire
+  turnin 95805
+
+step Chief Hawkwind
+  turnin 757
+  accept 763
+  accept 96659 only Tauren
+
+step Kaga Wildhoof
+  turnin 96659 only Tauren
+
+step The Great Outdoors
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 96605
+  complete 96605 @46.2,67.3
+
+step The Great Outdoors
+  turnin 96605
+
+step Camping 101: Tailoring
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97937 optional
+  complete 97937 @46.2,67.3 optional
+
+step Camping 101: Skinning
+  when skill Skinning 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97936 optional
+  complete 97936 @46.2,67.3 optional
+
+step Camping 101: Skinning
+  when skill Skinning 1
+  zone map 1412
+  turnin 97936 optional
+
+step Camping 101: Mining
+  when skill Mining 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97935 optional
+  complete 97935 @46.2,67.3 optional
+
+step Camping 101: Leatherworking
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97934 optional
+  complete 97934 @46.2,67.3 optional
+
+step Camping 101: Leatherworking
+  when skill Leatherworking 1
+  zone map 1412
+  turnin 97934 optional
+
+step Camping 101: Herbalism
+  when skill Herbalism 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97933 optional
+  complete 97933 @46.2,67.3 optional
+
+step Camping 101: Fishing
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97932 optional
+  complete 97932 @46.2,67.3 optional
+
+step Camping 101: Fishing
+  when skill Fishing 1
+  zone map 1412
+  turnin 97932 optional
+
+step Camping 101: First Aid
+  when skill "First Aid" 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97931 optional
+  complete 97931 @46.2,67.3 optional
+
+step Camping 101: First Aid
+  when skill "First Aid" 1
+  zone map 1412
+  turnin 97931 optional
+
+step Camping 101: Engineering
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97930 optional
+  complete 97930 @46.2,67.3 optional
+
+step Camping 101: Engineering
+  when skill Engineering 1
+  zone map 1412
+  turnin 97930 optional
+
+step Camping 101: Enchanting
+  when skill Enchanting 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97929 optional
+  complete 97929 @46.2,67.3 optional
+
+step Camping 101: Blacksmithing
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97928 optional
+  complete 97928 @46.2,67.3 optional
+
+step Camping 101: Alchemy
+  when skill Alchemy 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
+  accept 97927 optional
+  complete 97927 @46.2,67.3 optional
+
+step Camping 101: Cooking
+  tip The place is where players were recorded finishing it.
+  zone map 1412
+  accept 96661
+  complete 96661 @44.89,61.65
+
+step Camping 101: Cooking
+  turnin 96661
+
+step Innkeeper Kauth
+  turnin 1656
+  turnin 763
+  accept 767
+
+step Zarlman Two-Moons
+  turnin 767
+  accept 771
+  accept 96130
+
+step Chakuyak
+  collect 270302 x1 quest 96130.1
+
+step Well Stone
+  collect 4808 x2 quest 771.1
+
+step Ambercorn
+  collect 4809 x2 quest 771.2
+
+step Yaw Sharpmane
+  turnin 96130
+  turnin 771
+  accept 772
+
+step Windfury Matriarch
+  zone map 1443
+  collect 4753 x6 quest 744.2
+
+step Windfury Sorceress
+  collect 4752 x6 quest 744.1
+
+step Bloodhoof Village
+  zone map 1412
+  sethome "Bloodhoof Village"
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to the Magistrate
+  when onquest 360
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 360 optional
+
+step A New Plague
+  when onquest 368
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 368 optional
+
+step At War With The Scarlet Crusade
+  when onquest 370
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 370 optional
+
+step Proof of Demise
+  when onquest 374
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 374 optional
+
+step The Prodigal Lich
+  when onquest 405
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 405 optional
+
+step The Family Crypt
+  when onquest 408
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 408 optional
+
+step Camping 101: Blacksmithing
+  when onquest 97952
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 97952 optional
+
+step Camping 101: Engineering
+  when onquest 97954
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 97954 optional
+
+step Camping 101: Mining
+  when onquest 97959
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 97959 optional

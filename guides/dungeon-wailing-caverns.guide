@@ -1,0 +1,76 @@
+guide completionist-horde/dungeon-wailing-caverns
+title Wailing Caverns (Completionist)
+faction Horde
+category Dungeons
+levels 13-26
+zone The Barrens
+next completionist-horde/dungeon-wailing-caverns-2
+pitch Wailing Caverns, in The Barrens.
+why Every Horde quest of Wailing Caverns: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Apothecary Zamah
+  zone map 1456
+  accept 962
+
+step Getting there
+  zone map 1413
+  note The entrance is in The Barrens: the arrow leads to it.
+
+step Mebok Mizzyrix
+  accept 1491
+
+step Nalpak
+  accept 1486
+
+step Tonga Runetotem
+  accept 1489
+
+step Inside Wailing Caverns
+  collect 10441 @46.6,35.7
+  complete 1486 @46.6,35.7
+  complete 1491 @46.6,35.7
+
+step Mebok Mizzyrix
+  turnin 1491
+
+step Nalpak
+  turnin 1486
+
+step Inside Wailing Caverns
+  complete 962 @46.6,35.7
+
+step Crane Operator Bigglefuzz
+  accept 959
+
+step Inside Wailing Caverns
+  complete 959 @46.6,35.7
+
+step Crane Operator Bigglefuzz
+  turnin 959
+
+step Level 15
+  level 15
+
+step Inside Wailing Caverns
+  accept 6981 item 10441
+  complete 6981 @46.6,35.7
+
+step Falla Sagewind
+  turnin 6981
+
+step Ebru
+  accept 1487
+
+step Inside Wailing Caverns
+  complete 1487 @46.6,35.7
+
+step Ebru
+  turnin 1487
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Trouble at the Docks
+  when onquest 959
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 959 optional

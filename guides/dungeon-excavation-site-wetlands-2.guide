@@ -1,0 +1,39 @@
+guide completionist-horde/dungeon-excavation-site-wetlands-2
+title Excavation Site: Wetlands, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 24-31
+zone Wetlands
+next completionist-horde/dungeon-city-of-dalaran
+next completionist-horde/18-dustwallow-marsh
+pitch Excavation Site: Wetlands, in Wetlands.
+why Every Horde quest of Excavation Site: Wetlands: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Borstan
+  zone map 1454
+  turnin 95697
+
+step Bashana Runetotem
+  zone map 1456
+  turnin 95664
+
+step Bashana Runetotem
+  accept 98823
+
+step Muln Earthfury
+  zone map 1412
+  turnin 98823
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Elder Knowledge
+  when onquest 95664
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 95664 optional
+
+step Changing Tastes
+  when onquest 95697
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 95697 optional

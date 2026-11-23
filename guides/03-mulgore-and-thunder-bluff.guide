@@ -1,0 +1,318 @@
+guide completionist-horde/03-mulgore-and-thunder-bluff
+title 03 Mulgore and Thunder Bluff (1-13) (Completionist)
+faction Horde
+levels 1-13
+zone Mulgore
+next completionist-horde/01-durotar-and-orgrimmar when !turnedin 829
+next completionist-horde/04-tirisfal-glades-and-the-undercity when !turnedin 408
+next completionist-horde/05-zephras-isle when !turnedin 95349
+next completionist-horde/06-tirisfal-glades-and-the-undercity-2
+pitch Where Tauren start. The other starting zones follow, then the route goes on by level.
+# Generated from the reference data: change the planner, not this file.
+# Routed 54 quests; estimated level at the end 11.8 (heuristic XP, class quests not counted).
+
+step Baine Bloodhoof
+  sethome "Bloodhoof Village"
+  accept 745
+
+step Palemane Skinner
+  kill 2950 x8 quest 745.2
+
+step Perith Stormhoof
+  accept 98430
+
+step Palemane Poacher
+  kill 2951 x5 quest 745.3
+
+step Palemane Tanner
+  kill 2949 x10 quest 745.1
+
+step Baine Bloodhoof
+  turnin 745
+
+step Earth Sapta
+  only Shaman
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1412
+  turnin 1462 direct optional
+
+step Welcome!
+  when has 14650
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1412
+  accept 5844 item 14650
+
+step Cairne Bloodhoof
+  zone map 1412
+  complete 98430 @37.2,64.6 map 1412
+
+step Krang Stonehoof
+  accept 99108
+
+step Novice Warrior
+  kill 10721 x1 quest 99108.1
+
+step Krang Stonehoof
+  turnin 99108
+
+step Mull Thunderhorn
+  accept 748 only Tauren
+
+step Prairie Wolf
+  collect 4758 x6 quest 748.1 only Tauren
+
+step Adult Plainstrider
+  collect 4759 x4 quest 748.2 only Tauren
+
+step Harken Windtotem
+  accept 761
+
+step Taloned Swoop
+  collect 4769 x8 quest 761.1
+
+step Brave Wildrunner
+  accept 99079
+  turnin 761
+  turnin 748 only Tauren
+  accept 754 only Tauren
+  accept 743
+
+step Maur Raincaller
+  accept 766
+
+step Prairie Wolf Alpha
+  zone map 1456
+  collect 4804 x1 quest 766.1
+
+step Mazzranache
+  collect 4806 x1 quest 766.3
+
+step Taloned Swoop
+  collect 4807 x1 quest 766.4
+
+step Ahab Wheathoof
+  accept 99411
+
+step Kyle the Frenzied
+  kill 277154 x1 quest 99411.1
+
+step Flatland Cougar and Ghost Howl
+  collect 4805 x1 quest 766.2
+
+step Windfury Wind Witch
+  collect 4751 x8 quest 743.1
+
+step Maur Raincaller
+  turnin 766
+
+step Mull Thunderhorn
+  complete 754 @51.8,68.4 map 1412
+  turnin 754 only Tauren
+  accept 756 only Tauren
+
+step Prairie Stalker
+  collect 4801 x6 quest 756.1 only Tauren
+
+step Flatland Cougar
+  collect 4802 x6 quest 756.2 only Tauren
+
+step Flatland Cougar and Ghost Howl
+  accept 770 item 4854 -- Drops from Ghost Howl
+
+step Skorn Whitecloud
+  zone map 1412
+  turnin 770
+
+step Baine Bloodhoof
+  accept 746
+
+step Forge
+  collect 4703 x5 quest 746.1
+
+step Baine Bloodhoof
+  turnin 746
+
+step Ahab Wheathoof
+  turnin 99411
+
+step Mull Thunderhorn
+  turnin 756 only Tauren
+  accept 758 only Tauren
+
+step Alaana Stormwalker
+  zone map 1456
+  accept 95350 only Skyborne
+
+step More Unstable Magic
+  when turnedin 98477
+  zone map 1412
+  accept 98476 optional
+
+step More Unstable Magic
+  when onquest 98476
+  zone map 1412
+  turnin 98476 optional
+
+step Mull Thunderhorn
+  zone map 1412
+  complete 758 @44.2,51.1 map 1412
+  turnin 758 only Tauren
+  accept 759 only Tauren
+
+step Lorekeeper Raintotem
+  accept 833
+
+step Bristleback Interloper
+  kill 3232 x8 quest 833.1
+
+step Lorekeeper Raintotem
+  turnin 833
+
+step Morin Cloudstalker
+  accept 749
+
+step Prairie Wolf Alpha
+  collect 4803 x8 quest 759.1 only Tauren
+
+step Malah Longwind
+  turnin 99079
+  accept 99081
+
+step Sealed Supply Crate
+  turnin 749
+  accept 751
+
+step Fizsprocket's Notes
+  tip Mulgore Expansion Plans drops from Supervisor Fizsprocket: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 281031 x1 optional
+  accept 98424 item 281031 optional
+  complete 98424 @54.8,64.3
+
+step Morin Cloudstalker
+  turnin 751
+  accept 764
+  accept 765
+
+step Fizsprocket's Notes
+  when onquest 98424
+  zone map 1412
+  turnin 98424
+
+step Supervisor Fizsprocket
+  zone map 1412
+  collect 4819 x1 quest 765.1
+
+step Venture Co. Worker
+  zone map 1413
+  kill 2978 x14 quest 764.1
+
+step Venture Co. Supervisor
+  zone map 1412
+  kill 2979 x6 quest 764.2
+
+step Morin Cloudstalker
+  turnin 764
+  turnin 765
+
+step Ceasing Operations
+  when turnedin 98424
+  zone map 1412
+  accept 98427
+  complete 98427 @54.8,64.3
+
+step Ceasing Operations
+  when onquest 98427
+  zone map 1412
+  turnin 98427
+
+step Mull Thunderhorn
+  zone map 1412
+  turnin 759 only Tauren
+  accept 760 only Tauren
+  turnin 99081
+  accept 99101
+  turnin 99101
+  accept 99080
+
+step Galak Centaur and Galak Outrunner
+  kill 2967 x6 quest 99080.1
+  kill 2968 x4 quest 99080.2
+
+step Herak the Pillager
+  collect 286075 x1 quest 99080.3
+
+step Mull Thunderhorn
+  complete 760 @42.7,25.0 map 1412
+  turnin 760 only Tauren
+  accept 98435
+  turnin 99080
+  accept 99082
+  turnin 743
+
+step Seer Ravenfeather
+  only Shaman
+  zone map 1412
+  accept 1519 only Tauren
+
+step Welcome!
+  when onquest 5844
+  zone map 1412
+  turnin 5844
+
+step Skorn Whitecloud
+  zone map 1412
+  accept 861
+
+step Flatland Prowler
+  zone map 1413
+  collect 5203 x4 quest 861.1
+
+step Bristleback Shaman
+  only Shaman
+  zone map 1413
+  collect 6634 x2 quest 1519.1 only Tauren
+
+step Seer Ravenfeather
+  only Shaman
+  zone map 1413
+  turnin 1519 only Tauren
+  accept 1520
+
+step Minor Manifestation of Earth
+  only Shaman
+  zone map 1413
+  turnin 1520
+  accept 1521
+
+step Seer Ravenfeather
+  only Shaman
+  zone map 1413
+  turnin 1521
+
+step Thunder Bluff
+  zone map 1456
+  getfp "Thunder Bluff"
+
+step Cairne Bloodhoof
+  turnin 98430
+
+step Melor Stonehoof
+  turnin 861
+
+step Cairne Bloodhoof
+  turnin 99082
+
+step Arch Druid Hamuul Runetotem
+  turnin 98435
+
+step Traditions of the Bluff
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 97485
+  complete 97485 @38,55.9
+
+step Traditions of the Bluff
+  turnin 97485
+
+step Thrall
+  zone map 1454
+  turnin 95350 only Skyborne

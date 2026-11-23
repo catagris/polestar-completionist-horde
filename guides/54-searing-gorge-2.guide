@@ -1,0 +1,193 @@
+guide completionist-horde/54-searing-gorge-2
+title 54 Searing Gorge (60-60) (Completionist)
+faction Horde
+levels 59-60
+zone Searing Gorge
+next completionist-horde/dungeon-blackrock-spire
+next completionist-horde/55-odd-jobs-in-the-eastern-kingdoms-4
+pitch On along the line: Searing Gorge, level 60 quests.
+# Generated from the reference data: change the planner, not this file.
+# Routed 4 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Skipped: 6 exclusive with N; 1 prerequisite N not in this route.
+
+step Mokvar
+  only Warlock
+  when complete 8943
+  zone map 1454
+  turnin 8943
+
+step Mokvar
+  zone map 1454
+  accept 9032
+
+step An Earnest Proposition
+  only Priest
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 8916 optional
+
+step An Earnest Proposition
+  only Mage
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 8915 optional
+
+step An Earnest Proposition
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84162 optional
+
+step An Earnest Proposition
+  only Warrior
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 8920 optional
+
+step An Earnest Proposition
+  only Hunter
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 8914 optional
+
+step An Earnest Proposition
+  only Shaman
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 8918 optional
+
+step An Earnest Proposition
+  only Druid
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 8913 optional
+
+step Bodley
+  zone map 1427
+  accept 8970
+
+step Basket of Bloodkelp
+  zone map 1445
+  collect 22094 x20 quest 8970.1
+
+step Bodley
+  zone map 1427
+  turnin 8970
+  turnin 9032
+
+step More Components of Importance
+  when available 8988
+  tip One of several exclusive quests; the route takes More Components of Importance (8986). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8988 optional
+
+step More Components of Importance
+  when available 8987
+  tip One of several exclusive quests; the route takes More Components of Importance (8986). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8987 optional
+
+step More Components of Importance
+  when available 8986
+  tip One of several exclusive quests; the route takes More Components of Importance (8985). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8986 optional
+
+step Attunement to the Core
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 7487
+  complete 7487 @32.1,94.7
+
+step Attunement to the Core
+  turnin 7487
+
+step Final Preparations
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8994
+  complete 8994 @39.8,96.5
+
+step More Components of Importance
+  when onquest 8988
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8988 @39.8,96.5 optional
+
+step More Components of Importance
+  when onquest 8988
+  zone map 1427
+  turnin 8988 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step More Components of Importance
+  when onquest 8987
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8987 @39.8,96.5 optional
+
+step More Components of Importance
+  when onquest 8987
+  zone map 1427
+  turnin 8987 optional
+
+step More Components of Importance
+  when onquest 8986
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8986 @39.8,96.5 optional
+
+step More Components of Importance
+  when onquest 8986
+  zone map 1427
+  turnin 8986 optional
+
+step Final Preparations
+  zone map 1427
+  turnin 8994
+
+step Restoring Fiery Flux Supplies via Heavy Leather
+  when turnedin 7722
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1427
+  collect 18944 x2 anywhere optional
+  collect 4234 x10 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8242 direct optional
+
+step Restoring Fiery Flux Supplies via Iron
+  when turnedin 7722
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1427
+  collect 18944 x2 anywhere optional
+  collect 3575 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8241 direct optional
+
+step Restoring Fiery Flux Supplies via Kingsblood
+  when turnedin 7722
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1427
+  collect 18944 x2 anywhere optional
+  collect 3356 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 7736 direct optional
+
+step More Components of Importance
+  when available 8985
+  tip One of several exclusive quests; the route takes More Components of Importance (8986). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8985 optional
+
+step More Components of Importance
+  when onquest 8985
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8985 @39.8,96.5 optional
+
+step More Components of Importance
+  when onquest 8985
+  zone map 1427
+  turnin 8985 optional

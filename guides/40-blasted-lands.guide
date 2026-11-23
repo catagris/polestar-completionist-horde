@@ -1,0 +1,191 @@
+guide completionist-horde/40-blasted-lands
+title 40 Blasted Lands (45-60) (Completionist)
+faction Horde
+levels 45-60
+zone Blasted Lands
+next completionist-horde/41-azshara-2
+pitch On along the line: Blasted Lands, quests of level 45 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 15 quests; estimated level at the end 46.4 (heuristic XP, class quests not counted).
+
+step Zevrost
+  when group 91548
+  zone map 1454
+  accept 91548
+
+step Bloodmage Lynnore
+  zone map 1419
+  accept 2601
+  accept 2603
+  accept 81917
+
+step Bloodmage Lynnore
+  when group 81919
+  zone map 1419
+  accept 81919
+
+step Bloodmage Drazial
+  zone map 1419
+  accept 2581
+  accept 2583
+  accept 2585
+
+step Redstone Basilisk
+  collect 8394 x1 quest 2583.3
+  collect 8394 x10 quest 2601.1
+
+step Shadowsworn Cultist
+  collect 220214 x5 quest 81917.1
+
+step Helboar and Black Slayer
+  collect 8392 x2 quest 2581.2
+  collect 8392 x3 quest 2583.1
+  collect 8396 x2 quest 2585.2
+  collect 8392 x1 quest 2585.3
+  collect 8396 x2 quest 2601.2
+  collect 8396 x10 quest 2603.1
+
+step Kum'isha the Collector
+  accept 2521
+  accept 3501
+  turnin 93684
+  accept 93685
+
+step Teremus the Devourer
+  collect 8244 x1 quest 2521.1
+  collect 8244 x1 quest 93685.1
+
+step Ravage
+  collect 8391 x3 quest 2581.1
+  collect 8391 x2 quest 2603.2
+
+step Scorpok Stinger
+  collect 8393 x1 quest 2581.3
+  collect 8393 x2 quest 2583.2
+  collect 8393 x3 quest 2585.1
+
+step Calefactus the Unleashed
+  when group 81919
+  tip Brought to Heel is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 220213 x1 quest 81919.1
+
+step Nethergarde Analyst
+  zone map 1419
+  collect 10593 x1 quest 3501.1
+
+step Spirit of Kirith
+  turnin 2721
+  accept 2743
+
+step Book
+  accept 81956 object 441254
+
+step Book
+  collect 220353 x1 quest 81956.1
+
+step Kum'isha the Collector
+  turnin 2521
+  turnin 3501
+  turnin 93685
+
+step One Draenei's Junk...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 10593 x1 anywhere optional
+  turnin 3502 direct optional
+
+step Kum'isha's Endeavors
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8244 x1 anywhere optional
+  turnin 2522 direct optional
+
+step Bloodmage Lynnore
+  turnin 2601
+  turnin 2603
+  turnin 81917
+
+step Spiritual Domination
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8396 x10 anywhere optional
+  collect 8391 x2 anywhere optional
+  turnin 2604 direct optional
+
+step Infallible Mind
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8394 x10 anywhere optional
+  collect 8396 x2 anywhere optional
+  turnin 2602 direct optional
+
+step Bloodmage Lynnore
+  when group 81919
+  zone map 1419
+  turnin 81919
+
+step Bloodmage Drazial
+  zone map 1419
+  turnin 2581
+  turnin 2583
+  turnin 2585
+
+step Salt of the Scorpok
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8393 x3 anywhere optional
+  collect 8396 x2 anywhere optional
+  collect 8392 x1 anywhere optional
+  turnin 2586 direct optional
+
+step Spirit of the Boar
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8392 x3 anywhere optional
+  collect 8393 x2 anywhere optional
+  collect 8394 x1 anywhere optional
+  turnin 2584 direct optional
+
+step Rage of Ages
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8391 x3 anywhere optional
+  collect 8392 x2 anywhere optional
+  collect 8393 x1 anywhere optional
+  turnin 2582 direct optional
+
+step Fallen Hero of the Horde
+  zone map 1435
+  turnin 2743
+
+step Owen Thadd
+  zone map 1458
+  turnin 81956
+
+step Vek'zol
+  when group 91548
+  tip Vek'zol is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 246780 x1 quest 91548.1
+
+step The Demon Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1435
+  accept 2744
+  complete 2744 @34.3,66.1
+
+step Memories of Rockard
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 87451 direct @47.8,54.9 map 1435
+
+step The Demon Hunter
+  zone map 1447
+  turnin 2744
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Kirith
+  when onquest 2721
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1419
+  turnin 2721 optional
+
+step The Found One
+  when onquest 93684
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1419
+  turnin 93684 optional

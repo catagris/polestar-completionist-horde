@@ -1,0 +1,219 @@
+guide completionist-horde/42-western-plaguelands
+title 42 Western Plaguelands (52-60) (Completionist)
+faction Horde
+levels 52-60
+zone Western Plaguelands
+next completionist-horde/43-ungoro-crater
+pitch On along the line: Western Plaguelands, quests of level 52 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 27 quests; estimated level at the end 53.1 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
+
+step Mrs. Dalson's Diary
+  accept 5058
+  turnin 5058
+  accept 5060
+
+step Locked Away
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12738 x1 anywhere optional
+  turnin 5059 direct optional
+
+step Farmer Dalson
+  collect 12739 x1 quest 5060.1
+
+step Locked Cabinet
+  turnin 5060
+
+step Janice Felstone
+  accept 5021
+  turnin 5021
+  accept 5023
+
+step Mulgris Deepriver
+  accept 4984
+
+step Gahrron's Withering Cauldron
+  when turnedin 5236
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 13320 x1 anywhere optional
+  collect 13354 x4 anywhere optional
+  collect 14047 x4 anywhere optional
+  turnin 5227 direct optional
+
+step Diseased Wolf
+  zone map 1420
+  kill 1817 x8 quest 4984.1
+
+step Marlene Redpath
+  accept 5142
+
+step Argent Dawn Commission
+  when available 5401
+  tip One of several exclusive quests; the route takes Argent Dawn Commission (5405). This one shows for a character the game offers it to instead.
+  zone map 1422
+  accept 5401 optional
+
+step Argent Dawn Commission
+  when onquest 5401
+  zone map 1422
+  turnin 5401 optional
+
+step Mulgris Deepriver
+  zone map 1422
+  turnin 4984
+  accept 4985
+
+step Diseased Grizzly
+  kill 1816 x8 quest 4985.1
+
+step Mulgris Deepriver
+  turnin 4985
+  accept 4987
+
+step Termite Barrel
+  accept 6390
+
+step Kirsta Deepshadow
+  accept 6004
+
+step Scarlet Mage
+  kill 1826 x2 quest 6004.3
+
+step Scarlet Knight
+  kill 1833 x2 quest 6004.4
+
+step Scarlet Hunter
+  kill 1831 x2 quest 6004.2
+
+step Scarlet Medic
+  kill 10605 x2 quest 6004.1
+
+step Mickey Levine
+  zone map 1420
+  turnin 6390
+
+step Level 53
+  zone map 1422
+  level 53
+
+step Chromie
+  accept 4971
+
+step Temporal Parasite
+  kill 10717 x15 quest 4971.1
+
+step Chromie
+  turnin 4971
+
+step Chromie
+  accept 4972
+
+step Small Lockbox
+  collect 12638 x5 quest 4972.1
+
+step Chromie
+  turnin 4972
+
+step Counting Out Time
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12638 x5 anywhere optional
+  turnin 4973 direct optional
+
+step Kirsta Deepshadow
+  turnin 6004
+  accept 6023
+
+step Lord Tirion Fordring
+  accept 5542 npc 12126
+  accept 5543 npc 12126
+  accept 5544 npc 12126
+
+step Cavalier Durgen
+  kill 11611 x1 quest 6023.2
+
+step Huntsman Radley
+  kill 11613 x1 quest 6023.1
+
+step Carrion Grub
+  collect 13853 x15 quest 5544.1
+
+step Plaguebat
+  zone map 1423
+  kill 8600 x30 quest 5543.1
+
+step Plaguehound
+  kill 8597 x20 quest 5542.2
+
+step Frenzied Plaguehound
+  kill 8598 x5 quest 5542.3
+
+step Tirion Fordring
+  zone map 1422
+  turnin 5543
+  turnin 5544
+
+step Plaguehound Runt
+  kill 8596 x20 quest 5542.1
+
+step Tirion Fordring
+  turnin 5542
+
+step Redemption
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 5742
+  complete 5742 @67.3,24.2
+
+step Redemption
+  turnin 5742
+
+step Tirion Fordring
+  accept 5781
+
+step Tirion Fordring
+  turnin 5781
+
+step Tirion Fordring
+  accept 5845
+
+step Tirion Fordring
+  turnin 5845
+
+step Tirion Fordring
+  accept 5846
+
+step Artist Renfray
+  turnin 5846
+
+step Pamela Redpath
+  turnin 5142
+
+step Kirsta Deepshadow
+  turnin 6023
+  accept 6025
+
+step Kirsta Deepshadow
+  complete 6025 @45.8,18.2 map 1422
+  turnin 6025
+
+step Corruptor's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 12843 x1 anywhere optional
+  turnin 5404 direct optional
+
+step Invader's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 12841 x10 anywhere optional
+  turnin 5403 direct optional
+
+step Minion's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 12840 x20 anywhere optional
+  turnin 5402 direct optional

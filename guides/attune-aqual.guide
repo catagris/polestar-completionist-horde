@@ -1,0 +1,86 @@
+guide completionist-horde/attune-aqual
+title Aqual Quintessence (Molten Core item) (Completionist)
+faction Horde
+levels 56-60
+category Dungeons
+zone Searing Gorge
+pitch Aqual Quintessence: Douses the Molten Core's runes; Majordomo Executus comes out only when every rune is doused. Duke Hydraxis hands it out once Hands of the Enemy is done.
+why Douses the Molten Core's runes; Majordomo Executus comes out only when every rune is doused. Duke Hydraxis hands it out once Hands of the Enemy is done.
+# Generated from the reference data: change the planner, not this file.
+# Routed 3 quests; estimated level at the end 56.2 (heuristic XP, class quests not counted).
+
+step Duke Hydraxis
+  zone Azshara
+  accept 6804
+  accept 6805
+
+step Dust Stormer
+  zone Feralas
+  kill 11744 x15 quest 6805.1
+
+step Desert Rumbler
+  kill 11746 x15 quest 6805.2
+
+step Plague Ravager
+  zone Eastern Plaguelands
+  collect 17309 x12 quest 6804.1
+
+step Duke Hydraxis
+  zone Azshara
+  turnin 6804
+  turnin 6805
+
+step Eye of the Emberseer
+  zone map 1447
+  accept 6821
+
+step Eye of the Emberseer
+  when onquest 6821
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 6821 @79.3,73.7
+
+step Eye of the Emberseer
+  when onquest 6821
+  zone map 1447
+  turnin 6821
+
+step Level 57
+  level 57
+
+step The Molten Core
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  accept 6822
+  complete 6822 @79.3,73.7
+
+step The Molten Core
+  zone map 1447
+  turnin 6822
+
+step Level 60
+  level 60
+
+step Duke Hydraxis
+  zone Azshara
+  accept 6823
+  turnin 6823
+
+step Hands of the Enemy
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  accept 6824
+  complete 6824 @79.3,73.7
+
+step Hands of the Enemy
+  zone map 1447
+  turnin 6824
+
+step A Hero's Reward
+  zone map 1447
+  accept 7486
+
+step A Hero's Reward
+  when onquest 7486
+  zone map 1447
+  turnin 7486

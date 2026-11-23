@@ -1,0 +1,239 @@
+guide completionist-horde/35-azshara
+title 35 Azshara (45-56) (Completionist)
+faction Horde
+levels 45-56
+zone Azshara
+next completionist-horde/36-the-hinterlands
+pitch On along the line: Azshara, quests of level 45 to 56.
+# Generated from the reference data: change the planner, not this file.
+# Routed 40 quests; estimated level at the end 47.9 (heuristic XP, class quests not counted).
+
+step Zilzibin Drumlore
+  when onquest 4509
+  zone map 1454
+  turnin 4509
+
+step Belgrom Rockmaul
+  zone map 1454
+  accept 3504
+
+step Shadowshard Fragments
+  tip For Maraudon: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 7068 optional
+
+step Jediga
+  zone map 1447
+  getfp "Valormok"
+  accept 3517
+  accept 92346
+  accept 91568
+  accept 91569
+  accept 91488
+
+step Pay Dirt!
+  when has 246888
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1447
+  turnin 91607 direct @22.5,51.8 map 1447
+
+step Blood Elf Arcanist
+  zone map 1447
+  collect 246680 x1 quest 91569.1
+
+step Makrinni Burrower
+  collect 246684 x10 quest 91568.1
+
+step Tablet of Markri
+  collect 10540 x1 quest 3517.3
+
+step Tablet of Jin'yael
+  collect 10539 x1 quest 3517.2
+
+step Tablet of Sael'hai
+  collect 10541 x1 quest 3517.4
+
+step Tablet of Beth'Amara
+  collect 10538 x1 quest 3517.1
+
+step Mosshoof Runner
+  zone map 1440
+  collect 238463 x5 quest 91488.1
+
+step Book
+  zone map 1447
+  accept 81952 object 441250
+
+step Book
+  collect 220348 x1 quest 81952.1
+
+step Kurll
+  turnin 91488
+  accept 91608
+  turnin 91568
+  turnin 91569
+
+step Winter Frontier Fishery
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 91610
+  complete 91610 @21.8,52.1
+
+step Izvi Gildfizz
+  when group 91685
+  zone map 1447
+  accept 91685
+
+step Jediga
+  zone map 1447
+  turnin 3517
+  accept 3518
+  accept 3541
+  accept 3542
+  accept 3561
+
+step Winter Frontier Fishery
+  turnin 91610
+
+step Honey Wasp
+  collect 238503 x5 quest 91608.1
+
+step Celegosa
+  when group 91685
+  tip Ley of the Land is group work: elites. Grouping up is advised.
+  zone map 1447
+  collect 246938 x1 quest 91685.1
+
+step Kurll
+  zone map 1447
+  turnin 91608
+
+step Izvi Gildfizz
+  when group 91685
+  zone map 1447
+  turnin 91685
+
+step Sanath Lim-yo
+  zone map 1447
+  accept 3381
+
+step Return Trip
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3421 direct optional
+
+step Thunderhead Hippogryph
+  collect 10450 x2 quest 3381.1
+
+step Sanath Lim-yo
+  turnin 3381
+
+step Meeting with the Master
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3503 direct optional
+
+step Archmage Xylem
+  turnin 3561
+  accept 3565
+
+step Jediga
+  turnin 3565
+
+step Ekkal
+  accept 86746
+  accept 86752 @42,38.9 map 1447
+
+step Legashi Hellcaller
+  kill 6202 x5 quest 86746.3
+
+step Legashi Cauldron
+  accept 86925 @57.8,21.1 map 1447
+
+step Legashi Satyr and Legashi Rogue
+  kill 6200 x5 quest 86746.1
+  kill 6201 x5 quest 86746.2
+
+step Legashi Blackguard
+  collect 235645 x1 quest 86925.1
+
+step Level 50
+  level 50
+
+step Kurll
+  when group 91611
+  zone map 1447
+  accept 91611
+
+step Mammoth Shark
+  when group 91611
+  tip Deadliest Catch is group work: elites. Grouping up is advised.
+  zone map 1447
+  collect 238507 x1 quest 91611.1
+
+step Kurll
+  when group 91611
+  zone map 1447
+  turnin 91611
+
+step Legashi Cauldron
+  zone map 1447
+  turnin 86925 @57.8,21.1 map 1447
+
+step Kim'jael
+  accept 3601
+
+step Kim'jael's Equipment
+  collect 10717 x1 quest 3601.1
+  collect 10715 x1 quest 3601.2
+  collect 10722 x1 quest 3601.3
+  collect 10718 x1 quest 3601.4
+
+step Kim'jael
+  turnin 3601
+  accept 5534
+
+step Loramus Thalipedes
+  accept 91877
+
+step Spitelash Battlemaster
+  collect 13815 x1 quest 5534.1
+
+step Ekkal
+  turnin 86746
+
+step Legashi Horns
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 86747 direct @42,38.9 map 1447
+
+step Kim'jael
+  turnin 5534
+
+step Furze
+  accept 86799 @45.4,22.4 map 1447
+
+step Gatekeeper Rageroar
+  turnin 86752 @42.4,20.9 map 1447
+
+step Elder Bramblesnap
+  turnin 86799 @41.7,19.6 map 1447
+  accept 86804 @41.7,19.6 map 1447
+
+step Lorekeeper Nok
+  accept 92066 @41.4,20 map 1447
+  turnin 92066 @41.4,20 map 1447
+
+step Legashi Cauldron
+  turnin 86804 @57.8,21.1 map 1447
+
+step Maerion Thaelemaches
+  zone map 2482
+  turnin 91877 @63.3,25.9 map 2482
+
+step Owen Thadd
+  zone map 1458
+  turnin 81952
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Calm Before the Storm
+  when onquest 4509
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 4509 optional

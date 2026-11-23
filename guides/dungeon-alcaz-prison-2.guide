@@ -1,0 +1,39 @@
+guide completionist-horde/dungeon-alcaz-prison-2
+title Alcaz Prison, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 48-53
+zone Dustwallow Marsh
+next completionist-horde/47-eastern-plaguelands
+pitch Alcaz Prison, in Dustwallow Marsh.
+why Every Horde quest of Alcaz Prison: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Eitrigg
+  zone map 1454
+  turnin 96334
+
+step Nazgrel
+  accept 96376
+
+step Thrall
+  turnin 95483
+
+step Inside Alcaz Prison, again
+  zone map 1445
+  accept 96369 @75.4,14
+  turnin 96369 @75.4,14
+  complete 96376 @75.4,14
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Thrall Needs to Know
+  when onquest 95483
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 95483 optional
+
+step Blood Red Bandanas
+  when onquest 96334
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 96334 optional

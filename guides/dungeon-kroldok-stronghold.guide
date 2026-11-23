@@ -1,0 +1,51 @@
+guide completionist-horde/dungeon-kroldok-stronghold
+title Krol'dok Stronghold (Completionist)
+faction Horde
+category Dungeons
+levels 39-45
+zone Riverglades
+next completionist-horde/21-swamp-of-sorrows
+pitch Krol'dok Stronghold, in Riverglades.
+why Every Horde quest of Krol'dok Stronghold: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Riverglades: the arrow leads to it.
+
+step Da'grosh
+  zone Riverglades
+  accept 94975
+
+step Level 40
+  level 40
+
+step Krom'rosh
+  zone Riverglades
+  accept 94968
+
+step Tran'gul
+  zone Riverglades
+  accept 94972
+
+step Inside Krol'dok Stronghold
+  zone Riverglades
+  collect 267137 @36.9,44.1
+  accept 94973 item 267137
+  complete 94975 @36.9,44.1
+  complete 94972 @36.9,44.1
+  complete 94968 @36.9,44.1
+
+step Da'grosh
+  zone Riverglades
+  turnin 94975
+
+step Kreza Darkthorn
+  zone Riverglades
+  turnin 94973
+
+step Krom'rosh
+  zone Riverglades
+  turnin 94968
+
+step Tran'gul
+  zone Riverglades
+  turnin 94972

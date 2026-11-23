@@ -1,0 +1,163 @@
+guide completionist-horde/41-azshara-2
+title 41 Azshara (57-60) (Completionist)
+faction Horde
+levels 57-60
+zone Azshara
+next completionist-horde/dungeon-blackmaw-hold
+next completionist-horde/42-western-plaguelands
+pitch On along the line: Azshara, quests of level 57 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 10 quests; estimated level at the end 57.3 (heuristic XP, class quests not counted).
+# Skipped: 2 prerequisite N not in this route.
+
+step Zevrost
+  when onquest 91548
+  when group 91548
+  zone map 1454
+  turnin 91548
+
+step Gatekeeper Rageroar
+  zone map 1447
+  accept 92065 @42.4,20.9 map 1447
+  turnin 92065 @42.4,20.9 map 1447
+
+step Loramus
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3141
+  complete 3141 @60.8,66.3
+
+step Loramus
+  turnin 3141
+
+step Loramus Thalipedes
+  accept 3508
+  turnin 3508
+
+step Loramus Thalipedes
+  accept 3509
+
+step Lord Arkkoroc
+  turnin 3509
+
+step Lord Arkkoroc
+  when group 3510
+  zone map 1447
+  accept 3510
+
+step Hetaera
+  when group 3510
+  tip The Name of the Beast is group work: elites. Grouping up is advised.
+  zone map 1447
+  collect 10599 x1 quest 3510.1
+  collect 10598 x1 quest 3510.2
+  collect 10600 x1 quest 3510.3
+
+step Lord Arkkoroc
+  when group 3510
+  zone map 1447
+  turnin 3510
+
+step Lord Arkkoroc
+  when turnedin 3510
+  zone map 1447
+  accept 3511 optional
+
+step Loramus Thalipedes
+  when onquest 3511
+  turnin 3511
+
+step Loramus Thalipedes
+  when turnedin 3511
+  accept 3602 optional
+
+step Azsharite Formation
+  when onquest 3602
+  collect 10714 x20 quest 3602.1
+
+step Loramus Thalipedes
+  when onquest 3602
+  turnin 3602
+
+step Loramus Thalipedes
+  when turnedin 3602
+  accept 3621 optional
+
+step A Crew Under Fire
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3382 direct optional
+
+step Galvan the Ancient
+  when onquest 3621
+  zone map 1434
+  turnin 3621
+
+step Enchanted Azsharite Fel Weaponry
+  when turnedin 3621
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3625 optional
+  complete 3625 @50.6,20.5 optional
+
+step Enchanted Azsharite Fel Weaponry
+  when onquest 3625
+  turnin 3625
+
+step Galvan the Ancient
+  when turnedin 3625
+  accept 3626 optional
+
+step Fallen Hero of the Horde
+  when onquest 3626
+  zone map 1435
+  turnin 3626
+
+step Fallen Hero of the Horde
+  when group 3627
+  zone map 1435
+  accept 3627
+
+step Grol the Destroyer
+  when group 3627
+  tip Uniting the Shattered Amulet is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10753 x1 quest 3627.2
+
+step Lady Sevine
+  when group 3627
+  tip Uniting the Shattered Amulet is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10754 x1 quest 3627.3
+
+step Archmage Allistarj
+  when group 3627
+  tip Uniting the Shattered Amulet is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10755 x1 quest 3627.1
+
+step Fallen Hero of the Horde
+  when group 3627
+  zone map 1435
+  turnin 3627
+
+step Fallen Hero of the Horde
+  when group 3628
+  zone map 1435
+  accept 3628
+
+step Razelikh the Defiler
+  when group 3628
+  tip You Are Rakh'likh, Demon is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10759 x1 quest 3628.1
+
+step Fallen Hero of the Horde
+  when group 3628
+  zone map 1435
+  turnin 3628
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Vek'zol
+  when onquest 91548
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 91548 optional

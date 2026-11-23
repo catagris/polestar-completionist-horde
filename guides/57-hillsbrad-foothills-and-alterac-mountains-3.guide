@@ -1,0 +1,236 @@
+guide completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
+title 57 Hillsbrad Foothills and Alterac Mountains (55-60) (Completionist)
+faction Horde
+levels 55-60
+zone Alterac Mountains
+next completionist-horde/58-silithus
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 55 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 14 quests; estimated level at the end 56.1 (heuristic XP, class quests not counted).
+
+step Dran Droffers
+  when onquest 81
+  zone map 1454
+  turnin 81
+
+step Frostwolf Ambassador Rokhstrom
+  zone map 1454
+  accept 7241
+  accept 79483
+
+step Rashona Straglash
+  accept 7826
+  accept 7827
+  accept 7831
+
+step Vehena
+  accept 7833
+  accept 7834
+  accept 7835
+
+step Rumstag Proudstrider
+  zone map 1456
+  accept 7820
+
+step Tarren Mill
+  zone map 1424
+  sethome "Tarren Mill"
+
+step Apothecary Lydon
+  accept 2938
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7827.1
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7826.1
+
+step Baron Bloodbane
+  zone map 1423
+  collect 4338 x60 quest 7831.1
+
+step Warmaster Laggrond
+  zone map 1416
+  turnin 7241
+
+step Speak with Voggah Deathgrip
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 7222 direct @63.8,60.5 map 1416
+
+step The Legend of Korrak
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 7181 direct optional
+
+step The Return of Korrak
+  when turnedin 7181
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1416
+  collect 18148 x1 anywhere optional
+  turnin 7381 direct optional
+
+step Proving Grounds
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  accept 7161
+  complete 7161 @62.3,58.9
+
+step The Battle for Alterac
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 7142
+  complete 7142 @63.8,60.5
+
+step Proving Grounds
+  turnin 7161
+
+step Rise and Be Recognized
+  tip Needs Friendly standing (3000) with Frostwolf Clan; without it the quest is not offered.
+  accept 7163 optional
+
+step The Battle for Alterac
+  turnin 7142
+
+step Rise and Be Recognized
+  when onquest 7163
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  complete 7163 @62.3,58.9 optional
+
+step Rise and Be Recognized
+  when onquest 7163
+  zone map 1416
+  turnin 7163 optional
+
+step Voggah Deathgrip
+  zone map 1416
+  accept 8272
+  turnin 8272
+
+step Honored Amongst the Clan
+  when turnedin 7163
+  tip Needs Honored standing (9000) with Frostwolf Clan; without it the quest is not offered.
+  zone map 1416
+  accept 7164 optional
+
+step Honored Amongst the Clan
+  when onquest 7164
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  complete 7164 @62.3,58.9 optional
+
+step Honored Amongst the Clan
+  when onquest 7164
+  zone map 1416
+  turnin 7164 optional
+
+step The Graveyards of Alterac
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  accept 7082
+  complete 7082 @65.5,55.1
+
+step Earned Reverence
+  when turnedin 7164
+  tip Needs Revered standing (21000) with Frostwolf Clan; without it the quest is not offered.
+  zone map 1416
+  accept 7165 optional
+
+step Earned Reverence
+  when onquest 7165
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  complete 7165 @62.3,58.9 optional
+
+step Earned Reverence
+  when onquest 7165
+  zone map 1416
+  turnin 7165 optional
+
+step Capture a Mine
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  accept 7124
+  complete 7124 @65.5,55.1
+
+step Legendary Heroes
+  when turnedin 7165
+  tip Needs Exalted standing (42000) with Frostwolf Clan; without it the quest is not offered.
+  zone map 1416
+  accept 7166 optional
+
+step Legendary Heroes
+  when onquest 7166
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  complete 7166 @62.3,58.9 optional
+
+step Legendary Heroes
+  when onquest 7166
+  zone map 1416
+  turnin 7166 optional
+
+step Towers and Bunkers
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  accept 7101
+  complete 7101 @65.5,55.1
+
+step The Eye of Command
+  when turnedin 7166
+  tip Needs Exalted standing (42999) with Frostwolf Clan; without it the quest is not offered.
+  zone map 1416
+  accept 7167 optional
+
+step The Eye of Command
+  when onquest 7167
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  complete 7167 @62.3,58.9 optional
+
+step The Eye of Command
+  when onquest 7167
+  zone map 1416
+  turnin 7167 optional
+
+step Capture a Mine
+  zone map 1416
+  turnin 7124
+
+step The Graveyards of Alterac
+  turnin 7082
+
+step Towers and Bunkers
+  turnin 7101
+
+step Strange Snowman
+  turnin 79483
+
+step Junkboxes Needed
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 16885 x5 anywhere optional
+  turnin 8249 direct optional
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7834.1
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7833.1
+
+step Baron Bloodbane
+  zone map 1423
+  collect 4338 x60 quest 7835.1
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 7820.1
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Ripple Delivery
+  when onquest 81
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 81 optional

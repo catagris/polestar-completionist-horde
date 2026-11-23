@@ -1,0 +1,180 @@
+guide completionist-horde/dungeon-blackrock-spire-2
+title Blackrock Spire, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 58-60
+zone Searing Gorge
+next completionist-horde/55-odd-jobs-in-the-eastern-kingdoms-4
+pitch Blackrock Spire, in Searing Gorge.
+why Every Horde quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Mokvar
+  only Hunter
+  zone map 1454
+  turnin 8914
+
+step Mokvar
+  only Warrior
+  zone map 1454
+  turnin 8920
+
+step Mokvar
+  zone map 1454
+  turnin 84162
+
+step Return to Mokvar
+  turnin 8978
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  accept 8927
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8927 @34.95,38.29
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  turnin 8927
+
+step Mokvar
+  only Hunter
+  zone map 1454
+  accept 8938
+
+step Mokvar
+  only Warrior
+  zone map 1454
+  accept 8944
+
+step Mokvar
+  only Mage
+  zone map 1454
+  turnin 8915
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  accept 8939
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8939 @34.95,38.29
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  turnin 8939
+
+step Mokvar
+  only Priest
+  zone map 1454
+  accept 8940
+
+step Mokvar
+  only Rogue
+  zone map 1454
+  accept 8941
+
+step Mokvar
+  only Shaman
+  zone map 1454
+  accept 8942
+
+step Back to the Beginning
+  when onquest 8998
+  zone map 1454
+  turnin 8998
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 9016
+  zone map 1454
+  turnin 9016 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 9017
+  zone map 1454
+  turnin 9017 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 9019
+  zone map 1454
+  turnin 9019 optional
+
+step Anthion's Parting Words
+  only Shaman
+  when onquest 8957
+  zone map 1454
+  turnin 8957 optional
+
+step Inside Blackrock Spire
+  only Hunter
+  zone map 1427
+  complete 8938 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Warrior
+  zone map 1427
+  complete 8944 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Priest
+  zone map 1427
+  complete 8940 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Rogue
+  zone map 1427
+  complete 8941 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Shaman
+  zone map 1427
+  complete 8942 @34.8,85.3
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Anthion's Parting Words
+  when onquest 8957
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 8957 optional
+
+step Back to the Beginning
+  when onquest 8998
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 8998 optional
+
+step Anthion's Parting Words
+  when onquest 9016
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9016 optional
+
+step Anthion's Parting Words
+  when onquest 9017
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9017 optional
+
+step Anthion's Parting Words
+  when onquest 9019
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9019 optional
+
+step An Earnest Proposition
+  when onquest 84162
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84162 optional

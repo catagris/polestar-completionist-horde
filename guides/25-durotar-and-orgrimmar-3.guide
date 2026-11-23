@@ -1,0 +1,301 @@
+guide completionist-horde/25-durotar-and-orgrimmar-3
+title 25 Durotar and Orgrimmar (1-40) (Completionist)
+faction Horde
+levels 1-40
+zone Durotar
+next completionist-horde/dungeon-ragefire-chasm
+next completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2
+pitch On along the line: Durotar and Orgrimmar, quests of level 1 to 40.
+# Generated from the reference data: change the planner, not this file.
+# Routed 12 quests; estimated level at the end 13.2 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N; 1 objective N (talk N) outside the zones; 1 profession.
+
+step Mosarn
+  when onquest 1276
+  zone map 1456
+  turnin 1276
+
+step Zor Lonetree
+  when onquest 1262
+  zone map 1454
+  turnin 1262
+
+step Orgrimmar
+  zone map 1454
+  getfp "Orgrimmar"
+
+step Slaying the Beast
+  tip For Ragefire Chasm: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 5761 optional
+
+step Eitrigg
+  accept 787
+  accept 5726
+
+step Level 30
+  level 30
+
+step Zor Lonetree
+  accept 7541
+  turnin 7541
+
+step Craven Drok
+  accept 1431
+
+step Keldran
+  turnin 1431
+
+step Keldran
+  accept 1432
+
+step Nogg
+  accept 2950
+
+step Level 40
+  level 40
+
+step The Way of the Weaponsmith
+  when available 5302
+  tip One of several exclusive quests; the route takes The Art of the Armorsmith (5301). This one shows for a character the game offers it to instead.
+  when skill Blacksmithing 200
+  zone map 1454
+  accept 5302 optional
+
+step The Way of the Weaponsmith
+  when onquest 5302
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 5302 @79.4,23.7 optional
+
+step The Way of the Weaponsmith
+  when onquest 5302
+  zone map 1454
+  turnin 5302 optional
+
+step The Old Ways
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2756 optional
+  complete 2756 @80.9,23.3 optional
+
+step The Old Ways
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2756 optional
+
+step Barbaric Battlements
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2751 optional
+  complete 2751 @79.2,22.4 optional
+
+step Barbaric Battlements
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2751 optional
+
+step On Iron Pauldrons
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2752 optional
+  complete 2752 @79.2,22.4 optional
+
+step On Iron Pauldrons
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2752 optional
+
+step Level 40
+  zone map 1454
+  level 40
+
+step Kildar
+  accept 97194 only Orc
+
+step Your First Riding Wolf
+  only Orc
+  zone map 1454
+  accept 96994
+
+step Ogunaro Wolfrunner
+  zone map 1454
+  turnin 97194 only Orc
+
+step Your First Riding Wolf
+  only Orc
+  when onquest 96994
+  zone map 1454
+  complete 96994 @69.7,12.4
+
+step Your First Riding Wolf
+  only Orc
+  when onquest 96994
+  zone map 1454
+  turnin 96994
+
+step Trampled Under Foot
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2753 optional
+  complete 2753 @79.2,22.4 optional
+
+step Trampled Under Foot
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2753 optional
+
+step Horns of Frenzy
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2754 optional
+  complete 2754 @79.2,22.4 optional
+
+step Horns of Frenzy
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2754 optional
+
+step Joys of Omosh
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2755 optional
+  complete 2755 @79.2,22.4 optional
+
+step Joys of Omosh
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2755 optional
+
+step Beasts of Thunder Ridge
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 96875 optional
+  complete 96875 @63.3,44.8 optional
+
+step Beasts of Thunder Ridge
+  when skill Leatherworking 1
+  zone map 1454
+  turnin 96875 optional
+
+step This Is Spinal Axe
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 96874 optional
+  complete 96874 @80.8,23.7 optional
+
+step This Is Spinal Axe
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 96874 optional
+
+step The Art of the Armorsmith
+  when available 5301
+  tip One of several exclusive quests; the route takes The Way of the Weaponsmith (5302). This one shows for a character the game offers it to instead.
+  when skill Blacksmithing 200
+  zone map 1454
+  accept 5301 optional
+
+step The Art of the Armorsmith
+  when onquest 5301
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 5301 @79.8,24.1 optional
+
+step The Art of the Armorsmith
+  when onquest 5301
+  zone map 1454
+  turnin 5301 optional
+
+step Razor Hill
+  zone map 1411
+  sethome "Razor Hill"
+
+step Burning Blade Fanatic
+  collect 14544 x1 quest 5726.1
+
+step Gornek
+  turnin 787
+
+step Takata Steelblade
+  zone map 1443
+  turnin 1432
+
+step Venture Co. Drone
+  zone map 1413
+  collect 1206 x1 quest 2950.2
+
+step Alliance Chest
+  zone map 1421
+  collect 2842 x1 quest 2950.1
+
+step Your First Riding Raptor
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1411
+  accept 96989
+  complete 96989 @55.2,75.7
+
+step Learning to Ride
+  only Troll
+  zone map 1411
+  accept 97200
+
+step Your First Riding Raptor
+  zone map 1411
+  turnin 96989
+
+step Learning to Ride
+  only Troll
+  when onquest 97200
+  zone map 1411
+  turnin 97200
+
+step Takata Steelblade
+  zone map 1443
+  accept 1434
+
+step Takata Steelblade
+  accept 1433
+  turnin 1433
+  accept 1435
+
+step Burning Blade Augur
+  collect 6435 x15 quest 1435.1
+
+step Hatefury Rogue
+  zone map 1442
+  kill 4670 x7 quest 1434.1
+
+step Hatefury Betrayer and Hatefury Hellcaller
+  kill 4673 x7 quest 1434.3
+  kill 4675 x7 quest 1434.4
+
+step Hatefury Felsworn
+  zone map 1443
+  kill 4672 x7 quest 1434.2
+
+step Maurin Bonesplitter
+  turnin 1435
+  turnin 1434
+  accept 1436
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Report to Zor
+  when onquest 1262
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 1262 optional
+
+step The Black Shield
+  when onquest 1276
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1276 optional

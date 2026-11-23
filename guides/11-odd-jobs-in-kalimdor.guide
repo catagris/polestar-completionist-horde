@@ -1,0 +1,325 @@
+guide completionist-horde/11-odd-jobs-in-kalimdor
+title 11 Odd jobs in Kalimdor (15-29) (Completionist)
+faction Horde
+levels 15-29
+zone Darkshore
+next completionist-horde/dungeon-ruins-of-lordaeron
+next completionist-horde/12-ashenvale
+pitch On along the line: errands across Kalimdor, quests of level 15 to 29.
+# Generated from the reference data: change the planner, not this file.
+# Routed 11 quests; estimated level at the end 17.2 (heuristic XP, class quests not counted).
+
+step Apothecary Zinge
+  when onquest 1359
+  zone map 1458
+  turnin 1359
+
+step Raleigh Andrean
+  when onquest 530
+  zone map 1458
+  turnin 530
+
+step Apothecary Zinge
+  zone map 1458
+  accept 1358
+
+step The New Plague
+  tip For Ruins of Lordaeron: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 95216 optional
+
+step Light's Justice
+  tip For Ruins of Lordaeron: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92421 optional
+
+step Apothecary Zamah
+  when onquest 853
+  zone map 1456
+  turnin 853
+
+step Ahanu
+  when onquest 6362
+  zone map 1456
+  turnin 6362 only Tauren
+  accept 6363 only Tauren
+  turnin 6363 only Tauren
+  accept 6364 only Tauren
+
+step Magatha Grimtotem
+  when onquest 1063
+  zone map 1456
+  turnin 1063
+
+step Nara Wildmane
+  when complete 914
+  zone map 1456
+  turnin 914
+
+step Magatha Grimtotem
+  zone map 1456
+  accept 1064
+
+step Apothecary Zamah
+  turnin 1064
+
+step Journey to Tarren Mill
+  when turnedin 1064
+  zone map 1456
+  accept 1065
+
+step Innkeeper Gryshka
+  when onquest 6384
+  zone map 1454
+  turnin 6384 only Orc,Troll
+  accept 6385 only Orc,Troll
+  turnin 6385 only Orc,Troll
+  accept 6386 only Orc,Troll
+
+step Rilli Greasygob
+  when onquest 3923
+  zone map 1454
+  turnin 3923
+
+step Thatog
+  zone map 1454
+  accept 97246
+
+step Borstan
+  turnin 97246
+  accept 97249
+
+step Kor'geld
+  accept 97242
+
+step Cattail and Speargrass
+  collect 277278 x1 quest 97242.1
+  collect 277279 x1 quest 97242.2
+
+step Kor'geld
+  turnin 97242
+  accept 97275
+  turnin 97275
+
+step Migi
+  turnin 97249
+  accept 97326
+
+step Smooth Boulder
+  collect 277952 x8 quest 97326.1
+
+step Thra
+  turnin 97326
+
+step Samophlange Manual
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3924
+  complete 3924 @76.5,24.4
+
+step Samophlange Manual
+  turnin 3924
+
+step Jahan Hawkwing
+  when onquest 903
+  zone map 1413
+  turnin 6364 only Tauren
+  turnin 903
+  accept 881
+
+step Echeyakee
+  zone map 1413
+  collect 5100 x1 quest 881.1
+
+step Sergra Darkthorn
+  when onquest 881
+  zone map 1413
+  turnin 881
+  accept 905
+
+step Blue Raptor Nest and Red Raptor Nest
+  zone map 1413
+  interact 6907 quest 905.1
+  interact 6906 quest 905.3
+
+step Yellow Raptor Nest
+  interact 6908 quest 905.2
+
+step Sergra Darkthorn
+  when onquest 905
+  zone map 1413
+  turnin 905
+  accept 3261
+
+step Zargh
+  when onquest 6386
+  zone map 1413
+  turnin 6386 only Orc,Troll
+  turnin 98024 only Skyborne
+
+step Jorn Skyseer
+  when onquest 3261
+  zone map 1413
+  turnin 3261
+  accept 882
+
+step Ishamuhale
+  zone map 1413
+  collect 5101 x1 quest 882.1
+
+step Jorn Skyseer
+  when onquest 882
+  zone map 1413
+  turnin 882
+  accept 907
+  accept 6382
+
+step Stormsnout
+  zone map 1412
+  collect 5143 x3 quest 907.1
+
+step Jorn Skyseer
+  when onquest 907
+  zone map 1413
+  turnin 907
+  accept 913
+
+step Greater Thunderhawk
+  zone map 1413
+  collect 5164 x1 quest 913.1
+
+step Jorn Skyseer
+  when onquest 913
+  zone map 1413
+  turnin 913
+  accept 874
+
+step Mahren Skyseer
+  when onquest 874
+  zone map 1413
+  turnin 874
+  accept 873
+
+step Isha Awak
+  zone map 1413
+  collect 5104 x1 quest 873.1
+
+step Mahren Skyseer
+  when onquest 873
+  zone map 1413
+  turnin 873
+
+step Apothecary Helbrim
+  when onquest 1358
+  zone map 1413
+  turnin 1358
+
+step Mural of Ta'zo
+  zone map 1454
+  accept 79094 object 405149
+
+step Level 23
+  zone map 1412
+  level 23
+
+step Mazu'kon
+  accept 96241
+
+step Gnawed Corpse
+  collect 273001 x5 quest 96241.1
+
+step Mazu'kon
+  turnin 96241
+
+step Yorn Grimtotem
+  zone map 1439
+  accept 96260
+
+step Gloomrise Spinner
+  zone map 1443
+  collect 273181 x3 quest 96260.1
+
+step Yorn Grimtotem
+  zone map 1412
+  turnin 96260
+
+step Muln Earthfury
+  zone map 1439
+  accept 96259
+
+step Gloomrise Hatchling
+  kill 264079 x10 quest 96259.1
+
+step Gloomrise Soldier
+  zone map 1442
+  kill 264083 x5 quest 96259.2
+
+step Muln Earthfury
+  zone map 1412
+  turnin 96259
+
+step Scrolls
+  zone map 1439
+  accept 78124 object 409496
+
+step Scrolls
+  collect 209843 x1 quest 78124.1
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Husband's Revenge
+  when onquest 530
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 530 optional
+
+step Apothecary Zamah
+  when onquest 853
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 853 optional
+
+step Prowlers of the Barrens
+  when onquest 903
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 903 optional
+
+step Leaders of the Fang
+  when onquest 914
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 914 optional
+
+step The Elder Crone
+  when onquest 1063
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1063 optional
+
+step Zinge's Delivery
+  when onquest 1359
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 1359 optional
+
+step Rilli Greasygob
+  when onquest 3923
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 3923 optional
+
+step Ride to Thunder Bluff
+  when onquest 6362
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 6362 optional
+
+step Ride to Orgrimmar
+  when onquest 6384
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 6384 optional
+
+step Journey to the Crossroads
+  when onquest 98024
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 98024 optional

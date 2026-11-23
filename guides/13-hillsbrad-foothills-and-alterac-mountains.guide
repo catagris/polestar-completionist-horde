@@ -1,0 +1,285 @@
+guide completionist-horde/13-hillsbrad-foothills-and-alterac-mountains
+title 13 Hillsbrad Foothills and Alterac Mountains (18-32) (Completionist)
+faction Horde
+levels 18-32
+zone Alterac Mountains
+next completionist-horde/14-duskwood
+pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 18 to 32.
+# Generated from the reference data: change the planner, not this file.
+# Routed 28 quests; estimated level at the end 22.4 (heuristic XP, class quests not counted).
+
+step Zangen Stonehoof
+  when onquest 1195
+  zone map 1456
+  turnin 1195
+
+step Bashana Runetotem
+  when complete 6561
+  zone map 1456
+  turnin 6561
+
+step WANTED
+  zone map 1416
+  accept 549 object 1763
+  accept 498
+
+step Level 19
+  level 19
+
+step High Executor Darthalia
+  accept 527
+
+step Tarren Mill
+  zone map 1424
+  sethome "Tarren Mill"
+
+step Tarren Mill
+  getfp "Tarren Mill"
+
+step Hillsbrad Farmhand and Farmer Getz
+  kill 2360 x6 quest 527.2
+  kill 2403 x1 quest 527.4
+
+step Hillsbrad Farmer and Farmer Ray
+  zone map 1416
+  kill 2266 x6 quest 527.1
+  kill 232 x1 quest 527.3
+
+step Dangerous!
+  zone map 1424
+  accept 567 object 556669
+
+step Clerk Horrace Whitesteed and Citizen Wilkes
+  kill 2448 x1 quest 567.1
+  kill 2449 x1 quest 567.2
+
+step Level 26
+  zone map 1416
+  level 26
+
+step Deathguard Humbert
+  when group 547
+  zone map 1416
+  accept 547
+
+step Level 30
+  zone map 1416
+  level 30
+
+step Krusk
+  accept 1361 npc 2229
+
+step Tallow
+  accept 676
+
+step Apothecary Lydon
+  accept 496
+
+step Apothecary Lydon
+  accept 501
+
+step Apothecary Lydon
+  accept 509
+
+step Starving Mountain Lion
+  collect 3496 x10 quest 501.1
+
+step Forest Moss Creeper
+  collect 3477 x1 quest 496.2
+
+step Soothing Turtle Bisque
+  when skill Cooking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  accept 7321 optional
+  complete 7321 @61.1,80.7 optional
+
+step Soothing Turtle Bisque
+  when skill Cooking 1
+  zone map 1416
+  turnin 7321 optional
+
+step Gray Bear
+  zone map 1421
+  collect 3476 x10 quest 496.1
+
+step Deathstalker Lesh
+  zone map 1424
+  accept 494
+
+step Miner Hackett
+  kill 2450 x1 quest 567.3
+
+step Farmer Kalaba
+  kill 2451 x1 quest 567.4
+
+step Mudsnout Blossom
+  collect 3502 x6 quest 509.1
+
+step Boulderfist Enforcer
+  zone map 1417
+  kill 2564 x10 quest 676.2
+
+step Boulderfist Ogre
+  kill 2562 x8 quest 676.1
+
+step Syndicate Rogue
+  zone map 1424
+  kill 2260 x10 quest 549.1
+
+step Locked ball and chain
+  interact 1722 quest 498.2
+
+step Locked ball and chain and Syndicate Watchman
+  interact 1721 quest 498.1
+  kill 2261 x10 quest 549.2
+
+step Krusk
+  zone map 1416
+  turnin 498
+
+step High Executor Darthalia
+  turnin 494
+  turnin 527
+  turnin 549
+  turnin 567
+  accept 528
+  accept 546
+
+step Apothecary Lydon
+  turnin 496
+  turnin 501
+  turnin 509
+  accept 499
+  accept 502
+  accept 513
+  turnin 499
+
+step Hillsbrad Peasant
+  zone map 1424
+  kill 2267 x15 quest 528.1
+
+step Judge Thelgram
+  collect 3692 x30 quest 546.1
+
+step Stanley
+  zone map 1416
+  turnin 502
+
+step Deathguard Samsa
+  turnin 546
+  turnin 528
+  accept 529
+  accept 98094
+
+step Blacksmith Verringtan, Hillsbrad Apprentice Blacksmith and Shipment of Iron
+  zone map 1424
+  kill 2404 x1 quest 529.1
+  kill 2265 x4 quest 529.2
+  collect 3564 x1 quest 529.3
+
+step Deathstalker Masoj
+  turnin 98094
+  accept 98095
+
+step Deathstalker Masoj
+  complete 98095 @38.4,87.2 map 1416
+  turnin 98095
+
+step High Executor Darthalia
+  zone map 1416
+  turnin 529
+  accept 532
+
+step Magistrate Burnside, Hillsbrad Councilman, Hillsbrad Proclamation and Hillsbrad Town Registry
+  zone map 1424
+  kill 2335 x1 quest 532.1
+  kill 2387 x5 quest 532.2
+  interact 1761 quest 532.3
+  collect 3657 x1 quest 532.4
+
+step High Executor Darthalia
+  zone map 1416
+  turnin 532
+  accept 539
+
+step Foreman Bonds and Hillsbrad Miner
+  zone map 1424
+  kill 2305 x1 quest 539.1
+  kill 2269 x10 quest 539.2
+
+step High Executor Darthalia
+  zone map 1416
+  turnin 539
+
+step High Executor Darthalia
+  when group 541
+  zone map 1416
+  accept 541
+
+step Drum Fel
+  zone map 1417
+  turnin 676
+
+step Apothecary Lydon
+  zone map 1416
+  turnin 1065
+  accept 1066
+
+step Syndicate Shadow Mage
+  zone map 1424
+  collect 5620 x5 quest 1066.1
+
+step Dun Garok Mountaineer, Dun Garok Rifleman, Dun Garok Priest and Captain Ironhill
+  when group 541
+  tip Battle of Hillsbrad is group work: elites. Grouping up is advised.
+  zone map 1417
+  kill 2344 x8 quest 541.1
+  kill 2345 x4 quest 541.2
+  kill 2346 x2 quest 541.3
+  kill 2304 x1 quest 541.4
+
+step High Executor Darthalia
+  when group 541
+  zone map 1416
+  turnin 541
+
+step High Executor Darthalia
+  zone map 1416
+  accept 550
+
+step Keg of Shindigger Stout and Dun Garok Mountaineer
+  when group 547
+  tip Humbert's Sword is group work: elites. Grouping up is advised.
+  zone map 1417
+  collect 3693 x1 quest 547.1
+
+step Deathguard Humbert
+  when group 547
+  zone map 1416
+  turnin 547
+
+step Apothecary Lydon
+  zone map 1416
+  turnin 1066
+  accept 1067
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Journey to Tarren Mill
+  when onquest 1065
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1416
+  turnin 1065 optional
+
+step The Sacred Flame
+  when onquest 1195
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1195 optional
+
+step Blackfathom Villainy
+  when onquest 6561
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 6561 optional

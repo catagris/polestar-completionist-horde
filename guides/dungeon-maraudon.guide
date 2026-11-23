@@ -1,0 +1,91 @@
+guide completionist-horde/dungeon-maraudon
+title Maraudon (Completionist)
+faction Horde
+category Dungeons
+levels 41-51
+zone Desolace
+next completionist-horde/37-tirisfal-glades-and-the-undercity-3
+pitch Maraudon, in Desolace.
+why Every Horde quest of Maraudon: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Uthel'nay
+  zone map 1454
+  accept 7068
+
+step Getting there
+  zone map 1443
+  note The entrance is in Desolace: the arrow leads to it.
+
+step Cavindra
+  accept 7044
+
+step Centaur Pariah
+  accept 7067
+
+step Vark Battlescar
+  accept 7029
+
+step Willow
+  accept 7028
+
+step Woodwyrd
+  zone map 2652
+  accept 93404
+
+step Inside Maraudon
+  zone map 1443
+  accept 7066 @31,60.8
+  complete 7068 @31,60.8
+  complete 7028 @31,60.8
+  complete 7029 @31,60.8
+  complete 7067 @31,60.8
+  complete 7044 @31,60.8
+  turnin 7044 @31,60.8
+  complete 93404 @31,60.8
+
+step Centaur Pariah
+  turnin 7067
+
+step Vark Battlescar
+  turnin 7029
+
+step Willow
+  turnin 7028
+
+step Level 45
+  level 45
+
+step Selendra
+  accept 7064
+
+step Inside Maraudon
+  complete 7064 @31,60.8
+
+step Selendra
+  turnin 7064
+
+step Olana Brighthoof
+  zone map 1412
+  accept 96776
+
+step Inside Maraudon
+  zone map 1443
+  complete 96776 @31,60.8
+
+step Olana Brighthoof
+  zone map 1412
+  turnin 96776
+
+step Keeper Remulos
+  zone map 1450
+  turnin 7066
+
+step Woodwyrd
+  zone map 2652
+  turnin 93404
+
+step Inside Maraudon, again
+  zone map 1443
+  accept 7046 @31,60.8
+  complete 7046 @31,60.8
+  turnin 7046 @31,60.8

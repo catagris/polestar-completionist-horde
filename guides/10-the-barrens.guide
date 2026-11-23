@@ -1,0 +1,798 @@
+guide completionist-horde/10-the-barrens
+title 10 The Barrens (10-27) (Completionist)
+faction Horde
+levels 10-27
+zone The Barrens
+next completionist-horde/dungeon-wailing-caverns
+next completionist-horde/11-odd-jobs-in-kalimdor
+pitch On along the line: The Barrens, quests of level 10 to 27.
+# Generated from the reference data: change the planner, not this file.
+# Routed 93 quests; estimated level at the end 20.5 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N.
+
+step Cairne Bloodhoof
+  when onquest 776
+  zone map 1456
+  turnin 776
+
+step Melor Stonehoof
+  zone map 1456
+  accept 860
+
+step Serpentbloom
+  tip For Wailing Caverns: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 962 optional
+
+step Arch Druid Hamuul Runetotem
+  accept 886
+
+step Master Apothecary Faranell
+  when onquest 451
+  zone map 1458
+  turnin 451
+
+step Bethor Iceshard
+  when onquest 444
+  zone map 1458
+  turnin 444
+  accept 446
+
+step Raleigh Andrean
+  when onquest 441
+  zone map 1458
+  turnin 441
+  accept 530
+
+step Thrall
+  zone map 1454
+  accept 98024 only Skyborne
+  accept 1061
+
+step Neeru Fireblade
+  accept 809
+
+step Apothecary Renferrel
+  when onquest 446
+  when onquest 429
+  zone map 1421
+  turnin 429
+  turnin 446
+  turnin 3221
+  accept 430
+  accept 448
+  accept 1359
+  turnin 448
+
+step High Executor Hadrec
+  when group 442
+  zone map 1421
+  accept 442
+
+step Thule Ravenclaw
+  when group 442
+  tip Assault on Fenris Isle is group work: elites. Grouping up is advised.
+  zone map 1421
+  collect 3623 x1 quest 442.1
+
+step Quinn Yorick
+  when onquest 430
+  zone map 1421
+  turnin 430
+  accept 91920
+
+step Bluegill Raider
+  zone map 1437
+  collect 730 x3 quest 91920.1
+
+step High Executor Hadrec
+  when onquest 442
+  when group 442
+  zone map 1421
+  turnin 442
+
+step Apothecary Renferrel
+  when onquest 91920
+  zone map 1421
+  turnin 91920
+  accept 91921
+
+step Quinn Yorick
+  when onquest 91921
+  zone map 1421
+  turnin 91921
+  accept 425
+
+step Ivar the Foul
+  zone map 1421
+  collect 3621 x1 quest 425.1
+
+step Rane Yorick
+  when onquest 425
+  zone map 1421
+  turnin 425
+
+step Valdred Moray
+  zone map 1421
+  collect 3613 x1 quest 530.1
+
+step Apothecary Helbrim
+  zone map 1413
+  getfp "Crossroads"
+  accept 848
+  accept 1492
+  accept 871
+  accept 5041
+  accept 869
+  accept 6365 only Orc,Troll
+
+step Razormane Water Seeker and Razormane Thornweaver
+  kill 3267 x8 quest 871.1
+  kill 3268 x8 quest 871.2
+
+step Crossroads' Supply Crates
+  collect 12708 x1 quest 5041.1
+
+step Razormane Hunter
+  kill 3265 x3 quest 871.3
+
+step Sunscale Lashtail
+  collect 5062 x12 quest 869.1
+
+step Laden Mushroom
+  collect 5012 x4 quest 848.1
+
+step Lakota'mani
+  goto 45.1,52.7 "Lakota'mani"
+  accept 883 item 5099 -- Drops from Lakota'mani
+
+step Jorn Skyseer
+  sethome "Camp Taurajo"
+  getfp "Camp Taurajo"
+  turnin 883
+
+step Razorhide
+  when turnedin 5052
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 5075 x4 anywhere optional
+  turnin 5046 direct optional
+
+step Rising Spirit
+  when turnedin 5052
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 5075 x4 anywhere optional
+  turnin 5045 direct optional
+
+step Wisdom of Agamaggan
+  when turnedin 5052
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 5075 x4 anywhere optional
+  turnin 5044 direct optional
+
+step Agamaggan's Agility
+  when turnedin 5052
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 5075 x4 anywhere optional
+  turnin 5043 direct optional
+
+step Agamaggan's Strength
+  when turnedin 5052
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 5075 x4 anywhere optional
+  turnin 5042 direct optional
+
+step Spirit of the Wind
+  when turnedin 5052
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 5075 x10 anywhere optional
+  turnin 889 direct optional
+
+step Journey to the Crossroads
+  only Tauren
+  when available 854
+  tip One of several exclusive quests; the route takes Plainstrider Menace (844). This one shows for a character the game offers it to instead.
+  zone map 1413
+  accept 854 optional
+
+step Level 17
+  zone map 1413
+  level 17
+
+step Thork
+  accept 6541
+
+step Journey to the Crossroads
+  only Tauren
+  when onquest 854
+  zone map 1413
+  turnin 854 optional
+
+step Darsok Swiftdagger
+  zone map 1413
+  accept 867
+
+step Lost in Battle
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 4921
+  complete 4921 @52.0,31.6
+
+step Lost in Battle
+  turnin 4921
+
+step Mankrik
+  accept 95774
+
+step Mankrik
+  turnin 95774
+
+step Witchwing Harpy
+  collect 5064 x8 quest 867.1
+
+step Chen's Empty Keg
+  accept 819 item 4926 -- Found in Chen's Empty Keg
+
+step Captain Thalo'thas Brightsun
+  getfp "Ratchet"
+  accept 891
+
+step Trouble at the Docks
+  tip For Wailing Caverns: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 959 optional
+
+step Root Samples
+  when skill Herbalism 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  accept 866 optional
+  complete 866 @62.4,37.6 optional
+
+step Gur'ak
+  when group 97003
+  zone map 1413
+  accept 97003
+
+step Brewmaster Drohn
+  zone map 1413
+  turnin 819
+
+step Root Samples
+  when skill Herbalism 1
+  zone map 1413
+  turnin 866 optional
+
+step Mebok Mizzyrix
+  zone map 1413
+  accept 1069
+
+step Gilthares Firebough
+  accept 898
+
+step Captain Thalo'thas Brightsun
+  turnin 898
+
+step Mebok Mizzyrix
+  accept 865
+
+step Brewmaster Drohn
+  accept 821
+  accept 895
+
+step WANTED
+  when group 92706
+  zone map 1413
+  accept 92706
+
+step Sputtervalve
+  zone map 1413
+  accept 894
+  accept 1483
+  turnin 1492
+  accept 896
+
+step Baron Longshore
+  collect 5084 x1 quest 895.1
+
+step Cannoneer Smythe
+  kill 3454 x1 quest 891.3
+
+step Theramore Marine
+  zone map 1445
+  collect 5078 x10 quest 891.4
+
+step Captain Fairmount
+  zone map 1413
+  kill 3393 x1 quest 891.1
+
+step Cannoneer Whessan
+  kill 3455 x1 quest 891.2
+
+step Stormsnout
+  zone map 1412
+  collect 4895 x1 quest 821.3
+
+step Sunscale Scytheclaw
+  zone map 1413
+  collect 5055 x5 quest 865.1
+
+step Makaba Flathoof
+  accept 6548
+
+step Grimtotem Ruffian and Grimtotem Mercenary
+  kill 11910 x8 quest 6548.1
+  kill 11911 x6 quest 6548.2
+
+step Deepmoss Eggs
+  zone map 1442
+  collect 5570 x15 quest 1069.1
+
+step Venture Co. Enforcer
+  zone map 1440
+  collect 5097 x1 quest 896.1
+
+step Kargal Battlescar
+  zone map 1413
+  accept 842
+
+step Fleeting Plainstrider
+  zone map 1411
+  collect 4894 x5 quest 821.2
+
+step Savannah Matriarch
+  zone map 1413
+  collect 4893 x5 quest 821.1
+
+step Gazlowe
+  turnin 895
+  accept 887
+
+step Goblin Tome
+  accept 79097 object 407566
+
+step Goblin Tome
+  collect 208800 x1 quest 79097.1
+
+step Wrenix the Wretched
+  accept 97253
+  turnin 896
+
+step Southsea Brigand
+  kill 3381 x12 quest 887.1
+
+step Southsea Cannoneer
+  kill 3382 x6 quest 887.2
+
+step Pile of Complicated Parts
+  collect 277331 x5 quest 97253.1
+
+step Captain Thalo'thas Brightsun
+  turnin 891
+  turnin 821
+  turnin 865
+  turnin 1069
+  turnin 887
+  accept 890
+  turnin 97253
+
+step Wharfmaster Dizzywig
+  turnin 890
+  accept 892
+  turnin 892
+  accept 888
+
+step Fragile - Do Not Drop
+  collect 5077 x1 quest 888.2
+
+step Drizzlik's Emporium
+  collect 5076 x1 quest 888.1
+
+step Bruuz
+  when group 92706
+  tip WANTED: Bruuz is group work: elites. Grouping up is advised.
+  zone map 1413
+  collect 253710 x1 quest 92706.1
+
+step Gazlowe
+  when group 92706
+  zone map 1413
+  turnin 92706
+
+step Gazlowe
+  zone map 1413
+  turnin 888
+
+step Sergra Darkthorn
+  turnin 842
+  accept 899
+
+step Bristleback Water Seeker
+  collect 5085 x60 quest 899.1
+
+step Scrolls
+  accept 78143 object 409692
+
+step Scrolls
+  collect 209846 x1 quest 78143.1
+
+step Thork
+  turnin 871
+  turnin 5041
+  accept 872
+  turnin 867
+  accept 875
+  turnin 6365 only Orc,Troll
+  accept 6384 only Orc,Troll
+
+step Apothecary Helbrim
+  turnin 848
+  accept 853
+  accept 868
+  accept 6361 only Tauren
+
+step Kreenig Snarlsnout
+  collect 5063 x1 quest 872.3
+
+step Razormane Defender
+  kill 3266 x8 quest 872.2
+
+step Razormane Geomancer
+  kill 3269 x8 quest 872.1
+
+step Witchwing Slayer
+  collect 5065 x6 quest 875.1
+
+step Silithid Mound
+  collect 5058 x12 quest 868.1
+
+step Makaba Flathoof
+  turnin 6548
+  accept 6629
+
+step Grimtotem Brute
+  kill 11912 x6 quest 6629.2
+
+step Grundig Darkcloud
+  zone map 1442
+  kill 11858 x1 quest 6629.1
+
+step Makaba Flathoof
+  zone map 1413
+  turnin 6629
+
+step Regthar Deathgate
+  accept 850
+  accept 855
+
+step Kolkar Wrangler
+  collect 5030 x15 quest 855.1
+
+step Barak Kodobane
+  collect 5022 x1 quest 850.1
+
+step Regthar Deathgate
+  turnin 850
+  turnin 855
+  accept 851
+
+step Verog the Dervish
+  collect 5023 x1 quest 851.1
+
+step Tonga Runetotem
+  turnin 886
+  accept 870
+  turnin 899
+  turnin 860
+  accept 844
+  turnin 869
+  accept 3281
+
+step Devrak
+  turnin 6361 only Tauren
+  accept 6362 only Tauren
+  turnin 872
+  turnin 875
+  accept 876
+  turnin 868
+
+step Serena Bloodfeather
+  collect 5067 x1 quest 876.1
+
+step Fleeting Plainstrider
+  zone map 1411
+  collect 5087 x7 quest 844.1
+
+step Stolen Silver
+  zone map 1413
+  collect 5061 x1 quest 3281.1
+
+step Tonga Runetotem
+  complete 870 @45.1,22.5 map 1413
+  turnin 870
+  accept 877
+
+step Bubbling Fissure
+  interact 3737 quest 877.1
+
+step Tonga Runetotem
+  turnin 877
+  accept 880
+
+step Oasis Snapjaw
+  collect 5098 x8 quest 880.1
+
+step Regthar Deathgate
+  turnin 851
+  accept 852
+
+step Hezrul Bloodmark
+  collect 5025 x1 quest 852.1
+
+step Regthar Deathgate
+  turnin 852
+  accept 4021
+
+step Krom'zar's Banner
+  collect 11227 x1 quest 4021.1
+
+step Regthar Deathgate
+  turnin 4021
+
+step Darsok Swiftdagger
+  turnin 876
+  accept 1060
+  turnin 3281
+  turnin 844
+  accept 845
+  turnin 880
+  accept 3301
+
+step Zhevra Runner
+  zone map 1411
+  collect 5086 x4 quest 845.1
+
+step Sergra Darkthorn
+  zone map 1413
+  turnin 845
+  accept 903
+
+step Savannah Prowler
+  collect 5096 x7 quest 903.1
+
+step Chol'aruk
+  when group 97003
+  tip Chol'aruk the Ravener is group work: elites. Grouping up is advised.
+  zone map 1413
+  collect 276070 x1 quest 97003.1
+
+step Gur'ak
+  when group 97003
+  zone map 1413
+  turnin 97003
+
+step Vrang Wildgore
+  zone map 1413
+  accept 95494
+  accept 95507
+
+step Savannah Patriarch
+  collect 269715 x6 quest 95494.1
+
+step Sprung Trap
+  collect 269719 x8 quest 95507.1
+
+step Vrang Wildgore
+  turnin 95494
+  turnin 95507
+  accept 95495
+  turnin 95495
+  accept 95621
+
+step Corporal Adamore
+  collect 270151 x1 quest 95621.1
+
+step Walton
+  turnin 95621
+  accept 95508
+
+step Terry Longdrink
+  kill 261367 x1 quest 95508.1
+
+step Walton
+  turnin 95508
+
+step Kadrak
+  turnin 6541
+  accept 6543
+
+step Warsong Outrider Update
+  when onquest 6543
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1440
+  collect 16746 x1 anywhere optional
+  turnin 6546 direct optional
+
+step Warsong Scout Update
+  when onquest 6543
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1440
+  collect 16746 x1 anywhere optional
+  turnin 6547 direct optional
+
+step Warsong Runner Update
+  when onquest 6543
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1440
+  collect 16746 x1 anywhere optional
+  turnin 6545 direct optional
+
+step Warsong Scout
+  zone map 1440
+  buy 16764 x1 npc 12862 -- for The Warsong Reports
+
+step Warsong Outrider
+  buy 16765 x1 npc 12864 -- for The Warsong Reports
+
+step Warsong Runner
+  buy 16763 x1 npc 12863 -- for The Warsong Reports
+
+step Ziz Fizziks
+  zone map 1442
+  turnin 1483
+
+step Witch Doctor Jin'Zil
+  turnin 1060
+
+step Control Console
+  zone map 1413
+  turnin 894
+  accept 900
+
+step Main Control Valve, Fuel Control Valve and Regulator Valve
+  interact 4072 quest 900.1
+  interact 61936 quest 900.2
+  interact 61935 quest 900.3
+
+step Control Console
+  turnin 900
+  accept 901
+
+step Tinkerer Sniggles
+  collect 5089 x1 quest 901.1
+
+step Control Console
+  turnin 901
+  accept 902
+
+step Manual
+  accept 78145 object 409700
+
+step Manual
+  collect 209847 x1 quest 78145.1
+
+step Wizzlecrank's Shredder
+  accept 858
+
+step Supervisor Lugwizzle
+  collect 5050 x1 quest 858.1
+
+step Wizzlecrank's Shredder
+  turnin 858
+  accept 863
+
+step Kadrak
+  turnin 6543
+
+step Sputtervalve
+  complete 863 @55.4,7.7 map 1413
+  turnin 863
+  turnin 902
+  accept 3921
+
+step Wenikee Boltbucket
+  turnin 3921
+  accept 3922
+
+step Tool Bucket
+  collect 11143 x15 quest 3922.1
+
+step Wenikee Boltbucket
+  turnin 3922
+  accept 3923
+
+step Ak'Zeloth
+  turnin 809
+  accept 924
+
+step Flawed Power Stone
+  when onquest 924
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  turnin 926 direct optional
+
+step The Altar of Fire
+  zone map 1413
+  interact 3525 quest 924.1
+
+step Ak'Zeloth
+  turnin 924
+
+step Seereth Stonebreak
+  turnin 1061
+  accept 1062
+
+step Venture Co. Logger
+  zone map 1442
+  kill 3989 x15 quest 1062.1
+
+step Seereth Stonebreak
+  zone map 1413
+  turnin 1062
+  accept 1063
+  accept 1068
+
+step XT:9
+  zone map 1442
+  kill 4074 x1 quest 1068.2
+
+step XT:4
+  kill 4073 x1 quest 1068.1
+
+step Seereth Stonebreak
+  zone map 1413
+  turnin 1068
+
+step Owen Thadd
+  zone map 1458
+  turnin 78143
+  turnin 78145
+  turnin 79097
+
+step Mura Runetotem
+  zone map 1421
+  turnin 3301
+
+step A Frightened Request
+  tip For Ruins of Lordaeron: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 92401 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Wild Hearts
+  when onquest 429
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 429 optional
+
+step Raleigh and the Undercity
+  when onquest 441
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 441 optional
+
+step Rot Hide Origins
+  when onquest 444
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 444 optional
+
+step A Recipe For Death
+  when onquest 451
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 451 optional
+
+step Rites of the Earthmother
+  when onquest 776
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 776 optional
+
+step Speak with Renferrel
+  when onquest 3221
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 3221 optional

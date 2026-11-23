@@ -1,0 +1,10 @@
+{
+	"id": "completionist-horde",
+	"title": "Completionist Guides (Horde)",
+	"author": "catagris",
+	"version": "0.2.0",
+	"license": "GPL-3.0-only",
+	"website": "https://github.com/catagris/polestar-completionist-horde",
+	"source": "Datamined reference data with Polestar's drafter and a custom route planner",
+	"notes": "Community addon for Polestar: every Horde quest, zone by zone."
+}

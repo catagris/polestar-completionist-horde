@@ -1,0 +1,43 @@
+guide completionist-horde/dungeon-wailing-caverns-2
+title Wailing Caverns, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 13-26
+zone The Barrens
+next completionist-horde/11-odd-jobs-in-kalimdor
+pitch Wailing Caverns, in The Barrens.
+why Every Horde quest of Wailing Caverns: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Apothecary Zamah
+  zone map 1456
+  turnin 962
+
+step Arch Druid Hamuul Runetotem
+  turnin 1489
+
+step Arch Druid Hamuul Runetotem
+  accept 1490
+
+step Nara Wildmane
+  turnin 1490
+
+step Nara Wildmane
+  accept 914
+
+step Inside Wailing Caverns, again
+  zone map 1413
+  complete 914 @46.6,35.7
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Serpentbloom
+  when onquest 962
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 962 optional
+
+step Hamuul Runetotem
+  when onquest 1489
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1489 optional

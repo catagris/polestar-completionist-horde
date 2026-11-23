@@ -1,0 +1,330 @@
+guide completionist-horde/31-feralas
+title 31 Feralas (42-52) (Completionist)
+faction Horde
+levels 42-52
+zone Feralas
+next completionist-horde/32-searing-gorge
+pitch On along the line: Feralas, quests of level 42 to 52.
+# Generated from the reference data: change the planner, not this file.
+# Routed 36 quests; estimated level at the end 45.9 (heuristic XP, class quests not counted).
+# Skipped: 1 prerequisite N not in this route.
+
+step Varimathras
+  when complete 6521
+  zone map 1458
+  turnin 6521
+
+step Melor Stonehoof
+  zone map 1456
+  accept 97378
+
+step Orwin Gizzmick
+  zone map 1444
+  sethome "Camp Mojache"
+  getfp "Camp Mojache"
+  accept 2987
+
+step The Old Key
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 95599 direct @79.2,49.4 map 1444
+
+step Wild Leather Armor
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2854 optional
+  complete 2854 @74.4,42.9 optional
+
+step Blaise Montgomery
+  when group 92878
+  zone map 1444
+  accept 92878
+
+step Witch Doctor Uzer'i
+  zone map 1444
+  accept 3121
+  accept 2822
+  accept 2862
+
+step Wild Leather Armor
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2854 optional
+
+step Woodpaw Mongrel
+  zone map 1444
+  collect 9237 x10 quest 2862.1
+
+step Gordunni Dirt Mound
+  collect 9463 x12 quest 2987.1
+
+step Gordunni Scroll
+  goto 74.5,27.9 "Gordunni Scroll"
+  accept 2978 item 9370 -- Found in Gordunni Scroll
+
+step Feral Scar Yeti
+  collect 8973 x10 quest 2822.1
+
+step Book
+  accept 81951 object 441249
+
+step Book
+  collect 220347 x1 quest 81951.1
+
+step Jangdor Swiftstrider
+  turnin 2822
+  accept 7734
+  turnin 2862
+  accept 2863
+
+step Perfect Yeti Hide
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 7738 direct optional
+
+step Wild Leather Helmet
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2857 optional
+  complete 2857 @74.4,42.9 optional
+
+step Wild Leather Vest
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2856 optional
+  complete 2856 @74.4,42.9 optional
+
+step Wild Leather Shoulders
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2855 optional
+  complete 2855 @74.4,42.9 optional
+
+step Orwin Gizzmick
+  zone map 1444
+  turnin 2987
+  turnin 2978
+  accept 2979
+  accept 2973
+
+step Wild Leather Helmet
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2857 optional
+
+step Wild Leather Vest
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2856 optional
+
+step Wild Leather Shoulders
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2855 optional
+
+step Level 45
+  zone map 1444
+  level 45
+
+step Zorbin Fandazzle
+  accept 7003
+
+step Land Walker
+  collect 18956 x15 quest 7003.1
+
+step Zorbin Fandazzle
+  turnin 7003
+
+step Again With the Zapped Giants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18956 x10 anywhere optional
+  turnin 7725 direct optional
+
+step Zorbin Fandazzle
+  accept 7721
+
+step Sea Elemental
+  collect 18958 x10 quest 7721.1
+
+step Zorbin Fandazzle
+  turnin 7721
+
+step Refuel for the Zapping
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18958 x6 anywhere optional
+  turnin 7726 direct optional
+
+step Talo Thornhoof
+  when group 3062
+  zone map 1444
+  accept 3062
+
+step Talo Thornhoof
+  zone map 1444
+  accept 3063
+
+step Wild Leather Boots
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2858 optional
+  complete 2858 @74.4,42.9 optional
+
+step Wild Leather Leggings
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2859 optional
+  complete 2859 @74.4,42.9 optional
+
+step Northspring Windcaller
+  zone map 1444
+  kill 5366 x4 quest 3063.4
+
+step Northspring Slayer
+  kill 5364 x4 quest 3063.3
+
+step Northspring Harpy and Northspring Roguefeather
+  kill 5362 x4 quest 3063.1
+  kill 5363 x4 quest 3063.2
+
+step Lurking Feral Scar
+  collect 18947 x10 quest 7734.1
+
+step Gordunni Mage-Lord
+  collect 9371 x1 quest 2979.1
+
+step Woodpaw Alpha
+  kill 5258 x5 quest 2863.1
+
+step Level 47
+  level 47
+
+step Talo Thornhoof
+  accept 4120
+
+step Wild Leather Boots
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2858 optional
+
+step Wild Leather Leggings
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2859 optional
+
+step Angerclaw Grizzly
+  zone map 1448
+  kill 8957 x12 quest 4120.1
+
+step Felpaw Ravager
+  kill 8961 x12 quest 4120.2
+
+step Sprite Darter
+  collect 9369 x10 quest 2973.1
+
+step Jangdor Swiftstrider
+  turnin 7734
+  turnin 2863
+  accept 2902
+  turnin 2973
+  accept 2974
+  turnin 2979
+  accept 3002
+
+step Master of the Wild Leather
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2860 optional
+
+step Talo Thornhoof
+  zone map 1444
+  turnin 3063
+  turnin 4120
+
+step Grimtotem Raider
+  zone map 1448
+  collect 9460 x20 quest 2974.1
+
+step Woodpaw Battle Map
+  turnin 2902
+  accept 2903
+
+step Hadoken Swiftstrider
+  turnin 2903
+  accept 7730
+  accept 7731
+
+step Stinglasher
+  collect 18962 x1 quest 7731.1
+
+step Zukk'ash Tunneler
+  collect 18961 x20 quest 7730.1
+
+step Edana Hatetalon
+  when group 3062
+  tip Dark Heart is group work: elites. Grouping up is advised.
+  zone map 1444
+  collect 9528 x1 quest 3062.1
+
+step Talo Thornhoof
+  when group 3062
+  zone map 1448
+  turnin 3062
+
+step Namida Grimtotem
+  when group 92878
+  tip Lost for Words is group work: elites. Grouping up is advised.
+  zone map 1444
+  collect 254877 x1 quest 92878.1
+
+step Blaise Montgomery
+  when group 92878
+  zone map 1444
+  turnin 92878
+
+step Krueg Skullsplitter
+  zone map 1448
+  turnin 2974
+  accept 2976
+  turnin 7730
+  turnin 7731
+  accept 7732
+
+step Mirrorscale
+  zone map 1444
+  collect 277972 x1 quest 97378.1
+
+step Owen Thadd
+  zone map 1458
+  turnin 81951
+
+step Find OOX-22/FE!
+  tip OOX-22/FE Distress Beacon drops from Sprite Dragon, Coast Crawl Snapclaw, Coast Crawl Deepseer: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1444
+  collect 8705 x1 optional
+  accept 2766 item 8705 optional
+
+step Find OOX-22/FE!
+  when onquest 2766
+  zone map 1444
+  turnin 2766
+
+step Rescue OOX-22/FE!
+  zone map 1444
+  accept 2767
+
+step To the Top
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3567 direct optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step An Unholy Alliance
+  when onquest 6521
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 6521 optional

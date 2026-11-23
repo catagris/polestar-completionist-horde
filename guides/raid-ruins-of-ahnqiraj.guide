@@ -1,0 +1,70 @@
+guide completionist-horde/raid-ruins-of-ahnqiraj
+title Ruins of Ahn'Qiraj (Completionist)
+faction Horde
+category Dungeons
+levels 59-60
+zone Silithus
+pitch Ruins of Ahn'Qiraj, in Silithus. A raid.
+why Every Horde quest of Ruins of Ahn'Qiraj: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Silithus: the arrow leads to it. This is a raid: it needs a raid group.
+
+step Level 60
+  level 60
+
+step Dirk Thunderwood
+  zone Silithus
+  accept 9023
+
+step Level 60
+  level 60
+
+step Inside Ruins of Ahn'Qiraj
+  zone Silithus
+  collect 21220 @28.6,92.3
+  accept 8791 item 21220
+  complete 9023 @28.6,92.3
+
+step Commander Mar'alith
+  zone Silithus
+  turnin 8791
+
+step Dirk Thunderwood
+  zone Silithus
+  turnin 9023
+
+step The Changing of Paths - Invoker No More
+  when turnedin 8761
+  tip Needs Exalted standing (42000) with Brood of Nozdormu; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  collect 21210 x1 anywhere optional
+  collect 20861 x15 anywhere optional
+  collect 20862 x15 anywhere optional
+  collect 20863 x15 anywhere optional
+  turnin 8765 direct optional
+
+step The Changing of Paths - Conqueror No More
+  when turnedin 8756
+  tip Needs Exalted standing (42000) with Brood of Nozdormu; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  collect 21205 x1 anywhere optional
+  collect 20864 x15 anywhere optional
+  collect 20865 x15 anywhere optional
+  collect 20858 x15 anywhere optional
+  turnin 8766 direct optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step The Changing of Paths - Protector No More
+  when turnedin 8751
+  tip Needs Exalted standing (42000) with Brood of Nozdormu; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  collect 21200 x1 anywhere optional
+  collect 20858 x15 anywhere optional
+  collect 20859 x15 anywhere optional
+  collect 20860 x15 anywhere optional
+  turnin 8764 direct optional

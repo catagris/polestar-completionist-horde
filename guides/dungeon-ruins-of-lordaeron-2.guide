@@ -1,0 +1,95 @@
+guide completionist-horde/dungeon-ruins-of-lordaeron-2
+title Ruins of Lordaeron, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 15-22
+zone Undercity
+next completionist-horde/12-ashenvale
+pitch Ruins of Lordaeron, in Undercity.
+why Every Horde quest of Ruins of Lordaeron: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Inside Ruins of Lordaeron
+  collect 280438 @72.8,11.5
+  accept 97288 item 280438
+  collect 275521 @72.8,11.5
+  accept 95204 item 275521
+  complete 92401 @72.8,11.5
+  complete 92421 @72.8,11.5
+  complete 92422 @72.8,11.5
+  complete 95216 @72.8,11.5
+
+step Master Apothecary Faranell
+  turnin 97288
+
+step Morbin Lightbane
+  turnin 92421
+
+step Oran Snakewrithe
+  turnin 95204
+
+step Theodore Griffs
+  turnin 95216
+
+step Master Apothecary Faranell
+  accept 97289
+
+step Unfinished Abomination
+  turnin 97289
+
+step Unfinished Abomination
+  accept 97290
+
+step Master Apothecary Faranell
+  turnin 97290
+
+step Master Apothecary Faranell
+  accept 97291
+
+step Inside Ruins of Lordaeron, again
+  complete 97291 @72.8,11.5
+
+step Master Apothecary Faranell
+  turnin 97291
+
+step Master Apothecary Faranell
+  accept 97292
+
+step Inside Ruins of Lordaeron, again
+  complete 97292 @72.8,11.5
+
+step Master Apothecary Faranell
+  turnin 97292
+
+step Deathguard Kristof
+  zone map 1420
+  turnin 92422
+
+step Tabitha Heartweaver
+  zone map 1421
+  turnin 92401
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Frightened Request
+  when onquest 92401
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 92401 optional
+
+step Light's Justice
+  when onquest 92421
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 92421 optional
+
+step The Wrath of Rath'mael
+  when onquest 92422
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 92422 optional
+
+step The New Plague
+  when onquest 95216
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 95216 optional

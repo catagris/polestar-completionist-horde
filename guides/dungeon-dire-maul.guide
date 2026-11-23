@@ -1,0 +1,506 @@
+guide completionist-horde/dungeon-dire-maul
+title Dire Maul (Completionist)
+faction Horde
+category Dungeons
+levels 56-60
+zone Feralas
+pitch Dire Maul, in Feralas.
+why Every Horde quest of Dire Maul: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Level 58
+  zone map 1454
+  level 58
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  accept 8913
+
+step An Earnest Proposition
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8913 @34.95,38.29
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  turnin 8913
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1454
+  accept 8914
+
+step An Earnest Proposition
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8914 @34.95,38.29
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1454
+  turnin 8914
+
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  accept 8915
+
+step An Earnest Proposition
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8915 @34.95,38.29
+
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  turnin 8915
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  accept 8916
+
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8916 @34.95,38.29
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  turnin 8916
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  accept 8918
+
+step An Earnest Proposition
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8918 @34.95,38.29
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  turnin 8918
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1454
+  accept 8920
+
+step An Earnest Proposition
+  only Warrior
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8920 @34.95,38.29
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1454
+  turnin 8920
+
+step A Supernatural Device
+  zone map 1454
+  accept 8923
+
+step Getting there
+  zone map 1444
+  note The entrance is in Feralas: the arrow leads to it.
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8923
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step Azj'Tordin
+  zone map 1444
+  accept 7441
+
+step Sage Korolusk
+  accept 7481
+
+step Rabine Saturna
+  zone map 1450
+  accept 5526
+
+step Harbinger Balthazad
+  zone map 1458
+  accept 7492
+
+step Maerion Thaelemaches
+  zone map 2482
+  accept 97010
+
+step Inside Dire Maul
+  zone map 1444
+  accept 1193 @62.3,25.5
+  accept 5518 @62.3,25.5
+  accept 5525 @62.3,25.5
+  accept 5528 @62.3,25.5
+  accept 7461 @62.3,25.5
+  accept 7703 @62.3,25.5
+  complete 7441 @62.3,25.5
+  complete 1193 @62.3,25.5
+  turnin 1193 @62.3,25.5
+  complete 5518 @62.3,25.5
+  turnin 5518 @62.3,25.5
+  complete 5525 @62.3,25.5
+  turnin 5525 @62.3,25.5
+  complete 5526 @62.3,25.5
+  turnin 5528 @62.3,25.5
+  complete 7461 @62.3,25.5
+  turnin 7461 @62.3,25.5
+  complete 7481 @62.3,25.5
+  complete 7703 @62.3,25.5
+  turnin 7703 @62.3,25.5
+
+step Inside Dire Maul
+  only Mage
+  zone map 1444
+  collect 18358 @62.3,25.5
+  accept 7500 item 18358
+  turnin 7500 @62.3,25.5
+
+step Inside Dire Maul
+  only Rogue
+  zone map 1444
+  collect 18356 @62.3,25.5
+  accept 7498 item 18356
+  turnin 7498 @62.3,25.5
+
+step Inside Dire Maul
+  only Warrior
+  zone map 1444
+  collect 18357 @62.3,25.5
+  accept 7499 item 18357
+  turnin 7499 @62.3,25.5
+
+step Inside Dire Maul
+  only Paladin
+  zone map 1444
+  collect 18359 @62.3,25.5
+  accept 7501 item 18359
+  turnin 7501 @62.3,25.5
+
+step Inside Dire Maul
+  only Warlock
+  zone map 1444
+  collect 18360 @62.3,25.5
+  accept 7502 item 18360
+  turnin 7502 @62.3,25.5
+
+step Inside Dire Maul
+  only Hunter
+  zone map 1444
+  collect 18361 @62.3,25.5
+  accept 7503 item 18361
+  turnin 7503 @62.3,25.5
+
+step Inside Dire Maul
+  only Priest
+  zone map 1444
+  collect 18362 @62.3,25.5
+  accept 7504 item 18362
+  turnin 7504 @62.3,25.5
+
+step Inside Dire Maul
+  only Shaman
+  zone map 1444
+  collect 18363 @62.3,25.5
+  accept 7505 item 18363
+  turnin 7505 @62.3,25.5
+
+step Inside Dire Maul
+  only Druid
+  zone map 1444
+  collect 18364 @62.3,25.5
+  accept 7506 item 18364
+  turnin 7506 @62.3,25.5
+
+step Inside Dire Maul
+  only Warrior,Paladin
+  zone map 1444
+  collect 18401 @62.3,25.5
+
+step Azj'Tordin
+  zone map 1444
+  turnin 7441
+
+step Sage Korolusk
+  turnin 7481
+
+step Talo Thornhoof
+  turnin 7492
+
+step Level 60
+  zone map 1419
+  level 60
+
+step Daio the Decrepit
+  only Warlock
+  zone map 1419
+  accept 7581
+
+step Inside Dire Maul
+  only Warlock
+  zone map 1444
+  complete 7581 @62.3,25.5
+
+step Daio the Decrepit
+  only Warlock
+  zone map 1419
+  turnin 7581
+
+step Rabine Saturna
+  zone map 1450
+  turnin 5526
+
+step Pix Xizzix
+  zone map 1434
+  accept 96076
+
+step Inside Dire Maul
+  zone map 1444
+  complete 96076 @62.3,25.5
+
+step Pix Xizzix
+  zone map 1434
+  turnin 96076
+
+step Maerion Thaelemaches
+  zone map 2482
+  turnin 97010
+
+step Talo Thornhoof
+  zone map 1444
+  accept 7489
+
+step Inside Dire Maul
+  only Mage
+  zone map 1444
+  accept 7463 @62.3,25.5
+  complete 7463 @62.3,25.5
+  turnin 7463 @62.3,25.5
+
+step Inside Dire Maul
+  only Warrior,Paladin
+  zone map 1444
+  accept 7507 item 18401
+  turnin 7507 @62.3,25.5
+
+step Inside Dire Maul, again
+  zone map 1444
+  accept 5519 @62.3,25.5
+  accept 7429 @62.3,25.5
+  accept 7483 @62.3,25.5
+  accept 7484 @62.3,25.5
+  accept 7485 @62.3,25.5
+  accept 7877 @62.3,25.5
+  complete 7489 @62.3,25.5
+  complete 5519 @62.3,25.5
+  turnin 5519 @62.3,25.5
+  complete 7429 @62.3,25.5
+  turnin 7429 @62.3,25.5
+  complete 7483 @62.3,25.5
+  turnin 7483 @62.3,25.5
+  complete 7484 @62.3,25.5
+  turnin 7484 @62.3,25.5
+  complete 7485 @62.3,25.5
+  turnin 7485 @62.3,25.5
+  turnin 7877 @62.3,25.5
+
+step Inside Dire Maul
+  only Orc,Undead,Tauren,Troll
+  zone map 1444
+  accept 7478 @62.3,25.5
+  accept 7479 @62.3,25.5
+  accept 7480 @62.3,25.5
+  complete 7478 @62.3,25.5
+  turnin 7478 @62.3,25.5
+  complete 7479 @62.3,25.5
+  turnin 7479 @62.3,25.5
+  complete 7480 @62.3,25.5
+  turnin 7480 @62.3,25.5
+
+step Inside Dire Maul
+  only Warrior,Paladin
+  zone map 1444
+  collect 18513 @62.3,25.5
+  accept 7508 item 18513
+  turnin 7508 @62.3,25.5
+
+step Talo Thornhoof
+  zone map 1444
+  turnin 7489
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Enchanted Thorium Platemail: Volume I
+  when skill Blacksmithing 300
+  when has 18769
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1444
+  accept 7649 item 18769 optional
+
+step Enchanted Thorium Platemail: Volume I
+  when onquest 7649
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 7649 @62.3,25.5 optional
+
+step Enchanted Thorium Platemail: Volume II
+  when skill Blacksmithing 300
+  when has 18770
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1444
+  accept 7650 item 18770 optional
+
+step Enchanted Thorium Platemail: Volume II
+  when onquest 7650
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 7650 @62.3,25.5 optional
+
+step Enchanted Thorium Platemail: Volume III
+  when skill Blacksmithing 300
+  when has 18771
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1444
+  accept 7651 item 18771 optional
+
+step Enchanted Thorium Platemail: Volume III
+  when onquest 7651
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 7651 @62.3,25.5 optional
+
+step Anthion's Old Friend
+  when turnedin 8947
+  zone map 1423
+  accept 8948
+
+step Anthion's Old Friend
+  when onquest 8948
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 8948 @62.3,25.5
+
+step Falrin's Vendetta
+  when turnedin 8948
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  accept 8949 @62.3,25.5
+
+step Falrin's Vendetta
+  when onquest 8949
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  complete 8949 @62.3,25.5
+
+step Falrin's Vendetta
+  when onquest 8949
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 8949 @62.3,25.5
+
+step The Instigator's Enchantment
+  when turnedin 8949
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  accept 8950 @62.3,25.5
+
+step The Instigator's Enchantment
+  when onquest 8950
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  complete 8950 @62.3,25.5
+
+step The Instigator's Enchantment
+  when onquest 8950
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 8950 @62.3,25.5
+
+step Dreadsteed of Xoroth
+  only Warlock
+  when turnedin 7629
+  when turnedin 7630
+  zone map 1428
+  accept 7631 optional
+
+step Dreadsteed of Xoroth
+  only Warlock
+  when onquest 7631
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1428
+  complete 7631 @12.7,31.6 optional
+
+step Dreadsteed of Xoroth
+  only Warlock
+  when onquest 7631
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1444
+  turnin 7631 @62.3,25.5 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when available 8967
+  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8966). This one shows for a character the game offers it to instead.
+  when turnedin 8962
+  zone map 1427
+  accept 8967 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8967
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8967 @39.8,96.5 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8967
+  zone map 1427
+  turnin 8967 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when available 8990
+  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
+  when turnedin 8985
+  zone map 1427
+  accept 8990 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8990
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8990 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8990
+  zone map 1427
+  turnin 8990 optional

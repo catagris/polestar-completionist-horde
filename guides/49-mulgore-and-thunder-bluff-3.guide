@@ -1,0 +1,203 @@
+guide completionist-horde/49-mulgore-and-thunder-bluff-3
+title 49 Mulgore and Thunder Bluff (50-60) (Completionist)
+faction Horde
+levels 50-60
+zone Mulgore
+next completionist-horde/50-odd-jobs-in-kalimdor-4
+pitch On along the line: Mulgore and Thunder Bluff, quests of level 50 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 12 quests; estimated level at the end 51.0 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N (done).
+
+step Ralston Farnsley
+  when onquest 7813
+  zone map 1458
+  turnin 7813
+  turnin 7814
+  turnin 7817
+  accept 7818
+
+step Arch Druid Hamuul Runetotem
+  zone map 1456
+  accept 3782
+  turnin 3782
+
+step Rumstag Proudstrider
+  accept 7821
+  accept 7822
+
+step Additional Runecloth
+  when turnedin 7823
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1456
+  collect 14047 x20 anywhere optional
+  turnin 7825 direct optional
+
+step Morrowgrain Research
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1456
+  accept 3786
+  complete 3786 @71.1,34.2
+
+step Morrowgrain Research
+  turnin 3786
+
+step Morrowgrain to Thunder Bluff
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11040 x10 anywhere optional
+  turnin 3804 direct optional
+
+step Level 54
+  level 54
+
+step The New Frontier
+  when available 1000
+  tip One of several exclusive quests; the route takes The New Frontier (1004). This one shows for a character the game offers it to instead.
+  zone map 1456
+  accept 1000 optional
+
+step The New Frontier
+  when onquest 1000
+  zone map 1456
+  turnin 1000 optional
+
+step Assisting Arch Druid Runetotem
+  when available 3762
+  tip One of several exclusive quests; the route takes Assisting Arch Druid Runetotem (936). This one shows for a character the game offers it to instead.
+  zone map 1456
+  accept 3762 optional
+
+step Assisting Arch Druid Runetotem
+  when onquest 3762
+  zone map 1456
+  turnin 3762 optional
+
+step Stormwind Royal Guard
+  zone map 1453
+  collect 14047 x60 quest 7818.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x60 quest 7821.1
+
+step Baron Bloodbane
+  zone map 1423
+  collect 4338 x60 quest 7822.1
+
+step Oura Stormspinner
+  zone map 1412
+  accept 99196
+  accept 99197
+  accept 99198
+  accept 98477
+
+step Baron Bloodbane
+  zone map 1423
+  collect 4338 x1 quest 99198.1
+
+step Anvilrage Overseer
+  zone map 1428
+  collect 274964 x10 quest 98477.1
+
+step Farrin Daris
+  zone map 1431
+  collect 2592 x60 quest 99196.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x1 quest 99197.1
+
+step Oura Stormspinner
+  zone map 1412
+  turnin 99196
+  turnin 99197
+  turnin 99198
+  turnin 98477
+
+step New Kodo - Teal
+  tip A repeatable quest: hand it in once, with what it asks for.
+  sethome "Bloodhoof Village"
+  collect 15293 x1 anywhere optional
+  turnin 7662 direct optional
+
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 7945 direct optional
+
+step New Kodo - Green
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 15292 x1 anywhere optional
+  turnin 7663 direct optional
+
+step Darkmoon Beast Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19228 x1 anywhere optional
+  turnin 7907 direct optional
+
+step Darkmoon Elementals Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19267 x1 anywhere optional
+  turnin 7929 direct optional
+
+step Darkmoon Warlords Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19257 x1 anywhere optional
+  turnin 7928 direct optional
+
+step Darkmoon Portals Deck
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19277 x1 anywhere optional
+  turnin 7927 direct optional
+
+step Stealing Stormwind's Flame
+  tip Flame of Stormwind is looted from Flame of Stormwind: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1453
+  collect 23182 x1 optional
+  accept 9330 item 23182 optional
+
+step Stealing Stormwind's Flame
+  when onquest 9330
+  zone map 1454
+  turnin 9330
+
+step Stealing Ironforge's Flame
+  tip Flame of Ironforge is looted from Flame of Ironforge: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1455
+  collect 23183 x1 optional
+  accept 9331 item 23183 optional
+
+step Stealing Ironforge's Flame
+  when onquest 9331
+  zone map 1454
+  turnin 9331
+
+step Stealing Darnassus's Flame
+  tip Flame of Darnassus is looted from Flame of Darnassus: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1438
+  collect 23184 x1 optional
+  accept 9332 item 23184 optional
+
+step Stealing Darnassus's Flame
+  when onquest 9332
+  zone map 1454
+  turnin 9332
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Wool
+  when onquest 7813
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 7813 optional
+
+step A Donation of Silk
+  when onquest 7814
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 7814 optional
+
+step A Donation of Mageweave
+  when onquest 7817
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 7817 optional

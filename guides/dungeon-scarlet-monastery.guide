@@ -1,0 +1,114 @@
+guide completionist-horde/dungeon-scarlet-monastery
+title Scarlet Monastery (Completionist)
+faction Horde
+category Dungeons
+levels 30-42
+zone Tirisfal Glades
+next completionist-horde/27-odd-jobs-in-the-eastern-kingdoms-2
+pitch Scarlet Monastery, in Tirisfal Glades.
+why Every Horde quest of Scarlet Monastery: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Going, Going, Guano!
+  zone map 1458
+  accept 1109
+
+step Going, Going, Guano!
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 1109 @48.82,69.28
+
+step Going, Going, Guano!
+  turnin 1109
+
+step Master Apothecary Faranell
+  accept 1113
+
+step Parqual Fintallas
+  accept 1160
+
+step Level 33
+  level 33
+
+step Varimathras
+  accept 1048
+
+step Sage Truthseeker
+  only Orc,Tauren,Troll
+  zone map 1456
+  accept 1049
+
+step Getting there
+  zone map 1420
+  note The entrance is in Tirisfal Glades: the arrow leads to it.
+
+step The Horn of Xelthos
+  only Rogue
+  zone map 1421
+  accept 78261
+
+step The Horn of Xelthos
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1421
+  complete 78261 @47.12,70.99
+
+step The Horn of Xelthos
+  only Rogue
+  zone map 1421
+  turnin 78261
+
+step The Horn of Xelthos
+  only Rogue
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1421
+  turnin 78307 direct
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  accept 78676
+
+step Inside Scarlet Monastery
+  zone map 1420
+  accept 1051 @85.2,31.3
+  complete 1051 @85.2,31.3
+  complete 1113 @85.2,31.3
+  complete 1160 @85.2,31.3
+  complete 1048 @85.2,31.3
+
+step Inside Scarlet Monastery
+  only Rogue
+  zone map 1420
+  complete 78676 @85.2,31.3
+
+step Inside Scarlet Monastery
+  only Orc,Tauren,Troll
+  zone map 1420
+  complete 1049 @85.2,31.3
+
+step Monika Sengutz
+  zone map 1416
+  turnin 1051
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  turnin 78676
+
+step Rituals of Power
+  only Mage
+  when turnedin 1950
+  zone map 1441
+  accept 1951 optional
+
+step Rituals of Power
+  only Mage
+  when onquest 1951
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1441
+  complete 1951 @78.3,75.7 optional
+
+step Rituals of Power
+  only Mage
+  when onquest 1951
+  zone map 1445
+  turnin 1951 optional

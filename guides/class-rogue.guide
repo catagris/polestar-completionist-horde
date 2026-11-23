@@ -1,0 +1,339 @@
+guide completionist-horde/class-rogue
+title Rogue class quests (10-60) (Completionist)
+faction Horde
+class Rogue
+levels 10-60
+category Class
+zone Durotar
+why Every Rogue class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
+reward text What the Rogue quests give, quest by quest: abilities, forms, pets, totems or gear.
+# Generated from the reference data: change the planner, not this file.
+# Routed 23 quests; estimated level at the end 15.3 (heuristic XP).
+# Skipped: 5 objective N (item N) outside the zones; 5 prerequisite N not in this route; 2 exclusive with N.
+
+step Marion Call
+  zone Tirisfal Glades
+  accept 1885 only Undead
+
+step Mennet Carkad
+  zone Undercity
+  turnin 1885 only Undead
+  accept 1886 only Undead
+
+step Astor Hadren
+  zone Silverpine Forest
+  collect 7231 x1 quest 1886.1 only Undead
+
+step Mennet Carkad
+  zone Undercity
+  turnin 1886 only Undead
+  accept 1898 only Undead
+
+step Andron Gant
+  turnin 1898 only Undead
+  accept 1899 only Undead
+
+step Andron's Bookshelf
+  collect 7294 x1 quest 1899.1 only Undead
+
+step Mennet Carkad
+  turnin 1899 only Undead
+  accept 1978 only Undead
+
+step Varimathras
+  turnin 1978 only Undead
+
+step Level 16
+  level 16
+
+step Mennet Carkad
+  zone Undercity
+  accept 1998 only Undead
+
+step Fenwick Thatros
+  zone Silverpine Forest
+  collect 7306 x1 quest 1998.1 only Undead
+
+step Mennet Carkad
+  zone Undercity
+  turnin 1998 only Undead
+
+step Mennet Carkad
+  zone Undercity
+  accept 1999 only Undead
+
+step Ambermill Strongbox
+  zone Silverpine Forest
+  collect 7309 x1 quest 1999.1 only Undead
+
+step Mennet Carkad
+  zone Undercity
+  turnin 1999 only Undead
+
+step Mennet Carkad
+  zone Undercity
+  accept 2378
+
+step Level 50
+  level 50
+
+step Miles Dexter
+  zone Durotar
+  accept 8233 npc 4583
+
+step The Manor, Ravenholdt
+  only Rogue
+  zone map 1416
+  accept 6681 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 6681 @84.5,80.3 optional
+
+step Therzok
+  only Rogue,Orc
+  zone map 1411
+  accept 1859 optional
+
+step To Orgrimmar!
+  only Rogue
+  when available 2380
+  tip One of several exclusive quests; the route takes Find the Shattered Hand (2378). This one shows for a character the game offers it to instead.
+  zone map 1411
+  accept 2380 optional
+
+step Fahrad
+  zone Alterac Mountains
+  accept 80526
+  turnin 80526
+
+step The Talisman of Kazdor
+  only Rogue
+  zone map 1416
+  accept 80411 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 80411 @84.5,80.3 optional
+
+step The Manor, Ravenholdt
+  only Rogue
+  turnin 6681 optional
+
+step Syndicate Emblems
+  only Rogue
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1416
+  collect 17124 x1 anywhere optional
+  turnin 6701 direct optional
+
+step The Talisman of Kazdor
+  only Rogue
+  turnin 80411 optional
+
+step A Way In
+  only Rogue
+  zone map 1416
+  accept 96783 optional
+
+step A Way In
+  only Rogue
+  turnin 96783 optional
+
+step Master of Disguise
+  only Rogue
+  zone map 1417
+  accept 96784 optional
+
+step Master of Disguise
+  only Rogue
+  turnin 96784 optional
+
+step Ain't No Telling
+  only Rogue
+  zone map 1417
+  accept 96785 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 96785 @26.8,64.4 optional
+
+step Ain't No Telling
+  only Rogue
+  turnin 96785 optional
+
+step The Syndicate Sting
+  only Rogue
+  zone map 1417
+  accept 96786 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 96786 @26.8,64.4 optional
+
+step What's the Big Idea?
+  only Rogue
+  zone map 1416
+  accept 96781 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 96781 @84.9,80.4 optional
+
+step The Syndicate Sting
+  only Rogue
+  turnin 96786 optional
+
+step Syndicate Sabotage
+  only Rogue
+  zone map 1416
+  accept 96779 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 96779 @84.9,80.4 optional
+
+step What's the Big Idea?
+  only Rogue
+  turnin 96781 optional
+
+step Covert Extraction
+  only Rogue
+  zone map 1416
+  accept 96782 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 96782 @84.9,80.4 optional
+
+step Lord Jorach Ravenholdt
+  zone Undercity
+  accept 8234
+
+step Covert Extraction
+  only Rogue
+  turnin 96782 optional
+
+step Syndicate Sabotage
+  only Rogue
+  turnin 96779 optional
+
+step Timbermaw Shaman
+  zone Azshara
+  collect 19775 x1 quest 8234.1
+
+step Lord Jorach Ravenholdt
+  zone Alterac Mountains
+  turnin 8233
+
+step Archmage Xylem
+  turnin 8234
+  accept 8235
+
+step Forest Ooze
+  collect 20023 x10 quest 8235.1
+
+step Archmage Xylem
+  turnin 8235
+
+step Veenix
+  zone Stonetalon Mountains
+  accept 78270
+
+step Venture Co. Operator
+  collect 210187 x1 quest 78270.1
+
+step Veenix
+  turnin 78270
+
+step Shenthul
+  turnin 2378
+  accept 2379
+  accept 2460
+  turnin 2379
+  accept 2382
+
+step To Orgrimmar!
+  only Rogue
+  when onquest 2380
+  zone map 1454
+  turnin 2380 optional
+
+step The Shattered Hand
+  only Rogue,Orc,Troll
+  zone map 1454
+  accept 1963 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 1963 @42.7,53.5 optional
+
+step Therzok
+  only Rogue,Orc
+  turnin 1859 optional
+
+step The Shattered Hand
+  only Rogue,Orc,Troll
+  turnin 1963 optional
+
+step The Shattered Hand
+  only Rogue,Orc,Troll
+  tip A class quest, done from the quest text: the reference data does not route it.
+  zone map 1454
+  accept 1858 optional
+  complete 1858 @42.7,53.5 optional
+
+step Shenthul
+  kill 3401 x1 quest 2460.1
+
+step Shenthul
+  turnin 2460
+  accept 2458
+
+step The Shattered Hand
+  only Rogue,Orc,Troll
+  zone map 1454
+  turnin 1858 optional
+
+step Taskmaster Fizzule
+  zone The Barrens
+  turnin 2458
+  accept 2478
+
+step Mutated Venture Co. Drone, Venture Co. Lookout, Venture Co. Patroller, Grand Foreman Puzik Gallywix, Foreman Silixiz and Gallywix's Lockbox
+  kill 7310 x2 quest 2478.1
+  kill 7307 x2 quest 2478.2
+  kill 7308 x2 quest 2478.3
+  collect 8074 x1 quest 2478.4
+  collect 8072 x1 quest 2478.5
+  collect 8073 x1 quest 2478.6
+
+step Shenthul
+  zone Orgrimmar
+  turnin 2478
+  accept 2479
+
+step Level 58
+  level 58
+
+step Mokvar
+  zone Orgrimmar
+  accept 8917
+
+step Mokvar
+  zone Orgrimmar
+  turnin 8917
+
+step Wrenix the Wretched
+  zone The Barrens
+  turnin 2382
+  accept 2381
+
+step Polly
+  collect 7968 x1 quest 2381.1
+
+step Wrenix the Wretched
+  turnin 2381
+
+step Serge Hinott
+  zone Alterac Mountains
+  turnin 2479
+  accept 2480
+
+step Serge Hinott
+  zone map 1424
+  zone Alterac Mountains
+  complete 2480 @61.6,19.2 map 1424
+  turnin 2480
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Geologist Larksbane
+  when turnedin 8315
+  zone Silithus
+  accept 8378
+  turnin 8378

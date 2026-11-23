@@ -1,0 +1,34 @@
+guide completionist-horde/dungeon-razorfen-downs-2
+title Razorfen Downs, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 32-45
+zone The Barrens
+next completionist-horde/31-feralas
+pitch Razorfen Downs, in The Barrens.
+why Every Horde quest of Razorfen Downs: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Varimathras
+  zone map 1458
+  turnin 6522
+
+step Varimathras
+  accept 6521
+
+step Andrew Brownell
+  turnin 3341
+
+step Inside Razorfen Downs, again
+  zone map 1413
+  accept 3525 @49.8,93
+  complete 6521 @49.8,93
+  complete 3525 @49.8,93
+  turnin 3525 @49.8,93
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Bring the End
+  when onquest 3341
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 3341 optional

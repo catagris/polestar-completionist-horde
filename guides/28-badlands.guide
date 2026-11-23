@@ -1,0 +1,268 @@
+guide completionist-horde/28-badlands
+title 28 Badlands (35-50) (Completionist)
+faction Horde
+levels 35-50
+zone Badlands
+next completionist-horde/29-odd-jobs-in-kalimdor-2
+pitch On along the line: Badlands, quests of level 35 to 50.
+# Generated from the reference data: change the planner, not this file.
+# Routed 21 quests; estimated level at the end 36.8 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route.
+
+step A Ludite's Guide to Caring for Your Demonic Pet
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1458
+  complete 79953 @73.4,33
+
+step Bring the End
+  tip For Razorfen Downs: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 3341 optional
+
+step Reclaimed Treasures
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2342 optional
+
+step A Ludite's Guide to Caring for Your Demonic Pet
+  when onquest 79953
+  zone map 1458
+  turnin 79953
+
+step Mus'hale
+  zone map 1418
+  sethome "Kargath"
+  getfp "Kargath"
+  accept 97663
+  turnin 97663
+  accept 1419
+  accept 1420
+
+step Martek the Exiled
+  accept 1108
+  accept 703
+  accept 705
+
+step Power Stones
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2418 optional
+
+step Feral Crag Coyote
+  collect 6166 x30 quest 1419.1
+
+step Stonevault Bonesnapper
+  collect 5797 x10 quest 1108.1
+
+step Giant Clam
+  zone map 1434
+  collect 4611 x9 quest 705.1
+
+step Greater Firebird
+  zone map 1446
+  collect 3404 x4 quest 703.1
+
+step Neeka Bloodscar
+  turnin 1419
+
+step Lotwil Veriatus
+  accept 710
+  accept 713
+
+step Lesser Rock Elemental
+  collect 4626 x10 quest 710.1
+
+step Level 40
+  zone map 1418
+  level 40
+
+step Gorn
+  accept 782
+
+step Boss Tho'grun
+  collect 4640 x1 quest 782.1
+
+step Gorn
+  turnin 782
+
+step Gorn
+  when group 793
+  zone map 1418
+  accept 793
+
+step Seal of the Earth
+  when onquest 793
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1418
+  collect 4845 x1 anywhere optional
+  collect 4844 x1 anywhere optional
+  collect 4843 x1 anywhere optional
+  turnin 795 direct optional
+
+step Jarkal Mossmeld
+  zone map 1418
+  accept 2258
+
+step Greater Rock Elemental
+  zone map 1427
+  collect 7848 x5 quest 2258.3
+
+step Feral Crag Coyote
+  collect 7846 x10 quest 2258.2
+
+step Giant Buzzard
+  collect 7847 x5 quest 2258.1
+
+step Jarkal Mossmeld
+  zone map 1418
+  turnin 2258
+
+step Vilebranch Witch Doctor
+  zone map 1425
+  collect 3829 x1 quest 713.1
+
+step Blacklash and Hematus
+  when group 793
+  tip Broken Alliances is group work: elites. Grouping up is advised.
+  zone map 1418
+  collect 4615 x1 quest 793.1
+  collect 4645 x1 quest 793.2
+
+step Scrolls
+  zone map 1418
+  accept 79951 object 423899
+
+step Scrolls
+  collect 215820 x1 quest 79951.1
+
+step Rigglefuzz
+  turnin 703
+  turnin 705
+  turnin 1108
+  accept 1137
+
+step Flash Bomb Recipe
+  when skill Engineering 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  accept 1559 optional
+
+step Flash Bomb Recipe
+  when skill Engineering 1
+  zone map 1418
+  turnin 1559 optional
+
+step Lotwil Veriatus
+  zone map 1418
+  turnin 710
+  turnin 713
+  accept 711
+  accept 714
+
+step Rock Elemental
+  collect 4627 x3 quest 711.1
+
+step Compact Harvest Reaper
+  zone map 1434
+  collect 4389 x1 quest 714.1
+
+step Helgrum the Swift
+  zone map 1435
+  turnin 1420
+
+step Theldurin the Lost
+  zone map 1418
+  turnin 687
+  accept 692
+
+step Solution to Doom
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 709 optional
+
+step Enraged Rock Elemental
+  collect 4518 x1 quest 692.1
+  collect 4519 x1 quest 692.2
+  collect 4520 x1 quest 692.3
+
+step Theldurin the Lost
+  turnin 692
+
+step Lotwil Veriatus
+  turnin 711
+  turnin 714
+  accept 712
+
+step Liquid Stone
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 715
+  complete 715 @25.8,44.2
+
+step Greater Rock Elemental
+  zone map 1427
+  collect 4628 x5 quest 712.1
+
+step Gorn
+  when group 793
+  zone map 1418
+  turnin 793
+
+step Lotwil Veriatus
+  zone map 1418
+  turnin 712
+
+step Stone Is Better than Cloth
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 716
+  complete 716 @25.8,44.2
+
+step Liquid Stone
+  turnin 715
+
+step Stone Is Better than Cloth
+  turnin 716
+
+step Lotwil Veriatus
+  accept 734
+
+step Lucien Tosselwrench
+  turnin 734
+
+step Lucien Tosselwrench
+  accept 777
+
+step Lotwil Veriatus
+  turnin 777
+
+step Lotwil Veriatus
+  accept 778
+
+step Fam'retor Guardian
+  collect 4847 x1 quest 778.1
+
+step Lotwil Veriatus
+  turnin 778
+
+step Mirage Mirror
+  when has 278744
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1418
+  turnin 97821 direct @54.6,12.9 map 1418
+
+step Owen Thadd
+  zone map 1458
+  turnin 79951
+
+step Fizzle Brassbolts
+  zone map 1441
+  turnin 1137
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Theldurin the Lost
+  when onquest 687
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 687 optional
+
+step A Ludite's Guide to Caring for Your Demonic Pet
+  when onquest 79953
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 79953 optional

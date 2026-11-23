@@ -1,0 +1,40 @@
+guide completionist-horde/dungeon-excavation-site-wetlands
+title Excavation Site: Wetlands (Completionist)
+faction Horde
+category Dungeons
+levels 24-31
+zone Wetlands
+next completionist-horde/dungeon-excavation-site-wetlands-2
+pitch Excavation Site: Wetlands, in Wetlands.
+why Every Horde quest of Excavation Site: Wetlands: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Borstan
+  zone map 1454
+  accept 95697
+
+step Getting there
+  zone map 1437
+  note The entrance is in Wetlands: the arrow leads to it.
+
+step Zaruk
+  zone map 1417
+  accept 95663
+
+step Inside Excavation Site: Wetlands
+  zone map 1437
+  collect 270866 @50.8,61.1
+  accept 95664 item 270866
+  complete 95664 @50.8,61.1
+  complete 95697 @50.8,61.1
+
+step Deathstalker Agent
+  turnin 95663
+
+step Deathstalker Agent
+  accept 95682
+
+step Inside Excavation Site: Wetlands, again
+  complete 95682 @50.8,61.1
+
+step Deathstalker Agent
+  turnin 95682

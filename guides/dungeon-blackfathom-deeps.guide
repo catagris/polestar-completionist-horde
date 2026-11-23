@@ -1,0 +1,94 @@
+guide completionist-horde/dungeon-blackfathom-deeps
+title Blackfathom Deeps (Completionist)
+faction Horde
+category Dungeons
+levels 18-30
+zone Ashenvale
+next completionist-horde/13-hillsbrad-foothills-and-alterac-mountains
+pitch Blackfathom Deeps, in Ashenvale.
+why Every Horde quest of Blackfathom Deeps: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step The Heart of the Void
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1456
+  turnin 78917 direct @71.1,34.2 map 1456
+
+step Getting there
+  zone map 1440
+  note The entrance is in Ashenvale: the arrow leads to it.
+
+step Tsunaman
+  zone map 1442
+  accept 6562
+
+step Inside Blackfathom Deeps
+  zone map 1440
+  collect 16790
+  accept 6564 item 16790
+  accept 6561 @15.1,13.2
+  collect 16782 @15.1,13.2
+  complete 6561 @15.1,13.2
+
+step Je'neu Sancrea
+  turnin 6562
+  turnin 6564
+
+step Je'neu Sancrea
+  accept 6563
+  accept 6565
+
+step Inside Blackfathom Deeps, again
+  complete 6563 @15.1,13.2
+  complete 6565 @15.1,13.2
+
+step Je'neu Sancrea
+  turnin 6563
+  turnin 6565
+
+step Level 20
+  zone map 1413
+  level 20
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Doan Karhan
+  only Warlock
+  zone map 1413
+  accept 1740
+
+step Inside Blackfathom Deeps
+  only Warlock
+  zone map 1440
+  complete 1740 @15.1,13.2
+
+step Doan Karhan
+  only Warlock
+  zone map 1413
+  turnin 1740
+
+step Level 21
+  zone map 1440
+  level 21
+
+step Je'neu Sancrea
+  accept 6921
+
+step Inside Blackfathom Deeps
+  complete 6921 @15.1,13.2
+
+step Je'neu Sancrea
+  turnin 6921
+
+step Inside Blackfathom Deeps
+  accept 6922 item 16782
+
+step Je'neu Sancrea
+  turnin 6922
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Amongst the Ruins
+  when onquest 6921
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1440
+  turnin 6921 optional

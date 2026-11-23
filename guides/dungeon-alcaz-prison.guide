@@ -1,0 +1,54 @@
+guide completionist-horde/dungeon-alcaz-prison
+title Alcaz Prison (Completionist)
+faction Horde
+category Dungeons
+levels 48-53
+zone Dustwallow Marsh
+next completionist-horde/dungeon-alcaz-prison-2
+pitch Alcaz Prison, in Dustwallow Marsh.
+why Every Horde quest of Alcaz Prison: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Dustwallow Marsh: the arrow leads to it.
+
+step Sergeant Ulka
+  accept 95309
+  accept 96332
+  accept 96334
+
+step Inside Alcaz Prison
+  accept 96335 @75.4,14
+  turnin 95309 @75.4,14
+  complete 96332 @75.4,14
+  complete 96334 @75.4,14
+  complete 96335 @75.4,14
+  turnin 96335 @75.4,14
+
+step Sergeant Ulka
+  turnin 96332
+
+step Inside Alcaz Prison, again
+  accept 95454 @75.4,14
+  accept 96337 @75.4,14
+  turnin 95454 @75.4,14
+
+step Connery's Trunk
+  zone map 1436
+  turnin 96337
+
+step Inside Alcaz Prison, again
+  zone map 1445
+  accept 95483 @75.4,14
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step No Orc Left Behind
+  when onquest 95309
+  tip Still in your log from an earlier guide: hand it in now.
+  turnin 95309 @75.4,14 optional
+
+step A Little Payback
+  when onquest 96332
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1445
+  turnin 96332 optional

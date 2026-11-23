@@ -1,0 +1,49 @@
+guide completionist-horde/02-durotar-and-orgrimmar-2
+title 02 Durotar and Orgrimmar (9-9) (Completionist)
+faction Horde
+levels 9-9
+zone Durotar
+next completionist-horde/01-durotar-and-orgrimmar when !turnedin 829
+next completionist-horde/03-mulgore-and-thunder-bluff when !turnedin 765
+next completionist-horde/04-tirisfal-glades-and-the-undercity when !turnedin 408
+next completionist-horde/05-zephras-isle when !turnedin 95349
+next completionist-horde/06-tirisfal-glades-and-the-undercity-2
+pitch Where Orcs and Trolls start. The other starting zones follow, then the route goes on by level.
+
+
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Razor Hill
+  sethome "Razor Hill"
+
+step Need for a Cure
+  accept 812
+
+step Need for a Cure
+  when onquest 812
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1411
+  complete 812 @41.5,18.6
+
+step Need for a Cure
+  when onquest 812
+  zone map 1411
+  turnin 812
+
+step Fire Sapta
+  only Shaman
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1411
+  turnin 1464 direct optional
+
+step Orgrimmar
+  zone map 1454
+  getfp "Orgrimmar"
+
+step Finding the Antidote
+  when onquest 812
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 4886 x4 anywhere optional
+  turnin 813 direct optional

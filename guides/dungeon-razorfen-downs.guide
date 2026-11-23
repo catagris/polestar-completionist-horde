@@ -1,0 +1,93 @@
+guide completionist-horde/dungeon-razorfen-downs
+title Razorfen Downs (Completionist)
+faction Horde
+category Dungeons
+levels 32-45
+zone The Barrens
+next completionist-horde/dungeon-razorfen-downs-2
+pitch Razorfen Downs, in The Barrens.
+why Every Horde quest of Razorfen Downs: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Level 37
+  zone map 1458
+  level 37
+
+step Andrew Brownell
+  accept 3341
+
+step Getting there
+  zone map 1413
+  note The entrance is in The Barrens: the arrow leads to it.
+
+step Rot and Regret
+  zone map 2652
+  accept 93404
+
+step Rot and Regret
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 93404 @69.66,71.78
+
+step Rot and Regret
+  turnin 93404
+
+step Passing the Blame
+  accept 93601
+
+step Passing the Blame
+  turnin 93601
+
+step Myriam Moonsinger
+  zone map 1413
+  accept 6626
+
+step Kog'thug the Brave
+  zone map 2652
+  accept 93604
+
+step Inside Razorfen Downs
+  zone map 1413
+  collect 17008 @49.8,93
+  accept 6522 item 17008
+  accept 3523 @49.8,93
+  complete 6626 @49.8,93
+  turnin 3523 @49.8,93
+  complete 93604 @49.8,93
+
+step Myriam Moonsinger
+  turnin 6626
+
+step Kog'thug the Brave
+  zone map 2652
+  turnin 93604
+
+step Not on Squealing Terms
+  accept 93606
+
+step Not on Squealing Terms
+  when onquest 93606
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2652
+  complete 93606 @72.7,31.2
+
+step Not on Squealing Terms
+  when onquest 93606
+  zone map 2652
+  turnin 93606
+
+step Level 34
+  zone map 1412
+  level 34
+
+step Sutara Plainstalker
+  accept 97196
+
+step Inside Razorfen Downs
+  zone map 1413
+  complete 97196 @49.8,93
+
+step Inside Razorfen Downs
+  complete 3341 @49.8,93
+
+step Sutara Plainstalker
+  zone map 1412
+  turnin 97196

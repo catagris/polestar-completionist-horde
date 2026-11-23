@@ -1,0 +1,359 @@
+guide completionist-horde/dungeon-blackrock-depths
+title Blackrock Depths (Completionist)
+faction Horde
+category Dungeons
+levels 1-60
+zone Searing Gorge
+next completionist-horde/dungeon-blackrock-depths-2
+pitch Blackrock Depths, in Searing Gorge.
+why Every Horde quest of Blackrock Depths: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Level 58
+  zone map 1454
+  level 58
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  accept 8913
+
+step An Earnest Proposition
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8913 @34.95,38.29
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  turnin 8913
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1454
+  accept 8914
+
+step An Earnest Proposition
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8914 @34.95,38.29
+
+step An Earnest Proposition
+  only Hunter
+  zone map 1454
+  turnin 8914
+
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  accept 8915
+
+step An Earnest Proposition
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8915 @34.95,38.29
+
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  turnin 8915
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  accept 8916
+
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8916 @34.95,38.29
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  turnin 8916
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  accept 8918
+
+step An Earnest Proposition
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8918 @34.95,38.29
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  turnin 8918
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1454
+  accept 8920
+
+step An Earnest Proposition
+  only Warrior
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8920 @34.95,38.29
+
+step An Earnest Proposition
+  only Warrior
+  zone map 1454
+  turnin 8920
+
+step A Supernatural Device
+  zone map 1454
+  accept 8923
+
+step Apothecary Zinge
+  zone map 1458
+  accept 4133
+
+step Getting there
+  zone map 1427
+  note The entrance is in Searing Gorge: the arrow leads to it.
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8923
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step Master Smith Burninate
+  zone map 1427
+  accept 7737
+
+step Alaana Stormwalker
+  zone map 1412
+  accept 97197
+
+step Galamav the Marksman
+  zone map 1418
+  accept 3981
+
+step Lotwil Veriatus
+  accept 4063
+
+step Shadowmage Vivian Lagrave
+  accept 7201
+
+step Thunderheart
+  accept 3907
+
+step WANTED
+  accept 4081
+
+step Cyrus Therepentous
+  zone map 1428
+  accept 4024
+
+step Mathredis Firestar
+  accept 4463
+  accept 4481
+  accept 4482
+  accept 4483
+  accept 4484
+
+step Maxwort Uberglint
+  accept 4123
+
+step Yorba Screwspigot
+  zone map 1446
+  accept 4324
+
+step Inside Blackrock Depths
+  zone map 1427
+  accept 4295 @34.8,85.3
+  accept 4201 @34.8,85.3
+  accept 4083 @34.8,85.3
+  collect 18628 @34.8,85.3
+  complete 4295 @34.8,85.3
+  turnin 4295 @34.8,85.3
+  turnin 3981 @34.8,85.3
+  complete 4081 @34.8,85.3
+  complete 4201 @34.8,85.3
+  turnin 4201 @34.8,85.3
+  complete 7201 @34.8,85.3
+  complete 4083 @34.8,85.3
+  turnin 4083 @34.8,85.3
+  complete 4123 @34.8,85.3
+  complete 4463 @34.8,85.3
+  complete 4481 @34.8,85.3
+  complete 4482 @34.8,85.3
+  complete 4483 @34.8,85.3
+  complete 4484 @34.8,85.3
+  complete 97197 @34.8,85.3
+  complete 3907 @34.8,85.3
+  complete 4024 @34.8,85.3
+  complete 4063 @34.8,85.3
+  complete 7737 @34.8,85.3
+
+step Master Smith Burninate
+  turnin 7737
+
+step Alaana Stormwalker
+  zone map 1412
+  turnin 97197
+
+step Lotwil Veriatus
+  zone map 1418
+  turnin 4063
+
+step Shadowmage Vivian Lagrave
+  turnin 7201
+  turnin 4133
+
+step Thunderheart
+  turnin 3907
+
+step Warlord Goretooth
+  turnin 4081
+
+step Yuka Screwspigot
+  turnin 4324
+
+step Cyrus Therepentous
+  zone map 1428
+  turnin 4024
+
+step Mathredis Firestar
+  turnin 4463
+  turnin 4481
+  turnin 4482
+  turnin 4483
+  turnin 4484
+
+step Maxwort Uberglint
+  turnin 4123
+
+step KILL ON SIGHT
+  zone map 1418
+  accept 4082
+
+step Shadowmage Vivian Lagrave
+  accept 4134
+
+step Yuka Screwspigot
+  accept 4136
+
+step Inside Blackrock Depths, again
+  zone map 1427
+  accept 3982 @34.8,85.3
+  complete 4136 @34.8,85.3
+  complete 3982 @34.8,85.3
+  turnin 3982 @34.8,85.3
+  complete 4082 @34.8,85.3
+  complete 4134 @34.8,85.3
+
+step Shadowmage Vivian Lagrave
+  zone map 1418
+  turnin 4134
+
+step Warlord Goretooth
+  turnin 4082
+
+step Yuka Screwspigot
+  turnin 4136
+
+step Lexlort
+  accept 4122
+
+step Inside Blackrock Depths, again
+  zone map 1427
+  accept 4001 @34.8,85.3
+  complete 4001 @34.8,85.3
+
+step Grark Lorkrub
+  zone map 1428
+  turnin 4122
+
+step Grark Lorkrub
+  accept 4121
+
+step Inside Blackrock Depths, again
+  zone map 1427
+  complete 4121 @34.8,85.3
+
+step Lexlort
+  zone map 1418
+  turnin 4121
+
+step Warlord Goretooth
+  accept 4132
+
+step Level 60
+  zone map 1427
+  level 60
+
+step Inside Blackrock Depths
+  accept 7604 item 18628
+  complete 7604 @34.8,85.3
+  turnin 7604 @34.8,85.3
+
+step The Challenge
+  when turnedin 8950
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1427
+  accept 9015 @34.8,85.3
+
+step The Challenge
+  when onquest 9015
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 9015 @34.8,85.3
+
+step The Challenge
+  when onquest 9015
+  zone map 1423
+  turnin 9015
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Rise of the Machines
+  when onquest 4063
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 4063 optional
+
+step KILL ON SIGHT: Dark Iron Dwarves
+  when onquest 4081
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 4081 optional
+
+step The Heart of the Mountain
+  when onquest 4123
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1428
+  turnin 4123 optional
+
+step Vivian Lagrave
+  when onquest 4133
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 4133 optional

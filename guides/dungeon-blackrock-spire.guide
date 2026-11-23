@@ -1,0 +1,569 @@
+guide completionist-horde/dungeon-blackrock-spire
+title Blackrock Spire (Completionist)
+faction Horde
+category Dungeons
+levels 58-60
+zone Searing Gorge
+next completionist-horde/dungeon-blackrock-spire-2
+pitch Blackrock Spire, in Searing Gorge.
+why Every Horde quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  accept 8913
+
+step An Earnest Proposition
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8913 @34.95,38.29
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  turnin 8913
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  accept 8918
+
+step An Earnest Proposition
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8918 @34.95,38.29
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  turnin 8918
+
+step Mokvar
+  only Hunter
+  zone map 1454
+  accept 8914
+
+step Mokvar
+  only Warrior
+  zone map 1454
+  accept 8920
+
+step Mokvar
+  zone map 1454
+  accept 84162
+
+step A Supernatural Device
+  accept 8923
+
+step Mokvar
+  only Mage
+  zone map 1454
+  accept 8915
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  accept 8916
+
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8916 @34.95,38.29
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  turnin 8916
+
+step Apothecary Zinge
+  zone map 1458
+  accept 4769
+
+step Getting there
+  zone map 1427
+  note The entrance is in Searing Gorge: the arrow leads to it.
+
+step The Prophecy of Mosh'aru
+  zone map 1446
+  accept 3527
+
+step The Prophecy of Mosh'aru
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 3527 @66.99,22.36
+
+step The Prophecy of Mosh'aru
+  turnin 3527
+
+step The Ancient Egg
+  accept 4787
+
+step The Ancient Egg
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 4787 @66.99,22.36
+
+step The Ancient Egg
+  turnin 4787
+
+step The God Hakkar
+  accept 3528
+
+step The God Hakkar
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 3528 @66.99,22.36
+
+step The God Hakkar
+  turnin 3528
+
+step The Lost Tablets of Mosh'aru
+  accept 5065
+
+step The Lost Tablets of Mosh'aru
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 5065 @66.89,24.03
+
+step The Lost Tablets of Mosh'aru
+  turnin 5065
+
+step Pip Quickwit
+  zone map 1427
+  accept 5047 @34.8,85.3
+
+step Galamav the Marksman
+  zone map 1418
+  accept 4724
+
+step Kibler
+  accept 4729
+  accept 4862
+
+step Lexlort
+  accept 4981
+
+step Warlord Goretooth
+  accept 98325
+
+step Ragged John
+  zone map 1428
+  accept 4866
+
+step Prospector Ironboot
+  zone map 1446
+  accept 4788
+
+step Felnok Steelspring
+  zone map 1452
+  accept 4907
+
+step Kilram
+  accept 5306
+
+step Inside Blackrock Spire
+  zone map 1427
+  accept 4742 @34.8,85.3
+  accept 4867 @34.8,85.3
+  accept 5160 @34.8,85.3
+  collect 227911 @34.8,85.3
+  accept 84377 item 227911
+  complete 4788 @34.8,85.3
+  complete 4724 @34.8,85.3
+  complete 4729 @34.8,85.3
+  complete 4862 @34.8,85.3
+  turnin 4981 @34.8,85.3
+  complete 4742 @34.8,85.3
+  turnin 4742 @34.8,85.3
+  complete 4866 @34.8,85.3
+  complete 4867 @34.8,85.3
+  turnin 4867 @34.8,85.3
+  complete 5306 @34.8,85.3
+  complete 84162 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Hunter
+  zone map 1427
+  complete 8914 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Warrior
+  zone map 1427
+  complete 8920 @34.8,85.3
+
+step Hand in
+  zone map 1427
+  turnin 84377 @34.8,85.3
+
+step Galamav the Marksman
+  zone map 1418
+  turnin 4724
+
+step Kibler
+  turnin 4729
+  turnin 4862
+
+step Shadowmage Vivian Lagrave
+  turnin 4769
+
+step Warlord Goretooth
+  turnin 98325
+
+step Ragged John
+  zone map 1428
+  turnin 4866
+
+step Tinkee Steamboil
+  turnin 4907
+
+step Prospector Ironboot
+  zone map 1446
+  turnin 4788
+
+step Haleh
+  zone map 1452
+  turnin 5160
+
+step Kilram
+  turnin 5306
+
+step Malyfous Darkhammer
+  turnin 5047
+
+step Wrath of the Blue Flight
+  accept 5161
+
+step Wrath of the Blue Flight
+  turnin 5161
+
+step Wrath of the Blue Flight
+  accept 5162
+
+step The Demon Forge
+  when turnedin 5126
+  when skill Blacksmithing 270
+  zone map 1452
+  accept 5127 optional
+
+step The Demon Forge
+  when onquest 5127
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1452
+  complete 5127 @63.8,73.8 optional
+
+step The Demon Forge
+  when onquest 5127
+  zone map 1452
+  turnin 5127 optional
+
+step Wrath of the Blue Flight
+  zone map 1422
+  turnin 5162
+
+step Catalogue of the Wayward
+  accept 5164
+
+step Catalogue of the Wayward
+  turnin 5164
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8923
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step A Portable Power Source
+  accept 8925
+
+step A Portable Power Source
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8925 @52.47,27.23
+
+step A Portable Power Source
+  turnin 8925
+
+step A Shifty Merchant
+  accept 8928
+
+step A Shifty Merchant
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8928 @52.47,27.23
+
+step A Shifty Merchant
+  turnin 8928
+
+step Return to Mokvar
+  accept 8978
+
+step Bodley
+  zone map 1427
+  accept 8961
+  accept 8995
+
+step The Right Piece of Lord Valthalak's Amulet
+  when available 8989
+  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8990). This one shows for a character the game offers it to instead.
+  when turnedin 8985
+  zone map 1427
+  accept 8989 optional
+
+step Shadowmage Vivian Lagrave
+  zone map 1418
+  accept 4768
+
+step Catalogue of the Wayward
+  zone map 1422
+  accept 5166
+  accept 5167
+
+step Tinkee Steamboil
+  zone map 1428
+  accept 4734
+
+step Inside Blackrock Spire, again
+  zone map 1427
+  accept 4982 @34.8,85.3
+  accept 4743 @34.8,85.3
+  complete 4982 @34.8,85.3
+  turnin 4982 @34.8,85.3
+  complete 4734 @34.8,85.3
+  complete 4743 @34.8,85.3
+  turnin 4743 @34.8,85.3
+  complete 4768 @34.8,85.3
+  complete 5166 @34.8,85.3
+  complete 5167 @34.8,85.3
+  complete 8961 @34.8,85.3
+  complete 8995 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Mage
+  zone map 1427
+  complete 8915 @34.8,85.3
+
+step Bodley
+  zone map 1427
+  turnin 8961
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8989
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8989 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8989
+  zone map 1427
+  turnin 8989 optional
+
+step Components of Importance
+  when available 8965
+  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8965 optional
+
+step Components of Importance
+  when available 8964
+  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8964 optional
+
+step Components of Importance
+  when available 8963
+  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8963 optional
+
+step Components of Importance
+  when onquest 8965
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8965 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8965
+  zone map 1427
+  turnin 8965 optional
+
+step Components of Importance
+  when onquest 8964
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8964 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8964
+  zone map 1427
+  turnin 8964 optional
+
+step Components of Importance
+  when onquest 8963
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8963 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8963
+  zone map 1427
+  turnin 8963 optional
+
+step Spirit of Lord Valthalak
+  zone map 1427
+  turnin 8995 @34.8,85.3
+
+step Shadowmage Vivian Lagrave
+  zone map 1418
+  turnin 4768
+
+step Jeziba
+  zone map 1422
+  turnin 5166
+  turnin 5167
+
+step Tinkee Steamboil
+  zone map 1428
+  turnin 4734
+
+step Tinkee Steamboil
+  accept 4735
+
+step Inside Blackrock Spire, again
+  zone map 1427
+  accept 4983 @34.8,85.3
+  complete 4735 @34.8,85.3
+
+step Lexlort
+  zone map 1418
+  turnin 4983
+
+step Tinkee Steamboil
+  zone map 1428
+  turnin 4735
+
+step Return to Bodley
+  when has 22056
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1427
+  turnin 8996 direct @39.8,96.5 map 1427
+
+step The Left Piece of Lord Valthalak's Amulet
+  when available 8966
+  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8968). This one shows for a character the game offers it to instead.
+  when turnedin 8962
+  zone map 1427
+  accept 8966 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8966
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8966 @39.8,96.5 optional
+
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8966
+  zone map 1427
+  turnin 8966 optional
+
+step Back to the Beginning
+  when turnedin 8996
+  zone map 1427
+  accept 8998
+
+step Anthion's Parting Words
+  only Druid
+  when turnedin 9015
+  zone map 1423
+  accept 9016 optional
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 9016
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 9016 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when turnedin 9015
+  zone map 1423
+  accept 9017 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 9017
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 9017 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Priest
+  when turnedin 9015
+  zone map 1423
+  accept 9019 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 9019
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 9019 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Shaman
+  when turnedin 9015
+  zone map 1423
+  accept 8957 optional
+
+step Anthion's Parting Words
+  only Shaman
+  when onquest 8957
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8957 @26.1,11.3 optional
+
+step Components of Importance
+  when available 8962
+  tip One of several exclusive quests; the route takes Components of Importance (8963). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8962 optional
+
+step Components of Importance
+  when onquest 8962
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8962 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8962
+  zone map 1427
+  turnin 8962 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Mother's Milk
+  when onquest 4866
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1428
+  turnin 4866 optional
+
+step Snakestone of the Shadow Huntress
+  when onquest 5306
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1452
+  turnin 5306 optional

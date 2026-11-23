@@ -1,0 +1,418 @@
+guide completionist-horde/32-searing-gorge
+title 32 Searing Gorge (45-54) (Completionist)
+faction Horde
+levels 45-54
+zone Searing Gorge
+next completionist-horde/33-tanaris
+pitch On along the line: Searing Gorge, quests of level 45 to 54.
+# Generated from the reference data: change the planner, not this file.
+# Routed 18 quests; estimated level at the end 46.2 (heuristic XP, class quests not counted).
+
+step Master of the Wild Leather
+  when onquest 2860
+  when skill Leatherworking 1
+  zone map 1456
+  turnin 2860 optional
+
+step Melor Stonehoof
+  when onquest 97378
+  zone map 1456
+  turnin 97378
+
+step Uthel'nay
+  when onquest 3002
+  zone map 1454
+  turnin 3002
+
+step Neeru Fireblade
+  when onquest 3121
+  zone map 1454
+  turnin 3121
+  accept 3122
+  turnin 7732
+
+step Belgrom Rockmaul
+  when onquest 2976
+  zone map 1454
+  turnin 2976
+  accept 2981
+
+step Rok Orhan
+  when onquest 2981
+  zone map 1444
+  turnin 2981
+  accept 2975
+
+step Gordunni Ogre Mage
+  zone map 1444
+  kill 5237 x10 quest 2975.2
+
+step Gordunni Ogre
+  kill 5229 x10 quest 2975.1
+
+step Gordunni Brute
+  kill 5232 x5 quest 2975.3
+
+step Witch Doctor Uzer'i
+  when onquest 3122
+  zone map 1444
+  turnin 3122
+  accept 3123
+  accept 3128
+
+step Sprite Darter
+  zone map 1444
+  collect 9589 x6 quest 3128.2
+
+step Frayfeather Hippogryph
+  collect 9591 x20 quest 3128.3
+  collect 9592 x40 quest 3128.4
+
+step Wandering Forest Walker
+  collect 9590 x2 quest 3128.1
+
+step Vicious Owlbeast
+  zone map 1425
+  collect 9594 x10 quest 3123.1
+
+step Rok Orhan
+  when onquest 2975
+  zone map 1444
+  turnin 2975
+  accept 2980
+
+step Gordunni Mauler
+  zone map 1444
+  kill 5234 x5 quest 2980.3
+
+step Gordunni Warlock
+  kill 5240 x10 quest 2980.2
+
+step Gordunni Shaman
+  kill 5236 x10 quest 2980.1
+
+step Witch Doctor Uzer'i
+  when onquest 3123
+  zone map 1444
+  turnin 3123
+  turnin 3128
+  accept 3124
+
+step Frayfeather Hippogryph
+  zone map 1444
+  collect 9595 x10 quest 3124.1
+
+step Witch Doctor Uzer'i
+  when onquest 3124
+  zone map 1444
+  turnin 3124
+  accept 3125
+
+step Sprite Darter
+  zone map 1444
+  collect 9596 x8 quest 3125.1
+
+step Witch Doctor Uzer'i
+  when onquest 3125
+  zone map 1444
+  turnin 3125
+  accept 3126
+
+step Wandering Forest Walker
+  zone map 1444
+  collect 9593 x3 quest 3126.1
+
+step Witch Doctor Uzer'i
+  when onquest 3126
+  zone map 1444
+  turnin 3126
+  accept 3127
+
+step Land Walker
+  zone map 1444
+  collect 9597 x7 quest 3127.1
+
+step Witch Doctor Uzer'i
+  when onquest 3127
+  zone map 1444
+  turnin 3127
+
+step Witch Doctor Uzer'i
+  when onquest 3129
+  zone map 1444
+  accept 3129
+  turnin 3129
+
+step Rok Orhan
+  when onquest 2980
+  zone map 1444
+  turnin 2980
+
+step Wanted/Missing/Lost & Found
+  zone map 1427
+  getfp "Thorium Point"
+  accept 7728
+  accept 7729
+
+step Look at the Size of It!
+  when has 18950
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1427
+  accept 7704 item 18950
+
+step Wanted/Missing/Lost & Found
+  when group 7701
+  zone map 1427
+  accept 7701
+
+step Hansel Heavyhands
+  zone map 1427
+  accept 7723
+  accept 7724
+  accept 7727
+  accept 7722
+
+step Look at the Size of It!
+  when onquest 7704
+  zone map 1427
+  turnin 7704
+
+step Divine Retribution
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3441
+  complete 3441 @39.1,39.0
+
+step Divine Retribution
+  turnin 3441
+
+step Velarok Windblade
+  accept 3442
+
+step Velarok Windblade
+  turnin 3442
+
+step Velarok Windblade
+  accept 3443
+
+step Velarok Windblade
+  turnin 3443
+
+step Velarok Windblade
+  when group 3452
+  zone map 1427
+  accept 3452
+
+step Velarok Windblade
+  when group 3452
+  zone map 1427
+  turnin 3452
+
+step Searing Lava Spider
+  zone map 1427
+  kill 5858 x20 quest 7724.1
+
+step Dark Iron Lookout
+  collect 18960 x1 quest 7728.2
+
+step Heavy War Golem
+  kill 5854 x20 quest 7723.1
+
+step Book
+  accept 81955 object 441253
+
+step Dark Iron Steamsmith and Book
+  collect 18959 x1 quest 7728.1
+  collect 220352 x1 quest 81955.1
+
+step Dark Iron Slaver
+  kill 5844 x15 quest 7729.2
+
+step Overseer Maltorius and Secret Plans: Fiery Flux
+  collect 18922 x1 quest 7722.1
+
+step Dark Iron Taskmaster
+  kill 5846 x15 quest 7729.1
+
+step Incendosaur
+  kill 9318 x20 quest 7727.1
+
+step Overseer Maltorius and Secret Plans: Fiery Flux
+  when group 7701
+  tip WANTED: Overseer Maltorius is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 18946 x1 quest 7701.1
+
+step Wooden Outhouse
+  zone map 1427
+  accept 4449
+
+step Dark Iron Geologist
+  kill 5839 x8 quest 4449.1
+
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x15 quest 4449.2
+
+step Master Smith Burninate
+  zone map 1427
+  turnin 7722
+  turnin 7723
+  turnin 7724
+  turnin 7727
+  turnin 7728
+  turnin 7729
+
+step The Torch of Retribution
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3453
+  complete 3453 @39.1,39.0
+
+step The Torch of Retribution
+  turnin 3453
+
+step Velarok Windblade
+  accept 3454
+
+step Torch of Retribution
+  turnin 3454
+
+step The Key to Freedom
+  tip Grimesilt Outhouse Key drops from Dark Iron Steamsmith, Dark Iron Slaver, Dark Iron Taskmaster: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 11818 x1 optional
+  accept 4451 item 11818 optional
+
+step Velarok Windblade
+  accept 3462
+
+step Squire Maltrake
+  turnin 3462
+
+step Squire Maltrake
+  accept 3463
+
+step Squire Maltrake
+  complete 3463
+  turnin 3463
+
+step Hoard of the Black Dragonflight
+  accept 3481
+  turnin 3481
+
+step Lookout Captain Lolo Longstriker
+  when group 7701
+  zone map 1427
+  turnin 7701
+
+step Weathered Etching
+  zone map 1427
+  accept 81900
+
+step Wooden Outhouse
+  turnin 4449
+  accept 4450
+
+step The Key to Freedom
+  when onquest 4451
+  zone map 1427
+  turnin 4451
+
+step Goodsteel Ledger
+  zone map 1427
+  collect 11727 x1 quest 4450.1
+
+step Glassweb Spider
+  collect 11725 x20 quest 4450.2
+
+step Shadoweaver
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3379 optional
+  complete 3379 @41.0,75.0 optional
+
+step Shadoweaver
+  when skill Tailoring 1
+  zone map 1427
+  turnin 3379 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3385 optional
+  complete 3385 @41.0,75.0 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  zone map 1427
+  turnin 3385 optional
+
+step The Undermarket
+  when skill Tailoring 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  accept 3402 optional
+
+step Jarquia
+  zone map 1435
+  collect 11723 x1 quest 4450.4
+
+step Damaged Crate
+  zone map 1445
+  collect 11724 x1 quest 4450.3
+
+step Krinkle Goodsteel
+  zone map 1446
+  turnin 4450
+
+step The Undermarket
+  when skill Tailoring 1
+  zone map 1427
+  turnin 3402 optional
+
+step Owen Thadd
+  zone map 1458
+  turnin 81955
+
+step Bloodmage Lynnore
+  zone map 1419
+  turnin 81900
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Master of the Wild Leather
+  when onquest 2860
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 2860 optional
+
+step A Grim Discovery
+  when onquest 2976
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 2976 optional
+
+step The Gordunni Orb
+  when onquest 3002
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 3002 optional
+
+step A Strange Request
+  when onquest 3121
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 3121 optional
+
+step Zukk'ash Report
+  when onquest 7732
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 7732 optional
+
+step Mirrorscale
+  when onquest 97378
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 97378 optional

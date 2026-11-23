@@ -1,0 +1,386 @@
+guide completionist-horde/16-the-barrens-2
+title 16 The Barrens (18-35) (Completionist)
+faction Horde
+levels 18-35
+zone The Barrens
+next completionist-horde/dungeon-shadowfang-keep
+next completionist-horde/17-thousand-needles
+pitch On along the line: The Barrens, quests of level 18 to 35.
+# Generated from the reference data: change the planner, not this file.
+# Routed 37 quests; estimated level at the end 22.0 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N (done).
+
+step Apothecary Zamah
+  when onquest 1086
+  zone map 1456
+  turnin 1086
+
+step Tah Winterhoof
+  when onquest 97538
+  zone map 1456
+  turnin 97538
+
+step Mangletooth
+  zone map 1413
+  sethome "Camp Taurajo"
+  accept 878
+
+step Grunt Logmar
+  when group 97250
+  zone map 1413
+  accept 97250
+
+step Tatternack Steelforge
+  zone map 1413
+  accept 893
+
+step Owatanka
+  goto 44.2,62.0 "Owatanka"
+  accept 884 item 5102 -- Drops from Owatanka
+
+step Silithid Harvester
+  goto 42.0,70.0 "Silithid Harvester"
+  accept 897 item 5138 -- Drops from Silithid Harvester
+
+step Razormane Warfrenzy
+  collect 5094 x1 quest 893.3
+
+step Razormane Seer
+  collect 5092 x1 quest 893.2
+
+step Washte Pawne
+  goto 43.2,80.9 "Washte Pawne"
+  accept 885 item 5103 -- Drops from Washte Pawne
+
+step Razormane Pathfinder
+  collect 5093 x1 quest 893.1
+
+step Sulhasa
+  accept 98093
+
+step Stormhide
+  kill 3238 x7 quest 98093.2
+
+step Hecklefang Stalker
+  kill 4128 x7 quest 98093.1
+
+step Bristleback Thornweaver
+  kill 3261 x12 quest 878.2
+
+step The Orb of Soran'ruk
+  only Warlock
+  tip For Shadowfang Keep: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1413
+  accept 1740 optional
+
+step Bristleback Geomancer
+  zone map 1413
+  kill 3263 x12 quest 878.3
+
+step Bristleback Water Seeker
+  kill 3260 x6 quest 878.1
+
+step Tatternack Steelforge
+  turnin 893
+  turnin 884
+  turnin 885
+  turnin 897
+  turnin 878
+  accept 5052
+
+step Bristleback Geomancer
+  collect 5075 x1 quest 5052.1
+
+step Grish Longrunner
+  turnin 5881
+
+step Sulhasa
+  turnin 98093
+
+step Level 20
+  level 20
+
+step Jorn Skyseer
+  accept 1130
+
+step Gann Stonespire
+  accept 843
+
+step Bael'dun Excavator, Bael'dun Foreman and Prospector Khazgorm
+  kill 3374 x15 quest 843.1
+  kill 3375 x5 quest 843.2
+  collect 5006 x1 quest 843.3
+
+step Gann Stonespire
+  turnin 843
+  accept 846
+
+step Bael'dun Soldier
+  zone map 1445
+  collect 5017 x6 quest 846.1
+  collect 5018 x6 quest 846.2
+  collect 5019 x6 quest 846.3
+
+step Level 25
+  zone map 1413
+  level 25
+
+step Tatternack Steelforge
+  accept 1153
+
+step Gravelsnout Surveyor
+  zone map 1441
+  collect 5842 x1 quest 1153.1
+
+step Gann Stonespire
+  zone map 1413
+  turnin 846
+  accept 849
+
+step Bael Modan Flying Machine
+  interact 3644 quest 849.1
+
+step Gann Stonespire
+  turnin 849
+
+step Brave Moonhorn
+  accept 4542
+
+step Lakota Windsong
+  accept 4904
+
+step Feegly the Exiled
+  accept 857
+
+step General Twinbraid's Strongbox
+  zone map 1441
+  collect 5038 x1 quest 857.1
+
+step Feegly the Exiled
+  turnin 857
+
+step Burned-Out Remains
+  accept 79007
+
+step Level 30
+  zone map 1413
+  level 30
+
+step Hoofprints
+  accept 1268 object 21015
+
+step Krog
+  turnin 1268
+
+step Mangletooth
+  turnin 5052
+  accept 879
+
+step Kuz
+  collect 5074 x1 quest 879.1
+
+step Nak
+  collect 5073 x1 quest 879.2
+
+step Lok Orcbane
+  collect 5072 x1 quest 879.3
+
+step Encroaching Soldier and Outraged Pillager
+  when group 97250
+  tip Wrongly Blamed, Justly Corrected is group work: elites. Grouping up is advised.
+  zone map 1413
+  kill 268622 x1 quest 97250.1
+  kill 268623 x1 quest 97250.2
+
+step Grunt Logmar
+  when group 97250
+  zone map 1413
+  turnin 97250
+
+step Nazeer Bloodpike
+  zone map 1441
+  accept 1201
+
+step Theramore Infiltrator
+  zone map 1445
+  kill 4834 x9 quest 1201.1
+
+step Nazeer Bloodpike
+  zone map 1413
+  turnin 1201
+
+step Nazeer Bloodpike
+  accept 1202
+
+step Captain's Footlocker
+  zone map 1445
+  collect 5882 x1 quest 1202.1
+
+step Nazeer Bloodpike
+  zone map 1413
+  turnin 1202
+
+step Mangletooth
+  turnin 879
+  accept 906
+  turnin 1153
+
+step Falla Sagewind
+  accept 3369
+
+step The Glowing Shard
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 3366 direct @48.2,32.8 map 1413
+
+step Thork
+  turnin 906
+  accept 1145
+
+step Dig Rat Stew
+  when skill Cooking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  accept 862 optional
+  complete 862 @55.3,31.8 optional
+
+step Dig Rat Stew
+  when skill Cooking 1
+  zone map 1413
+  turnin 862 optional
+
+step Regthar Deathgate
+  zone map 1413
+  accept 1362
+  turnin 1361
+
+step Makaba Flathoof
+  complete 6523 @77.1,90.8 map 1442
+  turnin 6523
+  accept 6401
+
+step Felgur Twocuts
+  zone map 1443
+  turnin 1362
+
+step Tammra Windfield
+  zone map 1442
+  turnin 6401
+
+step Kadrak
+  when group 3514
+  zone map 1413
+  accept 3514
+
+step Rynthariel the Keymaster
+  when group 3514
+  tip Horde Presence is group work: elites. Grouping up is advised.
+  zone map 1442
+  kill 8518 x1 quest 3514.1
+
+step Kadrak
+  when group 3514
+  zone map 1413
+  turnin 3514
+
+step Sputtervalve
+  zone map 1413
+  turnin 1094
+  accept 1095
+
+step Chen's Empty Keg
+  when turnedin 821
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 4898 x5 anywhere optional
+  collect 4897 x1 anywhere optional
+  collect 4896 x1 anywhere optional
+  turnin 822 direct optional
+
+step Ziz Fizziks
+  zone map 1442
+  turnin 1095
+  accept 1096
+
+step Gerenzo Wrenchwhistle
+  collect 5736 x1 quest 1096.1
+
+step Ziz Fizziks
+  turnin 1096
+
+step Burned-Out Remains
+  zone map 1436
+  turnin 79007
+
+step Nailed Plank
+  accept 79192 object 424010
+
+step Quell the Silverwing Usurpers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 20558 x1 anywhere optional
+  turnin 7789 direct optional
+
+step Mark of Honor
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19322 x1 anywhere optional
+  turnin 7925 direct optional
+
+step Pocket Litter
+  zone map 1442
+  turnin 79192
+  accept 79980
+  turnin 79980
+  accept 79974
+
+step Report to Kadrak
+  when available 6542
+  tip One of several exclusive quests; the route takes Report to Kadrak (6541). This one shows for a character the game offers it to instead.
+  zone map 1442
+  accept 6542 optional
+
+step Report to Kadrak
+  when onquest 6542
+  zone map 1413
+  turnin 6542 optional
+
+step Carved Figurine
+  zone map 1432
+  turnin 79974
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Flying Machine Airport
+  when onquest 1086
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1086 optional
+
+step Further Instructions
+  when onquest 1094
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 1094 optional
+
+step Regthar Deathgate
+  when onquest 1361
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 1361 optional
+
+step Calling in the Reserves
+  when onquest 5881
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 5881 optional
+
+step Protect Kaya
+  when onquest 6523
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 6523 optional
+
+step Pigments for Paints
+  when onquest 97538
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 97538 optional

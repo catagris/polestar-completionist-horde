@@ -1,0 +1,157 @@
+guide completionist-horde/50-odd-jobs-in-kalimdor-4
+title 50 Odd jobs in Kalimdor (58-60) (Completionist)
+faction Horde
+levels 58-60
+zone Ashenvale
+next completionist-horde/51-moonglade
+pitch On along the line: errands across Kalimdor, quests of level 58 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 9 quests; estimated level at the end 58.3 (heuristic XP, class quests not counted).
+
+step Ralston Farnsley
+  when onquest 7818
+  zone map 1458
+  turnin 7818
+
+step Additional Runecloth
+  when onquest 7819
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1458
+  collect 14047 x20 anywhere optional
+  turnin 7819 direct optional
+
+step Rumstag Proudstrider
+  when onquest 7821
+  zone map 1456
+  turnin 7821
+  turnin 7822
+  accept 2965
+
+step Nara Wildmane
+  when onquest 2965
+  zone map 1456
+  turnin 2965
+  accept 2966
+
+step Uldum Pedestal
+  when onquest 2966
+  zone map 1446
+  turnin 2966
+
+step The Stone Watcher
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2954
+  complete 2954 @37.6,81.4
+
+step The Stone Watcher
+  when onquest 2954
+  zone map 1446
+  turnin 2954
+
+step Uldum Pedestal
+  zone map 1446
+  accept 2967
+
+step Brivelthwerp
+  zone map 1441
+  buy 7228 x1 npc 6496 -- for You Scream, I Scream...
+
+step Veteran of the Third War
+  accept 92102
+
+step Gorhak
+  zone map 1443
+  accept 92811
+
+step Gelkis Windchaser
+  collect 254432 x1 quest 92811.1
+
+step Molkar
+  accept 92812
+
+step Gelkis Windchaser
+  collect 254432 x1 quest 92812.1
+
+step Molkar
+  turnin 92812
+
+step Gorhak
+  turnin 92811
+
+step Trull Failbane
+  zone map 1439
+  accept 4741
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Moontouched Owlbeast
+  zone map 1452
+  kill 7453 x13 quest 4741.1
+
+step Trull Failbane
+  zone map 1439
+  turnin 4741
+  accept 4721
+
+step Berserk Owlbeast
+  zone map 1452
+  kill 7454 x10 quest 4721.1
+
+step Crazed Owlbeast
+  goto 65.2,61.1 "Crazed Owlbeast"
+  accept 4882 item 12558 -- Drops from Crazed Owlbeast
+
+step Trull Failbane
+  zone map 1439
+  turnin 4721
+  turnin 4882
+  accept 4883
+
+step Level 60
+  zone map 1438
+  level 60
+
+step Forest Wisp
+  accept 8734
+
+step Examine the Vessel
+  tip Vessel of Rebirth drops from Highlord Demitrian: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1444
+  collect 19016 x1 optional
+  accept 7785 item 19016 optional
+
+step Examine the Vessel
+  when onquest 7785
+  zone map 1444
+  turnin 7785
+
+step Clear the Forest!
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1440
+  turnin 79098 direct @37.8,66.4 map 1440
+
+step Brawl at the Maul
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1444
+  turnin 99233 direct @62,30.1 map 1444
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Runecloth
+  when onquest 7818
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 7818 optional
+
+step A Donation of Silk
+  when onquest 7821
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 7821 optional
+
+step A Donation of Mageweave
+  when onquest 7822
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 7822 optional

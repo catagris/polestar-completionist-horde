@@ -1,0 +1,68 @@
+guide completionist-horde/dungeon-shadowfang-keep
+title Shadowfang Keep (Completionist)
+faction Horde
+category Dungeons
+levels 18-27
+zone Silverpine Forest
+next completionist-horde/17-thousand-needles
+pitch Shadowfang Keep, in Silverpine Forest.
+why Every Horde quest of Shadowfang Keep: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Keeper Bel'dugur
+  zone map 1458
+  accept 1013
+
+step Getting there
+  zone map 1421
+  note The entrance is in Silverpine Forest: the arrow leads to it.
+
+step Dalar Dawnweaver
+  accept 1014
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  accept 78261
+
+step High Executor Hadrec
+  zone map 1421
+  accept 1098
+
+step Level 20
+  zone map 1413
+  level 20
+
+step Doan Karhan
+  only Warlock
+  zone map 1413
+  accept 1740
+
+step Inside Shadowfang Keep
+  zone map 1421
+  turnin 1098 @45,67.9
+  complete 1013 @45,67.9
+  complete 1014 @45,67.9
+
+step Inside Shadowfang Keep
+  only Rogue
+  zone map 1421
+  complete 78261 @45,67.9
+
+step Inside Shadowfang Keep
+  only Warlock
+  zone map 1421
+  complete 1740 @45,67.9
+
+step Dalar Dawnweaver
+  zone map 1421
+  turnin 1014
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  turnin 78261
+
+step Doan Karhan
+  only Warlock
+  zone map 1413
+  turnin 1740

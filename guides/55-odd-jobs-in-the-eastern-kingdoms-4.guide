@@ -1,0 +1,165 @@
+guide completionist-horde/55-odd-jobs-in-the-eastern-kingdoms-4
+title 55 Odd jobs in the Eastern Kingdoms (58-60) (Completionist)
+faction Horde
+levels 58-60
+zone Arathi Highlands
+next completionist-horde/56-durotar-and-orgrimmar-4
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 58 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 10 quests; estimated level at the end 58.1 (heuristic XP, class quests not counted).
+
+step Mokvar
+  only Hunter
+  when complete 8938
+  zone map 1454
+  turnin 8938
+
+step Mokvar
+  only Warrior
+  when complete 8944
+  zone map 1454
+  turnin 8944
+
+step Mokvar
+  only Priest
+  when complete 8940
+  zone map 1454
+  turnin 8940
+
+step Mokvar
+  only Rogue
+  when complete 8941
+  zone map 1454
+  turnin 8941
+
+step Mokvar
+  only Shaman
+  when complete 8942
+  zone map 1454
+  turnin 8942
+
+step Oran Snakewrithe
+  zone map 1458
+  accept 84396 npc 7825
+  accept 84397 npc 7825
+  accept 84398 npc 7825
+  accept 84399 npc 7825
+  accept 84400 npc 7825
+  accept 84401 npc 7825
+
+step Book
+  zone map 1422
+  accept 84402 object 463211
+
+step Book
+  collect 228141 x1 quest 84402.1
+
+step Book
+  accept 84395 object 463213
+
+step Book
+  collect 228132 x1 quest 84395.1
+
+step Oran Snakewrithe
+  zone map 1458
+  turnin 84395
+  turnin 84402
+
+step Book
+  zone map 1423
+  collect 228140 x1 quest 84401.1
+
+step Book
+  collect 228138 x1 quest 84400.1
+
+step Book
+  collect 228135 x1 quest 84398.1
+
+step Book
+  zone map 1452
+  collect 228136 x1 quest 84399.1
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Book
+  zone map 1448
+  collect 228134 x1 quest 84397.1
+
+step Book
+  zone map 1428
+  collect 228133 x1 quest 84396.1
+
+step Veteran of the Third War
+  zone map 1433
+  accept 93551
+
+step Night Watch Guard
+  zone map 1431
+  accept 98372
+  turnin 98372
+
+step Oran Snakewrithe
+  zone map 1458
+  turnin 84396
+  turnin 84397
+  turnin 84398
+  turnin 84399
+  turnin 84400
+  turnin 84401
+
+step Veteran of the Third War
+  zone map 2482
+  turnin 93551 @27.5,50.9 map 2482
+
+step Level 60
+  zone map 1417
+  level 60
+
+step Cut Arathor Supply Lines
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8299
+  complete 8299 @73.5,29.8
+
+step Cut Arathor Supply Lines
+  turnin 8299
+
+step More Resource Crates
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19725 x1 anywhere optional
+  turnin 8124 direct optional
+
+step Take Four Bases
+  tip Needs Friendly standing (3000) with The Defilers; without it the quest is not offered.
+  accept 8121 optional
+
+step Take Four Bases
+  when onquest 8121
+  zone map 1417
+  complete 8121 @73.7,29.5 optional
+
+step Take Four Bases
+  when onquest 8121
+  zone map 1417
+  turnin 8121 optional
+
+step Take Five Bases
+  when turnedin 8121
+  tip Needs Exalted standing (42000) with The Defilers; without it the quest is not offered.
+  zone map 1417
+  accept 8122 optional
+
+step Take Five Bases
+  when onquest 8122
+  zone map 1417
+  complete 8122 @73.7,29.5 optional
+
+step Take Five Bases
+  when onquest 8122
+  zone map 1417
+  turnin 8122 optional
+
+step More Resource Crates
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1417
+  collect 19725 x1 anywhere optional
+  turnin 8300 direct optional

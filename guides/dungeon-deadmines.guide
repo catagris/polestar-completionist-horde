@@ -1,0 +1,32 @@
+guide completionist-horde/dungeon-deadmines
+title Deadmines (Completionist)
+faction Horde
+category Dungeons
+levels 20-25
+zone Westfall
+pitch Deadmines, in Westfall.
+why Every Horde quest of Deadmines: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Westfall: the arrow leads to it.
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step A Moon-Kissed Blade
+  only Paladin,Undead
+  when turnedin 95034
+  zone map 1421
+  accept 95036 optional
+
+step A Moon-Kissed Blade
+  only Paladin,Undead
+  when onquest 95036
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1421
+  complete 95036 @43.4,41.0 optional
+
+step A Moon-Kissed Blade
+  only Paladin,Undead
+  when onquest 95036
+  zone map 1421
+  turnin 95036 optional

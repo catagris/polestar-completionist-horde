@@ -1,0 +1,257 @@
+guide completionist-horde/37-tirisfal-glades-and-the-undercity-3
+title 37 Tirisfal Glades and the Undercity (45-57) (Completionist)
+faction Horde
+levels 45-57
+zone Tirisfal Glades
+next completionist-horde/38-odd-jobs-in-the-eastern-kingdoms-3
+pitch On along the line: Tirisfal Glades and the Undercity, quests of level 45 to 57.
+# Generated from the reference data: change the planner, not this file.
+# Routed 17 quests; estimated level at the end 45.4 (heuristic XP, class quests not counted).
+# Skipped: 2 prerequisite N not in this route.
+
+step Belgrom Rockmaul
+  when onquest 91531
+  when onquest 3507
+  zone map 1454
+  turnin 3507
+  turnin 91531
+
+step Zevrost
+  when onquest 91547
+  zone map 1454
+  turnin 91547
+
+step Uthel'nay
+  when complete 7068
+  zone map 1454
+  turnin 7068
+
+step Chemist Cuely
+  when onquest 3568
+  zone map 1458
+  turnin 3568
+
+step Owen Thadd
+  when onquest 2782
+  zone map 1458
+  turnin 2782
+  accept 2995
+
+step Chemist Cuely
+  zone map 1458
+  accept 3569
+  turnin 3569
+  accept 3570
+  turnin 3570
+  accept 232
+
+step Alessandro Luca
+  turnin 232
+  accept 238
+
+step Oran Snakewrithe
+  accept 8273
+  turnin 8273
+
+step Apothecary Zinge
+  turnin 238
+  accept 243
+
+step Level 48
+  level 48
+
+step Chemist Fuely
+  accept 4294
+
+step Testing for Impurities - Un'Goro Crater
+  when onquest 4294
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1458
+  collect 12235 x1 anywhere optional
+  turnin 4561 direct optional
+
+step Testing Equipment
+  zone map 1458
+  collect 12236 x5 quest 4294.1
+
+step Chemist Fuely
+  turnin 4294
+
+step Chemist Fuely
+  accept 4293
+
+step Testing for Corruption - Felwood
+  when onquest 4293
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1458
+  collect 12230 x1 anywhere optional
+  turnin 4661 direct optional
+
+step Testing Equipment
+  zone map 1458
+  collect 12234 x5 quest 4293.1
+
+step Chemist Fuely
+  turnin 4293
+
+step Level 54
+  level 54
+
+step Harbinger Balthazad
+  accept 1004
+
+step Innkeeper Norman
+  accept 3784
+
+step Royal Overseer Bauhaus
+  accept 97007 @69.8,43.2 map 1458
+
+step Abigail Sawyer
+  turnin 97007 @54.7,38.8 map 1458
+
+step Arch Druid Hamuul Runetotem
+  zone map 1456
+  turnin 1004
+  turnin 3784
+
+step Highvale Report
+  zone map 1425
+  interact 144073 quest 2995.3
+
+step Highvale Records
+  interact 144071 quest 2995.1
+
+step Highvale Notes
+  interact 144072 quest 2995.2
+
+step Oran Snakewrithe
+  zone map 1458
+  accept 82208
+  turnin 82208
+
+step Gallows' End Tavern
+  zone map 1420
+  sethome "Gallows' End Tavern"
+
+step Mickey Levine
+  accept 5901
+
+step Large Termite Mound
+  zone map 1423
+  collect 15043 x100 quest 5901.1
+
+step Argent Officer Garush
+  zone map 1420
+  accept 5405
+  turnin 5405
+
+step Minion's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1420
+  collect 12840 x20 anywhere optional
+  turnin 5408 direct optional
+
+step Invader's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1420
+  collect 12841 x10 anywhere optional
+  turnin 5407 direct optional
+
+step Corruptor's Scourgestones
+  when turnedin 5401
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1420
+  collect 12843 x1 anywhere optional
+  turnin 5406 direct optional
+
+step Mickey Levine
+  zone map 1420
+  turnin 5901
+  accept 5902
+
+step Termite Barrel
+  zone map 1422
+  turnin 5902
+
+step Chief Engineer Bilgewhizzle
+  zone map 1446
+  turnin 243
+  accept 379
+
+step Wastewander Shadow Mage
+  collect 8483 x5 quest 379.1
+
+step Chief Engineer Bilgewhizzle
+  turnin 379
+
+step Tanaris Field Sampling
+  when has 8524
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1446
+  accept 654 item 8524
+
+step Tanaris Field Sampling
+  when onquest 654
+  zone map 1446
+  complete 654 @52.5,28.5
+
+step Tanaris Field Sampling
+  when onquest 654
+  zone map 1446
+  turnin 654
+
+step Return to Apothecary Zinge
+  when turnedin 654
+  zone map 1458
+  accept 864
+
+step Level 55
+  zone map 1420
+  level 55
+
+step Argent Officer Garush
+  accept 97319
+
+step Thark Gorax
+  zone map 2482
+  turnin 97319
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Rin'ji's Secret
+  when onquest 2782
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 2782 optional
+
+step Betrayed
+  when onquest 3507
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 3507 optional
+
+step Seeping Corruption
+  when onquest 3568
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 3568 optional
+
+step Shadowshard Fragments
+  when onquest 7068
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 7068 optional
+
+step Revenge Exacted
+  when onquest 91531
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 91531 optional
+
+step Sin'dorei Tome of Summoning
+  when onquest 91547
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 91547 optional

@@ -1,0 +1,115 @@
+guide completionist-horde/dungeon-uldaman-2
+title Uldaman, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 36-47
+zone Badlands
+next completionist-horde/dungeon-uldaman-2-2
+pitch Uldaman, in Badlands.
+why Every Horde quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step To the Undercity for Yagyin's Digest
+  when onquest 728
+  zone map 1458
+  turnin 728
+
+step Patrick Garrett
+  zone map 1458
+  turnin 2342
+
+step The Star, the Hand and the Heart
+  when turnedin 728
+  zone map 1458
+  accept 736
+
+step The Star, the Hand and the Heart
+  when onquest 736
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1458
+  complete 736 @53.7,54.5
+
+step The Star, the Hand and the Heart
+  when onquest 736
+  zone map 1458
+  turnin 736
+
+step Dran Droffers
+  zone map 1454
+  turnin 2283
+
+step Dran Droffers
+  accept 2284
+
+step Sage Truthseeker
+  zone map 1456
+  turnin 2280
+
+step Sage Truthseeker
+  accept 2440
+
+step Bena Winterhoof
+  turnin 2440
+
+step Forbidden Knowledge
+  when turnedin 736
+  zone map 1455
+  accept 737
+
+step Forbidden Knowledge
+  when onquest 737
+  zone map 1418
+  turnin 737
+
+step Inside Uldaman, again
+  zone map 1418
+  turnin 2284 @67.8,44.4
+
+step Inside Uldaman, again
+  accept 2318 @67.8,44.4
+
+step Jarkal Mossmeld
+  turnin 2318
+
+step Jarkal Mossmeld
+  accept 2338
+
+step Jarkal Mossmeld
+  turnin 2338
+
+step Jarkal Mossmeld
+  accept 2339
+
+step Inside Uldaman, again
+  complete 2339 @67.8,44.4
+
+step Jarkal Mossmeld
+  turnin 2339
+
+step Jarkal Mossmeld
+  accept 2340
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step To the Undercity for Yagyin's Digest
+  when onquest 728
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 728 optional
+
+step The Platinum Discs
+  when onquest 2280
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 2280 optional
+
+step Necklace Recovery
+  when onquest 2283
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 2283 optional
+
+step Reclaimed Treasures
+  when onquest 2342
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 2342 optional

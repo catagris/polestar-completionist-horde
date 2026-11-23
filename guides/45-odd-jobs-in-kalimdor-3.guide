@@ -1,0 +1,95 @@
+guide completionist-horde/45-odd-jobs-in-kalimdor-3
+title 45 Odd jobs in Kalimdor (47-56) (Completionist)
+faction Horde
+levels 47-56
+zone Ashenvale
+next completionist-horde/46-the-barrens-4
+pitch On along the line: errands across Kalimdor, quests of level 47 to 56.
+# Generated from the reference data: change the planner, not this file.
+# Routed 6 quests; estimated level at the end 47.4 (heuristic XP, class quests not counted).
+
+step The Brokering of Peace
+  when onquest 8485
+  zone map 1454
+  turnin 8485 optional
+
+step Dreka'Sur
+  zone map 1440
+  accept 6162
+
+step Overlord Ror
+  zone map 1448
+  collect 15879 x1 quest 6162.1
+
+step Dreka'Sur
+  zone map 1439
+  turnin 6162
+
+step Loh'atu
+  zone map 1440
+  accept 5535
+  accept 5536
+
+step Highborne Apparition
+  kill 6116 x6 quest 5535.1
+
+step Haldarr Satyr, Haldarr Trickster and Haldarr Felsworn
+  zone map 1447
+  kill 6125 x6 quest 5536.1
+  kill 6126 x2 quest 5536.2
+  kill 6127 x2 quest 5536.3
+
+step Highborne Lichling
+  kill 6117 x6 quest 5535.2
+
+step Level 49
+  zone map 1439
+  level 49
+
+step Winna Hazzard
+  accept 4505
+
+step Moonwell
+  collect 12567 x1 quest 4505.1
+
+step Winna Hazzard
+  turnin 4505
+
+step Winna Hazzard
+  accept 4506
+
+step Winna Hazzard
+  complete 4506 @34.3,52.3 map 1448
+  turnin 4506
+
+step Level 52
+  zone map 1440
+  level 52
+
+step Trull Failbane
+  accept 4521
+
+step Raging Owlbeast
+  zone map 1452
+  kill 7451 x15 quest 4521.1
+
+step Ragged Owlbeast
+  zone map 1448
+  kill 7450 x15 quest 4521.2
+
+step Trull Failbane
+  zone map 1439
+  turnin 4521
+
+step Loh'atu
+  zone map 1440
+  turnin 5535
+  turnin 5536
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Brokering of Peace
+  when onquest 8485
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 8485 optional

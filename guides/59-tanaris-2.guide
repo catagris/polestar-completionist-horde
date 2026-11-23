@@ -1,0 +1,552 @@
+guide completionist-horde/59-tanaris-2
+title 59 Tanaris (52-60) (Completionist)
+faction Horde
+levels 52-60
+zone Tanaris
+next completionist-horde/dungeon-dire-maul
+pitch On along the line: Tanaris, quests of level 52 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 20 quests; estimated level at the end 52.9 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N; 2 prerequisite N not in this route.
+
+step Rashona Straglash
+  when onquest 7824
+  zone map 1454
+  turnin 7824
+
+step Vehena
+  when onquest 7836
+  zone map 1454
+  turnin 7836
+
+step Tran'rek
+  zone map 1446
+  sethome "Gadgetzan"
+  accept 4504
+
+step War at Sea
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 4338 x40 anywhere optional
+  collect 3466 x4 anywhere optional
+  turnin 9268 direct optional
+
+step Wizzik Dustfizz
+  accept 96912
+  turnin 96912 @51.9,27.2 map 1446
+
+step Egg-O-Matic
+  accept 2741
+
+step Tar Lurker
+  zone map 1449
+  collect 11834 x12 quest 4504.1
+
+step Hippogryph Egg
+  zone map 1444
+  collect 8564 x1 quest 2741.1
+
+step Torwa Pathfinder
+  zone map 1446
+  accept 4289
+  accept 4290
+  accept 87492
+
+step Damaged Blue Crystal
+  zone map 1449
+  collect 280417 x1 quest 87492.1
+
+step Un'Goro Gorilla, Un'Goro Stomper and Un'Goro Thunderer
+  collect 11478 x2 quest 4289.1
+  collect 11479 x2 quest 4289.2
+  collect 11480 x2 quest 4289.3
+
+step Fresh Threshadon Carcass
+  collect 11504 x1 quest 4290.1
+
+step Torwa Pathfinder
+  zone map 1446
+  turnin 4289
+  turnin 4290
+  turnin 87492
+  accept 4291
+  accept 4301
+
+step Lar'korwi Mate
+  zone map 1449
+  collect 11509 x2 quest 4291.1
+
+step U'cha
+  collect 11476 x1 quest 4301.1
+
+step Torwa Pathfinder
+  zone map 1446
+  turnin 4291
+  turnin 4301
+  accept 4292
+
+step Lar'korwi
+  zone map 1449
+  collect 11510 x1 quest 4292.1
+
+step Torwa Pathfinder
+  zone map 1446
+  turnin 4292
+
+step Tran'rek
+  turnin 4504
+  turnin 2741
+
+step An Ordinary Egg
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8645 x1 anywhere optional
+  turnin 2749 direct optional
+
+step A Fine Egg
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8644 x1 anywhere optional
+  turnin 2748 direct optional
+
+step An Extraordinary Egg
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8643 x1 anywhere optional
+  turnin 2747 direct optional
+
+step Gaeriyan
+  accept 3913
+
+step A Conspicuous Gravestone
+  turnin 3913
+  accept 3914
+
+step Linken
+  zone map 1449
+  turnin 3914
+  accept 3941
+
+step J.D. Collie
+  turnin 3941
+  accept 3942
+
+step Eridan Bluewind
+  zone map 1448
+  turnin 3942
+  accept 4084
+
+step Felpaw Wolf
+  zone map 1440
+  collect 11172 x11 quest 4084.1
+
+step Irontree Stomper
+  zone map 1448
+  collect 11173 x1 quest 4084.2
+
+step Eridan Bluewind
+  turnin 4084
+  accept 4005
+
+step Aquementas
+  zone map 1446
+  collect 11522 x1 quest 4005.1
+
+step J.D. Collie
+  zone map 1449
+  turnin 4005
+  accept 3961
+
+step Linken
+  turnin 3961
+
+step Linken
+  when group 3962
+  zone map 1449
+  accept 3962
+
+step Blazerunner and Ornate Chest
+  when group 3962
+  tip It's Dangerous to Go Alone is group work: elites. Grouping up is advised.
+  zone map 1449
+  kill 9376 x1 quest 3962.1
+  collect 11179 x1 quest 3962.2
+
+step Linken
+  when group 3962
+  zone map 1449
+  turnin 3962
+
+step A Blue Light Bargain
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7652 optional
+
+step A Blue Light Bargain
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7652 optional
+
+step Imperial Plate Belt
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7653 optional
+  complete 7653 @51.4,28.7 optional
+
+step Imperial Plate Belt
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7653 optional
+
+step Imperial Plate Boots
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7654 optional
+  complete 7654 @51.4,28.7 optional
+
+step Imperial Plate Boots
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7654 optional
+
+step Imperial Plate Bracer
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7655 optional
+  complete 7655 @51.4,28.7 optional
+
+step Imperial Plate Bracer
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7655 optional
+
+step Imperial Plate Chest
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7656 optional
+  complete 7656 @51.4,28.7 optional
+
+step Imperial Plate Chest
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7656 optional
+
+step Imperial Plate Helm
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7657 optional
+  complete 7657 @51.4,28.7 optional
+
+step Imperial Plate Helm
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7657 optional
+
+step Imperial Plate Leggings
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7658 optional
+  complete 7658 @51.4,28.7 optional
+
+step Level 60
+  zone map 1446
+  level 60
+
+step Anachronos
+  accept 8747
+  turnin 8747
+
+step The Path of the Invoker
+  when available 8757
+  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
+  zone map 1446
+  accept 8757 optional
+
+step The Path of the Invoker
+  when onquest 8757
+  zone map 1446
+  turnin 8757 optional
+
+step The Path of the Conqueror
+  when available 8752
+  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
+  zone map 1446
+  accept 8752 optional
+
+step The Path of the Conqueror
+  when onquest 8752
+  zone map 1446
+  turnin 8752 optional
+
+step Meridith the Mermaiden
+  when onquest 8597
+  zone map 1446
+  accept 8599
+
+step Narain Soothfancy
+  when onquest 8597
+  zone map 1446
+  turnin 8599
+
+step The Path of the Invoker
+  when available 8758
+  tip One of several exclusive quests; the route takes The Path of the Protector (8748). This one shows for a character the game offers it to instead.
+  when turnedin 8757
+  tip Needs Friendly standing (3000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8758 optional
+
+step The Path of the Invoker
+  when onquest 8758
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8758 @65.3,50.0 optional
+
+step The Path of the Invoker
+  when onquest 8758
+  zone map 1446
+  turnin 8758 optional
+
+step The Path of the Invoker
+  when available 8759
+  tip One of several exclusive quests; the route takes The Path of the Protector (8749). This one shows for a character the game offers it to instead.
+  when turnedin 8758
+  tip Needs Honored standing (9000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8759 optional
+
+step The Path of the Invoker
+  when onquest 8759
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8759 @65.3,50.0 optional
+
+step The Path of the Invoker
+  when onquest 8759
+  zone map 1446
+  turnin 8759 optional
+
+step The Path of the Invoker
+  when available 8760
+  tip One of several exclusive quests; the route takes The Path of the Protector (8750). This one shows for a character the game offers it to instead.
+  when turnedin 8759
+  tip Needs Revered standing (21000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8760 optional
+
+step The Path of the Invoker
+  when onquest 8760
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8760 @65.3,50.0 optional
+
+step The Path of the Invoker
+  when onquest 8760
+  zone map 1446
+  turnin 8760 optional
+
+step The Grand Invoker
+  when available 8761
+  tip One of several exclusive quests; the route takes The Protector of Kalimdor (8751). This one shows for a character the game offers it to instead.
+  when turnedin 8760
+  tip Needs Exalted standing (42000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8761 optional
+
+step The Grand Invoker
+  when onquest 8761
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8761 @65.3,50.0 optional
+
+step The Grand Invoker
+  when onquest 8761
+  zone map 1446
+  turnin 8761 optional
+
+step The Path of the Conqueror
+  when available 8753
+  tip One of several exclusive quests; the route takes The Path of the Protector (8748). This one shows for a character the game offers it to instead.
+  when turnedin 8752
+  tip Needs Friendly standing (3000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8753 optional
+
+step The Path of the Conqueror
+  when onquest 8753
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8753 @65.3,50.0 optional
+
+step The Path of the Conqueror
+  when onquest 8753
+  zone map 1446
+  turnin 8753 optional
+
+step The Path of the Conqueror
+  when available 8754
+  tip One of several exclusive quests; the route takes The Path of the Protector (8749). This one shows for a character the game offers it to instead.
+  when turnedin 8753
+  tip Needs Honored standing (9000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8754 optional
+
+step The Path of the Conqueror
+  when onquest 8754
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8754 @65.3,50.0 optional
+
+step The Path of the Conqueror
+  when onquest 8754
+  zone map 1446
+  turnin 8754 optional
+
+step The Path of the Conqueror
+  when available 8755
+  tip One of several exclusive quests; the route takes The Path of the Protector (8750). This one shows for a character the game offers it to instead.
+  when turnedin 8754
+  tip Needs Revered standing (21000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8755 optional
+
+step The Path of the Conqueror
+  when onquest 8755
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8755 @65.3,50.0 optional
+
+step The Path of the Conqueror
+  when onquest 8755
+  zone map 1446
+  turnin 8755 optional
+
+step The Qiraji Conqueror
+  when available 8756
+  tip One of several exclusive quests; the route takes The Protector of Kalimdor (8751). This one shows for a character the game offers it to instead.
+  when turnedin 8755
+  tip Needs Exalted standing (42000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8756 optional
+
+step The Qiraji Conqueror
+  when onquest 8756
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8756 @65.3,50.0 optional
+
+step The Qiraji Conqueror
+  when onquest 8756
+  zone map 1446
+  turnin 8756 optional
+
+step Imperial Plate Leggings
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7658 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Imperial Plate Shoulders
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7659 optional
+  complete 7659 @51.4,28.7 optional
+
+step Imperial Plate Shoulders
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7659 optional
+
+step The Path of the Protector
+  when available 8748
+  tip One of several exclusive quests; the route takes The Path of the Conqueror (8753). This one shows for a character the game offers it to instead.
+  tip Needs Friendly standing (3000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8748 optional
+
+step The Path of the Protector
+  when onquest 8748
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8748 @65.3,50.0 optional
+
+step The Path of the Protector
+  when onquest 8748
+  zone map 1446
+  turnin 8748 optional
+
+step The Path of the Protector
+  when available 8749
+  tip One of several exclusive quests; the route takes The Path of the Conqueror (8754). This one shows for a character the game offers it to instead.
+  when turnedin 8748
+  tip Needs Honored standing (9000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8749 optional
+
+step The Path of the Protector
+  when onquest 8749
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8749 @65.3,50.0 optional
+
+step The Path of the Protector
+  when onquest 8749
+  zone map 1446
+  turnin 8749 optional
+
+step The Path of the Protector
+  when available 8750
+  tip One of several exclusive quests; the route takes The Path of the Conqueror (8755). This one shows for a character the game offers it to instead.
+  when turnedin 8749
+  tip Needs Revered standing (21000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8750 optional
+
+step The Path of the Protector
+  when onquest 8750
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8750 @65.3,50.0 optional
+
+step The Path of the Protector
+  when onquest 8750
+  zone map 1446
+  turnin 8750 optional
+
+step The Protector of Kalimdor
+  when available 8751
+  tip One of several exclusive quests; the route takes The Qiraji Conqueror (8756). This one shows for a character the game offers it to instead.
+  when turnedin 8750
+  tip Needs Exalted standing (42000) with Brood of Nozdormu; without it the quest is not offered.
+  zone map 1446
+  accept 8751 optional
+
+step The Protector of Kalimdor
+  when onquest 8751
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 8751 @65.3,50.0 optional
+
+step The Protector of Kalimdor
+  when onquest 8751
+  zone map 1446
+  turnin 8751 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Runecloth
+  when onquest 7824
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 7824 optional
+
+step A Donation of Runecloth
+  when onquest 7836
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 7836 optional

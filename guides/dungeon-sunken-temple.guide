@@ -1,0 +1,320 @@
+guide completionist-horde/dungeon-sunken-temple
+title Sunken Temple (Completionist)
+faction Horde
+category Dungeons
+levels 50-60
+zone Swamp of Sorrows
+next completionist-horde/dungeon-alcaz-prison
+next completionist-horde/47-eastern-plaguelands
+pitch Sunken Temple, in Swamp of Sorrows.
+why Every Horde quest of Sunken Temple: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Swamp of Sorrows: the arrow leads to it.
+
+step The Prophecy of Mosh'aru
+  zone Tanaris
+  accept 3527
+
+step The Prophecy of Mosh'aru
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone Tanaris
+  complete 3527 @66.99,22.36
+
+step The Prophecy of Mosh'aru
+  zone Tanaris
+  turnin 3527
+
+step The Ancient Egg
+  zone Tanaris
+  accept 4787
+
+step The Ancient Egg
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone Tanaris
+  complete 4787 @66.99,22.36
+
+step The Ancient Egg
+  zone Tanaris
+  turnin 4787
+
+step Fel'zerul
+  zone Swamp of Sorrows
+  accept 1445
+
+step Liv Rizzlefix
+  zone The Barrens
+  accept 4146
+
+step Atal'ai Exile
+  zone The Hinterlands
+  accept 1446
+
+step Witch Doctor Uzer'i
+  zone Feralas
+  accept 3380
+
+step Yeh'kinya
+  zone Tanaris
+  accept 3528
+
+step Inside Sunken Temple
+  zone Swamp of Sorrows
+  collect 10454 @69.9,53.5
+  accept 3373 item 10454
+  complete 1445 @69.9,53.5
+  complete 4146 @69.9,53.5
+  complete 1446 @69.9,53.5
+  complete 3528 @69.9,53.5
+  turnin 3373 @69.9,53.5
+
+step Fel'zerul
+  zone Swamp of Sorrows
+  turnin 1445
+
+step Atal'ai Exile
+  zone The Hinterlands
+  turnin 1446
+
+step Marvon Rivetseeker
+  zone Tanaris
+  turnin 3380
+
+step Yeh'kinya
+  zone Tanaris
+  turnin 3528
+
+step Larion
+  zone Un'Goro Crater
+  turnin 4146
+
+step Bloodpetal Zapper
+  zone map 1449
+  accept 4148
+
+step Bloodpetal Zapper
+  when onquest 4148
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1449
+  complete 4148 @45.5,8.7
+
+step Bloodpetal Zapper
+  when onquest 4148
+  zone map 1449
+  turnin 4148
+
+step The Stone Circle
+  zone Tanaris
+  accept 3444
+
+step The Stone Circle
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone Tanaris
+  complete 3444 @52.71,45.92
+
+step The Stone Circle
+  zone Tanaris
+  turnin 3444
+
+step Marvon Rivetseeker
+  zone Tanaris
+  accept 3446
+  accept 3447
+
+step A Better Ingredient
+  only Druid
+  when turnedin 9051
+  zone map 1446
+  accept 9053 optional
+
+step A Better Ingredient
+  only Druid
+  when onquest 9053
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  complete 9053 @27.5,42.7 optional
+
+step A Better Ingredient
+  only Druid
+  when onquest 9053
+  zone map 1446
+  turnin 9053 optional
+
+step Inside Sunken Temple, again
+  zone Swamp of Sorrows
+  turnin 3446 @69.9,53.5
+  turnin 3447 @69.9,53.5
+
+step The Essence of Eranikus
+  tip Oathstone of Ysera's Dragonflight drops from Itharius: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1435
+  collect 10589 x1 optional
+  accept 3374 item 10589 optional
+
+step Voodoo Feathers
+  only Warrior
+  when turnedin 8424
+  zone map 1435
+  accept 8425 optional
+
+step Voodoo Feathers
+  only Warrior
+  when onquest 8425
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1435
+  complete 8425 @34.3,66.1 optional
+
+step Voodoo Feathers
+  only Warrior
+  when onquest 8425
+  zone map 1435
+  turnin 8425 optional
+
+step The Essence of Eranikus
+  when onquest 3374
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1435
+  complete 3374 @13.7,71.7
+
+step The Essence of Eranikus
+  when onquest 3374
+  zone map 1435
+  turnin 3374
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step The Green Drake
+  only Hunter
+  when turnedin 8231
+  zone map 1447
+  accept 8232 optional
+
+step The Green Drake
+  only Hunter
+  when onquest 8232
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8232 @42.4,42.6 optional
+
+step The Green Drake
+  only Hunter
+  when onquest 8232
+  zone map 1447
+  turnin 8232 optional
+
+step The Azure Key
+  only Rogue
+  when turnedin 8235
+  zone map 1447
+  accept 8236 optional
+
+step The Azure Key
+  only Rogue
+  when onquest 8236
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8236 @29.2,40.2 optional
+
+step The Azure Key
+  only Rogue
+  when onquest 8236
+  zone map 1416
+  turnin 8236 optional
+
+step Destroy Morphaz
+  only Mage
+  when turnedin 8252
+  zone map 1447
+  accept 8253 optional
+
+step Destroy Morphaz
+  only Mage
+  when onquest 8253
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8253 @29.2,40.2 optional
+
+step Destroy Morphaz
+  only Mage
+  when onquest 8253
+  zone map 1447
+  turnin 8253 optional
+
+step Blood of Morphaz
+  only Priest
+  when turnedin 8256
+  zone map 1447
+  accept 8257 optional
+
+step Blood of Morphaz
+  only Priest
+  when onquest 8257
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 8257 @42.4,42.6 optional
+
+step Blood of Morphaz
+  only Priest
+  when onquest 8257
+  zone map 1448
+  turnin 8257 optional
+
+step Da Voodoo
+  only Shaman
+  when turnedin 8412
+  zone map 1416
+  accept 8413 optional
+
+step Da Voodoo
+  only Shaman
+  when onquest 8413
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1416
+  complete 8413 @80.5,66.9 optional
+
+step Da Voodoo
+  only Shaman
+  when onquest 8413
+  zone map 1416
+  turnin 8413 optional
+
+step Trolls of a Feather
+  only Warlock
+  when turnedin 8421
+  zone map 1448
+  accept 8422 optional
+
+step Trolls of a Feather
+  only Warlock
+  when onquest 8422
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1448
+  complete 8422 @41.4,45.0 optional
+
+step Trolls of a Feather
+  only Warlock
+  when onquest 8422
+  zone map 1448
+  turnin 8422 optional
+
+step Level 60
+  level 60
+
+step Eranikus, Tyrant of the Dream
+  when turnedin 8555
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1435
+  accept 8733 @69.9,53.5
+
+step Eranikus, Tyrant of the Dream
+  when onquest 8733
+  zone map 1438
+  turnin 8733
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Zapper Fuel
+  when onquest 4146
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1449
+  turnin 4146 optional

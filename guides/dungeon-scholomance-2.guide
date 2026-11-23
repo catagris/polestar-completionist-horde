@@ -1,0 +1,176 @@
+guide completionist-horde/dungeon-scholomance-2
+title Scholomance, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 58-60
+zone Western Plaguelands
+next completionist-horde/54-searing-gorge-2
+pitch Scholomance, in Western Plaguelands.
+why Every Horde quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Return to Mokvar
+  zone map 1454
+  turnin 8978
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  accept 8927
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8927 @34.95,38.29
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  turnin 8927
+
+step In Search of Anthion
+  zone map 1454
+  accept 8930
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  accept 8938
+
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8938 @34.95,38.29
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  turnin 8938
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  accept 8939
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8939 @34.95,38.29
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  turnin 8939
+
+step Just Compensation
+  only Priest
+  zone map 1454
+  accept 8940
+
+step Just Compensation
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8940 @34.95,38.29
+
+step Just Compensation
+  only Priest
+  zone map 1454
+  turnin 8940
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  accept 8941
+
+step Just Compensation
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8941 @34.95,38.29
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  turnin 8941
+
+step Just Compensation
+  only Shaman
+  zone map 1454
+  accept 8942
+
+step Just Compensation
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8942 @34.95,38.29
+
+step Just Compensation
+  only Shaman
+  zone map 1454
+  turnin 8942
+
+step Mokvar
+  only Warlock
+  zone map 1454
+  accept 8943
+
+step Mokvar
+  only Druid
+  zone map 1454
+  turnin 8913
+
+step Mokvar
+  only Shaman
+  zone map 1454
+  turnin 8918
+
+step Anthion's Parting Words
+  only Warlock
+  when onquest 9021
+  zone map 1454
+  turnin 9021 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when onquest 9020
+  zone map 1454
+  turnin 9020 optional
+
+step Anthion's Parting Words
+  only Mage
+  when onquest 9018
+  zone map 1454
+  turnin 9018 optional
+
+step In Search of Anthion
+  when onquest 8930
+  zone map 1423
+  turnin 8930
+
+step Inside Scholomance
+  only Warlock
+  zone map 1422
+  complete 8943 @69.9,74
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Anthion's Parting Words
+  when onquest 9018
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9018 optional
+
+step Anthion's Parting Words
+  when onquest 9020
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9020 optional
+
+step Anthion's Parting Words
+  when onquest 9021
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9021 optional

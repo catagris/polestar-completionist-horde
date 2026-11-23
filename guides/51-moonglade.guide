@@ -1,0 +1,176 @@
+guide completionist-horde/51-moonglade
+title 51 Moonglade (55-60) (Completionist)
+faction Horde
+levels 55-60
+zone Moonglade
+next completionist-horde/52-mount-hyjal
+pitch On along the line: Moonglade, quests of level 55 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 14 quests; estimated level at the end 55.6 (heuristic XP, class quests not counted).
+
+step Nara Wildmane
+  when onquest 2967
+  zone map 1456
+  turnin 2967
+
+step Nara Wildmane
+  zone map 1456
+  accept 2968
+
+step Sage Truthseeker
+  when onquest 2968
+  zone map 1456
+  turnin 2968
+
+step Nara Wildmane
+  when onquest 4883
+  zone map 1456
+  turnin 4883
+
+step Arch Druid Hamuul Runetotem
+  zone map 1456
+  accept 1123
+
+step Moonglade
+  zone map 1450
+  getfp "Moonglade"
+
+step Keeper Remulos
+  turnin 8734
+
+step Rabine Saturna
+  turnin 1123
+  accept 1124
+
+step Level 60
+  zone map 1425
+  level 60
+
+step Ysondre
+  accept 8446 item 20644 -- Drops from Ysondre
+
+step Keeper Remulos
+  zone map 1450
+  turnin 8446
+
+step Keeper Remulos
+  accept 8447
+
+step Rabine Saturna
+  accept 5527
+
+step Dusty Reliquary
+  zone map 1451
+  collect 22201 x1 quest 5527.1
+
+step Rabine Saturna
+  zone map 1450
+  turnin 5527
+
+step Keeper Remulos
+  when group 8735
+  zone map 1450
+  accept 8735
+
+step Keeper Remulos
+  zone map 1425
+  complete 8447 @40,48.6 map 1450
+  turnin 8447
+
+step Emeraldon Boughguard
+  when group 8735
+  tip The Nightmare's Corruption is group work: elites. Grouping up is advised.
+  zone map 1440
+  collect 21147 x1 quest 8735.1
+
+step Jademir Oracle
+  when group 8735
+  tip The Nightmare's Corruption is group work: elites. Grouping up is advised.
+  zone map 1444
+  collect 21148 x1 quest 8735.3
+
+step Twilight Corrupter
+  when group 8735
+  tip The Nightmare's Corruption is group work: elites. Grouping up is advised.
+  zone map 1431
+  collect 21149 x1 quest 8735.2
+
+step Verdantine Boughguard
+  when group 8735
+  tip The Nightmare's Corruption is group work: elites. Grouping up is advised.
+  zone map 1425
+  collect 21146 x1 quest 8735.4
+
+step Keeper Remulos
+  when group 8735
+  zone map 1425
+  turnin 8735
+
+step Keeper Remulos
+  zone map 1425
+  accept 8736
+
+step Keeper Remulos
+  complete 8736 @51.8,36.4 map 1450
+  turnin 8736
+  accept 8741
+
+step Layo Starstrike
+  zone map 1449
+  turnin 1124
+  accept 1125
+
+step Tortured Druid and Tortured Sentinel
+  zone map 1451
+  kill 12178 x8 quest 1125.1
+  kill 12179 x8 quest 1125.2
+
+step Layo Starstrike
+  zone map 1449
+  turnin 1125
+  accept 1126
+
+step Hive'Ashi Ambusher
+  zone map 1451
+  collect 17346 x1 quest 1126.1
+
+step Layo Starstrike
+  zone map 1449
+  turnin 1126
+  accept 6844
+
+step Anachronos
+  zone map 1446
+  turnin 8741
+
+step Umber
+  zone map 1450
+  turnin 6844
+  accept 6845
+
+step Rabine Saturna
+  turnin 6845
+
+step Umber
+  accept 1185
+  turnin 1185
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to Thunder Bluff
+  when onquest 2967
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 2967 optional
+
+step Guarding Secrets
+  when onquest 4883
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 4883 optional
+
+step Tyrande and Remulos
+  when onquest 8734
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1450
+  turnin 8734 optional

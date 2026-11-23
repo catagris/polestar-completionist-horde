@@ -1,0 +1,247 @@
+guide completionist-horde/24-the-barrens-3
+title 24 The Barrens (35-47) (Completionist)
+faction Horde
+levels 35-47
+zone The Barrens
+next completionist-horde/25-durotar-and-orgrimmar-3
+pitch On along the line: The Barrens, quests of level 35 to 47.
+# Generated from the reference data: change the planner, not this file.
+# Routed 27 quests; estimated level at the end 37.4 (heuristic XP, class quests not counted).
+# Skipped: 1 profession.
+
+step Camp Taurajo
+  sethome "Camp Taurajo"
+
+step Gazlowe
+  accept 1180
+  accept 1112
+  accept 98906
+  turnin 98906
+
+step Membership Card Renewal
+  when turnedin 3639
+  when skill Engineering 200
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  turnin 3646 direct optional
+
+step Gnome Engineering
+  when available 3637
+  tip One of several exclusive quests; the route takes Goblin Engineering (3526). This one shows for a character the game offers it to instead.
+  when skill Engineering 200
+  zone map 1413
+  accept 3637 optional
+
+step Musty Scroll
+  zone map 1413
+  turnin 625
+
+step Black Shield
+  accept 1251
+
+step Level 38
+  level 38
+
+step Tharg
+  accept 1168
+
+step Firemane Scout, Firemane Ash Tail and Firemane Scalebane
+  kill 4329 x10 quest 1168.1
+  kill 4331 x10 quest 1168.2
+  kill 4328 x5 quest 1168.3
+
+step Krak
+  accept 98192
+
+step Bloodfen Razormaw
+  zone map 1445
+  collect 279601 x8 quest 98192.1
+
+step Overlord Mok'Morokk
+  zone map 1413
+  accept 1166
+
+step Mok'Morokk's Strongbox
+  collect 5836 x1 quest 1166.3
+
+step Mok'Morokk's Grog
+  zone map 1445
+  collect 5835 x1 quest 1166.2
+
+step Mok'Morokk's Snuff
+  collect 5834 x1 quest 1166.1
+
+step Theramore Guard Badge
+  accept 1269
+
+step Draz'Zilb
+  zone map 1413
+  accept 1169
+
+step Searing Hatchling
+  collect 5840 x15 quest 1169.1
+  collect 5841 x15 quest 1169.2
+
+step Mudcrush Durtfeet
+  accept 1177
+
+step Mirefin Muckdweller
+  collect 5847 x12 quest 1177.1
+
+step Tharg
+  turnin 1168
+  turnin 98192
+  turnin 1166
+  turnin 1251
+  turnin 1269
+  accept 1321
+  turnin 1321
+  accept 1322
+
+step Darkfang Lurker
+  collect 5959 x6 quest 1322.1
+
+step Do'gol
+  turnin 1322
+  accept 1323
+  turnin 1323
+  turnin 1169
+  accept 1170
+  turnin 1170
+  accept 1171
+  accept 1262
+
+step Draz'Zilb
+  turnin 1171
+  accept 1172
+
+step Egg of Onyxia
+  zone map 1445
+  interact 20359 quest 1172.1
+
+step Questioning Reethe
+  tip The place is where players were recorded finishing it.
+  accept 1273
+  complete 1273 @42.6,38.1
+
+step Mudcrush Durtfeet
+  zone map 1413
+  turnin 1177
+  turnin 1172
+
+step Questioning Reethe
+  turnin 1273
+
+step Krog
+  accept 1276
+
+step Overlord Mok'Morokk
+  zone map 1456
+  accept 1173
+
+step Draz'Zilb
+  zone map 1413
+  complete 1173 @36.4,31.4 map 1445
+  turnin 1173
+
+step Outrider Basic Care Package
+  tip Needs Friendly standing (3000) with Warsong Outriders; without it the quest is not offered.
+  accept 7866 optional
+
+step Mark of Honor
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 19322 x1 anywhere optional
+  turnin 7923 direct optional
+
+step Quell the Silverwing Usurpers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 20558 x1 anywhere optional
+  turnin 7875 direct optional
+
+step Outrider Standard Care Package
+  when available 7867
+  tip One of several exclusive quests; the route takes Outrider Basic Care Package (7866). This one shows for a character the game offers it to instead.
+  tip Needs Friendly standing (3000) with Warsong Outriders; without it the quest is not offered.
+  zone map 1413
+  accept 7867 optional
+
+step Mark of Honor
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 19322 x1 anywhere optional
+  turnin 7924 direct optional
+
+step Outrider Standard Care Package
+  when onquest 7867
+  zone map 1413
+  turnin 7867 optional
+
+step Outrider Basic Care Package
+  when onquest 7866
+  zone map 1413
+  turnin 7866 optional
+
+step Kravel Koalbeard
+  zone map 1441
+  turnin 1112
+  accept 1114
+  turnin 1114
+  accept 1115
+
+step Wharfmaster Lozgil
+  zone map 1434
+  turnin 1180
+  accept 1181
+
+step Baron Revilgaz
+  turnin 1181
+  accept 1182
+  turnin 1115
+  accept 1116
+
+step Gnome Engineering
+  when onquest 3637
+  zone map 1434
+  turnin 3637 optional
+
+step Cozzle's Footlocker
+  zone map 1434
+  collect 5852 x1 quest 1182.1
+
+step Dreaming Whelp
+  zone map 1435
+  collect 5803 x10 quest 1116.1
+
+step Baron Revilgaz
+  zone map 1434
+  turnin 1182
+  accept 1183
+  turnin 1116
+  accept 1117
+
+step Kravel Koalbeard
+  zone map 1441
+  turnin 1117
+
+step Pozzik
+  turnin 1183
+
+step Goblin Engineering
+  when available 3633
+  tip One of several exclusive quests; the route takes Goblin Engineering (3526). This one shows for a character the game offers it to instead.
+  when skill Engineering 200
+  zone map 1413
+  accept 3633 optional
+
+step Goblin Engineering
+  when onquest 3633
+  zone map 1446
+  turnin 3633 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Cortello's Riddle
+  when onquest 625
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 625 optional

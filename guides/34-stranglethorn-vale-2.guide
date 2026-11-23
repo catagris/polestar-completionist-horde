@@ -1,0 +1,640 @@
+guide completionist-horde/34-stranglethorn-vale-2
+title 34 Stranglethorn Vale (34-60) (Completionist)
+faction Horde
+levels 34-60
+zone Stranglethorn Vale
+next completionist-horde/35-azshara
+pitch On along the line: Stranglethorn Vale, quests of level 34 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 25 quests; estimated level at the end 35.8 (heuristic XP, class quests not counted).
+# Skipped: 3 profession; 2 exclusive with N.
+
+step Zilzibin Drumlore
+  when onquest 32
+  zone map 1454
+  turnin 32
+
+step Level 50
+  zone map 1454
+  level 50
+
+step Zilzibin Drumlore
+  accept 4494
+
+step Booty Bay or Bust!
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 2757 optional
+
+step Ghede
+  when onquest 3761
+  zone map 1456
+  turnin 3761
+
+step Gnome Engineering
+  when available 3635
+  tip One of several exclusive quests; the route takes Goblin Engineering (3526). This one shows for a character the game offers it to instead.
+  when skill Engineering 200
+  zone map 1458
+  accept 3635 optional
+
+step Alchemist Pestlezugg
+  when onquest 4494
+  zone map 1446
+  turnin 4494
+
+step Alchemist Pestlezugg
+  zone map 1446
+  accept 4496
+
+step Troll Temper
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 3042 optional
+
+step Divino-matic Rod
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2768 optional
+
+step Gorishi Worker
+  zone map 1449
+  collect 11837 x1 quest 4496.1
+
+step Un'Goro Dirt Pile
+  collect 11018 x5 quest 4496.2
+
+step Alchemist Pestlezugg
+  when onquest 4496
+  zone map 1446
+  turnin 4496
+
+step Alchemist Pestlezugg
+  zone map 1446
+  accept 4507
+
+step Gorishi Hive Queen
+  zone map 1449
+  collect 11835 x1 quest 4507.1
+
+step Alchemist Pestlezugg
+  when onquest 4507
+  zone map 1446
+  turnin 4507
+
+step Alchemist Pestlezugg
+  zone map 1446
+  accept 4509
+
+step "Sea Wolf" MacKinley
+  zone map 1444
+  sethome "Booty Bay"
+  turnin 2874
+  complete 2767 @45.6,43.4 map 1444
+  turnin 2767
+
+step Tran'rek
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1434
+  accept 2864 optional
+
+step Tip the Scales - Dezian Queenfish
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 97067 direct optional
+
+step Tip the Scales - Brownell's Blue Striped Racer
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 97066 direct optional
+
+step Tip the Scales - Keefer's Angelfish
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 97065 direct optional
+
+step Membership Card Renewal
+  when turnedin 3639
+  when skill Engineering 200
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  turnin 3645 direct optional
+
+step The Pledge of Secrecy
+  when available 3642
+  tip One of several exclusive quests; the route takes The Pledge of Secrecy (3638). This one shows for a character the game offers it to instead.
+  when turnedin 3635
+  when skill Engineering 200
+  zone map 1434
+  accept 3642 optional
+
+step Fool's Stout
+  when turnedin 1122
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 4016 x12 anywhere optional
+  turnin 1127 direct optional
+
+step Arena Treasure Chest
+  zone map 1434
+  goto 30.5,47.9 "Arena Treasure Chest"
+  accept 7810 item 18706 -- Found in Arena Treasure Chest
+
+step Level 40
+  level 40
+
+step Whiskey Slim
+  accept 580
+
+step The Pledge of Secrecy
+  when onquest 3642
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 3642 @28.4,76.3 optional
+
+step The Pledge of Secrecy
+  when onquest 3642
+  zone map 1434
+  turnin 3642 optional
+
+step Pupellyverbos Port
+  zone map 1425
+  collect 3900 x1 quest 580.1
+
+step Fin Fizracket
+  zone map 1434
+  accept 348
+
+step Show Your Work
+  when available 3643
+  tip One of several exclusive quests; the route takes The Pledge of Secrecy (3638). This one shows for a character the game offers it to instead.
+  when turnedin 3642
+  when skill Engineering 200
+  zone map 1434
+  accept 3643 optional
+
+step Stranglethorn Fever
+  when onquest 348
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 2799 x10 anywhere optional
+  turnin 349 direct optional
+
+step Mokk the Savage
+  zone map 1434
+  collect 2797 x1 quest 348.1
+
+step Fin Fizracket
+  turnin 348
+
+step Show Your Work
+  when onquest 3643
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 3643 @28.4,76.3 optional
+
+step Show Your Work
+  when onquest 3643
+  zone map 1434
+  turnin 3643 optional
+
+step "Sea Wolf" MacKinley
+  zone map 1434
+  accept 2872
+
+step Level 55
+  level 55
+
+step Pix Xizzix
+  accept 83934
+  turnin 83934
+
+step Half-Buried Bottle
+  accept 594 item 4098 -- Found in Half-Buried Bottle
+
+step Mok'rash
+  accept 8552 item 3985 -- Drops from Mok'rash
+
+step Captain Hecklebury Smotts
+  turnin 8552
+
+step Avast Ye, Scallywag
+  tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
+  accept 1036 optional
+
+step Traitor to the Bloodsail
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 4306 x40 anywhere optional
+  collect 2604 x4 anywhere optional
+  turnin 9259 direct optional
+
+step The Captain's Cutlass
+  when available 8553
+  tip One of several exclusive quests; the route takes The Captain's Cutlass (615). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 8553 optional
+
+step Captain Hecklebury Smotts
+  when group 8551
+  zone map 1434
+  accept 8551
+
+step The Captain's Cutlass
+  when onquest 8553
+  zone map 1434
+  turnin 8553 optional
+
+step Facing Negolash
+  when available 8554
+  tip One of several exclusive quests; the route takes Facing Negolash (618). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 8554 optional
+
+step Enticing Negolash
+  when onquest 8554
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 4457 x10 anywhere optional
+  collect 4595 x5 anywhere optional
+  turnin 619 direct optional
+
+step Mok'rash
+  zone map 1434
+  accept 620 item 3985 -- Drops from Mok'rash
+
+step Captain Hecklebury Smotts
+  turnin 620
+
+step Facing Negolash
+  when onquest 8554
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 8554 @26.7,73.6 optional
+
+step Facing Negolash
+  when onquest 8554
+  zone map 1434
+  turnin 8554 optional
+
+step Whiskey Slim
+  zone map 1434
+  turnin 580
+
+step Princess Poobah
+  turnin 594
+
+step Princess Poobah
+  when group 630
+  zone map 1434
+  accept 630
+
+step King Mukla
+  when group 630
+  tip Message in a Bottle is group work: elites. Grouping up is advised.
+  zone map 1434
+  collect 4103 x1 quest 630.1
+
+step Princess Poobah
+  when group 630
+  zone map 1434
+  turnin 630
+
+step Fleet Master Firallon
+  zone map 1434
+  accept 9272
+  turnin 9272
+
+step Avast Ye, Admiral!
+  tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
+  accept 4621 optional
+
+step Avast Ye, Admiral!
+  when onquest 4621
+  zone map 1434
+  complete 4621 @27.2,76.9 optional
+
+step Avast Ye, Admiral!
+  when onquest 4621
+  zone map 1434
+  turnin 4621 optional
+
+step Avast Ye, Scallywag
+  when onquest 1036
+  zone map 1434
+  turnin 1036 optional
+
+step Short John Mithril
+  zone map 1434
+  turnin 7810
+
+step Arena Grandmaster
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18706 x12 anywhere optional
+  turnin 7838 direct optional
+
+step Nimboya
+  accept 581
+
+step Bloodscalp Scout
+  collect 3901 x9 quest 581.1
+
+step Nimboya
+  turnin 581
+  accept 582
+
+step Bloodscalp Headhunter
+  collect 1532 x20 quest 582.1
+
+step Nimboya
+  turnin 582
+  accept 584
+
+step Gan'zulah and Nezzliok the Dire
+  collect 3904 x1 quest 584.1
+  collect 3905 x1 quest 584.2
+
+step Bubbling Cauldron
+  turnin 584
+  accept 585
+  accept 586
+
+step Ziata'jai Trophy Skulls
+  collect 3907 x1 quest 585.2
+
+step Ana'thek the Cruel
+  collect 3909 x1 quest 586.4
+
+step Skullsplitter Hunter
+  kill 669 x8 quest 586.1
+
+step Skullsplitter Headhunter and Skullsplitter Berserker
+  kill 781 x6 quest 586.2
+  kill 783 x4 quest 586.3
+
+step Zul'Mamwe Trophy Skulls
+  collect 3908 x1 quest 585.3
+
+step Balia'mah Trophy Skulls
+  collect 3906 x1 quest 585.1
+
+step Bubbling Cauldron
+  turnin 585
+  turnin 586
+  accept 588
+  turnin 588
+  accept 589
+
+step Tribal Leatherworking
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 5148 optional
+  complete 5148 @36.5,34.1 optional
+
+step Tribal Leatherworking
+  when skill Leatherworking 1
+  zone map 1434
+  turnin 5148 optional
+
+step Ironjaw Basilisk
+  zone map 1434
+  collect 3911 x3 quest 589.1
+
+step Kin'weelay
+  turnin 589
+
+step Kin'weelay
+  when group 591
+  zone map 1434
+  accept 591
+
+step Mai'Zoth
+  when group 591
+  tip The Mind's Eye is group work: elites. Grouping up is advised.
+  zone map 1434
+  collect 3616 x1 quest 591.1
+
+step Kin'weelay
+  when group 591
+  zone map 1434
+  turnin 591
+
+step Kin'weelay
+  when turnedin 591
+  zone map 1434
+  accept 592 optional
+
+step Filling the Soul Gem
+  when onquest 592
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 3912 x1 anywhere optional
+  turnin 593 direct optional
+
+step Yenniku
+  when onquest 592
+  zone map 1434
+  collect 3913 x1 quest 592.1
+
+step Nimboya
+  when onquest 592
+  turnin 592
+
+step Stoley
+  zone map 1446
+  turnin 2872
+
+step The Prophecy of Mosh'aru
+  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 3527 optional
+
+step Booty Bay or Bust!
+  when skill Blacksmithing 1
+  zone map 1454
+  turnin 2757 optional
+
+step The Mithril Order
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2760 optional
+
+step The Mithril Order
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2760 optional
+
+step Smelt On, Smelt Off
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2761 optional
+  complete 2761 @50.6,20.5 optional
+
+step Smelt On, Smelt Off
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2761 optional
+
+step Galvan's Finest Pupil
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2764 optional
+
+step Galvan's Finest Pupil
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2764 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step A Good Head On Your Shoulders
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2771 optional
+  complete 2771 @51.4,28.8 optional
+
+step A Good Head On Your Shoulders
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2771 optional
+
+step The World At Your Feet
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2772 optional
+  complete 2772 @51.4,28.8 optional
+
+step The World At Your Feet
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2772 optional
+
+step The Mithril Kid
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2773 optional
+  complete 2773 @51.4,28.8 optional
+
+step The Mithril Kid
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 2773 optional
+
+step Did You Lose This?
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 3321 optional
+  complete 3321 @51.4,28.8 optional
+
+step Did You Lose This?
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 3321 optional
+
+step The Great Silver Deceiver
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2762 optional
+  complete 2762 @50.6,20.5 optional
+
+step The Great Silver Deceiver
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2762 optional
+
+step The Art of the Imbue
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2763 optional
+  complete 2763 @50.6,20.5 optional
+
+step The Art of the Imbue
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2763 optional
+
+step Expert Blacksmith!
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  accept 2765 optional
+  complete 2765 @50.6,20.5 optional
+
+step Expert Blacksmith!
+  when skill Blacksmithing 1
+  zone map 1434
+  turnin 2765 optional
+
+step Gnome Engineering
+  when onquest 3635
+  zone map 1434
+  turnin 3635 optional
+
+step Facing Negolash
+  when available 618
+  tip One of several exclusive quests; the route takes Facing Negolash (8554). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 618 optional
+
+step Facing Negolash
+  when onquest 618
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 618 @26.7,73.6 optional
+
+step Gorlash
+  when group 8551
+  tip The Captain's Chest is group work: elites. Grouping up is advised.
+  zone map 1434
+  collect 3932 x1 quest 8551.1
+
+step Captain Hecklebury Smotts
+  when group 8551
+  zone map 1434
+  turnin 8551
+
+step Facing Negolash
+  when onquest 618
+  zone map 1434
+  turnin 618 optional
+
+step The Captain's Cutlass
+  when available 615
+  tip One of several exclusive quests; the route takes The Captain's Cutlass (8553). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 615 optional
+
+step The Captain's Cutlass
+  when onquest 615
+  zone map 1434
+  turnin 615 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Rise of the Silithid
+  when onquest 32
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 32 optional
+
+step Rescue OOX-22/FE!
+  when onquest 2767
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 2767 optional
+
+step Deliver to MacKinley
+  when onquest 2874
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 2874 optional
+
+step Un'Goro Soil
+  when onquest 3761
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 3761 optional

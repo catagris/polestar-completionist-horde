@@ -1,0 +1,28 @@
+guide completionist-horde/dungeon-uldaman-2-2
+title Uldaman, the second run, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 36-47
+zone Badlands
+next completionist-horde/30-shendralas
+pitch Uldaman, in Badlands.
+why Every Horde quest of Uldaman: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Dran Droffers
+  zone map 1454
+  turnin 2340
+
+step Dran Droffers
+  accept 2341
+
+step Jarkal Mossmeld
+  zone map 1418
+  turnin 2341
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Deliver the Gems
+  when onquest 2340
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 2340 optional

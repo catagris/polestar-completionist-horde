@@ -1,0 +1,273 @@
+guide completionist-horde/38-odd-jobs-in-the-eastern-kingdoms-3
+title 38 Odd jobs in the Eastern Kingdoms (45-56) (Completionist)
+faction Horde
+levels 45-56
+zone Badlands
+next completionist-horde/dungeon-blackrock-depths
+next completionist-horde/39-swamp-of-sorrows-2
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 45 to 56.
+# Generated from the reference data: change the planner, not this file.
+# Routed 12 quests; estimated level at the end 45.5 (heuristic XP, class quests not counted).
+# Skipped: 2 profession; 1 exclusive with N (done); 1 exploration objective has no location in data.
+
+step Oran Snakewrithe
+  when onquest 2995
+  zone map 1458
+  turnin 2995
+
+step Return to Apothecary Zinge
+  when onquest 864
+  zone map 1458
+  turnin 864
+
+step Vivian Lagrave
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1458
+  accept 4133 optional
+
+step Book
+  zone map 1428
+  accept 81953 object 441251
+
+step Book
+  collect 220349 x1 quest 81953.1
+
+step Level 52
+  zone map 1418
+  level 52
+
+step Hierophant Theodora Mulvadania
+  accept 4061
+
+step KILL ON SIGHT: Dark Iron Dwarves
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4081 optional
+
+step War Reaver
+  zone map 1428
+  collect 11266 x10 quest 4061.1
+
+step Thal'trak Proudtusk
+  zone map 1418
+  accept 3821
+
+step Thunderheart
+  when group 3906
+  zone map 1418
+  accept 3906
+
+step Overmaster Pyron
+  when group 3906
+  tip Disharmony of Flame is group work: elites. Grouping up is advised.
+  zone map 1427
+  kill 9026 x1 quest 3906.1
+
+step Maxwort Uberglint
+  zone map 1428
+  accept 4296
+
+step The Heart of the Mountain
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4123 optional
+
+step Tablet of the Seven
+  collect 11470 x1 quest 4296.1
+
+step Maxwort Uberglint
+  zone map 1418
+  turnin 4296
+
+step Tinkee Steamboil
+  accept 4726
+
+step Broodling Essence
+  collect 12283 x8 quest 4726.1
+
+step Tinkee Steamboil
+  turnin 4726
+
+step Tinkee Steamboil
+  zone map 1428
+  accept 4808
+
+step Sha'ni Proudtusk
+  turnin 3821
+  accept 3822
+
+step Krom'Grul
+  collect 11058 x1 quest 3822.1
+
+step A Taste of Flame
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 4022
+  complete 4022 @95.1,31.6
+
+step A Taste of Flame
+  when available 4023
+  tip One of several exclusive quests; the route takes A Taste of Flame (4022). This one shows for a character the game offers it to instead.
+  zone map 1428
+  accept 4023 optional
+
+step A Taste of Flame
+  zone map 1428
+  turnin 4022
+
+step Ever After
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  turnin 82062 direct @35.8,19.8 map 1428
+
+step A Taste of Flame
+  when onquest 4023
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1428
+  complete 4023 @95.1,31.6 optional
+
+step A Taste of Flame
+  when onquest 4023
+  zone map 1428
+  turnin 4023 optional
+
+step Theldurin the Lost
+  when group 656
+  zone map 1418
+  accept 656
+
+step Myzrael
+  when group 656
+  tip Summoning the Princess is group work: elites. Grouping up is advised.
+  zone map 1417
+  collect 4473 x1 quest 656.1
+
+step Shards of Myzrael
+  when group 656
+  zone map 1417
+  turnin 656
+
+step Elder Torntusk
+  when group 7846
+  zone map 1417
+  accept 7846
+
+step Hitah'ya the Keeper
+  when group 7846
+  tip Recover the Key! is group work: elites. Grouping up is advised.
+  zone map 1417
+  collect 19064 x1 quest 7846.1
+
+step Elder Torntusk
+  when group 7846
+  zone map 1417
+  turnin 7846
+
+step Elder Torntusk
+  when turnedin 7846
+  zone map 1417
+  accept 7847 optional
+
+step Cut Arathor Supply Lines
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8123
+  complete 8123 @73.5,29.8
+
+step The Battle for Arathi Basin!
+  when available 8120
+  tip One of several exclusive quests; the route takes The Battle for Arathi Basin! (8169). This one shows for a character the game offers it to instead.
+  zone map 1417
+  accept 8120 optional
+
+step Cut Arathor Supply Lines
+  zone map 1417
+  turnin 8123
+
+step The Battle for Arathi Basin!
+  when onquest 8120
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
+  complete 8120 @73.2,29.7 optional
+
+step The Battle for Arathi Basin!
+  when onquest 8120
+  zone map 1417
+  turnin 8120 optional
+
+step Elemental Leatherworking
+  when available 5146
+  tip One of several exclusive quests; the route takes Dragonscale Leatherworking (5145). This one shows for a character the game offers it to instead.
+  when skill Leatherworking 225
+  zone map 1417
+  accept 5146 optional
+
+step Elemental Leatherworking
+  when onquest 5146
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
+  complete 5146 @28.3,45.1 optional
+
+step Elemental Leatherworking
+  when onquest 5146
+  zone map 1417
+  turnin 5146 optional
+
+step Primal Torntusk
+  when onquest 7847
+  zone map 1425
+  turnin 7847
+
+step Owen Thadd
+  zone map 1458
+  turnin 81953
+
+step Hierophant Theodora Mulvadania
+  zone map 1418
+  turnin 4061
+  accept 4062
+  turnin 3822
+
+step Thunderheart
+  when group 3906
+  zone map 1418
+  turnin 3906
+
+step Lotwil Veriatus
+  zone map 1418
+  turnin 4062
+
+step The Rise of the Machines
+  tip For Blackrock Depths: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4063 optional
+
+step Dragonscale Leatherworking
+  when available 5145
+  tip One of several exclusive quests; the route takes Tribal Leatherworking (5148). This one shows for a character the game offers it to instead.
+  when skill Leatherworking 225
+  zone map 1418
+  accept 5145 optional
+
+step Dragonscale Leatherworking
+  when onquest 5145
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  complete 5145 @62.7,57.4 optional
+
+step Dragonscale Leatherworking
+  when onquest 5145
+  zone map 1418
+  turnin 5145 optional
+
+step Felnok Steelspring
+  zone map 1452
+  turnin 4808
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to Apothecary Zinge
+  when onquest 864
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 864 optional
+
+step Lines of Communication
+  when onquest 2995
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 2995 optional

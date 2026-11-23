@@ -1,0 +1,91 @@
+guide completionist-horde/dungeon-razorfen-kraul
+title Razorfen Kraul (Completionist)
+faction Horde
+category Dungeons
+levels 26-36
+zone The Barrens
+next completionist-horde/18-dustwallow-marsh
+pitch Razorfen Kraul, in The Barrens.
+why Every Horde quest of Razorfen Kraul: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Level 29
+  zone map 1456
+  level 29
+
+step Auld Stonespire
+  accept 1102
+
+step Level 30
+  zone map 1458
+  level 30
+
+step Master Apothecary Faranell
+  accept 1109
+
+step Getting there
+  zone map 1413
+  note The entrance is in The Barrens: the arrow leads to it.
+
+step Mebok Mizzyrix
+  accept 1221
+
+step Inside Razorfen Kraul
+  accept 1144 @42.5,90
+  collect 17008 @42.5,90
+  accept 6522 item 17008
+  complete 1221 @42.5,90
+  complete 1144 @42.5,90
+  turnin 1144 @42.5,90
+  complete 1109 @42.5,90
+  complete 1102 @42.5,90
+
+step Mebok Mizzyrix
+  turnin 1221
+
+step Brutal Armor
+  only Warrior
+  when turnedin 1824
+  zone map 1413
+  accept 1838 optional
+
+step Brutal Armor
+  only Warrior
+  when onquest 1838
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 1838 @57.2,30.3 optional
+
+step Brutal Armor
+  only Warrior
+  when onquest 1838
+  zone map 1413
+  turnin 1838 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Elemental Aid
+  only Shaman
+  when turnedin 1531
+  zone map 1441
+  accept 79360 optional
+
+step Elemental Aid
+  only Shaman
+  when onquest 79360
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1441
+  complete 79360 @53.5,42.6 optional
+
+step Elemental Aid
+  only Shaman
+  when onquest 79360
+  zone map 1441
+  turnin 79360 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Blueleaf Tubers
+  when onquest 1221
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1413
+  turnin 1221 optional

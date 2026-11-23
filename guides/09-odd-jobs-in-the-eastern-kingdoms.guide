@@ -1,0 +1,336 @@
+guide completionist-horde/09-odd-jobs-in-the-eastern-kingdoms
+title 09 Odd jobs in the Eastern Kingdoms (15-25) (Completionist)
+faction Horde
+levels 15-25
+zone Arathi Highlands
+next completionist-horde/10-the-barrens
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 15 to 25.
+# Generated from the reference data: change the planner, not this file.
+# Routed 15 quests; estimated level at the end 16.0 (heuristic XP, class quests not counted).
+
+step Bethor Iceshard
+  when onquest 411
+  zone map 1458
+  turnin 411
+
+step Master Apothecary Faranell
+  when onquest 447
+  zone map 1458
+  turnin 447
+  accept 450
+
+step Gordon Wendham
+  when onquest 6322
+  zone map 1458
+  turnin 6323 only Undead
+  accept 6322 only Undead
+  turnin 6322 only Undead
+  accept 6324 only Undead
+
+step Wand to Bethor
+  when onquest 491
+  zone map 1458
+  turnin 491
+
+step Alessandro Luca
+  zone map 1458
+  accept 97891
+
+step Doctor Martin Felben
+  turnin 97891
+
+step Owen Thadd
+  accept 79095 npc 211022
+
+step Cairne Bloodhoof
+  when onquest 775
+  zone map 1456
+  turnin 775
+
+step Cairne Bloodhoof
+  zone map 1456
+  accept 776
+
+step Arra'chea
+  zone map 1412
+  collect 4841 x1 quest 776.1
+
+step Berard's Bookshelf
+  zone map 1421
+  collect 3255 x1 quest 450.1
+
+step Apothecary Renferrel
+  when onquest 424
+  zone map 1421
+  turnin 443
+  turnin 450
+  accept 444
+  accept 451
+  turnin 424
+
+step Dalar Dawnweaver
+  when group 99
+  zone map 1421
+  accept 99
+
+step Vile Fin Lakestalker
+  zone map 1416
+  collect 3258 x1 quest 451.3
+
+step Lake Skulker
+  zone map 1421
+  collect 3256 x6 quest 451.1
+
+step Lake Creeper
+  collect 3257 x6 quest 451.2
+
+step Pyrewood Sentry
+  when group 99
+  tip Arugal's Folly is group work: elites. Grouping up is advised.
+  zone map 1421
+  collect 3218 x6 quest 99.1
+
+step Dalar Dawnweaver
+  when onquest 99
+  when group 99
+  zone map 1421
+  turnin 99
+
+step Dalar Dawnweaver
+  zone map 1421
+  accept 98299
+
+step Dalar Dawnweaver
+  when onquest 449
+  zone map 1421
+  accept 98298
+  turnin 449
+  accept 3221
+  turnin 6324 only Undead
+
+step Haggard Refugee and Sickly Refugee
+  zone map 1421
+  kill 2053 x5 quest 98299.1
+  kill 2054 x5 quest 98299.2
+
+step Moonrage Bloodhowler
+  collect 280375 x6 quest 98298.1
+
+step Dalar Dawnweaver
+  when onquest 98298
+  zone map 1421
+  turnin 98298
+  turnin 98299
+
+step Scrolls
+  zone map 1437
+  accept 78146 object 409717
+
+step Scrolls
+  collect 209848 x1 quest 78146.1
+
+step Library Book
+  zone map 1455
+  accept 79091 object 386691
+
+step Library Book
+  collect 203754 x1 quest 79091.1
+
+step Gnomish Tome
+  zone map 1432
+  accept 79093 object 408014
+
+step Gnomish Tome
+  collect 208860 x1 quest 79093.1
+
+step Scrolls
+  accept 78148 object 409731
+
+step Scrolls
+  collect 209850 x1 quest 78148.1
+
+step Shawn
+  zone map 1433
+  accept 3741
+
+step Glinting Mud
+  collect 10958 x1 quest 3741.1
+
+step Hilary
+  turnin 3741
+
+step Library Book
+  zone map 1429
+  accept 79092 object 386759
+
+step Library Book
+  collect 203755 x1 quest 79092.1
+
+step Spellbook
+  zone map 1436
+  accept 78142 object 409562
+
+step Spellbook
+  collect 209845 x1 quest 78142.1
+
+step Captain Grayson
+  accept 103
+  accept 104
+  accept 152
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Old Murk-Eye
+  collect 3636 x1 quest 104.1
+
+step Murloc Tidehunter and Murloc Oracle
+  kill 127 x7 quest 152.3
+  kill 517 x7 quest 152.4
+
+step Murloc Warrior
+  kill 171 x7 quest 152.2
+
+step Murloc Coastrunner
+  kill 126 x7 quest 152.1
+
+step Harvest Reaper
+  collect 814 x5 quest 103.1
+
+step Captain Grayson
+  turnin 103
+  turnin 104
+  turnin 152
+
+step Captain Sander's Hidden Treasure
+  tip Captain Sander's Treasure Map drops from Murloc Coastrunner, Murloc Tidehunter, Murloc Warrior: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 1357 x1 optional
+  accept 136 item 1357 optional
+
+step Captain Sander's Hidden Treasure
+  when onquest 136
+  zone map 1436
+  turnin 136
+
+step Captain Sander's Hidden Treasure
+  when turnedin 136
+  zone map 1436
+  accept 138
+
+step Captain Sander's Hidden Treasure
+  when onquest 138
+  zone map 1436
+  turnin 138
+
+step Captain Sander's Hidden Treasure
+  when turnedin 138
+  zone map 1436
+  accept 139
+
+step Captain Sander's Hidden Treasure
+  when onquest 139
+  zone map 1436
+  turnin 139
+
+step Captain Sander's Hidden Treasure
+  when turnedin 139
+  zone map 1436
+  accept 140
+
+step Captain Sander's Hidden Treasure
+  when onquest 140
+  zone map 1436
+  turnin 140
+
+step Owen Thadd
+  zone map 1458
+  turnin 78142
+  turnin 78146
+  turnin 78148
+  turnin 79091
+  turnin 79092
+  turnin 79093
+  accept 78150
+
+step Owen Thadd
+  turnin 78150
+
+step Apothecary Society Primer
+  zone map 1420
+  collect 208185 x1 quest 79095.1
+
+step Magistrate Sevren
+  accept 441
+
+step Owen Thadd
+  zone map 1458
+  turnin 79095
+
+step Level 20
+  zone map 1417
+  level 20
+
+step Cut Arathor Supply Lines
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8162
+  complete 8162 @73.5,29.8
+
+step Cut Arathor Supply Lines
+  turnin 8162
+
+step The Battle for Arathi Basin!
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8171
+  complete 8171 @73.2,29.7
+
+step The Battle for Arathi Basin!
+  turnin 8171
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Prodigal Lich Returns
+  when onquest 411
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 411 optional
+
+step Arugal's Folly
+  when onquest 424
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 424 optional
+
+step Rot Hide Ichor
+  when onquest 443
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 443 optional
+
+step A Recipe For Death
+  when onquest 447
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 447 optional
+
+step The Deathstalkers' Report
+  when onquest 449
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1421
+  turnin 449 optional
+
+step Wand to Bethor
+  when onquest 491
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 491 optional
+
+step Journey into Thunder Bluff
+  when onquest 775
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 775 optional
+
+step Ride to the Undercity
+  when onquest 6323
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 6323 optional

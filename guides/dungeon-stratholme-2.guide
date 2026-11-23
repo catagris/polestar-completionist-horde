@@ -1,0 +1,151 @@
+guide completionist-horde/dungeon-stratholme-2
+title Stratholme, the second run (Completionist)
+faction Horde
+category Dungeons
+levels 57-60
+zone Eastern Plaguelands
+next completionist-horde/48-tirisfal-glades-and-the-undercity-4
+pitch Stratholme, in Eastern Plaguelands.
+why Every Horde quest of Stratholme: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Mokvar
+  only Druid
+  zone map 1454
+  turnin 8913
+
+step Return to Mokvar
+  zone map 1454
+  turnin 8978
+
+step Mokvar
+  only Warrior
+  zone map 1454
+  accept 8944
+
+step Mokvar
+  only Warlock
+  zone map 1454
+  accept 8943
+
+step Mokvar
+  only Priest
+  zone map 1454
+  accept 8940
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  accept 8939
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8939 @34.95,38.29
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  turnin 8939
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  accept 8938
+
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8938 @34.95,38.29
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  turnin 8938
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  accept 8927
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8927 @34.95,38.29
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  turnin 8927
+
+step Mokvar
+  only Shaman
+  zone map 1454
+  turnin 8918
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  accept 8941
+
+step Just Compensation
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8941 @34.95,38.29
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  turnin 8941
+
+step Just Compensation
+  only Shaman
+  zone map 1454
+  accept 8942
+
+step Just Compensation
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 8942 @34.95,38.29
+
+step Just Compensation
+  only Shaman
+  zone map 1454
+  turnin 8942
+
+step Mokvar
+  only Hunter
+  zone map 1454
+  turnin 8914
+
+step Mokvar
+  only Priest
+  zone map 1454
+  turnin 8916
+
+step Inside Stratholme
+  only Warrior
+  zone map 1423
+  complete 8944 @26.3,18.3
+
+step Inside Stratholme
+  only Warlock
+  zone map 1423
+  complete 8943 @26.3,18.3
+
+step Inside Stratholme
+  only Priest
+  zone map 1423
+  complete 8940 @26.3,18.3
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to Mokvar
+  when onquest 8978
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 8978 optional

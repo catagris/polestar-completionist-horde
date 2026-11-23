@@ -1,0 +1,298 @@
+guide completionist-horde/18-dustwallow-marsh
+title 18 Dustwallow Marsh (35-45) (Completionist)
+faction Horde
+levels 35-45
+zone Dustwallow Marsh
+next completionist-horde/19-arathi-highlands
+pitch On along the line: Dustwallow Marsh, quests of level 35 to 45.
+# Generated from the reference data: change the planner, not this file.
+# Routed 10 quests; estimated level at the end 37.1 (heuristic XP, class quests not counted).
+# Skipped: 1 exclusive with N (done).
+
+step Melor Stonehoof
+  when onquest 1131
+  zone map 1456
+  turnin 1131
+
+step Magatha Grimtotem
+  when onquest 5062
+  zone map 1456
+  turnin 5062
+
+step Magatha Grimtotem
+  when group 5088
+  zone map 1456
+  accept 5088
+
+step Auld Stonespire
+  when complete 1102
+  zone map 1456
+  turnin 1102
+
+step Melor Stonehoof
+  zone map 1456
+  accept 1205
+
+step Belgrom Rockmaul
+  when onquest 1184
+  zone map 1454
+  turnin 1184
+
+step Nogg
+  when complete 2841
+  zone map 1454
+  turnin 2841
+
+step Nogg
+  when onquest 2949
+  zone map 1454
+  turnin 2949
+
+step You Too Good.
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 6608 optional
+
+step Parqual Fintallas
+  when onquest 1159
+  zone map 1458
+  turnin 1159
+
+step Calder Gray
+  when onquest 97985
+  when group 97985
+  zone map 1458
+  turnin 97985
+
+step Doctor Martin Felben
+  when complete 96988
+  zone map 1458
+  turnin 96988
+
+step Master Apothecary Faranell
+  when complete 1109
+  zone map 1458
+  turnin 1109
+
+step Varimathras
+  when onquest 6522
+  zone map 1458
+  turnin 6522
+
+step Owen Thadd
+  zone map 1458
+  accept 79952 npc 211022
+
+step Arikara and Sacred Fire of Life
+  when group 5088
+  tip Arikara is group work: elites. Grouping up is advised.
+  zone map 1413
+  collect 12925 x1 quest 5088.1
+  interact 175944 quest 5088.2
+
+step Motega Firemane
+  when onquest 5088
+  when group 5088
+  zone map 1441
+  turnin 5088
+
+step Brackenwall Village
+  zone map 1445
+  getfp "Brackenwall Village"
+
+step Loose Dirt
+  accept 1238
+  accept 1218
+
+step Jarl Needs a Blade
+  when available 81570
+  tip One of several exclusive quests; the route takes Jarl Needs a Blade (1203). This one shows for a character the game offers it to instead.
+  zone map 1445
+  accept 81570 optional
+
+step Banalash
+  zone map 1435
+  buy 3713 x3 npc 989 -- for Soothing Spices
+
+step Waterlogged Book
+  zone map 1445
+  collect 215822 x1 quest 79952.1
+
+step "Swamp Eye" Jarl
+  turnin 1218
+  accept 1206
+
+step Jarl Needs a Blade
+  when onquest 81570
+  zone map 1445
+  turnin 81570 optional
+
+step Darkmist Silkspinner
+  zone map 1413
+  collect 5884 x40 quest 1206.1
+
+step Nazeer Bloodpike
+  turnin 1238
+
+step "Stinky" Ignatz
+  zone map 1445
+  accept 1270
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Loose Dirt
+  accept 1239
+  turnin 1206
+
+step Nazeer Bloodpike
+  zone map 1413
+  turnin 1239
+  accept 1240
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Drazzit Dripvalve
+  zone map 1445
+  accept 98205
+  accept 98215
+
+step Active Ingredient
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 98231
+  complete 98231 @41.0,75.7
+
+step Searing Hatchling and Searing Whelp
+  zone map 1413
+  kill 4323 x8 quest 98205.1
+  kill 4324 x8 quest 98205.2
+
+step Firemane Ash Tail
+  collect 279934 x20 quest 98215.1
+
+step Drazzit Dripvalve
+  zone map 1445
+  turnin 98205
+  turnin 98215
+
+step Active Ingredient
+  turnin 98231
+
+step Mebok Mizzyrix
+  zone map 1413
+  complete 1270 @48.9,24.6 map 1445
+  turnin 1270
+
+step Deadmire
+  zone map 1445
+  collect 5945 x1 quest 1205.1
+
+step Nat Pagle, Angler Extreme
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  accept 6607 optional
+  complete 6607 @58.6,60.1 optional
+
+step Nat Pagle, Angler Extreme
+  when skill Fishing 1
+  zone map 1445
+  turnin 6607 optional
+
+step Owen Thadd
+  zone map 1458
+  turnin 79952
+
+step Kin'weelay
+  zone map 1434
+  turnin 1240
+
+step You Too Good.
+  when skill Fishing 1
+  zone map 1454
+  turnin 6608 optional
+
+step Jarl Needs a Blade
+  when available 1203
+  tip One of several exclusive quests; the route takes Jarl Needs a Blade (81570). This one shows for a character the game offers it to instead.
+  zone map 1445
+  accept 1203 optional
+
+step Jarl Needs a Blade
+  when onquest 1203
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1445
+  complete 1203 @55.4,26.3 optional
+
+step Jarl Needs a Blade
+  when onquest 1203
+  zone map 1445
+  turnin 1203 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Vengeful Fate
+  when onquest 1102
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1102 optional
+
+step Going, Going, Guano!
+  when onquest 1109
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 1109 optional
+
+step Steelsnap
+  when onquest 1131
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 1131 optional
+
+step Test of Lore
+  when onquest 1159
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 1159 optional
+
+step Parts of the Swarm
+  when onquest 1184
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 1184 optional
+
+step Rig Wars
+  when onquest 2841
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 2841 optional
+
+step Return of the Ring
+  when onquest 2949
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 2949 optional
+
+step Sacred Fire
+  when onquest 5062
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 5062 optional
+
+step An Unholy Alliance
+  when onquest 6522
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 6522 optional
+
+step Source of Power
+  when onquest 96988
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 96988 optional
+
+step Thundering Hearts
+  when onquest 97985
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 97985 optional

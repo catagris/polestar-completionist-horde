@@ -1,0 +1,80 @@
+guide completionist-horde/dungeon-the-drowned-city
+title The Drowned City (Completionist)
+faction Horde
+category Dungeons
+levels 30-40
+zone Stranglethorn Vale
+next completionist-horde/24-the-barrens-3
+pitch The Drowned City, in Stranglethorn Vale.
+why Every Horde quest of The Drowned City: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Getting there
+  note The entrance is in Stranglethorn Vale: the arrow leads to it.
+
+step Commander Aggro'gosh
+  zone Stranglethorn Vale
+  accept 95776
+
+step Kin'weelay
+  zone Stranglethorn Vale
+  accept 95775
+
+step Level 33
+  level 33
+
+step Krazek
+  zone Stranglethorn Vale
+  accept 95789
+  accept 95791
+
+step Mazu'kon
+  zone Mulgore
+  accept 96774
+
+step Inside The Drowned City
+  zone Stranglethorn Vale
+  complete 95776 @21.6,27.7
+  complete 95775 @21.6,27.7
+  complete 95789 @21.6,27.7
+  complete 95791 @21.6,27.7
+  complete 96774 @21.6,27.7
+
+step Commander Aggro'gosh
+  zone Stranglethorn Vale
+  turnin 95776
+
+step Kin'weelay
+  zone Stranglethorn Vale
+  turnin 95775
+
+step A Tale Spun Around the Fire
+  zone map 1434
+  accept 96078
+
+step A Tale Spun Around the Fire
+  when onquest 96078
+  zone map 1411
+  turnin 96078
+
+step Krazek
+  zone Stranglethorn Vale
+  turnin 95789
+  turnin 95791
+
+step Mazu'kon
+  zone Mulgore
+  turnin 96774
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Shady Saltseers
+  when onquest 95789
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 95789 optional
+
+step The Saltseer Captain
+  when onquest 95791
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1434
+  turnin 95791 optional
