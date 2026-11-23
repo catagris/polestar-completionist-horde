@@ -12,14 +12,14 @@ reward text What the Mage quests give, quest by quest: abilities, forms, pets, t
 # Skipped: 3 exclusive with N; 1 objective N (kill N) outside the zones.
 
 step Owen Thadd
-  accept 97286
-  turnin 97286
+  accept 97286 only Mage
+  turnin 97286 only Mage
 
 step Level 15
   level 15
 
 step Cain Firesong
-  zone Tirisfal Glades
+  zone map 1420
   accept 1881 only Undead,Troll
   accept 1959 npc 2128 only Undead,Troll
 
@@ -27,7 +27,7 @@ step Level 15
   level 15
 
 step Anastasia Hartwell
-  zone Undercity
+  zone map 1458
   turnin 1881 only Undead,Troll
   turnin 1959 only Undead,Troll
   accept 1960 only Orc,Undead,Troll
@@ -40,10 +40,11 @@ step The Balnir Farmstead
   complete 1882 @85.1,10.0 optional
 
 step Filled Containment Coffer
+  zone map 1458
   collect 7292 x3 quest 1960.1 only Orc,Undead,Troll
 
 step Chest of Containment Coffers and Cantation of Manifestation
-  zone Stormwind City
+  zone map 1453
   collect 7247 x1 quest 1960.2 only Orc,Undead,Troll
   collect 7308 x1 quest 1960.3 only Orc,Undead,Troll
 
@@ -51,27 +52,28 @@ step Level 15
   level 15
 
 step Anastasia Hartwell
-  zone Undercity
+  zone map 1458
   turnin 1960 only Orc,Undead,Troll
   accept 1961 only Orc,Undead,Troll
 
 step The Balnir Farmstead
   only Mage,Undead,Troll
+  zone map 1458
   turnin 1882 optional
 
 step Adam Lind
-  zone Wetlands
+  zone map 1437
   collect 2589 x10 quest 1961.1 only Orc,Undead,Troll
 
 step Dalaran Wizard
-  zone Hillsbrad Foothills
+  zone map 1424
   collect 7293 x6 quest 1961.2 only Orc,Undead,Troll
 
 step Level 15
   level 15
 
 step Josef Gregorian
-  zone Undercity
+  zone map 1458
   turnin 1961 only Orc,Undead,Troll
   accept 1962 only Undead,Troll
   turnin 1962 npc 4576 only Undead,Troll
@@ -80,8 +82,7 @@ step Level 35
   level 35
 
 step Anastasia Hartwell
-  zone Undercity
-  accept 1953 npc 4568
+  accept 1953 npc 4568 only Mage
 
 step Speak with Un'thuwa
   only Mage
@@ -90,6 +91,7 @@ step Speak with Un'thuwa
 
 step Speak with Un'thuwa
   only Mage
+  zone map 1456
   turnin 1883 optional
 
 step Ju-Ju Heaps
@@ -101,22 +103,23 @@ step Ju-Ju Heaps
 
 step Ju-Ju Heaps
   only Mage,Orc,Undead,Troll
+  zone map 1411
   turnin 1884 optional
 
 step Level 50
+  zone map 1411
   level 50
 
 step Pierce Shackleton
-  zone Durotar
-  accept 8250 npc 4567
+  accept 8250 npc 4567 only Mage
 
 step Anastasia Hartwell
-  zone Undercity
-  accept 1947 npc 4568
+  zone map 1458
+  accept 1947 npc 4568 only Mage
 
 step Tabetha
-  zone Dustwallow Marsh
-  turnin 1947
+  zone map 1445
+  turnin 1947 only Mage
 
 step Mana Surges
   only Mage
@@ -125,8 +128,8 @@ step Mana Surges
   accept 1957 optional
 
 step Tabetha
-  zone Dustwallow Marsh
-  accept 1949
+  zone map 1445
+  accept 1949 only Mage
 
 step Mana Surges
   only Mage
@@ -141,12 +144,15 @@ step Mana Surges
   turnin 1957 optional
 
 step Anastasia Hartwell
-  zone Undercity
+  zone map 1458
   accept 1943 only Orc,Undead,Troll
 
 step Tabetha
-  zone Dustwallow Marsh
-  accept 1954
+  zone map 1445
+  turnin 1953 only Mage
+
+step Tabetha
+  accept 1954 only Mage
 
 step Celestial Power
   only Mage
@@ -155,12 +161,12 @@ step Celestial Power
   accept 1958 optional
 
 step Burning Blade Summoner
-  zone Mulgore
-  collect 7291 x1 quest 1954.1
+  zone map 1412
+  collect 7291 x1 quest 1954.1 only Mage
 
 step Tabetha
-  zone Dustwallow Marsh
-  accept 1948
+  zone map 1445
+  accept 1948 only Mage
 
 step Celestial Power
   only Mage
@@ -169,99 +175,97 @@ step Celestial Power
   turnin 1958 optional
 
 step Torn Fin Coastrunner
-  zone Hillsbrad Foothills
-  collect 1529 x1 quest 1948.1
+  zone map 1424
+  collect 1529 x1 quest 1948.1 only Mage
 
 step Bolt Charged Bramble
-  zone Arathi Highlands
-  collect 7272 x1 quest 1948.2
-
-step Tabetha
-  zone Dustwallow Marsh
-  turnin 1953
+  zone map 1417
+  collect 7272 x1 quest 1948.2 only Mage
 
 step Level 58
+  zone map 1445
   level 58
 
 step Geologist Larksbane
   when turnedin 8315
-  zone Silithus
-  accept 8381
-  turnin 8381
+  zone map 1451
+  accept 8381 only Mage,Warlock
+  turnin 8381 only Mage,Warlock
 
 step Deino
-  zone Orgrimmar
+  zone map 1454
   turnin 1943 only Orc,Undead,Troll
   accept 1944 only Orc,Undead,Troll
 
 step Xavian Waterfall
-  zone Ashenvale
+  zone map 1440
   collect 7268 x1 quest 1944.1 only Orc,Undead,Troll
 
 step Sanath Lim-yo
-  zone Azshara
-  turnin 8250
+  zone map 1447
+  turnin 8250 only Mage
 
 step Archmage Xylem
-  accept 8251
+  accept 8251 only Mage
 
 step Blood Elf Reclaimer
-  collect 20028 x10 quest 8251.1
+  collect 20028 x10 quest 8251.1 only Mage
 
 step Archmage Xylem
-  turnin 8251
-  accept 8252
+  turnin 8251 only Mage
+  accept 8252 only Mage
 
 step Spitelash Siren
-  collect 20029 x6 quest 8252.1
+  collect 20029 x6 quest 8252.1 only Mage
 
 step Archmage Xylem
-  turnin 8252
+  turnin 8252 only Mage
 
 step Deino
-  zone Orgrimmar
+  zone map 1454
   turnin 1944 only Orc,Undead,Troll
   accept 1945 only Orc,Undead,Troll
 
 step Laughing Sister
-  zone Ashenvale
+  zone map 1440
   collect 7270 x12 quest 1945.1 only Orc,Undead,Troll
 
 step Kil'hala
-  zone The Barrens
+  zone map 1413
   turnin 1945 only Orc,Undead,Troll
   accept 1946 only Orc,Undead,Troll
   turnin 1946 only Orc,Undead,Troll
 
 step Tabetha
-  zone Dustwallow Marsh
-  turnin 1948
-  turnin 1954
-  accept 1955
+  zone map 1445
+  turnin 1948 only Mage
+  turnin 1954 only Mage
+  accept 1955 only Mage
 
 step Tabetha
   when turnedin 1951
-  zone Dustwallow Marsh
-  accept 1952
-  turnin 1952
+  zone map 1445
+  accept 1952 only Mage
+  turnin 1952 only Mage
 
 step Demon of the Orb and Kill the Demon of the Orb
-  kill 6549 x1 quest 1955.1
+  zone map 1445
+  kill 6549 x1 quest 1955.1 only Mage
   goto 45.6,57.2 "Kill the Demon of the Orb" -- Explore for The Exorcism
 
 step Tabetha
-  turnin 1955
+  turnin 1955 only Mage
 
 step Magus Tirth
-  zone Thousand Needles
-  turnin 1949
-  accept 1950
+  zone map 1441
+  turnin 1949 only Mage
+  accept 1950 only Mage
 
 step "Plucky" Johnson
-  kill 6626 x1 quest 1950.1
+  kill 6626 x1 quest 1950.1 only Mage
 
 step Magus Tirth
-  turnin 1950
+  turnin 1950 only Mage
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
@@ -269,21 +273,21 @@ step Level 60
   level 60
 
 step Archmage Xylem
-  zone Azshara
-  accept 9362
+  zone map 1447
+  accept 9362 only Mage
+
+step Prismatic Shell
+  collect 23250 x1 quest 9362.1 only Mage
 
 step Archmage Xylem
-  zone Azshara
-  turnin 9362
+  turnin 9362 only Mage
 
 step Archmage Xylem
-  zone Azshara
-  accept 9364
+  accept 9364 only Mage
 
 step Archmage Xylem
-  zone Azshara
-  complete 9364
-  turnin 9364
+  complete 9364 only Mage
+  turnin 9364 only Mage
 
 step Atiesh, Greatstaff of the Guardian
   only Mage

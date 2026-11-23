@@ -50,6 +50,9 @@ step Bengor
 step Bengor
   accept 2623
 
+step Warchief's Orders
+  collect 8463 x1 quest 2623.1
+
 step Fallen Hero of the Horde
   turnin 2623
 
@@ -65,7 +68,11 @@ step Fallen Hero of the Horde
   accept 2681
 
 step Fallen Hero of the Horde
-  complete 2681
+  zone map 1419
+  kill 7668 x9 quest 2681.1
+  kill 7669 x3 quest 2681.2
+  kill 7670 x3 quest 2681.3
+  kill 7671 x3 quest 2681.4
   turnin 2681
 
 step Fallen Hero of the Horde

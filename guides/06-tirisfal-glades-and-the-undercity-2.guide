@@ -403,6 +403,9 @@ step Executor Zygand
   accept 358
   turnin 407
 
+step Coarse Thread
+  collect 2320 x1 quest 375.2
+
 step Coleman Farthing
   turnin 354
   turnin 362

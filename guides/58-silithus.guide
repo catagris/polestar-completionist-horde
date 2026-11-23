@@ -581,6 +581,21 @@ step Frankal Stonebridge
   zone map 1444
   accept 8310
 
+step Hive'Ashi Silithid Brain
+  when group 8310
+  zone map 1451
+  collect 20457 x1 quest 8310.1
+
+step Hive'Zora Silithid Brain
+  when group 8310
+  zone map 1451
+  collect 20458 x1 quest 8310.2
+
+step Hive'Regal Silithid Brain
+  when group 8310
+  zone map 1451
+  collect 20459 x1 quest 8310.3
+
 step Frankal Stonebridge
   when group 8310
   zone map 1451
@@ -593,6 +608,7 @@ step Rutgar Glyphshaper
 
 step Geologist Larksbane
   when onquest 8314
+  zone map 1444
   turnin 8314
 
 step Brann Bronzebeard's Lost Letter
@@ -611,11 +627,6 @@ step Geologist Larksbane
   zone map 1444
   accept 8315
 
-step Geologist Larksbane
-  when group 8315
-  zone map 1451
-  turnin 8315
-
 step Sharing the Knowledge
   when skill Cooking 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -633,6 +644,16 @@ step Kitchen Assistance
   zone map 1451
   accept 8317 optional
   complete 8317 @51.9,39.2 optional
+
+step Crystal Unlocking Mechanism
+  when group 8315
+  zone map 1451
+  collect 20465 x1 quest 8315.1
+
+step Geologist Larksbane
+  when group 8315
+  zone map 1451
+  turnin 8315
 
 step Deathclasp
   when group 8283

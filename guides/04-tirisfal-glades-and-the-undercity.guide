@@ -25,7 +25,7 @@ step Welcome!
   when has 14651
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1420
-  accept 5847 item 14651
+  accept 5847 item 14651 only Undead
 
 step Rattlecage Skeleton
   only Warlock
@@ -40,7 +40,7 @@ step Venya Marthand
 step Welcome!
   when onquest 5847
   zone map 1420
-  turnin 5847
+  turnin 5847 only Undead
 
 step Dark Cleric Duesten
   only Priest

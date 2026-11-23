@@ -13,58 +13,58 @@ reward text What the Warrior quests give, quest by quest: abilities, forms, pets
 
 step Krang Stonehoof
   zone Mulgore
-  accept 1505 npc 3063
+  accept 1505 npc 3063 only Warrior
 
 step Level 50
   level 50
 
 step Christoph Walker
   zone Undercity
-  accept 8417 npc 4593
+  accept 8417 npc 4593 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8417
+  turnin 8417 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  accept 8423
+  accept 8423 only Warrior
 
 step Helboar
   zone Blasted Lands
-  kill 5993 x7 quest 8423.1
+  kill 5993 x7 quest 8423.1 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8423
+  turnin 8423 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  accept 8424
+  accept 8424 only Warrior
 
 step Shadowsworn Thug
   zone Blasted Lands
-  kill 6005 x20 quest 8424.3
+  kill 6005 x20 quest 8424.3 only Warrior
 
 step Shadowsworn Cultist
   zone Blasted Lands
-  kill 6004 x10 quest 8424.2
+  kill 6004 x10 quest 8424.2 only Warrior
 
 step Baltus Fowler
   zone Durotar
-  accept 1823 npc 4595
+  accept 1823 npc 4595 only Warrior
 
 step Baltus Fowler
   zone Durotar
-  accept 1718 npc 4595
+  accept 1718 npc 4595 only Warrior
 
 step Shadowsworn Adept
   zone Blasted Lands
-  kill 6006 x20 quest 8424.1
+  kill 6006 x20 quest 8424.1 only Warrior
 
 step Fallen Hero of the Horde
   zone Swamp of Sorrows
-  turnin 8424
+  turnin 8424 only Warrior
 
 step Level 58
   level 58
@@ -72,8 +72,8 @@ step Level 58
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8316
-  turnin 8316
+  accept 8316 only Warrior
+  turnin 8316 only Warrior
 
 step Boarton Shadetotem
   zone Thunder Bluff
@@ -85,15 +85,15 @@ step Blasting Supplies
 
 step Ruga Ragetotem
   zone The Barrens
-  turnin 1823
-  accept 1824
+  turnin 1823 only Warrior
+  accept 1824 only Warrior
 
 step Silithid Swarmer
-  collect 7119 x5 quest 1824.1
+  collect 7119 x5 quest 1824.1 only Warrior
 
 step Ruga Ragetotem
-  turnin 1824
-  accept 1825
+  turnin 1824 only Warrior
+  accept 1825 only Warrior
 
 step Boarton Shadetotem
   zone Thunder Bluff
@@ -131,7 +131,7 @@ step Stalk With The Earthmother
 
 step Thun'grim Firegaze
   zone The Barrens
-  turnin 1825
+  turnin 1825 only Warrior
 
 step Brutal Hauberk
   only Warrior
@@ -140,7 +140,7 @@ step Brutal Hauberk
   accept 1848 optional
 
 step Uzzek
-  turnin 1505
+  turnin 1505 only Warrior
 
 step Path of Defense
   only Warrior
@@ -331,7 +331,7 @@ step Forged Steel
 
 step Ula'elek
   zone Durotar
-  accept 1842
+  accept 1842 only Warrior
 
 step Ula'elek and the Brutal Gauntlets
   only Warrior
@@ -341,10 +341,10 @@ step Ula'elek and the Brutal Gauntlets
 
 step Bleakheart Shadowstalker
   zone Ashenvale
-  collect 7128 x7 quest 1842.1
+  collect 7128 x7 quest 1842.1 only Warrior
 
 step Alonso
-  accept 78134
+  accept 78134 only Warrior
 
 step Dragonslayer's Shield
   only Warrior
@@ -370,7 +370,7 @@ step Dark Iron Entrepreneur
 
 step Alonso
   zone Ashenvale
-  turnin 78134
+  turnin 78134 only Warrior
 
 step Dragonslayer's Helm
   only Warrior
@@ -378,22 +378,22 @@ step Dragonslayer's Helm
 
 step Klannoc Macleod
   zone The Barrens
-  turnin 1718
-  accept 1719
+  turnin 1718 only Warrior
+  accept 1719 only Warrior
 
 step Big Will and Step on the grate to begin the Affray
-  kill 6238 x1 quest 1719.1
+  kill 6238 x1 quest 1719.1 only Warrior
   goto 68.6,48.7 "Step on the grate to begin the Affray" -- Explore for The Affray
 
 step Klannoc Macleod
-  turnin 1719
-  accept 1791
+  turnin 1719 only Warrior
+  accept 1791 only Warrior
 
 step Ula'elek
   zone Durotar
-  turnin 1842
-  accept 1843
-  turnin 1843
+  turnin 1842 only Warrior
+  accept 1843 only Warrior
+  turnin 1843 only Warrior
 
 step Seena Skybreaker
   zone map 2521
@@ -407,7 +407,7 @@ step Seena Skybreaker
 
 step Bath'rah the Windwatcher
   zone Alterac Mountains
-  turnin 1791
+  turnin 1791 only Warrior
 
 step Cyclonian
   only Warrior

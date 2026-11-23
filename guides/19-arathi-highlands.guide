@@ -158,6 +158,11 @@ step Doctor Gregory Victor
   zone map 1417
   accept 97539
 
+step Horde Trauma
+  when skill "First Aid" 1
+  zone map 1454
+  turnin 6623 optional
+
 step Triage
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -467,6 +472,7 @@ step Keystone
 
 step Zaruk
   when onquest 688
+  zone map 1417
   turnin 688
 
 step Owen Thadd
@@ -517,22 +523,17 @@ step Fleet Master Seahorn
   zone map 1434
   turnin 669
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Crystal in the Mountains
   tip Pendant of Myzrael drops from Gluggle, Singer, Achellios the Banished: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   collect 4614 x1 optional
   accept 635 item 4614 optional
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Crystal in the Mountains
   when onquest 635
   zone map 1417
   turnin 635
-
-step Horde Trauma
-  when skill "First Aid" 1
-  zone map 1454
-  turnin 6623 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

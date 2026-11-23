@@ -172,13 +172,23 @@ step Redemption
 step Tirion Fordring
   accept 5781
 
+step Taelan's Hammer
+  zone map 1423
+  collect 14613 x1 quest 5781.1
+
 step Tirion Fordring
+  zone map 1422
   turnin 5781
 
 step Tirion Fordring
   accept 5845
 
+step Symbol of Lost Honor
+  zone map 1423
+  collect 14625 x1 quest 5845.1
+
 step Tirion Fordring
+  zone map 1422
   turnin 5845
 
 step Tirion Fordring

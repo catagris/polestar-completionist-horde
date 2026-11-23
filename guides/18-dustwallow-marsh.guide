@@ -188,6 +188,11 @@ step Deadmire
   zone map 1445
   collect 5945 x1 quest 1205.1
 
+step You Too Good.
+  when skill Fishing 1
+  zone map 1454
+  turnin 6608 optional
+
 step Nat Pagle, Angler Extreme
   when skill Fishing 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -207,11 +212,6 @@ step Owen Thadd
 step Kin'weelay
   zone map 1434
   turnin 1240
-
-step You Too Good.
-  when skill Fishing 1
-  zone map 1454
-  turnin 6608 optional
 
 step Jarl Needs a Blade
   when available 1203

@@ -612,7 +612,7 @@ step Emmisary Gormok
   turnin 9665
 
 step Smokey LaRue
-  complete 6041
+  kill 12247 x8 quest 6041.1
   turnin 6041
 
 step Defenders of Darrowshire
@@ -649,6 +649,9 @@ step Marlene Redpath
 step Marlene Redpath
   accept 5153
 
+step Joseph's Wedding Ring
+  collect 12894 x1 quest 5153.1
+
 step Chromie
   turnin 5153
 
@@ -656,7 +659,12 @@ step Chromie
   zone map 1423
   accept 5154
 
+step Annals of Darrowshire
+  zone map 1422
+  collect 12900 x1 quest 5154.1
+
 step Chromie
+  zone map 1423
   turnin 5154
 
 step Chromie
@@ -678,9 +686,22 @@ step Carlin Redpath
 step Carlin Redpath
   accept 5181
 
+step Davil's Libram
+  zone map 1422
+  collect 12954 x1 quest 5168.1
+
+step Redpath's Shield
+  collect 12955 x1 quest 5168.2
+
 step Carlin Redpath
   zone map 1423
   turnin 5168
+
+step Skull of Horgus
+  collect 12956 x1 quest 5181.1
+
+step Shattered Sword of Marduk
+  collect 12957 x1 quest 5181.2
 
 step Carlin Redpath
   turnin 5181
@@ -705,7 +726,7 @@ step Chromie
 
 step Pamela Redpath
   zone map 1423
-  complete 5721
+  kill 10936 x1 quest 5721.1
   turnin 5721
 
 step Pamela Redpath
@@ -727,6 +748,11 @@ step Nathanos Blightcaller
   zone map 1458
   turnin 5961
 
+step Patch of Duskwing's Fur
+  when group 6135
+  zone map 1423
+  collect 15850 x1 quest 6135.1
+
 step Nathanos Blightcaller
   when group 6135
   zone map 1423
@@ -740,7 +766,7 @@ step Nathanos Blightcaller
 step Nathanos Blightcaller
   when group 6136
   zone map 1423
-  complete 6136
+  kill 11896 x1 quest 6136.1
   turnin 6136
 
 step Nathanos Blightcaller

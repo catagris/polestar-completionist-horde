@@ -47,6 +47,11 @@ step Apothecary Lydon
   zone map 1416
   accept 517
 
+step Keg of Shindigger Stout
+  when onquest 517
+  zone map 1417
+  collect 3517 x1 quest 517.1
+
 step Apothecary Lydon
   when onquest 517
   zone map 1416
@@ -110,19 +115,24 @@ step Field Captain Palandar
   accept 81732
 
 step Field Captain Palandar
-  complete 81731
+  kill 221174 x3 quest 81731.1
+  kill 221175 x3 quest 81731.2
   turnin 81731
 
 step Field Captain Palandar
   accept 81738
 
 step Field Captain Palandar
-  complete 81732
+  kill 221200 x3 quest 81732.1
+  kill 221176 x10 quest 81732.2
   turnin 81732
 
 step Field Captain Palandar
   accept 81745
   turnin 81745
+
+step Unhatched Green Dragon Egg
+  collect 219406 x1 quest 81738.1
 
 step Field Captain Palandar
   turnin 81738
@@ -147,25 +157,28 @@ step Field Captain Palandar
   accept 81743
 
 step Field Captain Palandar
-  complete 81744
+  kill 221207 quest 81744.1
   turnin 81744
 
 step Field Captain Palandar
   accept 81742
 
 step Field Captain Palandar
-  complete 81743
+  kill 221206 quest 81743.1
   turnin 81743
 
 step Field Captain Palandar
   accept 81741
 
 step Field Captain Palandar
-  complete 81742
+  kill 221204 quest 81742.1
   turnin 81742
 
 step Field Captain Palandar
   accept 81737
+
+step Dream-Touched Dragonscale
+  collect 219402 x10 quest 81741.1
 
 step Field Captain Palandar
   turnin 81741
@@ -173,13 +186,20 @@ step Field Captain Palandar
 step Field Captain Palandar
   accept 81736
 
+step Ogre Magi Text
+  collect 219405 x1 quest 81737.1
+
 step Field Captain Palandar
   turnin 81737
 
 step Field Captain Palandar
-  complete 81730
+  kill 221171 x10 quest 81730.1
+  kill 221172 x10 quest 81730.2
   turnin 81730
   turnin 81733
+
+step Shadowscythe
+  collect 219404 x1 quest 81736.1
 
 step Field Captain Palandar
   turnin 81736

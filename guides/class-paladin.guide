@@ -38,7 +38,7 @@ step Level 60
 
 step Danitha Morr
   zone Tirisfal Glades
-  accept 97175 @22.1,44.7 map 1420
+  accept 97175 @22.1,44.7 map 1420 only Paladin
 
 step Touring the Grounds
   only Paladin,Undead
@@ -105,12 +105,12 @@ step Trevan Rol
 
 step Trevan Rol
   zone Hillsbrad Foothills
-  accept 91859
+  accept 91859 only Paladin
 
 step Ott
   zone Alterac Mountains
-  accept 97179 @58.9,88.8 map 1416
-  turnin 97179 @58.9,88.8 map 1416
+  accept 97179 @58.9,88.8 map 1416 only Paladin
+  turnin 97179 @58.9,88.8 map 1416 only Paladin
 
 step Tanis Alderwood
   zone Undercity
@@ -122,14 +122,14 @@ step Garen Largo
 
 step Deathguard Baldren
   zone Silverpine Forest
-  turnin 91859
-  accept 91860
+  turnin 91859 only Paladin
+  accept 91860 only Paladin
 
 step Charred Remains
-  interact 566037 quest 91860.1
+  interact 566037 quest 91860.1 only Paladin
 
 step Charred Remains
-  turnin 91860
+  turnin 91860 only Paladin
   accept 91861 only Undead
 
 step Lumina Windsinger
@@ -191,29 +191,29 @@ step Deathguard Billmuth
 
 step Alodan the Hopeful
   zone Thunder Bluff
-  accept 97174 @25.4,14.7 map 1456
+  accept 97174 @25.4,14.7 map 1456 only Paladin
 
 step Ulric Frostveil
   zone Ashenvale
-  accept 95042
+  accept 95042 only Paladin
 
 step Blackfathom Oracle
   zone Darkshore
-  collect 6995 x1 quest 95042.1
+  collect 6995 x1 quest 95042.1 only Paladin
 
 step Ulric Frostveil
   zone Ashenvale
-  turnin 95042
+  turnin 95042 only Paladin
 
 step Zayus
   zone Orgrimmar
-  turnin 97175 @35.7,86.9 map 1454
-  accept 97177 @35.7,86.9 map 1454
+  turnin 97175 @35.7,86.9 map 1454 only Paladin
+  accept 97177 @35.7,86.9 map 1454 only Paladin
 
 step Danitha Morr
   zone Tirisfal Glades
-  turnin 97174 @22.1,44.7 map 1420
-  turnin 97177 @22.1,44.7 map 1420
+  turnin 97174 @22.1,44.7 map 1420 only Paladin
+  turnin 97177 @22.1,44.7 map 1420 only Paladin
 
 step The Reliquary of Tyr
   only Paladin

@@ -58,7 +58,7 @@ step Food for the Taking
   complete 93787 @59.4,45.6
 
 step Tan'jani
-  complete 95955
+  kill 259046 x10 quest 95955.1
   turnin 95955
 
 step Turner's Mill Lumberjack
@@ -131,7 +131,7 @@ step Krom'rosh
   accept 94483
 
 step Gorg
-  complete 94481
+  kill 256749 x8 quest 94481.1
   turnin 94481
 
 step Wanted
@@ -161,7 +161,8 @@ step Sleebo Fizzlespout
   turnin 96067
 
 step Krom'rosh
-  complete 94483
+  kill 270667 x8 quest 94483.1
+  kill 257926 x12 quest 94483.2
   turnin 94483
 
 step Tran'gul
@@ -171,7 +172,9 @@ step Tran'gul
   accept 94680
 
 step Tran'gul
-  complete 94672
+  kill 256952 x8 quest 94672.1
+  kill 254560 x8 quest 94672.2
+  kill 256798 x8 quest 94672.3
   turnin 94672
 
 step Low Plains Buzzard
@@ -249,8 +252,11 @@ step Redridge Brute
 step Kreza Darkthorn
   accept 94535
 
-step Tran'gul
+step Twilight Missive
   zone map 2548
+  collect 265745 x3 quest 94680.1
+
+step Tran'gul
   turnin 94680
 
 step Digging for Answers
@@ -278,13 +284,24 @@ step Clubtoe
   turnin 95602
 
 step Clubtoe
-  complete 95601
+  kill 261711 x5 quest 95601.1
+  kill 262169 x10 quest 95601.2
   turnin 95601
 
 step Clubtoe
   when group 95427
   zone map 2548
   accept 95427
+
+step Zac's Head
+  when group 95427
+  zone map 2548
+  collect 265751 x1 quest 95427.1
+
+step Chogg's Head
+  when group 95427
+  zone map 2548
+  collect 265750 x1 quest 95427.2
 
 step Clubtoe
   when group 95427
@@ -409,6 +426,9 @@ step Argo Brinewhistle
 step Fimbo Greasemitz
   turnin 95121
 
+step Sea Monster's Head
+  collect 268633 x1 quest 95267.1
+
 step Argo Brinewhistle
   turnin 95267
 
@@ -506,6 +526,9 @@ step Clugfist
 step Clugfist
   accept 95424
 
+step Skullbasher
+  collect 269257 quest 95425.1
+
 step Clugfist
   turnin 95425
 
@@ -513,7 +536,8 @@ step Jom-jom's Escape
   turnin 94556
 
 step Clugfist
-  complete 95424
+  kill 260968 x7 quest 95424.1
+  kill 261497 x7 quest 95424.2
   turnin 95424
 
 step Clugfist
@@ -562,13 +586,20 @@ step Da'grosh
   turnin 94748
 
 step Da'grosh
-  complete 94745
+  kill 256795 x8 quest 94745.1
+  kill 256797 x8 quest 94745.2
+  kill 256799 x8 quest 94745.3
   turnin 94745
 
 step Da'grosh
   when group 94768
   zone map 2548
   accept 94768
+
+step Kilgar's Head
+  when group 94768
+  zone map 2548
+  collect 265837 quest 94768.1
 
 step Da'grosh
   when group 94768
@@ -578,6 +609,9 @@ step Da'grosh
 step Hamur
   zone map 2548
   accept 95183 npc 263440
+
+step Good Rock
+  collect 271892 x10 quest 95183.1
 
 step Hamur
   turnin 95183
@@ -666,6 +700,11 @@ step Bloodmaster's Ring
 
 step Bloodmaster's Ring
   turnin 95063
+
+step Executioner's Mace
+  when group 95433
+  zone map 2548
+  collect 269351 x1 quest 95433.1
 
 step Clugfist
   when group 95433

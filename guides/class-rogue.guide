@@ -12,20 +12,20 @@ reward text What the Rogue quests give, quest by quest: abilities, forms, pets, 
 # Skipped: 5 objective N (item N) outside the zones; 5 prerequisite N not in this route; 2 exclusive with N.
 
 step Marion Call
-  zone Tirisfal Glades
+  zone map 1420
   accept 1885 only Undead
 
 step Mennet Carkad
-  zone Undercity
+  zone map 1458
   turnin 1885 only Undead
   accept 1886 only Undead
 
 step Astor Hadren
-  zone Silverpine Forest
+  zone map 1421
   collect 7231 x1 quest 1886.1 only Undead
 
 step Mennet Carkad
-  zone Undercity
+  zone map 1458
   turnin 1886 only Undead
   accept 1898 only Undead
 
@@ -47,39 +47,36 @@ step Level 16
   level 16
 
 step Mennet Carkad
-  zone Undercity
   accept 1998 only Undead
 
 step Fenwick Thatros
-  zone Silverpine Forest
+  zone map 1421
   collect 7306 x1 quest 1998.1 only Undead
 
 step Mennet Carkad
-  zone Undercity
+  zone map 1458
   turnin 1998 only Undead
 
 step Mennet Carkad
-  zone Undercity
   accept 1999 only Undead
 
 step Ambermill Strongbox
-  zone Silverpine Forest
+  zone map 1421
   collect 7309 x1 quest 1999.1 only Undead
 
 step Mennet Carkad
-  zone Undercity
+  zone map 1458
   turnin 1999 only Undead
 
 step Mennet Carkad
-  zone Undercity
-  accept 2378
+  accept 2378 only Rogue
 
 step Level 50
   level 50
 
 step Miles Dexter
-  zone Durotar
-  accept 8233 npc 4583
+  zone map 1411
+  accept 8233 npc 4583 only Rogue
 
 step The Manor, Ravenholdt
   only Rogue
@@ -101,9 +98,9 @@ step To Orgrimmar!
   accept 2380 optional
 
 step Fahrad
-  zone Alterac Mountains
-  accept 80526
-  turnin 80526
+  zone map 1416
+  accept 80526 only Rogue
+  turnin 80526 only Rogue
 
 step The Talisman of Kazdor
   only Rogue
@@ -114,6 +111,7 @@ step The Talisman of Kazdor
 
 step The Manor, Ravenholdt
   only Rogue
+  zone map 1416
   turnin 6681 optional
 
 step Syndicate Emblems
@@ -125,6 +123,7 @@ step Syndicate Emblems
 
 step The Talisman of Kazdor
   only Rogue
+  zone map 1416
   turnin 80411 optional
 
 step A Way In
@@ -134,6 +133,7 @@ step A Way In
 
 step A Way In
   only Rogue
+  zone map 1416
   turnin 96783 optional
 
 step Master of Disguise
@@ -143,6 +143,7 @@ step Master of Disguise
 
 step Master of Disguise
   only Rogue
+  zone map 1417
   turnin 96784 optional
 
 step Ain't No Telling
@@ -154,6 +155,7 @@ step Ain't No Telling
 
 step Ain't No Telling
   only Rogue
+  zone map 1417
   turnin 96785 optional
 
 step The Syndicate Sting
@@ -172,6 +174,7 @@ step What's the Big Idea?
 
 step The Syndicate Sting
   only Rogue
+  zone map 1416
   turnin 96786 optional
 
 step Syndicate Sabotage
@@ -183,6 +186,7 @@ step Syndicate Sabotage
 
 step What's the Big Idea?
   only Rogue
+  zone map 1416
   turnin 96781 optional
 
 step Covert Extraction
@@ -193,57 +197,65 @@ step Covert Extraction
   complete 96782 @84.9,80.4 optional
 
 step Lord Jorach Ravenholdt
-  zone Undercity
-  accept 8234
+  zone map 1416
+  turnin 8233 only Rogue
+
+step Lord Jorach Ravenholdt
+  zone map 1458
+  accept 8234 only Rogue
 
 step Covert Extraction
   only Rogue
+  zone map 1458
   turnin 96782 optional
 
 step Syndicate Sabotage
   only Rogue
+  zone map 1458
   turnin 96779 optional
 
 step Timbermaw Shaman
-  zone Azshara
-  collect 19775 x1 quest 8234.1
-
-step Lord Jorach Ravenholdt
-  zone Alterac Mountains
-  turnin 8233
+  zone map 1447
+  collect 19775 x1 quest 8234.1 only Rogue
 
 step Archmage Xylem
-  turnin 8234
-  accept 8235
+  zone map 1416
+  turnin 8234 only Rogue
+  accept 8235 only Rogue
 
 step Forest Ooze
-  collect 20023 x10 quest 8235.1
+  collect 20023 x10 quest 8235.1 only Rogue
 
 step Archmage Xylem
-  turnin 8235
+  turnin 8235 only Rogue
 
 step Veenix
-  zone Stonetalon Mountains
-  accept 78270
+  zone map 1442
+  accept 78270 only Rogue
 
 step Venture Co. Operator
-  collect 210187 x1 quest 78270.1
+  collect 210187 x1 quest 78270.1 only Rogue
 
 step Veenix
-  turnin 78270
+  turnin 78270 only Rogue
 
 step Shenthul
-  turnin 2378
-  accept 2379
-  accept 2460
-  turnin 2379
-  accept 2382
+  turnin 2378 only Rogue
+  accept 2379 only Rogue
+  accept 2460 only Rogue
+  turnin 2379 only Rogue
+  accept 2382 only Rogue
 
 step To Orgrimmar!
   only Rogue
   when onquest 2380
   zone map 1454
   turnin 2380 optional
+
+step Therzok
+  only Rogue,Orc
+  zone map 1454
+  turnin 1859 optional
 
 step The Shattered Hand
   only Rogue,Orc,Troll
@@ -252,12 +264,9 @@ step The Shattered Hand
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 1963 @42.7,53.5 optional
 
-step Therzok
-  only Rogue,Orc
-  turnin 1859 optional
-
 step The Shattered Hand
   only Rogue,Orc,Troll
+  zone map 1454
   turnin 1963 optional
 
 step The Shattered Hand
@@ -268,11 +277,12 @@ step The Shattered Hand
   complete 1858 @42.7,53.5 optional
 
 step Shenthul
-  kill 3401 x1 quest 2460.1
+  zone map 1454
+  kill 3401 x1 quest 2460.1 only Rogue
 
 step Shenthul
-  turnin 2460
-  accept 2458
+  turnin 2460 only Rogue
+  accept 2458 only Rogue
 
 step The Shattered Hand
   only Rogue,Orc,Troll
@@ -280,60 +290,66 @@ step The Shattered Hand
   turnin 1858 optional
 
 step Taskmaster Fizzule
-  zone The Barrens
-  turnin 2458
-  accept 2478
+  zone map 1413
+  turnin 2458 only Rogue
+  accept 2478 only Rogue
 
 step Mutated Venture Co. Drone, Venture Co. Lookout, Venture Co. Patroller, Grand Foreman Puzik Gallywix, Foreman Silixiz and Gallywix's Lockbox
-  kill 7310 x2 quest 2478.1
-  kill 7307 x2 quest 2478.2
-  kill 7308 x2 quest 2478.3
-  collect 8074 x1 quest 2478.4
-  collect 8072 x1 quest 2478.5
-  collect 8073 x1 quest 2478.6
+  kill 7310 x2 quest 2478.1 only Rogue
+  kill 7307 x2 quest 2478.2 only Rogue
+  kill 7308 x2 quest 2478.3 only Rogue
+  collect 8074 x1 quest 2478.4 only Rogue
+  collect 8072 x1 quest 2478.5 only Rogue
+  collect 8073 x1 quest 2478.6 only Rogue
 
 step Shenthul
-  zone Orgrimmar
-  turnin 2478
-  accept 2479
+  zone map 1454
+  turnin 2478 only Rogue
+  accept 2479 only Rogue
 
 step Level 58
   level 58
 
 step Mokvar
-  zone Orgrimmar
-  accept 8917
+  accept 8917 only Rogue
+
+step Silithus Venom Sample
+  zone map 1449
+  collect 22381 x15 quest 8917.1 only Rogue
+
+step Shadowcraft Bracers
+  zone map 1422
+  collect 16710 x1 quest 8917.2 only Rogue
 
 step Mokvar
-  zone Orgrimmar
-  turnin 8917
+  zone map 1454
+  turnin 8917 only Rogue
 
 step Wrenix the Wretched
-  zone The Barrens
-  turnin 2382
-  accept 2381
+  zone map 1413
+  turnin 2382 only Rogue
+  accept 2381 only Rogue
 
 step Polly
-  collect 7968 x1 quest 2381.1
+  collect 7968 x1 quest 2381.1 only Rogue
 
 step Wrenix the Wretched
-  turnin 2381
-
-step Serge Hinott
-  zone Alterac Mountains
-  turnin 2479
-  accept 2480
-
-step Serge Hinott
-  zone map 1424
-  zone Alterac Mountains
-  complete 2480 @61.6,19.2 map 1424
-  turnin 2480
+  turnin 2381 only Rogue
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
+step Serge Hinott
+  zone map 1416
+  turnin 2479 only Rogue
+  accept 2480 only Rogue
+
+step Serge Hinott
+  zone map 1424
+  complete 2480 @61.6,19.2 map 1424 only Rogue
+  turnin 2480 only Rogue
+
 step Geologist Larksbane
   when turnedin 8315
-  zone Silithus
-  accept 8378
-  turnin 8378
+  zone map 1451
+  accept 8378 only Rogue
+  turnin 8378 only Rogue

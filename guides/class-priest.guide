@@ -12,7 +12,7 @@ reward text What the Priest quests give, quest by quest: abilities, forms, pets,
 # Skipped: 12 exclusive with N; 1 objective N (kill N) outside the zones.
 
 step Ur'kyo
-  zone Orgrimmar
+  zone map 1454
   accept 5652 only Troll
   turnin 5652 only Troll
 
@@ -24,7 +24,7 @@ step Touch of Weakness
   accept 5662 optional
 
 step Aelthalyste
-  zone Undercity
+  zone map 1458
   accept 5658 only Undead
   turnin 5658 only Undead
 
@@ -48,6 +48,7 @@ step Hex of Weakness
   turnin 5657 optional
 
 step Level 20
+  zone map 1454
   level 20
 
 step Dark Sacrifice
@@ -64,7 +65,7 @@ step Dark Sacrifice
   turnin 5646 optional
 
 step Ur'kyo
-  zone Orgrimmar
+  zone map 1454
   accept 5680 only Troll
   turnin 5680 only Troll
 
@@ -82,7 +83,7 @@ step Shadowguard
   turnin 5643 optional
 
 step Aelthalyste
-  zone Undercity
+  zone map 1458
   accept 5679 only Undead
   turnin 5679 only Undead
 
@@ -90,28 +91,32 @@ step Level 50
   level 50
 
 step Ur'kyo
-  zone Orgrimmar
-  accept 8254
+  zone map 1454
+  accept 8254 only Priest
 
 step Ogtinc
-  zone Azshara
-  turnin 8254
+  zone map 1447
+  turnin 8254 only Priest
 
 step Ogtinc
-  zone Azshara
-  accept 8255
+  accept 8255 only Priest
+
+step Healthy Courser Gland
+  collect 20027 x4 quest 8255.1 only Priest
 
 step Ogtinc
-  zone Azshara
-  turnin 8255
+  turnin 8255 only Priest
 
 step Ogtinc
-  zone Orgrimmar
-  accept 8256
+  zone map 1454
+  accept 8256 only Priest
+
+step Ichor of Undeath
+  zone map 1447
+  collect 7972 x1 quest 8256.1 only Priest
 
 step Ogtinc
-  zone Azshara
-  turnin 8256
+  turnin 8256 only Priest
 
 step The Troll Scroll
   only Priest
@@ -120,6 +125,7 @@ step The Troll Scroll
 
 step The Troll Scroll
   only Priest
+  zone map 1434
   turnin 79731 optional
 
 step Hex of Weakness
@@ -182,13 +188,14 @@ step Touch of Weakness
   accept 5661 optional
 
 step Level 58
+  zone map 1412
   level 58
 
 step Geologist Larksbane
   when turnedin 8315
-  zone Silithus
-  accept 8379
-  turnin 8379
+  zone map 1451
+  accept 8379 only Priest
+  turnin 8379 only Priest
 
 step Touch of Weakness
   only Priest,Undead
@@ -217,20 +224,19 @@ step Shadowguard
   accept 5642 optional
 
 step Level 60
+  zone map 1456
   level 60
 
 step Eris Havenfire
-  zone Eastern Plaguelands
-  accept 7621
-  turnin 7621
+  zone map 1423
+  accept 7621 only Priest
+  turnin 7621 only Priest
 
 step Eris Havenfire
-  zone Eastern Plaguelands
-  accept 7622
+  accept 7622 only Priest
 
 step Eris Havenfire
-  zone Eastern Plaguelands
-  turnin 7622
+  turnin 7622 only Priest
 
 step Shadowguard
   only Priest,Troll

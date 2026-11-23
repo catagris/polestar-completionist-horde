@@ -49,7 +49,7 @@ step Myriaal Mistwake
   accept 92474 only Skyborne
 
 step Rorian the Dayseeker
-  complete 92474 @43.7,24.1 map 2521
+  complete 92474 @43.7,24.1 map 2521 only Skyborne
   turnin 92474 only Skyborne
 
 step Level 3
@@ -805,149 +805,149 @@ step Alaana Stormwalker
 step The Great Outdoors
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 96101
-  complete 96101 @41.7,44.8
+  accept 96101 only Skyborne
+  complete 96101 @41.7,44.8 only Skyborne
 
 step The Great Outdoors
-  turnin 96101
+  turnin 96101 only Skyborne
 
 step Camping 101: Engineering
   when skill Engineering 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 98285 optional
-  complete 98285 @54.0,38.9 optional
+  accept 98285 optional only Skyborne
+  complete 98285 @54.0,38.9 optional only Skyborne
 
 step Camping 101: Engineering
   when skill Engineering 1
   zone map 2521
-  turnin 98285 optional
+  turnin 98285 optional only Skyborne
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 98284 optional
-  complete 98284 @41.7,44.8 optional
+  accept 98284 optional only Skyborne
+  complete 98284 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   zone map 2521
-  turnin 98284 optional
+  turnin 98284 optional only Skyborne
 
 step Camping 101: Tailoring
   when skill Tailoring 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97972 optional
-  complete 97972 @41.7,44.8 optional
+  accept 97972 optional only Skyborne
+  complete 97972 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Tailoring
   when skill Tailoring 1
   zone map 2521
-  turnin 97972 optional
+  turnin 97972 optional only Skyborne
 
 step Camping 101: Skinning
   when skill Skinning 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97971 optional
-  complete 97971 @41.7,44.8 optional
+  accept 97971 optional only Skyborne
+  complete 97971 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Skinning
   when skill Skinning 1
   zone map 2521
-  turnin 97971 optional
+  turnin 97971 optional only Skyborne
 
 step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97970 optional
-  complete 97970 @41.7,44.8 optional
+  accept 97970 optional only Skyborne
+  complete 97970 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Mining
   when skill Mining 1
   zone map 2521
-  turnin 97970 optional
+  turnin 97970 optional only Skyborne
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97969 optional
-  complete 97969 @41.7,44.8 optional
+  accept 97969 optional only Skyborne
+  complete 97969 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   zone map 2521
-  turnin 97969 optional
+  turnin 97969 optional only Skyborne
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97968 optional
-  complete 97968 @41.7,44.8 optional
+  accept 97968 optional only Skyborne
+  complete 97968 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   zone map 2521
-  turnin 97968 optional
+  turnin 97968 optional only Skyborne
 
 step Camping 101: Fishing
   when skill Fishing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97967 optional
-  complete 97967 @41.7,44.8 optional
+  accept 97967 optional only Skyborne
+  complete 97967 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Fishing
   when skill Fishing 1
   zone map 2521
-  turnin 97967 optional
+  turnin 97967 optional only Skyborne
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97965 optional
-  complete 97965 @41.7,44.8 optional
+  accept 97965 optional only Skyborne
+  complete 97965 @41.7,44.8 optional only Skyborne
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   zone map 2521
-  turnin 97965 optional
+  turnin 97965 optional only Skyborne
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97964 optional
-  complete 97964 @41.7,44.8 optional
+  accept 97964 optional only Skyborne
+  complete 97964 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   zone map 2521
-  turnin 97964 optional
+  turnin 97964 optional only Skyborne
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 97963 optional
-  complete 97963 @41.7,44.8 optional
+  accept 97963 optional only Skyborne
+  complete 97963 @41.7,44.8 optional only Skyborne
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   zone map 2521
-  turnin 97963 optional
+  turnin 97963 optional only Skyborne
 
 step Camping 101: Cooking
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
-  accept 96646
-  complete 96646 @41.7,44.8
+  accept 96646 only Skyborne
+  complete 96646 @41.7,44.8 only Skyborne
 
 step Vulgara the Insatiable
   when group 93318
@@ -961,7 +961,7 @@ step Danarii Bellowveil
 
 step Camping 101: Cooking
   zone map 2521
-  turnin 96646
+  turnin 96646 only Skyborne
 
 step Ripped Missive
   tip Ripped Missive drops from Commander Haalien: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.

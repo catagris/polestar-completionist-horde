@@ -25,7 +25,7 @@ step Welcome!
   when has 14649
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1411
-  accept 5843 item 14649
+  accept 5843 item 14649 only Orc,Troll
 
 step Ruzan
   only Warlock
@@ -35,7 +35,7 @@ step Ruzan
 step Welcome!
   when onquest 5843
   zone map 1411
-  turnin 5843
+  turnin 5843 only Orc,Troll
 
 step Kaltunk
   zone map 1411
@@ -350,92 +350,92 @@ step Ukor's Lost Pack
 step The Great Outdoors
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 96604
-  complete 96604 @52.0,47.3
+  accept 96604 only Orc,Troll
+  complete 96604 @52.0,47.3 only Orc,Troll
 
 step The Great Outdoors
-  turnin 96604
+  turnin 96604 only Orc,Troll
 
 step Camping 101: Skinning
   when skill Skinning 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97908 optional
-  complete 97908 @52.0,47.3 optional
+  accept 97908 optional only Orc,Troll
+  complete 97908 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Mining
   when skill Mining 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97907 optional
-  complete 97907 @52.0,47.3 optional
+  accept 97907 optional only Orc,Troll
+  complete 97907 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97906 optional
-  complete 97906 @52.0,47.3 optional
+  accept 97906 optional only Orc,Troll
+  complete 97906 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97905 optional
-  complete 97905 @52.0,47.3 optional
+  accept 97905 optional only Orc,Troll
+  complete 97905 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Fishing
   when skill Fishing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97904 optional
-  complete 97904 @52.0,47.3 optional
+  accept 97904 optional only Orc,Troll
+  complete 97904 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Fishing
   when skill Fishing 1
   zone map 1411
-  turnin 97904 optional
+  turnin 97904 optional only Orc,Troll
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97903 optional
-  complete 97903 @52.0,47.3 optional
+  accept 97903 optional only Orc,Troll
+  complete 97903 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Engineering
   when skill Engineering 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97902 optional
-  complete 97902 @52.0,47.3 optional
+  accept 97902 optional only Orc,Troll
+  complete 97902 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97901 optional
-  complete 97901 @52.0,47.3 optional
+  accept 97901 optional only Orc,Troll
+  complete 97901 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97900 optional
-  complete 97900 @52.0,47.3 optional
+  accept 97900 optional only Orc,Troll
+  complete 97900 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 97899 optional
-  complete 97899 @52.0,47.3 optional
+  accept 97899 optional only Orc,Troll
+  complete 97899 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Cooking
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 96655
-  complete 96655 @52.0,47.3
+  accept 96655 only Orc,Troll
+  complete 96655 @52.0,47.3 only Orc,Troll
 
 step Gar'Thok
   turnin 825
@@ -444,27 +444,27 @@ step Gar'Thok
   turnin 2161
 
 step Camping 101: Cooking
-  turnin 96655
+  turnin 96655 only Orc,Troll
 
 step Camping 101: Blacksmithing
   when skill Blacksmithing 1
   zone map 1411
-  turnin 97900 optional
+  turnin 97900 optional only Orc,Troll
 
 step Camping 101: Engineering
   when skill Engineering 1
   zone map 1411
-  turnin 97902 optional
+  turnin 97902 optional only Orc,Troll
 
 step Camping 101: First Aid
   when skill "First Aid" 1
   zone map 1411
-  turnin 97903 optional
+  turnin 97903 optional only Orc,Troll
 
 step Camping 101: Mining
   when skill Mining 1
   zone map 1411
-  turnin 97907 optional
+  turnin 97907 optional only Orc,Troll
 
 step Furl Scornbrow
   zone map 1411
@@ -651,8 +651,8 @@ step Camping 101: Tailoring
   when skill Tailoring 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 96102 optional
-  complete 96102 @52.0,47.3 optional
+  accept 96102 optional only Orc,Troll
+  complete 96102 @52.0,47.3 optional only Orc,Troll
 
 step Fizzle Darkstorm
   zone map 1411
@@ -721,27 +721,27 @@ step Neeru Fireblade
 step Camping 101: Skinning
   when skill Skinning 1
   zone map 1454
-  turnin 97908 optional
+  turnin 97908 optional only Orc,Troll
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
   zone map 1454
-  turnin 97906 optional
+  turnin 97906 optional only Orc,Troll
 
 step Camping 101: Herbalism
   when skill Herbalism 1
   zone map 1454
-  turnin 97905 optional
+  turnin 97905 optional only Orc,Troll
 
 step Camping 101: Enchanting
   when skill Enchanting 1
   zone map 1454
-  turnin 97901 optional
+  turnin 97901 optional only Orc,Troll
 
 step Camping 101: Alchemy
   when skill Alchemy 1
   zone map 1454
-  turnin 97899 optional
+  turnin 97899 optional only Orc,Troll
 
 step Halikor's Hoof
   when onquest 96877
@@ -751,7 +751,7 @@ step Halikor's Hoof
 step Camping 101: Tailoring
   when skill Tailoring 1
   zone map 1454
-  turnin 96102 optional
+  turnin 96102 optional only Orc,Troll
 
 step Neeru Fireblade
   zone map 1454

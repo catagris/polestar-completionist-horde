@@ -100,6 +100,15 @@ step Felflick
 step Felflick
   accept 95379
 
+step Bones of Tyaeha Darkoath
+  collect 273291 quest 95378.1
+
+step Bones of Dazka Shadowsleep
+  collect 273292 quest 95378.2
+
+step Bones of Frezzlie Popwhiz
+  collect 273290 x1 quest 95378.3
+
 step Felflick
   turnin 95378
 
@@ -116,13 +125,13 @@ step Bone Pile
 
 step Felflick
   zone map 2482
-  complete 95379
+  kill 260440 quest 95379.1
   turnin 95379
 
 step Felflick
   when group 96255
   zone map 2482
-  complete 96255
+  kill 264306 quest 96255.1
   turnin 96255
 
 step Curious Crow
@@ -515,6 +524,9 @@ step Ortak Lomgok
 step Eluneth
   accept 90865
 
+step Watcher's Eye
+  collect 273322 x8 quest 90865.1
+
 step Eluneth
   turnin 90865
 
@@ -587,7 +599,8 @@ step Thobon Sapclaw
   accept 93827
 
 step Elder Pinespeaker
-  complete 93826
+  kill 252116 x8 quest 93826.1
+  kill 252096 x8 quest 93826.2
   turnin 93826
 
 step Burrow Beetle
@@ -595,6 +608,9 @@ step Burrow Beetle
 
 step Dala Fairmaw
   turnin 93834
+
+step Enchanted Harpy Amulet
+  collect 263028 x16 quest 93827.1
 
 step Thobon Sapclaw
   turnin 93827
@@ -612,6 +628,9 @@ step Elder Pinespeaker
 step Fennar Mossmane
   accept 93828
   turnin 93828
+
+step Intact Owl Body
+  collect 262816 x5 quest 93833.1
 
 step Elder Pinespeaker
   turnin 93833
@@ -772,6 +791,9 @@ step To Outfox a Demon
 step Ashes of the Legion Ascent
   turnin 92335
 
+step Drop of Stolen Life
+  collect 272973 x1 quest 92317.1
+
 step Ketharas
   zone map 1450
   turnin 92317
@@ -813,7 +835,7 @@ step Tiala Whitemane
 step Tiala Whitemane
   when group 92833
   zone map 2482
-  complete 92833
+  kill 267182 quest 92833.1
   turnin 92833
 
 step Jereman
@@ -827,7 +849,7 @@ step Kala'th
   accept 93617
 
 step Kala'th
-  complete 93617
+  kill 256809 quest 93617.1
   turnin 93617
 
 step Tiala Whitemane

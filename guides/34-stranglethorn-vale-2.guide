@@ -301,8 +301,14 @@ step Fleet Master Firallon
   accept 9272
   turnin 9272
 
+step Avast Ye, Scallywag
+  when onquest 1036
+  zone map 1434
+  turnin 1036 optional
+
 step Avast Ye, Admiral!
   tip Needs Friendly standing (3000) with Bloodsail Buccaneers; without it the quest is not offered.
+  zone map 1434
   accept 4621 optional
 
 step Avast Ye, Admiral!
@@ -314,11 +320,6 @@ step Avast Ye, Admiral!
   when onquest 4621
   zone map 1434
   turnin 4621 optional
-
-step Avast Ye, Scallywag
-  when onquest 1036
-  zone map 1434
-  turnin 1036 optional
 
 step Short John Mithril
   zone map 1434
@@ -435,6 +436,7 @@ step Yenniku
 
 step Nimboya
   when onquest 592
+  zone map 1434
   turnin 592
 
 step Stoley

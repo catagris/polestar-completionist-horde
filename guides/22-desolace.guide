@@ -17,7 +17,6 @@ step Mai'Lahii
 
 step Fish in a Bucket
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1443
   collect 13545 x5 anywhere optional
   turnin 5421 direct optional
 
@@ -28,7 +27,7 @@ step Enraged Reef Crawler
   collect 15924 x10 quest 6142.1
 
 step Hatefury Rogue
-  zone Stonetalon Mountains
+  zone map 1442
   kill 4670 x1 quest 97265.5
 
 step Hatefury Hellcaller
@@ -38,7 +37,7 @@ step Hatefury Shadowstalker
   kill 4674 x1 quest 97265.3
 
 step Hatefury Felsworn
-  zone Desolace
+  zone map 1443
   kill 4672 x1 quest 97265.4
 
 step Hatefury Trickster
@@ -57,27 +56,21 @@ step Level 32
   level 32
 
 step Drulzegar Skraghook
-  zone Desolace
   accept 6143
 
 step Slitherblade Myrmidon
-  zone Desolace
   kill 4714 x7 quest 6143.1
 
 step Slitherblade Sorceress
-  zone Desolace
   kill 4712 x5 quest 6143.3
 
 step Slitherblade Naga
-  zone Desolace
   kill 4711 x7 quest 6143.2
 
 step Taiga Wisemane
-  zone Desolace
   accept 5381
 
 step Demon Spirit and Mysterious Book
-  zone Desolace
   collect 13542 x1 quest 5381.1
 
 step Aged Kodo
@@ -105,11 +98,9 @@ step Level 33
   level 33
 
 step Bibbly F'utzbuckle
-  zone Desolace
   accept 5501
 
 step Kodo Bones
-  zone Desolace
   collect 13703 x10 quest 5501.1
 
 step Level 36
@@ -127,18 +118,17 @@ step Lost Shipping Crate
   turnin 94895 optional
 
 step Level 34
+  zone map 2548
   level 34
 
 step Hornizz Brimbuzzle
-  zone Desolace
+  zone map 1443
   accept 6134
 
 step Magrami Spectre
-  zone Desolace
   collect 15849 x8 quest 6134.1
 
 step Hornizz Brimbuzzle
-  zone Desolace
   turnin 6134
 
 step Uthek the Wise
@@ -146,7 +136,6 @@ step Uthek the Wise
 
 step Stealing Supplies
   tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
-  zone map 1443
   accept 1370 optional
 
 step Stealing Supplies
@@ -161,6 +150,7 @@ step Stealing Supplies
   turnin 1370 optional
 
 step Melizza Brimbuzzle
+  zone map 1443
   accept 6132
 
 step Hornizz Brimbuzzle
@@ -171,20 +161,16 @@ step Felgur Twocuts
   turnin 1365
   accept 1366
   turnin 93225
-  accept 94872
-
-step Buying Friendship: Gelkis
-  when available 94873
-  tip One of several exclusive quests; the route takes Buying Friendship: Magram (94872). This one shows for a character the game offers it to instead.
-  zone map 1443
-  accept 94873 optional
+  accept 94872 either
+  accept 94873 either
 
 step Buying Friendship: Gelkis
   when onquest 94873
   zone map 1443
-  turnin 94873 optional
+  turnin 94873
 
 step Gelkis Windchaser
+  zone map 1443
   collect 6067 x15 quest 1366.1
 
 step Rigger Gizelton
@@ -208,6 +194,7 @@ step Ongeku
   turnin 1373 optional
 
 step Felgur Twocuts
+  zone map 1443
   turnin 1366
 
 step Nataka Longhorn
@@ -239,7 +226,6 @@ step Warug
 
 step Broken Tears
   tip Needs Friendly standing (3000) with Magram Clan Centaur; without it the quest is not offered.
-  zone map 1443
   accept 1369 optional
 
 step Broken Tears
@@ -254,6 +240,7 @@ step Broken Tears
   turnin 1369 optional
 
 step Smeed Scrabblescrew
+  zone map 1443
   complete 5943 @55.7,67.8 map 1443
   turnin 5943
 
@@ -270,21 +257,22 @@ step Cork Gizelton
 
 step Umarak
   when group 96222
-  zone Desolace
+  zone map 1443
   accept 96222
 
 step Khan Hratha
   when group 96222
-  zone Desolace
   tip Khan Hratha is group work: elites. Grouping up is advised.
+  zone map 1443
   collect 6077 x1 quest 96222.1
 
 step Umarak
   when group 96222
-  zone Desolace
+  zone map 1443
   turnin 96222
 
 step Smeed Scrabblescrew
+  zone map 1443
   complete 5821 @67.2,56.6 map 1443
   turnin 5821
 
@@ -328,7 +316,6 @@ step Rackmore's Chest
 
 step The Corrupter
   tip Flayed Demon Skin drops from Burning Blade Augur, Burning Blade Reaver, Burning Blade Adept: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  zone map 1443
   collect 20310 x1 optional
   accept 1480 item 20310 optional
 
@@ -618,11 +605,11 @@ step The Corrupter
   turnin 1488
 
 step Magtoor
-  zone Swamp of Sorrows
+  zone map 1435
   turnin 93678
 
 step Owen Thadd
-  zone Undercity
+  zone map 1458
   turnin 79950
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.

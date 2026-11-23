@@ -39,7 +39,8 @@ step Magus Wordeen Voidglare
 
 step Magus Wordeen Voidglare
   zone Alterac Mountains
-  complete 545
+  kill 2358 x6 quest 545.1
+  kill 2359 x12 quest 545.2
   turnin 545
 
 step Magus Wordeen Voidglare

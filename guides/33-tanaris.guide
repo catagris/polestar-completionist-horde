@@ -266,6 +266,11 @@ step Un'Goro Dirt Pile
   zone map 1449
   collect 11018 x20 quest 3761.1
 
+step To Gadgetzan You Go!
+  when skill Cooking 1
+  zone map 1454
+  turnin 6611 optional
+
 step Clamlette Surprise
   when skill Cooking 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -277,11 +282,6 @@ step Clamlette Surprise
   when skill Cooking 1
   zone map 1446
   turnin 6610 optional
-
-step To Gadgetzan You Go!
-  when skill Cooking 1
-  zone map 1454
-  turnin 6611 optional
 
 step The Pledge of Secrecy
   when skill Engineering 1

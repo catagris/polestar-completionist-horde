@@ -146,35 +146,35 @@ step Level 50
 
 step Holt Thunderhorn
   zone Thunder Bluff
-  accept 8151 npc 3039
+  accept 8151 npc 3039 only Hunter
 
 step Ogtinc
   zone Azshara
-  turnin 8151
+  turnin 8151 only Hunter
 
 step Ogtinc
   zone Azshara
-  accept 8153
+  accept 8153 only Hunter
 
 step Mosshoof Courser
   zone Azshara
-  collect 20017 x2 quest 8153.1
+  collect 20017 x2 quest 8153.1 only Hunter
 
 step Ogtinc
   zone Azshara
-  turnin 8153
+  turnin 8153 only Hunter
 
 step Ogtinc
   zone Orgrimmar
-  accept 8231
+  accept 8231 only Hunter
 
 step Young Wavethrasher
   zone Orgrimmar
-  collect 20087 x6 quest 8231.1
+  collect 20087 x6 quest 8231.1 only Hunter
 
 step Ogtinc
   zone Orgrimmar
-  turnin 8231
+  turnin 8231 only Hunter
 
 step Quel'ana Quickgale
   turnin 94007 only Skyborne
@@ -190,8 +190,8 @@ step Level 58
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8377
-  turnin 8377
+  accept 8377 only Hunter
+  turnin 8377 only Hunter
 
 step Quel'ana Quickgale
   turnin 94979 only Skyborne

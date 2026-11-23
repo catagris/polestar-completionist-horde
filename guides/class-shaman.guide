@@ -20,22 +20,22 @@ step Level 20
 
 step Searn Firewarder
   zone Orgrimmar
-  accept 1528
+  accept 1528 only Shaman
 
 step Level 58
   level 58
 
 step Sagorne Creststrider
   zone Orgrimmar
-  accept 7667
+  accept 7667 only Shaman
 
 step Doomguard Commander
   zone Blasted Lands
-  collect 18335 x1 quest 7667.2
+  collect 18335 x1 quest 7667.2 only Shaman
 
 step Sagorne Creststrider
   zone Orgrimmar
-  accept 8410 npc 13417
+  accept 8410 npc 13417 only Shaman
 
 step Call of Air
   only Shaman
@@ -60,23 +60,23 @@ step Call of Fire
 
 step Avalanchion
   zone Azshara
-  collect 7067 x1 quest 8410.3
+  collect 7067 x1 quest 8410.3 only Shaman
 
 step Princess Tempestria
   zone Winterspring
-  collect 7070 x1 quest 8410.4
+  collect 7070 x1 quest 8410.4 only Shaman
 
 step Baron Charr
   zone Un'Goro Crater
-  collect 7068 x1 quest 8410.2
+  collect 7068 x1 quest 8410.2 only Shaman
 
 step The Windreaver
   zone Silithus
-  collect 7069 x1 quest 8410.1
+  collect 7069 x1 quest 8410.1 only Shaman
 
 step Bath'rah the Windwatcher
   zone Alterac Mountains
-  turnin 8410
+  turnin 8410 only Shaman
 
 step Mastering the Elements
   only Shaman
@@ -87,7 +87,7 @@ step Mastering the Elements
 
 step Bath'rah the Windwatcher
   zone Alterac Mountains
-  accept 8412
+  accept 8412 only Shaman
 
 step Mastering the Elements
   only Shaman
@@ -104,23 +104,23 @@ step Mastering the Elements
 
 step Bath'rah the Windwatcher
   zone Alterac Mountains
-  accept 79365
+  accept 79365 only Shaman
 
 step Venom Mist Lurker
   zone Tirisfal Glades
-  collect 20610 x8 quest 8412.1
+  collect 20610 x8 quest 8412.1 only Shaman
 
 step Diseased Black Bear
   zone Tirisfal Glades
-  collect 20611 x8 quest 8412.2
+  collect 20611 x8 quest 8412.2 only Shaman
 
 step Rich Thorium Vein
   zone Western Plaguelands
-  collect 12800 x1 quest 7667.1
+  collect 12800 x1 quest 7667.1 only Shaman
 
 step Islen Waterseer
-  turnin 1528
-  accept 1530
+  turnin 1528 only Shaman
+  accept 1530 only Shaman
 
 step Call of Water
   only Shaman
@@ -141,31 +141,31 @@ step Call of Fire
 step Telf Joolam
   zone Durotar
   turnin 1524 only Orc,Tauren,Troll
-  accept 1525 @38.5,59.0 map 1411
+  accept 1525 @38.5,59.0 map 1411 only Shaman
 
 step Razormane Water Seeker
   zone The Barrens
-  collect 5026 x1 quest 1525.1
+  collect 5026 x1 quest 1525.1 only Shaman
 
 step Burning Blade Cultist
   zone Durotar
-  collect 6652 x1 quest 1525.2
+  collect 6652 x1 quest 1525.2 only Shaman
 
 step Sagorne Creststrider
   zone Orgrimmar
-  turnin 7667
+  turnin 7667 only Shaman
 
 step Telf Joolam
   zone Durotar
-  turnin 1525
-  accept 1526 @38.5,59.0 map 1411
+  turnin 1525 only Shaman
+  accept 1526 @38.5,59.0 map 1411 only Shaman
 
 step Minor Manifestation of Fire
-  collect 6655 x1 quest 1526.1
+  collect 6655 x1 quest 1526.1 only Shaman
 
 step Brazier of the Dormant Flame
-  turnin 1526
-  accept 1527 @39.0,58.2 map 1411
+  turnin 1526 only Shaman
+  accept 1527 @39.0,58.2 map 1411 only Shaman
 
 step Call of Water
   only Shaman
@@ -183,7 +183,7 @@ step Call of Fire
 
 step Kranal Fiss
   zone The Barrens
-  turnin 1527
+  turnin 1527 only Shaman
 
 step Call of Fire
   only Shaman,Orc,Tauren,Troll
@@ -217,32 +217,32 @@ step Call of Fire
 
 step Brine
   zone The Barrens
-  turnin 1530
-  accept 1535
+  turnin 1530 only Shaman
+  accept 1535 only Shaman
 
 step Quilboar Watering Hole
-  collect 7769 x1 quest 1535.1
+  collect 7769 x1 quest 1535.1 only Shaman
 
 step Brine
-  turnin 1535
-  accept 1536
+  turnin 1535 only Shaman
+  accept 1536 only Shaman
 
 step Spring Well
   zone Alterac Mountains
-  collect 7771 x1 quest 1536.1
+  collect 7771 x1 quest 1536.1 only Shaman
 
 step Bath'rah the Windwatcher
-  turnin 8412
+  turnin 8412 only Shaman
 
 step Geologist Larksbane
   when turnedin 8315
   zone Silithus
-  accept 8380
-  turnin 8380
+  accept 8380 only Shaman
+  turnin 8380 only Shaman
 
 step Rau Cliffrunner
   zone Thousand Needles
-  turnin 79365
+  turnin 79365 only Shaman
 
 step Eyes on the Sky
   only Shaman
@@ -317,21 +317,21 @@ step The Tempest's Weapons
 
 step Brine
   zone The Barrens
-  turnin 1536
-  accept 1534
+  turnin 1536 only Shaman
+  accept 1534 only Shaman
 
 step Ruins of Stardust Fountain
   zone Ashenvale
-  collect 7770 x1 quest 1534.1
+  collect 7770 x1 quest 1534.1 only Shaman
 
 step Brine
   zone The Barrens
-  turnin 1534
-  accept 220
+  turnin 1534 only Shaman
+  accept 220 only Shaman
 
 step Islen Waterseer
-  turnin 220
-  accept 63
+  turnin 220 only Shaman
+  accept 63 only Shaman
 
 step Call of Water
   only Shaman
@@ -353,13 +353,13 @@ step Water Sapta
 
 step Corrupt Minor Manifestation of Water
   zone Silverpine Forest
-  collect 7812 x1 quest 63.1
+  collect 7812 x1 quest 63.1 only Shaman
 
 step Brazier of Everfount
-  turnin 63
-  accept 100
-  turnin 100
-  accept 96
+  turnin 63 only Shaman
+  accept 100 only Shaman
+  turnin 100 only Shaman
+  accept 96 only Shaman
 
 step Call of Water
   only Shaman
@@ -370,7 +370,7 @@ step Call of Water
 
 step Islen Waterseer
   zone The Barrens
-  turnin 96
+  turnin 96 only Shaman
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 

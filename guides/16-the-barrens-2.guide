@@ -251,8 +251,8 @@ step Dig Rat Stew
 
 step Regthar Deathgate
   zone map 1413
-  accept 1362
   turnin 1361
+  accept 1362
 
 step Makaba Flathoof
   complete 6523 @77.1,90.8 map 1442

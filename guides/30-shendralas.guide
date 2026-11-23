@@ -81,12 +81,17 @@ step Mithera
   accept 93362
 
 step Mithera
-  complete 93362
+  kill 254566 quest 93362.1
+  kill 254567 quest 93362.2
+  kill 254572 quest 93362.3
   turnin 93362
 
 step Historian Biraxas
   zone map 2652
   accept 99257
+
+step Depleted Crystal Heart
+  collect 286647 quest 99257.1
 
 step Historian Biraxas
   turnin 99257
@@ -113,7 +118,7 @@ step Spectral Iron Ore
 step Historian Biraxas
   when group 99258
   zone map 1443
-  complete 99258
+  kill 276401 quest 99258.1
   turnin 99258
 
 step Spectral Iron Ore

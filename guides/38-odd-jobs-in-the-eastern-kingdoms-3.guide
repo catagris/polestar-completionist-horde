@@ -100,17 +100,11 @@ step Krom'Grul
 
 step A Taste of Flame
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 4022
+  accept 4022 either
+  accept 4023 either
   complete 4022 @95.1,31.6
 
 step A Taste of Flame
-  when available 4023
-  tip One of several exclusive quests; the route takes A Taste of Flame (4022). This one shows for a character the game offers it to instead.
-  zone map 1428
-  accept 4023 optional
-
-step A Taste of Flame
-  zone map 1428
   turnin 4022
 
 step Ever After
@@ -121,12 +115,12 @@ step A Taste of Flame
   when onquest 4023
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1428
-  complete 4023 @95.1,31.6 optional
+  complete 4023 @95.1,31.6
 
 step A Taste of Flame
   when onquest 4023
   zone map 1428
-  turnin 4023 optional
+  turnin 4023
 
 step Theldurin the Lost
   when group 656
@@ -167,6 +161,7 @@ step Elder Torntusk
 
 step Cut Arathor Supply Lines
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
   accept 8123
   complete 8123 @73.5,29.8
 

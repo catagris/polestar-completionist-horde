@@ -283,6 +283,12 @@ step Level 58
 step Mor'vek
   accept 94399 @71.6,73.9 map 1449
 
+step Diemetradon Meat
+  collect 264360 x5 quest 94399.1
+
+step Pterrordax Meat
+  collect 264361 quest 94399.2
+
 step Mor'vek
   turnin 94399 @71.6,73.9 map 1449
 

@@ -228,6 +228,9 @@ step Lost in Battle
 step Mankrik
   accept 95774
 
+step Olgra's Adornments
+  collect 277277 x4 quest 95774.1
+
 step Mankrik
   turnin 95774
 

@@ -59,6 +59,12 @@ step Mokvar
   zone map 1454
   turnin 8944
 
+step The Grand Crusader's Command
+  when onquest 6145
+  when group 6145
+  zone map 1423
+  collect 15868 x1 quest 6145.1
+
 step Nathanos Blightcaller
   when onquest 6145
   when group 6145
@@ -94,7 +100,7 @@ step Nathanos Blightcaller
   when onquest 6148
   when group 6148
   zone map 1423
-  complete 6148
+  kill 12339 x1 quest 6148.1
   turnin 6148
 
 step Baron Bloodbane

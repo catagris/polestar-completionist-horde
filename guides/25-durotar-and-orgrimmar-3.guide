@@ -240,8 +240,8 @@ step Alliance Chest
 step Your First Riding Raptor
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
-  accept 96989
-  complete 96989 @55.2,75.7
+  accept 96989 only Troll
+  complete 96989 @55.2,75.7 only Troll
 
 step Learning to Ride
   only Troll
@@ -250,7 +250,7 @@ step Learning to Ride
 
 step Your First Riding Raptor
   zone map 1411
-  turnin 96989
+  turnin 96989 only Troll
 
 step Learning to Ride
   only Troll

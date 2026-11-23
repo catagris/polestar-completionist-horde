@@ -190,11 +190,20 @@ step Divine Retribution
 step Velarok Windblade
   accept 3442
 
+step Heart of Flame
+  collect 10509 x4 quest 3442.1
+
+step Golem Oil
+  collect 10511 x4 quest 3442.2
+
 step Velarok Windblade
   turnin 3442
 
 step Velarok Windblade
   accept 3443
+
+step Thorium Plated Dagger
+  collect 10551 x8 quest 3443.1
 
 step Velarok Windblade
   turnin 3443
@@ -203,6 +212,11 @@ step Velarok Windblade
   when group 3452
   zone map 1427
   accept 3452
+
+step Symbol of Ragnaros
+  when group 3452
+  zone map 1427
+  collect 10552 x1 quest 3452.1
 
 step Velarok Windblade
   when group 3452
@@ -293,7 +307,10 @@ step Squire Maltrake
   accept 3463
 
 step Squire Maltrake
-  complete 3463
+  interact 149025 quest 3463.1
+  interact 149030 quest 3463.2
+  interact 149031 quest 3463.3
+  interact 149032 quest 3463.4
   turnin 3463
 
 step Hoard of the Black Dragonflight

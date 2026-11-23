@@ -257,30 +257,20 @@ step Level 60
   level 60
 
 step Anachronos
-  accept 8747
+  accept 8747 either
+  accept 8752 either
+  accept 8757 either
   turnin 8747
-
-step The Path of the Invoker
-  when available 8757
-  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
-  zone map 1446
-  accept 8757 optional
 
 step The Path of the Invoker
   when onquest 8757
   zone map 1446
-  turnin 8757 optional
-
-step The Path of the Conqueror
-  when available 8752
-  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
-  zone map 1446
-  accept 8752 optional
+  turnin 8757
 
 step The Path of the Conqueror
   when onquest 8752
   zone map 1446
-  turnin 8752 optional
+  turnin 8752
 
 step Meridith the Mermaiden
   when onquest 8597
@@ -449,8 +439,6 @@ step Imperial Plate Leggings
   zone map 1446
   turnin 7658 optional
 
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
 step Imperial Plate Shoulders
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -462,6 +450,8 @@ step Imperial Plate Shoulders
   when skill Blacksmithing 1
   zone map 1446
   turnin 7659 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step The Path of the Protector
   when available 8748

@@ -41,7 +41,7 @@ step Welcome!
   when has 14650
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1412
-  accept 5844 item 14650
+  accept 5844 item 14650 only Tauren
 
 step Cairne Bloodhoof
   zone map 1412
@@ -107,7 +107,7 @@ step Maur Raincaller
   turnin 766
 
 step Mull Thunderhorn
-  complete 754 @51.8,68.4 map 1412
+  complete 754 @51.8,68.4 map 1412 only Tauren
   turnin 754 only Tauren
   accept 756 only Tauren
 
@@ -156,7 +156,7 @@ step More Unstable Magic
 
 step Mull Thunderhorn
   zone map 1412
-  complete 758 @44.2,51.1 map 1412
+  complete 758 @44.2,51.1 map 1412 only Tauren
   turnin 758 only Tauren
   accept 759 only Tauren
 
@@ -243,7 +243,7 @@ step Herak the Pillager
   collect 286075 x1 quest 99080.3
 
 step Mull Thunderhorn
-  complete 760 @42.7,25.0 map 1412
+  complete 760 @42.7,25.0 map 1412 only Tauren
   turnin 760 only Tauren
   accept 98435
   turnin 99080
@@ -258,7 +258,7 @@ step Seer Ravenfeather
 step Welcome!
   when onquest 5844
   zone map 1412
-  turnin 5844
+  turnin 5844 only Tauren
 
 step Skorn Whitecloud
   zone map 1412
