@@ -8,7 +8,7 @@ next completionist-horde/28-badlands
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 30 to 42.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 30.5 (heuristic XP, class quests not counted).
-# Skipped: 2 exclusive with N (done); 2 objective N (talk N) outside the zones.
+# Skipped: 2 objective N (talk N) outside the zones; 1 exclusive with N (done).
 
 step Sharlindra
   when onquest 521
@@ -37,14 +37,6 @@ step Parqual Fintallas
 step Parqual Fintallas
   turnin 6628
   accept 1394
-
-step Armory of Sunnyglade
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 97884
-  complete 97884 @61.6,28.9
-
-step Armory of Sunnyglade
-  turnin 97884
 
 step Melor Stonehoof
   when onquest 1136
@@ -76,13 +68,8 @@ step Owen Thadd
   accept 79536
   turnin 79536
 
-step Dorn Plainstalker
-  zone map 1441
-  turnin 1394
-
 step A Ludite's Guide to Caring for Your Demonic Pet
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1458
   accept 79953
 
 step Level 37
@@ -91,13 +78,11 @@ step Level 37
 
 step Deathstalker Zraedus
   accept 1372
-
-step Apothecary Faustin
   turnin 1372
 
 step Apothecary Faustin
   when group 1383
-  zone map 1458
+  zone map 1431
   accept 1383
 
 step Mire Lord
@@ -112,13 +97,17 @@ step Shadow Panther
   zone map 1435
   collect 6080 x5 quest 1383.1
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Deepstrider Giant
   when group 1383
   tip Nothing But The Truth is group work: elites. Grouping up is advised.
   zone map 1443
   collect 6082 x1 quest 1383.3
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+step Dorn Plainstalker
+  zone map 1441
+  turnin 1394
 
 step Apothecary Faustin
   when group 1383
@@ -126,21 +115,12 @@ step Apothecary Faustin
   turnin 1383
 
 step Apothecary Faustin
-  when turnedin 1383
   zone map 1431
-  accept 1388 optional
-
-step Deathstalker Zraedus
-  when onquest 1388
+  accept 1388
   turnin 1388
-
-step Deathstalker Zraedus
-  when turnedin 1388
-  zone map 1441
-  accept 1391 optional
+  accept 1391
 
 step Infiltrator Marksen
-  when onquest 1391
   zone map 1435
   turnin 1391
 
@@ -183,26 +163,15 @@ step A Steed in Death as They Were in Life
   turnin 96997
 
 step Learning to Ride
-  only Undead
+  only Undead,Tauren
   zone map 1420
   accept 97203
 
 step Learning to Ride
-  only Undead
+  only Undead,Tauren
   when onquest 97203
   zone map 1420
   turnin 97203
-
-step Learning to Ride
-  only Skyborne
-  zone map 2521
-  accept 97205
-
-step Learning to Ride
-  only Skyborne
-  when onquest 97205
-  zone map 2521
-  turnin 97205
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

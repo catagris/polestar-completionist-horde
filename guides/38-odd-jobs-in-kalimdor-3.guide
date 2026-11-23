@@ -1,18 +1,19 @@
-guide completionist-horde/45-odd-jobs-in-kalimdor-3
-title 45 Odd jobs in Kalimdor, visit 3 (47-56) (Completionist)
+guide completionist-horde/38-odd-jobs-in-kalimdor-3
+title 38 Odd jobs in Kalimdor, visit 3 (47-56) (Completionist)
 faction Horde
 levels 47-56
 category Leveling
 zone Ashenvale
-next completionist-horde/46-the-barrens-4
+next completionist-horde/39-the-hinterlands
 pitch On along the line: errands across Kalimdor, quests of level 47 to 56.
 # Generated from the reference data: change the planner, not this file.
 # Routed 6 quests; estimated level at the end 47.4 (heuristic XP, class quests not counted).
 
-step The Brokering of Peace
-  when onquest 8485
+step Zevrost
+  when onquest 91548
+  when group 91548
   zone map 1454
-  turnin 8485 optional
+  turnin 91548
 
 step Dreka'Sur
   zone map 1440
@@ -89,8 +90,8 @@ step Loh'atu
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step The Brokering of Peace
-  when onquest 8485
+step Vek'zol
+  when onquest 91548
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 8485 optional
+  turnin 91548 optional

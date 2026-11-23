@@ -86,50 +86,45 @@ step Captain Perrine and Scarlet Missionary
   zone map 1420
   kill 1536 x3 quest 370.3
 
-step Scarlet Zealot
-  zone map 1422
-  kill 1537 x3 quest 370.2
-  collect 2875 x10 quest 374.1
-
-step Deathguard Burgess
-  when onquest 360
-  zone map 1420
-  turnin 374
-  turnin 370
-  accept 371
-  turnin 360
-  turnin 408
-
-step Scarlet Friar
-  zone map 1420
-  kill 1538 x5 quest 371.2
-
-step Captain Vachon
-  kill 1664 x1 quest 371.1
-
-step Executor Zygand
+step Deathguard Dillinger
   when onquest 368
   zone map 1420
-  turnin 371
-  accept 372
+  turnin 426
   turnin 368
   accept 369
+  turnin 370
+  accept 371
+  turnin 374
+
+step Captain Vachon
+  zone map 1420
+  kill 1664 x1 quest 371.1
 
 step Vicious Night Web Spider
-  zone map 1420
   collect 2872 x4 quest 369.1
 
+step Scarlet Friar
+  kill 1538 x5 quest 371.2
+
+step Magistrate Sevren
+  when onquest 369
+  zone map 1420
+  turnin 408
+  turnin 371
+  accept 372
+  turnin 369
+  accept 492
+  turnin 492
+
 step Captain Melrache and Scarlet Bodyguard
+  zone map 1420
   kill 1665 x1 quest 372.1
   kill 1660 x2 quest 372.2
 
 step Executor Zygand
-  when onquest 369
+  when onquest 372
   zone map 1420
   turnin 372
-  turnin 369
-  accept 492
-  turnin 492
 
 step Gunther's Books
   zone map 1420
@@ -388,12 +383,6 @@ step Bloodhoof Village
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Return to the Magistrate
-  when onquest 360
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1420
-  turnin 360 optional
-
 step A New Plague
   when onquest 368
   tip Still in your log from an earlier guide: hand it in now.
@@ -423,6 +412,12 @@ step The Family Crypt
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1420
   turnin 408 optional
+
+step The Mills Overrun
+  when onquest 426
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 426 optional
 
 step Camping 101: Blacksmithing
   when onquest 97952

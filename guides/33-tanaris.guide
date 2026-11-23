@@ -35,7 +35,6 @@ step Shreev
   sethome "Gadgetzan"
   getfp "Gadgetzan"
   accept 1189
-  accept 992
   accept 95144
 
 step The Super Egg-O-Matic
@@ -52,15 +51,8 @@ step A Bad Egg
   collect 8646 x1 anywhere optional
   turnin 2750 direct optional
 
-step Sandsorrow Watch Water Hole
-  zone map 1446
-  collect 8585 x1 quest 992.1
-
-step Tooga
-  accept 97540
-  turnin 97540
-
 step Level 45
+  zone map 1446
   level 45
 
 step Tran'rek
@@ -76,14 +68,14 @@ step Wanted Poster
 step Wanted Poster
   accept 2781 object 150075
 
-step Tooga
-  accept 1560
+step Quinn
+  accept 97534
+
+step Gnomish Garbage
+  collect 278191 x7 quest 97534.1
 
 step Marin Noggenfogger
   accept 2605
-
-step Thistleshrub Dew Collector
-  collect 8428 x1 quest 2605.1
 
 step Chief Engineer Bilgewhizzle
   accept 1690
@@ -98,6 +90,14 @@ step Spigot Operator Luglunket
 step Andi Lynn
   accept 5863
 
+step Tooga
+  accept 1560
+  accept 97540
+  turnin 97540
+
+step Thistleshrub Dew Collector
+  collect 8428 x1 quest 2605.1
+
 step Dunemaul Brute and Dunemaul Enforcer
   kill 5474 x10 quest 5863.1
   kill 5472 x10 quest 5863.2
@@ -108,11 +108,9 @@ step Gor'marok the Ravager
 step Book
   accept 81949 object 441248
 
-step Book
-  collect 220346 x1 quest 81949.1
-
-step Andre Firebeard
+step Andre Firebeard and Book
   collect 9246 x1 quest 2875.1
+  collect 220346 x1 quest 81949.1
 
 step Caliph Scorpidsting
   collect 8723 x1 quest 2781.1
@@ -145,19 +143,6 @@ step Stolen Cargo and Southsea Freebooter
 
 step Dunemaul Enforcer
   collect 278186 x1 quest 97530.1
-
-step Odd Totem
-  accept 95753
-
-step Odd Totem
-  turnin 95753
-
-step Senior Surveyor Fizzledowser
-  turnin 992
-  accept 82
-
-step Centipaar Worker
-  collect 8587 x5 quest 82.1
 
 step Marvon Rivetseeker
   accept 3161
@@ -197,11 +182,7 @@ step Chief Engineer Bilgewhizzle
   turnin 3362
   turnin 2606
   accept 2641
-  turnin 82
-  accept 10
-
-step Scrimshank's Surveying Gear
-  collect 8593 x1 quest 10.1
+  turnin 97534
 
 step Violet Tragan
   zone map 1425
@@ -233,25 +214,45 @@ step Screecher Spirit
 
 step Senior Surveyor Fizzledowser
   zone map 1446
-  turnin 10
-  accept 110
-  turnin 110
-  accept 113
-  turnin 2641
-  accept 2661
-  turnin 113
-  accept 32
+  accept 992
 
 step Goblin Engineering
   when onquest 3526
   zone map 1446
   turnin 3526 optional
 
-step Marin Noggenfogger
+step Sandsorrow Watch Water Hole
   zone map 1446
+  collect 8585 x1 quest 992.1
+
+step Senior Surveyor Fizzledowser
+  turnin 992
+  accept 82
+
+step Centipaar Worker
+  collect 8587 x5 quest 82.1
+
+step Alchemist Pestlezugg
+  turnin 82
+  turnin 2641
+  accept 2661
+  accept 10
+
+step Scrimshank's Surveying Gear
+  collect 8593 x1 quest 10.1
+
+step Marin Noggenfogger
   turnin 2661
   accept 2662
   turnin 2662
+  turnin 10
+  accept 110
+  turnin 110
+  accept 113
+
+step Senior Surveyor Fizzledowser
+  turnin 113
+  accept 32
 
 step Razzeric
   zone map 1441
@@ -330,17 +331,9 @@ step Friz Frazzlespark
   zone map 2548
   turnin 95472
 
-step Gritty Business
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 97534
-  complete 97534 @51.1,27.9
-
-step Gritty Business
-  turnin 97534
-
 step Ship Schedules
-  tip Ship Schedule is pickpocketed from Southsea Pirate and is in the Pirate's Footlocker: it starts this quest. By its Wowhead page; take it if it comes, and move on if it does not.
+  tip Ship Schedule is pickpocketed from Southsea Pirate and is in the Pirate's Footlocker: it starts this quest. Take it if it comes, and move on if it does not.
+  zone map 1446
   collect 9250 x1 optional
   accept 2876 item 9250 optional
 

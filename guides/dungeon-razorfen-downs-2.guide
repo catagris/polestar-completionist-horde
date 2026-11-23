@@ -8,15 +8,15 @@ next completionist-horde/31-feralas
 pitch Razorfen Downs, in The Barrens.
 why Every Horde quest of Razorfen Downs: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Varimathras
+step Andrew Brownell
   zone map 1458
+  turnin 3341
+
+step Varimathras
   turnin 6522
 
 step Varimathras
   accept 6521
-
-step Andrew Brownell
-  turnin 3341
 
 step Inside Razorfen Downs, again
   zone map 1413

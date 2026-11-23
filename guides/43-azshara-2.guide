@@ -1,26 +1,61 @@
-guide completionist-horde/41-azshara-2
-title 41 Azshara, visit 2 (57-60) (Completionist)
+guide completionist-horde/43-azshara-2
+title 43 Azshara, visit 2 (57-60) (Completionist)
 faction Horde
 levels 57-60
 category Leveling
 zone Azshara
 next completionist-horde/dungeon-blackmaw-hold
-next completionist-horde/42-western-plaguelands
+next completionist-horde/44-eastern-plaguelands
 pitch On along the line: Azshara, quests of level 57 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 57.3 (heuristic XP, class quests not counted).
 # Skipped: 2 prerequisite N not in this route.
 
-step Zevrost
-  when onquest 91548
-  when group 91548
-  zone map 1454
-  turnin 91548
+step Royal Overseer Bauhaus
+  when onquest 5023
+  zone map 1458
+  turnin 5023
+  accept 5049
 
-step Gatekeeper Rageroar
+step Jeremiah Payson
+  when onquest 5049
+  zone map 1458
+  turnin 5049
+
+step Nara Wildmane
+  when onquest 4987
+  zone map 1456
+  turnin 4987
+
+step Jeremiah Payson
+  zone map 1458
+  accept 5050
+
+step Janice Felstone
+  when onquest 5050
+  zone map 1422
+  turnin 5050
+
+step Two Halves Become One
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
+  accept 5051
+  complete 5051 @38.4,54.0
+
+step Two Halves Become One
+  when onquest 5051
+  zone map 1422
+  turnin 5051
+
+step Archmage Xylem
   zone map 1447
-  accept 92065 @42.4,20.9 map 1447
-  turnin 92065 @42.4,20.9 map 1447
+  accept 90789
+
+step Warlord Krellian
+  collect 23250 x1 quest 90789.1
+
+step Archmage Xylem
+  turnin 90789
 
 step Loramus
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -82,10 +117,6 @@ step Loramus Thalipedes
 step Loramus Thalipedes
   when turnedin 3602
   accept 3621 optional
-
-step A Crew Under Fire
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 3382 direct optional
 
 step Galvan the Ancient
   when onquest 3621
@@ -155,10 +186,29 @@ step Fallen Hero of the Horde
   zone map 1435
   turnin 3628
 
+step Blackmaw Reclamation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  accept 92065
+  complete 92065 @42.3,20.1
+
+step Blackmaw Reclamation
+  turnin 92065
+
+step A Crew Under Fire
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3382 direct optional
+
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Vek'zol
-  when onquest 91548
+step Glyphed Oaken Branch
+  when onquest 4987
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 91548 optional
+  zone map 1456
+  turnin 4987 optional
+
+step Better Late Than Never
+  when onquest 5023
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 5023 optional

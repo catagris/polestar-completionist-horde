@@ -144,23 +144,13 @@ step Alaana Stormwalker
   zone map 1456
   accept 95350 only Skyborne
 
-step More Unstable Magic
-  when turnedin 98477
-  zone map 1412
-  accept 98476 optional
-
-step More Unstable Magic
-  when onquest 98476
-  zone map 1412
-  turnin 98476 optional
-
 step Mull Thunderhorn
-  zone map 1412
   complete 758 @44.2,51.1 map 1412 only Tauren
   turnin 758 only Tauren
   accept 759 only Tauren
 
 step Lorekeeper Raintotem
+  zone map 1412
   accept 833
 
 step Bristleback Interloper

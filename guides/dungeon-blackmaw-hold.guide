@@ -2,9 +2,9 @@ guide completionist-horde/dungeon-blackmaw-hold
 title Blackmaw Hold (Completionist)
 faction Horde
 category Dungeons
-levels 1-60
+levels 47-60
 zone Azshara
-next completionist-horde/42-western-plaguelands
+next completionist-horde/44-eastern-plaguelands
 pitch Blackmaw Hold, in Azshara.
 why Every Horde quest of Blackmaw Hold: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -16,51 +16,58 @@ step Getting there
   zone map 1447
   note The entrance is in Azshara: the arrow leads to it.
 
-step Ekkal
-  accept 97327 @42,38.9 map 1447
-
 step Ogtinc
   accept 92069
 
-step Level 52
-  zone map 1412
-  level 52
-
-step Muln Earthfury
-  accept 97198
-
 step Inside Blackmaw Hold
-  zone map 1447
   collect 249698 @37.6,38.7
   accept 92070 item 249698
   complete 92070 @37.6,38.7
   complete 92343 @37.6,38.7
   complete 92069 @37.6,38.7
-  complete 97198 @37.6,38.7
+
+step Ogtinc
+  turnin 92069
+
+step Unele
+  turnin 92070
+
+step Level 55
+  level 55
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Ekkal
+  accept 97327
+
+step Inside Blackmaw Hold
   complete 97327 @37.6,38.7
 
 step Ekkal
-  turnin 97327 @42,38.9 map 1447
+  turnin 97327
 
 step Blackmaw Pouches
-  accept 96246 @42,38.9 map 1447
+  accept 96246
+
+step Blackmaw Pouches
+  when onquest 96246
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  complete 96246 @42,38.9
 
 step Blackmaw Pouches
   when onquest 96246
   zone map 1447
-  turnin 96246 @42,38.9 map 1447
+  turnin 96246
 
-step Ogtinc
+step Muln Earthfury
+  zone map 1412
+  accept 97198
+
+step Inside Blackmaw Hold
   zone map 1447
-  turnin 92069
-
-step Unele
-  turnin 92070 @37.6,38.7 map 1447
+  complete 97198 @37.6,38.7
 
 step Muln Earthfury
   zone map 1412
   turnin 97198
-
-step Nara Wildmane
-  zone map 1456
-  turnin 92343 @37.6,38.7 map 1447

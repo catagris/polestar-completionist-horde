@@ -11,45 +11,39 @@ why Opens the gate of the Horde's way into the City of Dalaran; one key opens it
 
 step Magus Wordeen Voidglare
   accept 544
-
-step Key to the City
-  zone map 1416
-  tip The place is where players were recorded finishing it.
   accept 93680
-  complete 93680 @16.4,89.3
 
 step Dermot, Ricter and Alina
   collect 3691 x1 quest 544.1
   collect 3689 x1 quest 544.2
   collect 3690 x1 quest 544.3
 
-step Kegan Darkmar
+step Kegan Darkmar and Warden's Footlocker
   collect 3688 x1 quest 544.4
+  collect 279469 x1 quest 93680.1
 
 step Magus Wordeen Voidglare
-  zone Alterac Mountains
   turnin 544
-
-step Key to the City
   turnin 93680
-
-step Magus Wordeen Voidglare
-  zone Alterac Mountains
   accept 545
 
-step Magus Wordeen Voidglare
-  zone Alterac Mountains
+step Dalaran Summoner
   kill 2358 x6 quest 545.1
+
+step Elemental Slave
   kill 2359 x12 quest 545.2
+
+step Magus Wordeen Voidglare
   turnin 545
 
-step Magus Wordeen Voidglare
-  zone Alterac Mountains
+step Blood in the Streets
+  zone map 1416
+  tip The reference data does not place this quest's objective: follow the quest text.
   accept 92434
+  complete 92434 @60.3,82.8
 
-step Image of Archmage Modera
-  zone Silverpine Forest
-  complete 92434 @68.5,45.9 map 1421
+step Blood in the Streets
+  zone map 1421
   turnin 92434
 
 step Heart of Disruption

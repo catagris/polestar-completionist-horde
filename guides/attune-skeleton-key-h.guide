@@ -115,29 +115,46 @@ step Araj's Phylactery
   zone Western Plaguelands
   collect 14610 x1 quest 5804.1
 
-step Return to the Bulwark
-  zone map 1422
-  accept 5230
-
 step Apothecary Dithers
   zone Tirisfal Glades
   turnin 5804
   accept 5511
   turnin 5511
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step A Call to Arms: The Plaguelands!
+  when available 5094
+  tip One of several exclusive quests; the route takes A Call to Arms: The Plaguelands! (5093). This one shows for a character the game offers it to instead.
+  zone map 1458
+  accept 5094 optional
+
+step A Call to Arms: The Plaguelands!
+  when onquest 5094
+  zone map 1420
+  turnin 5094 optional
+
+step A Call to Arms: The Plaguelands!
+  when available 5095
+  tip One of several exclusive quests; the route takes A Call to Arms: The Plaguelands! (5093). This one shows for a character the game offers it to instead.
+  zone map 1456
+  accept 5095 optional
+
+step A Call to Arms: The Plaguelands!
+  when onquest 5095
+  zone map 1420
+  turnin 5095 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Return to the Bulwark
+  zone map 1422
+  accept 5230
+
 step Return to the Bulwark
   when onquest 5230
   zone map 1420
   turnin 5230
-
-step Felstone Field Cauldron
-  when turnedin 5230
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1422
-  collect 13320 x1 anywhere optional
-  collect 13357 x6 anywhere optional
-  collect 14047 x4 anywhere optional
-  turnin 5218 direct optional
 
 step Target: Dalson's Tears
   when turnedin 5230
@@ -164,15 +181,6 @@ step Return to the Bulwark
   when onquest 5232
   zone map 1420
   turnin 5232
-
-step Dalson's Tears Cauldron
-  when turnedin 5232
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1422
-  collect 13320 x1 anywhere optional
-  collect 13356 x5 anywhere optional
-  collect 14047 x4 anywhere optional
-  turnin 5221 direct optional
 
 step Target: Writhing Haunt
   when turnedin 5232
@@ -201,6 +209,7 @@ step Return to the Bulwark
   turnin 5234
 
 step Target: Gahrron's Withering
+  when turnedin 5234
   zone map 1420
   accept 5235
 
@@ -234,36 +243,3 @@ step Mission Accomplished!
   when onquest 5238
   zone map 1420
   turnin 5238
-
-step Writhing Haunt Cauldron
-  when turnedin 5234
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1422
-  collect 13320 x1 anywhere optional
-  collect 13356 x5 anywhere optional
-  collect 14047 x4 anywhere optional
-  turnin 5224 direct optional
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
-step A Call to Arms: The Plaguelands!
-  when available 5094
-  tip One of several exclusive quests; the route takes A Call to Arms: The Plaguelands! (5093). This one shows for a character the game offers it to instead.
-  zone map 1458
-  accept 5094 optional
-
-step A Call to Arms: The Plaguelands!
-  when onquest 5094
-  zone map 1420
-  turnin 5094 optional
-
-step A Call to Arms: The Plaguelands!
-  when available 5095
-  tip One of several exclusive quests; the route takes A Call to Arms: The Plaguelands! (5093). This one shows for a character the game offers it to instead.
-  zone map 1456
-  accept 5095 optional
-
-step A Call to Arms: The Plaguelands!
-  when onquest 5095
-  zone map 1420
-  turnin 5095 optional

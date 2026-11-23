@@ -166,7 +166,7 @@ step Battle of Warsong Gulch
 
 step Conflict at Darkspear Islands
   zone map 1413
-  accept 98887 @46.7,8.7 map 1413 optional
+  accept 98887 optional
 
 step Conflict at Darkspear Islands
   when onquest 98887
@@ -177,12 +177,14 @@ step Conflict at Darkspear Islands
 step Conflict at Darkspear Islands
   when onquest 98887
   zone map 1413
-  turnin 98887 @46.7,8.7 map 1413 optional
+  turnin 98887 optional
 
 step Conflict at Darkspear Islands
   when turnedin 98887
+  tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1413
-  accept 98888 @46.7,8.7 map 1413 optional
+  collect 274895 x1 anywhere optional
+  turnin 98888 direct optional
 
 step Conquering Arathi Basin
   when available 8436
@@ -201,17 +203,6 @@ step Conquering Arathi Basin
   zone map 1413
   turnin 8436 optional
 
-step Conflict at Darkspear Islands
-  when onquest 98888
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1413
-  complete 98888 @46.7,8.7 optional
-
-step Conflict at Darkspear Islands
-  when onquest 98888
-  zone map 1413
-  turnin 98888 @46.7,8.7 map 1413 optional
-
 step Battle of Warsong Gulch
   when turnedin 8368
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -225,6 +216,25 @@ step Conquering Arathi Basin
   zone map 1413
   collect 20559 x3 anywhere optional
   turnin 8441 direct optional
+
+step Conflict at Darkspear Islands
+  when turnedin 98887
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 274895 x1 anywhere optional
+  turnin 98890 direct optional
+
+step Coldtooth Supplies
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1459
+  collect 17542 x10 anywhere optional
+  turnin 5893 direct optional
+
+step Irondeep Supplies
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1459
+  collect 17522 x10 anywhere optional
+  turnin 6985 direct optional
 
 step Level 40
   level 40
@@ -246,15 +256,6 @@ step Battle of Warsong Gulch
   zone map 1413
   turnin 8428 optional
 
-step Conflict at Darkspear Islands
-  zone map 1413
-  accept 98890 @46.7,8.7 map 1413 optional
-
-step Conflict at Darkspear Islands
-  when onquest 98890
-  zone map 1413
-  turnin 98890 @46.7,8.7 map 1413 optional
-
 step Conquering Arathi Basin
   when available 8437
   tip One of several exclusive quests; the route takes Conquering Arathi Basin (8370). This one shows for a character the game offers it to instead.
@@ -273,8 +274,10 @@ step Conquering Arathi Basin
   turnin 8437 optional
 
 step Conflict at Darkspear Islands
+  when available 98889
+  tip One of several exclusive quests; the route takes Conflict at Darkspear Islands (98887). This one shows for a character the game offers it to instead.
   zone map 1413
-  accept 98889 @46.7,8.7 map 1413 optional
+  accept 98889 optional
 
 step Conflict at Darkspear Islands
   when onquest 98889
@@ -285,19 +288,7 @@ step Conflict at Darkspear Islands
 step Conflict at Darkspear Islands
   when onquest 98889
   zone map 1413
-  turnin 98889 @46.7,8.7 map 1413 optional
-
-step Coldtooth Supplies
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1459
-  collect 17542 x10 anywhere optional
-  turnin 5893 direct optional
-
-step Irondeep Supplies
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1459
-  collect 17522 x10 anywhere optional
-  turnin 6985 direct optional
+  turnin 98889 optional
 
 step Battle of Warsong Gulch
   when turnedin 8368
@@ -313,29 +304,18 @@ step Conquering Arathi Basin
   collect 20559 x3 anywhere optional
   turnin 8442 direct optional
 
+step Conflict at Darkspear Islands
+  when turnedin 98887
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 274895 x1 anywhere optional
+  turnin 98892 direct optional
+
 step Lokholar the Ice Lord
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1459
   collect 17306 x1 anywhere optional
   turnin 6801 direct optional
-
-step Call of Air - Guse's Fleet
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1459
-  collect 17326 x1 anywhere optional
-  turnin 6825 direct optional
-
-step Call of Air - Jeztor's Fleet
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1459
-  collect 17327 x1 anywhere optional
-  turnin 6826 direct optional
-
-step Call of Air - Mulverick's Fleet
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1459
-  collect 17328 x1 anywhere optional
-  turnin 6827 direct optional
 
 step Level 50
   level 50
@@ -357,10 +337,28 @@ step Battle of Warsong Gulch
   zone map 1413
   turnin 8429 optional
 
-step Master Ryson's All Seeing Eye
+step Conflict at Darkspear Islands
+  when available 98891
+  tip One of several exclusive quests; the route takes Conflict at Darkspear Islands (98887). This one shows for a character the game offers it to instead.
+  zone map 1413
+  accept 98891 optional
+
+step Conflict at Darkspear Islands
+  when onquest 98891
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 98891 @46.7,8.7 optional
+
+step Conflict at Darkspear Islands
+  when onquest 98891
+  zone map 1413
+  turnin 98891 optional
+
+step Call of Air - Guse's Fleet
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1459
-  turnin 6847 direct optional
+  collect 17326 x1 anywhere optional
+  turnin 6825 direct optional
 
 step Conquering Arathi Basin
   when available 8438
@@ -379,6 +377,23 @@ step Conquering Arathi Basin
   zone map 1413
   turnin 8438 optional
 
+step Call of Air - Jeztor's Fleet
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1459
+  collect 17327 x1 anywhere optional
+  turnin 6826 direct optional
+
+step Call of Air - Mulverick's Fleet
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1459
+  collect 17328 x1 anywhere optional
+  turnin 6827 direct optional
+
+step Master Ryson's All Seeing Eye
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1459
+  turnin 6847 direct optional
+
 step Zinfizzlex's Portable Shredder Unit
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1459
@@ -387,21 +402,6 @@ step Zinfizzlex's Portable Shredder Unit
   collect 3575 x75 anywhere optional
   collect 17411 x1 anywhere optional
   turnin 6861 direct optional
-
-step Conflict at Darkspear Islands
-  zone map 1413
-  accept 98891 @46.7,8.7 map 1413 optional
-
-step Conflict at Darkspear Islands
-  when onquest 98891
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1413
-  complete 98891 @46.7,8.7 optional
-
-step Conflict at Darkspear Islands
-  when onquest 98891
-  zone map 1413
-  turnin 98891 @46.7,8.7 map 1413 optional
 
 step Empty Stables
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -594,26 +594,6 @@ step Battle of Warsong Gulch
   collect 20558 x3 anywhere optional
   turnin 8435 direct optional
 
-step Level 60
-  level 60
-
-step Conquering Arathi Basin
-  when available 8439
-  tip One of several exclusive quests; the route takes Conquering Arathi Basin (8370). This one shows for a character the game offers it to instead.
-  zone map 1413
-  accept 8439 optional
-
-step Conquering Arathi Basin
-  when onquest 8439
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1413
-  complete 8439 @46.7,8.7 optional
-
-step Conquering Arathi Basin
-  when onquest 8439
-  zone map 1413
-  turnin 8439 optional
-
 step Conquering Arathi Basin
   when turnedin 8370
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -621,9 +601,14 @@ step Conquering Arathi Basin
   collect 20559 x3 anywhere optional
   turnin 8443 direct optional
 
+step Level 60
+  level 60
+
 step Conflict at Darkspear Islands
+  when available 98893
+  tip One of several exclusive quests; the route takes Conflict at Darkspear Islands (98887). This one shows for a character the game offers it to instead.
   zone map 1413
-  accept 98893 @46.7,8.7 map 1413 optional
+  accept 98893 optional
 
 step Conflict at Darkspear Islands
   when onquest 98893
@@ -634,7 +619,7 @@ step Conflict at Darkspear Islands
 step Conflict at Darkspear Islands
   when onquest 98893
   zone map 1413
-  turnin 98893 @46.7,8.7 map 1413 optional
+  turnin 98893 optional
 
 step Battle of Warsong Gulch
   when available 8430
@@ -652,6 +637,30 @@ step Battle of Warsong Gulch
   when onquest 8430
   zone map 1413
   turnin 8430 optional
+
+step Conflict at Darkspear Islands
+  when turnedin 98887
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1413
+  collect 274895 x1 anywhere optional
+  turnin 98894 direct optional
+
+step Conquering Arathi Basin
+  when available 8439
+  tip One of several exclusive quests; the route takes Conquering Arathi Basin (8370). This one shows for a character the game offers it to instead.
+  zone map 1413
+  accept 8439 optional
+
+step Conquering Arathi Basin
+  when onquest 8439
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 8439 @46.7,8.7 optional
+
+step Conquering Arathi Basin
+  when onquest 8439
+  zone map 1413
+  turnin 8439 optional
 
 step More Booty!
   when turnedin 7224

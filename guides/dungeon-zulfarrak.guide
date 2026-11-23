@@ -5,7 +5,7 @@ category Dungeons
 levels 40-50
 zone Tanaris
 next completionist-horde/dungeon-maraudon
-next completionist-horde/37-tirisfal-glades-and-the-undercity-3
+next completionist-horde/40-tirisfal-glades-and-the-undercity-3
 pitch Zul'Farrak, in Tanaris.
 why Every Horde quest of Zul'Farrak: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -171,41 +171,17 @@ step An OOX of Your Own
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Divino-matic Rod
-  when onquest 2768
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1446
-  turnin 2768 optional
-
 step Tabetha's Task
   when onquest 2861
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1445
   turnin 2861 optional
 
-step Tran'rek
-  when onquest 2864
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1446
-  turnin 2864 optional
-
 step The Spider God
   when onquest 2936
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1411
   turnin 2936 optional
-
-step Troll Temper
-  when onquest 3042
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1446
-  turnin 3042 optional
-
-step The Prophecy of Mosh'aru
-  when onquest 3527
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1446
-  turnin 3527 optional
 
 step A Lesson in Literacy
   when onquest 82084

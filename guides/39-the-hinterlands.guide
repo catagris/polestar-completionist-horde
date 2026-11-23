@@ -1,119 +1,16 @@
-guide completionist-horde/36-the-hinterlands
-title 36 The Hinterlands (43-51) (Completionist)
+guide completionist-horde/39-the-hinterlands
+title 39 The Hinterlands (43-52) (Completionist)
 faction Horde
-levels 43-51
+levels 43-52
 category Leveling
 zone The Hinterlands
 next completionist-horde/dungeon-zulfarrak
-next completionist-horde/37-tirisfal-glades-and-the-undercity-3
-pitch On along the line: The Hinterlands, quests of level 43 to 51.
+next completionist-horde/40-tirisfal-glades-and-the-undercity-3
+pitch On along the line: The Hinterlands, quests of level 43 to 52.
 # Generated from the reference data: change the planner, not this file.
-# Routed 26 quests; estimated level at the end 45.0 (heuristic XP, class quests not counted).
-
-step Jes'rimon
-  when onquest 3541
-  zone map 1454
-  turnin 3541
-  accept 3563
-  accept 91735
-
-step Nara Wildmane
-  when onquest 3518
-  zone map 1456
-  turnin 92346
-  turnin 3518
-  accept 3562
-  accept 91737
-
-step Andron Gant
-  when onquest 3542
-  zone map 1458
-  turnin 3542
-  accept 3564
-  accept 91734
-  accept 3568
-
-step Ag'tor Bloodfist
-  when onquest 3504
-  zone map 1447
-  turnin 3504
-  accept 3505
-  turnin 3563
-  turnin 91735
-
-step Blood Elf Reclaimer and Blood Elf Surveyor
-  zone map 1447
-  kill 6199 x10 quest 3505.1
-  kill 6198 x10 quest 3505.2
-
-step Kaldorei Tome of Summoning
-  when onquest 3505
-  zone map 1447
-  turnin 3505
-  accept 3506
-  accept 91497
-
-step Magus Rimtori
-  zone map 1447
-  collect 10597 x1 quest 3506.1
-
-step Ranger Lydrea
-  collect 246722 x1 quest 91497.3
-
-step Lieutenant Suncrest
-  collect 246725 x1 quest 91497.1
-
-step Magister Hawkhelm
-  collect 246721 x1 quest 91497.2
-
-step Sin'dorei Tome of Summoning
-  when onquest 91497
-  zone map 1447
-  turnin 91497
-  accept 91500
-  accept 91538
-
-step Magus Rimtori
-  zone map 1447
-  collect 10597 x1 quest 91500.1
-
-step Jediga
-  when onquest 3506
-  zone map 1447
-  turnin 91538
-  accept 91547
-  turnin 3506
-  turnin 91500
-  accept 3507
-  accept 91531
-
-step Jediga
-  when onquest 3562
-  zone map 1447
-  turnin 3562
-  turnin 91737
-
-step the First Tide Pool
-  zone map 1447
-  collect 10691 x1 quest 3568.1
-
-step the Second Tide Pool
-  collect 10692 x1 quest 3568.2
-
-step the Third Tide Pool
-  collect 10693 x1 quest 3568.3
-
-step the Fourth Tide Pool
-  collect 10694 x1 quest 3568.4
-
-step Jediga
-  when onquest 3564
-  zone map 1447
-  turnin 3564
-  turnin 91734
+# Routed 40 quests; estimated level at the end 45.7 (heuristic XP, class quests not counted).
 
 step Level 44
-  zone map 1425
   level 44
 
 step Katoom the Angler
@@ -235,16 +132,6 @@ step Slagtree's Lost Tools
 step Vilebranch Kidnapper
   collect 19034 x1 quest 7840.1
 
-step Otho Moji'ko
-  turnin 7842
-  accept 7843
-  turnin 7839
-  turnin 7850
-  turnin 7840
-
-step Venom Bottle
-  accept 2933 object 142712
-
 step Rin'ji
   accept 2742
 
@@ -258,15 +145,206 @@ step Find OOX-09/HL!
   zone map 1425
   turnin 485
 
-step Book
+step Venom Bottle
   zone map 1425
+  accept 2933 object 142710
+
+step Book
   accept 81954 object 441252
+
+step Level 47
+  level 47
+
+step Field Captain Korlian
+  accept 82068 npc 221479
+  turnin 82068 npc 221479
+
+step Hinterlands Mission XI: Starsilver Ore
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81834
+  complete 81834 @61.4,34.4
+
+step Hinterlands Mission X: Star Lotus
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81833
+  complete 81833 @61.4,34.4
+
+step Hinterlands Mission XI: Starsilver Ore
+  turnin 81834
+
+step Hinterlands Mission VI: Moonkin Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81820
+  complete 81820 @61.4,34.4
+
+step Hinterlands Mission X: Star Lotus
+  turnin 81833
+
+step Hinterlands Mission V: Turtle Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81817
+  complete 81817 @61.4,34.4
+
+step Hinterlands Mission VI: Moonkin Intelligence
+  turnin 81820
+
+step Hinterlands Mission IV: Dragon Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81789
+  complete 81789 @61.4,34.4
+
+step Hinterlands Mission V: Turtle Intelligence
+  turnin 81817
+
+step Field Captain Korlian
+  accept 81852
+  turnin 81852
+
+step Hinterlands Mission IV: Dragon Intelligence
+  turnin 81789
+
+step Field Captain Korlian
+  accept 81851
+  turnin 81851
+
+step Field Captain Korlian
+  accept 81850
+  turnin 81850
+
+step Field Captain Korlian
+  when group 81788
+  zone map 1425
+  accept 81788
+
+step Field Captain Korlian
+  zone map 1425
+  accept 81835
+
+step Field Captain Korlian
+  when group 81837
+  zone map 1425
+  accept 81837
+
+step Field Captain Korlian
+  zone map 1425
+  accept 81838
+
+step Field Captain Korlian
+  when group 81839
+  zone map 1425
+  accept 81839
+
+step Fallen Moonkin, Humming Box and Doomkin
+  zone map 1425
+  kill 221333 x1 quest 81838.1
+
+step Field Captain Korlian
+  turnin 81838
+
+step Dreamwater Vicejaw
+  collect 219487 x1 quest 81835.1
+
+step Field Captain Korlian
+  turnin 81835
+
+step Field Captain Korlian
+  accept 81832
+
+step Dreampearl and Ghamoo-Raja
+  collect 219491 x1 quest 81832.1
+
+step Field Captain Korlian
+  turnin 81832
+
+step Field Captain Korlian
+  accept 81830
+
+step Fallen Moonkin, Humming Box and Doomkin
+  collect 219490 x1 quest 81830.1
+
+step Field Captain Korlian
+  turnin 81830
+
+step Field Captain Korlian
+  accept 81826
+
+step Star-Touched Dragon Egg and Florius
+  collect 219488 x1 quest 81826.1
+
+step Field Captain Korlian
+  turnin 81826
+
+step Field Captain Korlian
+  accept 81787
+
+step Dreamwater Vicejaw
+  kill 221328 x1 quest 81787.1
+
+step Field Captain Korlian
+  turnin 81787
+
+step Field Captain Korlian
+  accept 81786
+
+step Fallen Moonkin, Humming Box and Doomkin
+  kill 221330 x1 quest 81786.1
+
+step Wrath Whelp and Wyrmkin Starhunter
+  when group 81788
+  zone map 1425
+  kill 221326 x1 quest 81788.1
+  kill 221325 x1 quest 81788.2
+
+step Field Captain Korlian
+  when group 81788
+  zone map 1425
+  turnin 81788
+
+step Star-Touched Dragon Egg and Florius
+  when group 81837
+  zone map 1425
+  kill 221331 x1 quest 81837.1
+
+step Field Captain Korlian
+  when group 81837
+  zone map 1425
+  turnin 81837
+
+step Dreampearl and Ghamoo-Raja
+  when group 81839
+  zone map 1425
+  kill 221334 x1 quest 81839.1
+
+step Field Captain Korlian
+  when group 81839
+  zone map 1425
+  turnin 81839
+
+step Field Captain Korlian
+  zone map 1425
+  turnin 81786
 
 step Book
   collect 220350 x1 quest 81954.1
 
 step Atal'ai Exile
   accept 1444
+
+step Smith Slagtree
+  turnin 7839
+  turnin 7850
+  turnin 7840
+  turnin 7842
+  accept 7843
+
+step Apothecary Lydon
+  zone map 1416
+  turnin 2933
+  accept 2934
+
+step Witherbark Broodguard
+  zone map 1425
+  collect 9322 x1 quest 2934.1
 
 step Otho Moji'ko
   complete 7843 @14.3,48.1 map 1425
@@ -333,15 +411,6 @@ step Rin'ji's Secret
 
 step Apothecary Lydon
   zone map 1416
-  turnin 2933
-  accept 2934
-
-step Witherbark Broodguard
-  zone map 1425
-  collect 9322 x1 quest 2934.1
-
-step Apothecary Lydon
-  zone map 1416
   turnin 2934
   accept 2935
 
@@ -371,6 +440,10 @@ step Rescue OOX-09/HL!
   zone map 1434
   turnin 836
 
+step Fel'zerul
+  zone map 1435
+  turnin 1444
+
 step Master Gadrin
   zone map 1411
   turnin 2935
@@ -378,35 +451,3 @@ step Master Gadrin
 step The Spider God
   tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 2936 optional
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step Betrayed
-  when onquest 3504
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1447
-  turnin 3504 optional
-
-step Delivery to Magatha
-  when onquest 3518
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 3518 optional
-
-step Delivery to Jes'rimon
-  when onquest 3541
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 3541 optional
-
-step Delivery to Andron Gant
-  when onquest 3542
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 3542 optional
-
-step Beneath Nordrassil
-  when onquest 92346
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 92346 optional

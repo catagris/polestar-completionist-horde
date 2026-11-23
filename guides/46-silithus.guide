@@ -1,59 +1,29 @@
-guide completionist-horde/58-silithus
-title 58 Silithus (55-60) (Completionist)
+guide completionist-horde/46-silithus
+title 46 Silithus (55-60) (Completionist)
 faction Horde
 levels 55-60
 category Leveling
 zone Silithus
-next completionist-horde/59-tanaris-2
+next completionist-horde/47-searing-gorge-2
 pitch On along the line: Silithus, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 22 quests; estimated level at the end 56.3 (heuristic XP, class quests not counted).
+# Routed 19 quests; estimated level at the end 56.1 (heuristic XP, class quests not counted).
 
-step Master Apothecary Faranell
-  when onquest 2938
+step Ralston Farnsley
+  when onquest 7813
   zone map 1458
-  turnin 2938
-
-step Rashona Straglash
-  when onquest 7826
-  zone map 1454
-  turnin 7826
-  turnin 7827
-  turnin 7831
-  accept 7824
-
-step Vehena
-  when onquest 7833
-  zone map 1454
-  turnin 7833
-  turnin 7834
-  turnin 7835
-  accept 7836
+  turnin 7813
+  turnin 7814
+  turnin 7817
+  accept 7818
 
 step Cenarion Emissary Blackhoof
   zone map 1454
   accept 8276
 
-step Rumstag Proudstrider
-  when onquest 7820
-  zone map 1456
-  turnin 7820
-
-step Rumstag Proudstrider
-  zone map 1456
-  accept 7823
-
-step Rumstag Proudstrider
-  when onquest 7823
-  zone map 1456
-  turnin 7823
-
 step Stormwind Royal Guard
   zone map 1453
-  collect 14047 x60 quest 7824.1
-
-step Stormwind Royal Guard
-  collect 14047 x60 quest 7836.1
+  collect 14047 x60 quest 7818.1
 
 step Scout Bloodfist
   zone map 1451
@@ -470,30 +440,13 @@ step Stonelash Pincer
 
 step Hermit Ortell
   turnin 8285
-  accept 8279
 
 step Stonelash Flayer
   collect 20375 x3 quest 8278.1
 
-step Twilight Keeper Exeter
-  zone map 1451
-  collect 20395 x1 quest 8279.2
-
 step Rock Stalker
+  zone map 1451
   collect 20377 x3 quest 8278.3
-
-step Twilight Keeper Mayna
-  collect 20394 x1 quest 8279.1
-
-step Twilight Keeper Havunth
-  collect 20396 x1 quest 8279.3
-
-step Beetix Ficklespragg
-  turnin 8278
-  accept 8282
-
-step Noggle's Satchel
-  collect 20379 x1 quest 8282.1
 
 step General Kirika
   turnin 9416
@@ -523,28 +476,17 @@ step Silithus Dust Turnin Quest Doodad Horde
 step General Kirika
   turnin 9422
 
-step Hermit Ortell
-  zone map 1449
-  turnin 8279
-  accept 8287
-  accept 8323
+step Beetix Ficklespragg
+  turnin 8278
+  accept 8282
 
-step Twilight Prophet
-  zone map 1451
-  collect 20404 x10 quest 8323.1
-
-step Commander Mar'alith
-  turnin 8287
+step Noggle's Satchel
+  collect 20379 x1 quest 8282.1
 
 step Noggle Ficklespragg
   turnin 8282
 
-step Hermit Ortell
-  zone map 1449
-  turnin 8323
-
 step Windcaller Proudhorn
-  zone map 1451
   turnin 8276
   accept 8280
 
@@ -701,50 +643,20 @@ step Kitchen Assistance
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Venom to the Undercity
-  when onquest 2938
+step A Donation of Wool
+  when onquest 7813
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1458
-  turnin 2938 optional
-
-step A Donation of Wool
-  when onquest 7820
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 7820 optional
-
-step A Donation of Wool
-  when onquest 7826
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7826 optional
+  turnin 7813 optional
 
 step A Donation of Silk
-  when onquest 7827
+  when onquest 7814
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7827 optional
+  zone map 1458
+  turnin 7814 optional
 
 step A Donation of Mageweave
-  when onquest 7831
+  when onquest 7817
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7831 optional
-
-step A Donation of Wool
-  when onquest 7833
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7833 optional
-
-step A Donation of Silk
-  when onquest 7834
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7834 optional
-
-step A Donation of Mageweave
-  when onquest 7835
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7835 optional
+  zone map 1458
+  turnin 7817 optional

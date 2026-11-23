@@ -8,7 +8,7 @@ next completionist-horde/dungeon-the-drowned-city
 next completionist-horde/24-the-barrens-3
 pitch On along the line: Stranglethorn Vale, quests of level 30 to 45.
 # Generated from the reference data: change the planner, not this file.
-# Routed 77 quests; estimated level at the end 38.7 (heuristic XP, class quests not counted).
+# Routed 76 quests; estimated level at the end 38.6 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route.
 
 step The Power to Destroy...
@@ -44,24 +44,12 @@ step Partial Mystical Notes
   zone map 1434
   turnin 95384 direct @28.3,76.3 map 1434
 
-step State Secrets
-  zone map 1434
-  accept 96379 optional
-
 step A Special Gift
+  zone map 1434
   accept 60870 optional
 
-step State Secrets
-  when onquest 96379
-  zone map 1434
-  turnin 96379 optional
-
 step Caravaneer Ruzzgot
-  zone map 1434
   turnin 95295
-  accept 95322
-  turnin 95322
-  accept 95325
 
 step A Special Gift
   when onquest 60870
@@ -81,16 +69,33 @@ step Barnil Stonepot
   accept 583
   turnin 583
   accept 194
-  accept 78830
   turnin 5763
-  accept 185
-  accept 190
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 339
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 340
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 341
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
+  accept 342
 
 step Terror of the Desert Skies
-  when has 211269
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  when turnedin 78823
   zone map 1434
-  turnin 78823 direct @35.7,10.8 map 1434
+  accept 78830
+  complete 78830 @35.7,10.8
 
 step The Green Hills of Stranglethorn
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -98,36 +103,24 @@ step The Green Hills of Stranglethorn
   accept 338
   complete 338 @35.7,10.5
 
-step Barnil Stonepot
-  accept 339
-  accept 340
-  accept 341
-  accept 342
+step Terror of the Desert Skies
+  when onquest 78830
+  zone map 1434
+  turnin 78830
+
+step Ajeck Rouack
+  zone map 1434
+  accept 185
+  accept 190
 
 step The Green Hills of Stranglethorn
   turnin 338
 
-step Young Panther
-  kill 683 x10 quest 190.1
+step Young Stranglethorn Tiger
+  kill 681 x10 quest 185.1
 
-step Bookie Herod
-  collect 2730 x1 quest 339.3
-  collect 2734 x1 quest 340.1
-  collect 2735 x1 quest 340.2
-  collect 2740 x1 quest 340.4
-  collect 2744 x1 quest 341.2
-  collect 2745 x1 quest 341.3
-
-step Wendel Mathers
-  accept 97047
-
-step Gharrik
-  zone map 1418
-  collect 211293 x1 quest 78830.1
-
-step Kurzen Subchief
-  zone map 1434
-  collect 216616 x1 quest 97047.1
+step Stranglethorn Raptor
+  kill 685 x10 quest 194.1
 
 step Level 31
   level 31
@@ -138,13 +131,13 @@ step Kebok
 step Venture Co. Geologist
   collect 4106 x8 quest 213.1
 
-step Kurzen Supply Crate
-  collect 216617 x1 quest 97047.2
-
-step Research Notes
-  accept 79535 object 421526
+step Lord Sakrasis
+  when onquest 338
+  zone map 1434
+  collect 2732 x1 quest 339.4
 
 step Level 35
+  zone map 1434
   level 35
 
 step Crank Fizzlebub
@@ -162,25 +155,22 @@ step Privateer Bloads
 step Naga Explorer
   collect 4029 x10 quest 617.1
 
-step Research Notes
-  collect 213165 x1 quest 79535.1
+step Privateer Bloads
+  turnin 617
 
-step Zanzil Zombie
-  collect 4016 x12 quest 621.1
+step Caravaneer Ruzzgot
+  accept 95322
+  turnin 95322
 
-step Negolash
-  collect 2738 x1 quest 340.3
-  collect 2749 x1 quest 342.1
+step Caravaneer Ruzzgot
+  accept 95325
 
-step Drizzlik
-  accept 575
-  turnin 605
-  turnin 621
-  accept 600
+step Kebok
   turnin 189
   turnin 213
   accept 209
-  turnin 617
+  turnin 605
+  accept 600
 
 step Nixxrax Fillamug
   buy 4600 x1 npc 2832 -- for Cherry for Your Thoughts?
@@ -189,52 +179,114 @@ step Tokal
   turnin 79236
   accept 79242
   accept 606
-  accept 595
+  accept 575
+
+step Negolash
+  when onquest 338
+  zone map 1434
+  collect 2738 x1 quest 340.3
+
+step Negolash
+  when onquest 338
+  zone map 1434
+  collect 2749 x1 quest 342.1
 
 step Elder Mistvale Gorilla
+  zone map 1434
   collect 3919 x5 quest 606.1
 
-step Lord Sakrasis
-  collect 2732 x1 quest 339.4
-
-step Venture Co. Surveyor
-  collect 3917 x10 quest 600.1
+step Zanzil Zombie
+  collect 4016 x12 quest 621.1
 
 step Skullsplitter Spiritchaser
   collect 1524 x18 quest 209.1
 
+step Venture Co. Surveyor
+  collect 3917 x10 quest 600.1
+
 step Roloch
+  when onquest 338
+  zone map 1434
   collect 2742 x1 quest 341.1
   collect 2748 x1 quest 341.4
+
+step Roloch
+  when onquest 338
+  zone map 1434
   collect 2750 x1 quest 342.2
   collect 2751 x1 quest 342.3
 
 step Gluggle
+  when onquest 338
+  zone map 1434
   collect 2725 x1 quest 339.1
   collect 2728 x1 quest 339.2
 
-step Stranglethorn Raptor
-  kill 685 x10 quest 194.1
+step Young Panther
+  zone map 1434
+  kill 683 x10 quest 190.1
 
-step Young Stranglethorn Tiger
-  kill 681 x10 quest 185.1
+step Bookie Herod
+  when onquest 338
+  zone map 1434
+  collect 2730 x1 quest 339.3
 
-step River Crocolisk
-  collect 4053 x2 quest 575.1
+step Bookie Herod
+  when onquest 338
+  zone map 1434
+  collect 2734 x1 quest 340.1
+  collect 2735 x1 quest 340.2
+  collect 2740 x1 quest 340.4
 
-step Ajeck Rouack
+step Bookie Herod
+  when onquest 338
+  zone map 1434
+  collect 2744 x1 quest 341.2
+  collect 2745 x1 quest 341.3
+
+step Wendel Mathers
+  zone map 1434
+  accept 97047
+
+step Kurzen Subchief
+  collect 216616 x1 quest 97047.1
+
+step Kurzen Supply Crate
+  collect 216617 x1 quest 97047.2
+
+step Wendel Mathers
+  turnin 97047
+  accept 97048
+
+step Barnil Stonepot
   turnin 185
   accept 186
   turnin 190
   accept 191
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
   turnin 339
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
   turnin 340
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
   turnin 341
+
+step Barnil Stonepot
+  when onquest 338
+  zone map 1434
   turnin 342
 
 step Hemet Nesingwary
+  zone map 1434
   turnin 194
-  turnin 78830
   accept 195
 
 step Lashtail Raptor
@@ -246,21 +298,8 @@ step Panther
 step Stranglethorn Tiger
   kill 682 x10 quest 186.1
 
-step Thoroughly Scavenged Supplies
-  accept 97328
-
-step Stolen Shipment
-  collect 277953 x8 quest 97328.1
-
-step Zimmix Sputterspark
-  accept 97329
-
-step Bloodscalp Scout
-  collect 277957 x1 quest 97329.1
-
-step Zimmix Sputterspark
-  turnin 97329
-  accept 97331
+step River Crocolisk
+  collect 4053 x2 quest 575.1
 
 step Ajeck Rouack
   turnin 186
@@ -285,58 +324,27 @@ step Far Seer Mok'thardin
   accept 568
   accept 95141
   accept 97453
+  accept 596
+  accept 629
+  accept 638
 
 step Lashtail Raptor
   kill 686 x15 quest 568.1
 
-step Carnivorous Weed
-  kill 269175 x6 quest 97453.1
+step Bloodscalp Scout
+  collect 3915 x25 quest 596.1
 
-step Stranglethorn Tigress
-  collect 3839 x1 quest 570.2
+step Gri'lek the Wanderer
+  collect 4094 x1 quest 629.1
 
 step Elder Shadowmaw Panther
   collect 3838 x8 quest 570.1
 
-step Bloodsail Correspondence
-  turnin 595
-  accept 597
+step Stranglethorn Tigress
+  collect 3839 x1 quest 570.2
 
-step "Shaky" Phillipe
-  turnin 606
-  accept 607
-  turnin 97328
-  complete 97331 @26.8,11.4 map 1434
-  turnin 97331
-  accept 97332
-
-step Kebok
-  turnin 209
-  complete 201 @35.6,10.6 map 1434
-  turnin 201
-  turnin 600
-  turnin 607
-  accept 609
-  turnin 575
-  accept 577
-
-step First Mate Crazz
-  turnin 597
-  accept 599
-  accept 576
-
-step Bloodsail Swashbuckler
-  collect 3897 x1 quest 576.1
-
-step Chucky "Ten Thumbs"
-  collect 3926 x1 quest 609.3
-
-step Snapjaw Crocolisk
-  collect 4104 x5 quest 577.1
-
-step Maury "Club Foot" Wilkins and Jon-Jon the Crow
-  collect 3924 x1 quest 609.1
-  collect 3925 x1 quest 609.2
+step Carnivorous Weed
+  kill 269175 x6 quest 97453.1
 
 step Nerrist
   turnin 97453
@@ -352,6 +360,34 @@ step Mosh'Ogg Brute and Mosh'Ogg Witch Doctor
 step Jungle Stalker
   collect 3863 x10 quest 572.1
 
+step "Shaky" Phillipe
+  turnin 606
+  accept 607
+  accept 595
+
+step Captain Aransas
+  turnin 97048
+  turnin 607
+  accept 609
+  turnin 575
+  accept 577
+
+step Chucky "Ten Thumbs"
+  collect 3926 x1 quest 609.3
+
+step Snapjaw Crocolisk
+  collect 4104 x5 quest 577.1
+
+step Maury "Club Foot" Wilkins and Jon-Jon the Crow
+  collect 3924 x1 quest 609.1
+  collect 3925 x1 quest 609.2
+
+step Research Notes
+  accept 79535 object 421526
+
+step Research Notes
+  collect 213165 x1 quest 79535.1
+
 step Far Seer Mok'thardin
   turnin 572
   accept 571
@@ -362,45 +398,93 @@ step Commander Aggro'gosh
   zone map 1434
   accept 97386
 
-step Nimboya
+step Kin'weelay
   zone map 1434
-  accept 638
-  accept 2932
-  accept 1261
-  accept 596
+  turnin 596
+  turnin 629
+  accept 598
+  accept 95748
 
-step Bloodscalp Scout
-  collect 3915 x25 quest 596.1
+step Fall of Gurubashi
+  collect 2007 x1 quest 95748.1
 
-step Muckshell Razorclaw
-  zone map 1445
-  collect 5942 x1 quest 1261.1
+step Skullsplitter Spiritchaser
+  collect 3916 x25 quest 598.1
 
 step Elder Mistvale Gorilla
-  zone map 1434
   collect 3862 x1 quest 571.1
 
-step Venture Co. Ledger
-  turnin 95325
-  accept 95326
+step Bloodsail Correspondence
+  turnin 595
+  accept 597
 
-step Venture Co. Agent
-  collect 268810 x1 quest 95326.1
+step First Mate Crazz
+  turnin 597
+  accept 599
+  turnin 609
 
-step Wendel Mathers
-  turnin 97047
-  accept 97048
-
-step Hemet Nesingwary
-  turnin 196
-
-step Hemet Nesingwary
-  when group 197
+step "Sea Wolf" MacKinley
+  when group 613
   zone map 1434
-  accept 197
+  accept 613
+
+step Drizzlik
+  zone map 1434
+  turnin 577
+
+step Drizzlik
+  when group 628
+  zone map 1434
+  accept 628
+
+step Fleet Master Seahorn
+  zone map 1434
+  turnin 599
+  accept 604
+  turnin 600
+  turnin 621
+  complete 201 @35.6,10.6 map 1434
+  turnin 201
+  turnin 209
+  accept 587
+
+step Bloodsail Swashbuckler, Bloodsail Charts and Bloodsail Orders
+  collect 3910 x15 quest 587.1
+  kill 1563 x10 quest 604.1
+  collect 3920 x1 quest 604.2
+  collect 3921 x1 quest 604.3
+
+step Deeg
+  turnin 587
+  turnin 604
+  accept 608
+
+step Captain Keelhaul
+  kill 2548 x1 quest 608.2
+
+step Fleet Master Firallon
+  kill 2546 x1 quest 608.3
+
+step Captain Stillwater
+  kill 2550 x1 quest 608.1
+
+step Zimmix Sputterspark
+  accept 97329
+
+step Bloodscalp Scout
+  collect 277957 x1 quest 97329.1
+
+step Zimmix Sputterspark
+  turnin 97329
+  accept 97331
+
+step Thoroughly Scavenged Supplies
+  accept 97328
+
+step Stolen Shipment
+  collect 277953 x8 quest 97328.1
 
 step Ajeck Rouack
-  zone map 1434
   turnin 187
   accept 188
   turnin 192
@@ -409,6 +493,15 @@ step Sir S. J. Erlgadin
   when group 193
   zone map 1434
   accept 193
+
+step Hemet Nesingwary
+  zone map 1434
+  turnin 196
+
+step Hemet Nesingwary
+  when group 197
+  zone map 1434
+  accept 197
 
 step Sin'Dall
   zone map 1434
@@ -426,55 +519,27 @@ step Bhag'thera
   zone map 1434
   collect 3876 x1 quest 193.1
 
-step Kin'weelay
-  zone map 1425
-  turnin 596
-  complete 2932 @23.4,58.1 map 1425
-  turnin 2932
-  accept 629
-
-step Far Seer Mok'thardin
+step Venture Co. Ledger
   zone map 1434
-  turnin 571
-  accept 573
+  turnin 95325
+  accept 95326
 
-step The Holy Spring
-  collect 737 x1 quest 573.2
+step Venture Co. Agent
+  collect 268810 x1 quest 95326.1
 
-step Naga Explorer
-  kill 1907 x10 quest 573.1
-
-step Gri'lek the Wanderer
-  collect 4094 x1 quest 629.1
-
-step Kin'weelay
-  turnin 629
-  accept 95748
-
-step Kin'weelay
-  accept 598
-
-step Skullsplitter Spiritchaser
-  collect 3916 x25 quest 598.1
-
-step Kin'weelay
-  turnin 598
-
-step Fall of Gurubashi
-  collect 2007 x1 quest 95748.1
+step Hemet Nesingwary
+  when group 197
+  zone map 1434
+  turnin 197
 
 step Ajeck Rouack
+  zone map 1434
   turnin 188
 
 step Sir S. J. Erlgadin
   when group 193
   zone map 1434
   turnin 193
-
-step Hemet Nesingwary
-  when group 197
-  zone map 1434
-  turnin 197
 
 step Hemet Nesingwary
   when group 208
@@ -489,37 +554,53 @@ step King Bangalash
 
 step Far Seer Mok'thardin
   zone map 1434
-  turnin 573
+  turnin 571
+  accept 573
+
+step Nimboya
+  accept 2932
+  accept 1261
+  turnin 598
   turnin 95748
   accept 95770
   accept 95773
 
+step Naga Explorer
+  kill 1907 x10 quest 573.1
+
+step The Holy Spring
+  collect 737 x1 quest 573.2
+
+step Muckshell Razorclaw
+  zone map 1445
+  collect 5942 x1 quest 1261.1
+
 step Brinescale Skirmisher
+  zone map 1434
   collect 270305 x10 quest 95773.1
 
-step Kin'weelay
+step Far Seer Mok'thardin
+  zone map 1425
+  turnin 573
+  turnin 95773
+  complete 2932 @23.4,58.1 map 1425
+  turnin 2932
   complete 95770 @22.4,27.2 map 1434
   turnin 95770
-  turnin 95773
+
+step Mosh'Ogg Spellcrafter, Mosh'Ogg Mauler and Mosh'Ogg Shaman
+  when group 97386
+  tip The Offense of Grom'gol is group work: elites. Grouping up is advised.
+  zone map 1434
+  kill 710 x1 quest 97386.1
+  kill 678 x1 quest 97386.3
+  kill 679 x1 quest 97386.4
 
 step Mosh'Ogg Warmonger
   when group 97386
   tip The Offense of Grom'gol is group work: elites. Grouping up is advised.
   zone map 1434
   kill 709 x1 quest 97386.2
-
-step Mosh'Ogg Spellcrafter and Mosh'Ogg Shaman
-  when group 97386
-  tip The Offense of Grom'gol is group work: elites. Grouping up is advised.
-  zone map 1434
-  kill 710 x1 quest 97386.1
-  kill 679 x1 quest 97386.4
-
-step Mosh'Ogg Mauler
-  when group 97386
-  tip The Offense of Grom'gol is group work: elites. Grouping up is advised.
-  zone map 1434
-  kill 678 x1 quest 97386.3
 
 step Commander Aggro'gosh
   when group 97386
@@ -531,55 +612,23 @@ step Hemet Nesingwary
   zone map 1434
   turnin 208
 
-step Caravaneer Ruzzgot
+step Wharfmaster Lozgil
   zone map 1434
+  turnin 97328
+  complete 97331 @26.8,11.4 map 1434
+  turnin 97331
+  accept 97332
   turnin 95326
   accept 95327
-  turnin 576
-  turnin 97048
 
-step "Sea Wolf" MacKinley
-  turnin 609
-
-step "Sea Wolf" MacKinley
-  when group 613
-  zone map 1434
-  accept 613
+step Dizzy One-Eye
+  accept 576
 
 step Fleet Master Seahorn
-  zone map 1434
-  turnin 599
-  accept 604
-  accept 587
+  turnin 608
 
-step Bloodsail Swashbuckler, Bloodsail Charts and Bloodsail Orders
-  collect 3910 x15 quest 587.1
-  kill 1563 x10 quest 604.1
-  collect 3920 x1 quest 604.2
-  collect 3921 x1 quest 604.3
-
-step Drizzlik
-  turnin 577
-
-step Drizzlik
-  when group 628
-  zone map 1434
-  accept 628
-
-step Fleet Master Seahorn
-  zone map 1434
-  turnin 604
-  accept 608
-  turnin 587
-
-step Captain Stillwater
-  kill 2550 x1 quest 608.1
-
-step Fleet Master Firallon
-  kill 2546 x1 quest 608.3
-
-step Captain Keelhaul
-  kill 2548 x1 quest 608.2
+step Bloodsail Swashbuckler
+  collect 3897 x1 quest 576.1
 
 step Elder Saltwater Crocolisk
   when group 628
@@ -603,9 +652,9 @@ step "Sea Wolf" MacKinley
   zone map 1434
   turnin 613
 
-step Fleet Master Seahorn
+step Dizzy One-Eye
   zone map 1434
-  turnin 608
+  turnin 576
 
 step Krom'rosh
   zone map 2548
@@ -626,6 +675,8 @@ step Shakes O'Breen
   turnin 670
   accept 667
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Shakes O'Breen
   turnin 667
 
@@ -636,6 +687,18 @@ step Owen Thadd
 step Nazeer Bloodpike
   zone map 1413
   turnin 1261
+
+step Terror of the Desert Skies
+  tip Primitive Drawing drops from Dustbelcher Ogre, Dustbelcher Brute, Dustbelcher Wyrmhunter: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1418
+  collect 211269 x1 optional
+  accept 78823 item 211269 optional
+  complete 78823 @35.7,10.8
+
+step Terror of the Desert Skies
+  when onquest 78823
+  zone map 1434
+  turnin 78823
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

@@ -10,6 +10,14 @@ why Every Horde quest of Deadmines: the chains that lead to it, the pick-ups bef
 step Getting there
   note The entrance is in Westfall: the arrow leads to it.
 
+step Seeking the Kor Gem
+  only Paladin
+  when onquest 95036
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1440
+  collect 6995 x1 anywhere optional
+  turnin 95042 direct optional
+
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step A Moon-Kissed Blade

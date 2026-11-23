@@ -8,7 +8,7 @@ zone Durotar
 why Every Hunter class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Hunter quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 19 quests; estimated level at the end 13.5 (heuristic XP).
+# Routed 16 quests; estimated level at the end 14.1 (heuristic XP).
 # Skipped: 4 exclusive with N; 2 prerequisite N not in this route.
 
 step Kary Thunderhorn
@@ -112,7 +112,7 @@ step Armored Scorpid
 
 step Thotar
   turnin 6082 only Orc,Troll
-  accept 6081 only Orc,Troll
+  accept 6081 only Orc,Undead,Troll
 
 step The Hunter's Path
   only Hunter,Orc,Troll
@@ -129,17 +129,14 @@ step The Hunter's Path
 
 step Ormak Grimshot
   zone Orgrimmar
-  turnin 6081 only Orc,Troll
-
-step Quel'ana Quickgale
-  zone map 2521
-  accept 94978 only Skyborne
-
-step Windsong Crawler
-  kill 254588 x1 quest 94978.1 only Skyborne
+  turnin 6081 only Orc,Undead,Troll
 
 step Elayaa Easewind
+  zone map 2521
   accept 94007 only Skyborne
+
+step Quel'ana Quickgale
+  turnin 94007 only Skyborne
 
 step Level 50
   level 50
@@ -176,13 +173,13 @@ step Ogtinc
   zone Orgrimmar
   turnin 8231 only Hunter
 
-step Quel'ana Quickgale
-  turnin 94007 only Skyborne
-  turnin 94978 only Skyborne
-  accept 94979 only Skyborne
+step Bloodmage Lynnore
+  zone Blasted Lands
+  accept 81919 only Hunter,Druid
 
-step Ornery Galestrider
-  kill 251707 x1 quest 94979.1 only Skyborne
+step Calefactus the Unleashed
+  zone Orgrimmar
+  collect 220213 x1 quest 81919.1 only Hunter,Druid
 
 step Level 58
   level 58
@@ -193,19 +190,8 @@ step Geologist Larksbane
   accept 8377 only Hunter
   turnin 8377 only Hunter
 
-step Quel'ana Quickgale
-  turnin 94979 only Skyborne
-  accept 94013 only Skyborne
-
-step Vuldren Alpha
-  kill 250874 x1 quest 94013.1 only Skyborne
-
-step Quel'ana Quickgale
-  turnin 94013 only Skyborne
-  accept 94050 only Skyborne
-
-step Quel'dora Quickgale
-  turnin 94050 only Skyborne
+step Bloodmage Lynnore
+  turnin 81919 only Hunter,Druid
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 

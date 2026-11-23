@@ -7,7 +7,7 @@ zone Feralas
 next completionist-horde/32-searing-gorge
 pitch On along the line: Feralas, quests of level 42 to 52.
 # Generated from the reference data: change the planner, not this file.
-# Routed 36 quests; estimated level at the end 45.9 (heuristic XP, class quests not counted).
+# Routed 51 quests; estimated level at the end 46.6 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route.
 
 step Varimathras
@@ -45,6 +45,8 @@ step Witch Doctor Uzer'i
   zone map 1444
   accept 3121
   accept 2822
+  accept 82656
+  turnin 82656
   accept 2862
 
 step Wild Leather Armor
@@ -71,6 +73,235 @@ step Book
 
 step Book
   collect 220347 x1 quest 81951.1
+
+step Level 45
+  level 45
+
+step Zorbin Fandazzle
+  accept 7003
+
+step Zorbin Fandazzle
+  accept 7721
+
+step Sea Elemental
+  collect 18958 x10 quest 7721.1
+
+step Level 47
+  level 47
+
+step Field Captain Arunnel
+  when group 81857
+  zone map 1444
+  accept 81857
+
+step Field Captain Arunnel
+  zone map 1444
+  accept 81861
+
+step To the Top
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3567 direct optional
+
+step Find OOX-22/FE!
+  tip OOX-22/FE Distress Beacon drops from Sprite Dragon, Coast Crawl Snapclaw, Coast Crawl Deepseer: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 8705 x1 optional
+  accept 2766 item 8705 optional
+
+step Find OOX-22/FE!
+  when onquest 2766
+  zone map 1444
+  turnin 2766
+
+step Feralas Mission X: Moonroot
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 81865
+  complete 81865 @48.4,12.4
+
+step Feralas Mission VI: Harpy Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81860
+  complete 81860 @48.4,12.4
+
+step Feralas Mission X: Moonroot
+  turnin 81865
+
+step Feralas Mission V: Cenarion Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81859
+  complete 81859 @48.4,12.4
+
+step Feralas Mission VI: Harpy Intelligence
+  turnin 81860
+
+step Feralas Mission IV: Dragon Intelligence
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 81858
+  complete 81858 @48.4,12.4
+
+step Feralas Mission V: Cenarion Intelligence
+  turnin 81859
+
+step Field Captain Arunnel
+  when group 81866
+  zone map 1444
+  accept 81866
+
+step Field Captain Arunnel
+  zone map 1444
+  accept 81867
+
+step Feralas Mission IV: Dragon Intelligence
+  turnin 81858
+
+step Field Captain Arunnel
+  when group 81868
+  zone map 1444
+  accept 81868
+
+step Field Captain Arunnel
+  zone map 1444
+  accept 81874
+  turnin 81874
+
+step Field Captain Arunnel
+  accept 81873
+  turnin 81873
+
+step Field Captain Arunnel
+  accept 81872
+  turnin 81872
+
+step Field Captain Arunnel
+  when group 81871
+  zone map 1444
+  accept 81871
+
+step Field Captain Arunnel
+  when group 81870
+  zone map 1444
+  accept 81870
+
+step Frenzied Whelp
+  zone map 1444
+  collect 219517 x1 quest 81867.1
+
+step Field Captain Arunnel
+  accept 81864
+
+step Field Captain Arunnel
+  accept 81863
+
+step Moonglow Dragon Egg
+  collect 219520 x1 quest 81861.1
+
+step Field Captain Arunnel
+  accept 81856
+
+step Field Captain Arunnel
+  accept 81855
+
+step Land Walker
+  collect 18956 x15 quest 7003.1
+
+step Vengeful Son and Mad Keeper's Notes
+  kill 221377 x1 quest 81855.2
+  collect 219519 x1 quest 81863.1
+
+step Lost Daughter
+  kill 221375 x1 quest 81855.1
+
+step Harpy Screed
+  collect 219518 x1 quest 81864.1
+
+step Dreamspring Roguefeather and Dreamspring Stormcaller
+  kill 221370 x1 quest 81856.1
+  kill 221371 x1 quest 81856.2
+
+step Slirena
+  when group 81871
+  tip Feralas Mission XV: Defeat Slirena is group work: elites. Grouping up is advised.
+  zone map 1444
+  kill 221391 x1 quest 81871.1
+
+step Alondrius
+  when group 81870
+  tip Feralas Mission XIV: Defeat Alondrius is group work: elites. Grouping up is advised.
+  zone map 1444
+  kill 221389 x1 quest 81870.1
+
+step Frenzied Whelp
+  when group 81857
+  tip Feralas Mission III: Defeat Dragonkin is group work: elites. Grouping up is advised.
+  zone map 1444
+  kill 221369 x1 quest 81857.1
+
+step Wyrmkin Berserker
+  when group 81857
+  tip Feralas Mission III: Defeat Dragonkin is group work: elites. Grouping up is advised.
+  zone map 1444
+  kill 221367 x1 quest 81857.2
+
+step The Giant
+  when group 81866
+  tip Feralas Mission XI: Greater Moonstone is group work: elites. Grouping up is advised.
+  zone map 1444
+  collect 219515 x1 quest 81866.1
+
+step Tyrannikus
+  when group 81868
+  tip Feralas Mission XIII: Defeat Tyrannikus is group work: elites. Grouping up is advised.
+  zone map 1444
+  kill 221393 x1 quest 81868.1
+
+step Field Captain Arunnel
+  zone map 1444
+  turnin 81855
+  turnin 81856
+  turnin 81861
+  turnin 81863
+  turnin 81864
+  turnin 81867
+
+step Field Captain Arunnel
+  when group 81871
+  zone map 1444
+  turnin 81871
+
+step Field Captain Arunnel
+  when group 81870
+  zone map 1444
+  turnin 81870
+
+step Field Captain Arunnel
+  when group 81857
+  zone map 1444
+  turnin 81857
+
+step Field Captain Arunnel
+  when group 81866
+  zone map 1444
+  turnin 81866
+
+step Field Captain Arunnel
+  when group 81868
+  zone map 1444
+  turnin 81868
+
+step Zorbin Fandazzle
+  zone map 1444
+  turnin 7003
+  turnin 7721
+
+step Refuel for the Zapping
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18958 x6 anywhere optional
+  turnin 7726 direct optional
+
+step Again With the Zapped Giants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18956 x10 anywhere optional
+  turnin 7725 direct optional
 
 step Jangdor Swiftstrider
   turnin 2822
@@ -108,7 +339,8 @@ step Orwin Gizzmick
   turnin 2987
   turnin 2978
   accept 2979
-  accept 2973
+  accept 3063
+  accept 4120
 
 step Wild Leather Helmet
   when skill Leatherworking 1
@@ -125,46 +357,14 @@ step Wild Leather Shoulders
   zone map 1444
   turnin 2855 optional
 
-step Level 45
-  zone map 1444
-  level 45
-
-step Zorbin Fandazzle
-  accept 7003
-
-step Land Walker
-  collect 18956 x15 quest 7003.1
-
-step Zorbin Fandazzle
-  turnin 7003
-
-step Again With the Zapped Giants
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 18956 x10 anywhere optional
-  turnin 7725 direct optional
-
-step Zorbin Fandazzle
-  accept 7721
-
-step Sea Elemental
-  collect 18958 x10 quest 7721.1
-
-step Zorbin Fandazzle
-  turnin 7721
-
-step Refuel for the Zapping
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 18958 x6 anywhere optional
-  turnin 7726 direct optional
-
 step Talo Thornhoof
   when group 3062
   zone map 1444
   accept 3062
 
-step Talo Thornhoof
+step Krueg Skullsplitter
   zone map 1444
-  accept 3063
+  accept 2973
 
 step Wild Leather Boots
   when skill Leatherworking 1
@@ -179,6 +379,13 @@ step Wild Leather Leggings
   zone map 1444
   accept 2859 optional
   complete 2859 @74.4,42.9 optional
+
+step Angerclaw Grizzly
+  zone map 1448
+  kill 8957 x12 quest 4120.1
+
+step Felpaw Ravager
+  kill 8961 x12 quest 4120.2
 
 step Northspring Windcaller
   zone map 1444
@@ -200,29 +407,6 @@ step Gordunni Mage-Lord
 step Woodpaw Alpha
   kill 5258 x5 quest 2863.1
 
-step Level 47
-  level 47
-
-step Talo Thornhoof
-  accept 4120
-
-step Wild Leather Boots
-  when skill Leatherworking 1
-  zone map 1444
-  turnin 2858 optional
-
-step Wild Leather Leggings
-  when skill Leatherworking 1
-  zone map 1444
-  turnin 2859 optional
-
-step Angerclaw Grizzly
-  zone map 1448
-  kill 8957 x12 quest 4120.1
-
-step Felpaw Ravager
-  kill 8961 x12 quest 4120.2
-
 step Sprite Darter
   collect 9369 x10 quest 2973.1
 
@@ -235,19 +419,29 @@ step Jangdor Swiftstrider
   turnin 2979
   accept 3002
 
-step Master of the Wild Leather
+step Wild Leather Boots
   when skill Leatherworking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1444
-  accept 2860 optional
+  turnin 2858 optional
+
+step Wild Leather Leggings
+  when skill Leatherworking 1
+  zone map 1444
+  turnin 2859 optional
 
 step Talo Thornhoof
   zone map 1444
   turnin 3063
   turnin 4120
 
+step Master of the Wild Leather
+  when skill Leatherworking 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1444
+  accept 2860 optional
+
 step Grimtotem Raider
-  zone map 1448
+  zone map 1444
   collect 9460 x20 quest 2974.1
 
 step Woodpaw Battle Map
@@ -273,7 +467,7 @@ step Edana Hatetalon
 
 step Talo Thornhoof
   when group 3062
-  zone map 1448
+  zone map 1444
   turnin 3062
 
 step Namida Grimtotem
@@ -288,7 +482,7 @@ step Blaise Montgomery
   turnin 92878
 
 step Krueg Skullsplitter
-  zone map 1448
+  zone map 1444
   turnin 2974
   accept 2976
   turnin 7730
@@ -296,31 +490,15 @@ step Krueg Skullsplitter
   accept 7732
 
 step Mirrorscale
-  zone map 1444
   collect 277972 x1 quest 97378.1
 
 step Owen Thadd
   zone map 1458
   turnin 81951
 
-step Find OOX-22/FE!
-  tip OOX-22/FE Distress Beacon drops from Sprite Dragon, Coast Crawl Snapclaw, Coast Crawl Deepseer: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  zone map 1444
-  collect 8705 x1 optional
-  accept 2766 item 8705 optional
-
-step Find OOX-22/FE!
-  when onquest 2766
-  zone map 1444
-  turnin 2766
-
 step Rescue OOX-22/FE!
   zone map 1444
   accept 2767
-
-step To the Top
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 3567 direct optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

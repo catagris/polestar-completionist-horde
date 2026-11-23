@@ -8,7 +8,7 @@ next completionist-horde/dungeon-gnomeregan
 next completionist-horde/18-dustwallow-marsh
 pitch On along the line: Thousand Needles, quests of level 25 to 38.
 # Generated from the reference data: change the planner, not this file.
-# Routed 42 quests; estimated level at the end 28.3 (heuristic XP, class quests not counted).
+# Routed 43 quests; estimated level at the end 28.3 (heuristic XP, class quests not counted).
 
 step Arch Druid Hamuul Runetotem
   when onquest 3369
@@ -82,20 +82,35 @@ step Elu
   turnin 4542
   accept 4841
   accept 5147
+  accept 98069
   accept 98070
 
 step Alien Egg
   collect 12467 x1 quest 4821.1
 
-step Screeching Harpy
-  kill 4100 x5 quest 98070.1
-
-step Screeching Roguefeather and Screeching Windcaller
+step Stolen Freewind Supplies, Screeching Roguefeather and Screeching Windcaller
+  collect 279383 x8 quest 98069.1
   kill 4101 x5 quest 98070.2
   kill 4104 x5 quest 98070.3
 
+step Screeching Harpy
+  kill 4100 x5 quest 98070.1
+
+step Pao'ka Swiftmountain
+  accept 4770
+
 step Highperch Wyvern Egg
   collect 12356 x10 quest 4767.1
+
+step Wizlo Bearingshiner
+  when group 5151
+  zone map 1441
+  accept 5151
+
+step Motega Firemane
+  zone map 1441
+  complete 4770 @15.2,32.6 map 1441
+  turnin 4770
 
 step Arnak Grimtotem
   zone map 1413
@@ -126,6 +141,9 @@ step Elu
   accept 5064
   complete 4904 @30.9,37.1 map 1441
   turnin 4904
+
+step Jandia
+  turnin 98069
   turnin 98070
 
 step Document Chest
@@ -144,34 +162,28 @@ step Scrolls
 step Cliffwatcher Longhorn
   turnin 5064
 
-step Dorn Plainstalker
-  accept 1149
-
-step Motega Firemane
-  turnin 4865
-  accept 5062
-
-step Wizlo Bearingshiner
-  when group 5151
-  zone map 1441
-  accept 5151
-
-step Kanati Greycloud
-  zone map 1441
-  turnin 4881
-  accept 4966
-
 step Level 36
   level 36
 
 step Lost Shipping Crate
   accept 94930
 
-step Galak Assassin
-  kill 10720 x1 quest 4966.1
+step Dorn Plainstalker
+  accept 1149
 
 step Cliffwatcher Longhorn
   accept 5361
+
+step Motega Firemane
+  turnin 4865
+  accept 5062
+
+step Kanati Greycloud
+  turnin 4881
+  accept 4966
+
+step Galak Assassin
+  kill 10720 x1 quest 4966.1
 
 step Kanati Greycloud
   turnin 4966
@@ -191,15 +203,8 @@ step Wizlo Bearingshiner
   zone map 1441
   turnin 5151
 
-step Pao'ka Swiftmountain
-  zone map 1441
-  accept 4770
-
-step Motega Firemane
-  complete 4770 @15.2,32.6 map 1441
-  turnin 4770
-
 step Dorn Plainstalker
+  zone map 1441
   complete 1149 @26.4,32.9 map 1441
   turnin 1149
   accept 1150
@@ -395,15 +400,6 @@ step Rau Cliffrunner
 step Owen Thadd
   zone map 1458
   turnin 79947
-
-step Stolen Freewind Supplies
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1441
-  accept 98069
-  complete 98069 @46.2,51.5
-
-step Stolen Freewind Supplies
-  turnin 98069
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

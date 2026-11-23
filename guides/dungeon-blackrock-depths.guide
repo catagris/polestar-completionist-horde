@@ -315,6 +315,93 @@ step Inside Blackrock Depths
   complete 7604 @34.8,85.3
   turnin 7604 @34.8,85.3
 
+step Three Kings of Flame
+  when turnedin 9032
+  zone map 1427
+  accept 8961
+
+step Three Kings of Flame
+  when onquest 8961
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8961 @39.8,96.5
+
+step Three Kings of Flame
+  when onquest 8961
+  zone map 1427
+  turnin 8961
+
+step Components of Importance
+  when available 8962
+  tip One of several exclusive quests; the route takes Components of Importance (8963). This one shows for a character the game offers it to instead.
+  zone map 1427
+  accept 8962 optional
+
+step Components of Importance
+  when onquest 8962
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8962 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8962
+  zone map 1427
+  turnin 8962 optional
+
+step Components of Importance
+  when available 8965
+  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
+  when turnedin 8961
+  zone map 1427
+  accept 8965 optional
+
+step Components of Importance
+  when onquest 8965
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8965 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8965
+  zone map 1427
+  turnin 8965 optional
+
+step Components of Importance
+  when available 8964
+  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
+  when turnedin 8961
+  zone map 1427
+  accept 8964 optional
+
+step Components of Importance
+  when onquest 8964
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8964 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8964
+  zone map 1427
+  turnin 8964 optional
+
+step Components of Importance
+  when available 8963
+  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
+  when turnedin 8961
+  zone map 1427
+  accept 8963 optional
+
+step Components of Importance
+  when onquest 8963
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8963 @39.8,96.5 optional
+
+step Components of Importance
+  when onquest 8963
+  zone map 1427
+  turnin 8963 optional
+
 step The Challenge
   when turnedin 8950
   tip The giver stands inside the instance: the arrow leads to its entrance.

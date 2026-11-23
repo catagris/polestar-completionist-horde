@@ -1,58 +1,114 @@
-guide completionist-horde/43-ungoro-crater
-title 43 Un'Goro Crater (50-60) (Completionist)
+guide completionist-horde/51-ungoro-crater
+title 51 Un'Goro Crater (50-60) (Completionist)
 faction Horde
 levels 50-60
 category Leveling
 zone Un'Goro Crater
-next completionist-horde/44-felwood
+next completionist-horde/dungeon-sunken-temple
+next completionist-horde/52-odd-jobs-in-the-eastern-kingdoms-4
 pitch On along the line: Un'Goro Crater, quests of level 50 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 25 quests; estimated level at the end 51.3 (heuristic XP, class quests not counted).
+# Routed 30 quests; estimated level at the end 51.9 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route.
 
-step Royal Overseer Bauhaus
-  when onquest 5023
-  zone map 1458
-  turnin 5023
-  accept 5049
+step Rumstag Proudstrider
+  when onquest 7821
+  zone map 1456
+  turnin 7821
+  turnin 7822
+  accept 2965
 
-step Jeremiah Payson
-  when onquest 5049
-  zone map 1458
-  turnin 5049
+step Nara Wildmane
+  when onquest 2965
+  zone map 1456
+  turnin 2965
+  accept 2966
 
 step Chemist Fuely
   zone map 1458
   accept 4642
 
-step Nara Wildmane
-  when onquest 4987
-  zone map 1456
-  turnin 4987
+step Mokvar
+  when group 84161
+  zone map 1454
+  accept 84161
+
+step Mokvar
+  when group 84159
+  zone map 1454
+  accept 84159
 
 step Jes'rimon
   zone map 1454
   accept 4300
 
-step Jeremiah Payson
-  zone map 1458
-  accept 5050
-
-step Janice Felstone
-  when onquest 5050
-  zone map 1422
-  turnin 5050
-
-step Two Halves Become One
+step An Earnest Proposition
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1422
-  accept 5051
-  complete 5051 @38.4,54.0
+  accept 84155
+  complete 84155 @35.0,38.3
 
-step Two Halves Become One
-  when onquest 5051
-  zone map 1422
-  turnin 5051
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 97411
+  complete 97411 @35.0,38.3
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84160
+  complete 84160 @35.0,38.3
+
+step An Earnest Proposition
+  turnin 97411
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84158
+  complete 84158 @35.0,38.3
+
+step An Earnest Proposition
+  turnin 84160
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84157
+  complete 84157 @35.0,38.3
+
+step An Earnest Proposition
+  turnin 84158
+
+step An Earnest Proposition
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84156
+  complete 84156 @35.0,38.3
+
+step An Earnest Proposition
+  turnin 84157
+
+step An Earnest Proposition
+  turnin 84155
+
+step An Earnest Proposition
+  turnin 84156
+
+step Uldum Pedestal
+  when onquest 2966
+  zone map 1446
+  turnin 2966
+
+step The Stone Watcher
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2954
+  complete 2954 @37.6,81.4
+
+step The Stone Watcher
+  when onquest 2954
+  zone map 1446
+  turnin 2954
+
+step Uldum Pedestal
+  zone map 1446
+  accept 2967
 
 step Williden Marshal
   zone map 1449
@@ -142,16 +198,10 @@ step Red Power Crystal, Yellow Power Crystal, Green Power Crystal and Blue Power
   collect 11184 x7 quest 4284.4
 
 step Level 55
+  zone map 1449
   level 55
 
-step Microcrystal Contamination
-  when has 280459
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1446
-  turnin 87494 direct @27.5,42.7 map 1446
-
 step Hol'anyee Marshal
-  zone map 1449
   accept 92020
 
 step A-Me 01
@@ -191,6 +241,41 @@ step Krakle
   turnin 974
   accept 980
 
+step Hermit Ortell
+  accept 8279
+
+step Twilight Keeper Havunth
+  zone map 1451
+  collect 20396 x1 quest 8279.3
+
+step Twilight Keeper Mayna
+  collect 20394 x1 quest 8279.1
+
+step Twilight Keeper Exeter
+  collect 20395 x1 quest 8279.2
+
+step Hermit Ortell
+  zone map 1449
+  turnin 8279
+  accept 8287
+  accept 8323
+
+step Twilight Prophet
+  zone map 1451
+  collect 20404 x10 quest 8323.1
+
+step Commander Mar'alith
+  turnin 8287
+
+step Hermit Ortell
+  zone map 1449
+  turnin 8323
+
+step Still Believing
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 20404 x10 anywhere optional
+  turnin 8324 direct optional
+
 step J.D. Collie
   turnin 4285
   turnin 4287
@@ -219,6 +304,28 @@ step Crystal Charge
 
 step A Wrecked Raft
   accept 3844
+
+step Level 58
+  level 58
+
+step Mor'vek
+  accept 94399
+
+step Fledgling Pterrordax
+  zone map 1446
+  collect 264361 x1 quest 94399.2
+
+step Microcrystal Contamination
+  when has 280459
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1446
+  turnin 87494 direct @27.5,42.7 map 1446
+
+step Young Diemetradon
+  zone map 1449
+  collect 264360 x5 quest 94399.1
+
+step A Small Pack
   turnin 3844
 
 step It's a Secret to Everybody
@@ -232,7 +339,43 @@ step It's a Secret to Everybody
 step Linken
   accept 3908
 
+step Mor'vek
+  turnin 94399
+
+step Liv Rizzlefix
+  zone map 1413
+  turnin 4147
+
+step Zapper Fuel
+  tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4146 optional
+
+step Stonelash Scorpid
+  when group 84161
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1449
+  collect 22381 x15 quest 84161.1
+
+step Stonelash Scorpid
+  when group 84159
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1449
+  collect 22381 x15 quest 84159.1
+
+step Dark Shade
+  when group 84159
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1422
+  collect 16710 x1 quest 84159.2
+
+step Scarshield Quartermaster
+  when group 84161
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1427
+  collect 16703 x1 quest 84161.2
+
 step Venomhide Ravasaur
+  zone map 1449
   collect 11477 x8 quest 4300.1
 
 step Williden's Journal
@@ -264,37 +407,10 @@ step Crystal Yield
   collect 11184 x10 anywhere optional
   turnin 4384 direct optional
 
-step Still Believing
-  when turnedin 8323
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1449
-  collect 20404 x10 anywhere optional
-  turnin 8324 direct optional
-
 step Williden's Journal
   when onquest 3884
   zone map 1449
   turnin 3884
-
-step Level 58
-  zone map 1449
-  level 58
-
-step Mor'vek
-  accept 94399 @71.6,73.9 map 1449
-
-step Diemetradon Meat
-  collect 264360 x5 quest 94399.1
-
-step Pterrordax Meat
-  collect 264361 quest 94399.2
-
-step Mor'vek
-  turnin 94399 @71.6,73.9 map 1449
-
-step Tiala Whitemane
-  zone map 2482
-  turnin 92020
 
 step Donova Snowden
   zone map 1452
@@ -305,14 +421,14 @@ step Donova Snowden
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Glyphed Oaken Branch
-  when onquest 4987
+step A Donation of Silk
+  when onquest 7821
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1456
-  turnin 4987 optional
+  turnin 7821 optional
 
-step Better Late Than Never
-  when onquest 5023
+step A Donation of Mageweave
+  when onquest 7822
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 5023 optional
+  zone map 1456
+  turnin 7822 optional

@@ -197,7 +197,7 @@ step Level 60
 
 step Rise, Thunderfury!
   when has 19018
-  tip Dormant Wind Kissed Blade drops from Prince Thunderaan (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+  tip Dormant Wind Kissed Blade drops from Prince Thunderaan; no arrow leads there.
   zone map 1444
   accept 7787 item 19018
 

@@ -10,7 +10,7 @@ next completionist-horde/04-tirisfal-glades-and-the-undercity when !turnedin 408
 next completionist-horde/06-tirisfal-glades-and-the-undercity-2
 pitch Where Skyborne start. The other starting zones follow, then the route goes on by level.
 # Generated from the reference data: change the planner, not this file.
-# Routed 78 quests; estimated level at the end 17.3 (heuristic XP, class quests not counted).
+# Routed 77 quests; estimated level at the end 17.3 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N.
 
 step Shen'dar Village
@@ -115,30 +115,27 @@ step Yala Windwatcher
   zone map 2521
   turnin 92464
 
-step Elemental Convergence
+step Al'Aketh Convert and Elemental Convergence
+  collect 251924 x1 quest 92466.1 only Shaman
   interact 460001 quest 92598.1 only Skyborne
 
 step Pesky Cirrusfly
   kill 251169 x8 quest 92462.1
 
-step Al'Aketh Brute
-  only Shaman
-  zone map 2521
-  collect 251924 x1 quest 92466.1 only Skyborne
-
-step Raw Windstone
-  zone map 2521
-  collect 258772 x15 quest 93552.1
-
 step Hanaa Nightwind
   accept 92544
 
-step Al'Aketh Brute and Al'Aketh Neophyte
-  kill 251145 x6 quest 92544.1
+step Al'Aketh Neophyte
   kill 251448 x4 quest 92544.2
+
+step Raw Windstone
+  collect 258772 x15 quest 93552.1
 
 step Malduko Cloudcrush
   kill 256935 x1 quest 92544.3
+
+step Al'Aketh Brute
+  kill 251145 x6 quest 92544.1
 
 step Hanaa Nightwind
   turnin 92544
@@ -249,16 +246,8 @@ step Vayn Moongaze
   zone map 2521
   accept 93165
 
-step Al'Aketh Footsoldier
+step Al'Aketh Stormchaser
   collect 258771 x5 quest 93165.1
-
-step Vayn Moongaze
-  turnin 93165
-
-step More Al'Aketh Ears
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 258771 x1 anywhere optional
-  turnin 93459 direct optional
 
 step Elegael Thornpaw
   accept 94487
@@ -268,9 +257,12 @@ step A Sacrifice in Vain
   zone map 2521
   turnin 94493 optional
 
-step Al'Aketh Footsoldier
+step Al'Aketh Stormchaser
   zone map 2521
   collect 265141 x1 quest 94487.1
+
+step Elegael Thornpaw
+  turnin 94487
 
 step Ealaane Nimbuswalker
   accept 94896
@@ -296,10 +288,19 @@ step Lady's Tear Moss
 step Shadowgale Shriekling
   collect 265140 x20 quest 94486.1
 
+step Vayn Moongaze
+  turnin 93165
+
+step More Al'Aketh Ears
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 258771 x1 anywhere optional
+  turnin 93459 direct optional
+
 step Elegael Thornpaw
   turnin 94485
   turnin 94486
-  turnin 94487
+
+step Elegael Thornpaw
   accept 94488
 
 step Commander Haalien
@@ -308,15 +309,20 @@ step Commander Haalien
 step Elegael Thornpaw
   turnin 94488
 
+step Raan Wildwind
+  turnin 96638 only Skyborne
+
 step Ealaane Nimbuswalker
   turnin 93161
   turnin 94896
   turnin 94897
   accept 97029
-  turnin 97029
 
-step Raan Wildwind
-  turnin 96638 only Skyborne
+step Ancient Sword
+  collect 264501 x1 quest 97029.1
+
+step Ealaane Nimbuswalker
+  turnin 97029
 
 step Welcome to Shen'dar Village
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -386,15 +392,6 @@ step Constable Aonda
   turnin 92528
 
 step Constable Aonda
-  accept 92551
-
-step Galemender Delanea
-  collect 252760 x10 quest 92551.1
-
-step Constable Aonda
-  turnin 92551
-
-step Constable Aonda
   accept 92550
 
 step Al'Aketh Stormcaller and Living Lightning
@@ -421,13 +418,13 @@ step Teeri Wellwind
   zone map 2521
   accept 92516
 
-step Hippogryph Youth and Hippogryph Matriarch
+step Hippogryph Protector and Hippogryph Matriarch
   zone map 1432
-  kill 251291 x8 quest 92516.1
+  kill 251284 x6 quest 92516.2
   kill 251261 x1 quest 92516.3
 
-step Hippogryph Protector
-  kill 251284 x6 quest 92516.2
+step Hippogryph Youth
+  kill 251291 x8 quest 92516.1
 
 step Teeri Wellwind
   turnin 92516
@@ -497,11 +494,11 @@ step Aamelia Windfield
 step Aamelia Windfield
   accept 92682
 
-step Ripe Stormapple
-  collect 253591 x10 quest 92682.1
-
 step Hungry Bandit
   kill 252802 x5 quest 92682.2
+
+step Ripe Stormapple
+  collect 253591 x10 quest 92682.1
 
 step Aamelia Windfield
   turnin 92682
@@ -586,10 +583,10 @@ step Constable Aonda
 step Constable Aonda
   accept 93948
 
-step Talaanis Shadowsong
+step Ealaane Nimbuswalker
   turnin 93948
 
-step Talaanis Shadowsong
+step Ealaane Nimbuswalker
   accept 93949
 
 step Skyhopper
@@ -601,14 +598,14 @@ step Valennia Stormfist
 step Constable Aonda
   accept 92579
 
-step Talaanis Shadowsong
+step Ealaane Nimbuswalker
   turnin 92579
 
-step Talaanis Shadowsong
-  accept 92700
+step Ealaane Nimbuswalker
+  accept 92700 only Tauren
 
 step Ayessa Dawnsinger
-  turnin 92700
+  turnin 92700 only Tauren
 
 step A Grand Adventure
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -617,15 +614,6 @@ step A Grand Adventure
 
 step A Grand Adventure
   turnin 92708
-
-step Ayessa Dawnsinger
-  accept 93736
-
-step Wind Hollow
-  collect 262357 x10 quest 93736.1
-
-step Endaria Mistgaze
-  turnin 93736
 
 step Ayessa Dawnsinger
   accept 93735
@@ -659,10 +647,10 @@ step Ayessa Dawnsinger
 step Ayessa Dawnsinger
   accept 92871
 
-step Talaanis Shadowsong
+step Valennia Stormfist
   turnin 92871
 
-step Talaanis Shadowsong
+step Valennia Stormfist
   accept 93320
 
 step Yorana Windyreed
@@ -671,11 +659,11 @@ step Yorana Windyreed
 step Yorana Windyreed
   accept 92642
 
-step Al'Aketh Brawler
-  kill 270201 x8 quest 92642.2
-
 step Al'Aketh Healer
   kill 254596 x4 quest 92642.1
+
+step Al'Aketh Brawler
+  kill 270201 x8 quest 92642.2
 
 step Yorana Windyreed
   turnin 92642
@@ -716,11 +704,20 @@ step Talaanis Shadowsong
 step Ayessa Dawnsinger
   accept 93740
 
-step Al'Aketh Footsoldier
+step Al'Aketh Stormchaser
   collect 255658 x10 quest 93740.1
 
 step Ayessa Dawnsinger
   turnin 93740
+
+step Ayessa Dawnsinger
+  accept 93736
+
+step Wind Hollow
+  collect 262357 x10 quest 93736.1
+
+step Endaria Mistgaze
+  turnin 93736
 
 step The Anchors of Zephras
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -775,11 +772,11 @@ step Hyusaa Quickbreeze
   turnin 93958
 
 step Hyusaa Quickbreeze
-  accept 92646 only Skyborne
+  accept 92646 only Tauren
 
 step Ayessa Dawnsinger
-  complete 92646 @74.9,53.0 map 2521
-  turnin 92646 only Skyborne
+  complete 92646 @74.9,53.0 map 2521 only Tauren
+  turnin 92646 only Tauren
 
 step The Fate of Zephras
   tip The reference data does not place this quest's objective: follow the quest text.

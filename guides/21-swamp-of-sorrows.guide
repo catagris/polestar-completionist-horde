@@ -9,6 +9,11 @@ pitch On along the line: Swamp of Sorrows, quests of level 35 to 45.
 # Generated from the reference data: change the planner, not this file.
 # Routed 20 quests; estimated level at the end 36.7 (heuristic XP, class quests not counted).
 
+step Mirelle Tremayne
+  when onquest 97884
+  zone map 1458
+  turnin 97884
+
 step Owen Thadd
   zone map 1458
   accept 81947 npc 211022
@@ -170,3 +175,11 @@ step Atal'ai Exile
 step Owen Thadd
   zone map 1458
   turnin 81947
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Armory of Sunnyglade
+  when onquest 97884
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 97884 optional

@@ -19,8 +19,24 @@ step Getting there
   zone map 1413
   note The entrance is in The Barrens: the arrow leads to it.
 
-step Rot and Regret
+step Myriam Moonsinger
+  accept 6626
+
+step Inside Razorfen Downs
+  collect 17008 @49.8,93
+  accept 6522 item 17008
+  accept 3523 @49.8,93
+  complete 6626 @49.8,93
+  turnin 3523 @49.8,93
+
+step Myriam Moonsinger
+  turnin 6626
+
+step Level 35
   zone map 2652
+  level 35
+
+step Rot and Regret
   accept 93404
 
 step Rot and Regret
@@ -36,25 +52,27 @@ step Passing the Blame
 step Passing the Blame
   turnin 93601
 
-step Myriam Moonsinger
-  zone map 1413
-  accept 6626
-
 step Kog'thug the Brave
-  zone map 2652
   accept 93604
 
 step Inside Razorfen Downs
   zone map 1413
-  collect 17008 @49.8,93
-  accept 6522 item 17008
-  accept 3523 @49.8,93
-  complete 6626 @49.8,93
-  turnin 3523 @49.8,93
   complete 93604 @49.8,93
 
-step Myriam Moonsinger
-  turnin 6626
+step Sutara Plainstalker
+  zone map 1412
+  accept 97196
+
+step Inside Razorfen Downs
+  zone map 1413
+  complete 97196 @49.8,93
+
+step Inside Razorfen Downs
+  complete 3341 @49.8,93
+
+step Sutara Plainstalker
+  zone map 1412
+  turnin 97196
 
 step Kog'thug the Brave
   zone map 2652
@@ -73,21 +91,3 @@ step Not on Squealing Terms
   when onquest 93606
   zone map 2652
   turnin 93606
-
-step Level 34
-  zone map 1412
-  level 34
-
-step Sutara Plainstalker
-  accept 97196
-
-step Inside Razorfen Downs
-  zone map 1413
-  complete 97196 @49.8,93
-
-step Inside Razorfen Downs
-  complete 3341 @49.8,93
-
-step Sutara Plainstalker
-  zone map 1412
-  turnin 97196

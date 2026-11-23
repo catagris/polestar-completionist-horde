@@ -1,58 +1,13 @@
-guide completionist-horde/50-odd-jobs-in-kalimdor-4
-title 50 Odd jobs in Kalimdor, visit 4 (58-60) (Completionist)
+guide completionist-horde/53-odd-jobs-in-kalimdor-4
+title 53 Odd jobs in Kalimdor, visit 4 (58-60) (Completionist)
 faction Horde
 levels 58-60
 category Leveling
 zone Ashenvale
-next completionist-horde/51-moonglade
+next completionist-horde/54-mount-hyjal
 pitch On along the line: errands across Kalimdor, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 9 quests; estimated level at the end 58.3 (heuristic XP, class quests not counted).
-
-step Ralston Farnsley
-  when onquest 7818
-  zone map 1458
-  turnin 7818
-
-step Additional Runecloth
-  when onquest 7819
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1458
-  collect 14047 x20 anywhere optional
-  turnin 7819 direct optional
-
-step Rumstag Proudstrider
-  when onquest 7821
-  zone map 1456
-  turnin 7821
-  turnin 7822
-  accept 2965
-
-step Nara Wildmane
-  when onquest 2965
-  zone map 1456
-  turnin 2965
-  accept 2966
-
-step Uldum Pedestal
-  when onquest 2966
-  zone map 1446
-  turnin 2966
-
-step The Stone Watcher
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 2954
-  complete 2954 @37.6,81.4
-
-step The Stone Watcher
-  when onquest 2954
-  zone map 1446
-  turnin 2954
-
-step Uldum Pedestal
-  zone map 1446
-  accept 2967
 
 step Brivelthwerp
   zone map 1441
@@ -65,13 +20,13 @@ step Gorhak
   zone map 1443
   accept 92811
 
-step Gelkis Windchaser
+step Gelkis Guardian
   collect 254432 x1 quest 92811.1
 
 step Molkar
   accept 92812
 
-step Gelkis Windchaser
+step Gelkis Guardian
   collect 254432 x1 quest 92812.1
 
 step Molkar
@@ -83,8 +38,6 @@ step Gorhak
 step Trull Failbane
   zone map 1439
   accept 4741
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Moontouched Owlbeast
   zone map 1452
@@ -122,10 +75,54 @@ step Examine the Vessel
   collect 19016 x1 optional
   accept 7785 item 19016 optional
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Examine the Vessel
   when onquest 7785
   zone map 1444
   turnin 7785
+
+step More Resource Crates
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1417
+  collect 19725 x1 anywhere optional
+  turnin 8124 direct optional
+
+step Take Four Bases
+  tip Needs Friendly standing (3000) with The Defilers; without it the quest is not offered.
+  accept 8121 optional
+
+step Take Four Bases
+  when onquest 8121
+  zone map 1417
+  complete 8121 @73.7,29.5 optional
+
+step Take Four Bases
+  when onquest 8121
+  zone map 1417
+  turnin 8121 optional
+
+step Take Five Bases
+  when turnedin 8121
+  tip Needs Exalted standing (42000) with The Defilers; without it the quest is not offered.
+  zone map 1417
+  accept 8122 optional
+
+step Take Five Bases
+  when onquest 8122
+  zone map 1417
+  complete 8122 @73.7,29.5 optional
+
+step Take Five Bases
+  when onquest 8122
+  zone map 1417
+  turnin 8122 optional
+
+step More Resource Crates
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1417
+  collect 19725 x1 anywhere optional
+  turnin 8300 direct optional
 
 step Clear the Forest!
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
@@ -135,24 +132,8 @@ step Clear the Forest!
 step Brawl at the Maul
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   zone map 1444
+  turnin 97270 direct @62,30.1 map 1444
+
+step Brawl at the Maul
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 99233 direct @62,30.1 map 1444
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step A Donation of Runecloth
-  when onquest 7818
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7818 optional
-
-step A Donation of Silk
-  when onquest 7821
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 7821 optional
-
-step A Donation of Mageweave
-  when onquest 7822
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 7822 optional

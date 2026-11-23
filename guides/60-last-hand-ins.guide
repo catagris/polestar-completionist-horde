@@ -1,0 +1,35 @@
+guide completionist-horde/60-last-hand-ins
+title 60 Last hand-ins (Completionist)
+faction Horde
+levels 52-60
+category Leveling
+zone Tanaris
+next completionist-horde/dungeon-dire-maul
+pitch The last hand-ins in the capitals, for the work of the guide before.
+# Generated from the reference data: change the planner, not this file.
+# Routed 25 quests; estimated level at the end 53.1 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N; 2 prerequisite N not in this route.
+
+step Rashona Straglash
+  when onquest 7824
+  zone map 1454
+  turnin 7824
+
+step Vehena
+  when onquest 7836
+  zone map 1454
+  turnin 7836
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Runecloth
+  when onquest 7824
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 7824 optional
+
+step A Donation of Runecloth
+  when onquest 7836
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 7836 optional

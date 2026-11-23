@@ -1,20 +1,26 @@
-guide completionist-horde/47-eastern-plaguelands
-title 47 Eastern Plaguelands (55-60) (Completionist)
+guide completionist-horde/44-eastern-plaguelands
+title 44 Eastern Plaguelands (55-60) (Completionist)
 faction Horde
 levels 55-60
 category Leveling
 zone Eastern Plaguelands
 next completionist-horde/dungeon-stratholme
-next completionist-horde/48-tirisfal-glades-and-the-undercity-4
+next completionist-horde/45-tirisfal-glades-and-the-undercity-4
 pitch On along the line: Eastern Plaguelands, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 27 quests; estimated level at the end 55.9 (heuristic XP, class quests not counted).
-# Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
+# Skipped: 4 prerequisite N not in this route; 1 exclusive with N (done).
 
-step Nazgrel
-  when complete 96376
-  zone map 1454
-  turnin 96376
+step Nara Wildmane
+  when complete 92343
+  zone map 1456
+  turnin 92343
+
+step Get to the Roots of It
+  when onquest 92343
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 92343 optional
 
 step Lady Sylvanas Windrunner
   zone map 1458
@@ -409,53 +415,27 @@ step Argent Dawn Commission
   zone map 1423
   accept 5503 optional
 
-step Document from the Front
-  when has 22975
-  tip A Smudged Document drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
+step Orthas
   zone map 1423
-  accept 9304 item 22975
+  accept 84319
 
-step Missive from the Front
-  when has 22973
-  tip A Crumpled Missive drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
-  zone map 1423
-  accept 9302 item 22973
+step <TXT>Eastwall Capture Quest Doodad
+  kill 17690 x1 quest 9665.2
 
-step Envelope from the Front
-  when has 22970
-  tip A Bloodstained Envelope drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
-  zone map 1423
-  accept 9301 item 22970
+step <TXT>Crown Guard Capture Quest Doodad
+  kill 17689 x1 quest 9665.1
 
-step Page from the Front
-  when has 22974
-  tip A Ragged Page drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
-  zone map 1423
-  accept 9300 item 22974
+step <TXT>Plaguewood Capture Quest Doodad
+  kill 17698 x1 quest 9665.4
 
-step Note from the Front
-  when has 22972
-  tip A Careworn Note drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
-  zone map 1423
-  accept 9299 item 22972
+step <TXT>Northpass Capture Quest Doodad
+  kill 17696 x1 quest 9665.3
 
-step Letter from the Front
-  when has 22977
-  tip A Torn Letter drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier (by its Wowhead page); the reference data does not place that, so no arrow leads there.
-  zone map 1423
-  accept 9295 item 22977
+step Abomination
+  collect 227689 x1 quest 84319.1
 
-step The Keeper's Call
-  when has 22723
-  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
-  zone map 1423
-  accept 9247 item 22723
-
-step That's Asking A Lot
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  accept 6026
-  complete 6026 @70.9,48.4
+step Emmisary Gormok
+  turnin 9665
 
 step Crypt Fiend Parts
   when turnedin 9124
@@ -492,88 +472,35 @@ step Argent Dawn Commission
   zone map 1423
   turnin 5503 optional
 
-step Document from the Front
-  when onquest 9304
+step Caretaker Alen
   zone map 1423
-  turnin 9304
-
-step Missive from the Front
-  when onquest 9302
-  zone map 1423
-  turnin 9302
-
-step Envelope from the Front
-  when onquest 9301
-  zone map 1423
-  turnin 9301
-
-step Page from the Front
-  when onquest 9300
-  zone map 1423
-  turnin 9300
-
-step Note from the Front
-  when onquest 9299
-  zone map 1423
-  turnin 9299
-
-step Letter from the Front
-  when onquest 9295
-  zone map 1423
-  turnin 9295
-
-step The Keeper's Call
-  when onquest 9247
-  zone map 1423
-  turnin 9247
-
-step Defenders of Darrowshire
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  accept 5211
-  complete 5211 @71.7,50.0
-
-step That's Asking A Lot
-  turnin 6026
-
-step Smokey LaRue
-  accept 6041
+  accept 5281
+  accept 6021
 
 step Orthas
-  accept 84319 @24.3,69.1 map 1423
+  turnin 84319
 
-step <TXT>Eastwall Capture Quest Doodad
-  kill 17690 x1 quest 9665.2
+step Zaeldarr the Outcast
+  collect 15785 x1 quest 6021.1
 
-step <TXT>Crown Guard Capture Quest Doodad
-  kill 17689 x1 quest 9665.1
+step Torn Scroll
+  accept 6024
 
-step Abomination
-  collect 227689 x1 quest 84319.1
+step Infiltrator Hameya
+  collect 15767 x1 quest 6024.1
 
-step <TXT>Northpass Capture Quest Doodad
-  kill 17696 x1 quest 9665.3
+step Caretaker Alen
+  turnin 6021
 
-step <TXT>Plaguewood Capture Quest Doodad
-  kill 17698 x1 quest 9665.4
+step Pamela Redpath
+  turnin 5142
 
-step Augustus the Touched
-  accept 6164
-
-step Augustus' Receipt Book
-  collect 15884 x1 quest 6164.1
-
-step Augustus the Touched
-  turnin 6164
+step Mound of Dirt
+  turnin 6024
 
 step Nathanos Blightcaller
   accept 6042
   accept 6133
-
-step To Kill With Purpose
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 6022
-  complete 6022 @22.2,63.5
 
 step Noxious Plaguebat
   kill 8601 x20 quest 6042.1
@@ -589,55 +516,42 @@ step Pathstrider
 step Monstrous Plaguebat
   kill 8602 x10 quest 6042.2
 
+step Augustus the Touched
+  accept 6164
+  turnin 5281
+
+step The Restless Souls
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 5282 optional
+
+step Augustus' Receipt Book
+  collect 15884 x1 quest 6164.1
+
+step Augustus the Touched
+  turnin 6164
+
 step Nathanos Blightcaller
   turnin 6042
   turnin 6133
 
-step To Kill With Purpose
-  turnin 6022
-
-step Orthas
-  turnin 84319 @24.3,69.1 map 1423
-
-step Torn Scroll
-  accept 6024
-
-step Infiltrator Hameya
-  collect 15767 x1 quest 6024.1
-
-step Adon
-  accept 97988 @50.9,11.5 map 1423
-
-step Emmisary Gormok
-  turnin 9665
-
-step Smokey LaRue
-  kill 12247 x8 quest 6041.1
-  turnin 6041
-
-step Defenders of Darrowshire
-  turnin 5211
-
-step Caretaker Alen
-  accept 5281
-  accept 6021
-
-step Mound of Dirt
-  turnin 6024
+step Nathanos Blightcaller
+  zone map 1458
+  turnin 5961
 
 step Pamela's Doll
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
   accept 5149
   complete 5149 @31.1,78.0
 
-step Nathanos Blightcaller
-  when group 6135
-  zone map 1423
-  accept 6135
-
 step Pamela's Doll
-  zone map 1423
   turnin 5149
+
+step Pamela Redpath
+  accept 5241
+
+step Carlin Redpath
+  turnin 5241
 
 step Pamela Redpath
   accept 5152
@@ -649,7 +563,7 @@ step Marlene Redpath
 step Marlene Redpath
   accept 5153
 
-step Joseph's Wedding Ring
+step Joseph Redpath's Monument
   collect 12894 x1 quest 5153.1
 
 step Chromie
@@ -659,52 +573,48 @@ step Chromie
   zone map 1423
   accept 5154
 
-step Annals of Darrowshire
-  zone map 1422
+step Musty Tome
   collect 12900 x1 quest 5154.1
 
 step Chromie
-  zone map 1423
+  zone map 1422
   turnin 5154
 
 step Chromie
   accept 5210
 
-step Pamela Redpath
-  accept 5241
-
 step Carlin Redpath
-  turnin 5241
-
-step Carlin Redpath
+  zone map 1423
   turnin 5210
+
+step Carlin Redpath
+  zone map 1458
+  accept 5181
+
+step Shattered Sword of Marduk
+  collect 12957 x1 quest 5181.2
+
+step Horgus' Skull
+  zone map 1423
+  collect 12956 x1 quest 5181.1
+
+step Carlin Redpath
+  turnin 5181
 
 step Carlin Redpath
   zone map 1458
   accept 5168
 
-step Carlin Redpath
-  accept 5181
+step Redpath's Shield
+  zone map 1422
+  collect 12955 x1 quest 5168.2
 
 step Davil's Libram
-  zone map 1422
   collect 12954 x1 quest 5168.1
-
-step Redpath's Shield
-  collect 12955 x1 quest 5168.2
 
 step Carlin Redpath
   zone map 1423
   turnin 5168
-
-step Skull of Horgus
-  collect 12956 x1 quest 5181.1
-
-step Shattered Sword of Marduk
-  collect 12957 x1 quest 5181.2
-
-step Carlin Redpath
-  turnin 5181
 
 step Marauders of Darrowshire
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -722,11 +632,13 @@ step Chromie
   turnin 5941
 
 step Chromie
+  zone map 1423
   accept 5721
 
-step Pamela Redpath
-  zone map 1423
+step Joseph Redpath
   kill 10936 x1 quest 5721.1
+
+step Pamela Redpath
   turnin 5721
 
 step Pamela Redpath
@@ -735,21 +647,46 @@ step Pamela Redpath
 step Joseph's Chest
   turnin 5942
 
-step Zaeldarr the Outcast
-  collect 15785 x1 quest 6021.1
+step Defenders of Darrowshire
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 5211
+  complete 5211 @71.7,50.0
 
-step Egan
-  turnin 5281
+step Defenders of Darrowshire
+  turnin 5211
 
-step Caretaker Alen
-  turnin 6021
+step To Kill With Purpose
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 6022
+  complete 6022 @22.2,63.5
+
+step To Kill With Purpose
+  turnin 6022
 
 step Nathanos Blightcaller
-  zone map 1458
-  turnin 5961
+  when group 6136
+  zone map 1423
+  accept 6136
 
-step Patch of Duskwing's Fur
+step Borelgore
+  when group 6136
+  tip The Corpulent One is group work: elites. Grouping up is advised.
+  zone map 1423
+  kill 11896 x1 quest 6136.1
+
+step Nathanos Blightcaller
+  when group 6136
+  zone map 1423
+  turnin 6136
+
+step Nathanos Blightcaller
   when group 6135
+  zone map 1423
+  accept 6135
+
+step Duskwing
+  when group 6135
+  tip Duskwing, Oh How I Hate Thee... is group work: elites. Grouping up is advised.
   zone map 1423
   collect 15850 x1 quest 6135.1
 
@@ -759,44 +696,167 @@ step Nathanos Blightcaller
   turnin 6135
 
 step Nathanos Blightcaller
-  when group 6136
-  zone map 1423
-  accept 6136
-
-step Nathanos Blightcaller
-  when group 6136
-  zone map 1423
-  kill 11896 x1 quest 6136.1
-  turnin 6136
-
-step Nathanos Blightcaller
   zone map 1423
   accept 6144
 
-step Argent Arbiter
-  when turnedin 8152
-  zone map 1423
-  accept 97986
+step That's Asking A Lot
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 6026
+  complete 6026 @70.9,48.4
 
-step Argent Arbiter
-  when onquest 97986
-  zone map 1423
-  turnin 97986 @40.4,35.2 map 1423
+step That's Asking A Lot
+  turnin 6026
 
-step Bleeding Edge
-  when turnedin 97986
-  zone map 1423
-  accept 98109 @40.4,35.2 map 1423
+step Smokey LaRue
+  accept 6041
 
-step Bleeding Edge
-  when onquest 98109
+step Scourge Structure
+  kill 12247 x8 quest 6041.1
+
+step Smokey LaRue
+  turnin 6041
+
+step Level 58
+  level 58
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84187
+  complete 84187 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84188
+  complete 84188 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84189
+  complete 84189 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84190
+  complete 84190 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84191
+  complete 84191 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84192
+  complete 84192 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84193
+  complete 84193 @26.1,11.3
+
+step Anthion's Parting Words
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84194
+  complete 84194 @26.1,11.3
+
+step The Keeper's Call
+  when has 22723
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1423
-  turnin 98109
+  accept 9247 item 22723
+
+step The Keeper's Call
+  when onquest 9247
+  zone map 1423
+  turnin 9247
+
+step Letter from the Front
+  when has 22977
+  tip A Torn Letter drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier; no arrow leads there.
+  zone map 1423
+  accept 9295 item 22977
+
+step Letter from the Front
+  when onquest 9295
+  zone map 1423
+  turnin 9295
+
+step Note from the Front
+  when has 22972
+  tip A Careworn Note drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
+  zone map 1423
+  accept 9299 item 22972
+
+step Note from the Front
+  when onquest 9299
+  zone map 1423
+  turnin 9299
+
+step Page from the Front
+  when has 22974
+  tip A Ragged Page drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier; no arrow leads there.
+  zone map 1423
+  accept 9300 item 22974
+
+step Page from the Front
+  when onquest 9300
+  zone map 1423
+  turnin 9300
+
+step Envelope from the Front
+  when has 22970
+  tip A Bloodstained Envelope drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
+  zone map 1423
+  accept 9301 item 22970
+
+step Envelope from the Front
+  when onquest 9301
+  zone map 1423
+  turnin 9301
+
+step Missive from the Front
+  when has 22973
+  tip A Crumpled Missive drops from Ghoul Berserker, Skeletal Shocktrooper, Spectral Soldier; no arrow leads there.
+  zone map 1423
+  accept 9302 item 22973
+
+step Missive from the Front
+  when onquest 9302
+  zone map 1423
+  turnin 9302
+
+step Document from the Front
+  when has 22975
+  tip A Smudged Document drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
+  zone map 1423
+  accept 9304 item 22975
+
+step Document from the Front
+  when onquest 9304
+  zone map 1423
+  turnin 9304
+
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1429
+  turnin 7937 direct @84.8,64.4 map 1429 optional
+
+step Little Pamela
+  when onquest 5142
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5142 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step State Secrets
-  when onquest 96376
+step Little Pamela
+  when onquest 5142
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 96376 optional
+  zone map 1423
+  turnin 5142 optional
+
+step Get to the Roots of It
+  when onquest 92343
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 92343 optional

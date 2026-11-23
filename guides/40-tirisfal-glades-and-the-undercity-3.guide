@@ -1,36 +1,14 @@
-guide completionist-horde/37-tirisfal-glades-and-the-undercity-3
-title 37 Tirisfal Glades and the Undercity, visit 3 (45-57) (Completionist)
+guide completionist-horde/40-tirisfal-glades-and-the-undercity-3
+title 40 Tirisfal Glades and the Undercity, visit 3 (45-57) (Completionist)
 faction Horde
 levels 45-57
 category Leveling
 zone Tirisfal Glades
-next completionist-horde/38-odd-jobs-in-the-eastern-kingdoms-3
+next completionist-horde/41-odd-jobs-in-the-eastern-kingdoms-3
 pitch On along the line: Tirisfal Glades and the Undercity, quests of level 45 to 57.
 # Generated from the reference data: change the planner, not this file.
 # Routed 17 quests; estimated level at the end 45.4 (heuristic XP, class quests not counted).
 # Skipped: 2 prerequisite N not in this route.
-
-step Belgrom Rockmaul
-  when onquest 91531
-  when onquest 3507
-  zone map 1454
-  turnin 3507
-  turnin 91531
-
-step Zevrost
-  when onquest 91547
-  zone map 1454
-  turnin 91547
-
-step Uthel'nay
-  when complete 7068
-  zone map 1454
-  turnin 7068
-
-step Chemist Cuely
-  when onquest 3568
-  zone map 1458
-  turnin 3568
 
 step Owen Thadd
   when onquest 2782
@@ -40,7 +18,6 @@ step Owen Thadd
 
 step Chemist Cuely
   zone map 1458
-  accept 3569
   turnin 3569
   accept 3570
   turnin 3570
@@ -105,10 +82,15 @@ step Innkeeper Norman
   accept 3784
 
 step Royal Overseer Bauhaus
-  accept 97007 @69.8,43.2 map 1458
+  accept 97007
 
 step Abigail Sawyer
-  turnin 97007 @54.7,38.8 map 1458
+  turnin 97007
+
+step Uthel'nay
+  when complete 7068
+  zone map 1454
+  turnin 7068
 
 step Arch Druid Hamuul Runetotem
   zone map 1456
@@ -167,14 +149,20 @@ step Corruptor's Scourgestones
   collect 12843 x1 anywhere optional
   turnin 5406 direct optional
 
-step Mickey Levine
+step Level 55
   zone map 1420
+  level 55
+
+step Argent Officer Garush
+  accept 97319
+
+step Thark Gorax
+  zone map 2482
+  turnin 97319
+
+step Mickey Levine
   turnin 5901
   accept 5902
-
-step Termite Barrel
-  zone map 1422
-  turnin 5902
 
 step Chief Engineer Bilgewhizzle
   zone map 1446
@@ -208,17 +196,6 @@ step Return to Apothecary Zinge
   zone map 1458
   accept 864
 
-step Level 55
-  zone map 1420
-  level 55
-
-step Argent Officer Garush
-  accept 97319
-
-step Thark Gorax
-  zone map 2482
-  turnin 97319
-
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
 step Rin'ji's Secret
@@ -227,32 +204,14 @@ step Rin'ji's Secret
   zone map 1458
   turnin 2782 optional
 
-step Betrayed
-  when onquest 3507
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 3507 optional
-
 step Seeping Corruption
-  when onquest 3568
+  when onquest 3569
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1458
-  turnin 3568 optional
+  turnin 3569 optional
 
 step Shadowshard Fragments
   when onquest 7068
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
   turnin 7068 optional
-
-step Revenge Exacted
-  when onquest 91531
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 91531 optional
-
-step Sin'dorei Tome of Summoning
-  when onquest 91547
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 91547 optional

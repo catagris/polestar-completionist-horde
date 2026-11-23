@@ -151,28 +151,23 @@ step Field Captain Palandar
   turnin 81747
 
 step Field Captain Palandar
+  when group 81744
+  zone map 1431
   accept 81744
 
 step Field Captain Palandar
+  when group 81743
+  zone map 1431
   accept 81743
 
 step Field Captain Palandar
-  kill 221207 quest 81744.1
-  turnin 81744
-
-step Field Captain Palandar
+  when group 81742
+  zone map 1431
   accept 81742
 
 step Field Captain Palandar
-  kill 221206 quest 81743.1
-  turnin 81743
-
-step Field Captain Palandar
+  zone map 1431
   accept 81741
-
-step Field Captain Palandar
-  kill 221204 quest 81742.1
-  turnin 81742
 
 step Field Captain Palandar
   accept 81737
@@ -202,6 +197,25 @@ step Shadowscythe
   collect 219404 x1 quest 81736.1
 
 step Field Captain Palandar
+  when group 81744
+  zone map 1431
+  kill 221207 quest 81744.1
+  turnin 81744
+
+step Field Captain Palandar
+  when group 81743
+  zone map 1431
+  kill 221206 quest 81743.1
+  turnin 81743
+
+step Field Captain Palandar
+  when group 81742
+  zone map 1431
+  kill 221204 quest 81742.1
+  turnin 81742
+
+step Field Captain Palandar
+  zone map 1431
   turnin 81736
 
 step Owen Thadd

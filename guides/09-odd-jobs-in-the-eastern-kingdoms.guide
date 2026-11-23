@@ -130,11 +130,11 @@ step Scrolls
 step Scrolls
   collect 209848 x1 quest 78146.1
 
-step Library Book
+step Charge of the Dragonflights
   zone map 1455
   accept 79091 object 386691
 
-step Library Book
+step Charge of the Dragonflights
   collect 203754 x1 quest 79091.1
 
 step Gnomish Tome

@@ -4,10 +4,11 @@ faction Horde
 levels 45-56
 category Leveling
 zone Azshara
-next completionist-horde/36-the-hinterlands
+next completionist-horde/36-swamp-of-sorrows-2
 pitch On along the line: Azshara, quests of level 45 to 56.
 # Generated from the reference data: change the planner, not this file.
-# Routed 40 quests; estimated level at the end 47.9 (heuristic XP, class quests not counted).
+# Routed 47 quests; estimated level at the end 48.0 (heuristic XP, class quests not counted).
+# Skipped: 2 exclusive with N.
 
 step Zilzibin Drumlore
   when onquest 4509
@@ -18,9 +19,23 @@ step Belgrom Rockmaul
   zone map 1454
   accept 3504
 
-step Shadowshard Fragments
-  tip For Maraudon: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 7068 optional
+step Remote Contact
+  when available 91735
+  tip One of several exclusive quests; the route takes Remote Contact (91734). This one shows for a character the game offers it to instead.
+  zone map 1454
+  accept 91735 optional
+
+step Remote Contact
+  when available 91737
+  tip One of several exclusive quests; the route takes Remote Contact (91734). This one shows for a character the game offers it to instead.
+  zone map 1456
+  accept 91737 optional
+
+step Remote Contact
+  when available 91734
+  tip One of several exclusive quests; the route takes Remote Contact (91735). This one shows for a character the game offers it to instead.
+  zone map 1458
+  accept 91734 optional
 
 step Jediga
   zone map 1447
@@ -97,62 +112,38 @@ step Winter Frontier Fishery
 step Honey Wasp
   collect 238503 x5 quest 91608.1
 
+step Kurll
+  turnin 91608
+  turnin 3504
+  accept 3505
+
+step Remote Contact
+  when onquest 91735
+  zone map 1447
+  turnin 91735 optional
+
+step Ekkal
+  zone map 1447
+  accept 86746
+
+step Blood Elf Reclaimer and Blood Elf Surveyor
+  kill 6199 x10 quest 3505.1
+  kill 6198 x10 quest 3505.2
+
 step Celegosa
   when group 91685
   tip Ley of the Land is group work: elites. Grouping up is advised.
   zone map 1447
   collect 246938 x1 quest 91685.1
 
-step Kurll
-  zone map 1447
-  turnin 91608
-
 step Izvi Gildfizz
   when group 91685
   zone map 1447
   turnin 91685
 
-step Sanath Lim-yo
-  zone map 1447
-  accept 3381
-
-step Return Trip
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 3421 direct optional
-
-step Thunderhead Hippogryph
-  collect 10450 x2 quest 3381.1
-
-step Sanath Lim-yo
-  turnin 3381
-
-step Meeting with the Master
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 3503 direct optional
-
-step Archmage Xylem
-  turnin 3561
-  accept 3565
-
-step Jediga
-  turnin 3565
-
-step Ekkal
-  accept 86746
-  accept 86752 @42,38.9 map 1447
-
 step Legashi Hellcaller
+  zone map 1447
   kill 6202 x5 quest 86746.3
-
-step Legashi Cauldron
-  accept 86925 @57.8,21.1 map 1447
-
-step Legashi Satyr and Legashi Rogue
-  kill 6200 x5 quest 86746.1
-  kill 6201 x5 quest 86746.2
-
-step Legashi Blackguard
-  collect 235645 x1 quest 86925.1
 
 step Level 50
   level 50
@@ -173,9 +164,13 @@ step Kurll
   zone map 1447
   turnin 91611
 
-step Legashi Cauldron
+step Ekkal
   zone map 1447
-  turnin 86925 @57.8,21.1 map 1447
+  accept 86752
+
+step Kaldorei Tome of Summoning
+  turnin 3505
+  accept 3506
 
 step Kim'jael
   accept 3601
@@ -185,6 +180,51 @@ step Kim'jael's Equipment
   collect 10715 x1 quest 3601.2
   collect 10722 x1 quest 3601.3
   collect 10718 x1 quest 3601.4
+
+step Sin'dorei Tome of Summoning
+  accept 91497
+
+step Legashi Cauldron
+  accept 86926
+
+step Legashi Cauldron
+  accept 86927
+
+step object 507746
+  collect 235470 x5 quest 86926.1
+
+step Legashi Cauldron
+  accept 86925
+
+step Magus Rimtori
+  collect 10597 x1 quest 3506.1
+
+step Ranger Lydrea
+  collect 246722 x1 quest 91497.3
+
+step Lieutenant Suncrest
+  collect 246725 x1 quest 91497.1
+
+step Legashi Satyr, Legashi Rogue and Fel Mote
+  kill 6200 x5 quest 86746.1
+  kill 6201 x5 quest 86746.2
+  collect 235645 x1 quest 86925.1
+  collect 235471 x1 quest 86926.2
+
+step Magister Hawkhelm
+  collect 246721 x1 quest 91497.2
+
+step Sin'dorei Tome of Summoning
+  turnin 91497
+  accept 91500
+  accept 91538
+
+step Magus Rimtori
+  collect 10597 x1 quest 91500.1
+
+step Legashi Cauldron
+  turnin 86925
+  turnin 86926
 
 step Kim'jael
   turnin 3601
@@ -203,33 +243,115 @@ step Legashi Horns
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 86747 direct @42,38.9 map 1447
 
+step Furze
+  accept 86799
+
+step Gatekeeper Rageroar
+  turnin 86752
+  accept 86791
+  accept 86798
+
+step The Twin Bears
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 92066
+  complete 92066 @41.3,20.1
+
+step Elder Bramblesnap
+  turnin 86799
+  turnin 86927
+  accept 86804
+  accept 86812
+  accept 86813
+  turnin 86812
+  turnin 86813
+
+step The Twin Bears
+  turnin 92066
+
 step Kim'jael
   turnin 5534
 
-step Furze
-  accept 86799 @45.4,22.4 map 1447
+step Legashi Cauldron
+  turnin 86804
+
+step Korsa
+  turnin 86791
+  accept 86777
+  accept 86792
+  accept 86797
+
+step Master Feardred
+  collect 235334 x1 quest 86777.1
+
+step Legashi Hellraiser
+  kill 236874 x6 quest 86792.1
+
+step Legashi Soulstealer and Legashi Blackguard
+  kill 236867 x4 quest 86792.2
+  kill 236876 x2 quest 86792.3
+
+step Graal
+  accept 86796
+
+step Korsa
+  turnin 86777
+  turnin 86792
+  turnin 86796
 
 step Gatekeeper Rageroar
-  turnin 86752 @42.4,20.9 map 1447
+  turnin 86797
 
-step Elder Bramblesnap
-  turnin 86799 @41.7,19.6 map 1447
-  accept 86804 @41.7,19.6 map 1447
+step Archmage Xylem
+  turnin 3561
+  accept 3565
 
-step Lorekeeper Nok
-  accept 92066 @41.4,20 map 1447
-  turnin 92066 @41.4,20 map 1447
+step Sanath Lim-yo
+  accept 3381
 
-step Legashi Cauldron
-  turnin 86804 @57.8,21.1 map 1447
+step Return Trip
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3421 direct optional
+
+step Jediga
+  turnin 3565
+  turnin 91538
+  accept 91547
+  turnin 3506
+  turnin 91500
+  accept 3507
+  accept 91531
+
+step Thunderhead Hippogryph
+  collect 10450 x2 quest 3381.1
+
+step Sanath Lim-yo
+  turnin 3381
+
+step Meeting with the Master
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 3503 direct optional
 
 step Maerion Thaelemaches
   zone map 2482
-  turnin 91877 @63.3,25.9 map 2482
+  turnin 91877
+
+step Gorn One Eye
+  zone map 1448
+  turnin 86798
+
+step Remote Contact
+  when onquest 91737
+  zone map 1447
+  turnin 91737 optional
 
 step Owen Thadd
   zone map 1458
   turnin 81952
+
+step Remote Contact
+  when onquest 91734
+  zone map 1447
+  turnin 91734 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

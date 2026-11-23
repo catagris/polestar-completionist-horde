@@ -7,7 +7,7 @@ zone Arathi Highlands
 next completionist-horde/20-riverglades
 pitch On along the line: Arathi Highlands, quests of level 32 to 45.
 # Generated from the reference data: change the planner, not this file.
-# Routed 35 quests; estimated level at the end 35.1 (heuristic XP, class quests not counted).
+# Routed 36 quests; estimated level at the end 35.1 (heuristic XP, class quests not counted).
 # Skipped: 2 exploration objective has no location in data.
 
 step Melor Stonehoof
@@ -30,12 +30,6 @@ step Gor'mul
   sethome "Hammerfall"
   getfp "Hammerfall"
   accept 655
-
-step The Giant in the Den
-  when has 253711
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1417
-  turnin 92707 direct @74.2,33.9 map 1417
 
 step Zengu
   when group 639
@@ -211,20 +205,16 @@ step Tor'gan
   turnin 672
   accept 674
   turnin 97539
-
-step Ward Restocking
-  tip The reference data does not place this quest's objective: follow the quest text.
   accept 92519
-  complete 92519 @73.4,36.9
+
+step Packaged Tonics
+  collect 278462 x1 quest 92519.1
 
 step Level 36
   level 36
 
 step Tor'gan
   accept 95143
-
-step Ward Restocking
-  turnin 92519
 
 step Tor'gan
   when group 673
@@ -276,19 +266,24 @@ step First Mate Nilzlix
   turnin 668
   accept 669
 
-step Gor'mul
-  turnin 674
-  accept 675
+step Doctor Gregory Victor
+  turnin 92519
 
 step Drum Fel
   turnin 677
   accept 678
-  turnin 675
-  accept 701
+
+step Gor'mul
+  turnin 674
+  accept 675
 
 step Boulderfist Brute and Boulderfist Magus
   kill 2566 x10 quest 678.1
   kill 2567 x4 quest 678.2
+
+step Tor'gan
+  turnin 675
+  accept 701
 
 step Highland Fleshstalker
   collect 4513 x12 quest 701.1
@@ -327,18 +322,18 @@ step Stromgarde Troll Hunter
   collect 4450 x11 quest 640.1
 
 step Tor'gan
-  zone map 1417
-  turnin 701
-  accept 702
-
-step Tor'gan
   when group 640
   zone map 1417
   turnin 640
 
 step Tor'gan
+  when turnedin 640
   zone map 1417
-  accept 641
+  accept 641 optional
+
+step Tor'gan
+  turnin 701
+  accept 702
   turnin 678
 
 step Drum Fel
@@ -347,6 +342,7 @@ step Drum Fel
   accept 679
 
 step Zengu
+  when onquest 641
   zone map 1417
   turnin 641
 
@@ -472,7 +468,6 @@ step Keystone
 
 step Zaruk
   when onquest 688
-  zone map 1417
   turnin 688
 
 step Owen Thadd
@@ -492,6 +487,17 @@ step Anyone Can Cook
   collect 213422 x1 optional
   accept 79624 item 213422 optional
   complete 79624 @57.7,74.7
+
+step The Giant in the Den
+  tip Goliath's Wristguards drops from Witherbark Goliath: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 253711 x1 optional
+  accept 92707 item 253711 optional
+  complete 92707 @74.2,33.9
+
+step The Giant in the Den
+  when onquest 92707
+  zone map 1417
+  turnin 92707
 
 step Anyone Can Cook
   when onquest 79624

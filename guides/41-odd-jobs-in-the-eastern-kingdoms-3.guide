@@ -1,11 +1,11 @@
-guide completionist-horde/38-odd-jobs-in-the-eastern-kingdoms-3
-title 38 Odd jobs in the Eastern Kingdoms, visit 3 (45-56) (Completionist)
+guide completionist-horde/41-odd-jobs-in-the-eastern-kingdoms-3
+title 41 Odd jobs in the Eastern Kingdoms, visit 3 (45-56) (Completionist)
 faction Horde
 levels 45-56
 category Leveling
 zone Badlands
 next completionist-horde/dungeon-blackrock-depths
-next completionist-horde/39-swamp-of-sorrows-2
+next completionist-horde/42-western-plaguelands
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 45 to 56.
 # Generated from the reference data: change the planner, not this file.
 # Routed 12 quests; estimated level at the end 45.5 (heuristic XP, class quests not counted).
@@ -161,7 +161,6 @@ step Elder Torntusk
 
 step Cut Arathor Supply Lines
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1417
   accept 8123
   complete 8123 @73.5,29.8
 

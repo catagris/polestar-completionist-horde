@@ -8,12 +8,16 @@ next completionist-horde/dungeon-kroldok-stronghold
 next completionist-horde/21-swamp-of-sorrows
 pitch On along the line: Riverglades, quests of level 36 to 46.
 # Generated from the reference data: change the planner, not this file.
-# Routed 63 quests; estimated level at the end 44.2 (heuristic XP, class quests not counted).
+# Routed 71 quests; estimated level at the end 44.8 (heuristic XP, class quests not counted).
 
 step Genavie Callow
   when onquest 1164
   zone map 1458
   turnin 1164
+
+step Mirelle Tremayne
+  zone map 1458
+  accept 97884
 
 step Farholde Keep
   zone map 2548
@@ -22,6 +26,7 @@ step Farholde Keep
 step Krom'rosh
   getfp "Rog'mar"
   accept 93786
+  accept 93787
   accept 93788
   turnin 95143
 
@@ -46,26 +51,27 @@ step Fetch 'n' Fletch
   accept 95951
   complete 95951 @58.1,45.3
 
-step Fetch 'n' Fletch
-  turnin 95951
-
-step Tan'jani
-  accept 95955
-
-step Food for the Taking
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 93787
-  complete 93787 @59.4,45.6
-
-step Tan'jani
-  kill 259046 x10 quest 95955.1
-  turnin 95955
-
 step Turner's Mill Lumberjack
   collect 263972 x10 quest 93788.1
 
 step Meadowsbrook Farmhand
   kill 256383 x12 quest 93786.1
+
+step Feed Satchel
+  collect 262640 x6 quest 93787.1
+
+step Gelinda Coppergleam
+  accept 95792
+  accept 95934
+
+step Cinderscale Whelp, Cinderscale Warrior and Cubic Draconia
+  kill 262473 x8 quest 95792.1
+  kill 262477 x4 quest 95792.2
+  collect 271611 x1 quest 95934.1
+
+step Gelinda Coppergleam
+  turnin 95792
+  turnin 95934
 
 step Fuzzle
   accept 94961
@@ -76,22 +82,14 @@ step Twilight Instigator
 step Level 40
   level 40
 
-step Key Ingredients
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 94974
-  complete 94974 @59.9,46.0
-
-step Key Ingredients
-  turnin 94974
-
 step Tan'jani
   accept 95033
 
-step Food for the Taking
-  turnin 93787
+step Fetch 'n' Fletch
+  turnin 95951
 
-step Krom'rosh
-  accept 94480
+step Tan'jani
+  accept 95955
 
 step Witch Doctor Uzer'i
   zone map 1444
@@ -106,161 +104,116 @@ step Dire Mottled Boar
   collect 769 x10 quest 95162.1
 
 step Na'zok
-  zone map 2548
+  zone map 1444
   turnin 95162
 
 step Na'zok
+  zone map 2548
   accept 95163
 
 step Na'zok
+  zone map 1444
   complete 95163 @72.4,39.5 map 2548
   turnin 95163
 
 step Krom'rosh
   turnin 93786
+  turnin 93787
+  accept 94480
+  accept 94483
   turnin 93788
   accept 93976
 
-step Gorg
-  turnin 94480
-
-step Gorg
-  accept 94481
-
-step Krom'rosh
-  accept 94483
-
-step Gorg
-  kill 256749 x8 quest 94481.1
-  turnin 94481
+step Tan'jani
+  zone map 2548
+  kill 259046 x10 quest 95955.1
+  turnin 95955
 
 step Wanted
   when group 95882
-  zone map 2548
+  zone map 1444
   accept 95882
 
 step WANTED!
   when group 95992
-  zone map 2548
+  zone map 1444
   accept 95992
 
 step Neza Bloodsnout
-  zone map 2548
+  zone map 1444
   accept 96107
-
-step Gaseous Gold
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 96063
-  complete 96063 @68.2,48.6
-
-step Gaseous Gold
-  turnin 96063
-
-step Sleebo Fizzlespout
-  accept 96067
-  turnin 96067
-
-step Krom'rosh
-  kill 270667 x8 quest 94483.1
-  kill 257926 x12 quest 94483.2
-  turnin 94483
-
-step Tran'gul
-  accept 94672
-
-step Tran'gul
-  accept 94680
-
-step Tran'gul
-  kill 256952 x8 quest 94672.1
-  kill 254560 x8 quest 94672.2
-  kill 256798 x8 quest 94672.3
-  turnin 94672
 
 step Low Plains Buzzard
   collect 271793 x6 quest 96107.1
 
-step Neza Bloodsnout
-  turnin 96107
-  accept 96108
+step Farholde Priest
+  kill 270667 x8 quest 94483.1
 
-step Glade Viper
-  collect 271776 x4 quest 96108.1
-
-step Neza Bloodsnout
-  turnin 96108
-  accept 96109
-
-step Wildplains Patriarch
-  collect 266888 x6 quest 96109.1
+step Farholde Scout
+  kill 257926 x12 quest 94483.2
 
 step Fuzzle
   turnin 94961
 
 step Biting the Hand
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2548
   accept 94963
   complete 94963 @45.6,47.8
 
 step Biting the Hand
   turnin 94963
 
-step Gelinda Coppergleam
-  accept 95792
-
-step Proof of Profit
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 95934
-  complete 95934 @30.2,69.1
-
-step Cinderscale Whelp and Cinderscale Warrior
-  kill 262473 x8 quest 95792.1
-  kill 262477 x4 quest 95792.2
-
-step Gelinda Coppergleam
-  turnin 95792
-
-step Proof of Profit
-  turnin 95934
+step Sleebo Fizzlespout
+  zone map 1444
+  accept 96063
 
 step Picked Carcass
   accept 96103
 
+step Marsh Gas Vent
+  collect 272004 x5 quest 96063.1
+
 step Neza Bloodsnout
   turnin 96103
-  turnin 96109
-  accept 94532
+  turnin 96107
   accept 96104
+  accept 96108
 
-step Neza Bloodsnout
-  when group 94533
-  zone map 2548
-  accept 94533
+step Glade Viper
+  collect 271776 x4 quest 96108.1
 
 step Roving Tallstrider
-  zone map 2548
   collect 271778 x1 quest 96104.1
 
-step Redridge Mystic, Redridge Trapper and Snargl
-  kill 255770 x8 quest 94532.1
-  kill 255772 x8 quest 94532.2
+step Gorg
+  turnin 94480
+  accept 94481
+  turnin 94483
+  accept 94672
+  accept 94680
 
-step Redridge Brute
-  zone map 1433
-  kill 255769 x6 quest 94532.3
+step Rog'mar Trainee
+  kill 256749 x8 quest 94481.1
 
-step Kreza Darkthorn
-  accept 94535
+step Twilight Raider
+  kill 256952 x8 quest 94672.1
 
-step Twilight Missive
-  zone map 2548
+step Twilight Neophyte
+  kill 256798 x8 quest 94672.3
+
+step Twilight Shadowmancer
+  kill 254560 x8 quest 94672.2
   collect 265745 x3 quest 94680.1
 
-step Tran'gul
+step Gorg
+  turnin 94481
+  turnin 94672
   turnin 94680
 
 step Digging for Answers
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2548
   accept 94727
   complete 94727 @59.5,44.0
 
@@ -308,68 +261,98 @@ step Clubtoe
   zone map 2548
   turnin 95427
 
+step Neza Bloodsnout
+  zone map 2548
+  turnin 96104
+  turnin 96108
+  accept 96109
+
+step Neza Bloodsnout
+  when group 96105
+  zone map 1444
+  accept 96105
+
+step Wildplains Huntress
+  zone map 1444
+  collect 266888 x6 quest 96109.1
+
+step Neza Bloodsnout
+  turnin 96109
+  accept 94532
+
+step Neza Bloodsnout
+  when group 94533
+  zone map 1444
+  accept 94533
+
+step Redridge Mystic, Redridge Trapper and Redridge Brute
+  zone map 1433
+  kill 255770 x8 quest 94532.1
+  kill 255772 x8 quest 94532.2
+  kill 255769 x6 quest 94532.3
+
+step Kreza Darkthorn
+  zone map 2548
+  accept 94535
+
 step Redridge Brute
   zone map 1433
   collect 265358 x40 quest 94535.1
 
-step Redridge Mystic, Redridge Trapper and Snargl
+step Snargl
   when group 94533
   tip Snargl's Snout is group work: elites. Grouping up is advised.
   zone map 2548
   collect 265357 x1 quest 94533.1
 
+step Ombassa
+  when group 96105
+  tip King of the Wild Plains is group work: elites. Grouping up is advised.
+  zone map 1444
+  collect 281052 x1 quest 96105.1
+
+step Neza Bloodsnout
+  when group 96105
+  zone map 1444
+  turnin 96105
+
 step Scoutmaster Vargas
   when group 95882
   tip WANTED: Scoutmaster Vargas is group work: elites. Grouping up is advised.
-  zone map 2548
+  zone map 1444
   collect 268581 x1 quest 95882.1
 
 step Neza Bloodsnout
   when group 95882
-  zone map 2548
+  zone map 1444
   turnin 95882
 
 step Ghostmaw
   when group 95992
   tip WANTED: Ghostmaw is group work: elites. Grouping up is advised.
-  zone map 2548
+  zone map 1444
   collect 271828 x1 quest 95992.1
 
 step Tan'jani
   when group 95992
-  zone map 2548
+  zone map 1444
   turnin 95992
 
 step Kreza Darkthorn
   zone map 2548
   turnin 94535
   turnin 94532
-  turnin 96104
-
-step Neza Bloodsnout
-  when group 96105
-  zone map 2548
-  accept 96105
 
 step Neza Bloodsnout
   when group 94533
   zone map 2548
   turnin 94533
 
-step Ombassa
-  when group 96105
-  tip King of the Wild Plains is group work: elites. Grouping up is advised.
+step Sleebo Fizzlespout
   zone map 2548
-  collect 281052 x1 quest 96105.1
-
-step Neza Bloodsnout
-  when group 96105
-  zone map 2548
-  turnin 96105
-
-step Painted Hide
-  zone map 2548
-  accept 95260
+  turnin 96063
+  accept 96067
+  turnin 96067
 
 step Friz Frazzlespark
   turnin 93976
@@ -385,8 +368,7 @@ step Not My Circus
 step Eastsea Buccaneer
   collect 268796 x8 quest 95288.1
 
-step Argo Brinewhistle
-  turnin 95260
+step Wharfmaster Whizzbuzz
   accept 95118
   accept 95119
   accept 95121
@@ -395,83 +377,79 @@ step Argo Brinewhistle
 step Not My Circus
   turnin 95982
 
-step It Takes Guts
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 95261
-  complete 95261 @80.0,52.5
-
 step WANTED!
   when group 95120
   zone map 2548
   accept 95120
 
-step Murloc Warrior and Murloc Oracle
+step Painted Hide
   zone map 2548
+  accept 95260
+
+step Murloc Warrior
   kill 256801 x8 quest 95118.1
-  kill 255898 x8 quest 95118.2
-  collect 268344 x12 quest 95121.1
 
 step Sand Crawler
   collect 268345 x6 quest 95121.2
 
-step Wharfmaster Whizzbuzz
-  turnin 95118
-
-step It Takes Guts
-  turnin 95261
-
-step Argo Brinewhistle
-  accept 95267
-
-step Fimbo Greasemitz
-  turnin 95121
-
-step Sea Monster's Head
-  collect 268633 x1 quest 95267.1
-
-step Argo Brinewhistle
-  turnin 95267
+step Murloc Oracle
+  kill 255898 x8 quest 95118.2
+  collect 268344 x12 quest 95121.1
 
 step Trapclaw
   collect 268586 x1 quest 95254.1
 
-step Eastsea Buccaneer and Eastsea Musketeer
-  kill 257901 x10 quest 95119.1
+step Eastsea Musketeer
   kill 257910 x10 quest 95119.2
 
-step Wharfmaster Whizzbuzz
+step Eastsea Buccaneer
+  kill 257901 x10 quest 95119.1
+
+step Argo Brinewhistle
+  turnin 95260
+  accept 95261
+  turnin 95118
   turnin 95119
   accept 95122
-  turnin 95254
-
-step A Blast Ye Scurvy Dogs!
-  tip The reference data does not place this quest's objective: follow the quest text.
   accept 95123
-  complete 95123 @79.5,52.7
+
+step Fimbo Greasemitz
+  turnin 95121
+  turnin 95254
 
 step Eastsea Raider
   kill 257915 x8 quest 95122.1
 
+step Snort
+  collect 268632 x15 quest 95261.1
+
+step Rotflesh Mushroom
+  collect 268664 x8 quest 95261.2
+
 step Eastsea Bombardier
   kill 257916 x8 quest 95122.2
 
-step Friz Frazzlespark
-  turnin 95288
-  accept 95293
-  turnin 95122
+step Powder Keg
+  collect 268346 x5 quest 95123.1
 
-step A Blast Ye Scurvy Dogs!
+step Argo Brinewhistle
+  turnin 95261
+  accept 95267
+  turnin 95122
   turnin 95123
+  accept 95124
 
 step See Ya, Scallywags!
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 95165
   complete 95165 @79.5,52.7
 
-step Admiral Lamora
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 95124
-  complete 95124 @79.5,52.7
+step Monstrous Threshadon
+  collect 268633 x1 quest 95267.1
+
+step Admiral Lamora and Admiral's Treasure Chest
+  kill 257861 x1 quest 95124.1
+  collect 268506 x1 quest 95124.2
 
 step Old Rot-Chum
   when group 95120
@@ -484,8 +462,14 @@ step Wharfmaster Whizzbuzz
   zone map 2548
   turnin 95120
 
-step See Ya, Scallywags!
+step Argo Brinewhistle
   zone map 2548
+  turnin 95267
+  turnin 95124
+  turnin 95288
+  accept 95293
+
+step See Ya, Scallywags!
   turnin 95165
 
 step Captain Bentcoin
@@ -497,9 +481,6 @@ step Friz Frazzlespark
   accept 95295
   accept 95296
 
-step Admiral Lamora
-  turnin 95124
-
 step Krom'rosh
   turnin 95062
 
@@ -507,10 +488,15 @@ step Clubtoe
   accept 95418
 
 step Tran'gul
+  zone map 1444
   turnin 95418
 
 step Tran'gul
+  zone map 2548
   accept 95420
+
+step Tremayne Family Blacksmithing Techniques
+  collect 278868 x1 quest 97884.1
 
 step Jom-jom's Escape
   tip The place is where players were recorded finishing it.
@@ -541,9 +527,6 @@ step Clugfist
   turnin 95424
 
 step Clugfist
-  accept 94668
-
-step Clugfist
   accept 95428
 
 step Krom'rosh
@@ -571,7 +554,7 @@ step Rise Up!
 
 step Crag'rog
   when group 95433
-  zone map 2548
+  zone map 1444
   accept 95433
 
 step Da'grosh
@@ -606,9 +589,30 @@ step Da'grosh
   zone map 2548
   turnin 94768
 
-step Hamur
+step Clugfist
   zone map 2548
+  accept 94668
+
+step Executioner's Mace
+  when group 95433
+  zone map 2548
+  collect 269351 x1 quest 95433.1
+
+step Clugfist
+  when group 95433
+  zone map 2548
+  turnin 95433
+
+step Jezap Jinglesprocket
+  zone map 2548
+  turnin 94668
+
+step Hamur
   accept 95183 npc 263440
+
+step Jezap Jinglesprocket
+  accept 94669
+  turnin 94669
 
 step Good Rock
   collect 271892 x10 quest 95183.1
@@ -621,20 +625,13 @@ step Step Two: More Rock
   accept 96026
   complete 96026 @67.2,21.8
 
-step Jezap Jinglesprocket
-  turnin 94668
-
-step Step Two: More Rock
-  turnin 96026
-
-step Jezap Jinglesprocket
-  accept 94669
-  turnin 94669
-
 step Bloodmaster's Ring
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 94670
   complete 94670 @65.6,21.4
+
+step Step Two: More Rock
+  turnin 96026
 
 step Bloodmaster's Ring
   turnin 94670
@@ -667,16 +664,18 @@ step Jezap Jinglesprocket
   accept 94733
 
 step Gobam
-  zone map 1444
   turnin 94733
 
-step A Boar's Delight
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 2548
+step Gobam
   accept 94734
-  complete 94734 @67,17.2
 
-step A Boar's Delight
+step Sweetberry
+  collect 265808 x8 quest 94734.1
+
+step Riverweed
+  collect 265806 x12 quest 94734.2
+
+step Gobam
   turnin 94734
 
 step Gobam
@@ -701,18 +700,7 @@ step Bloodmaster's Ring
 step Bloodmaster's Ring
   turnin 95063
 
-step Executioner's Mace
-  when group 95433
-  zone map 2548
-  collect 269351 x1 quest 95433.1
-
-step Clugfist
-  when group 95433
-  zone map 2548
-  turnin 95433
-
 step Da'grosh
-  zone map 2548
   accept 95278
 
 step Krom'rosh

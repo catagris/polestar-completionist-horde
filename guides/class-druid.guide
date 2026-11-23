@@ -73,8 +73,8 @@ step Level 40
 
 step Tyrisius
   zone Feralas
-  accept 81924 only Druid
-  turnin 81924 only Druid
+  accept 81924 only Tauren
+  turnin 81924 only Tauren
 
 step Level 58
   level 58

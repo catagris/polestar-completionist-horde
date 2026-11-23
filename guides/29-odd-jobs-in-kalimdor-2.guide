@@ -59,6 +59,28 @@ step Pozzik
   turnin 1186
   accept 1187
 
+step Level 40
+  level 40
+
+step Your First Riding Kodo
+  only Tauren
+  when available 97446
+  tip One of several exclusive quests; the route takes Your First Riding Kodo (96982). This one shows for a character the game offers it to instead.
+  zone map 1442
+  accept 97446 optional
+
+step Your First Riding Kodo
+  only Tauren
+  when onquest 97446
+  zone map 1442
+  complete 97446 @46.2,59.8 optional
+
+step Your First Riding Kodo
+  only Tauren
+  when onquest 97446
+  zone map 1442
+  turnin 97446 optional
+
 step Zamek's Distraction
   when onquest 1190
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -69,26 +91,42 @@ step Gizmorium Shipping Crate
   zone Dustwallow Marsh
   collect 5862 x1 quest 1187.1
 
+step Your First Riding Kodo
+  only Tauren
+  when available 96982
+  tip One of several exclusive quests; the route takes Your First Riding Wolf (96994). This one shows for a character the game offers it to instead.
+  zone map 1412
+  accept 96982 optional
+
+step Your First Riding Kodo
+  only Tauren
+  when onquest 96982
+  zone map 1412
+  complete 96982 @46.9,62.0 optional
+
+step Your First Riding Kodo
+  only Tauren
+  when onquest 96982
+  zone map 1412
+  turnin 96982 optional
+
+step Learning to Ride
+  only Tauren
+  when available 97204
+  tip One of several exclusive quests; the route takes Learning to Ride (97203). This one shows for a character the game offers it to instead.
+  zone map 1412
+  accept 97204 optional
+
+step Learning to Ride
+  only Tauren
+  when onquest 97204
+  zone map 1412
+  turnin 97204 optional
+
 step Razzeric
   zone Thousand Needles
   turnin 1187
   accept 1188
-
-step Level 40
-  level 40
-
-step Your First Riding Kodo
-  only Tauren
-  when available 97446
-  tip One of several exclusive quests; the route takes Your First Riding Kodo (96982). This one shows for a character the game offers it to instead.
-  zone map 1442
-  accept 97446 @46.1,59.9 map 1442 optional
-
-step Your First Riding Kodo
-  only Tauren
-  when onquest 97446
-  zone map 1442
-  turnin 97446 @46.1,59.9 map 1442 optional
 
 step Rizzle's Unguarded Plans
   turnin 1190
@@ -96,17 +134,6 @@ step Rizzle's Unguarded Plans
 
 step Pozzik
   turnin 1194
-
-step Learning to Ride
-  only Tauren
-  zone map 1412
-  accept 97204
-
-step Learning to Ride
-  only Tauren
-  when onquest 97204
-  zone map 1412
-  turnin 97204
 
 step Shreev
   zone Tanaris
@@ -137,39 +164,20 @@ step Get the Goblins Drunk
   zone map 1441
   accept 1121 optional
 
-step Kravel Koalbeard
-  zone Thousand Needles
-  accept 1122
-
 step Get the Goblins Drunk
   when onquest 1121
   zone map 1441
   turnin 1121 optional
+
+step Gnome Pit Boss
+  zone Thousand Needles
+  accept 1122
 
 step Crank Fizzlebub
   zone Stranglethorn Vale
   turnin 1122
 
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
-step Your First Riding Kodo
-  only Tauren
-  when available 96982
-  tip One of several exclusive quests; the route takes Your First Riding Kodo (97446). This one shows for a character the game offers it to instead.
-  zone map 1412
-  accept 96982 optional
-
-step Your First Riding Kodo
-  only Tauren
-  when onquest 96982
-  zone map 1412
-  complete 96982 @46.9,62.0 optional
-
-step Your First Riding Kodo
-  only Tauren
-  when onquest 96982
-  zone map 1412
-  turnin 96982 optional
 
 step Get the Gnomes Drunk
   when available 1120

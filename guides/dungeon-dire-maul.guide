@@ -448,6 +448,11 @@ step The Instigator's Enchantment
   zone map 1444
   turnin 8950 @62.3,25.5
 
+step Nostro's Compendium
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1444
+  turnin 84555 direct @62.3,25.5 map 1444
+
 step Dreadsteed of Xoroth
   only Warlock
   when turnedin 7629

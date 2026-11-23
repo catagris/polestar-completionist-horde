@@ -42,9 +42,24 @@ step Kreza Darkthorn
   zone Riverglades
   turnin 94973
 
+step Key Ingredients
+  zone map 2548
+  accept 94974
+
 step Krom'rosh
   zone Riverglades
   turnin 94968
+
+step Key Ingredients
+  when onquest 94974
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2548
+  complete 94974 @59.9,46.0
+
+step Key Ingredients
+  when onquest 94974
+  zone map 2548
+  turnin 94974
 
 step Tran'gul
   zone Riverglades

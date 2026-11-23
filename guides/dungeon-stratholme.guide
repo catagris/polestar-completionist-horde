@@ -228,6 +228,17 @@ step Artist Renfray
 step Catalogue of the Wayward
   accept 5166
 
+step Bodley
+  zone map 1427
+  accept 8968
+
+step The Right Piece of Lord Valthalak's Amulet
+  when available 8991
+  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
+  when turnedin 8985
+  zone map 1427
+  accept 8991 optional
+
 step Lilith the Lithe
   zone map 1452
   accept 5305
@@ -259,6 +270,7 @@ step Inside Stratholme
   complete 5307 @26.3,18.3
   complete 5848 @26.3,18.3
   complete 6163 @26.3,18.3
+  complete 8968 @26.3,18.3
 
 step Inside Stratholme
   when turnedin 5462
@@ -344,6 +356,21 @@ step In Dreams
   when onquest 5944
   zone map 1422
   turnin 5944
+
+step Bodley
+  zone map 1427
+  turnin 8968
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8991
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8991 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8991
+  zone map 1427
+  turnin 8991 optional
 
 step Lilith the Lithe
   zone map 1452
@@ -523,42 +550,6 @@ step The Argent Hold
   zone map 1423
   turnin 5265
 
-step The Right Piece of Lord Valthalak's Amulet
-  when available 8991
-  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
-  when turnedin 8985
-  zone map 1427
-  accept 8991 optional
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8991
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8991 @39.8,96.5 optional
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8991
-  zone map 1427
-  turnin 8991 optional
-
-step The Left Piece of Lord Valthalak's Amulet
-  when available 8968
-  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8966). This one shows for a character the game offers it to instead.
-  when turnedin 8962
-  zone map 1427
-  accept 8968 optional
-
-step The Left Piece of Lord Valthalak's Amulet
-  when onquest 8968
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8968 @39.8,96.5 optional
-
-step The Left Piece of Lord Valthalak's Amulet
-  when onquest 8968
-  zone map 1427
-  turnin 8968 optional
-
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
 step The Flesh Does Not Lie
@@ -584,3 +575,15 @@ step The Archivist
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1423
   turnin 5251 optional
+
+step The Restless Souls
+  when onquest 5282
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1423
+  turnin 5282 optional
+
+step Of Love and Family
+  when onquest 5848
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1422
+  turnin 5848 optional

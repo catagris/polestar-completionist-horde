@@ -1,29 +1,17 @@
-guide completionist-horde/49-mulgore-and-thunder-bluff-3
-title 49 Mulgore and Thunder Bluff, visit 3 (50-60) (Completionist)
+guide completionist-horde/50-mulgore-and-thunder-bluff-3
+title 50 Mulgore and Thunder Bluff, visit 3 (50-60) (Completionist)
 faction Horde
 levels 50-60
 category Leveling
 zone Mulgore
-next completionist-horde/50-odd-jobs-in-kalimdor-4
+next completionist-horde/51-ungoro-crater
 pitch On along the line: Mulgore and Thunder Bluff, quests of level 50 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 12 quests; estimated level at the end 51.0 (heuristic XP, class quests not counted).
+# Routed 13 quests; estimated level at the end 50.7 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done).
 
-step Ralston Farnsley
-  when onquest 7813
-  zone map 1458
-  turnin 7813
-  turnin 7814
-  turnin 7817
-  accept 7818
-
-step Arch Druid Hamuul Runetotem
-  zone map 1456
-  accept 3782
-  turnin 3782
-
 step Rumstag Proudstrider
+  zone map 1456
   accept 7821
   accept 7822
 
@@ -34,9 +22,13 @@ step Additional Runecloth
   collect 14047 x20 anywhere optional
   turnin 7825 direct optional
 
+step Arch Druid Hamuul Runetotem
+  zone map 1456
+  accept 3782
+  turnin 3782
+
 step Morrowgrain Research
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1456
   accept 3786
   complete 3786 @71.1,34.2
 
@@ -47,9 +39,6 @@ step Morrowgrain to Thunder Bluff
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 11040 x10 anywhere optional
   turnin 3804 direct optional
-
-step Level 54
-  level 54
 
 step The New Frontier
   when available 1000
@@ -73,10 +62,6 @@ step Assisting Arch Druid Runetotem
   zone map 1456
   turnin 3762 optional
 
-step Stormwind Royal Guard
-  zone map 1453
-  collect 14047 x60 quest 7818.1
-
 step Ratchet Bruiser
   zone map 1413
   collect 4306 x60 quest 7821.1
@@ -90,45 +75,75 @@ step Oura Stormspinner
   accept 99196
   accept 99197
   accept 99198
-  accept 98477
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x1 quest 99198.1
-
-step Anvilrage Overseer
-  zone map 1428
-  collect 274964 x10 quest 98477.1
+step Ratchet Bruiser
+  zone map 1413
+  collect 4306 x1 quest 99197.1
 
 step Farrin Daris
   zone map 1431
   collect 2592 x60 quest 99196.1
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x1 quest 99197.1
+step Baron Bloodbane
+  zone map 1423
+  collect 4338 x1 quest 99198.1
 
 step Oura Stormspinner
   zone map 1412
   turnin 99196
   turnin 99197
   turnin 99198
-  turnin 98477
 
-step New Kodo - Teal
-  tip A repeatable quest: hand it in once, with what it asks for.
+step Level 60
+  level 60
+
+step Kar Stormsinger
   sethome "Bloodhoof Village"
-  collect 15293 x1 anywhere optional
-  turnin 7662 direct optional
-
-step Your Fortune Awaits You...
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 7945 direct optional
+  accept 99202
 
 step New Kodo - Green
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 15292 x1 anywhere optional
   turnin 7663 direct optional
+
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 7945 direct optional
+
+step New Kodo - Teal
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 15293 x1 anywhere optional
+  turnin 7662 direct optional
+
+step Harb Clawhoof
+  turnin 99202
+
+step Harb Clawhoof
+  accept 99217 only Tauren
+
+step Great Gray Kodo, Great Brown Kodo and Great White Kodo
+  kill 276877 x1 quest 99217.1 only Tauren
+  kill 276876 x1 quest 99217.2 only Tauren
+  kill 276879 x1 quest 99217.3 only Tauren
+
+step Harb Clawhoof
+  turnin 99217 only Tauren
+
+step Unstable Magic
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 98477
+  complete 98477 @33.6,22.5
+
+step Unstable Magic
+  turnin 98477
+
+step More Unstable Magic
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 98476
+  complete 98476 @33.6,22.5
+
+step More Unstable Magic
+  turnin 98476
 
 step Darkmoon Beast Deck
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -182,23 +197,3 @@ step Stealing Darnassus's Flame
   when onquest 9332
   zone map 1454
   turnin 9332
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step A Donation of Wool
-  when onquest 7813
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7813 optional
-
-step A Donation of Silk
-  when onquest 7814
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7814 optional
-
-step A Donation of Mageweave
-  when onquest 7817
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7817 optional

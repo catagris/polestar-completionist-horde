@@ -1,25 +1,33 @@
-guide completionist-horde/54-searing-gorge-2
-title 54 Searing Gorge, visit 2 (60) (Completionist)
+guide completionist-horde/47-searing-gorge-2
+title 47 Searing Gorge, visit 2 (60) (Completionist)
 faction Horde
 levels 59-60
 category Leveling
 zone Searing Gorge
 next completionist-horde/dungeon-blackrock-spire
-next completionist-horde/55-odd-jobs-in-the-eastern-kingdoms-4
+next completionist-horde/48-felwood
 pitch On along the line: Searing Gorge, level 60 quests.
 # Generated from the reference data: change the planner, not this file.
-# Routed 4 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
-# Skipped: 6 exclusive with N; 1 prerequisite N not in this route.
+# Routed 3 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+# Skipped: 6 exclusive with N; 2 prerequisite N not in this route.
 
-step Mokvar
-  only Warlock
-  when complete 8943
-  zone map 1454
-  turnin 8943
+step Ralston Farnsley
+  when onquest 7818
+  zone map 1458
+  turnin 7818
 
-step Mokvar
+step Additional Runecloth
+  when onquest 7819
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1458
+  collect 14047 x20 anywhere optional
+  turnin 7819 direct optional
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
-  accept 9032
+  accept 84175
+  complete 84175 @35.0,38.3
 
 step An Earnest Proposition
   only Priest
@@ -62,9 +70,25 @@ step An Earnest Proposition
   zone map 1454
   accept 8913 optional
 
+step Just Compensation
+  zone map 1454
+  turnin 84175
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84176
+  complete 84176 @35.0,38.3
+
+step Just Compensation
+  turnin 84176
+
 step Bodley
   zone map 1427
   accept 8970
+
+step The Left Piece of Lord Valthalak's Amulet
+  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 8966 optional
 
 step Basket of Bloodkelp
   zone map 1445
@@ -73,7 +97,6 @@ step Basket of Bloodkelp
 step Bodley
   zone map 1427
   turnin 8970
-  turnin 9032
 
 step More Components of Importance
   when available 8988
@@ -107,6 +130,8 @@ step Final Preparations
   accept 8994
   complete 8994 @39.8,96.5
 
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
 step More Components of Importance
   when onquest 8988
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -117,8 +142,6 @@ step More Components of Importance
   when onquest 8988
   zone map 1427
   turnin 8988 optional
-
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step More Components of Importance
   when onquest 8987
@@ -192,3 +215,11 @@ step More Components of Importance
   when onquest 8985
   zone map 1427
   turnin 8985 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step A Donation of Runecloth
+  when onquest 7818
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 7818 optional

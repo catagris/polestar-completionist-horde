@@ -4,19 +4,35 @@ faction Horde
 levels 52-60
 category Leveling
 zone Western Plaguelands
-next completionist-horde/43-ungoro-crater
+next completionist-horde/43-azshara-2
 pitch On along the line: Western Plaguelands, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 27 quests; estimated level at the end 53.1 (heuristic XP, class quests not counted).
+# Routed 26 quests; estimated level at the end 53.1 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
 
+step Thrall
+  when onquest 4004
+  zone map 1454
+  turnin 4004
+
 step Mrs. Dalson's Diary
+  zone map 1422
   accept 5058
   turnin 5058
   accept 5060
 
+step Dalson's Tears Cauldron
+  when turnedin 5232
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 13320 x1 anywhere optional
+  collect 13356 x5 anywhere optional
+  collect 14047 x4 anywhere optional
+  turnin 5221 direct optional
+
 step Locked Away
   tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
   collect 12738 x1 anywhere optional
   turnin 5059 direct optional
 
@@ -31,7 +47,17 @@ step Janice Felstone
   turnin 5021
   accept 5023
 
+step Felstone Field Cauldron
+  when turnedin 5230
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 13320 x1 anywhere optional
+  collect 13357 x6 anywhere optional
+  collect 14047 x4 anywhere optional
+  turnin 5218 direct optional
+
 step Mulgris Deepriver
+  zone map 1422
   accept 4984
 
 step Gahrron's Withering Cauldron
@@ -42,6 +68,15 @@ step Gahrron's Withering Cauldron
   collect 13354 x4 anywhere optional
   collect 14047 x4 anywhere optional
   turnin 5227 direct optional
+
+step Writhing Haunt Cauldron
+  when turnedin 5234
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1422
+  collect 13320 x1 anywhere optional
+  collect 13356 x5 anywhere optional
+  collect 14047 x4 anywhere optional
+  turnin 5224 direct optional
 
 step Diseased Wolf
   zone map 1420
@@ -73,30 +108,29 @@ step Mulgris Deepriver
   turnin 4985
   accept 4987
 
-step Termite Barrel
-  accept 6390
+step Tirion Fordring
+  accept 5542 npc 1855
+  accept 5543 npc 1855
+  accept 5544 npc 1855
 
-step Kirsta Deepshadow
-  accept 6004
+step Plaguehound Runt
+  kill 8596 x20 quest 5542.1
 
-step Scarlet Mage
-  kill 1826 x2 quest 6004.3
+step Frenzied Plaguehound
+  zone map 1423
+  kill 8598 x5 quest 5542.3
 
-step Scarlet Knight
-  kill 1833 x2 quest 6004.4
+step Plaguehound
+  kill 8597 x20 quest 5542.2
 
-step Scarlet Hunter
-  kill 1831 x2 quest 6004.2
+step Plaguebat
+  kill 8600 x30 quest 5543.1
 
-step Scarlet Medic
-  kill 10605 x2 quest 6004.1
-
-step Mickey Levine
-  zone map 1420
-  turnin 6390
+step Carrion Grub
+  zone map 1422
+  collect 13853 x15 quest 5544.1
 
 step Level 53
-  zone map 1422
   level 53
 
 step Chromie
@@ -122,47 +156,21 @@ step Counting Out Time
   collect 12638 x5 anywhere optional
   turnin 4973 direct optional
 
-step Kirsta Deepshadow
-  turnin 6004
-  accept 6023
+step Fallen Skyborne
+  zone map 1420
+  accept 7790
 
-step Lord Tirion Fordring
-  accept 5542 npc 12126
-  accept 5543 npc 12126
-  accept 5544 npc 12126
-
-step Cavalier Durgen
-  kill 11611 x1 quest 6023.2
-
-step Huntsman Radley
-  kill 11613 x1 quest 6023.1
-
-step Carrion Grub
-  collect 13853 x15 quest 5544.1
-
-step Plaguebat
-  zone map 1423
-  kill 8600 x30 quest 5543.1
-
-step Plaguehound
-  kill 8597 x20 quest 5542.2
-
-step Frenzied Plaguehound
-  kill 8598 x5 quest 5542.3
-
-step Tirion Fordring
-  zone map 1422
-  turnin 5543
-  turnin 5544
-
-step Plaguehound Runt
-  kill 8596 x20 quest 5542.1
+step Argent Wayfinder
+  turnin 7790
 
 step Tirion Fordring
   turnin 5542
+  turnin 5543
+  turnin 5544
 
 step Redemption
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1422
   accept 5742
   complete 5742 @67.3,24.2
 
@@ -170,6 +178,7 @@ step Redemption
   turnin 5742
 
 step Tirion Fordring
+  zone map 1420
   accept 5781
 
 step Taelan's Hammer
@@ -181,6 +190,7 @@ step Tirion Fordring
   turnin 5781
 
 step Tirion Fordring
+  zone map 1420
   accept 5845
 
 step Symbol of Lost Honor
@@ -197,8 +207,38 @@ step Tirion Fordring
 step Artist Renfray
   turnin 5846
 
-step Pamela Redpath
-  turnin 5142
+step Of Love and Family
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 5848 optional
+
+step Kirsta Deepshadow
+  accept 6004
+
+step Scarlet Mage
+  kill 1826 x2 quest 6004.3
+
+step Scarlet Knight
+  kill 1833 x2 quest 6004.4
+
+step Scarlet Hunter
+  kill 1831 x2 quest 6004.2
+
+step Scarlet Medic
+  kill 10605 x2 quest 6004.1
+
+step Termite Barrel
+  turnin 5902
+  accept 6390
+
+step Kirsta Deepshadow
+  turnin 6004
+  accept 6023
+
+step Cavalier Durgen
+  kill 11611 x1 quest 6023.2
+
+step Huntsman Radley
+  kill 11613 x1 quest 6023.1
 
 step Kirsta Deepshadow
   turnin 6023
@@ -228,3 +268,17 @@ step Minion's Scourgestones
   zone map 1422
   collect 12840 x20 anywhere optional
   turnin 5402 direct optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Princess Saved?
+  when onquest 4004
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 4004 optional
+
+step A Plague Upon Thee
+  when onquest 5902
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1422
+  turnin 5902 optional

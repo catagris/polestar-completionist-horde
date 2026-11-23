@@ -137,9 +137,11 @@ step Henchman Valik
   turnin 535
 
 step Dalaran Shield Guard
+  zone map 1424
   collect 3714 x10 quest 556.1
 
 step Manual
+  zone map 1416
   collect 215815 x1 quest 79948.1
 
 step Keeper Bel'varil
@@ -154,16 +156,16 @@ step Novice Thaivand
 step Jailor Borhuin
   collect 3704 x1 quest 503.1
 
-step Gol'dir
-  complete 503 @60.6,43.8 map 1416
-  turnin 503
-  accept 506
+step Ferocious Yeti
+  collect 3708 x1 quest 552.1
 
 step Elemental Slave
   collect 3715 x4 quest 557.1
 
-step Ferocious Yeti
-  collect 3708 x1 quest 552.1
+step Gol'dir
+  complete 503 @60.6,43.8 map 1416
+  turnin 503
+  accept 506
 
 step Level 35
   zone map 1424
@@ -178,48 +180,32 @@ step Baron Vardus
 
 step High Executor Darthalia
   turnin 566
-  turnin 557
+  turnin 552
+  accept 553
+  turnin 506
+  accept 507
+
+step Melisara
+  turnin 495
 
 step Melisara
   when group 518
   zone map 1416
   accept 518
 
-step Krusk
+step Keeper Bel'varil
   zone map 1416
-  turnin 506
-  accept 507
-
-step Melisara
-  turnin 495
-  turnin 552
-  accept 553
-
-step Lord Aliden Perenolde
-  kill 2423 x1 quest 507.1
-
-step Elysa
-  turnin 507
-  accept 508
-
-step Strahnbrad Mystery
-  tip Singed Note drops from Argus Shadow Mage, Syndicate Wizard: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  collect 213421 x1 optional
-  accept 95534 item 213421 optional
-  complete 95534 @48.6,59.0
-
-step Strahnbrad Mystery
-  when onquest 95534
-  zone map 1424
-  turnin 95534
-
-step Flame of Uzel
-  zone map 1416
-  interact 1770 quest 553.3
+  turnin 557
 
 step Flame of Azel and Flame of Veraz
   interact 1768 quest 553.1
   interact 1769 quest 553.2
+
+step Flame of Uzel
+  interact 1770 quest 553.3
+
+step Lord Aliden Perenolde
+  kill 2423 x1 quest 507.1
 
 step Crushridge Mauler
   when group 518
@@ -237,11 +223,11 @@ step Melisara
   zone map 1416
   accept 519
 
-step Glommus
+step Targ
   when group 519
   tip The Crown of Will is group work: elites. Grouping up is advised.
   zone map 1416
-  collect 3552 x1 quest 519.3
+  collect 3550 x1 quest 519.1
 
 step Muckrake
   when group 519
@@ -249,11 +235,31 @@ step Muckrake
   zone map 1416
   collect 3551 x1 quest 519.2
 
-step Targ
+step Glommus
   when group 519
   tip The Crown of Will is group work: elites. Grouping up is advised.
   zone map 1416
-  collect 3550 x1 quest 519.1
+  collect 3552 x1 quest 519.3
+
+step Elysa
+  zone map 1416
+  turnin 507
+  accept 508
+
+step Strahnbrad Mystery
+  tip Singed Note drops from Argus Shadow Mage, Syndicate Wizard: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 213421 x1 optional
+  accept 95534 item 213421 optional
+  complete 95534 @48.6,59.0
+
+step Strahnbrad Mystery
+  when onquest 95534
+  zone map 1424
+  turnin 95534
+
+step Owen Thadd
+  zone map 1458
+  turnin 79948
 
 step Melisara
   when group 519
@@ -288,10 +294,6 @@ step Melisara
 step Helcular's Grave
   zone map 1424
   turnin 553
-
-step Owen Thadd
-  zone map 1458
-  turnin 79948
 
 step Frostmaw
   zone map 1416

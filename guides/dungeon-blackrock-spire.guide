@@ -13,6 +13,11 @@ step An Earnest Proposition
   zone map 1454
   accept 8913
 
+step Bodley's Unfortunate Fate
+  when turnedin 9016
+  zone map 1454
+  accept 9032
+
 step An Earnest Proposition
   only Druid
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -153,11 +158,8 @@ step Prospector Ironboot
   zone map 1446
   accept 4788
 
-step Felnok Steelspring
-  zone map 1452
-  accept 4907
-
 step Kilram
+  zone map 1452
   accept 5306
 
 step Inside Blackrock Spire
@@ -166,7 +168,6 @@ step Inside Blackrock Spire
   accept 4867 @34.8,85.3
   accept 5160 @34.8,85.3
   collect 227911 @34.8,85.3
-  accept 84377 item 227911
   complete 4788 @34.8,85.3
   complete 4724 @34.8,85.3
   complete 4729 @34.8,85.3
@@ -190,10 +191,6 @@ step Inside Blackrock Spire
   zone map 1427
   complete 8920 @34.8,85.3
 
-step Hand in
-  zone map 1427
-  turnin 84377 @34.8,85.3
-
 step Galamav the Marksman
   zone map 1418
   turnin 4724
@@ -211,9 +208,6 @@ step Warlord Goretooth
 step Ragged John
   zone map 1428
   turnin 4866
-
-step Tinkee Steamboil
-  turnin 4907
 
 step Prospector Ironboot
   zone map 1446
@@ -286,7 +280,19 @@ step Hunting for Ectoplasm
   tip The reference data does not place this quest's objective: follow the quest text.
   complete 8924 @52.47,27.23
 
+step Level 60
+  zone map 1427
+  level 60
+
+step Inside Blackrock Spire
+  accept 84377 item 227911
+
+step Hand in
+  zone map 1453
+  turnin 84377
+
 step Hunting for Ectoplasm
+  zone map 1446
   turnin 8924
 
 step A Portable Power Source
@@ -314,15 +320,14 @@ step Return to Mokvar
 
 step Bodley
   zone map 1427
-  accept 8961
+  accept 8966
+  accept 8989
   accept 8995
 
-step The Right Piece of Lord Valthalak's Amulet
-  when available 8989
-  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8990). This one shows for a character the game offers it to instead.
-  when turnedin 8985
+step Bodley's Unfortunate Fate
+  when onquest 9032
   zone map 1427
-  accept 8989 optional
+  turnin 9032
 
 step Shadowmage Vivian Lagrave
   zone map 1418
@@ -334,6 +339,7 @@ step Catalogue of the Wayward
   accept 5167
 
 step Tinkee Steamboil
+  when turnedin 4810
   zone map 1428
   accept 4734
 
@@ -343,14 +349,19 @@ step Inside Blackrock Spire, again
   accept 4743 @34.8,85.3
   complete 4982 @34.8,85.3
   turnin 4982 @34.8,85.3
-  complete 4734 @34.8,85.3
   complete 4743 @34.8,85.3
   turnin 4743 @34.8,85.3
   complete 4768 @34.8,85.3
   complete 5166 @34.8,85.3
   complete 5167 @34.8,85.3
-  complete 8961 @34.8,85.3
+  complete 8966 @34.8,85.3
+  complete 8989 @34.8,85.3
   complete 8995 @34.8,85.3
+
+step Inside Blackrock Spire, again
+  when turnedin 4810
+  zone map 1427
+  complete 4734 @34.8,85.3
 
 step Inside Blackrock Spire
   only Mage
@@ -359,72 +370,10 @@ step Inside Blackrock Spire
 
 step Bodley
   zone map 1427
-  turnin 8961
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8989
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8989 @39.8,96.5 optional
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8989
-  zone map 1427
-  turnin 8989 optional
-
-step Components of Importance
-  when available 8965
-  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
-  zone map 1427
-  accept 8965 optional
-
-step Components of Importance
-  when available 8964
-  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
-  zone map 1427
-  accept 8964 optional
-
-step Components of Importance
-  when available 8963
-  tip One of several exclusive quests; the route takes Components of Importance (8962). This one shows for a character the game offers it to instead.
-  zone map 1427
-  accept 8963 optional
-
-step Components of Importance
-  when onquest 8965
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8965 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8965
-  zone map 1427
-  turnin 8965 optional
-
-step Components of Importance
-  when onquest 8964
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8964 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8964
-  zone map 1427
-  turnin 8964 optional
-
-step Components of Importance
-  when onquest 8963
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8963 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8963
-  zone map 1427
-  turnin 8963 optional
+  turnin 8966
+  turnin 8989
 
 step Spirit of Lord Valthalak
-  zone map 1427
   turnin 8995 @34.8,85.3
 
 step Shadowmage Vivian Lagrave
@@ -437,10 +386,12 @@ step Jeziba
   turnin 5167
 
 step Tinkee Steamboil
+  when turnedin 4810
   zone map 1428
   turnin 4734
 
 step Tinkee Steamboil
+  zone map 1428
   accept 4735
 
 step Inside Blackrock Spire, again
@@ -461,24 +412,6 @@ step Return to Bodley
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   zone map 1427
   turnin 8996 direct @39.8,96.5 map 1427
-
-step The Left Piece of Lord Valthalak's Amulet
-  when available 8966
-  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8968). This one shows for a character the game offers it to instead.
-  when turnedin 8962
-  zone map 1427
-  accept 8966 optional
-
-step The Left Piece of Lord Valthalak's Amulet
-  when onquest 8966
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8966 @39.8,96.5 optional
-
-step The Left Piece of Lord Valthalak's Amulet
-  when onquest 8966
-  zone map 1427
-  turnin 8966 optional
 
 step Back to the Beginning
   when turnedin 8996
@@ -537,33 +470,16 @@ step Anthion's Parting Words
   zone map 1423
   complete 8957 @26.1,11.3 optional
 
-step Components of Importance
-  when available 8962
-  tip One of several exclusive quests; the route takes Components of Importance (8963). This one shows for a character the game offers it to instead.
-  zone map 1427
-  accept 8962 optional
-
-step Components of Importance
-  when onquest 8962
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8962 @39.8,96.5 optional
-
-step Components of Importance
-  when onquest 8962
-  zone map 1427
-  turnin 8962 optional
-
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Mother's Milk
-  when onquest 4866
+step Vivian Lagrave and the Darkstone Tablet
+  when onquest 4769
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1428
-  turnin 4866 optional
+  zone map 1418
+  turnin 4769 optional
 
-step Snakestone of the Shadow Huntress
-  when onquest 5306
+step The Left Piece of Lord Valthalak's Amulet
+  when onquest 8966
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1452
-  turnin 5306 optional
+  zone map 1427
+  turnin 8966 optional

@@ -1,32 +1,19 @@
-guide completionist-horde/51-moonglade
-title 51 Moonglade (55-60) (Completionist)
+guide completionist-horde/56-moonglade
+title 56 Moonglade (55-60) (Completionist)
 faction Horde
 levels 55-60
 category Leveling
 zone Moonglade
-next completionist-horde/52-mount-hyjal
+next completionist-horde/57-durotar-and-orgrimmar-4
 pitch On along the line: Moonglade, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 14 quests; estimated level at the end 55.6 (heuristic XP, class quests not counted).
+# Routed 33 quests; estimated level at the end 55.9 (heuristic XP, class quests not counted).
 
-step Nara Wildmane
-  when onquest 2967
-  zone map 1456
-  turnin 2967
-
-step Nara Wildmane
-  zone map 1456
-  accept 2968
-
-step Sage Truthseeker
-  when onquest 2968
-  zone map 1456
-  turnin 2968
-
-step Nara Wildmane
-  when onquest 4883
-  zone map 1456
-  turnin 4883
+step Mokvar
+  only Warlock
+  when complete 8943
+  zone map 1454
+  turnin 8943
 
 step Arch Druid Hamuul Runetotem
   zone map 1456
@@ -73,8 +60,172 @@ step Keeper Remulos
   zone map 1450
   accept 8735
 
-step Keeper Remulos
+step Dendrite Starblaze
   zone map 1425
+  accept 96209
+
+step Orokai
+  getfp "Nighthaven"
+  turnin 96209
+
+step Stolen Power
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1450
+  accept 95006
+  complete 95006 @41.5,43.6
+
+step Stolen Power
+  turnin 95006
+
+step Dendrite Starblaze
+  zone map 1425
+  accept 93773
+
+step Ketharas
+  zone map 2482
+  turnin 93773
+
+step Ketharas
+  accept 92171
+
+step Skylord Omnuron
+  turnin 92171
+
+step Skylord Omnuron
+  zone map 1425
+  accept 92500
+
+step Ketharas
+  zone map 2482
+  accept 96930
+
+step The Jewel of the Horizon
+  collect 272974 quest 92500.1
+
+step Ketharas
+  zone map 1425
+  turnin 92500
+
+step Curious Crow
+  zone map 2482
+  turnin 96930
+
+step Curious Crow
+  zone map 1425
+  accept 96931
+
+step Jereman
+  turnin 96931
+
+step Jereman
+  accept 96939
+
+step Marrosis
+  turnin 96939
+
+step Marrosis
+  accept 92317
+
+step Marrosis
+  accept 96957
+
+step Sun-Bleached Bone
+  zone map 2482
+  collect 275927 x20 quest 96957.1
+
+step Marrosis
+  zone map 1425
+  turnin 96957
+
+step Jereman
+  accept 96964
+
+step Renalard
+  turnin 96964
+
+step Renalard
+  accept 92335
+
+step Azgalor's Ashes
+  zone map 2482
+  collect 253239 x1 quest 92335.1
+
+step Ketharas
+  zone map 1425
+  turnin 92335
+
+step Drop of Stolen Life
+  zone map 2482
+  collect 272973 x1 quest 92317.1
+
+step Ketharas
+  zone map 1425
+  turnin 92317
+
+step Ketharas
+  zone map 1448
+  accept 90647
+
+step Tiala Whitemane
+  turnin 90647
+
+step Tiala Whitemane
+  zone map 1425
+  accept 92169
+
+step Tiala Whitemane
+  complete 92169 @73.4,41.0 map 2482
+  turnin 92169
+
+step Tiala Whitemane
+  when group 92833
+  zone map 1425
+  accept 92833
+
+step Tiala Whitemane
+  when group 92833
+  zone map 1425
+  kill 267182 quest 92833.1
+  turnin 92833
+
+step Renalard
+  zone map 1425
+  accept 96971
+
+step Tiala Whitemane
+  accept 99670
+
+step Tiala Whitemane
+  accept 93848
+
+step Ketharas
+  turnin 93848
+
+step Abandoned Supplies
+  zone map 2482
+  collect 275958 x8 quest 96971.1
+
+step Renalard
+  zone map 1425
+  turnin 96971
+
+step Jereman
+  accept 96978
+
+step Jereman
+  turnin 99670
+
+step Kala'th
+  turnin 96978
+
+step Kala'th
+  accept 93617
+
+step Kala'th
+  kill 256809 quest 93617.1
+  turnin 93617
+
+step Keeper Remulos
   complete 8447 @40,48.6 map 1450
   turnin 8447
 
@@ -140,10 +291,6 @@ step Layo Starstrike
   turnin 1126
   accept 6844
 
-step Anachronos
-  zone map 1446
-  turnin 8741
-
 step Umber
   zone map 1450
   turnin 6844
@@ -157,18 +304,6 @@ step Umber
   turnin 1185
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step Return to Thunder Bluff
-  when onquest 2967
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 2967 optional
-
-step Guarding Secrets
-  when onquest 4883
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 4883 optional
 
 step Tyrande and Remulos
   when onquest 8734

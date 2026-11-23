@@ -7,7 +7,7 @@ zone Dustwallow Marsh
 next completionist-horde/19-arathi-highlands
 pitch On along the line: Dustwallow Marsh, quests of level 35 to 45.
 # Generated from the reference data: change the planner, not this file.
-# Routed 10 quests; estimated level at the end 37.1 (heuristic XP, class quests not counted).
+# Routed 11 quests; estimated level at the end 37.1 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N (done).
 
 step Melor Stonehoof
@@ -116,6 +116,8 @@ step Banalash
   zone map 1435
   buy 3713 x3 npc 989 -- for Soothing Spices
 
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step Waterlogged Book
   zone map 1445
   collect 215822 x1 quest 79952.1
@@ -140,8 +142,6 @@ step "Stinky" Ignatz
   zone map 1445
   accept 1270
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Loose Dirt
   accept 1239
   turnin 1206
@@ -151,38 +151,11 @@ step Nazeer Bloodpike
   turnin 1239
   accept 1240
 
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
-step Drazzit Dripvalve
-  zone map 1445
-  accept 98205
-  accept 98215
-
-step Active Ingredient
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 98231
-  complete 98231 @41.0,75.7
-
-step Searing Hatchling and Searing Whelp
-  zone map 1413
-  kill 4323 x8 quest 98205.1
-  kill 4324 x8 quest 98205.2
-
-step Firemane Ash Tail
-  collect 279934 x20 quest 98215.1
-
-step Drazzit Dripvalve
-  zone map 1445
-  turnin 98205
-  turnin 98215
-
-step Active Ingredient
-  turnin 98231
-
 step Mebok Mizzyrix
-  zone map 1413
   complete 1270 @48.9,24.6 map 1445
   turnin 1270
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Deadmire
   zone map 1445
@@ -212,6 +185,40 @@ step Owen Thadd
 step Kin'weelay
   zone map 1434
   turnin 1240
+
+step Level 39
+  zone map 1445
+  level 39
+
+step Drazzit Dripvalve
+  accept 98205
+
+step Drazzit Dripvalve
+  kill 4323 x8 quest 98205.1
+  kill 4324 x8 quest 98205.2
+  turnin 98205
+
+step Gizzix Grimegurgle
+  zone map 1413
+  accept 98231
+
+step Wyrmtail
+  zone map 1445
+  collect 280092 x10 quest 98231.1
+
+step Gizzix Grimegurgle
+  zone map 1413
+  turnin 98231
+
+step Drazzit Dripvalve
+  zone map 1445
+  accept 98215
+
+step Shed Dark Dragonscale
+  collect 279934 x20 quest 98215.1
+
+step Drazzit Dripvalve
+  turnin 98215
 
 step Jarl Needs a Blade
   when available 1203

@@ -10,7 +10,7 @@ next completionist-horde/05-zephras-isle when !turnedin 95349
 next completionist-horde/06-tirisfal-glades-and-the-undercity-2
 pitch Where Orcs and Trolls start. The other starting zones follow, then the route goes on by level.
 # Generated from the reference data: change the planner, not this file.
-# Routed 65 quests; estimated level at the end 13.0 (heuristic XP, class quests not counted).
+# Routed 65 quests; estimated level at the end 13.1 (heuristic XP, class quests not counted).
 
 step Gornek
   accept 97279
@@ -218,7 +218,7 @@ step Raider's Shield
 step Raider's Battleaxe
   collect 275716 x1 quest 96822.2
 
-step Raider's Bow
+step Benedict's Chest
   collect 275713 x1 quest 96822.1
 
 step Level 6
@@ -546,7 +546,7 @@ step Heglan Shadeeye
 step Abandoned Dagger
   collect 286012 x1 quest 99049.1
 
-step Weapon Piece
+step Strange Debris
   collect 286010 x1 quest 99049.3
 
 step Strange Debris
@@ -559,7 +559,7 @@ step Orgnil Soulscar
   turnin 99049
   accept 99051
 
-step Spitelash Scout
+step Spitelash Attendant
   collect 286008 x9 quest 99051.1
 
 step Orgnil Soulscar
@@ -610,13 +610,18 @@ step Slimeshell Makrura
   zone map 1413
   collect 4887 x4 quest 818.1
 
-step Ridgeshade Creeper and Ridgeshade Lurker
+step Ridgeshade Creeper
   zone map 1411
   kill 266850 x6 quest 96821.1
+
+step Ridgeshade Lurker
   kill 266849 x6 quest 96821.2
 
 step Bloodtalon Matriarch
   collect 277128 x1 quest 97223.1
+
+step Forgotten Loa Idol
+  collect 277135 x8 quest 97225.1
 
 step Hexed Troll and Voodoo Troll
   kill 3207 x8 quest 826.1
@@ -625,9 +630,6 @@ step Hexed Troll and Voodoo Troll
 step Imprisoned Darkspear and Zalazane
   collect 4864 x1 quest 808.1
   collect 4866 x1 quest 826.3
-
-step Forgotten Loa Idol
-  collect 277135 x8 quest 97225.1
 
 step Durotar Tiger
   zone map 1413

@@ -9,7 +9,7 @@ next completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2
 pitch On along the line: Durotar and Orgrimmar, quests of level 1 to 40.
 # Generated from the reference data: change the planner, not this file.
 # Routed 12 quests; estimated level at the end 13.2 (heuristic XP, class quests not counted).
-# Skipped: 1 exclusive with N; 1 objective N (talk N) outside the zones; 1 profession.
+# Skipped: 1 exclusive with N; 1 objective N (talk N) outside the zones.
 
 step Mosarn
   when onquest 1276
@@ -55,21 +55,23 @@ step Nogg
 step Level 40
   level 40
 
-step The Way of the Weaponsmith
-  when available 5302
-  tip One of several exclusive quests; the route takes The Art of the Armorsmith (5301). This one shows for a character the game offers it to instead.
-  when skill Blacksmithing 200
-  zone map 1454
-  accept 5302 optional
+step The Art of the Armorsmith
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 85712
+  complete 85712 @79.8,24.1
+
+step The Art of the Armorsmith
+  turnin 85712
 
 step The Way of the Weaponsmith
-  when onquest 5302
+  when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
+  accept 5302 optional
   complete 5302 @79.4,23.7 optional
 
 step The Way of the Weaponsmith
-  when onquest 5302
+  when skill Blacksmithing 1
   zone map 1454
   turnin 5302 optional
 
@@ -109,15 +111,12 @@ step On Iron Pauldrons
   zone map 1454
   turnin 2752 optional
 
-step Level 40
-  zone map 1454
-  level 40
-
 step Kildar
+  zone map 1454
   accept 97194 only Orc
 
 step Your First Riding Wolf
-  only Orc
+  only Orc,Tauren
   zone map 1454
   accept 96994
 
@@ -126,13 +125,13 @@ step Ogunaro Wolfrunner
   turnin 97194 only Orc
 
 step Your First Riding Wolf
-  only Orc
+  only Orc,Tauren
   when onquest 96994
   zone map 1454
   complete 96994 @69.7,12.4
 
 step Your First Riding Wolf
-  only Orc
+  only Orc,Tauren
   when onquest 96994
   zone map 1454
   turnin 96994
@@ -196,24 +195,6 @@ step This Is Spinal Axe
   when skill Blacksmithing 1
   zone map 1454
   turnin 96874 optional
-
-step The Art of the Armorsmith
-  when available 5301
-  tip One of several exclusive quests; the route takes The Way of the Weaponsmith (5302). This one shows for a character the game offers it to instead.
-  when skill Blacksmithing 200
-  zone map 1454
-  accept 5301 optional
-
-step The Art of the Armorsmith
-  when onquest 5301
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 5301 @79.8,24.1 optional
-
-step The Art of the Armorsmith
-  when onquest 5301
-  zone map 1454
-  turnin 5301 optional
 
 step Razor Hill
   zone map 1411

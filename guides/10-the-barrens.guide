@@ -582,11 +582,11 @@ step Vrang Wildgore
   accept 95494
   accept 95507
 
-step Savannah Patriarch
-  collect 269715 x6 quest 95494.1
-
 step Sprung Trap
   collect 269719 x8 quest 95507.1
+
+step Savannah Patriarch
+  collect 269715 x6 quest 95494.1
 
 step Vrang Wildgore
   turnin 95494

@@ -7,7 +7,7 @@ zone Stranglethorn Vale
 next completionist-horde/35-azshara
 pitch On along the line: Stranglethorn Vale, quests of level 34 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 25 quests; estimated level at the end 35.8 (heuristic XP, class quests not counted).
+# Routed 26 quests; estimated level at the end 35.9 (heuristic XP, class quests not counted).
 # Skipped: 3 profession; 2 exclusive with N.
 
 step Zilzibin Drumlore
@@ -49,14 +49,6 @@ step Alchemist Pestlezugg
   zone map 1446
   accept 4496
 
-step Troll Temper
-  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 3042 optional
-
-step Divino-matic Rod
-  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 2768 optional
-
 step Gorishi Worker
   zone map 1449
   collect 11837 x1 quest 4496.1
@@ -93,13 +85,9 @@ step "Sea Wolf" MacKinley
   complete 2767 @45.6,43.4 map 1444
   turnin 2767
 
-step Tran'rek
-  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1434
-  accept 2864 optional
-
 step Tip the Scales - Dezian Queenfish
   tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
   turnin 97067 direct optional
 
 step Tip the Scales - Brownell's Blue Striped Racer
@@ -132,17 +120,6 @@ step Fool's Stout
   collect 4016 x12 anywhere optional
   turnin 1127 direct optional
 
-step Arena Treasure Chest
-  zone map 1434
-  goto 30.5,47.9 "Arena Treasure Chest"
-  accept 7810 item 18706 -- Found in Arena Treasure Chest
-
-step Level 40
-  level 40
-
-step Whiskey Slim
-  accept 580
-
 step The Pledge of Secrecy
   when onquest 3642
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -154,13 +131,16 @@ step The Pledge of Secrecy
   zone map 1434
   turnin 3642 optional
 
-step Pupellyverbos Port
-  zone map 1425
-  collect 3900 x1 quest 580.1
-
-step Fin Fizracket
+step Arena Treasure Chest
   zone map 1434
-  accept 348
+  goto 30.5,47.9 "Arena Treasure Chest"
+  accept 7810 item 18706 -- Found in Arena Treasure Chest
+
+step Level 40
+  level 40
+
+step Whiskey Slim
+  accept 580
 
 step Show Your Work
   when available 3643
@@ -169,20 +149,6 @@ step Show Your Work
   when skill Engineering 200
   zone map 1434
   accept 3643 optional
-
-step Stranglethorn Fever
-  when onquest 348
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1434
-  collect 2799 x10 anywhere optional
-  turnin 349 direct optional
-
-step Mokk the Savage
-  zone map 1434
-  collect 2797 x1 quest 348.1
-
-step Fin Fizracket
-  turnin 348
 
 step Show Your Work
   when onquest 3643
@@ -195,16 +161,44 @@ step Show Your Work
   zone map 1434
   turnin 3643 optional
 
-step "Sea Wolf" MacKinley
+step Pupellyverbos Port
+  zone map 1425
+  collect 3900 x1 quest 580.1
+
+step Fin Fizracket
   zone map 1434
+  accept 348
+
+step Stranglethorn Fever
+  when onquest 348
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1434
+  collect 2799 x10 anywhere optional
+  turnin 349 direct optional
+
+step Mokk the Savage
+  zone map 1434
+  collect 2797 x1 quest 348.1
+
+step "Sea Wolf" MacKinley
   accept 2872
 
+step Captain Hecklebury Smotts
+  when group 8551
+  zone map 1434
+  accept 8551
+
 step Level 55
+  zone map 1434
   level 55
 
 step Pix Xizzix
   accept 83934
   turnin 83934
+
+step Rix Xizzix
+  accept 96379
+  turnin 96379
 
 step Half-Buried Bottle
   accept 594 item 4098 -- Found in Half-Buried Bottle
@@ -231,15 +225,22 @@ step The Captain's Cutlass
   zone map 1434
   accept 8553 optional
 
-step Captain Hecklebury Smotts
-  when group 8551
-  zone map 1434
-  accept 8551
-
 step The Captain's Cutlass
   when onquest 8553
   zone map 1434
   turnin 8553 optional
+
+step Level 60
+  zone map 1434
+  level 60
+
+step In Demand - Blackrock Legal Records
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 96075
+  complete 96075 @28.5,75.9
+
+step In Demand - Blackrock Legal Records
+  turnin 96075
 
 step Facing Negolash
   when available 8554
@@ -273,8 +274,9 @@ step Facing Negolash
   zone map 1434
   turnin 8554 optional
 
-step Whiskey Slim
+step Fin Fizracket
   zone map 1434
+  turnin 348
   turnin 580
 
 step Princess Poobah
@@ -436,16 +438,11 @@ step Yenniku
 
 step Nimboya
   when onquest 592
-  zone map 1434
   turnin 592
 
 step Stoley
   zone map 1446
   turnin 2872
-
-step The Prophecy of Mosh'aru
-  tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 3527 optional
 
 step Booty Bay or Bust!
   when skill Blacksmithing 1
@@ -486,8 +483,6 @@ step Galvan's Finest Pupil
   zone map 1434
   turnin 2764 optional
 
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
 step A Good Head On Your Shoulders
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -511,6 +506,8 @@ step The World At Your Feet
   when skill Blacksmithing 1
   zone map 1446
   turnin 2772 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step The Mithril Kid
   when skill Blacksmithing 1
@@ -577,9 +574,21 @@ step Gnome Engineering
   zone map 1434
   turnin 3635 optional
 
+step The Captain's Cutlass
+  when available 615
+  tip One of several exclusive quests; the route takes The Captain's Cutlass (8553). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 615 optional
+
+step The Captain's Cutlass
+  when onquest 615
+  zone map 1434
+  turnin 615 optional
+
 step Facing Negolash
   when available 618
   tip One of several exclusive quests; the route takes Facing Negolash (8554). This one shows for a character the game offers it to instead.
+  when turnedin 615
   zone map 1434
   accept 618 optional
 
@@ -604,17 +613,6 @@ step Facing Negolash
   when onquest 618
   zone map 1434
   turnin 618 optional
-
-step The Captain's Cutlass
-  when available 615
-  tip One of several exclusive quests; the route takes The Captain's Cutlass (8553). This one shows for a character the game offers it to instead.
-  zone map 1434
-  accept 615 optional
-
-step The Captain's Cutlass
-  when onquest 615
-  zone map 1434
-  turnin 615 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
