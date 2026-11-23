@@ -2,6 +2,7 @@ guide completionist-horde/03-mulgore-and-thunder-bluff
 title 03 Mulgore and Thunder Bluff (1-13) (Completionist)
 faction Horde
 levels 1-13
+category Leveling
 zone Mulgore
 next completionist-horde/01-durotar-and-orgrimmar when !turnedin 829
 next completionist-horde/04-tirisfal-glades-and-the-undercity when !turnedin 408

@@ -1,7 +1,8 @@
 guide completionist-horde/02-durotar-and-orgrimmar-2
-title 02 Durotar and Orgrimmar (9-9) (Completionist)
+title 02 Durotar and Orgrimmar, visit 2 (9) (Completionist)
 faction Horde
 levels 9-9
+category Leveling
 zone Durotar
 next completionist-horde/01-durotar-and-orgrimmar when !turnedin 829
 next completionist-horde/03-mulgore-and-thunder-bluff when !turnedin 765

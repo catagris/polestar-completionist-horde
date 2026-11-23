@@ -2,6 +2,7 @@ guide completionist-horde/04-tirisfal-glades-and-the-undercity
 title 04 Tirisfal Glades and the Undercity (1-13) (Completionist)
 faction Horde
 levels 1-13
+category Leveling
 zone Tirisfal Glades
 next completionist-horde/01-durotar-and-orgrimmar when !turnedin 829
 next completionist-horde/03-mulgore-and-thunder-bluff when !turnedin 765
