@@ -2,7 +2,7 @@
 	"id": "completionist-horde",
 	"title": "Completionist Guides (Horde)",
 	"author": "catagris",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"license": "GPL-3.0-only",
 	"website": "https://github.com/catagris/polestar-completionist-horde",
 	"source": "Datamined reference data with Polestar's drafter and a custom route planner",
