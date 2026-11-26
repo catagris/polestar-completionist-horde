@@ -1,11 +1,12 @@
-guide completionist-horde/54-winterspring
-title 54 Winterspring
+guide completionist-horde/53-winterspring
+title 53 Winterspring
 faction Horde
 levels 52-60
 category Leveling
-folder Completionist 51-59
+folder Completionist 51-57
 zone Winterspring
-next completionist-horde/55-moonglade
+next completionist-horde/dungeon-scholomance
+next completionist-horde/54-moonglade
 pitch On along the line: Winterspring, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 46 quests; estimated level at the end 54.6 (heuristic XP, class quests not counted).
@@ -41,6 +42,7 @@ step The Videre Elixir
   turnin 4041 direct optional
 
 step Gregan Brewspewer
+  tip The Evoroot grows inside a ruined building north of Gregan's camp. Climb in through the break in its wall, or use the front door: Miblon Snarltooth guards it, and the Bait that Gregan sells draws him off when you use it beside him.
   zone map 1444
   collect 11243 x1 quest 3909.1
 

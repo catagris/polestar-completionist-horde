@@ -11,6 +11,12 @@ pitch On along the line: Western Plaguelands, quests of level 52 to 60.
 # Routed 30 quests; estimated level at the end 53.2 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
 
+step Mokvar
+  only Paladin
+  when complete 97412
+  zone map 1454
+  turnin 97412
+
 step Thrall
   when onquest 4004
   zone map 1454
@@ -280,3 +286,9 @@ step A Plague Upon Thee
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1422
   turnin 5902 optional
+
+step Just Compensation
+  when onquest 97412
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 97412 optional

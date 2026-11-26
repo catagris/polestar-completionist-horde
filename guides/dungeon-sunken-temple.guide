@@ -235,6 +235,7 @@ step Destroy Morphaz
   complete 8253 @29.2,40.2 optional
 
 step Destroy Morphaz
+  tip Archmage Xylem stands on top of his tower: walk to Sanath Lim-yo at the foot of the cliff (28.1, 50.1) and get off your mount, and he teleports you up.
   only Mage
   when onquest 8253
   zone map 1447

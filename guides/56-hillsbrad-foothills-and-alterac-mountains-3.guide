@@ -1,11 +1,11 @@
-guide completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
-title 57 Hillsbrad Foothills and Alterac Mountains, visit 3
+guide completionist-horde/56-hillsbrad-foothills-and-alterac-mountains-3
+title 56 Hillsbrad Foothills and Alterac Mountains, visit 3
 faction Horde
 levels 55-60
 category Leveling
-folder Completionist 51-59
+folder Completionist 51-57
 zone Alterac Mountains
-next completionist-horde/58-tanaris-2
+next completionist-horde/57-tanaris-2
 pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 15 quests; estimated level at the end 56.1 (heuristic XP, class quests not counted).

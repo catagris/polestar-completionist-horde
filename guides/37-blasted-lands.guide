@@ -30,6 +30,7 @@ step Nara Wildmane
 
 step Andron Gant
   when onquest 3542
+  tip A Box of Empty Vials comes with this quest: keep four bag slots free and open it for the Empty Vials Labeled #1 to #4.
   zone map 1458
   turnin 3542
   accept 3564
@@ -95,6 +96,7 @@ step Jediga
   turnin 3562
 
 step the First Tide Pool
+  tip The tide pools cannot be clicked: stand in each pool and use its own labelled vial from your bags, from Southridge Beach north up the shore. No vials in your bags? Open the Box of Empty Vials; without the box, abandon the quest and take it again from Chemist Cuely.
   zone map 1447
   collect 10691 x1 quest 3568.1
 

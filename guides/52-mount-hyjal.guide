@@ -1,11 +1,11 @@
-guide completionist-horde/53-mount-hyjal
-title 53 Mount Hyjal
+guide completionist-horde/52-mount-hyjal
+title 52 Mount Hyjal
 faction Horde
 levels 56-60
 category Leveling
-folder Completionist 51-59
+folder Completionist 51-57
 zone Mount Hyjal
-next completionist-horde/54-winterspring
+next completionist-horde/53-winterspring
 pitch On along the line: Mount Hyjal, quests of level 56 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 95 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
@@ -67,6 +67,7 @@ step Fraxinus
   turnin 91770
 
 step Fraxinus
+  tip Fraxinus offers this only once Celastrus the Bitter is handed in to Thylaen.
   accept 95766
 
 step Fraxinus
@@ -624,6 +625,7 @@ step Meet the Elders
   turnin 91697
 
 step Elder Mistpaw
+  tip The Deadwood camps fill Malorne's Retreat, a sunken valley: there is no way down into it from Mourning's Rest. Go round to the valley's mouth in the south-east (36.1, 75.4) and follow it west, then north up into the camps.
   zone map 1444
   accept 93826
 

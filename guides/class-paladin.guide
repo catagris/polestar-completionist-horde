@@ -8,10 +8,11 @@ zone Durotar
 why Every Paladin class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Paladin quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 24 quests; estimated level at the end 15.9 (heuristic XP).
-# Skipped: 4 prerequisite N not in this route; 3 objective N (talk N) outside the zones; 2 objective N (item N) outside the zones; 1 exploration objective has no location in data; 1 no turn-in in data.
+# Routed 25 quests; estimated level at the end 16.3 (heuristic XP).
+# Skipped: 5 prerequisite N not in this route; 3 objective N (talk N) outside the zones; 2 objective N (item N) outside the zones; 1 exploration objective has no location in data; 1 no turn-in in data.
 
 step Breton Samuels
+  zone map 1420
   accept 91285 only Undead
 
 step Vile Fin Attacker and Vile Fin Seer
@@ -19,94 +20,76 @@ step Vile Fin Attacker and Vile Fin Seer
   kill 250282 x8 quest 91285.2 only Undead
 
 step Shari Stilwell
-  zone map 1420
   accept 91282 only Undead
 
 step Level 60
   level 60
 
-step Danitha Morr
-  accept 97176 only Paladin
-
-step Terrordale Spirit
-  zone map 1423
-  kill 14564 x25 quest 97176.1 only Paladin
-
-step Danitha Morr
-  zone map 1420
-  accept 97184 only Paladin
-
-step Doomguard Commander
-  zone map 1419
-  collect 18335 x1 quest 97184.2 only Paladin
-
-step Rich Thorium Vein
-  zone map 1422
-  collect 12800 x1 quest 97184.1 only Paladin
-
 step Breton Samuels
-  zone map 1411
   accept 97174 npc 246349 only Paladin
 
 step Danitha Morr
-  zone map 1411
   turnin 97174 only Paladin
 
 step Danitha Morr
-  zone map 1420
   accept 97175 only Paladin
 
-step Garen Largo
-  zone map 1458
-  accept 97022 npc 260093 only Undead
+step Zayus
+  zone map 1454
+  turnin 97175 only Paladin
 
-step Danitha Morr
+step Zayus
+  accept 97177 only Paladin
+
+step Breton Samuels
   zone map 1420
   accept 94427 only Undead
 
 step Tanis Alderwood
-  zone map 1458
   turnin 94427 only Undead
 
 step Tanis Alderwood
-  zone map 1420
   accept 94434 only Undead
 
 step Linen Cloth
   tip Dropped by 481 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
   collect 2589 x10 anywhere only Undead
 
-step Danitha Morr
+step Breton Samuels
   accept 91858 only Undead
 
-step Trevan Rol
-  zone map 1424
-  turnin 91858 only Undead
-  accept 91859 only Paladin
+step Danitha Morr
+  accept 97184 only Paladin
 
-step Ott
-  zone map 1416
-  accept 97180 only Paladin
+step Doomguard Commander
+  zone map 1419
+  collect 18335 x1 quest 97184.2 only Paladin
 
-step Collection of Goods
-  only Paladin
-  zone map 1416
-  accept 97179 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 97179 @58.9,88.8 optional
+step Garen Largo
+  zone map 1458
+  accept 97022 npc 260093 only Undead
 
-step Collection of Goods
-  only Paladin
-  zone map 1416
-  turnin 97179 optional
+step Rich Thorium Vein
+  zone map 1422
+  collect 12800 x1 quest 97184.1 only Paladin
+
+step Nathanos Blightcaller
+  zone map 1423
+  accept 97186 only Paladin
+
+step Buy Enriched Manna Biscuit
+  tip Sold in 3 places: the arrow leads to the nearest vendor.
+  zone map 1458
+  buy 13724 x20 nearest -- for Manna-Enriched Horse Feed
 
 step Tanis Alderwood
-  zone map 1458
   turnin 94434 only Undead
   accept 94435 only Undead
 
-step Deathguard Baldren
+step Trevan Rol
   zone map 1421
+  turnin 91858 only Undead
+  accept 91859 only Paladin
   turnin 91859 only Paladin
   accept 91860 only Paladin
 
@@ -151,8 +134,49 @@ step The Debt
   zone map 1421
   turnin 95034 optional
 
-step Breton Samuels
+step Collection of Goods
+  only Paladin
+  when turnedin 97178
+  zone map 1416
+  tip A class quest, done from the quest text: the reference data does not route it.
+  accept 97179 optional
+  complete 97179 @58.9,88.8 optional
+
+step Collection of Goods
+  only Paladin
+  when turnedin 97178
+  zone map 1416
+  turnin 97179 optional
+
+step Ott's Finest Work
+  only Paladin
+  zone map 1416
+  accept 97180 optional
+
+step Nathanos Blightcaller
+  zone map 1423
+  turnin 97186 only Paladin
+
+step Danitha Morr
   zone map 1420
+  turnin 94435 only Undead
+  turnin 97022 only Undead
+  turnin 97177 only Paladin
+  turnin 97184 only Paladin
+  accept 94436 only Undead
+  accept 94971 only Undead,Tauren
+  accept 97176 only Paladin
+  turnin 94971 only Undead,Tauren
+
+step Ott's Finest Work
+  only Paladin
+  zone map 1420
+  turnin 97180 optional
+
+step Deathguard Billmuth
+  zone map 1420
+  turnin 94436 only Undead
+  accept 94438 only Undead
   turnin 91282 only Undead
   turnin 91285 only Undead
 
@@ -163,16 +187,25 @@ step Touring the Grounds
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 91294 @21.9,45.2 optional
 
+step Terrordale Spirit
+  zone map 1423
+  kill 14564 x25 quest 97176.1 only Paladin
+
+step Deathguard Falgan
+  zone map 1420
+  turnin 94438 only Undead
+  accept 94440 only Paladin
+
+step Scarlet Zealot
+  zone map 1422
+  collect 264693 x1 quest 94440.1 only Paladin
+
 step Danitha Morr
   zone map 1420
-  turnin 94435 only Undead
-  turnin 97022 only Undead
   turnin 97176 only Paladin
-  turnin 97180 only Paladin
-  turnin 97184 only Paladin
-  accept 94436 only Undead
-  accept 94971 only Undead,Tauren
-  turnin 94971 only Undead,Tauren
+  turnin 94440 only Paladin
+  accept 94441 only Undead
+  turnin 94441 only Undead
 
 step Touring the Grounds
   only Paladin,Undead
@@ -208,52 +241,22 @@ step A Token of Good Faith
   zone map 1420
   turnin 95803 optional
 
-step Deathguard Billmuth
-  zone map 1420
-  turnin 94436 only Undead
-  accept 94438 only Undead
-
 step Making Repairs
   only Paladin,Undead
   zone map 1420
   turnin 91316 optional
 
-step Deathguard Falgan
+step Blessed Arcanite Barding
+  only Paladin
   zone map 1420
-  turnin 94438 only Undead
-  accept 94440 only Paladin
+  accept 97183 @69.9,74 map 1422 optional
 
-step Scarlet Zealot
-  zone map 1422
-  collect 264693 x1 quest 94440.1 only Paladin
-
-step Nathanos Blightcaller
-  zone map 1423
-  accept 97186 only Paladin
-
-step Buy Enriched Manna Biscuit
-  tip Sold in 3 places: the arrow leads to the nearest vendor.
-  buy 13724 x20 nearest -- for Manna-Enriched Horse Feed
-
-step Nathanos Blightcaller
-  turnin 97186 only Paladin
-
-step Deathguard Billmuth
+step Blessed Arcanite Barding
+  only Paladin
   zone map 1420
-  turnin 94440 only Paladin
-  accept 94441 only Undead
-  turnin 94441 only Undead
+  turnin 97183 optional
 
-step Zayus
-  zone map 1454
-  turnin 97175 only Paladin
-  accept 97177 only Paladin
-
-step Danitha Morr
-  zone map 1420
-  turnin 97177 only Paladin
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step An Underrated Talent
   only Paladin
@@ -315,3 +318,41 @@ step Old Fire-Eye
   when onquest 95140
   zone map 1421
   turnin 95140 optional
+
+step Components of Importance
+  only Paladin,Priest,Shaman
+  when turnedin 8961
+  zone map 1427
+  accept 8965 optional
+
+step Components of Importance
+  only Paladin,Priest,Shaman
+  when onquest 8965
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8965 @39.8,96.5 optional
+
+step Components of Importance
+  only Paladin,Priest,Shaman
+  when onquest 8965
+  zone map 1427
+  turnin 8965 optional
+
+step More Components of Importance
+  only Paladin,Shaman,Druid
+  when turnedin 8970
+  zone map 1427
+  accept 8986 optional
+
+step More Components of Importance
+  only Paladin,Shaman,Druid
+  when onquest 8986
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8986 @39.8,96.5 optional
+
+step More Components of Importance
+  only Paladin,Shaman,Druid
+  when onquest 8986
+  zone map 1427
+  turnin 8986 optional

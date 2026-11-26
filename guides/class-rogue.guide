@@ -8,7 +8,7 @@ zone Durotar
 why Every Rogue class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Rogue quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 25 quests; estimated level at the end 15.0 (heuristic XP).
+# Routed 26 quests; estimated level at the end 16.1 (heuristic XP).
 # Skipped: 8 prerequisite N not in this route; 2 exclusive with N; 2 objective N (item N) outside the zones.
 
 step Marion Call
@@ -230,8 +230,27 @@ step Forest Ooze
 step Archmage Xylem
   turnin 8235 only Rogue
 
+step Dead Drop
+  zone map 1421
+  turnin 80454 only Rogue
+
+step Veenix
+  when onquest 78261
+  zone map 1442
+  accept 78270 only Rogue
+
+step Venture Co. Operator
+  when onquest 78261
+  zone map 1442
+  collect 210187 x1 quest 78270.1 only Rogue
+
+step Veenix
+  when onquest 78261
+  zone map 1442
+  turnin 78270 only Rogue
+
 step Shenthul
-  zone map 1454
+  zone map 1442
   turnin 2378 only Rogue
   accept 2379 only Rogue
   accept 2460 only Rogue
@@ -269,10 +288,12 @@ step The Shattered Hand
   complete 1858 @42.7,53.5 optional
 
 step Shenthul
+  tip After you take the quest, Shenthul speaks three lines and salutes you. Then target him and type /salute.
   zone map 1454
   kill 3401 x1 quest 2460.1 only Rogue
 
 step Shenthul
+  tip Once both flares are fired, walk up to Taskmaster Fizzule, target him and type /salute. In any other order he attacks.
   turnin 2460 only Rogue
   accept 2458 only Rogue
 
@@ -299,6 +320,24 @@ step Shenthul
   turnin 2478 only Rogue
   accept 2479 only Rogue
 
+step Level 58
+  level 58
+
+step Mokvar
+  accept 84159 only Rogue
+
+step Silithus Venom Sample
+  zone map 1449
+  collect 22381 x15 quest 84159.1 only Rogue
+
+step Shadowcraft Bracers
+  zone map 1422
+  collect 16710 x1 quest 84159.2 only Rogue
+
+step Mokvar
+  zone map 1454
+  turnin 84159 only Rogue
+
 step Wrenix the Wretched
   zone map 1413
   turnin 2382 only Rogue
@@ -310,20 +349,7 @@ step Polly
 step Wrenix the Wretched
   turnin 2381 only Rogue
 
-step Veenix
-  when onquest 78261
-  zone map 1442
-  accept 78270 only Rogue
-
-step Venture Co. Operator
-  when onquest 78261
-  zone map 1442
-  collect 210187 x1 quest 78270.1 only Rogue
-
-step Veenix
-  when onquest 78261
-  zone map 1442
-  turnin 78270 only Rogue
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Serge Hinott
   zone map 1416
@@ -334,15 +360,6 @@ step Serge Hinott
   zone map 1424
   complete 2480 @61.6,19.2 map 1424 only Rogue
   turnin 2480 only Rogue
-
-step Dead Drop
-  zone map 1421
-  turnin 80454 only Rogue
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
-step Level 58
-  level 58
 
 step Geologist Larksbane
   when turnedin 8315

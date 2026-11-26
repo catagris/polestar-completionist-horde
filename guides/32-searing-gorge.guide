@@ -1,14 +1,15 @@
 guide completionist-horde/32-searing-gorge
 title 32 Searing Gorge
 faction Horde
-levels 45-54
+levels 45-60
 category Leveling
 folder Completionist 31-40
 zone Searing Gorge
 next completionist-horde/33-tanaris
-pitch On along the line: Searing Gorge, quests of level 45 to 54.
+pitch On along the line: Searing Gorge, quests of level 45 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 18 quests; estimated level at the end 46.2 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route.
 
 step Master of the Wild Leather
   when onquest 2860
@@ -32,6 +33,11 @@ step Neeru Fireblade
   turnin 3121
   accept 3122
   turnin 7732
+
+step March of the Silithid
+  when turnedin 7732
+  zone map 1454
+  accept 4494
 
 step Belgrom Rockmaul
   when onquest 2976
@@ -156,6 +162,24 @@ step Wanted/Missing/Lost & Found
   accept 7728
   accept 7729
 
+step Craftsman's Writ: Red Mageweave Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264111 x1 anywhere optional
+  collect 10009 x1 anywhere optional
+  turnin 94311 direct optional
+
+step Craftsman's Writ: Nightscape Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264099 x1 anywhere optional
+  collect 8192 x1 anywhere optional
+  turnin 94299 direct optional
+
+step Craftsman's Writ: Solid Sharpening Stone
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264075 x1 anywhere optional
+  collect 7964 x1 anywhere optional
+  turnin 94275 direct optional
+
 step Look at the Size of It!
   when has 18950
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
@@ -278,6 +302,30 @@ step Master Smith Burninate
   turnin 7728
   turnin 7729
 
+step Restoring Fiery Flux Supplies via Heavy Leather
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18944 x2 anywhere optional
+  collect 4234 x10 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8242 direct optional
+
+step Restoring Fiery Flux Supplies via Iron
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18944 x2 anywhere optional
+  collect 3575 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 8241 direct optional
+
+step Restoring Fiery Flux Supplies via Kingsblood
+  tip Needs Neutral standing (1) with Thorium Brotherhood; without it the quest is not offered.
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 18944 x2 anywhere optional
+  collect 3356 x4 anywhere optional
+  collect 3857 x1 anywhere optional
+  turnin 7736 direct optional
+
 step The Torch of Retribution
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 3453
@@ -342,6 +390,18 @@ step Goodsteel Ledger
 step Glassweb Spider
   collect 11725 x20 quest 4450.2
 
+step Craftsman's Writ: Fire Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264063 x1 anywhere optional
+  collect 6049 x1 anywhere optional
+  turnin 94263 direct optional
+
+step Craftsman's Writ: Fire Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264087 x1 anywhere optional
+  collect 10500 x1 anywhere optional
+  turnin 94287 direct optional
+
 step Shadoweaver
   when skill Tailoring 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -379,6 +439,18 @@ step Jarquia
 step Damaged Crate
   zone map 1445
   collect 11724 x1 quest 4450.3
+
+step Level 55
+  zone map 1427
+  level 55
+
+step Attunement to the Core
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 7487
+  complete 7487 @32.1,94.7
+
+step Attunement to the Core
+  turnin 7487
 
 step Krinkle Goodsteel
   zone map 1446

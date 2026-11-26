@@ -9,11 +9,17 @@ next completionist-horde/43-western-plaguelands
 pitch Blackrock Depths, in Searing Gorge.
 why Every Horde quest of Blackrock Depths: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Mokvar
+step Return to Mokvar
   zone map 1454
-  turnin 97412
+  turnin 8978
+
+step Mokvar
+  only Paladin
+  zone map 1454
+  accept 97412
 
 step Thrall
+  zone map 1454
   turnin 4001
 
 step Thrall
@@ -24,6 +30,11 @@ step Thrall
 
 step Thrall
   accept 4003
+
+step Inside Blackrock Depths
+  only Paladin
+  zone map 1427
+  complete 97412 @34.8,85.3
 
 step Inside Blackrock Depths, again
   zone map 1427
@@ -53,8 +64,8 @@ step Operation: Death to Angerforge
   zone map 1418
   turnin 4132 optional
 
-step Just Compensation
-  when onquest 97412
+step Return to Mokvar
+  when onquest 8978
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 97412 optional
+  turnin 8978 optional

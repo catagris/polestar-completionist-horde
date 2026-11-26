@@ -190,6 +190,7 @@ step Eleanor Shackleton
   turnin 96656 only Undead
 
 step The Great Outdoors
+  tip Sit down (/sit) by Eleanor's Basic Campfire and stay seated until the Boosted Rest buff appears.
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 96607
   complete 96607 @57.3,55.5

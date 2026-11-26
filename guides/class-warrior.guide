@@ -8,8 +8,80 @@ zone Durotar
 why Every Warrior class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Warrior quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 27 quests; estimated level at the end 17.7 (heuristic XP).
+# Routed 29 quests; estimated level at the end 18.4 (heuristic XP).
 # Skipped: 7 prerequisite N not in this route; 5 objective N (item N) outside the zones; 3 exclusive with N; 2 profession.
+
+step Speak with Dillinger
+  only Warrior,Undead,Skyborne
+  zone map 1420
+  accept 1818 optional only Undead,Skyborne
+
+step Speak with Dillinger
+  only Warrior,Undead,Skyborne
+  when onquest 1818
+  zone map 1420
+  turnin 1818 optional only Undead,Skyborne
+
+step Sorek
+  zone map 1454
+  accept 1505 npc 3354 only Orc,Tauren,Troll,Skyborne
+
+step Uzzek
+  zone map 1413
+  turnin 1505 only Orc,Tauren,Troll,Skyborne
+
+step Path of Defense
+  only Warrior
+  zone map 1413
+  accept 1498 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 1498 @61.4,21.1 optional
+
+step Path of Defense
+  only Warrior
+  zone map 1413
+  turnin 1498 optional
+
+step Thun'grim Firegaze
+  only Warrior
+  zone map 1413
+  accept 1502 optional
+
+step Level 15
+  level 15
+
+step Alonso
+  zone map 1413
+  accept 78134 only Warrior
+
+step Level 15
+  level 15
+
+step Dragonslayer's Shield
+  only Warrior
+  zone map 1440
+  accept 78133 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 78133 @42,69.2 optional
+
+step Level 15
+  level 15
+
+step Dragonslayer's Helm
+  only Warrior
+  zone map 1440
+  accept 78132 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 78132 @42,69.2 optional
+
+step Dragonslayer's Shield
+  only Warrior
+  zone map 1440
+  turnin 78133 optional
+
+step Dark Iron Entrepreneur
+  zone map 1437
+  buy 209874 x1 nearest -- for Dragonslayer's Lance
 
 step Level 58
   level 58
@@ -23,18 +95,155 @@ step Sulfuron Smuggler
   collect 226698 x1 quest 84211.1 only Warrior
   collect 226699 x1 quest 84211.2 only Warrior
 
-step Baltus Fowler
-  zone map 1458
-  accept 1718 npc 4595 only Warrior
+step More Components of Importance
+  only Warrior,Rogue
+  when turnedin 8970
+  zone map 1427
+  accept 8985 optional
 
-step Christoph Walker
-  accept 8417 npc 4593 only Warrior
+step More Components of Importance
+  only Warrior,Rogue
+  when onquest 8985
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8985 @39.8,96.5 optional
+
+step More Components of Importance
+  only Warrior,Rogue
+  when onquest 8985
+  zone map 1427
+  turnin 8985 optional
+
+step Components of Importance
+  only Warrior,Mage
+  when turnedin 8961
+  zone map 1427
+  accept 8962 optional
+
+step Components of Importance
+  only Warrior,Mage
+  when onquest 8962
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8962 @39.8,96.5 optional
+
+step Components of Importance
+  only Warrior,Mage
+  when onquest 8962
+  zone map 1427
+  turnin 8962 optional
+
+step Sorek
+  zone map 1454
+  accept 1823 npc 3354 only Warrior
+
+step Sorek
+  accept 1718 npc 3354 only Warrior
+
+step Klannoc Macleod
+  zone map 1413
+  turnin 1718 only Warrior
+
+step Klannoc Macleod
+  accept 1719 only Warrior
+
+step Big Will and Step on the grate to begin the Affray
+  kill 6238 x1 quest 1719.1 only Warrior
+
+step Klannoc Macleod
+  turnin 1719 only Warrior
+
+step Klannoc Macleod
+  accept 1791 only Warrior
+
+step Bath'rah the Windwatcher
+  zone map 1416
+  turnin 1791 only Warrior
+
+step Cyclonian
+  only Warrior
+  zone map 1416
+  accept 1712 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 1712 @80.5,66.9 optional
+
+step Essence of the Exile
+  only Warrior
+  when onquest 1712
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1416
+  collect 4480 x8 anywhere optional
+  collect 4479 x8 anywhere optional
+  collect 4481 x8 anywhere optional
+  turnin 1714 direct optional
+
+step Cyclonian
+  only Warrior
+  zone map 1416
+  turnin 1712 optional
+
+step The Summoning
+  only Warrior
+  zone map 1416
+  accept 1713 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 1713 @80.5,66.9 optional
+
+step The Summoning
+  only Warrior
+  zone map 1416
+  turnin 1713 optional
+
+step Whirlwind Weapon
+  only Warrior
+  zone map 1416
+  accept 1792 optional
+  turnin 1792 optional
+
+step Nami
+  zone map 1452
+  turnin 84211 only Warrior
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  accept 5126 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 5126 @63.8,73.8 optional
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  turnin 5126 optional
+
+step Sorek
+  zone map 1454
+  accept 8417 npc 3354 only Warrior
+
+step The Art of the Armorsmith
+  only Warrior,Paladin
+  when available 5301
+  tip One of several exclusive quests; the route takes The Way of the Weaponsmith (5302). This one shows for a character the game offers it to instead.
+  when skill Blacksmithing 200
+  zone map 1454
+  accept 5301 optional
+
+step The Art of the Armorsmith
+  only Warrior,Paladin
+  when onquest 5301
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 5301 @79.8,24.1 optional
+
+step The Art of the Armorsmith
+  only Warrior,Paladin
+  when onquest 5301
+  zone map 1454
+  turnin 5301 optional
 
 step Fallen Hero of the Horde
   zone map 1435
   turnin 8417 only Warrior
-
-step Fallen Hero of the Horde
   accept 8423 only Warrior
 
 step Helboar
@@ -44,20 +253,13 @@ step Helboar
 step Fallen Hero of the Horde
   zone map 1435
   turnin 8423 only Warrior
-
-step Fallen Hero of the Horde
   accept 8424 only Warrior
 
 step Shadowsworn Thug
   zone map 1419
   kill 6005 x20 quest 8424.3 only Warrior
 
-step Baltus Fowler
-  zone map 1458
-  accept 1823 npc 4595 only Warrior
-
 step Shadowsworn Cultist
-  zone map 1419
   kill 6004 x10 quest 8424.2 only Warrior
 
 step Shadowsworn Adept
@@ -67,34 +269,11 @@ step Fallen Hero of the Horde
   zone map 1435
   turnin 8424 only Warrior
 
-step Speak with Dillinger
-  only Warrior,Undead,Skyborne
-  zone map 1420
-  accept 1818 optional only Undead,Skyborne
-
-step Speak with Dillinger
-  only Warrior,Undead,Skyborne
-  when onquest 1818
-  zone map 1420
-  turnin 1818 optional only Undead,Skyborne
-
 step Geologist Larksbane
   when turnedin 8315
   zone map 1451
   accept 8316 only Warrior
   turnin 8316 only Warrior
-
-step Krang Stonehoof
-  zone map 1412
-  accept 1505 npc 3063 only Orc,Tauren,Troll,Skyborne
-
-step Boarton Shadetotem
-  zone map 1456
-  accept 76156 only Tauren
-
-step Blasting Supplies
-  zone map 1412
-  collect 206157 x5 quest 76156.1 only Tauren
 
 step Ruga Ragetotem
   zone map 1413
@@ -107,6 +286,14 @@ step Silithid Swarmer
 step Ruga Ragetotem
   turnin 1824 only Warrior
   accept 1825 only Warrior
+
+step Boarton Shadetotem
+  zone map 1456
+  accept 76156 only Tauren
+
+step Blasting Supplies
+  zone map 1412
+  collect 206157 x5 quest 76156.1 only Tauren
 
 step Boarton Shadetotem
   zone map 1456
@@ -142,6 +329,15 @@ step Stalk With The Earthmother
   zone map 1456
   turnin 76240 optional
 
+step Alonso
+  zone map 1440
+  turnin 78134 only Warrior
+
+step Dragonslayer's Helm
+  only Warrior
+  zone map 1440
+  turnin 78132 optional
+
 step Thun'grim Firegaze
   zone map 1413
   turnin 1825 only Warrior
@@ -151,27 +347,6 @@ step Brutal Hauberk
   when turnedin 1838
   zone map 1413
   accept 1848 optional
-
-step Uzzek
-  zone map 1413
-  turnin 1505 only Orc,Tauren,Troll,Skyborne
-
-step Path of Defense
-  only Warrior
-  zone map 1413
-  accept 1498 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1498 @61.4,21.1 optional
-
-step Path of Defense
-  only Warrior
-  zone map 1413
-  turnin 1498 optional
-
-step Thun'grim Firegaze
-  only Warrior
-  zone map 1413
-  accept 1502 optional
 
 step Thun'grim Firegaze
   only Warrior
@@ -294,10 +469,6 @@ step Forged Steel
   zone map 1411
   turnin 1503 optional
 
-step Alonso
-  zone map 1411
-  accept 78134 only Warrior
-
 step Satyr Hooves
   only Warrior
   when turnedin 1848
@@ -329,67 +500,6 @@ step Brutal Gauntlets
   zone map 1411
   turnin 1843 optional
 
-step Dragonslayer's Shield
-  only Warrior
-  zone map 1440
-  accept 78133 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 78133 @42,69.2 optional
-
-step Dragonslayer's Helm
-  only Warrior
-  zone map 1440
-  accept 78132 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 78132 @42,69.2 optional
-
-step Dragonslayer's Shield
-  only Warrior
-  zone map 1440
-  turnin 78133 optional
-
-step Dark Iron Entrepreneur
-  zone map 1437
-  buy 209874 x1 nearest -- for Dragonslayer's Lance
-
-step Alonso
-  zone map 1440
-  turnin 78134 only Warrior
-
-step Dragonslayer's Helm
-  only Warrior
-  zone map 1440
-  turnin 78132 optional
-
-step Klannoc Macleod
-  zone map 1413
-  turnin 1718 only Warrior
-  accept 1719 only Warrior
-
-step Big Will and Step on the grate to begin the Affray
-  kill 6238 x1 quest 1719.1 only Warrior
-  goto 68.6,48.7 "Step on the grate to begin the Affray" -- Explore for The Affray
-
-step Klannoc Macleod
-  turnin 1719 only Warrior
-  accept 1791 only Warrior
-
-step Nami
-  zone map 1452
-  turnin 84211 only Warrior
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  accept 5126 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 5126 @63.8,73.8 optional
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  turnin 5126 optional
-
 step Half-Buried Mech
   zone map 1446
   accept 84135 only Warrior
@@ -407,50 +517,6 @@ step Zaal Stormshield
 
 step Seena Skybreaker
   turnin 94003 only Skyborne
-
-step Bath'rah the Windwatcher
-  zone map 1416
-  turnin 1791 only Warrior
-
-step Cyclonian
-  only Warrior
-  zone map 1416
-  accept 1712 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1712 @80.5,66.9 optional
-
-step Essence of the Exile
-  only Warrior
-  when onquest 1712
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1416
-  collect 4480 x8 anywhere optional
-  collect 4479 x8 anywhere optional
-  collect 4481 x8 anywhere optional
-  turnin 1714 direct optional
-
-step Cyclonian
-  only Warrior
-  zone map 1416
-  turnin 1712 optional
-
-step The Summoning
-  only Warrior
-  zone map 1416
-  accept 1713 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1713 @80.5,66.9 optional
-
-step The Summoning
-  only Warrior
-  zone map 1416
-  turnin 1713 optional
-
-step Whirlwind Weapon
-  only Warrior
-  zone map 1416
-  accept 1792 optional
-  turnin 1792 optional
 
 step Mech Arm
   zone map 1420
@@ -505,42 +571,21 @@ step Heirloom Weapon
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
-step The Art of the Armorsmith
-  only Warrior,Paladin
-  when available 5301
-  tip One of several exclusive quests; the route takes The Way of the Weaponsmith (5302). This one shows for a character the game offers it to instead.
-  when skill Blacksmithing 200
-  zone map 1454
-  accept 5301 optional
-
-step The Art of the Armorsmith
-  only Warrior,Paladin
-  when onquest 5301
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 5301 @79.8,24.1 optional
-
-step The Art of the Armorsmith
-  only Warrior,Paladin
-  when onquest 5301
-  zone map 1454
-  turnin 5301 optional
-
 step Anthion's Parting Words
   only Warrior
   when turnedin 9015
   zone map 1423
-  accept 9022 optional
+  accept 84194 optional
 
 step Anthion's Parting Words
   only Warrior
-  when onquest 9022
+  when onquest 84194
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1423
-  complete 9022 @26.1,11.3 optional
+  complete 84194 @26.1,11.3 optional
 
 step Anthion's Parting Words
   only Warrior
-  when onquest 9022
+  when onquest 84194
   zone map 1454
-  turnin 9022 optional
+  turnin 84194 optional

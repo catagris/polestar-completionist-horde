@@ -9,9 +9,28 @@ next completionist-horde/dungeon-scholomance-2
 pitch Scholomance, in Western Plaguelands.
 why Every Horde quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Just Compensation
+step An Earnest Proposition
+  only Warrior
   zone map 1454
-  accept 84172
+  accept 84162
+
+step Saving the Best for Last
+  only Warrior
+  when turnedin 8998
+  zone map 1454
+  accept 84210 optional
+
+step Saving the Best for Last
+  only Shaman
+  when turnedin 8998
+  zone map 1454
+  accept 84208 optional
+
+step Saving the Best for Last
+  only Druid
+  when turnedin 8998
+  zone map 1454
+  accept 84203 optional
 
 step Saving the Best for Last
   only Mage
@@ -20,22 +39,10 @@ step Saving the Best for Last
   accept 9014 optional
 
 step Saving the Best for Last
-  only Warrior
-  when turnedin 8998
-  zone map 1454
-  accept 9013 optional
-
-step Saving the Best for Last
   only Warlock
   when turnedin 8998
   zone map 1454
   accept 9012 optional
-
-step Saving the Best for Last
-  only Shaman
-  when turnedin 8998
-  zone map 1454
-  accept 9011 optional
 
 step Saving the Best for Last
   only Rogue
@@ -54,12 +61,6 @@ step Saving the Best for Last
   when turnedin 8998
   zone map 1454
   accept 9008 optional
-
-step Saving the Best for Last
-  only Druid
-  when turnedin 8998
-  zone map 1454
-  accept 9007 optional
 
 step The Darkreaver Menace
   only Shaman
@@ -88,23 +89,55 @@ step Again Into the Great Ossuary
   zone map 1454
   turnin 7669 direct optional
 
-step Just Compensation
+step An Earnest Proposition
+  only Warrior
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
-  complete 84172 @34.96,38.26
+  complete 84162 @34.96,38.26
 
-step Just Compensation
-  turnin 84172
-
-step A More Fitting Reward
-  when turnedin 7668
+step An Earnest Proposition
+  only Warrior
   zone map 1454
-  accept 8259
+  turnin 84162
 
-step A More Fitting Reward
-  when onquest 8259
+step Saving the Best for Last
+  only Warrior
+  when onquest 84210
+  tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
-  turnin 8259
+  complete 84210 @35.0,38.3 optional
+
+step Saving the Best for Last
+  only Warrior
+  when onquest 84210
+  zone map 1454
+  turnin 84210 optional
+
+step Saving the Best for Last
+  only Shaman
+  when onquest 84208
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84208 @35.0,38.3 optional
+
+step Saving the Best for Last
+  only Shaman
+  when onquest 84208
+  zone map 1454
+  turnin 84208 optional
+
+step Saving the Best for Last
+  only Druid
+  when onquest 84203
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84203 @35.0,38.3 optional
+
+step Saving the Best for Last
+  only Druid
+  when onquest 84203
+  zone map 1454
+  turnin 84203 optional
 
 step Saving the Best for Last
   only Mage
@@ -120,19 +153,6 @@ step Saving the Best for Last
   turnin 9014 optional
 
 step Saving the Best for Last
-  only Warrior
-  when onquest 9013
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 9013 @35.0,38.3 optional
-
-step Saving the Best for Last
-  only Warrior
-  when onquest 9013
-  zone map 1454
-  turnin 9013 optional
-
-step Saving the Best for Last
   only Warlock
   when onquest 9012
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -144,19 +164,6 @@ step Saving the Best for Last
   when onquest 9012
   zone map 1454
   turnin 9012 optional
-
-step Saving the Best for Last
-  only Shaman
-  when onquest 9011
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 9011 @35.0,38.3 optional
-
-step Saving the Best for Last
-  only Shaman
-  when onquest 9011
-  zone map 1454
-  turnin 9011 optional
 
 step Saving the Best for Last
   only Rogue
@@ -197,34 +204,8 @@ step Saving the Best for Last
   zone map 1454
   turnin 9008 optional
 
-step Saving the Best for Last
-  only Druid
-  when onquest 9007
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 9007 @35.0,38.3 optional
-
-step Saving the Best for Last
-  only Druid
-  when onquest 9007
-  zone map 1454
-  turnin 9007 optional
-
-step Just Compensation
-  zone map 1454
-  accept 84174
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84174 @34.96,38.26
-
-step Just Compensation
-  turnin 84174
-
-step Just Compensation
-  accept 84175
-
 step Level 60
+  zone map 1454
   level 60
 
 step The Darkreaver Menace
@@ -248,30 +229,10 @@ step The Darkreaver Menace
   zone map 1454
   turnin 8258 optional
 
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 84175 @34.96,38.26
-
-step Just Compensation
-  turnin 84175
-
-step Just Compensation
-  accept 84176
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84176 @34.96,38.26
-
-step Just Compensation
-  turnin 84176
-
 step Mokvar
+  only Druid
+  zone map 1454
   accept 84155
-  accept 84177
-  accept 84203
-  accept 84208
-  accept 84210
 
 step Mokvar
   only Shaman
@@ -283,29 +244,57 @@ step Mokvar
   zone map 1454
   accept 97411
 
-step Just Compensation
+step A Supernatural Device
   zone map 1454
-  accept 84178
+  accept 8923
 
-step Just Compensation
+step An Earnest Proposition
+  only Hunter
+  zone map 1454
+  accept 84156
+
+step An Earnest Proposition
+  only Hunter
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84178 @34.96,38.26
+  zone map 1454
+  complete 84156 @34.96,38.26
 
-step Just Compensation
-  turnin 84178
+step An Earnest Proposition
+  only Hunter
+  zone map 1454
+  turnin 84156
 
-step Just Compensation
-  accept 97412
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  accept 84157
 
-step Just Compensation
+step An Earnest Proposition
+  only Mage
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 97412 @34.96,38.26
+  zone map 1454
+  complete 84157 @34.96,38.26
 
-step Just Compensation
-  turnin 97412
+step An Earnest Proposition
+  only Mage
+  zone map 1454
+  turnin 84157
 
-step In Search of Anthion
-  accept 8930
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  accept 84158
+
+step An Earnest Proposition
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84158 @34.96,38.26
+
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  turnin 84158
 
 step Getting there
   zone map 1422
@@ -430,13 +419,8 @@ step Alexi Barov
   zone map 1420
   accept 5341
 
-step Anthion Harmon
-  zone map 1423
-  accept 84189
-  accept 84191
-  accept 84193
-
 step Betina Bigglezink
+  zone map 1423
   accept 5529
 
 step Leonid Barthalomew the Revered
@@ -455,14 +439,6 @@ step Inside Scholomance
   complete 5068 @69.9,74
   complete 5167 @69.9,74
   complete 5341 @69.9,74
-  complete 84155 @69.9,74
-  complete 84177 @69.9,74
-  complete 84189 @69.9,74
-  complete 84191 @69.9,74
-  complete 84193 @69.9,74
-  complete 84203 @69.9,74
-  complete 84208 @69.9,74
-  complete 84210 @69.9,74
 
 step Inside Scholomance
   when turnedin 5383
@@ -478,6 +454,11 @@ step Inside Scholomance
   only Shaman
   zone map 1422
   complete 84160 @69.9,74
+
+step Inside Scholomance
+  only Druid
+  zone map 1422
+  complete 84155 @69.9,74
 
 step Inside Scholomance
   only Paladin
@@ -521,41 +502,20 @@ step Betina Bigglezink
   turnin 5529
   turnin 5531
 
-step Level 60
-  zone map 1420
-  level 60
-
-step Danitha Morr
-  only Paladin
-  zone map 1420
-  accept 97185
-
-step Inside Scholomance
-  only Paladin
-  zone map 1422
-  complete 97185 @69.9,74
-
-step Hand in
-  only Paladin
-  zone map 1422
-  turnin 97185 @69.9,74
-
-step Inside Scholomance
-  zone map 1422
-  accept 8829 item 21514
-  complete 8829 @69.9,74
-
-step Aurel Goldleaf
-  zone map 1451
-  turnin 8829
-
 step Malyfous Darkhammer
   zone map 1452
   turnin 5067
   turnin 5068
 
-step Pix Xizzix
+step A Supernatural Device
+  zone map 1446
+  turnin 8923
+
+step Level 60
   zone map 1434
+  level 60
+
+step Pix Xizzix
   accept 96087
 
 step Inside Scholomance
@@ -566,128 +526,63 @@ step Pix Xizzix
   zone map 1434
   turnin 96087
 
-step In Search of Anthion
-  zone map 1423
-  turnin 8930
-
-step Dead Man's Plea
-  accept 8945
-
-step Dead Man's Plea
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8945 @26.11,11.3
-
-step Dead Man's Plea
+step Inside Scholomance
   zone map 1422
-  turnin 8945 @69.9,74
+  accept 8829 item 21514
+  complete 8829 @69.9,74
 
-step Proof of Life
-  accept 8946 @69.9,74
+step Aurel Goldleaf
+  zone map 1451
+  turnin 8829
 
-step Proof of Life
-  zone map 1423
-  turnin 8946
+step The Ectoplasmic Distiller
+  zone map 1446
+  accept 8921
 
-step Anthion's Strange Request
-  accept 8947
-
-step Anthion's Strange Request
+step The Ectoplasmic Distiller
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8947 @26.11,11.3
+  complete 8921 @52.47,27.23
 
-step Anthion's Strange Request
-  turnin 8947
+step The Ectoplasmic Distiller
+  turnin 8921
 
-step Anthion's Old Friend
-  accept 8948
+step Hunting for Ectoplasm
+  accept 8924
 
-step Anthion's Old Friend
-  zone map 1422
-  turnin 8948 @69.9,74
-
-step Falrin's Vendetta
-  accept 8949 @69.9,74
-
-step Falrin's Vendetta
+step Hunting for Ectoplasm
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8949 @69.9,74
+  complete 8924 @52.47,27.23
 
-step Falrin's Vendetta
-  turnin 8949 @69.9,74
+step Hunting for Ectoplasm
+  turnin 8924
 
-step The Instigator's Enchantment
-  accept 8950 @69.9,74
+step A Portable Power Source
+  accept 8925
 
-step The Instigator's Enchantment
+step A Portable Power Source
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8950 @69.9,74
+  complete 8925 @52.47,27.23
 
-step The Instigator's Enchantment
-  turnin 8950 @69.9,74
+step A Portable Power Source
+  turnin 8925
 
-step The Challenge
-  accept 9015 @69.9,74
+step A Shifty Merchant
+  accept 8928
 
-step The Challenge
+step A Shifty Merchant
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 9015 @69.9,74
+  complete 8928 @52.47,27.23
 
-step The Challenge
-  zone map 1423
-  turnin 9015
+step A Shifty Merchant
+  turnin 8928
 
-step Anthion's Parting Words
-  only Shaman
-  zone map 1423
-  accept 8957
-
-step Anthion's Parting Words
-  only Shaman
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 8957 @26.11,11.3
-
-step Anthion's Parting Words
-  only Druid
-  zone map 1423
-  accept 9016
-
-step Anthion's Parting Words
-  only Druid
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 9016 @26.11,11.3
-
-step Anthion's Parting Words
-  only Hunter
-  zone map 1423
-  accept 9017
-
-step Anthion's Parting Words
-  only Hunter
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 9017 @26.11,11.3
+step Return to Mokvar
+  accept 8978
 
 step Eva Sarkhoff
   when turnedin 5382
   zone map 1422
   accept 5515
-
-step Anthion Harmon
-  only Mage
-  zone map 1423
-  accept 9018
-
-step Anthion Harmon
-  only Rogue
-  zone map 1423
-  accept 9020
-
-step Anthion Harmon
-  only Warlock
-  zone map 1423
-  accept 9021
 
 step Betina Bigglezink
   zone map 1423
@@ -704,21 +599,6 @@ step Inside Scholomance
   zone map 1422
   complete 5515 @69.9,74
 
-step Inside Scholomance
-  only Rogue
-  zone map 1422
-  complete 9020 @69.9,74
-
-step Inside Scholomance
-  only Warlock
-  zone map 1422
-  complete 9021 @69.9,74
-
-step Inside Scholomance
-  only Mage
-  zone map 1422
-  complete 9018 @69.9,74
-
 step Eva Sarkhoff
   when turnedin 5382
   zone map 1422
@@ -728,6 +608,45 @@ step Betina Bigglezink
   zone map 1423
   turnin 5582
   turnin 4771
+
+step Anthion's Parting Words
+  only Warlock
+  when turnedin 9015
+  zone map 1423
+  accept 84193 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when turnedin 9015
+  zone map 1423
+  accept 84191 optional
+
+step Anthion's Parting Words
+  only Mage
+  when turnedin 9015
+  zone map 1423
+  accept 84189 optional
+
+step Anthion's Parting Words
+  only Warlock
+  when onquest 84193
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84193 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Rogue
+  when onquest 84191
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84191 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Mage
+  when onquest 84189
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84189 @26.1,11.3 optional
 
 step Eva Sarkhoff
   when turnedin 5515
@@ -816,37 +735,39 @@ step Magistrate Marduke
   turnin 5466
 
 step The Left Piece of Lord Valthalak's Amulet
-  when available 8969
-  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8966). This one shows for a character the game offers it to instead.
+  only Paladin,Priest,Shaman
   when turnedin 8962
   zone map 1427
   accept 8969 optional
 
 step The Left Piece of Lord Valthalak's Amulet
+  only Paladin,Priest,Shaman
   when onquest 8969
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1427
   complete 8969 @39.8,96.5 optional
 
 step The Left Piece of Lord Valthalak's Amulet
+  only Paladin,Priest,Shaman
   when onquest 8969
   zone map 1427
   turnin 8969 optional
 
 step The Right Piece of Lord Valthalak's Amulet
-  when available 8992
-  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
+  only Hunter,Warlock
   when turnedin 8985
   zone map 1427
   accept 8992 optional
 
 step The Right Piece of Lord Valthalak's Amulet
+  only Hunter,Warlock
   when onquest 8992
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1427
   complete 8992 @39.8,96.5 optional
 
 step The Right Piece of Lord Valthalak's Amulet
+  only Hunter,Warlock
   when onquest 8992
   zone map 1427
   turnin 8992 optional

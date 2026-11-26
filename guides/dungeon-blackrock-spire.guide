@@ -9,45 +9,92 @@ next completionist-horde/dungeon-blackrock-spire-2
 pitch Blackrock Spire, in Searing Gorge.
 why Every Horde quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  accept 84155
+
+step Bodley's Unfortunate Fate
+  zone map 1454
+  accept 9032
+
+step An Earnest Proposition
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84155 @34.96,38.26
+
+step An Earnest Proposition
+  only Druid
+  zone map 1454
+  turnin 84155
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  accept 84160
+
+step An Earnest Proposition
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84160 @34.96,38.26
+
+step An Earnest Proposition
+  only Shaman
+  zone map 1454
+  turnin 84160
+
 step Mokvar
+  only Hunter
   zone map 1454
   accept 84156
-  accept 84157
+
+step Mokvar
+  only Warrior
+  zone map 1454
   accept 84162
-  accept 84172
-  accept 84174
-  accept 84203
-  accept 84208
-  accept 84210
 
-step Mokvar
-  accept 84175
+step An Earnest Proposition
+  only Paladin
+  zone map 1454
+  accept 97411
 
-step Mokvar
-  accept 84176
-
-step Just Compensation
-  accept 84177
-
-step Just Compensation
+step An Earnest Proposition
+  only Paladin
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 84177 @34.96,38.26
+  zone map 1454
+  complete 97411 @34.96,38.26
 
-step Just Compensation
-  turnin 84177
+step An Earnest Proposition
+  only Paladin
+  zone map 1454
+  turnin 97411
+
+step A Supernatural Device
+  zone map 1454
+  accept 8923
 
 step Mokvar
-  accept 84178
+  only Mage
+  zone map 1454
+  accept 84157
 
-step Just Compensation
-  accept 97412
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  accept 84158
 
-step Just Compensation
+step An Earnest Proposition
+  only Priest
   tip The reference data does not place this quest's objective: follow the quest text.
-  complete 97412 @34.96,38.26
+  zone map 1454
+  complete 84158 @34.96,38.26
 
-step Just Compensation
-  turnin 97412
+step An Earnest Proposition
+  only Priest
+  zone map 1454
+  turnin 84158
 
 step Apothecary Zinge
   zone map 1458
@@ -113,13 +160,6 @@ step Kibler
 step Lexlort
   accept 4981
 
-step Anthion Harmon
-  zone map 1423
-  accept 84187
-  accept 84188
-  accept 84190
-  accept 84192
-
 step Ragged John
   zone map 1428
   accept 4866
@@ -128,11 +168,15 @@ step Prospector Ironboot
   zone map 1446
   accept 4788
 
-step Kilram
+step Felnok Steelspring
   zone map 1452
+  accept 4907
+
+step Kilram
   accept 5306
 
 step Inside Blackrock Spire
+  tip Let Mother Smolderweb poison you in Lower Blackrock Spire, then go to Ragged John with the poison still on you: talking to him without it does nothing.
   zone map 1427
   accept 4742 @34.8,85.3
   accept 4867 @34.8,85.3
@@ -148,18 +192,16 @@ step Inside Blackrock Spire
   complete 4867 @34.8,85.3
   turnin 4867 @34.8,85.3
   complete 5306 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Hunter
+  zone map 1427
   complete 84156 @34.8,85.3
-  complete 84157 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Warrior
+  zone map 1427
   complete 84162 @34.8,85.3
-  complete 84172 @34.8,85.3
-  complete 84174 @34.8,85.3
-  complete 84187 @34.8,85.3
-  complete 84188 @34.8,85.3
-  complete 84190 @34.8,85.3
-  complete 84192 @34.8,85.3
-  complete 84203 @34.8,85.3
-  complete 84208 @34.8,85.3
-  complete 84210 @34.8,85.3
 
 step Galamav the Marksman
   zone map 1418
@@ -175,6 +217,9 @@ step Shadowmage Vivian Lagrave
 step Ragged John
   zone map 1428
   turnin 4866
+
+step Tinkee Steamboil
+  turnin 4907
 
 step Prospector Ironboot
   zone map 1446
@@ -223,18 +268,6 @@ step Wrath of the Blue Flight
 step Catalogue of the Wayward
   accept 5164
 
-step Catalogue of the Wayward
-  turnin 5164
-
-step Shadowmage Vivian Lagrave
-  zone map 1418
-  accept 4768
-
-step Catalogue of the Wayward
-  zone map 1422
-  accept 5166
-  accept 5167
-
 step Level 60
   zone map 1434
   level 60
@@ -250,18 +283,87 @@ step Pix Xizzix
   zone map 1434
   turnin 96075
 
+step Catalogue of the Wayward
+  zone map 1422
+  turnin 5164
+
+step A Supernatural Device
+  zone map 1446
+  turnin 8923
+
+step The Ectoplasmic Distiller
+  accept 8921
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8921 @52.47,27.23
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Hunting for Ectoplasm
+  accept 8924
+
+step Hunting for Ectoplasm
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8924 @52.47,27.23
+
+step Hunting for Ectoplasm
+  turnin 8924
+
+step A Portable Power Source
+  accept 8925
+
+step A Portable Power Source
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8925 @52.47,27.23
+
+step A Portable Power Source
+  turnin 8925
+
+step A Shifty Merchant
+  accept 8928
+
+step A Shifty Merchant
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8928 @52.47,27.23
+
+step A Shifty Merchant
+  turnin 8928
+
+step Return to Mokvar
+  accept 8978
+
+step Shadowmage Vivian Lagrave
+  zone map 1418
+  accept 4768
+
+step Catalogue of the Wayward
+  zone map 1422
+  accept 5166
+  accept 5167
+
+step Tinkee Steamboil
+  zone map 1428
+  accept 4734
+
 step Inside Blackrock Spire, again
   zone map 1427
   accept 4982 @34.8,85.3
   accept 4743 @34.8,85.3
   complete 4982 @34.8,85.3
   turnin 4982 @34.8,85.3
+  complete 4734 @34.8,85.3
   complete 4743 @34.8,85.3
   turnin 4743 @34.8,85.3
   complete 4768 @34.8,85.3
   complete 5166 @34.8,85.3
   complete 5167 @34.8,85.3
-  complete 84175 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Mage
+  zone map 1427
+  complete 84157 @34.8,85.3
 
 step Shadowmage Vivian Lagrave
   zone map 1418
@@ -272,80 +374,190 @@ step Jeziba
   turnin 5166
   turnin 5167
 
+step Tinkee Steamboil
+  zone map 1428
+  turnin 4734
+
+step Tinkee Steamboil
+  accept 4735
+
 step Inside Blackrock Spire, again
   zone map 1427
   accept 4983 @34.8,85.3
-  complete 84176 @34.8,85.3
+  complete 4735 @34.8,85.3
 
 step Lexlort
   zone map 1418
   turnin 4983
 
-step Inside Blackrock Spire, again
-  zone map 1427
-  complete 84178 @34.8,85.3
-
-step Bodley
-  accept 8995
-
-step The Right Piece of Lord Valthalak's Amulet
-  when available 8989
-  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8990). This one shows for a character the game offers it to instead.
-  when turnedin 8985
-  zone map 1427
-  accept 8989 optional
+step Tinkee Steamboil
+  zone map 1428
+  turnin 4735
 
 step The Left Piece of Lord Valthalak's Amulet
-  when available 8966
-  tip One of several exclusive quests; the route takes The Left Piece of Lord Valthalak's Amulet (8968). This one shows for a character the game offers it to instead.
+  only Warrior,Mage
   when turnedin 8962
   zone map 1427
   accept 8966 optional
 
-step Inside Blackrock Spire, again
-  zone map 1427
-  complete 8995 @34.8,85.3
-
-step Spirit of Lord Valthalak
-  turnin 8995 @34.8,85.3
-
-step Return to Bodley
-  when has 22056
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1427
-  turnin 8996 direct @39.8,96.5 map 1427
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8989
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8989 @39.8,96.5 optional
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8989
-  zone map 1427
-  turnin 8989 optional
-
 step The Left Piece of Lord Valthalak's Amulet
+  only Warrior,Mage
   when onquest 8966
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1427
   complete 8966 @39.8,96.5 optional
 
 step The Left Piece of Lord Valthalak's Amulet
+  only Warrior,Mage
   when onquest 8966
   zone map 1427
   turnin 8966 optional
+
+step I See Alcaz Island In Your Future...
+  zone map 1427
+  accept 8970
+
+step Bodley's Unfortunate Fate
+  when onquest 9032
+  zone map 1427
+  turnin 9032
+
+step The Right Piece of Lord Valthalak's Amulet
+  only Paladin,Shaman,Druid
+  when turnedin 8985
+  zone map 1427
+  accept 8989 optional
+
+step Final Preparations
+  zone map 1427
+  accept 8994
+
+step The Right Piece of Lord Valthalak's Amulet
+  only Paladin,Shaman,Druid
+  when onquest 8989
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8989 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  only Paladin,Shaman,Druid
+  when onquest 8989
+  zone map 1427
+  turnin 8989 optional
+
+step Final Preparations
+  when onquest 8994
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8994 @39.8,96.5
+
+step Final Preparations
+  when onquest 8994
+  zone map 1427
+  turnin 8994
+
+step Mea Culpa, Lord Valthalak
+  when turnedin 8994
+  zone map 1427
+  accept 8995
+
+step Mea Culpa, Lord Valthalak
+  when onquest 8995
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8995 @39.8,96.5
+
+step Mea Culpa, Lord Valthalak
+  when onquest 8995
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1427
+  turnin 8995 @34.8,85.3
+
+step Return to Bodley
+  when has 22056
+  when turnedin 8995
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1427
+  turnin 8996 direct @39.8,96.5 map 1427
 
 step Back to the Beginning
   when turnedin 8996
   zone map 1427
   accept 8998
 
+step I See Alcaz Island In Your Future...
+  when onquest 8970
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8970 @39.8,96.5
+
+step I See Alcaz Island In Your Future...
+  when onquest 8970
+  zone map 1427
+  turnin 8970
+
+step Anthion's Parting Words
+  only Druid
+  when turnedin 9015
+  zone map 1423
+  accept 84187 optional
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 84187
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84187 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when turnedin 9015
+  zone map 1423
+  accept 84188 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 84188
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84188 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Priest
+  when turnedin 9015
+  zone map 1423
+  accept 84190 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 84190
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84190 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Shaman
+  when turnedin 9015
+  zone map 1423
+  accept 84192 optional
+
+step Anthion's Parting Words
+  only Shaman
+  when onquest 84192
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84192 @26.1,11.3 optional
+
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Vivian Lagrave and the Darkstone Tablet
-  when onquest 4769
+step Snakestone of the Shadow Huntress
+  when onquest 5306
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1418
-  turnin 4769 optional
+  zone map 1452
+  turnin 5306 optional
+
+step Bodley's Unfortunate Fate
+  when onquest 9032
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1427
+  turnin 9032 optional

@@ -107,6 +107,28 @@ step Stoma the Ancient
 step Level 60
   level 60
 
+step Victory for the Horde
+  when turnedin 6602
+  when has 18422
+  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
+  zone map 1454
+  accept 7490 item 18422
+
+step Victory for the Horde
+  when onquest 7490
+  zone map 1454
+  turnin 7490
+
+step For All To See
+  when turnedin 7490
+  zone map 1454
+  accept 7491
+
+step For All To See
+  when onquest 7491
+  zone map 1454
+  turnin 7491
+
 step The Journey Has Just Begun
   when turnedin 7491
   when skill Leatherworking 300
@@ -123,27 +145,5 @@ step The Journey Has Just Begun
 step Level 60
   level 60
 
-step Victory for the Horde
-  when turnedin 6602
-  when has 18422
-  tip Started by an item you may have found on the way; the reference data does not say where it comes from.
-  zone map 1454
-  accept 7490 item 18422
-
-step Victory for the Horde
-  when onquest 7490
-  zone map 1454
-  turnin 7490
-
 step Level 60
   level 60
-
-step For All To See
-  when turnedin 7490
-  zone map 1454
-  accept 7491
-
-step For All To See
-  when onquest 7491
-  zone map 1454
-  turnin 7491

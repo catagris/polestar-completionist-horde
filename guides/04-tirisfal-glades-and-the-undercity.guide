@@ -73,6 +73,7 @@ step Bleeding Horror and Wandering Spirit
   kill 1532 x8 quest 356.2
 
 step Dark Cleric Beryl
+  tip The wounded guard counts only Lesser Heal (Rank 2). The quest giver is a priest trainer: learn it now if you have not yet.
   only Priest
   zone map 1422
   turnin 5651 only Undead
@@ -232,6 +233,7 @@ step Glix Xizzix
   turnin 98545 only Orc,Undead
 
 step WRIGGLE.
+  tip With the Nutritious Slime Sludge in your bags, target an Excitable Slime in the canals and type /dance until it dances back, then give it the sludge. If it seems tired, dance with it again.
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 278265 x1 anywhere optional
   turnin 97583 direct optional

@@ -149,6 +149,17 @@ step Get the Goblins Drunk
   zone map 1441
   turnin 1121 optional
 
+step Get the Gnomes Drunk
+  when available 1120
+  tip One of several exclusive quests; the route takes Get the Goblins Drunk (1121). This one shows for a character the game offers it to instead.
+  zone map 1441
+  accept 1120 optional
+
+step Get the Gnomes Drunk
+  when onquest 1120
+  zone map 1441
+  turnin 1120 optional
+
 step Gnome Pit Boss
   zone Thousand Needles
   accept 1122
@@ -177,14 +188,3 @@ step Your First Riding Kodo
   when onquest 96982
   zone map 1412
   turnin 96982 optional
-
-step Get the Gnomes Drunk
-  when available 1120
-  tip One of several exclusive quests; the route takes Get the Goblins Drunk (1121). This one shows for a character the game offers it to instead.
-  zone map 1441
-  accept 1120 optional
-
-step Get the Gnomes Drunk
-  when onquest 1120
-  zone map 1441
-  turnin 1120 optional

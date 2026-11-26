@@ -8,7 +8,7 @@ zone Durotar
 why Every Warlock class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Warlock quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 32 quests; estimated level at the end 22.8 (heuristic XP).
+# Routed 33 quests; estimated level at the end 23.1 (heuristic XP).
 # Skipped: 23 exclusive with N; 5 objective N (item N) outside the zones; 4 prerequisite N not in this route; 3 objective N (talk N) outside the zones; 1 objective N (kill N) outside the zones.
 
 step Level 40
@@ -205,9 +205,6 @@ step Kurgul
   accept 7562 npc 5815 only Warlock
 
 step Gan'rul Bloodeye
-  accept 1507 only Orc,Troll
-
-step Gan'rul Bloodeye
   accept 2996 only Orc,Troll
 
 step Zevrost
@@ -217,6 +214,10 @@ step Zevrost
 step Felcular
   zone map 1419
   collect 14256 x1 quest 8419.1 only Warlock
+
+step Zevrost
+  zone map 1454
+  accept 4967 only Orc,Troll
 
 step Daio the Decrepit
   zone map 1411
@@ -228,27 +229,13 @@ step Hederine Manastalker
 
 step Zevrost
   zone map 1454
-  accept 4967 only Orc,Troll
+  accept 4737 only Orc,Troll
 
 step Mokvar
   accept 84161 only Warlock
 
-step Stonelash Scorpid
-  zone map 1449
-  collect 22381 x15 quest 84161.1 only Warlock
-
-step Scarshield Quartermaster
-  zone map 1427
-  collect 16703 x1 quest 84161.2 only Warlock
-
-step Zevrost
-  zone map 1454
-  accept 4737 only Orc,Troll
-
-step Zevrost
-  accept 3631 only Orc,Troll
-
-step Cazul
+step Gan'rul Bloodeye
+  accept 1507 only Orc,Troll
   turnin 1507 only Orc,Troll
 
 step Love Hurts
@@ -335,6 +322,84 @@ step Love's Gift
   zone map 1413
   accept 1512 optional only Orc,Troll
 
+step Stonelash Scorpid
+  zone map 1449
+  collect 22381 x15 quest 84161.1 only Warlock
+
+step Scarshield Quartermaster
+  zone map 1427
+  collect 16703 x1 quest 84161.2 only Warlock
+
+step Components of Importance
+  only Warlock,Druid
+  when turnedin 8961
+  zone map 1427
+  accept 8963 optional
+
+step Components of Importance
+  only Warlock,Druid
+  when onquest 8963
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8963 @39.8,96.5 optional
+
+step Components of Importance
+  only Warlock,Druid
+  when onquest 8963
+  zone map 1427
+  turnin 8963 optional
+
+step Zevrost
+  zone map 1454
+  accept 3631 only Orc,Troll
+
+step The Binding
+  only Warlock,Orc,Troll
+  zone map 1454
+  turnin 65604 optional only Orc,Troll
+
+step Love's Gift
+  only Warlock,Orc,Troll
+  zone map 1454
+  turnin 1512 optional only Orc,Troll
+
+step The Binding
+  only Warlock,Orc,Troll
+  tip A class quest, done from the quest text: the reference data does not route it.
+  zone map 1454
+  accept 1513 optional only Orc,Troll
+  complete 1513 @48.2,45.3 optional only Orc,Troll
+
+step Mokvar
+  zone map 1454
+  turnin 84161 only Warlock
+
+step Ophek
+  zone map 1411
+  accept 1506 only Orc,Troll
+
+step Gan'rul Bloodeye
+  zone map 1454
+  turnin 1506 only Orc,Troll
+  accept 1501 only Orc,Troll
+
+step The Binding
+  only Warlock,Orc,Troll
+  zone map 1454
+  turnin 1513 optional only Orc,Troll
+
+step Burning Blade Stash
+  zone map 1411
+  collect 6535 x1 quest 1501.1 only Orc,Troll
+
+step Gan'rul Bloodeye
+  zone map 1454
+  turnin 1501 only Orc,Troll
+  accept 1504 only Orc,Undead,Troll
+
+step Summoned Voidwalker
+  kill 5676 x1 quest 1504.1 only Orc,Undead,Troll
+
 step Mor'zul Bloodbringer
   zone map 1428
   turnin 7562 only Warlock
@@ -403,123 +468,6 @@ step Kroshius
 
 step Niby the Almighty
   turnin 7603 only Warlock
-
-step Mokvar
-  zone map 1454
-  turnin 84161 only Warlock
-
-step Ophek
-  zone map 1411
-  accept 1506 only Orc,Troll
-
-step Gan'rul Bloodeye
-  zone map 1454
-  turnin 1506 only Orc,Troll
-  accept 1501 only Orc,Troll
-
-step The Binding
-  only Warlock,Orc,Troll
-  zone map 1454
-  turnin 65604 optional only Orc,Troll
-
-step Love's Gift
-  only Warlock,Orc,Troll
-  zone map 1454
-  turnin 1512 optional only Orc,Troll
-
-step The Binding
-  only Warlock,Orc,Troll
-  tip A class quest, done from the quest text: the reference data does not route it.
-  zone map 1454
-  accept 1513 optional only Orc,Troll
-  complete 1513 @48.2,45.3 optional only Orc,Troll
-
-step Burning Blade Stash
-  zone map 1411
-  collect 6535 x1 quest 1501.1 only Orc,Troll
-
-step Gan'rul Bloodeye
-  zone map 1454
-  turnin 1501 only Orc,Troll
-  accept 1504 only Orc,Undead,Troll
-
-step The Binding
-  only Warlock,Orc,Troll
-  zone map 1454
-  turnin 1513 optional only Orc,Troll
-
-step Summoned Voidwalker
-  zone map 1454
-  kill 5676 x1 quest 1504.1 only Orc,Undead,Troll
-
-step Mor'zul Bloodbringer
-  zone map 1428
-  turnin 7563 only Warlock
-  accept 7564 only Warlock
-  turnin 7564 only Warlock
-  accept 7623 only Warlock
-  accept 7628 only Warlock
-
-step Wheel of the Black March
-  only Warlock
-  zone map 1428
-  accept 7627 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 7627 @12.7,31.6 optional
-
-step Bell of Dethmoora
-  only Warlock
-  zone map 1428
-  accept 7626 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 7626 @12.7,31.6 optional
-
-step Wheel of the Black March
-  only Warlock
-  zone map 1428
-  turnin 7627 optional
-
-step Flamescale Wyrmkin
-  zone map 1428
-  collect 15416 x35 quest 7628.1 only Warlock
-
-step Gorzeeki Wildeyes
-  turnin 7628 only Warlock
-
-step Bell of Dethmoora
-  only Warlock
-  zone map 1428
-  turnin 7626 optional
-
-step Arcanite
-  only Warlock
-  zone map 1428
-  accept 7630 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 7630 @12.4,31.6 optional
-
-step Daio the Decrepit
-  zone map 1419
-  turnin 7582 only Warlock
-
-step Suppression
-  only Warlock
-  when turnedin 7581
-  zone map 1419
-  accept 7583 optional
-
-step Suppression
-  only Warlock
-  when onquest 7583
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1419
-  complete 7583 @34.1,50.1 optional
-
-step Suppression
-  only Warlock
-  when onquest 7583
-  zone map 1419
-  turnin 7583 optional
 
 step Gan'rul Bloodeye
   zone map 1454
@@ -666,6 +614,88 @@ step Components for the Enchanted Gold Bloodrobe
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 4784 @62.5,35.5 optional
 
+step Mor'zul Bloodbringer
+  zone map 1428
+  turnin 7563 only Warlock
+  accept 7564 only Warlock
+  turnin 7564 only Warlock
+  accept 7623 only Warlock
+  accept 7628 only Warlock
+
+step Wheel of the Black March
+  only Warlock
+  zone map 1428
+  accept 7627 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 7627 @12.7,31.6 optional
+
+step Bell of Dethmoora
+  only Warlock
+  zone map 1428
+  accept 7626 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 7626 @12.7,31.6 optional
+
+step Wheel of the Black March
+  only Warlock
+  zone map 1428
+  turnin 7627 optional
+
+step Flamescale Wyrmkin
+  zone map 1428
+  collect 15416 x35 quest 7628.1 only Warlock
+
+step Gorzeeki Wildeyes
+  turnin 7628 only Warlock
+
+step Bell of Dethmoora
+  only Warlock
+  zone map 1428
+  turnin 7626 optional
+
+step Arcanite
+  only Warlock
+  zone map 1428
+  accept 7630 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 7630 @12.4,31.6 optional
+
+step Daio the Decrepit
+  zone map 1419
+  turnin 7582 only Warlock
+
+step Suppression
+  only Warlock
+  when turnedin 7581
+  zone map 1419
+  accept 7583 optional
+
+step Suppression
+  only Warlock
+  when onquest 7583
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1419
+  complete 7583 @34.1,50.1 optional
+
+step Suppression
+  only Warlock
+  when onquest 7583
+  zone map 1419
+  turnin 7583 optional
+
+step Jorah Annison
+  zone map 1458
+  turnin 1801 only Warlock
+  accept 1803 only Warlock
+
+step Tome of the Cabal
+  zone map 1424
+  collect 6931 x1 quest 1803.1 only Warlock
+
+step Damaged Chest
+  zone map 1413
+  collect 6997 x1 quest 1803.2 only Warlock
+
 step Lord Banehollow
   zone map 1439
   turnin 7623 only Warlock
@@ -692,19 +722,6 @@ step Arcanite
   only Warlock
   zone map 1428
   turnin 7630 optional
-
-step Jorah Annison
-  zone map 1458
-  turnin 1801 only Warlock
-  accept 1803 only Warlock
-
-step Tome of the Cabal
-  zone map 1424
-  collect 6931 x1 quest 1803.1 only Warlock
-
-step Damaged Chest
-  zone map 1413
-  collect 6997 x1 quest 1803.2 only Warlock
 
 step Jorah Annison
   zone map 1458

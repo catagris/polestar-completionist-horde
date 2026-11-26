@@ -20,9 +20,6 @@ step Level 50
   zone map 1454
   level 50
 
-step Zilzibin Drumlore
-  accept 4494
-
 step Booty Bay or Bust!
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -248,6 +245,17 @@ step The Captain's Cutlass
   when onquest 8553
   zone map 1434
   turnin 8553 optional
+
+step The Captain's Cutlass
+  when available 615
+  tip One of several exclusive quests; the route takes The Captain's Cutlass (8553). This one shows for a character the game offers it to instead.
+  zone map 1434
+  accept 615 optional
+
+step The Captain's Cutlass
+  when onquest 615
+  zone map 1434
+  turnin 615 optional
 
 step Facing Negolash
   when available 8554
@@ -523,14 +531,14 @@ step The World At Your Feet
   zone map 1446
   turnin 2772 optional
 
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
 step The Mithril Kid
   when skill Blacksmithing 1
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1446
   accept 2773 optional
   complete 2773 @51.4,28.8 optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step The Mithril Kid
   when skill Blacksmithing 1
@@ -590,17 +598,6 @@ step Gnome Engineering
   zone map 1434
   turnin 3635 optional
 
-step The Captain's Cutlass
-  when available 615
-  tip One of several exclusive quests; the route takes The Captain's Cutlass (8553). This one shows for a character the game offers it to instead.
-  zone map 1434
-  accept 615 optional
-
-step The Captain's Cutlass
-  when onquest 615
-  zone map 1434
-  turnin 615 optional
-
 step Facing Negolash
   when available 618
   tip One of several exclusive quests; the route takes Facing Negolash (8554). This one shows for a character the game offers it to instead.
@@ -655,3 +652,9 @@ step Un'Goro Soil
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1456
   turnin 3761 optional
+
+step March of the Silithid
+  when onquest 4494
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1446
+  turnin 4494 optional

@@ -33,6 +33,9 @@ step Riverglades
   task "Magic Over Might, level 40" optional -- quest 96028
   task "Might Over Magic, level 41" optional -- quest 96027
 
+step Tirisfal Glades
+  task "Justice and Retribution, level 60" optional only Paladin -- quest 97185
+
 step Western Plaguelands
   task "Rapid Escape" optional -- quest 8152
 

@@ -1,14 +1,20 @@
-guide completionist-horde/55-moonglade
-title 55 Moonglade
+guide completionist-horde/54-moonglade
+title 54 Moonglade
 faction Horde
 levels 55-60
 category Leveling
-folder Completionist 51-59
+folder Completionist 51-57
 zone Moonglade
-next completionist-horde/56-durotar-and-orgrimmar-4
+next completionist-horde/55-durotar-and-orgrimmar-4
 pitch On along the line: Moonglade, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 15 quests; estimated level at the end 55.6 (heuristic XP, class quests not counted).
+
+step Mokvar
+  only Warlock
+  when complete 84177
+  zone map 1454
+  turnin 84177
 
 step Arch Druid Hamuul Runetotem
   zone map 1456

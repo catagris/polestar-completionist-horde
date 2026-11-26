@@ -9,7 +9,7 @@ why Every Priest class quest from level 10 on, in level order. The earlier ones 
 reward text What the Priest quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 14.3 (heuristic XP).
-# Skipped: 12 exclusive with N; 1 objective N (kill N) outside the zones.
+# Skipped: 12 exclusive with N; 1 exclusive with N (done); 1 objective N (kill N) outside the zones.
 
 step Ur'kyo
   zone map 1454
@@ -285,3 +285,22 @@ step Atiesh, Greatstaff of the Guardian
   when onquest 9257
   zone map 1446
   turnin 9257 optional
+
+step More Components of Importance
+  only Priest,Mage
+  when turnedin 8970
+  zone map 1427
+  accept 8987 optional
+
+step More Components of Importance
+  only Priest,Mage
+  when onquest 8987
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8987 @39.8,96.5 optional
+
+step More Components of Importance
+  only Priest,Mage
+  when onquest 8987
+  zone map 1427
+  turnin 8987 optional

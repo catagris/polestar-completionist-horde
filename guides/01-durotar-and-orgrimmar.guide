@@ -349,6 +349,7 @@ step Ukor's Lost Pack
   turnin 96876
 
 step The Great Outdoors
+  tip Sit down (/sit) by Brakk's Basic Campfire and stay seated until the Boosted Rest buff appears.
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1411
   accept 96604 only Orc,Troll
@@ -472,6 +473,7 @@ step Furl Scornbrow
   turnin 791
 
 step Tai'jin
+  tip The wounded guard counts only Lesser Heal (Rank 2). The quest giver is a priest trainer: learn it now if you have not yet.
   only Priest
   zone map 1411
   turnin 5649 only Troll

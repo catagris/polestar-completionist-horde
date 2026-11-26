@@ -9,13 +9,62 @@ next completionist-horde/dungeon-stratholme
 next completionist-horde/47-tirisfal-glades-and-the-undercity-4
 pitch On along the line: Eastern Plaguelands, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 27 quests; estimated level at the end 55.9 (heuristic XP, class quests not counted).
+# Routed 28 quests; estimated level at the end 56.0 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route; 1 exclusive with N (done).
 
 step Nazgrel
   when complete 96376
   zone map 1454
   turnin 96376
+
+step Level 58
+  zone map 1454
+  level 58
+
+step Mokvar
+  accept 8930 npc 16012
+
+step An Earnest Proposition
+  only Priest
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84158 optional
+
+step An Earnest Proposition
+  only Mage
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84157 optional
+
+step An Earnest Proposition
+  only Hunter
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84156 optional
+
+step An Earnest Proposition
+  only Paladin
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 97411 optional
+
+step An Earnest Proposition
+  only Shaman
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84160 optional
+
+step An Earnest Proposition
+  only Druid
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84155 optional
+
+step An Earnest Proposition
+  only Warrior
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84162 optional
 
 step Lady Sylvanas Windrunner
   zone map 1458
@@ -474,6 +523,7 @@ step Argent Dawn Commission
   turnin 5503 optional
 
 step Caretaker Alen
+  tip Careful: a Nerubian Overseer (level 60, elite) walks Terrordale and the Terrorweb Tunnel south-west of it. Look for him before you ride in, and wait for him to pass.
   zone map 1423
   accept 5281
   accept 6021
@@ -636,6 +686,13 @@ step Chromie
   zone map 1423
   accept 5721
 
+step Anthion Harmon
+  turnin 8930
+
+step Dead Man's Plea
+  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 8945 optional
+
 step Joseph Redpath
   kill 10936 x1 quest 5721.1
 
@@ -717,6 +774,12 @@ step Scourge Structure
 step Smokey LaRue
   turnin 6041
 
+step Craftsman's Writ: Gift of Arthas
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264120 x1 anywhere optional
+  collect 9088 x1 anywhere optional
+  turnin 94320 direct optional
+
 step The Keeper's Call
   when has 22723
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
@@ -766,49 +829,6 @@ step Envelope from the Front
   tip A Bloodstained Envelope drops from Skeletal Shocktrooper, Ghoul Berserker, Spectral Soldier; no arrow leads there.
   zone map 1423
   accept 9301 item 22970
-
-step Level 58
-  zone map 1423
-  level 58
-
-step Anthion's Parting Words
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84194
-  complete 84194 @26.1,11.3
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84193 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84192 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84191 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84190 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84189 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84188 optional
-
-step Anthion's Parting Words
-  tip For Stratholme: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 84187 optional
-
-step Craftsman's Writ: Gift of Arthas
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 264120 x1 anywhere optional
-  collect 9088 x1 anywhere optional
-  turnin 94320 direct optional
 
 step Envelope from the Front
   when onquest 9301

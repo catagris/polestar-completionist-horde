@@ -1,38 +1,28 @@
-guide completionist-horde/50-odd-jobs-in-the-eastern-kingdoms-4
-title 50 Odd jobs in the Eastern Kingdoms, visit 4
+guide completionist-horde/49-odd-jobs-in-the-eastern-kingdoms-4
+title 49 Odd jobs in the Eastern Kingdoms, visit 4
 faction Horde
 levels 58-60
 category Leveling
 folder Completionist 41-50
 zone Arathi Highlands
-next completionist-horde/51-silithus
+next completionist-horde/50-silithus
 pitch On along the line: errands across the Eastern Kingdoms, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 12 quests; estimated level at the end 58.2 (heuristic XP, class quests not counted).
 
-step Mokvar
-  only Shaman
-  when complete 8957
-  zone map 1454
-  turnin 8957
+step Nara Wildmane
+  when onquest 2967
+  zone map 1456
+  turnin 2967
 
-step Mokvar
-  only Priest
-  when complete 9019
-  zone map 1454
-  turnin 9019
+step Nara Wildmane
+  zone map 1456
+  accept 2968
 
-step Mokvar
-  only Druid
-  when complete 9016
-  zone map 1454
-  turnin 9016
-
-step Mokvar
-  only Hunter
-  when complete 9017
-  zone map 1454
-  turnin 9017
+step Sage Truthseeker
+  when onquest 2968
+  zone map 1456
+  turnin 2968
 
 step Oran Snakewrithe
   zone map 1458
@@ -92,8 +82,6 @@ step Night Watch Guard
   accept 98372
   turnin 98372
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Oran Snakewrithe
   zone map 1458
   turnin 84396
@@ -102,6 +90,8 @@ step Oran Snakewrithe
   turnin 84399
   turnin 84400
   turnin 84401
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Level 60
   zone map 2521
@@ -128,3 +118,11 @@ step Cut Arathor Supply Lines
 
 step Cut Arathor Supply Lines
   turnin 8299
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Return to Thunder Bluff
+  when onquest 2967
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 2967 optional

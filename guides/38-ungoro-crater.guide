@@ -8,7 +8,7 @@ zone Un'Goro Crater
 next completionist-horde/39-felwood
 pitch On along the line: Un'Goro Crater, quests of level 50 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 25 quests; estimated level at the end 51.4 (heuristic XP, class quests not counted).
+# Routed 24 quests; estimated level at the end 51.2 (heuristic XP, class quests not counted).
 # Skipped: 1 prerequisite N not in this route.
 
 step Belgrom Rockmaul
@@ -29,17 +29,13 @@ step Zevrost
   accept 91548
 
 step Jes'rimon
+  tip Jes'rimon stands at the top of a tower in the Drag, not in the Cleft of Shadow.
   zone map 1454
   accept 4300
 
 step Shadowshard Fragments
   tip For Maraudon: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 7068 optional
-
-step Mokvar
-  when group 84159
-  zone map 1454
-  accept 84159
 
 step Chemist Cuely
   when onquest 3568
@@ -163,10 +159,16 @@ step Red Power Crystal, Yellow Power Crystal, Green Power Crystal and Blue Power
   collect 11184 x7 quest 4284.4
 
 step Level 55
-  zone map 1449
   level 55
 
+step Craftsman's Writ: Heavy Mithril Axe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264079 x1 anywhere optional
+  collect 7941 x1 anywhere optional
+  turnin 94279 direct optional
+
 step Hol'anyee Marshal
+  zone map 1449
   accept 92020
 
 step A-Me 01
@@ -262,32 +264,9 @@ step Vek'zol
   zone map 1419
   collect 246780 x1 quest 91548.1
 
-step Level 58
-  zone map 1449
-  level 58
-
-step Mor'vek
-  accept 94399
-
-step Fledgling Pterrordax
-  zone map 1446
-  collect 264361 x1 quest 94399.2
-
-step Craftsman's Writ: Heavy Mithril Axe
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 264079 x1 anywhere optional
-  collect 7941 x1 anywhere optional
-  turnin 94279 direct optional
-
-step Young Diemetradon
-  zone map 1449
-  collect 264360 x5 quest 94399.1
-
-step Mor'vek
-  turnin 94399
-
 step Williden's Journal
   tip A Mangled Journal drops from Ravasaur Runner, Ravasaur, Thunderstomp Stegodon: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1449
   collect 11116 x1 optional
   accept 3884 item 11116 optional
 
@@ -339,17 +318,21 @@ step Williden's Journal
   zone map 1449
   turnin 3884
 
-step Stonelash Scorpid
-  when group 84159
-  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+step Level 58
   zone map 1449
-  collect 22381 x15 quest 84159.1
+  level 58
 
-step Dark Shade
-  when group 84159
-  tip An Earnest Proposition is group work: elites. Grouping up is advised.
-  zone map 1422
-  collect 16710 x1 quest 84159.2
+step Mor'vek
+  accept 94399
+
+step Diemetradon Meat
+  collect 264360 x5 quest 94399.1
+
+step Pterrordax Meat
+  collect 264361 quest 94399.2
+
+step Mor'vek
+  turnin 94399
 
 step Tiala Whitemane
   zone map 2482

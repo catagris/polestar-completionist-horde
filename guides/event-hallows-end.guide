@@ -13,18 +13,21 @@ step About this guide
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Chicken Clucking for a Mint
+  tip Target Innkeeper Norman and type /chicken.
   when onquest 8312
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1458
   turnin 8354 direct optional
 
 step Incoming Gumdrop
+  tip Target Kali Remik and type /train.
   when onquest 8312
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1411
   turnin 8358 direct optional
 
 step Flexing for Nougat
+  tip Target Innkeeper Gryshka and type /flex.
   when onquest 8312
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1454
@@ -52,6 +55,10 @@ step Hallow's End Treats for Spoops!
   accept 8312 optional
 
 step Hallow's End Treats for Spoops!
+  tip Thunder Bluff Marzipan: take Dancing for Marzipan from Innkeeper Pala in Thunder Bluff, target her and type /dance.
+  tip Undercity Mint: take Chicken Clucking for a Mint from Innkeeper Norman in the Undercity, target him and type /chicken.
+  tip Orgrimmar Nougat: take Flexing for Nougat from Innkeeper Gryshka in Orgrimmar, target her and type /flex.
+  tip Darkspear Gumdrop: take Incoming Gumdrop from Kali Remik in Sen'jin Village, target Kali Remik and type /train.
   when onquest 8312
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
@@ -75,6 +82,7 @@ step Rotten Eggs
   turnin 8322 optional
 
 step Dancing for Marzipan
+  tip Target Innkeeper Pala and type /dance.
   when onquest 8312
   tip A repeatable quest: hand it in once, with what it asks for.
   zone map 1456

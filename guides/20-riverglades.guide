@@ -157,10 +157,10 @@ step Fuzzle
   turnin 94961
 
 step Biting the Hand
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The place is where players were recorded finishing it.
   zone map 2548
   accept 94963
-  complete 94963 @45.6,47.8
+  complete 94963 @47.2,51.2
 
 step Biting the Hand
   turnin 94963
@@ -511,6 +511,7 @@ step Old Rot-Chum
   collect 268341 x1 quest 95120.1
 
 step Wharfmaster Whizzbuzz
+  tip The Wharfmaster takes it only with the Rot-Covered Harpoon in your bags.
   when group 95120
   zone map 2548
   turnin 95120

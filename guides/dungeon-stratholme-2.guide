@@ -1,0 +1,143 @@
+guide completionist-horde/dungeon-stratholme-2
+title Stratholme, part 2 of 2
+faction Horde
+category Dungeons
+folder Completionist dungeons and raids
+levels 57-60
+zone Eastern Plaguelands
+next completionist-horde/47-tirisfal-glades-and-the-undercity-4
+pitch Stratholme, in Eastern Plaguelands.
+why Every Horde quest of Stratholme: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
+
+step Mokvar
+  only Druid
+  zone map 1454
+  turnin 84155
+
+step Mokvar
+  only Shaman
+  zone map 1454
+  turnin 84160
+
+step Mokvar
+  only Paladin
+  zone map 1454
+  turnin 97411
+
+step Return to Mokvar
+  zone map 1454
+  turnin 8978
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  accept 84171
+
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84171 @34.96,38.26
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  turnin 84171
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  accept 84172
+
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84172 @34.96,38.26
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  turnin 84172
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  accept 84173
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84173 @34.96,38.26
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  turnin 84173
+
+step Mokvar
+  only Priest
+  zone map 1454
+  accept 84174
+
+step Mokvar
+  only Warlock
+  zone map 1454
+  accept 84177
+
+step Mokvar
+  only Warrior
+  zone map 1454
+  accept 84178
+
+step Mokvar
+  only Paladin
+  zone map 1454
+  accept 97412
+
+step Mokvar
+  only Hunter
+  zone map 1454
+  turnin 84156
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  accept 84175
+
+step Just Compensation
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84175 @34.96,38.26
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  turnin 84175
+
+step Mokvar
+  only Priest
+  zone map 1454
+  turnin 84158
+
+step Inside Stratholme
+  only Priest
+  zone map 1423
+  complete 84174 @26.3,18.3
+
+step Inside Stratholme
+  only Warlock
+  zone map 1423
+  complete 84177 @26.3,18.3
+
+step Inside Stratholme
+  only Warrior
+  zone map 1423
+  complete 84178 @26.3,18.3
+
+step Inside Stratholme
+  only Paladin
+  zone map 1423
+  complete 97412 @26.3,18.3

@@ -1,11 +1,11 @@
-guide completionist-horde/51-silithus
-title 51 Silithus
+guide completionist-horde/50-silithus
+title 50 Silithus
 faction Horde
 levels 55-60
 category Leveling
-folder Completionist 51-59
+folder Completionist 41-50
 zone Silithus
-next completionist-horde/52-odd-jobs-in-kalimdor-4
+next completionist-horde/51-odd-jobs-in-kalimdor-4
 pitch On along the line: Silithus, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 20 quests; estimated level at the end 56.2 (heuristic XP, class quests not counted).

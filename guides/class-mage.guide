@@ -202,6 +202,7 @@ step Xavian Waterfall
   collect 7268 x1 quest 1944.1 only Orc,Undead,Troll
 
 step Sanath Lim-yo
+  tip Archmage Xylem stands on top of his tower: walk to Sanath Lim-yo at the foot of the cliff (28.1, 50.1) and get off your mount, and he teleports you up.
   zone map 1447
   turnin 8250 only Mage
 
@@ -262,6 +263,7 @@ step Magus Tirth
   accept 1950 only Mage
 
 step "Plucky" Johnson
+  tip "Plucky" Johnson is the small grey chicken pecking around the foot of the race track's lookout tower. Target him and type /beckon: he turns human for a short while, and only then can you talk to him.
   kill 6626 x1 quest 1950.1 only Mage
 
 step Magus Tirth

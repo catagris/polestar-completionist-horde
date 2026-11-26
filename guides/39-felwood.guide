@@ -21,12 +21,6 @@ step Jes'rimon
   zone map 1454
   turnin 4300
 
-step Mokvar
-  when onquest 84159
-  when group 84159
-  zone map 1454
-  turnin 84159
-
 step Bloodvenom Post
   zone map 1448
   getfp "Bloodvenom Post"
@@ -621,12 +615,6 @@ step Bone-Bladed Weapons
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
   turnin 4300 optional
-
-step An Earnest Proposition
-  when onquest 84159
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84159 optional
 
 step Timbermaw Reinforcements
   when onquest 86798

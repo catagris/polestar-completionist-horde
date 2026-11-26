@@ -27,10 +27,6 @@ step Ralston Farnsley
   accept 7814
   accept 7817
 
-step Vivian Lagrave and the Darkstone Tablet
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 4769 optional
-
 step Faint Necrotic Crystal
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 9310 direct @66.8,21.4 map 1458
@@ -55,94 +51,29 @@ step Additional Runecloth
   collect 14047 x20 anywhere optional
   turnin 7819 direct optional
 
-step Anthion's Parting Words
-  when onquest 84194
-  zone map 1454
-  turnin 84194
-
 step Mokvar
-  when complete 84155
+  only Priest
+  when complete 84174
   zone map 1454
-  turnin 84155
-  turnin 84156
-  turnin 84158
   turnin 84174
-  turnin 84187
-  turnin 84188
-  turnin 84189
-  turnin 84190
-  turnin 84191
-  turnin 84192
-  turnin 84193
 
 step Mokvar
-  only Shaman
-  when complete 84160
-  zone map 1454
-  turnin 84160
-
-step Mokvar
-  only Paladin
-  when complete 97411
-  zone map 1454
-  turnin 97411
-
-step Mokvar
+  only Warlock
   when complete 84177
   zone map 1454
   turnin 84177
 
 step Mokvar
+  only Warrior
   when complete 84178
   zone map 1454
   turnin 84178
 
 step Mokvar
+  only Paladin
   when complete 97412
   zone map 1454
   turnin 97412
-
-step Mokvar
-  only Shaman
-  when complete 8957
-  zone map 1454
-  turnin 8957
-
-step Mokvar
-  only Druid
-  when complete 9016
-  zone map 1454
-  turnin 9016
-
-step Mokvar
-  only Hunter
-  when complete 9017
-  zone map 1454
-  turnin 9017
-
-step Mokvar
-  only Mage
-  when complete 9018
-  zone map 1454
-  turnin 9018
-
-step Mokvar
-  only Priest
-  when complete 9019
-  zone map 1454
-  turnin 9019
-
-step Mokvar
-  only Rogue
-  when complete 9020
-  zone map 1454
-  turnin 9020
-
-step Mokvar
-  only Warlock
-  when complete 9021
-  zone map 1454
-  turnin 9021
 
 step Crimson Courier
   when group 6145
@@ -287,122 +218,20 @@ step The Call to Command
   zone map 1458
   turnin 6144 optional
 
-step Anthion's Parting Words
-  when onquest 8957
+step Just Compensation
+  when onquest 84174
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 8957 optional
+  turnin 84174 optional
 
-step Anthion's Parting Words
-  when onquest 9016
+step Just Compensation
+  when onquest 84177
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 9016 optional
+  turnin 84177 optional
 
-step Anthion's Parting Words
-  when onquest 9017
+step Just Compensation
+  when onquest 84178
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 9017 optional
-
-step Anthion's Parting Words
-  when onquest 9018
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9018 optional
-
-step Anthion's Parting Words
-  when onquest 9019
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9019 optional
-
-step Anthion's Parting Words
-  when onquest 9020
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9020 optional
-
-step Anthion's Parting Words
-  when onquest 9021
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9021 optional
-
-step An Earnest Proposition
-  when onquest 84155
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84155 optional
-
-step An Earnest Proposition
-  when onquest 84156
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84156 optional
-
-step An Earnest Proposition
-  when onquest 84158
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84158 optional
-
-step An Earnest Proposition
-  when onquest 84160
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84160 optional
-
-step Anthion's Parting Words
-  when onquest 84187
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84187 optional
-
-step Anthion's Parting Words
-  when onquest 84188
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84188 optional
-
-step Anthion's Parting Words
-  when onquest 84189
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84189 optional
-
-step Anthion's Parting Words
-  when onquest 84190
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84190 optional
-
-step Anthion's Parting Words
-  when onquest 84191
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84191 optional
-
-step Anthion's Parting Words
-  when onquest 84192
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84192 optional
-
-step Anthion's Parting Words
-  when onquest 84193
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84193 optional
-
-step Anthion's Parting Words
-  when onquest 84194
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 84194 optional
-
-step An Earnest Proposition
-  when onquest 97411
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 97411 optional
+  turnin 84178 optional

@@ -8,8 +8,8 @@ zone Durotar
 why Every Hunter class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Hunter quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 16 quests; estimated level at the end 14.1 (heuristic XP).
-# Skipped: 4 exclusive with N; 2 prerequisite N not in this route.
+# Routed 17 quests; estimated level at the end 14.6 (heuristic XP).
+# Skipped: 4 exclusive with N; 2 prerequisite N not in this route; 1 exclusive with N (done).
 
 step Kary Thunderhorn
   zone Thunder Bluff
@@ -131,13 +131,6 @@ step Ormak Grimshot
   zone Orgrimmar
   turnin 6081 only Orc,Undead,Troll
 
-step Elayaa Easewind
-  zone map 2521
-  accept 94007 only Skyborne
-
-step Quel'ana Quickgale
-  turnin 94007 only Skyborne
-
 step Level 50
   level 50
 
@@ -169,18 +162,6 @@ step Young Wavethrasher
   zone Orgrimmar
   collect 20087 x6 quest 8231.1 only Hunter
 
-step Ogtinc
-  zone Orgrimmar
-  turnin 8231 only Hunter
-
-step Bloodmage Lynnore
-  zone Blasted Lands
-  accept 81919 only Hunter,Druid
-
-step Calefactus the Unleashed
-  zone Orgrimmar
-  collect 220213 x1 quest 81919.1 only Hunter,Druid
-
 step Level 58
   level 58
 
@@ -190,10 +171,60 @@ step Geologist Larksbane
   accept 8377 only Hunter
   turnin 8377 only Hunter
 
+step Ogtinc
+  zone Orgrimmar
+  turnin 8231 only Hunter
+
+step Bloodmage Lynnore
+  zone Blasted Lands
+  accept 81919 only Hunter,Druid
+
+step Calefactus the Unleashed
+  collect 220213 x1 quest 81919.1 only Hunter,Druid
+
 step Bloodmage Lynnore
   turnin 81919 only Hunter,Druid
 
+step Elayaa Easewind
+  zone map 2521
+  accept 94007 only Skyborne
+
+step Quel'ana Quickgale
+  turnin 94007 only Skyborne
+
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Components of Importance
+  only Hunter,Rogue
+  when turnedin 8961
+  zone map 1427
+  accept 8964 optional
+
+step Components of Importance
+  only Hunter,Rogue
+  when onquest 8964
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8964 @39.8,96.5 optional
+
+step Components of Importance
+  only Hunter,Rogue
+  when onquest 8964
+  zone map 1427
+  turnin 8964 optional
+
+step More Components of Importance
+  only Hunter,Warlock
+  when turnedin 8970
+  zone map 1427
+  accept 8988 optional
+
+step More Components of Importance
+  only Hunter,Warlock
+  when onquest 8988
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8988 @39.8,96.5 optional
 
 step Level 60
   level 60
@@ -235,3 +266,9 @@ step Stave of the Ancients
   when onquest 7636
   zone map 1448
   turnin 7636 optional
+
+step More Components of Importance
+  only Hunter,Warlock
+  when onquest 8988
+  zone map 1427
+  turnin 8988 optional

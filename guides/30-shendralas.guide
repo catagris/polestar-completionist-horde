@@ -35,6 +35,7 @@ step Nerlokh
   accept 93041
 
 step Mordent Evenshade
+  tip Each pylon is repaired with the Pile of Pylon Parts that comes with the quest; a repair uses four Coalesced Mana Crystals, gathered from the Unstable Mana Rifts with the Mana Sieve. The Decrepit Pylon Protectors only guard the pylons: killing them is no part of it. Pull the nearest one away and repair from the west side.
   turnin 96010
   accept 96018
   turnin 96018
@@ -91,6 +92,7 @@ step Historian Biraxas
   turnin 99257
 
 step Historian Biraxas
+  tip Throw the Depleted Crystal Heart into an Unstable Mana Rift on the road north of the temple. The Nascent Pylon Protector that comes out is an elite (level 43), but it comes alone: most players killed it without a group.
   when group 99258
   zone map 2652
   accept 99258

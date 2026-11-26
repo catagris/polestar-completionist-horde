@@ -5,20 +5,14 @@ category Dungeons
 folder Completionist dungeons and raids
 levels 58-60
 zone Western Plaguelands
-next completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
+next completionist-horde/54-moonglade
 pitch Scholomance, in Western Plaguelands.
 why Every Horde quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
 step Mokvar
+  only Druid
   zone map 1454
   turnin 84155
-  turnin 84177
-  turnin 84189
-  turnin 84191
-  turnin 84193
-  turnin 84203
-  turnin 84208
-  turnin 84210
 
 step Mokvar
   only Shaman
@@ -30,41 +24,134 @@ step Mokvar
   zone map 1454
   turnin 97411
 
-step Anthion's Parting Words
-  only Shaman
+step Return to Mokvar
   zone map 1454
-  turnin 8957
+  turnin 8978
 
-step Bodley's Unfortunate Fate
-  zone map 1454
-  accept 9032
-
-step Anthion's Parting Words
+step Just Compensation
   only Druid
   zone map 1454
-  turnin 9016
+  accept 84171
 
-step Anthion's Parting Words
+step Just Compensation
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84171 @34.96,38.26
+
+step Just Compensation
+  only Druid
+  zone map 1454
+  turnin 84171
+
+step Just Compensation
   only Hunter
   zone map 1454
-  turnin 9017
+  accept 84172
 
-step Mokvar
+step Just Compensation
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84172 @34.96,38.26
+
+step Just Compensation
+  only Hunter
+  zone map 1454
+  turnin 84172
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  accept 84173
+
+step Just Compensation
+  only Mage
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84173 @34.96,38.26
+
+step Just Compensation
+  only Mage
+  zone map 1454
+  turnin 84173
+
+step Just Compensation
+  only Priest
+  zone map 1454
+  accept 84174
+
+step Just Compensation
+  only Priest
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84174 @34.96,38.26
+
+step Just Compensation
+  only Priest
+  zone map 1454
+  turnin 84174
+
+step Just Compensation
   only Rogue
   zone map 1454
-  turnin 9020
+  accept 84175
+
+step Just Compensation
+  only Rogue
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  complete 84175 @34.96,38.26
+
+step Just Compensation
+  only Rogue
+  zone map 1454
+  turnin 84175
 
 step Mokvar
   only Warlock
   zone map 1454
-  turnin 9021
+  accept 84177
 
-step Mokvar
-  only Mage
+step Anthion's Parting Words
+  only Warlock
+  when onquest 84193
   zone map 1454
-  turnin 9018
+  turnin 84193 optional
 
-step Bodley's Unfortunate Fate
-  when onquest 9032
-  zone map 1427
-  turnin 9032
+step Anthion's Parting Words
+  only Rogue
+  when onquest 84191
+  zone map 1454
+  turnin 84191 optional
+
+step Anthion's Parting Words
+  only Mage
+  when onquest 84189
+  zone map 1454
+  turnin 84189 optional
+
+step Inside Scholomance
+  only Warlock
+  zone map 1422
+  complete 84177 @69.9,74
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Anthion's Parting Words
+  when onquest 84189
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84189 optional
+
+step Anthion's Parting Words
+  when onquest 84191
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84191 optional
+
+step Anthion's Parting Words
+  when onquest 84193
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84193 optional

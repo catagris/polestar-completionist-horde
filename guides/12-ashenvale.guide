@@ -175,9 +175,9 @@ step Va'xug Firefure
   turnin 98251
 
 step A Void Path
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The place is where players were recorded finishing it.
   accept 98252
-  complete 98252 @40.5,61.4
+  complete 98252 @38.2,58.1
 
 step A Void Path
   turnin 98252

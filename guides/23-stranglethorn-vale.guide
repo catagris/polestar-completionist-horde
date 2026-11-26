@@ -93,6 +93,18 @@ step Barnil Stonepot
   accept 342
 
 step Terror of the Desert Skies
+  tip Primitive Drawing drops from Dustbelcher Ogre, Dustbelcher Brute, Dustbelcher Wyrmhunter: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  zone map 1418
+  collect 211269 x1 optional
+  accept 78823 item 211269 optional
+  complete 78823 @35.7,10.8
+
+step Terror of the Desert Skies
+  when onquest 78823
+  zone map 1434
+  turnin 78823
+
+step Terror of the Desert Skies
   when turnedin 78823
   zone map 1434
   accept 78830
@@ -692,18 +704,6 @@ step Owen Thadd
 step Nazeer Bloodpike
   zone map 1413
   turnin 1261
-
-step Terror of the Desert Skies
-  tip Primitive Drawing drops from Dustbelcher Ogre, Dustbelcher Brute, Dustbelcher Wyrmhunter: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  zone map 1418
-  collect 211269 x1 optional
-  accept 78823 item 211269 optional
-  complete 78823 @35.7,10.8
-
-step Terror of the Desert Skies
-  when onquest 78823
-  zone map 1434
-  turnin 78823
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

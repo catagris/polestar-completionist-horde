@@ -794,6 +794,7 @@ step Alaana Stormwalker
   turnin 95349
 
 step The Great Outdoors
+  tip Sit down (/sit) by Raan's Basic Campfire and stay seated until the Boosted Rest buff appears.
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 2521
   accept 96101 only Skyborne

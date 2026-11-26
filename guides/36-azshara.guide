@@ -100,6 +100,7 @@ step Izvi Gildfizz
   accept 91685
 
 step Jediga
+  tip Jes'rimon stands at the top of a tower in the Drag, not in the Cleft of Shadow.
   zone map 1447
   turnin 3517
   accept 3518
