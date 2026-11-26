@@ -89,9 +89,9 @@ step A Light in Dark Places
 
 step A Light in Dark Places
   when onquest 9319
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1438
-  complete 9319 @56.6,91.9 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1414
+  complete 9319 @43.4,66.5 optional
 
 step A Light in Dark Places
   when onquest 9319

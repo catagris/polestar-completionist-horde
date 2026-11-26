@@ -30,9 +30,9 @@ step The Ancient Egg
   accept 4787
 
 step The Ancient Egg
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 4787 @66.99,22.36
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone The Hinterlands
+  complete 4787 @57.5,86.8
 
 step The Ancient Egg
   zone Tanaris
@@ -108,9 +108,9 @@ step The Stone Circle
   accept 3444
 
 step The Stone Circle
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 3444 @52.71,45.92
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone The Barrens
+  complete 3444 @62.5,38.5
 
 step The Stone Circle
   zone Tanaris
@@ -130,9 +130,9 @@ step A Better Ingredient
 step A Better Ingredient
   only Druid
   when onquest 9053
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  complete 9053 @27.5,42.7 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1435
+  complete 9053 @56.3,76.3 optional
 
 step A Better Ingredient
   only Druid

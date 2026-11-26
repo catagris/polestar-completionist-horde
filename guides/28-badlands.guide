@@ -16,14 +16,6 @@ step A Ludite's Guide to Caring for Your Demonic Pet
   zone map 1458
   complete 79953 @73.4,33
 
-step Bring the End
-  tip For Razorfen Downs: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 3341 optional
-
-step Reclaimed Treasures
-  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 2342 optional
-
 step A Ludite's Guide to Caring for Your Demonic Pet
   when onquest 79953
   zone map 1458
@@ -204,9 +196,8 @@ step Lotwil Veriatus
   accept 712
 
 step Liquid Stone
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 715
-  complete 715 @25.8,44.2
 
 step Greater Rock Elemental
   zone map 1427
@@ -225,9 +216,6 @@ step Stone Is Better than Cloth
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 716
   complete 716 @25.8,44.2
-
-step Liquid Stone
-  turnin 715
 
 step Stone Is Better than Cloth
   turnin 716

@@ -85,19 +85,21 @@ step Bleakheart Shadowstalker
 step Level 23
   level 23
 
+step The Lost Pages
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  accept 6504
+
 step Mastok Wrilehiss
   accept 25
 
+step The Ashenvale Hunt
+  when onquest 235
+  zone map 1440
+  turnin 235 optional
+
 step Befouled Water Elemental
+  zone map 1440
   kill 3917 x12 quest 25.1
-
-step The Lost Pages
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 6504
-  complete 6504 @70.0,71.2
-
-step The Lost Pages
-  turnin 6504
 
 step Torek
   accept 6544
@@ -250,8 +252,6 @@ step Ursangous
   goto 39.8,65.2 "Ursangous"
   accept 23 item 16303 -- Drops from Ursangous
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Senani Thunderheart
   turnin 2
   turnin 23
@@ -269,11 +269,6 @@ step The Ashenvale Hunt
   when onquest 742
   zone map 1440
   turnin 742 optional
-
-step The Ashenvale Hunt
-  when onquest 235
-  zone map 1440
-  turnin 235 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

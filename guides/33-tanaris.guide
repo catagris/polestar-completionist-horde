@@ -279,10 +279,10 @@ step To Gadgetzan You Go!
 
 step Clamlette Surprise
   when skill Cooking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 6610 optional
-  complete 6610 @52.6,28.1 optional
+  complete 6610 @67.8,23.0 optional
 
 step Clamlette Surprise
   when skill Cooking 1
@@ -303,10 +303,10 @@ step The Pledge of Secrecy
 
 step Show Your Work
   when skill Engineering 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 3639 optional
-  complete 3639 @52.5,27.3 optional
+  complete 3639 @51.4,28.7 optional
 
 step Show Your Work
   when skill Engineering 1
@@ -314,10 +314,10 @@ step Show Your Work
   turnin 3639 optional
 
 step Tazzik's Dues
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 95321
-  complete 95321 @51.6,27.4
+  complete 95321 @67.4,24.0
 
 step Membership Card Renewal
   when skill Engineering 200

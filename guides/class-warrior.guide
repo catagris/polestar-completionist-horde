@@ -231,9 +231,9 @@ step The Art of the Armorsmith
 step The Art of the Armorsmith
   only Warrior,Paladin
   when onquest 5301
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1454
-  complete 5301 @79.8,24.1 optional
+  complete 5301 @79.8,23.0 optional
 
 step The Art of the Armorsmith
   only Warrior,Paladin

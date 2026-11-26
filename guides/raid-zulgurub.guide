@@ -32,9 +32,9 @@ step The Ancient Egg
   accept 4787
 
 step The Ancient Egg
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 4787 @66.99,22.36
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone The Hinterlands
+  complete 4787 @57.5,86.8
 
 step The Ancient Egg
   zone Tanaris
@@ -58,9 +58,9 @@ step The Lost Tablets of Mosh'aru
   accept 5065
 
 step The Lost Tablets of Mosh'aru
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 5065 @66.89,24.03
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone Eastern Plaguelands
+  complete 5065 @63.5,7.8
 
 step The Lost Tablets of Mosh'aru
   zone Tanaris

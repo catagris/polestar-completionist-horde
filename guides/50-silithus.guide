@@ -174,13 +174,14 @@ step Scepter of the Council
   accept 8352 optional
 
 step What Tomorrow Brings
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1451
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1446
   accept 8286
-  complete 8286 @49.5,36.5
+  complete 8286 @64.2,50.3
 
 step Target: Hive'Zora Reavers
   tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1451
   turnin 8773 direct optional
 
 step Target: Hive'Zora Waywatchers
@@ -232,10 +233,10 @@ step Scepter of the Council
   turnin 8352 optional
 
 step Dearest Natalia
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1451
   accept 8304
-  complete 8304 @49.2,34.2
+  complete 8304 @40.8,88.8
 
 step Desert Recipe
   when skill Cooking 1

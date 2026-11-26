@@ -460,9 +460,9 @@ step Dreadsteed of Xoroth
 step Dreadsteed of Xoroth
   only Warlock
   when onquest 7631
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1428
-  complete 7631 @12.7,31.6 optional
+  complete 7631 @12.4,31.6 optional
 
 step Dreadsteed of Xoroth
   only Warlock

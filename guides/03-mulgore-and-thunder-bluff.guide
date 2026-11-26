@@ -298,9 +298,9 @@ step Arch Druid Hamuul Runetotem
   turnin 98435
 
 step Traditions of the Bluff
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 97485
-  complete 97485 @38,55.9
+  complete 97485 @53.1,87.9
 
 step Traditions of the Bluff
   turnin 97485

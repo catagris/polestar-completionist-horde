@@ -38,9 +38,9 @@ step The Path of the Righteous
   accept 8301
 
 step The Path of the Righteous
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone Silithus
-  complete 8301 @49.45,36.45
+  complete 8301 @45.2,26.2
 
 step The Path of the Righteous
   zone Silithus

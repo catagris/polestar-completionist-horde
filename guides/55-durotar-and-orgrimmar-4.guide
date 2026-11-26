@@ -17,10 +17,6 @@ step Dran Droffers
   turnin 649
   accept 650
 
-step Bodley's Unfortunate Fate
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 9032 optional
-
 step Additional Runecloth
   when turnedin 7824
   tip A repeatable quest: hand it in once, with what it asks for.

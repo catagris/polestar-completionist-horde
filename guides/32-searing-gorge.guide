@@ -204,10 +204,10 @@ step Look at the Size of It!
   turnin 7704
 
 step Divine Retribution
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1427
   accept 3441
-  complete 3441 @39.1,39.0
+  complete 3441 @39.0,39.0
 
 step Divine Retribution
   turnin 3441
@@ -327,9 +327,9 @@ step Restoring Fiery Flux Supplies via Kingsblood
   turnin 7736 direct optional
 
 step The Torch of Retribution
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 3453
-  complete 3453 @39.1,39.0
+  complete 3453 @39.0,39.0
 
 step The Torch of Retribution
   turnin 3453

@@ -9,6 +9,34 @@ next completionist-horde/dungeon-dire-maul
 pitch Blackrock Spire, in Searing Gorge.
 why Every Horde quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
+step Anthion's Parting Words
+  only Shaman
+  when onquest 84192
+  zone map 1454
+  turnin 84192 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 84190
+  zone map 1454
+  turnin 84190 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 84188
+  zone map 1454
+  turnin 84188 optional
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 84187
+  zone map 1454
+  turnin 84187 optional
+
+step Bodley's Unfortunate Fate
+  zone map 1454
+  accept 9032
+
 step Mokvar
   only Hunter
   zone map 1454
@@ -90,30 +118,6 @@ step Back to the Beginning
   zone map 1454
   turnin 8998
 
-step Anthion's Parting Words
-  only Druid
-  when onquest 84187
-  zone map 1454
-  turnin 84187 optional
-
-step Anthion's Parting Words
-  only Hunter
-  when onquest 84188
-  zone map 1454
-  turnin 84188 optional
-
-step Anthion's Parting Words
-  only Priest
-  when onquest 84190
-  zone map 1454
-  turnin 84190 optional
-
-step Anthion's Parting Words
-  only Shaman
-  when onquest 84192
-  zone map 1454
-  turnin 84192 optional
-
 step Inside Blackrock Spire
   only Hunter
   zone map 1427
@@ -138,6 +142,11 @@ step Inside Blackrock Spire
   only Rogue
   zone map 1427
   complete 84175 @34.8,85.3
+
+step Bodley's Unfortunate Fate
+  when onquest 9032
+  zone map 1427
+  turnin 9032
 
 step Mokvar
   only Hunter

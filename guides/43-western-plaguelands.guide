@@ -160,10 +160,10 @@ step Tirion Fordring
   turnin 5544
 
 step Redemption
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1422
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1423
   accept 5742
-  complete 5742 @67.3,24.2
+  complete 5742 @5.2,35.6
 
 step Redemption
   turnin 5742

@@ -17,10 +17,10 @@ step Thrall
   turnin 5726
 
 step Hidden Enemies
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1454
   accept 5727
-  complete 5727 @31.7,37.8
+  complete 5727 @49.5,50.6
 
 step Hidden Enemies
   when onquest 5727

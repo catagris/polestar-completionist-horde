@@ -22,7 +22,7 @@ step Magtoor
   accept 93684
 
 step Fall From Grace
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 2784
   complete 2784 @34.3,66.1
 
@@ -56,7 +56,7 @@ step Fallen Hero of the Horde
   turnin 2623
 
 step A Tale of Sorrow
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 2801
   complete 2801 @34.3,66.1
 

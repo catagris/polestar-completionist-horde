@@ -36,13 +36,12 @@ step Magus Wordeen Voidglare
   turnin 545
 
 step Blood in the Streets
-  zone map 1416
-  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1421
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 92434
-  complete 92434 @60.3,82.8
+  complete 92434 @68.8,45.1
 
 step Blood in the Streets
-  zone map 1421
   turnin 92434
 
 step Heart of Disruption

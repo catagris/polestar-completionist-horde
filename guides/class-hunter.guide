@@ -257,9 +257,9 @@ step Stave of the Ancients
 step Stave of the Ancients
   only Hunter
   when onquest 7636
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1448
-  complete 7636 @47.8,24.1 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1449
+  complete 7636 @31.6,45.0 optional
 
 step Stave of the Ancients
   only Hunter

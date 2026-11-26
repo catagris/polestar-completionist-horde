@@ -234,10 +234,10 @@ step Kaga Wildhoof
 
 step The Great Outdoors
   tip Sit down (/sit) by Kaga's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1412
   accept 96605
-  complete 96605 @46.2,67.3
+  complete 96605 @46.2,67.2
 
 step The Great Outdoors
   turnin 96605
@@ -251,10 +251,10 @@ step Camping 101: Tailoring
 
 step Camping 101: Skinning
   when skill Skinning 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1412
   accept 97936 optional
-  complete 97936 @46.2,67.3 optional
+  complete 97936 @46.8,79.8 optional
 
 step Camping 101: Skinning
   when skill Skinning 1

@@ -177,9 +177,9 @@ step Stealing Supplies
 
 step Stealing Supplies
   when onquest 1370
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1443
-  complete 1370 @36.2,79.2 optional
+  complete 1370 @70.9,75.3 optional
 
 step Stealing Supplies
   when onquest 1370
@@ -445,9 +445,9 @@ step Ongeku
 
 step Ongeku
   when onquest 1373
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1443
-  complete 1373 @36.2,79.2 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1435
+  complete 1373 @61.3,23.2 optional
 
 step Ongeku
   when onquest 1373

@@ -404,7 +404,7 @@ step Owen Thadd
   turnin 79947
 
 step Test of Lore
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1442
   accept 6627
   complete 6627 @78.8,45.7

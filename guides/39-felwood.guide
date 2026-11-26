@@ -257,9 +257,9 @@ step Runecloth
 
 step Runecloth
   when onquest 6031
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1448
-  complete 6031 @65.7,2.8 optional
+  complete 6031 @63.6,9.6 optional
 
 step Prince Halanox
   when group 86814

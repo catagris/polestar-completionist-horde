@@ -51,9 +51,9 @@ step Dangerous Love
 
 step Dangerous Love
   when onquest 8904
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1458
-  complete 8904 @66.7,44.7 optional
+  complete 8904 @67.8,37.9 optional
 
 step Dangerous Love
   when onquest 8904

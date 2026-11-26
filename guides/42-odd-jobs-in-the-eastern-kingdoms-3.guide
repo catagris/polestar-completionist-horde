@@ -105,7 +105,7 @@ step Krom'Grul
   collect 11058 x1 quest 3822.1
 
 step A Taste of Flame
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 4022 either
   accept 4023 either
   complete 4022 @95.1,31.6
@@ -240,9 +240,9 @@ step Dragonscale Leatherworking
 
 step Dragonscale Leatherworking
   when onquest 5145
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1418
-  complete 5145 @62.7,57.4 optional
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1434
+  complete 5145 @32.7,29.2 optional
 
 step Dragonscale Leatherworking
   when onquest 5145

@@ -32,7 +32,7 @@ step Varimathras
   turnin 1048
 
 step Test of Lore
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1458
   accept 6628
   complete 6628 @57.8,65.4

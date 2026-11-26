@@ -590,10 +590,10 @@ step Nathanos Blightcaller
   turnin 5961
 
 step Pamela's Doll
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1423
   accept 5149
-  complete 5149 @31.1,78.0
+  complete 5149 @32.6,79.3
 
 step Pamela's Doll
   turnin 5149
@@ -706,17 +706,17 @@ step Joseph's Chest
   turnin 5942
 
 step Defenders of Darrowshire
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 5211
-  complete 5211 @71.7,50.0
+  complete 5211 @58.6,33.0
 
 step Defenders of Darrowshire
   turnin 5211
 
 step To Kill With Purpose
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 6022
-  complete 6022 @22.2,63.5
+  complete 6022 @52.3,57.8
 
 step To Kill With Purpose
   turnin 6022

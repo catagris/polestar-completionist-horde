@@ -66,10 +66,10 @@ step The Art of the Armorsmith
 
 step The Way of the Weaponsmith
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1454
   accept 5302 optional
-  complete 5302 @79.4,23.7 optional
+  complete 5302 @79.8,23.0 optional
 
 step The Way of the Weaponsmith
   when skill Blacksmithing 1
@@ -78,10 +78,10 @@ step The Way of the Weaponsmith
 
 step The Old Ways
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1454
   accept 2756 optional
-  complete 2756 @80.9,23.3 optional
+  complete 2756 @79.8,23.0 optional
 
 step The Old Ways
   when skill Blacksmithing 1
@@ -220,7 +220,7 @@ step Alliance Chest
   collect 2842 x1 quest 2950.1
 
 step Your First Riding Raptor
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1411
   accept 96989 only Troll
   complete 96989 @55.2,75.7 only Troll

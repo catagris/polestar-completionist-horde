@@ -48,9 +48,9 @@ step Twilight Scouting Report
   turnin 95181 direct @59.4,45.6 map 2548
 
 step Fetch 'n' Fletch
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95951
-  complete 95951 @58.1,45.3
+  complete 95951 @39.5,58.9
 
 step Turner's Mill Lumberjack
   collect 263972 x10 quest 93788.1
@@ -213,10 +213,10 @@ step Gorg
   turnin 94680
 
 step Digging for Answers
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 2548
   accept 94727
-  complete 94727 @59.5,44.0
+  complete 94727 @49.6,46.8
 
 step Digging for Answers
   turnin 94727
@@ -487,9 +487,9 @@ step Wharfmaster Whizzbuzz
   accept 95267
 
 step See Ya, Scallywags!
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 95165
-  complete 95165 @79.5,52.7
+  complete 95165 @88.3,25.8
 
 step Monstrous Threshadon
   collect 268633 x1 quest 95267.1

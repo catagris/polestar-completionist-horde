@@ -178,9 +178,9 @@ step The Human, Ras Frostwhisper
 
 step The Human, Ras Frostwhisper
   when turnedin 5384
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1422
-  complete 5461 @70.57,74.11
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1417
+  complete 5461 @17.9,69.4
 
 step The Human, Ras Frostwhisper
   when turnedin 5384

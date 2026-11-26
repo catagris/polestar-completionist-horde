@@ -36,9 +36,9 @@ step The Scepter of Celebras
 
 step The Scepter of Celebras
   when onquest 7046
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1443
-  complete 7046 @31,60.8
+  complete 7046 @39.3,58.2
 
 step The Scepter of Celebras
   when onquest 7046

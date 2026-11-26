@@ -12,16 +12,34 @@ pitch On along the line: errands across Kalimdor, quests of level 30 to 44.
 # Routed 11 quests; estimated level at the end 30.6 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N (done); 1 exclusive with N; 1 objective N (talk N) outside the zones.
 
+step Liquid Stone
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1458
+  complete 715 @64.4,35.8
+
+step Bring the End
+  tip For Razorfen Downs: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 3341 optional
+
+step Reclaimed Treasures
+  tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 2342 optional
+
+step Liquid Stone
+  when onquest 715
+  zone map 1418
+  turnin 715
+
 step Firepit
+  zone map 1442
   accept 80001
 
 step Dirt-stained Map
-  zone Mulgore
+  zone map 1412
   collect 4470 x1 quest 80001.1
 
 step A Darker Truth
   tip Bloody Parchment drops from Broodmother Valraxx: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
-  zone map 1412
   collect 273658 x1 optional
   accept 96294 item 273658 optional
 
@@ -31,27 +49,27 @@ step A Darker Truth
   turnin 96294
 
 step Horizon Scout Crewman
-  zone Azshara
+  zone map 1447
   collect 4471 x1 quest 80001.2
 
 step Muln Earthfury
   when group 96261
-  zone Mulgore
+  zone map 1412
   accept 96261
 
 step Broodmother Valraxx
   when group 96261
-  zone Mulgore
   tip The Broodmother is group work: elites. Grouping up is advised.
+  zone map 1412
   kill 264082 x1 quest 96261.1
 
 step Muln Earthfury
   when group 96261
-  zone Mulgore
+  zone map 1412
   turnin 96261
 
 step Firepit
-  zone Stonetalon Mountains
+  zone map 1442
   turnin 80001
 
 step Pozzik
@@ -89,7 +107,7 @@ step Zamek's Distraction
   turnin 1191 direct optional
 
 step Gizmorium Shipping Crate
-  zone Dustwallow Marsh
+  zone map 1445
   collect 5862 x1 quest 1187.1
 
 step Learning to Ride
@@ -104,7 +122,7 @@ step Learning to Ride
   turnin 97204
 
 step Razzeric
-  zone Thousand Needles
+  zone map 1441
   turnin 1187
   accept 1188
 
@@ -116,27 +134,28 @@ step Pozzik
   turnin 1194
 
 step Shreev
-  zone Tanaris
+  zone map 1446
   turnin 1188
 
 step Level 35
+  zone map 1441
   level 35
 
 step Kravel Koalbeard
-  zone Thousand Needles
   accept 1118
 
 step Crank Fizzlebub
-  zone Stranglethorn Vale
+  zone map 1434
   turnin 1118
 
 step Crank Fizzlebub
-  zone Stranglethorn Vale
   accept 1119
 
 step Kravel Koalbeard
-  zone Thousand Needles
+  zone map 1441
   turnin 1119
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Get the Goblins Drunk
   when available 1121
@@ -161,14 +180,12 @@ step Get the Gnomes Drunk
   turnin 1120 optional
 
 step Gnome Pit Boss
-  zone Thousand Needles
+  zone map 1441
   accept 1122
 
 step Crank Fizzlebub
-  zone Stranglethorn Vale
+  zone map 1434
   turnin 1122
-
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Your First Riding Kodo
   only Tauren
@@ -188,3 +205,11 @@ step Your First Riding Kodo
   when onquest 96982
   zone map 1412
   turnin 96982 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Liquid Stone
+  when onquest 715
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1418
+  turnin 715 optional

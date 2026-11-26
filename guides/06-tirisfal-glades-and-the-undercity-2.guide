@@ -191,7 +191,7 @@ step Eleanor Shackleton
 
 step The Great Outdoors
   tip Sit down (/sit) by Eleanor's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 96607
   complete 96607 @57.3,55.5
 
@@ -212,10 +212,10 @@ step Camping 101: Tailoring
 
 step Camping 101: Skinning
   when skill Skinning 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1420
   accept 97960 optional
-  complete 97960 @57.3,55.5 optional
+  complete 97960 @64.9,53.2 optional
 
 step Camping 101: Mining
   when skill Mining 1
@@ -286,10 +286,10 @@ step Camping 101: Alchemy
   complete 97951 @57.3,55.5 optional
 
 step Camping 101: Cooking
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1420
   accept 96658
-  complete 96658 @57.3,55.5
+  complete 96658 @61.8,51.4
 
 step Tomb Weed
   collect 286204 x5 quest 99142.1

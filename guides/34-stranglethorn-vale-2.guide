@@ -190,9 +190,9 @@ step "Sea Wolf" MacKinley
 
 step Show Your Work
   when onquest 3643
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1434
-  complete 3643 @28.4,76.3 optional
+  complete 3643 @28.9,75.5 optional
 
 step Show Your Work
   when onquest 3643
@@ -509,7 +509,7 @@ step Galvan's Finest Pupil
 
 step A Good Head On Your Shoulders
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 2771 optional
   complete 2771 @51.4,28.8 optional
@@ -521,7 +521,7 @@ step A Good Head On Your Shoulders
 
 step The World At Your Feet
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 2772 optional
   complete 2772 @51.4,28.8 optional
@@ -533,7 +533,7 @@ step The World At Your Feet
 
 step The Mithril Kid
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 2773 optional
   complete 2773 @51.4,28.8 optional
@@ -547,7 +547,7 @@ step The Mithril Kid
 
 step Did You Lose This?
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1446
   accept 3321 optional
   complete 3321 @51.4,28.8 optional
@@ -583,10 +583,10 @@ step The Art of the Imbue
 
 step Expert Blacksmith!
   when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1434
   accept 2765 optional
-  complete 2765 @50.6,20.5 optional
+  complete 2765 @50.6,20.4 optional
 
 step Expert Blacksmith!
   when skill Blacksmithing 1

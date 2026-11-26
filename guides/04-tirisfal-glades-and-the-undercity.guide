@@ -49,10 +49,10 @@ step Dark Cleric Duesten
   accept 5651 only Undead
 
 step Discipline
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1420
   accept 99134
-  complete 99134 @60.6,51.8
+  complete 99134 @60.7,51.9
 
 step Discipline
   turnin 99134
@@ -179,9 +179,9 @@ step Leonid Barthalomew the Revered
   accept 99152
 
 step Seeking Refuge
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 99144
-  complete 99144 @32.0,46.4
+  complete 99144 @39.1,48.8
 
 step Seeking Refuge
   turnin 99144

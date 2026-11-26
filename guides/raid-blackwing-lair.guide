@@ -49,9 +49,9 @@ step The Path of the Righteous
   accept 8301
 
 step The Path of the Righteous
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone Silithus
-  complete 8301 @49.45,36.45
+  complete 8301 @45.2,26.2
 
 step The Path of the Righteous
   zone Silithus
@@ -180,9 +180,9 @@ step The Isle of Dread!
   accept 8585
 
 step The Isle of Dread!
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 8585 @52.63,28.11
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone Feralas
+  complete 8585 @29.3,72.6
 
 step The Isle of Dread!
   zone Tanaris
@@ -196,9 +196,9 @@ step Dirge's Kickin' Chimaerok Chops
   accept 8586
 
 step Dirge's Kickin' Chimaerok Chops
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 8586 @52.63,28.11
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone Badlands
+  complete 8586 @14.2,39.4
 
 step Dirge's Kickin' Chimaerok Chops
   zone Tanaris
@@ -260,9 +260,9 @@ step The Only Prescription
   accept 8620
 
 step The Only Prescription
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Tanaris
-  complete 8620 @65.24,18.58
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone Blasted Lands
+  complete 8620 @44.4,56.6
 
 step The Only Prescription
   zone Tanaris

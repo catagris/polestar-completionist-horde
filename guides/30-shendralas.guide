@@ -41,9 +41,9 @@ step Mordent Evenshade
   turnin 96018
 
 step A Brief History Lesson
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93016
-  complete 93016 @35.2,46.6
+  complete 93016 @35.1,46.4
 
 step A Brief History Lesson
   turnin 93016

@@ -219,9 +219,9 @@ step Darsok Swiftdagger
   accept 867
 
 step Lost in Battle
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 4921
-  complete 4921 @52.0,31.6
+  complete 4921 @49.3,50.3
 
 step Lost in Battle
   turnin 4921

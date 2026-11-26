@@ -308,9 +308,9 @@ step Raan Wildwind
   turnin 96638 only Skyborne
 
 step Welcome to Shen'dar Village
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 92514
-  complete 92514 @45.7,45.5
+  complete 92514 @43.5,44.8
 
 step Welcome to Shen'dar Village
   turnin 92514
@@ -440,7 +440,7 @@ step Bounty Available: Vulgara the Insatiable!
   accept 93318
 
 step The Windshapers
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 2521
   accept 92595
   complete 92595 @43.5,44.8
@@ -527,7 +527,7 @@ step Alvarion Windfield
   turnin 92703
 
 step The Strange Hermit
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93159
   complete 93159 @54.0,38.9
 
@@ -553,9 +553,9 @@ step Strange Hermit
   turnin 93160
 
 step The Western Watch
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93926
-  complete 93926 @45.7,45.5
+  complete 93926 @42.3,62.0
 
 step The Western Watch
   turnin 93926
@@ -625,9 +625,9 @@ step Riaani Nightwind
   turnin 93735
 
 step The Broken Construct
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93737
-  complete 93737 @59.1,73.0
+  complete 93737 @59.1,73.1
 
 step The Broken Construct
   turnin 93737
@@ -691,9 +691,9 @@ step Valennia Stormfist
   turnin 92881
 
 step The Turncoat
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 92643
-  complete 92643 @66.2,76.5
+  complete 92643 @56.0,58.8
 
 step The Turncoat
   turnin 92643
@@ -714,7 +714,7 @@ step Ayessa Dawnsinger
   turnin 93740
 
 step The Anchors of Zephras
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94414
   complete 94414 @43.8,24.1
 
@@ -722,15 +722,15 @@ step The Anchors of Zephras
   turnin 94414
 
 step The Wounds of Betrayal
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94489
-  complete 94489 @61.7,39.2
+  complete 94489 @64.0,32.0
 
 step The Wounds of Betrayal
   turnin 94489
 
 step The Cult's True Plans
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 94568
   complete 94568 @66.2,76.5
 
@@ -738,17 +738,17 @@ step The Cult's True Plans
   turnin 94568
 
 step Desperate Times
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 92640
-  complete 92640 @66.2,76.5
+  complete 92640 @66.2,76.7
 
 step Desperate Times
   turnin 92640
 
 step Prepare for Battle
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   accept 93065
-  complete 93065 @66.1,76.6
+  complete 93065 @61.1,70.9
 
 step Prepare for Battle
   turnin 93065
@@ -795,7 +795,7 @@ step Alaana Stormwalker
 
 step The Great Outdoors
   tip Sit down (/sit) by Raan's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 2521
   accept 96101 only Skyborne
   complete 96101 @41.7,44.8 only Skyborne
@@ -841,10 +841,10 @@ step Camping 101: Tailoring
 
 step Camping 101: Skinning
   when skill Skinning 1
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 2521
   accept 97971 optional only Skyborne
-  complete 97971 @41.7,44.8 optional only Skyborne
+  complete 97971 @41.3,38.8 optional only Skyborne
 
 step Camping 101: Skinning
   when skill Skinning 1
@@ -936,10 +936,10 @@ step Camping 101: Alchemy
   turnin 97963 optional only Skyborne
 
 step Camping 101: Cooking
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 2521
   accept 96646 only Skyborne
-  complete 96646 @41.7,44.8 only Skyborne
+  complete 96646 @43.9,43.8 only Skyborne
 
 step Vulgara the Insatiable
   when group 93318

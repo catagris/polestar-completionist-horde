@@ -10,6 +10,11 @@ pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of le
 # Generated from the reference data: change the planner, not this file.
 # Routed 28 quests; estimated level at the end 22.4 (heuristic XP, class quests not counted).
 
+step The Lost Pages
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1454
+  complete 6504 @55.9,62.7
+
 step Zangen Stonehoof
   when onquest 1195
   zone map 1456
@@ -20,16 +25,15 @@ step Bashana Runetotem
   zone map 1456
   turnin 6561
 
+step The Lost Pages
+  when onquest 6504
+  zone map 1454
+  turnin 6504
+
 step WANTED
   zone map 1416
   accept 549 object 1763
   accept 498
-
-step Level 19
-  level 19
-
-step High Executor Darthalia
-  accept 527
 
 step Tarren Mill
   zone map 1424
@@ -38,7 +42,15 @@ step Tarren Mill
 step Tarren Mill
   getfp "Tarren Mill"
 
+step Level 19
+  zone map 1416
+  level 19
+
+step High Executor Darthalia
+  accept 527
+
 step Hillsbrad Farmhand and Farmer Getz
+  zone map 1424
   kill 2360 x6 quest 527.2
   kill 2403 x1 quest 527.4
 
@@ -91,10 +103,10 @@ step Forest Moss Creeper
 
 step Soothing Turtle Bisque
   when skill Cooking 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1416
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1424
   accept 7321 optional
-  complete 7321 @61.1,80.7 optional
+  complete 7321 @67.8,21.2 optional
 
 step Soothing Turtle Bisque
   when skill Cooking 1
@@ -279,6 +291,12 @@ step The Sacred Flame
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1456
   turnin 1195 optional
+
+step The Lost Pages
+  when onquest 6504
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1440
+  turnin 6504 optional
 
 step Blackfathom Villainy
   when onquest 6561

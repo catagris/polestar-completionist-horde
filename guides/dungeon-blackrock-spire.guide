@@ -14,10 +14,6 @@ step An Earnest Proposition
   zone map 1454
   accept 84155
 
-step Bodley's Unfortunate Fate
-  zone map 1454
-  accept 9032
-
 step An Earnest Proposition
   only Druid
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -119,10 +115,12 @@ step The Ancient Egg
   accept 4787
 
 step The Ancient Egg
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 4787 @66.99,22.36
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1425
+  complete 4787 @57.5,86.8
 
 step The Ancient Egg
+  zone map 1446
   turnin 4787
 
 step The God Hakkar
@@ -139,11 +137,65 @@ step The Lost Tablets of Mosh'aru
   accept 5065
 
 step The Lost Tablets of Mosh'aru
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 5065 @66.89,24.03
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
+  zone map 1423
+  complete 5065 @63.5,7.8
+
+step Anthion's Parting Words
+  only Shaman
+  when turnedin 9015
+  zone map 1423
+  accept 84192 optional
+
+step Anthion's Parting Words
+  only Priest
+  when turnedin 9015
+  zone map 1423
+  accept 84190 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when turnedin 9015
+  zone map 1423
+  accept 84188 optional
+
+step Anthion's Parting Words
+  only Druid
+  when turnedin 9015
+  zone map 1423
+  accept 84187 optional
 
 step The Lost Tablets of Mosh'aru
+  zone map 1446
   turnin 5065
+
+step Anthion's Parting Words
+  only Shaman
+  when onquest 84192
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84192 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Priest
+  when onquest 84190
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84190 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Hunter
+  when onquest 84188
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84188 @26.1,11.3 optional
+
+step Anthion's Parting Words
+  only Druid
+  when onquest 84187
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 84187 @26.1,11.3 optional
 
 step Pip Quickwit
   zone map 1427
@@ -417,11 +469,6 @@ step I See Alcaz Island In Your Future...
   zone map 1427
   accept 8970
 
-step Bodley's Unfortunate Fate
-  when onquest 9032
-  zone map 1427
-  turnin 9032
-
 step The Right Piece of Lord Valthalak's Amulet
   only Paladin,Shaman,Druid
   when turnedin 8985
@@ -496,58 +543,6 @@ step I See Alcaz Island In Your Future...
   zone map 1427
   turnin 8970
 
-step Anthion's Parting Words
-  only Druid
-  when turnedin 9015
-  zone map 1423
-  accept 84187 optional
-
-step Anthion's Parting Words
-  only Druid
-  when onquest 84187
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 84187 @26.1,11.3 optional
-
-step Anthion's Parting Words
-  only Hunter
-  when turnedin 9015
-  zone map 1423
-  accept 84188 optional
-
-step Anthion's Parting Words
-  only Hunter
-  when onquest 84188
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 84188 @26.1,11.3 optional
-
-step Anthion's Parting Words
-  only Priest
-  when turnedin 9015
-  zone map 1423
-  accept 84190 optional
-
-step Anthion's Parting Words
-  only Priest
-  when onquest 84190
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 84190 @26.1,11.3 optional
-
-step Anthion's Parting Words
-  only Shaman
-  when turnedin 9015
-  zone map 1423
-  accept 84192 optional
-
-step Anthion's Parting Words
-  only Shaman
-  when onquest 84192
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 84192 @26.1,11.3 optional
-
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
 step Snakestone of the Shadow Huntress
@@ -555,9 +550,3 @@ step Snakestone of the Shadow Huntress
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1452
   turnin 5306 optional
-
-step Bodley's Unfortunate Fate
-  when onquest 9032
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1427
-  turnin 9032 optional

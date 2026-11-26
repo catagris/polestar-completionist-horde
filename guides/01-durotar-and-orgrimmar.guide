@@ -317,10 +317,10 @@ step Minor Manifestation of Earth
   accept 1518
 
 step Lost in the Shadows
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1411
   accept 99123
-  complete 99123 @46.3,78.6
+  complete 99123 @51.4,79.3
 
 step Canaga Earthcaller
   only Shaman
@@ -350,7 +350,7 @@ step Ukor's Lost Pack
 
 step The Great Outdoors
   tip Sit down (/sit) by Brakk's Basic Campfire and stay seated until the Boosted Rest buff appears.
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1411
   accept 96604 only Orc,Troll
   complete 96604 @52.0,47.3 only Orc,Troll
@@ -434,10 +434,10 @@ step Camping 101: Alchemy
   complete 97899 @52.0,47.3 optional only Orc,Troll
 
 step Camping 101: Cooking
-  tip The reference data does not place this quest's objective: follow the quest text.
+  tip The reference data does not place this objective: the arrow leads to where it is usually done.
   zone map 1411
   accept 96655 only Orc,Troll
-  complete 96655 @52.0,47.3 only Orc,Troll
+  complete 96655 @51.1,42.5 only Orc,Troll
 
 step Gar'Thok
   turnin 825
