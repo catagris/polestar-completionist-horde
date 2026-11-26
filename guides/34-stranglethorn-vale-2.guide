@@ -1,10 +1,11 @@
 guide completionist-horde/34-stranglethorn-vale-2
-title 34 Stranglethorn Vale, visit 2 (34-60) (Completionist)
+title 34 Stranglethorn Vale, visit 2
 faction Horde
 levels 34-60
 category Leveling
+folder Completionist 31-40
 zone Stranglethorn Vale
-next completionist-horde/35-azshara
+next completionist-horde/35-swamp-of-sorrows-2
 pitch On along the line: Stranglethorn Vale, quests of level 34 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 26 quests; estimated level at the end 35.9 (heuristic XP, class quests not counted).
@@ -98,6 +99,24 @@ step Tip the Scales - Keefer's Angelfish
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 97065 direct optional
 
+step Craftsman's Writ: Dark Leather Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264044 x1 anywhere optional
+  collect 4252 x1 anywhere optional
+  turnin 94244 direct optional
+
+step Craftsman's Writ: Gnomish Universal Remote
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264035 x1 anywhere optional
+  collect 7506 x1 anywhere optional
+  turnin 94235 direct optional
+
+step Craftsman's Writ: Green Iron Gauntlets
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264026 x1 anywhere optional
+  collect 3485 x1 anywhere optional
+  turnin 94226 direct optional
+
 step Membership Card Renewal
   when turnedin 3639
   when skill Engineering 200
@@ -120,17 +139,6 @@ step Fool's Stout
   collect 4016 x12 anywhere optional
   turnin 1127 direct optional
 
-step The Pledge of Secrecy
-  when onquest 3642
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1434
-  complete 3642 @28.4,76.3 optional
-
-step The Pledge of Secrecy
-  when onquest 3642
-  zone map 1434
-  turnin 3642 optional
-
 step Arena Treasure Chest
   zone map 1434
   goto 30.5,47.9 "Arena Treasure Chest"
@@ -142,24 +150,16 @@ step Level 40
 step Whiskey Slim
   accept 580
 
-step Show Your Work
-  when available 3643
-  tip One of several exclusive quests; the route takes The Pledge of Secrecy (3638). This one shows for a character the game offers it to instead.
-  when turnedin 3642
-  when skill Engineering 200
-  zone map 1434
-  accept 3643 optional
-
-step Show Your Work
-  when onquest 3643
+step The Pledge of Secrecy
+  when onquest 3642
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1434
-  complete 3643 @28.4,76.3 optional
+  complete 3642 @28.4,76.3 optional
 
-step Show Your Work
-  when onquest 3643
+step The Pledge of Secrecy
+  when onquest 3642
   zone map 1434
-  turnin 3643 optional
+  turnin 3642 optional
 
 step Pupellyverbos Port
   zone map 1425
@@ -168,6 +168,14 @@ step Pupellyverbos Port
 step Fin Fizracket
   zone map 1434
   accept 348
+
+step Show Your Work
+  when available 3643
+  tip One of several exclusive quests; the route takes The Pledge of Secrecy (3638). This one shows for a character the game offers it to instead.
+  when turnedin 3642
+  when skill Engineering 200
+  zone map 1434
+  accept 3643 optional
 
 step Stranglethorn Fever
   when onquest 348
@@ -182,6 +190,17 @@ step Mokk the Savage
 
 step "Sea Wolf" MacKinley
   accept 2872
+
+step Show Your Work
+  when onquest 3643
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1434
+  complete 3643 @28.4,76.3 optional
+
+step Show Your Work
+  when onquest 3643
+  zone map 1434
+  turnin 3643 optional
 
 step Captain Hecklebury Smotts
   when group 8551
@@ -229,18 +248,6 @@ step The Captain's Cutlass
   when onquest 8553
   zone map 1434
   turnin 8553 optional
-
-step Level 60
-  zone map 1434
-  level 60
-
-step In Demand - Blackrock Legal Records
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 96075
-  complete 96075 @28.5,75.9
-
-step In Demand - Blackrock Legal Records
-  turnin 96075
 
 step Facing Negolash
   when available 8554
@@ -326,6 +333,12 @@ step Avast Ye, Admiral!
 step Short John Mithril
   zone map 1434
   turnin 7810
+
+step Craftsman's Writ: Lesser Troll's Blood Elixir
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264017 x1 anywhere optional
+  collect 3388 x1 anywhere optional
+  turnin 94217 direct optional
 
 step Arena Grandmaster
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -420,9 +433,8 @@ step Kin'weelay
   turnin 591
 
 step Kin'weelay
-  when turnedin 591
   zone map 1434
-  accept 592 optional
+  accept 592
 
 step Filling the Soul Gem
   when onquest 592
@@ -432,13 +444,17 @@ step Filling the Soul Gem
   turnin 593 direct optional
 
 step Yenniku
-  when onquest 592
   zone map 1434
   collect 3913 x1 quest 592.1
 
 step Nimboya
-  when onquest 592
   turnin 592
+
+step Craftsman's Writ: Colorful Kilt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264053 x1 anywhere optional
+  collect 10048 x1 anywhere optional
+  turnin 94253 direct optional
 
 step Stoley
   zone map 1446

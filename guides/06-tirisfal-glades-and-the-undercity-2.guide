@@ -1,8 +1,9 @@
 guide completionist-horde/06-tirisfal-glades-and-the-undercity-2
-title 06 Tirisfal Glades and the Undercity, visit 2 (8-12) (Completionist)
+title 06 Tirisfal Glades and the Undercity, visit 2
 faction Horde
 levels 8-12
 category Leveling
+folder Completionist 01-10
 zone Tirisfal Glades
 next completionist-horde/07-mulgore-and-thunder-bluff-2
 pitch On along the line: Tirisfal Glades and the Undercity, quests of level 8 to 12.
@@ -73,8 +74,9 @@ step Mangy Duskbat
   zone map 1420
   collect 3264 x6 quest 376.2
 
-step Rattlecage Skeleton
+step Rattlecage Skeleton and Injured Deathguard
   kill 1890 x12 quest 3901.1
+  kill 259377 x5 quest 90902.1 only Paladin,Undead
 
 step Young Scavenger
   collect 3265 x6 quest 376.1
@@ -83,6 +85,7 @@ step Novice Elreth
   turnin 376
   accept 6395
   turnin 3901
+  turnin 90902 only Paladin,Undead
   accept 98389
   accept 3902
   accept 380
@@ -97,50 +100,47 @@ step Night Web Spider and Webbed Forsaken
   kill 1505 x8 quest 380.2
   kill 271961 x6 quest 98389.1
 
-step Marla's Grave and Injured Deathguard
+step Marla's Grave
   interact 178090 quest 6395.1
-  kill 259377 x5 quest 90902.1 only Paladin,Undead
 
 step Deathguard Saltain
   turnin 3902
-  turnin 90902 only Paladin,Undead
   turnin 98389
   turnin 6395
   turnin 380
   accept 381
 
-step Continue Your Training
-  only Paladin,Undead
-  zone map 1420
-  accept 91209 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 91209 @31.0,66.2 optional
-
-step Coming to Terms
-  only Paladin,Undead
-  zone map 1420
-  accept 91208 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 91208 @31.0,66.2 optional
-
 step Scarlet Convert
-  zone map 1420
   collect 3266 x12 quest 381.1
 
 step Executor Arren
   turnin 381
   accept 382
 
+step Meven Korgal
+  collect 2885 x1 quest 382.1
+
+step Continue Your Training
+  only Paladin,Undead
+  tip A class quest, done from the quest text: the reference data does not route it.
+  zone map 1420
+  accept 91209 optional
+  complete 91209 @31.0,66.2 optional
+
+step Coming to Terms
+  only Paladin,Undead
+  tip A class quest, done from the quest text: the reference data does not route it.
+  zone map 1420
+  accept 91208 optional
+  complete 91208 @31.0,66.2 optional
+
 step Coming to Terms
   only Paladin,Undead
   zone map 1420
   turnin 91208 optional
 
-step Meven Korgal
-  zone map 1420
-  collect 2885 x1 quest 382.1
-
 step Executor Arren
+  zone map 1420
   turnin 382
   accept 383
   accept 96656 only Undead
@@ -151,6 +151,17 @@ step Deathguard Simmer
 step Tirisfal Pumpkin
   collect 2846 x10 quest 365.1
 
+step Gordo
+  accept 5481
+
+step Gloom Weed
+  collect 12737 x3 quest 5481.1
+
+step Junior Apothecary Holland
+  sethome "Gallows' End Tavern"
+  turnin 5481
+  accept 5482
+
 step Deathguard Bartholomew
   accept 86784
 
@@ -159,11 +170,16 @@ step Continue Your Training
   zone map 1420
   turnin 91209 optional
 
-step Dry Branch
+step Doom Weed
   zone map 1420
+  collect 13702 x10 quest 5482.1
+
+step Dry Branch
   collect 279991 x6 quest 86784.1
 
-step Deathguard Dillinger
+step Junior Apothecary Holland
+  turnin 5482
+  accept 99142
   accept 404
 
 step Ravaged Corpse
@@ -274,9 +290,8 @@ step Camping 101: Cooking
   accept 96658
   complete 96658 @57.3,55.5
 
-step Deathguard Linnea
-  accept 356
-  accept 97558
+step Tomb Weed
+  collect 286204 x5 quest 99142.1
 
 step Camping 101: Leatherworking
   when skill Leatherworking 1
@@ -288,19 +303,8 @@ step Camping 101: Skinning
   zone map 1420
   turnin 97960 optional
 
-step Vampiric Duskbat
-  zone map 1420
-  collect 278242 x8 quest 97558.1
-
-step Cursed Darkhound
-  collect 278243 x6 quest 97558.2
-
-step Bleeding Horror and Wandering Spirit
-  zone map 1422
-  kill 1529 x8 quest 356.1
-  kill 1532 x8 quest 356.2
-
 step Camping 101: Cooking
+  zone map 1422
   turnin 96658
 
 step Camping 101: Alchemy
@@ -323,29 +327,12 @@ step Camping 101: Herbalism
   zone map 1420
   turnin 97957 optional
 
-step Deathguard Linnea
-  zone map 1420
-  turnin 356
-
-step Deathguard Linnea
-  when group 99156
-  zone map 1422
-  accept 99156
-
-step Apothecary Johaan
-  zone map 1422
-  turnin 365
-  accept 367
-  accept 407
-  accept 95314
-  turnin 383
-  accept 427
-  accept 99141
-  accept 398
-
 step Gretchen Dedmar
   zone map 1420
   accept 375
+
+step Vampiric Duskbat
+  collect 2876 x5 quest 375.1
 
 step Coleman Farthing
   zone map 1422
@@ -353,77 +340,41 @@ step Coleman Farthing
 
 step Coleman Farthing
   accept 354
-  accept 358
-  turnin 407
-
-step Deathguard Kristof
-  collect 286201 x1 quest 99141.2
-
-step Vampiric Duskbat
-  collect 2876 x5 quest 375.1
-
-step Bottle
-  zone map 1420
-  collect 268801 x8 quest 95314.1
-
-step Scarlet Warrior
-  kill 1535 x10 quest 427.1
-
-step Vile Fin Minor Oracle
-  collect 278244 x3 quest 97558.3
-
-step Gordo
-  collect 286202 x1 quest 99141.3
-
-step Devlin Agamand
-  collect 2831 x1 quest 362.1
-
-step Thurman Agamand
-  zone map 1422
-  collect 2830 x1 quest 354.3
-
-step Gregor Agamand
-  collect 2829 x1 quest 354.1
 
 step Nissa Agamand
   collect 2828 x1 quest 354.2
 
-step Rot Hide Graverobber
-  kill 1941 x8 quest 358.1
-  collect 2834 x8 quest 358.3
+step Gregor Agamand
+  collect 2829 x1 quest 354.1
 
-step Rot Hide Mongrel and Maggot Eye
-  kill 1675 x5 quest 358.2
-  collect 3635 x1 quest 398.1
+step Thurman Agamand
+  collect 2830 x1 quest 354.3
 
-step Ravenous Darkhound
-  collect 2858 x5 quest 367.1
+step Devlin Agamand
+  collect 2831 x1 quest 362.1
 
-step Riptear
-  when group 99156
-  tip Rear Guard Patrol is group work: elites. Grouping up is advised.
-  zone map 1422
-  collect 286326 x1 quest 99156.1
-
-step Deathguard Dillinger
-  zone map 1422
-  collect 286200 x1 quest 99141.1
-
-step Deathguard Dillinger
+step Junior Apothecary Holland
+  turnin 99142
   turnin 404
   accept 426
-  turnin 95314
-  turnin 367
-  accept 368
+
+step Carolai Anise
+  accept 95314
+  turnin 365
+  accept 367
+  accept 407
 
 step Executor Zygand
-  turnin 398
-  turnin 427
-  turnin 99141
-  accept 370
-  accept 374
+  zone map 1435
+  turnin 383
+  accept 427
+  accept 99141
+  accept 398
+  accept 358
+  turnin 407
 
 step Coarse Thread
+  zone map 1422
   collect 2320 x1 quest 375.2
 
 step Coleman Farthing
@@ -432,21 +383,51 @@ step Coleman Farthing
   accept 355
   turnin 375
 
-step Scarlet Zealot
-  kill 1537 x3 quest 370.2
-  collect 2875 x10 quest 374.1
+step Ravenous Darkhound
+  collect 2858 x5 quest 367.1
 
-step Vile Fin Puddlejumper
-  zone map 1420
-  collect 2859 x5 quest 368.1
+step Deathguard Kristof
+  zone map 1435
+  collect 286201 x1 quest 99141.2
 
-step Cracked Skull Soldier
-  collect 3162 x5 quest 426.1
+step Gordo
+  collect 286202 x1 quest 99141.3
+
+step Bottle
+  collect 268801 x8 quest 95314.1
+
+step Scarlet Warrior
+  kill 1535 x10 quest 427.1
 
 step Darkeye Bonecaster
   collect 3163 x3 quest 426.2
 
-step Magistrate Sevren
+step Cracked Skull Soldier
+  collect 3162 x5 quest 426.1
+
+step Rot Hide Mongrel and Maggot Eye
+  kill 1675 x5 quest 358.2
+  collect 3635 x1 quest 398.1
+
+step Rot Hide Graverobber
+  kill 1941 x8 quest 358.1
+  collect 2834 x8 quest 358.3
+
+step Deathguard Dillinger
+  collect 286200 x1 quest 99141.1
+
+step Deathguard Dillinger
+  turnin 426
+  turnin 95314
+  turnin 367
+  accept 368
+  turnin 398
+  turnin 427
+  turnin 99141
+  accept 370
+
+step Deathguard Burgess
+  accept 374
   turnin 355
   turnin 358
   accept 359
@@ -458,19 +439,13 @@ step Wailing Ancestor, Rotting Ancestor and Captain Dargol
   kill 1530 x8 quest 408.2
   collect 3082 x1 quest 408.3
 
-step Shelene Rhobart
-  turnin 97558
-  turnin 359
-  accept 360
+step Vile Fin Puddlejumper
+  collect 2859 x5 quest 368.1
 
 step Deathguard Linnea
-  when group 99156
   zone map 1420
-  turnin 99156
-
-step Magistrate Sevren
-  zone map 1420
-  turnin 360
+  turnin 359
+  accept 360
 
 step Gallows' End Tavern
   sethome "Gallows' End Tavern"

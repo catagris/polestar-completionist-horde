@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-scarlet-monastery
-title Scarlet Monastery (Completionist)
+title Scarlet Monastery
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 30-42
 zone Tirisfal Glades
 next completionist-horde/27-odd-jobs-in-the-eastern-kingdoms-2
@@ -32,7 +33,7 @@ step Varimathras
   accept 1048
 
 step Sage Truthseeker
-  only Orc,Tauren,Troll
+  only Orc,Tauren,Troll,Skyborne
   zone map 1456
   accept 1049
 
@@ -58,9 +59,13 @@ step The Horn of Xelthos
 
 step The Horn of Xelthos
   only Rogue
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   zone map 1421
-  turnin 78307 direct
+  accept 78307
+
+step The Horn of Xelthos
+  only Rogue
+  zone map 1421
+  turnin 78307
 
 step Dead Drop
   only Rogue
@@ -73,7 +78,6 @@ step Inside Scarlet Monastery
   complete 1051 @85.2,31.3
   complete 1113 @85.2,31.3
   complete 1160 @85.2,31.3
-  complete 1048 @85.2,31.3
 
 step Inside Scarlet Monastery
   only Rogue
@@ -81,7 +85,7 @@ step Inside Scarlet Monastery
   complete 78676 @85.2,31.3
 
 step Inside Scarlet Monastery
-  only Orc,Tauren,Troll
+  only Orc,Tauren,Troll,Skyborne
   zone map 1420
   complete 1049 @85.2,31.3
 
@@ -93,6 +97,20 @@ step Dead Drop
   only Rogue
   zone map 1421
   turnin 78676
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  accept 78699
+
+step Inside Scarlet Monastery
+  zone map 1420
+  complete 1048 @85.2,31.3
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  turnin 78699
 
 step Rituals of Power
   only Mage

@@ -1,8 +1,9 @@
 guide completionist-horde/28-badlands
-title 28 Badlands (35-50) (Completionist)
+title 28 Badlands
 faction Horde
 levels 35-50
 category Leveling
+folder Completionist 21-30
 zone Badlands
 next completionist-horde/29-odd-jobs-in-kalimdor-2
 pitch On along the line: Badlands, quests of level 35 to 50.
@@ -46,6 +47,12 @@ step Power Stones
   tip For Uldaman: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 2418 optional
 
+step Craftsman's Writ: Mageweave Bag
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264104 x1 anywhere optional
+  collect 10050 x1 anywhere optional
+  turnin 94304 direct optional
+
 step Feral Crag Coyote
   collect 6166 x30 quest 1419.1
 
@@ -67,11 +74,17 @@ step Lotwil Veriatus
   accept 710
   accept 713
 
+step Craftsman's Writ: Frost Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1418
+  collect 264056 x1 anywhere optional
+  collect 6050 x1 anywhere optional
+  turnin 94256 direct optional
+
 step Lesser Rock Elemental
   collect 4626 x10 quest 710.1
 
 step Level 40
-  zone map 1418
   level 40
 
 step Gorn
@@ -245,6 +258,25 @@ step Mirage Mirror
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   zone map 1418
   turnin 97821 direct @54.6,12.9 map 1418
+
+step Craftsman's Writ: Steel Plate Helm
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1418
+  collect 264068 x1 anywhere optional
+  collect 7922 x1 anywhere optional
+  turnin 94268 direct optional
+
+step Craftsman's Writ: Mechanical Dragonling
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264080 x1 anywhere optional
+  collect 4396 x1 anywhere optional
+  turnin 94280 direct optional
+
+step Craftsman's Writ: Comfortable Leather Hat
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264092 x1 anywhere optional
+  collect 8174 x1 anywhere optional
+  turnin 94292 direct optional
 
 step Owen Thadd
   zone map 1458

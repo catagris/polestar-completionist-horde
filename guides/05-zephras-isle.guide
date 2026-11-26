@@ -1,8 +1,9 @@
 guide completionist-horde/05-zephras-isle
-title 05 Zephras Isle (1-13) (Completionist)
+title 05 Zephras Isle
 faction Horde
 levels 1-13
 category Leveling
+folder Completionist 01-10
 zone map 2521
 next completionist-horde/01-durotar-and-orgrimmar when !turnedin 829
 next completionist-horde/03-mulgore-and-thunder-bluff when !turnedin 765
@@ -10,7 +11,7 @@ next completionist-horde/04-tirisfal-glades-and-the-undercity when !turnedin 408
 next completionist-horde/06-tirisfal-glades-and-the-undercity-2
 pitch Where Skyborne start. The other starting zones follow, then the route goes on by level.
 # Generated from the reference data: change the planner, not this file.
-# Routed 77 quests; estimated level at the end 17.3 (heuristic XP, class quests not counted).
+# Routed 78 quests; estimated level at the end 17.3 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N.
 
 step Shen'dar Village
@@ -25,68 +26,62 @@ step Ailee Farheart
 step Juvenile Vuldren
   kill 250873 x8 quest 92461.1
 
-step Elatrell Featherlight
-  accept 92462
-
 step Rorian the Dayseeker
   turnin 92461
+  accept 92462
 
 step Level 2
   zone map 2521
   level 2
 
-step Yala Windwatcher
-  accept 92465
-
-step Al'Aketh Convert and Roiling Winds
-  kill 251160 x7 quest 92465.1
-  kill 251143 x6 quest 92465.2
-
-step Yala Windwatcher
-  turnin 92465
-
-step Myriaal Mistwake
-  accept 92474 only Skyborne
-
-step Rorian the Dayseeker
-  complete 92474 @43.7,24.1 map 2521 only Skyborne
-  turnin 92474 only Skyborne
-
-step Level 3
-  level 3
-
-step Windshaper Boro
-  only Shaman
-  zone map 2521
-  accept 92466 only Skyborne
-
 step Ventaari Brightwish
-  zone map 2521
   accept 92598 only Skyborne
 
 step Rorian the Dayseeker
   accept 92482 only Hunter
 
 step Rorian the Dayseeker
+  accept 92483 only Rogue
+
+step Rorian the Dayseeker
   accept 92484 only Shaman
 
 step Rorian the Dayseeker
-  accept 92532 only Warrior
+  accept 92485 only Druid
+
+step Xyton Silverwind
+  only Druid
+  zone map 2521
+  turnin 92485
 
 step Rorian the Dayseeker
-  accept 92485 only Druid
+  zone map 2521
+  accept 92532 only Warrior
+
+step Blademaster Ren
+  only Warrior
+  zone map 2521
+  turnin 92532
+
+step Dalia the Collector
+  zone map 2521
+  accept 93552
+
+step Myriaal Mistwake
+  accept 92474 only Skyborne
+
+step Hanaa Nightwind
+  accept 92544
 
 step Windshaper Boro
   only Shaman
   zone map 2521
   turnin 92484
 
-step Rorian the Dayseeker
+step Akeri Duskblade
+  only Rogue
   zone map 2521
-  accept 92483 only Rogue
-
-step Yala Windwatcher
-  accept 92469
+  turnin 92483
 
 step Tai'ree Farsight
   only Hunter
@@ -97,51 +92,80 @@ step Rorian the Dayseeker
   zone map 2521
   accept 92464
 
-step Rorian the Dayseeker
-  turnin 92469
-  accept 93552
-
-step Blademaster Ren
-  only Warrior
-  zone map 2521
-  turnin 92532
-
-step Akeri Duskblade
-  only Rogue
-  zone map 2521
-  turnin 92483
-
-step Yala Windwatcher
-  zone map 2521
-  turnin 92464
-
-step Al'Aketh Convert and Elemental Convergence
-  collect 251924 x1 quest 92466.1 only Shaman
-  interact 460001 quest 92598.1 only Skyborne
-
-step Pesky Cirrusfly
-  kill 251169 x8 quest 92462.1
-
-step Hanaa Nightwind
-  accept 92544
-
-step Al'Aketh Neophyte
-  kill 251448 x4 quest 92544.2
-
 step Raw Windstone
   collect 258772 x15 quest 93552.1
 
 step Malduko Cloudcrush
   kill 256935 x1 quest 92544.3
 
-step Al'Aketh Brute
+step Al'Aketh Brute and Al'Aketh Neophyte
   kill 251145 x6 quest 92544.1
+  kill 251448 x4 quest 92544.2
+
+step Pesky Cirrusfly
+  kill 251169 x8 quest 92462.1
+
+step Yala Windwatcher
+  turnin 92464
+  accept 92465
+
+step Al'Aketh Convert and Elemental Convergence
+  kill 251160 x7 quest 92465.1
+  interact 460001 quest 92598.1 only Skyborne
+
+step Roiling Winds
+  kill 251143 x6 quest 92465.2
+
+step Dalia the Collector
+  turnin 93552
+  turnin 92462
+  accept 92463
+  turnin 92598 only Skyborne
+
+step Windshaper Boro
+  only Shaman
+  zone map 2521
+  accept 92466 only Skyborne
+
+step Rorian the Dayseeker
+  zone map 2521
+  complete 92474 @43.7,24.1 map 2521 only Skyborne
+  turnin 92474 only Skyborne
+  accept 92471
+  turnin 92471
+  accept 92470
+  accept 92473
+
+step Ursera Scavenger
+  kill 250937 x8 quest 92470.1
+
+step Urs'anah
+  collect 252665 x1 quest 92470.2
 
 step Hanaa Nightwind
   turnin 92544
 
-step Ventaari Brightwish
-  turnin 92598 only Skyborne
+step Scrawny Ursera
+  collect 251918 x6 quest 92473.1
+
+step Cirrusfly Queen
+  kill 251404 x1 quest 92463.1
+
+step Yala Windwatcher
+  turnin 92465
+  accept 92469
+
+step Al'Aketh Convert
+  only Shaman
+  zone map 2521
+  collect 251924 x1 quest 92466.1 only Skyborne
+
+step Elatrell Featherlight
+  zone map 2521
+  turnin 92463
+  turnin 92470
+  accept 92472
+  accept 96638 only Skyborne
 
 step Windshaper Boro
   only Shaman
@@ -149,14 +173,10 @@ step Windshaper Boro
   turnin 92466 only Skyborne
   accept 92467
 
-step Dalia the Collector
+step Rorian the Dayseeker
   zone map 2521
-  turnin 93552
-  turnin 92462
-  accept 92463
-
-step Cirrusfly Queen
-  kill 251404 x1 quest 92463.1
+  turnin 92469
+  turnin 92473
 
 step Minor Manifestation of Earth
   only Shaman
@@ -164,46 +184,13 @@ step Minor Manifestation of Earth
   turnin 92467
   accept 92468
 
-step Elatrell Featherlight
-  zone map 2521
-  turnin 92463
-
 step Windshaper Boro
   only Shaman
   zone map 2521
   turnin 92468
 
-step Rorian the Dayseeker
-  zone map 2521
-  accept 92471
-  turnin 92471
-  accept 92470
-
-step Xyton Silverwind
-  only Druid
-  zone map 2521
-  turnin 92485
-
-step Ursera Scavenger
-  zone map 2521
-  kill 250937 x8 quest 92470.1
-
-step Urs'anah
-  collect 252665 x1 quest 92470.2
-
-step Valreaa Valewind
-  accept 92473
-  turnin 92470
-  accept 92472
-  accept 96638 only Skyborne
-
-step Scrawny Ursera
-  collect 251918 x6 quest 92473.1
-
-step Valreaa Valewind
-  turnin 92473
-
 step Constable Aonda
+  zone map 2521
   turnin 92472
 
 step Nyalah Brightfire
@@ -246,8 +233,16 @@ step Vayn Moongaze
   zone map 2521
   accept 93165
 
-step Al'Aketh Stormchaser
+step Al'Aketh Footsoldier
   collect 258771 x5 quest 93165.1
+
+step Vayn Moongaze
+  turnin 93165
+
+step More Al'Aketh Ears
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 258771 x1 anywhere optional
+  turnin 93459 direct optional
 
 step Elegael Thornpaw
   accept 94487
@@ -257,12 +252,9 @@ step A Sacrifice in Vain
   zone map 2521
   turnin 94493 optional
 
-step Al'Aketh Stormchaser
+step Al'Aketh Footsoldier
   zone map 2521
   collect 265141 x1 quest 94487.1
-
-step Elegael Thornpaw
-  turnin 94487
 
 step Ealaane Nimbuswalker
   accept 94896
@@ -282,25 +274,16 @@ step Elegael Thornpaw
 step Elegael Thornpaw
   accept 94485
 
-step Lady's Tear Moss
-  collect 265105 x8 quest 94485.1
-
 step Shadowgale Shriekling
   collect 265140 x20 quest 94486.1
 
-step Vayn Moongaze
-  turnin 93165
-
-step More Al'Aketh Ears
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 258771 x1 anywhere optional
-  turnin 93459 direct optional
+step Zephyrseed Cone and Lady's Tear Moss
+  collect 265105 x8 quest 94485.1
 
 step Elegael Thornpaw
   turnin 94485
   turnin 94486
-
-step Elegael Thornpaw
+  turnin 94487
   accept 94488
 
 step Commander Haalien
@@ -308,9 +291,6 @@ step Commander Haalien
 
 step Elegael Thornpaw
   turnin 94488
-
-step Raan Wildwind
-  turnin 96638 only Skyborne
 
 step Ealaane Nimbuswalker
   turnin 93161
@@ -323,6 +303,9 @@ step Ancient Sword
 
 step Ealaane Nimbuswalker
   turnin 97029
+
+step Raan Wildwind
+  turnin 96638 only Skyborne
 
 step Welcome to Shen'dar Village
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -392,6 +375,15 @@ step Constable Aonda
   turnin 92528
 
 step Constable Aonda
+  accept 92551
+
+step Galemender Delanea
+  collect 252760 x10 quest 92551.1
+
+step Constable Aonda
+  turnin 92551
+
+step Constable Aonda
   accept 92550
 
 step Al'Aketh Stormcaller and Living Lightning
@@ -418,10 +410,12 @@ step Teeri Wellwind
   zone map 2521
   accept 92516
 
-step Hippogryph Protector and Hippogryph Matriarch
+step Hippogryph Matriarch
   zone map 1432
-  kill 251284 x6 quest 92516.2
   kill 251261 x1 quest 92516.3
+
+step Hippogryph Protector
+  kill 251284 x6 quest 92516.2
 
 step Hippogryph Youth
   kill 251291 x8 quest 92516.1
@@ -552,7 +546,7 @@ step Strange Hermit
 step Strange Hermit
   accept 93160
 
-step Zephyrseed Cone
+step Zephyrseed Cone and Lady's Tear Moss
   collect 257128 x1 quest 93160.1
 
 step Strange Hermit
@@ -583,10 +577,10 @@ step Constable Aonda
 step Constable Aonda
   accept 93948
 
-step Ealaane Nimbuswalker
+step Talaanis Shadowsong
   turnin 93948
 
-step Ealaane Nimbuswalker
+step Talaanis Shadowsong
   accept 93949
 
 step Skyhopper
@@ -598,10 +592,10 @@ step Valennia Stormfist
 step Constable Aonda
   accept 92579
 
-step Ealaane Nimbuswalker
+step Talaanis Shadowsong
   turnin 92579
 
-step Ealaane Nimbuswalker
+step Talaanis Shadowsong
   accept 92700 only Tauren
 
 step Ayessa Dawnsinger
@@ -614,6 +608,15 @@ step A Grand Adventure
 
 step A Grand Adventure
   turnin 92708
+
+step Ayessa Dawnsinger
+  accept 93736
+
+step Wind Hollow
+  collect 262357 x10 quest 93736.1
+
+step Endaria Mistgaze
+  turnin 93736
 
 step Ayessa Dawnsinger
   accept 93735
@@ -647,10 +650,10 @@ step Ayessa Dawnsinger
 step Ayessa Dawnsinger
   accept 92871
 
-step Valennia Stormfist
+step Talaanis Shadowsong
   turnin 92871
 
-step Valennia Stormfist
+step Talaanis Shadowsong
   accept 93320
 
 step Yorana Windyreed
@@ -704,20 +707,11 @@ step Talaanis Shadowsong
 step Ayessa Dawnsinger
   accept 93740
 
-step Al'Aketh Stormchaser
+step Al'Aketh Footsoldier
   collect 255658 x10 quest 93740.1
 
 step Ayessa Dawnsinger
   turnin 93740
-
-step Ayessa Dawnsinger
-  accept 93736
-
-step Wind Hollow
-  collect 262357 x10 quest 93736.1
-
-step Endaria Mistgaze
-  turnin 93736
 
 step The Anchors of Zephras
   tip The reference data does not place this quest's objective: follow the quest text.

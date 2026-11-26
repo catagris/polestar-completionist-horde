@@ -1,14 +1,15 @@
 guide completionist-horde/17-thousand-needles
-title 17 Thousand Needles (25-38) (Completionist)
+title 17 Thousand Needles
 faction Horde
 levels 25-38
 category Leveling
+folder Completionist 11-20
 zone Thousand Needles
 next completionist-horde/dungeon-gnomeregan
 next completionist-horde/18-dustwallow-marsh
 pitch On along the line: Thousand Needles, quests of level 25 to 38.
 # Generated from the reference data: change the planner, not this file.
-# Routed 43 quests; estimated level at the end 28.3 (heuristic XP, class quests not counted).
+# Routed 40 quests; estimated level at the end 28.1 (heuristic XP, class quests not counted).
 
 step Arch Druid Hamuul Runetotem
   when onquest 3369
@@ -33,6 +34,7 @@ step Belgrom Rockmaul
   when onquest 1145
   zone map 1454
   turnin 1145
+  turnin 1184
 
 step Belgrom Rockmaul
   zone map 1454
@@ -232,9 +234,8 @@ step Dorn Plainstalker
   turnin 1151
 
 step Dorn Plainstalker
-  when turnedin 1151
   zone map 1441
-  accept 1152 optional
+  accept 1152
 
 step Kravel Koalbeard
   accept 1110
@@ -242,6 +243,36 @@ step Kravel Koalbeard
   accept 5762
   accept 1105
   accept 1104
+
+step Craftsman's Writ: Greater Adept's Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264054 x1 anywhere optional
+  collect 6264 x1 anywhere optional
+  turnin 94254 direct optional
+
+step Craftsman's Writ: Barbaric Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264045 x1 anywhere optional
+  collect 4254 x1 anywhere optional
+  turnin 94245 direct optional
+
+step Craftsman's Writ: Big Bronze Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264036 x1 anywhere optional
+  collect 4380 x1 anywhere optional
+  turnin 94236 direct optional
+
+step Craftsman's Writ: Big Bronze Knife
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264027 x1 anywhere optional
+  collect 3848 x1 anywhere optional
+  turnin 94227 direct optional
+
+step Craftsman's Writ: Elixir of Defense
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264018 x1 anywhere optional
+  collect 8951 x1 anywhere optional
+  turnin 94218 direct optional
 
 step Scorpid Reaver
   collect 5794 x6 quest 1104.1
@@ -322,37 +353,17 @@ step Blueleaf Tubers
   accept 1221 optional
 
 step Braug Dimspirit
-  when turnedin 1152
-  zone map 1442
-  accept 1154
-
-step Braug Dimspirit
-  when onquest 1152
   zone map 1442
   turnin 1152
+  accept 1154
 
 step The Legacy of the Aspects
-  when turnedin 1152
   zone map 1440
   collect 5860 x1 quest 1154.1
 
 step Braug Dimspirit
-  when turnedin 1154
-  zone map 1442
-  accept 6627
-
-step Braug Dimspirit
-  when turnedin 1152
   zone map 1442
   turnin 1154
-
-step Braug Dimspirit
-  when turnedin 6627
-  accept 1159
-
-step Braug Dimspirit
-  when turnedin 1154
-  turnin 6627
 
 step Moktar Krin
   zone map 1441
@@ -364,21 +375,12 @@ step Silithid Searcher
 
 step Silithid Hive Drone
   kill 4133 x5 quest 1147.2
-  accept 1148 item 5877 -- Drops from Silithid Hive Drone
-  collect 5855 x1 quest 1148.1
-  collect 5854 x5 quest 1148.2
-  collect 5853 x3 quest 1148.3
 
 step Silithid Invader
   kill 4131 x5 quest 1147.3
 
 step Moktar Krin
   turnin 1147
-
-step Korran
-  zone map 1413
-  turnin 1148
-  accept 1184
 
 step Nataka Longhorn
   zone map 1443
@@ -401,6 +403,18 @@ step Owen Thadd
   zone map 1458
   turnin 79947
 
+step Test of Lore
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1442
+  accept 6627
+  complete 6627 @78.8,45.7
+
+step Test of Lore
+  turnin 6627
+
+step Braug Dimspirit
+  accept 1159
+
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
 step The Book of Ur
@@ -420,6 +434,12 @@ step The Swarm Grows
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
   turnin 1145 optional
+
+step Parts of the Swarm
+  when onquest 1184
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 1184 optional
 
 step In Nightmares
   when onquest 3369

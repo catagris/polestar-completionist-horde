@@ -1,8 +1,9 @@
 guide completionist-horde/22-desolace
-title 22 Desolace (31-45) (Completionist)
+title 22 Desolace
 faction Horde
 levels 31-45
 category Leveling
+folder Completionist 21-30
 zone Desolace
 next completionist-horde/23-stranglethorn-vale
 pitch On along the line: Desolace, quests of level 31 to 45.
@@ -88,12 +89,8 @@ step Felgur Twocuts
 step Khan Dez'hepah
   collect 6066 x1 quest 1365.1
 
-step Felgur Twocuts
-  turnin 1365
-  accept 1366
-
-step Gelkis Guardian
-  collect 254432 x5 quest 93225.1
+step Rigger Gizelton
+  accept 5943
 
 step Level 33
   level 33
@@ -101,8 +98,17 @@ step Level 33
 step Bibbly F'utzbuckle
   accept 5501
 
-step Kodo Bones
-  collect 13703 x10 quest 5501.1
+step Craftsman's Writ: Shadoweave Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264105 x1 anywhere optional
+  collect 10023 x1 anywhere optional
+  turnin 94305 direct optional
+
+step Craftsman's Writ: Advanced Target Dummy
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264081 x1 anywhere optional
+  collect 4392 x1 anywhere optional
+  turnin 94281 direct optional
 
 step Level 36
   level 36
@@ -118,12 +124,20 @@ step Lost Shipping Crate
   zone map 2548
   turnin 94895 optional
 
+step Craftsman's Writ: Inlaid Mithril Cylinder
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1443
+  collect 264069 x1 anywhere optional
+  collect 9060 x1 anywhere optional
+  turnin 94269 direct optional
+
+step Kodo Bones
+  collect 13703 x10 quest 5501.1
+
 step Level 34
-  zone map 2548
   level 34
 
 step Hornizz Brimbuzzle
-  zone map 1443
   accept 6134
 
 step Magrami Spectre
@@ -132,7 +146,26 @@ step Magrami Spectre
 step Hornizz Brimbuzzle
   turnin 6134
 
+step Gelkis Guardian
+  collect 254432 x5 quest 93225.1
+
+step Melizza Brimbuzzle
+  accept 6132
+
+step Gurda Wildmane
+  turnin 93225
+  accept 94872 either
+  accept 94873 either
+  turnin 1365
+  accept 1366
+
+step Buying Friendship: Gelkis
+  when onquest 94873
+  zone map 1443
+  turnin 94873
+
 step Gelkis Windchaser
+  zone map 1443
   collect 6067 x15 quest 1366.1
 
 step Uthek the Wise
@@ -153,27 +186,15 @@ step Stealing Supplies
   zone map 1443
   turnin 1370 optional
 
-step Melizza Brimbuzzle
-  zone map 1443
-  accept 6132
-
 step Hornizz Brimbuzzle
+  zone map 1443
   complete 6132 @40.1,61.6 map 1443
   turnin 6132
 
 step Felgur Twocuts
   turnin 1366
-  turnin 93225
-  accept 94872 either
-  accept 94873 either
-
-step Buying Friendship: Gelkis
-  when onquest 94873
-  zone map 1443
-  turnin 94873
 
 step Nataka Longhorn
-  zone map 1443
   accept 5386
 
 step Roon Wildmane
@@ -191,64 +212,16 @@ step Taiga Wisemane
   accept 5581
   turnin 97265
 
-step Rigger Gizelton
-  accept 5943
-
-step Ongeku
-  when turnedin 1370
-  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
-  zone map 1443
-  accept 1373 optional
-
-step Ongeku
-  when onquest 1373
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1443
-  complete 1373 @36.2,79.2 optional
-
-step Ongeku
-  when onquest 1373
-  zone map 1443
-  turnin 1373 optional
-
 step Demon Portal Guardian
-  zone map 1443
   kill 11937 x6 quest 5581.1
-
-step Smeed Scrabblescrew
-  turnin 5561
-  complete 5943 @55.7,67.8 map 1443
-  turnin 5943
-
-step Nataka Longhorn
-  turnin 5386
-
-step Bibbly F'utzbuckle
-  turnin 5501
-  turnin 79229
-  accept 79235
-
-step Umarak
-  when group 96222
-  zone map 1443
-  accept 96222
-
-step Khan Hratha
-  when group 96222
-  tip Khan Hratha is group work: elites. Grouping up is advised.
-  zone map 1443
-  collect 6077 x1 quest 96222.1
-
-step Cork Gizelton
-  zone map 1443
-  accept 5821
-
-step Smeed Scrabblescrew
-  complete 5821 @67.2,56.6 map 1443
-  turnin 5821
 
 step Gorhak
   turnin 94872
+
+step Economic Warfare
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 254432 x1 anywhere optional
+  turnin 92811 direct optional
 
 step Warug
   turnin 1367
@@ -268,28 +241,58 @@ step Broken Tears
   zone map 1443
   turnin 1369 optional
 
+step Level 35
+  zone map 1443
+  level 35
+
+step Umarak
+  when group 96222
+  zone map 1443
+  accept 96222
+
+step Smeed Scrabblescrew
+  zone map 1443
+  turnin 5561
+  complete 5943 @55.7,67.8 map 1443
+  turnin 5943
+
+step Khan Hratha
+  when group 96222
+  tip Khan Hratha is group work: elites. Grouping up is advised.
+  zone map 1443
+  collect 6077 x1 quest 96222.1
+
 step Umarak
   when group 96222
   zone map 1443
   turnin 96222
 
-step Taiga Wisemane
+step Nataka Longhorn
   zone map 1443
-  turnin 5581
+  turnin 5386
 
-step Rackmore's Log
-  accept 6161
+step Bibbly F'utzbuckle
+  turnin 5501
+  turnin 79229
+  accept 79235
 
-step Drysnap Crawler
-  collect 15878 x1 quest 6161.1
+step Cork Gizelton
+  accept 5821
 
-step Slitherblade Naga
-  collect 15881 x1 quest 6161.2
+step Smeed Scrabblescrew
+  complete 5821 @67.2,56.6 map 1443
+  turnin 5821
 
 step Azore Aldamort
   accept 5741
   turnin 93464
   accept 93465
+
+step Craftsman's Writ: Guardian Cloak
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264093 x1 anywhere optional
+  collect 5965 x1 anywhere optional
+  turnin 94293 direct optional
 
 step Burning Blade Seer
   collect 15750 x1 quest 5741.1
@@ -303,19 +306,44 @@ step Azore Aldamort
   accept 6027
   accept 93678
 
-step Rackmore's Chest
-  turnin 6161
-
 step Lord Kragaru
   collect 15803 x1 quest 6027.1
 
 step Azore Aldamort
   turnin 6027
 
+step Rackmore's Log
+  accept 6161
+
+step Taiga Wisemane
+  turnin 5581
+
+step Drysnap Crawler
+  collect 15878 x1 quest 6161.1
+
+step Slitherblade Naga
+  collect 15881 x1 quest 6161.2
+
+step Rackmore's Chest
+  turnin 6161
+
 step The Corrupter
   tip Flayed Demon Skin drops from Burning Blade Augur, Burning Blade Reaver, Burning Blade Adept: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   collect 20310 x1 optional
   accept 1480 item 20310 optional
+
+step Craftsman's Writ: Lesser Invisibility Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264057 x1 anywhere optional
+  collect 3823 x1 anywhere optional
+  turnin 94257 direct optional
+
+step Economic Warfare
+  when turnedin 94873
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1443
+  collect 254432 x1 anywhere optional
+  turnin 92812 direct optional
 
 step A Conqueror's Crown
   when turnedin 1369
@@ -408,6 +436,23 @@ step Bristleback Retreat
   when onquest 93066
   zone map 2652
   turnin 93066
+
+step Ongeku
+  when turnedin 1370
+  tip Needs Friendly standing (3000) with Gelkis Clan Centaur; without it the quest is not offered.
+  zone map 1443
+  accept 1373 optional
+
+step Ongeku
+  when onquest 1373
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 1373 @36.2,79.2 optional
+
+step Ongeku
+  when onquest 1373
+  zone map 1443
+  turnin 1373 optional
 
 step Valley of Bones
   when turnedin 1373

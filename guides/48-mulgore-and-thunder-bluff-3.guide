@@ -1,10 +1,11 @@
-guide completionist-horde/50-mulgore-and-thunder-bluff-3
-title 50 Mulgore and Thunder Bluff, visit 3 (50-60) (Completionist)
+guide completionist-horde/48-mulgore-and-thunder-bluff-3
+title 48 Mulgore and Thunder Bluff, visit 3
 faction Horde
 levels 50-60
 category Leveling
+folder Completionist 41-50
 zone Mulgore
-next completionist-horde/51-ungoro-crater
+next completionist-horde/49-searing-gorge-2
 pitch On along the line: Mulgore and Thunder Bluff, quests of level 50 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 13 quests; estimated level at the end 50.7 (heuristic XP, class quests not counted).
@@ -26,6 +27,15 @@ step Arch Druid Hamuul Runetotem
   zone map 1456
   accept 3782
   turnin 3782
+
+step Rumstag Proudstrider
+  turnin 7821
+  turnin 7822
+  accept 2965
+
+step Nara Wildmane
+  turnin 2965
+  accept 2966
 
 step Morrowgrain Research
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -62,13 +72,14 @@ step Assisting Arch Druid Runetotem
   zone map 1456
   turnin 3762 optional
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x60 quest 7821.1
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1456
+  collect 4306 x60 anywhere
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7822.1
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x60 anywhere
 
 step Oura Stormspinner
   zone map 1412
@@ -76,30 +87,34 @@ step Oura Stormspinner
   accept 99197
   accept 99198
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x1 quest 99197.1
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4306 x1 anywhere
 
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 99196.1
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x1 quest 99198.1
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x1 anywhere
 
 step Oura Stormspinner
-  zone map 1412
   turnin 99196
   turnin 99197
   turnin 99198
 
+step Uldum Pedestal
+  zone map 1446
+  turnin 2966
+
 step Level 60
+  zone map 1412
   level 60
 
 step Kar Stormsinger
   sethome "Bloodhoof Village"
-  accept 99202
+  accept 99202 only Tauren
 
 step New Kodo - Green
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -116,7 +131,7 @@ step New Kodo - Teal
   turnin 7662 direct optional
 
 step Harb Clawhoof
-  turnin 99202
+  turnin 99202 only Tauren
 
 step Harb Clawhoof
   accept 99217 only Tauren
@@ -129,8 +144,21 @@ step Great Gray Kodo, Great Brown Kodo and Great White Kodo
 step Harb Clawhoof
   turnin 99217 only Tauren
 
+step The Stone Watcher
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 2954
+  complete 2954 @37.6,81.4
+
+step The Stone Watcher
+  turnin 2954
+
+step Uldum Pedestal
+  accept 2967
+
 step Unstable Magic
   tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1412
   accept 98477
   complete 98477 @33.6,22.5
 

@@ -1,8 +1,9 @@
 guide completionist-horde/25-durotar-and-orgrimmar-3
-title 25 Durotar and Orgrimmar, visit 3 (1-40) (Completionist)
+title 25 Durotar and Orgrimmar, visit 3
 faction Horde
 levels 1-40
 category Leveling
+folder Completionist 21-30
 zone Durotar
 next completionist-horde/dungeon-ragefire-chasm
 next completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2
@@ -116,7 +117,7 @@ step Kildar
   accept 97194 only Orc
 
 step Your First Riding Wolf
-  only Orc,Tauren
+  only Orc
   zone map 1454
   accept 96994
 
@@ -125,13 +126,13 @@ step Ogunaro Wolfrunner
   turnin 97194 only Orc
 
 step Your First Riding Wolf
-  only Orc,Tauren
+  only Orc
   when onquest 96994
   zone map 1454
-  complete 96994 @69.7,12.4
+  complete 96994 @69.6,12.4
 
 step Your First Riding Wolf
-  only Orc,Tauren
+  only Orc
   when onquest 96994
   zone map 1454
   turnin 96994

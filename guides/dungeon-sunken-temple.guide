@@ -1,11 +1,11 @@
 guide completionist-horde/dungeon-sunken-temple
-title Sunken Temple (Completionist)
+title Sunken Temple
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 50-60
 zone Swamp of Sorrows
-next completionist-horde/dungeon-alcaz-prison
-next completionist-horde/52-odd-jobs-in-the-eastern-kingdoms-4
+next completionist-horde/41-tirisfal-glades-and-the-undercity-3
 pitch Sunken Temple, in Swamp of Sorrows.
 why Every Horde quest of Sunken Temple: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -38,79 +38,9 @@ step The Ancient Egg
   zone Tanaris
   turnin 4787
 
-step Level 60
-  level 60
-
-step Only One May Rise
-  zone Silithus
-  accept 8288
-
-step Only One May Rise
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Silithus
-  complete 8288 @49.45,36.45
-
-step Only One May Rise
-  zone Silithus
-  turnin 8288
-
-step The Path of the Righteous
-  zone Silithus
-  accept 8301
-
-step The Path of the Righteous
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Silithus
-  complete 8301 @49.45,36.45
-
-step The Path of the Righteous
-  zone Silithus
-  turnin 8301
-
-step Anachronos
-  zone Silithus
-  accept 8303
-
-step Anachronos
-  zone Tanaris
-  turnin 8303
-
-step Long Forgotten Memories
-  zone Tanaris
-  accept 8305
-
-step Long Forgotten Memories
-  zone Silithus
-  turnin 8305
-
-step A Pawn on the Eternal Board
-  zone Silithus
-  accept 8519
-
-step A Pawn on the Eternal Board
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone Silithus
-  complete 8519 @28.68,89.14
-
-step A Pawn on the Eternal Board
-  zone Tanaris
-  turnin 8519
-
-step The Charge of the Dragonflights
-  zone Tanaris
-  accept 8555
-
-step The Charge of the Dragonflights
-  zone Tanaris
-  turnin 8555
-
 step Fel'zerul
   zone Swamp of Sorrows
   accept 1445
-
-step Malfurion Stormrage
-  zone Swamp of Sorrows
-  accept 8733 @69.9,53.5
 
 step Liv Rizzlefix
   zone The Barrens
@@ -145,10 +75,6 @@ step Fel'zerul
 step Atal'ai Exile
   zone The Hinterlands
   turnin 1446
-
-step Forest Wisp
-  zone Teldrassil
-  turnin 8733
 
 step Marvon Rivetseeker
   zone Tanaris
@@ -371,7 +297,33 @@ step Trolls of a Feather
   zone map 1448
   turnin 8422 optional
 
+step Level 60
+  level 60
+
+step Eranikus, Tyrant of the Dream
+  when turnedin 8555
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1435
+  accept 8733 @69.9,53.5
+
+step Eranikus, Tyrant of the Dream
+  when onquest 8733
+  zone map 1438
+  turnin 8733
+
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Temple of Atal'Hakkar
+  when onquest 1445
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1435
+  turnin 1445 optional
+
+step Jammal'an the Prophet
+  when onquest 1446
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1425
+  turnin 1446 optional
 
 step Zapper Fuel
   when onquest 4146

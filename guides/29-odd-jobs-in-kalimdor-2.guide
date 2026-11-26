@@ -1,8 +1,9 @@
 guide completionist-horde/29-odd-jobs-in-kalimdor-2
-title 29 Odd jobs in Kalimdor, visit 2 (30-44) (Completionist)
+title 29 Odd jobs in Kalimdor, visit 2
 faction Horde
 levels 30-44
 category Leveling
+folder Completionist 21-30
 zone Stonetalon Mountains
 next completionist-horde/dungeon-uldaman
 next completionist-horde/30-shendralas
@@ -91,37 +92,16 @@ step Gizmorium Shipping Crate
   zone Dustwallow Marsh
   collect 5862 x1 quest 1187.1
 
-step Your First Riding Kodo
-  only Tauren
-  when available 96982
-  tip One of several exclusive quests; the route takes Your First Riding Wolf (96994). This one shows for a character the game offers it to instead.
-  zone map 1412
-  accept 96982 optional
-
-step Your First Riding Kodo
-  only Tauren
-  when onquest 96982
-  zone map 1412
-  complete 96982 @46.9,62.0 optional
-
-step Your First Riding Kodo
-  only Tauren
-  when onquest 96982
-  zone map 1412
-  turnin 96982 optional
-
 step Learning to Ride
   only Tauren
-  when available 97204
-  tip One of several exclusive quests; the route takes Learning to Ride (97203). This one shows for a character the game offers it to instead.
   zone map 1412
-  accept 97204 optional
+  accept 97204
 
 step Learning to Ride
   only Tauren
   when onquest 97204
   zone map 1412
-  turnin 97204 optional
+  turnin 97204
 
 step Razzeric
   zone Thousand Needles
@@ -178,6 +158,25 @@ step Crank Fizzlebub
   turnin 1122
 
 # Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Your First Riding Kodo
+  only Tauren
+  when available 96982
+  tip One of several exclusive quests; the route takes Your First Riding Kodo (97446). This one shows for a character the game offers it to instead.
+  zone map 1412
+  accept 96982 optional
+
+step Your First Riding Kodo
+  only Tauren
+  when onquest 96982
+  zone map 1412
+  complete 96982 @46.9,62.0 optional
+
+step Your First Riding Kodo
+  only Tauren
+  when onquest 96982
+  zone map 1412
+  turnin 96982 optional
 
 step Get the Gnomes Drunk
   when available 1120

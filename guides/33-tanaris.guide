@@ -1,8 +1,9 @@
 guide completionist-horde/33-tanaris
-title 33 Tanaris (38-54) (Completionist)
+title 33 Tanaris
 faction Horde
 levels 38-54
 category Leveling
+folder Completionist 31-40
 zone Tanaris
 next completionist-horde/34-stranglethorn-vale-2
 pitch On along the line: Tanaris, quests of level 38 to 54.
@@ -58,10 +59,6 @@ step Level 45
 step Tran'rek
   accept 3362
 
-step Gnarled Thistleshrub and Thistleshrub Rootshaper
-  kill 5490 x8 quest 3362.1
-  kill 5485 x8 quest 3362.2
-
 step Wanted Poster
   accept 2875 object 150075
 
@@ -71,11 +68,11 @@ step Wanted Poster
 step Quinn
   accept 97534
 
-step Gnomish Garbage
-  collect 278191 x7 quest 97534.1
-
 step Marin Noggenfogger
   accept 2605
+
+step Thistleshrub Dew Collector
+  collect 8428 x1 quest 2605.1
 
 step Chief Engineer Bilgewhizzle
   accept 1690
@@ -90,17 +87,19 @@ step Spigot Operator Luglunket
 step Andi Lynn
   accept 5863
 
-step Tooga
-  accept 1560
-  accept 97540
-  turnin 97540
-
-step Thistleshrub Dew Collector
-  collect 8428 x1 quest 2605.1
-
 step Dunemaul Brute and Dunemaul Enforcer
   kill 5474 x10 quest 5863.1
   kill 5472 x10 quest 5863.2
+
+step Tooga
+  accept 1560
+
+step Gnomish Garbage
+  collect 278191 x7 quest 97534.1
+
+step Gnarled Thistleshrub and Thistleshrub Rootshaper
+  kill 5490 x8 quest 3362.1
+  kill 5485 x8 quest 3362.2
 
 step Gor'marok the Ravager
   kill 12046 x1 quest 5863.3
@@ -120,6 +119,12 @@ step Wastewander Shadow Mage
 
 step Torta
   turnin 1560
+
+step Tooga
+  accept 97540
+  turnin 97540
+
+step Stoley
   accept 2873
   turnin 2875
   accept 8366

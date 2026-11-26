@@ -1,13 +1,14 @@
 guide completionist-horde/24-the-barrens-3
-title 24 The Barrens, visit 3 (35-47) (Completionist)
+title 24 The Barrens, visit 3
 faction Horde
 levels 35-47
 category Leveling
+folder Completionist 21-30
 zone The Barrens
 next completionist-horde/25-durotar-and-orgrimmar-3
 pitch On along the line: The Barrens, quests of level 35 to 47.
 # Generated from the reference data: change the planner, not this file.
-# Routed 27 quests; estimated level at the end 37.4 (heuristic XP, class quests not counted).
+# Routed 26 quests; estimated level at the end 37.3 (heuristic XP, class quests not counted).
 # Skipped: 1 profession.
 
 step Camp Taurajo
@@ -16,8 +17,6 @@ step Camp Taurajo
 step Gazlowe
   accept 1180
   accept 1112
-  accept 98906
-  turnin 98906
 
 step Membership Card Renewal
   when turnedin 3639
@@ -33,8 +32,16 @@ step Gnome Engineering
   zone map 1413
   accept 3637 optional
 
-step Musty Scroll
+step The Battle for Darkspear Islands!
+  tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1413
+  accept 98906
+  complete 98906 @65.0,34.9
+
+step The Battle for Darkspear Islands!
+  turnin 98906
+
+step Musty Scroll
   turnin 625
 
 step Black Shield

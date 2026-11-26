@@ -1,17 +1,17 @@
 guide completionist-horde/dungeon-scholomance
-title Scholomance, part 1 of 2 (Completionist)
+title Scholomance, part 1 of 2
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 58-60
 zone Western Plaguelands
 next completionist-horde/dungeon-scholomance-2
 pitch Scholomance, in Western Plaguelands.
 why Every Horde quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step An Earnest Proposition
-  only Warrior
+step Just Compensation
   zone map 1454
-  accept 8920
+  accept 84172
 
 step Saving the Best for Last
   only Mage
@@ -88,16 +88,23 @@ step Again Into the Great Ossuary
   zone map 1454
   turnin 7669 direct optional
 
-step An Earnest Proposition
-  only Warrior
+step Just Compensation
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
-  complete 8920 @34.95,38.29
+  complete 84172 @34.96,38.26
 
-step An Earnest Proposition
-  only Warrior
+step Just Compensation
+  turnin 84172
+
+step A More Fitting Reward
+  when turnedin 7668
   zone map 1454
-  turnin 8920
+  accept 8259
+
+step A More Fitting Reward
+  when onquest 8259
+  zone map 1454
+  turnin 8259
 
 step Saving the Best for Last
   only Mage
@@ -203,9 +210,19 @@ step Saving the Best for Last
   zone map 1454
   turnin 9007 optional
 
-step A Supernatural Device
+step Just Compensation
   zone map 1454
-  accept 8923
+  accept 84174
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 84174 @34.96,38.26
+
+step Just Compensation
+  turnin 84174
+
+step Just Compensation
+  accept 84175
 
 step Level 60
   level 60
@@ -231,63 +248,64 @@ step The Darkreaver Menace
   zone map 1454
   turnin 8258 optional
 
-step Mokvar
-  only Druid
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
-  accept 8913
+  complete 84175 @34.96,38.26
+
+step Just Compensation
+  turnin 84175
+
+step Just Compensation
+  accept 84176
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 84176 @34.96,38.26
+
+step Just Compensation
+  turnin 84176
+
+step Mokvar
+  accept 84155
+  accept 84177
+  accept 84203
+  accept 84208
+  accept 84210
 
 step Mokvar
   only Shaman
   zone map 1454
-  accept 8918
+  accept 84160
 
-step An Earnest Proposition
-  only Hunter
+step Mokvar
+  only Paladin
   zone map 1454
-  accept 8914
+  accept 97411
 
-step An Earnest Proposition
-  only Hunter
+step Just Compensation
+  zone map 1454
+  accept 84178
+
+step Just Compensation
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8914 @34.95,38.29
+  complete 84178 @34.96,38.26
 
-step An Earnest Proposition
-  only Hunter
-  zone map 1454
-  turnin 8914
+step Just Compensation
+  turnin 84178
 
-step An Earnest Proposition
-  only Mage
-  zone map 1454
-  accept 8915
+step Just Compensation
+  accept 97412
 
-step An Earnest Proposition
-  only Mage
+step Just Compensation
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8915 @34.95,38.29
+  complete 97412 @34.96,38.26
 
-step An Earnest Proposition
-  only Mage
-  zone map 1454
-  turnin 8915
+step Just Compensation
+  turnin 97412
 
-step An Earnest Proposition
-  only Priest
-  zone map 1454
-  accept 8916
-
-step An Earnest Proposition
-  only Priest
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8916 @34.95,38.29
-
-step An Earnest Proposition
-  only Priest
-  zone map 1454
-  turnin 8916
+step In Search of Anthion
+  accept 8930
 
 step Getting there
   zone map 1422
@@ -347,10 +365,6 @@ step Elven Legends
 step Elven Legends
   turnin 7481
 
-step A Supernatural Device
-  zone map 1446
-  turnin 8923
-
 step Egg Freezing
   zone map 1428
   accept 4734
@@ -398,50 +412,6 @@ step Leonid Barthalomew
   zone map 1423
   turnin 5522
 
-step The Ectoplasmic Distiller
-  zone map 1446
-  accept 8921
-
-step The Ectoplasmic Distiller
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8921 @52.47,27.23
-
-step The Ectoplasmic Distiller
-  turnin 8921
-
-step Hunting for Ectoplasm
-  accept 8924
-
-step Hunting for Ectoplasm
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8924 @52.47,27.23
-
-step Hunting for Ectoplasm
-  turnin 8924
-
-step A Portable Power Source
-  accept 8925
-
-step A Portable Power Source
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8925 @52.47,27.23
-
-step A Portable Power Source
-  turnin 8925
-
-step A Shifty Merchant
-  accept 8928
-
-step A Shifty Merchant
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8928 @52.47,27.23
-
-step A Shifty Merchant
-  turnin 8928
-
-step Return to Mokvar
-  accept 8978
-
 step Catalogue of the Wayward
   zone map 1422
   accept 5167
@@ -460,8 +430,13 @@ step Alexi Barov
   zone map 1420
   accept 5341
 
-step Betina Bigglezink
+step Anthion Harmon
   zone map 1423
+  accept 84189
+  accept 84191
+  accept 84193
+
+step Betina Bigglezink
   accept 5529
 
 step Leonid Barthalomew the Revered
@@ -480,6 +455,14 @@ step Inside Scholomance
   complete 5068 @69.9,74
   complete 5167 @69.9,74
   complete 5341 @69.9,74
+  complete 84155 @69.9,74
+  complete 84177 @69.9,74
+  complete 84189 @69.9,74
+  complete 84191 @69.9,74
+  complete 84193 @69.9,74
+  complete 84203 @69.9,74
+  complete 84208 @69.9,74
+  complete 84210 @69.9,74
 
 step Inside Scholomance
   when turnedin 5383
@@ -494,12 +477,12 @@ step Inside Scholomance
 step Inside Scholomance
   only Shaman
   zone map 1422
-  complete 8918 @69.9,74
+  complete 84160 @69.9,74
 
 step Inside Scholomance
-  only Druid
+  only Paladin
   zone map 1422
-  complete 8913 @69.9,74
+  complete 97411 @69.9,74
 
 step Eva Sarkhoff
   when turnedin 5383
@@ -538,10 +521,24 @@ step Betina Bigglezink
   turnin 5529
   turnin 5531
 
-step Malyfous Darkhammer
-  zone map 1452
-  turnin 5067
-  turnin 5068
+step Level 60
+  zone map 1420
+  level 60
+
+step Danitha Morr
+  only Paladin
+  zone map 1420
+  accept 97185
+
+step Inside Scholomance
+  only Paladin
+  zone map 1422
+  complete 97185 @69.9,74
+
+step Hand in
+  only Paladin
+  zone map 1422
+  turnin 97185 @69.9,74
 
 step Inside Scholomance
   zone map 1422
@@ -552,10 +549,145 @@ step Aurel Goldleaf
   zone map 1451
   turnin 8829
 
+step Malyfous Darkhammer
+  zone map 1452
+  turnin 5067
+  turnin 5068
+
+step Pix Xizzix
+  zone map 1434
+  accept 96087
+
+step Inside Scholomance
+  zone map 1422
+  complete 96087 @69.9,74
+
+step Pix Xizzix
+  zone map 1434
+  turnin 96087
+
+step In Search of Anthion
+  zone map 1423
+  turnin 8930
+
+step Dead Man's Plea
+  accept 8945
+
+step Dead Man's Plea
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8945 @26.11,11.3
+
+step Dead Man's Plea
+  zone map 1422
+  turnin 8945 @69.9,74
+
+step Proof of Life
+  accept 8946 @69.9,74
+
+step Proof of Life
+  zone map 1423
+  turnin 8946
+
+step Anthion's Strange Request
+  accept 8947
+
+step Anthion's Strange Request
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8947 @26.11,11.3
+
+step Anthion's Strange Request
+  turnin 8947
+
+step Anthion's Old Friend
+  accept 8948
+
+step Anthion's Old Friend
+  zone map 1422
+  turnin 8948 @69.9,74
+
+step Falrin's Vendetta
+  accept 8949 @69.9,74
+
+step Falrin's Vendetta
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8949 @69.9,74
+
+step Falrin's Vendetta
+  turnin 8949 @69.9,74
+
+step The Instigator's Enchantment
+  accept 8950 @69.9,74
+
+step The Instigator's Enchantment
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8950 @69.9,74
+
+step The Instigator's Enchantment
+  turnin 8950 @69.9,74
+
+step The Challenge
+  accept 9015 @69.9,74
+
+step The Challenge
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 9015 @69.9,74
+
+step The Challenge
+  zone map 1423
+  turnin 9015
+
+step Anthion's Parting Words
+  only Shaman
+  zone map 1423
+  accept 8957
+
+step Anthion's Parting Words
+  only Shaman
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 8957 @26.11,11.3
+
+step Anthion's Parting Words
+  only Druid
+  zone map 1423
+  accept 9016
+
+step Anthion's Parting Words
+  only Druid
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 9016 @26.11,11.3
+
+step Anthion's Parting Words
+  only Hunter
+  zone map 1423
+  accept 9017
+
+step Anthion's Parting Words
+  only Hunter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1423
+  complete 9017 @26.11,11.3
+
 step Eva Sarkhoff
   when turnedin 5382
   zone map 1422
   accept 5515
+
+step Anthion Harmon
+  only Mage
+  zone map 1423
+  accept 9018
+
+step Anthion Harmon
+  only Rogue
+  zone map 1423
+  accept 9020
+
+step Anthion Harmon
+  only Warlock
+  zone map 1423
+  accept 9021
 
 step Betina Bigglezink
   zone map 1423
@@ -572,6 +704,21 @@ step Inside Scholomance
   zone map 1422
   complete 5515 @69.9,74
 
+step Inside Scholomance
+  only Rogue
+  zone map 1422
+  complete 9020 @69.9,74
+
+step Inside Scholomance
+  only Warlock
+  zone map 1422
+  complete 9021 @69.9,74
+
+step Inside Scholomance
+  only Mage
+  zone map 1422
+  complete 9018 @69.9,74
+
 step Eva Sarkhoff
   when turnedin 5382
   zone map 1422
@@ -581,45 +728,6 @@ step Betina Bigglezink
   zone map 1423
   turnin 5582
   turnin 4771
-
-step Anthion's Parting Words
-  only Warlock
-  when turnedin 9015
-  zone map 1423
-  accept 9021 optional
-
-step Anthion's Parting Words
-  only Warlock
-  when onquest 9021
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 9021 @26.1,11.3 optional
-
-step Anthion's Parting Words
-  only Rogue
-  when turnedin 9015
-  zone map 1423
-  accept 9020 optional
-
-step Anthion's Parting Words
-  only Rogue
-  when onquest 9020
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 9020 @26.1,11.3 optional
-
-step Anthion's Parting Words
-  only Mage
-  when turnedin 9015
-  zone map 1423
-  accept 9018 optional
-
-step Anthion's Parting Words
-  only Mage
-  when onquest 9018
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 9018 @26.1,11.3 optional
 
 step Eva Sarkhoff
   when turnedin 5515

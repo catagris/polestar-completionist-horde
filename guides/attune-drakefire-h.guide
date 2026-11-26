@@ -1,23 +1,34 @@
 guide completionist-horde/attune-drakefire-h
-title Drakefire Amulet (Onyxia's Lair key) (Completionist)
+title Drakefire Amulet (Onyxia's Lair key)
 faction Horde
 levels 59-60
 category Dungeons
+folder Completionist attunements and keys
 zone Dustwallow Marsh
 pitch Drakefire Amulet: Everyone entering Onyxia's Lair carries the Drakefire Amulet.
 why Everyone entering Onyxia's Lair carries the Drakefire Amulet.
 # Generated from the reference data: change the planner, not this file.
 # Routed 10 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
 
+step Blood and Thunder
+  zone map 1418
+  accept 98325
+
+step Blood and Thunder
+  when onquest 98325
+  zone map 1418
+  turnin 98325
+
 step Warlord's Command
+  when turnedin 98325
   zone map 1418
   accept 4903
 
 step Warlord's Command
   when onquest 4903
-  tip The objective is inside Blackrock Spire: the arrow leads to its entrance.
-  zone map 1427
-  complete 4903 @34.8,85.3
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1418
+  complete 4903 @5.8,47.5
 
 step Warlord's Command
   when onquest 4903
@@ -97,15 +108,15 @@ step Emberstrife
 
 step Emberstrife
   zone Dustwallow Marsh
-  accept 6584
+  accept 6582
 
-step Chronalis
-  zone Tanaris
-  collect 16871 x1 quest 6584.1
+step Scryer
+  zone Winterspring
+  collect 16869 x1 quest 6582.1
 
 step Emberstrife
   zone Dustwallow Marsh
-  turnin 6584
+  turnin 6582
 
 step Emberstrife
   zone Dustwallow Marsh
@@ -121,15 +132,15 @@ step Emberstrife
 
 step Emberstrife
   zone Dustwallow Marsh
-  accept 6582
+  accept 6584
 
-step Scryer
-  zone Winterspring
-  collect 16869 x1 quest 6582.1
+step Chronalis
+  zone Tanaris
+  collect 16871 x1 quest 6584.1
 
 step Emberstrife
   zone Dustwallow Marsh
-  turnin 6582
+  turnin 6584
 
 step Emberstrife
   zone Dustwallow Marsh

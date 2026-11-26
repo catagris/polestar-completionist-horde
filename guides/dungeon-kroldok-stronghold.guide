@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-kroldok-stronghold
-title Krol'dok Stronghold (Completionist)
+title Krol'dok Stronghold
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 39-45
 zone Riverglades
 next completionist-horde/21-swamp-of-sorrows
@@ -28,8 +29,6 @@ step Tran'gul
 
 step Inside Krol'dok Stronghold
   zone Riverglades
-  collect 267137 @36.9,44.1
-  accept 94973 item 267137
   complete 94975 @36.9,44.1
   complete 94972 @36.9,44.1
   complete 94968 @36.9,44.1
@@ -38,28 +37,9 @@ step Da'grosh
   zone Riverglades
   turnin 94975
 
-step Kreza Darkthorn
-  zone Riverglades
-  turnin 94973
-
-step Key Ingredients
-  zone map 2548
-  accept 94974
-
 step Krom'rosh
   zone Riverglades
   turnin 94968
-
-step Key Ingredients
-  when onquest 94974
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 2548
-  complete 94974 @59.9,46.0
-
-step Key Ingredients
-  when onquest 94974
-  zone map 2548
-  turnin 94974
 
 step Tran'gul
   zone Riverglades

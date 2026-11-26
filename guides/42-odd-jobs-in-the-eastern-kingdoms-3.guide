@@ -1,12 +1,13 @@
-guide completionist-horde/41-odd-jobs-in-the-eastern-kingdoms-3
-title 41 Odd jobs in the Eastern Kingdoms, visit 3 (45-56) (Completionist)
+guide completionist-horde/42-odd-jobs-in-the-eastern-kingdoms-3
+title 42 Odd jobs in the Eastern Kingdoms, visit 3
 faction Horde
-levels 45-56
+levels 45-55
 category Leveling
+folder Completionist 41-50
 zone Badlands
 next completionist-horde/dungeon-blackrock-depths
-next completionist-horde/42-western-plaguelands
-pitch On along the line: errands across the Eastern Kingdoms, quests of level 45 to 56.
+next completionist-horde/43-western-plaguelands
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 45 to 55.
 # Generated from the reference data: change the planner, not this file.
 # Routed 12 quests; estimated level at the end 45.5 (heuristic XP, class quests not counted).
 # Skipped: 2 profession; 1 exclusive with N (done); 1 exploration objective has no location in data.
@@ -15,6 +16,11 @@ step Oran Snakewrithe
   when onquest 2995
   zone map 1458
   turnin 2995
+
+step Chemist Fuely
+  when onquest 4642
+  zone map 1458
+  turnin 4642
 
 step Return to Apothecary Zinge
   when onquest 864
@@ -107,10 +113,6 @@ step A Taste of Flame
 step A Taste of Flame
   turnin 4022
 
-step Ever After
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  turnin 82062 direct @35.8,19.8 map 1428
-
 step A Taste of Flame
   when onquest 4023
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -155,9 +157,8 @@ step Elder Torntusk
   turnin 7846
 
 step Elder Torntusk
-  when turnedin 7846
   zone map 1417
-  accept 7847 optional
+  accept 7847
 
 step Cut Arathor Supply Lines
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -204,7 +205,6 @@ step Elemental Leatherworking
   turnin 5146 optional
 
 step Primal Torntusk
-  when onquest 7847
   zone map 1425
   turnin 7847
 
@@ -266,3 +266,9 @@ step Lines of Communication
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1458
   turnin 2995 optional
+
+step Melding of Influences
+  when onquest 4642
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 4642 optional

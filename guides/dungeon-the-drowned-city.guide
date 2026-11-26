@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-the-drowned-city
-title The Drowned City (Completionist)
+title The Drowned City
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 30-40
 zone Stranglethorn Vale
 next completionist-horde/24-the-barrens-3

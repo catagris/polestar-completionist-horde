@@ -1,11 +1,12 @@
 guide completionist-horde/dungeon-zulfarrak
-title Zul'Farrak (Completionist)
+title Zul'Farrak
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 40-50
 zone Tanaris
 next completionist-horde/dungeon-maraudon
-next completionist-horde/40-tirisfal-glades-and-the-undercity-3
+next completionist-horde/41-tirisfal-glades-and-the-undercity-3
 pitch Zul'Farrak, in Tanaris.
 why Every Horde quest of Zul'Farrak: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
@@ -149,12 +150,6 @@ step Rescue OOX-17/TN!
   zone map 1434
   turnin 648
 
-step Tabetha
-  zone Dustwallow Marsh
-  turnin 2846
-
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
 step Level 45
   level 45
 
@@ -168,6 +163,10 @@ step An OOX of Your Own
   when onquest 3721
   zone map 1434
   turnin 3721
+
+step Tabetha
+  zone Dustwallow Marsh
+  turnin 2846
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

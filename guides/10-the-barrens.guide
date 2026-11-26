@@ -1,14 +1,15 @@
 guide completionist-horde/10-the-barrens
-title 10 The Barrens (10-27) (Completionist)
+title 10 The Barrens
 faction Horde
 levels 10-27
 category Leveling
+folder Completionist 01-10
 zone The Barrens
 next completionist-horde/dungeon-wailing-caverns
 next completionist-horde/11-odd-jobs-in-kalimdor
 pitch On along the line: The Barrens, quests of level 10 to 27.
 # Generated from the reference data: change the planner, not this file.
-# Routed 93 quests; estimated level at the end 20.5 (heuristic XP, class quests not counted).
+# Routed 93 quests; estimated level at the end 20.6 (heuristic XP, class quests not counted).
 # Skipped: 1 exclusive with N.
 
 step Cairne Bloodhoof
@@ -635,13 +636,13 @@ step Warsong Runner Update
 
 step Warsong Scout
   zone map 1440
-  buy 16764 x1 npc 12862 -- for The Warsong Reports
+  buy 16764 x1 nearest -- for The Warsong Reports
 
 step Warsong Outrider
-  buy 16765 x1 npc 12864 -- for The Warsong Reports
+  buy 16765 x1 nearest -- for The Warsong Reports
 
 step Warsong Runner
-  buy 16763 x1 npc 12863 -- for The Warsong Reports
+  buy 16763 x1 nearest -- for The Warsong Reports
 
 step Ziz Fizziks
   zone map 1442

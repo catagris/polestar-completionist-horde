@@ -1,8 +1,9 @@
 guide completionist-horde/20-riverglades
-title 20 Riverglades (36-46) (Completionist)
+title 20 Riverglades
 faction Horde
 levels 36-46
 category Leveling
+folder Completionist 11-20
 zone Riverglades
 next completionist-horde/dungeon-kroldok-stronghold
 next completionist-horde/21-swamp-of-sorrows
@@ -172,7 +173,7 @@ step Picked Carcass
   accept 96103
 
 step Marsh Gas Vent
-  collect 272004 x5 quest 96063.1
+  collect 272004 x8 quest 96063.1
 
 step Neza Bloodsnout
   turnin 96103
@@ -272,7 +273,7 @@ step Neza Bloodsnout
   zone map 1444
   accept 96105
 
-step Wildplains Huntress
+step Wildplains Patriarch
   zone map 1444
   collect 266888 x6 quest 96109.1
 
@@ -359,31 +360,72 @@ step Friz Frazzlespark
   accept 95062
   accept 95288
   turnin 94930
+  accept 95254
+
+step Craftsman's Writ: Black Mageweave Vest
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264110 x1 anywhere optional
+  collect 9998 x1 anywhere optional
+  turnin 94310 direct optional
+
+step Craftsman's Writ: Swift Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264098 x1 anywhere optional
+  collect 7391 x1 anywhere optional
+  turnin 94298 direct optional
+
+step Craftsman's Writ: Flash Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264086 x1 anywhere optional
+  collect 4852 x1 anywhere optional
+  turnin 94286 direct optional
+
+step Craftsman's Writ: Golden Scale Coif
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264074 x1 anywhere optional
+  collect 3837 x1 anywhere optional
+  turnin 94274 direct optional
+
+step Craftsman's Writ: Mana Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264062 x1 anywhere optional
+  collect 3827 x1 anywhere optional
+  turnin 94262 direct optional
 
 step Not My Circus
   tip The reference data does not place this quest's objective: follow the quest text.
   accept 95982
   complete 95982 @76.0,52.6
 
-step Eastsea Buccaneer
-  collect 268796 x8 quest 95288.1
-
-step Wharfmaster Whizzbuzz
-  accept 95118
-  accept 95119
-  accept 95121
-  accept 95254
-
-step Not My Circus
-  turnin 95982
-
 step WANTED!
   when group 95120
   zone map 2548
   accept 95120
 
-step Painted Hide
+step Fimbo Greasemitz
   zone map 2548
+  accept 95121
+  accept 95118
+  accept 95119
+
+step Eastsea Buccaneer
+  kill 257901 x10 quest 95119.1
+  collect 268796 x8 quest 95288.1
+
+step Eastsea Musketeer
+  kill 257910 x10 quest 95119.2
+
+step Trapclaw
+  collect 268586 x1 quest 95254.1
+
+step Friz Frazzlespark
+  turnin 95288
+  accept 95293
+
+step Not My Circus
+  turnin 95982
+
+step Painted Hide
   accept 95260
 
 step Murloc Warrior
@@ -396,32 +438,20 @@ step Murloc Oracle
   kill 255898 x8 quest 95118.2
   collect 268344 x12 quest 95121.1
 
-step Trapclaw
-  collect 268586 x1 quest 95254.1
-
-step Eastsea Musketeer
-  kill 257910 x10 quest 95119.2
-
-step Eastsea Buccaneer
-  kill 257901 x10 quest 95119.1
-
-step Argo Brinewhistle
-  turnin 95260
-  accept 95261
+step Fimbo Greasemitz
+  turnin 95121
+  turnin 95254
   turnin 95118
   turnin 95119
   accept 95122
   accept 95123
 
-step Fimbo Greasemitz
-  turnin 95121
-  turnin 95254
+step Argo Brinewhistle
+  turnin 95260
+  accept 95261
 
-step Eastsea Raider
-  kill 257915 x8 quest 95122.1
-
-step Snort
-  collect 268632 x15 quest 95261.1
+step Powder Keg
+  collect 268346 x5 quest 95123.1
 
 step Rotflesh Mushroom
   collect 268664 x8 quest 95261.2
@@ -429,15 +459,32 @@ step Rotflesh Mushroom
 step Eastsea Bombardier
   kill 257916 x8 quest 95122.2
 
-step Powder Keg
-  collect 268346 x5 quest 95123.1
+step Eastsea Raider
+  kill 257915 x8 quest 95122.1
 
-step Argo Brinewhistle
-  turnin 95261
-  accept 95267
+step Roosting Duskbat
+  collect 268632 x15 quest 95261.1
+
+step Krom'rosh
+  turnin 95062
+
+step Clubtoe
+  accept 95418
+
+step Tran'gul
+  zone map 1444
+  turnin 95418
+
+step Tran'gul
+  zone map 2548
+  accept 95420
+
+step Wharfmaster Whizzbuzz
   turnin 95122
   turnin 95123
   accept 95124
+  turnin 95261
+  accept 95267
 
 step See Ya, Scallywags!
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -446,6 +493,12 @@ step See Ya, Scallywags!
 
 step Monstrous Threshadon
   collect 268633 x1 quest 95267.1
+
+step Argo Brinewhistle
+  turnin 95267
+
+step See Ya, Scallywags!
+  turnin 95165
 
 step Admiral Lamora and Admiral's Treasure Chest
   kill 257861 x1 quest 95124.1
@@ -462,38 +515,16 @@ step Wharfmaster Whizzbuzz
   zone map 2548
   turnin 95120
 
-step Argo Brinewhistle
-  zone map 2548
-  turnin 95267
-  turnin 95124
-  turnin 95288
-  accept 95293
-
-step See Ya, Scallywags!
-  turnin 95165
-
 step Captain Bentcoin
+  zone map 2548
   turnin 95293
   accept 95294
 
-step Friz Frazzlespark
+step Wharfmaster Whizzbuzz
+  turnin 95124
   turnin 95294
   accept 95295
   accept 95296
-
-step Krom'rosh
-  turnin 95062
-
-step Clubtoe
-  accept 95418
-
-step Tran'gul
-  zone map 1444
-  turnin 95418
-
-step Tran'gul
-  zone map 2548
-  accept 95420
 
 step Tremayne Family Blacksmithing Techniques
   collect 278868 x1 quest 97884.1
@@ -664,9 +695,11 @@ step Jezap Jinglesprocket
   accept 94733
 
 step Gobam
+  zone map 1444
   turnin 94733
 
 step Gobam
+  zone map 2548
   accept 94734
 
 step Sweetberry

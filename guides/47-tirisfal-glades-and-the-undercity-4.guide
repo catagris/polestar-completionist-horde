@@ -1,13 +1,14 @@
-guide completionist-horde/45-tirisfal-glades-and-the-undercity-4
-title 45 Tirisfal Glades and the Undercity, visit 4 (53-60) (Completionist)
+guide completionist-horde/47-tirisfal-glades-and-the-undercity-4
+title 47 Tirisfal Glades and the Undercity, visit 4
 faction Horde
-levels 53-60
+levels 58-60
 category Leveling
+folder Completionist 41-50
 zone Tirisfal Glades
-next completionist-horde/46-silithus
-pitch On along the line: Tirisfal Glades and the Undercity, quests of level 53 to 60.
+next completionist-horde/48-mulgore-and-thunder-bluff-3
+pitch On along the line: Tirisfal Glades and the Undercity, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 17 quests; estimated level at the end 53.8 (heuristic XP, class quests not counted).
+# Routed 12 quests; estimated level at the end 58.5 (heuristic XP, class quests not counted).
 # Skipped: 3 prerequisite N not in this route.
 
 step Varimathras
@@ -34,8 +35,11 @@ step Faint Necrotic Crystal
   tip The reference data has no giver for this quest: it is handed in here once the game offers it.
   turnin 9310 direct @66.8,21.4 map 1458
 
-step Level 54
-  level 54
+step Ralston Farnsley
+  turnin 7813
+  turnin 7814
+  turnin 7817
+  accept 7818
 
 step Abigail Sawyer
   accept 97006
@@ -43,40 +47,13 @@ step Abigail Sawyer
 step Royal Overseer Bauhaus
   turnin 97006
 
-step Anthion's Parting Words
-  when onquest 84187
-  zone map 1454
-  turnin 84187
+step Ralston Farnsley
+  turnin 7818
 
-step Anthion's Parting Words
-  when onquest 84188
-  zone map 1454
-  turnin 84188
-
-step Anthion's Parting Words
-  when onquest 84189
-  zone map 1454
-  turnin 84189
-
-step Anthion's Parting Words
-  when onquest 84190
-  zone map 1454
-  turnin 84190
-
-step Anthion's Parting Words
-  when onquest 84191
-  zone map 1454
-  turnin 84191
-
-step Anthion's Parting Words
-  when onquest 84192
-  zone map 1454
-  turnin 84192
-
-step Anthion's Parting Words
-  when onquest 84193
-  zone map 1454
-  turnin 84193
+step Additional Runecloth
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 14047 x20 anywhere optional
+  turnin 7819 direct optional
 
 step Anthion's Parting Words
   when onquest 84194
@@ -84,22 +61,88 @@ step Anthion's Parting Words
   turnin 84194
 
 step Mokvar
-  only Priest
-  when complete 8940
+  when complete 84155
   zone map 1454
-  turnin 8940
+  turnin 84155
+  turnin 84156
+  turnin 84158
+  turnin 84174
+  turnin 84187
+  turnin 84188
+  turnin 84189
+  turnin 84190
+  turnin 84191
+  turnin 84192
+  turnin 84193
+
+step Mokvar
+  only Shaman
+  when complete 84160
+  zone map 1454
+  turnin 84160
+
+step Mokvar
+  only Paladin
+  when complete 97411
+  zone map 1454
+  turnin 97411
+
+step Mokvar
+  when complete 84177
+  zone map 1454
+  turnin 84177
+
+step Mokvar
+  when complete 84178
+  zone map 1454
+  turnin 84178
+
+step Mokvar
+  when complete 97412
+  zone map 1454
+  turnin 97412
+
+step Mokvar
+  only Shaman
+  when complete 8957
+  zone map 1454
+  turnin 8957
+
+step Mokvar
+  only Druid
+  when complete 9016
+  zone map 1454
+  turnin 9016
+
+step Mokvar
+  only Hunter
+  when complete 9017
+  zone map 1454
+  turnin 9017
+
+step Mokvar
+  only Mage
+  when complete 9018
+  zone map 1454
+  turnin 9018
+
+step Mokvar
+  only Priest
+  when complete 9019
+  zone map 1454
+  turnin 9019
+
+step Mokvar
+  only Rogue
+  when complete 9020
+  zone map 1454
+  turnin 9020
 
 step Mokvar
   only Warlock
-  when complete 8943
+  when complete 9021
   zone map 1454
-  turnin 8943
-
-step Mokvar
-  only Warrior
-  when complete 8944
-  zone map 1454
-  turnin 8944
+  turnin 9021
 
 step Crimson Courier
   when group 6145
@@ -150,21 +193,22 @@ step Nathanos Blightcaller
   zone map 1423
   turnin 6148
 
-step Shadow Priestess Vandis
-  zone map 1420
-  turnin 6390
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1458
+  collect 4338 x60 anywhere
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7817.1
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4306 x60 anywhere
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x60 quest 7814.1
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
 
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 7813.1
+step Runecloth
+  tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 14047 x60 anywhere
 
 step Level 60
   zone map 1420
@@ -173,10 +217,27 @@ step Level 60
 step Velma Warnam
   sethome "Gallows' End Tavern"
   accept 99208 only Undead
+
+step Zachariah Post
   turnin 99208 only Undead
+
+step Zachariah Post
+  accept 99211 only Undead
+
+step Ochre Skeletal Warhorse, Purple Skeletal Warhorse and Green Skeletal Warhorse
+  kill 276793 x1 quest 99211.1 only Undead
+  kill 276797 x1 quest 99211.2 only Undead
+  kill 276796 x1 quest 99211.3 only Undead
+
+step Zachariah Post
+  turnin 99211 only Undead
 
 step Danitha Morr
   accept 97178
+
+step Knight of Mourning
+  accept 93030
+  turnin 93030
 
 step Mantles of the Dawn
   when available 5504
@@ -214,11 +275,6 @@ step Chromatic Mantle of the Dawn
   zone map 1420
   turnin 5524 optional
 
-step Knight of Mourning
-  zone map 1420
-  accept 93030
-  turnin 93030
-
 step Ott
   zone map 1416
   turnin 97178
@@ -231,29 +287,71 @@ step The Call to Command
   zone map 1458
   turnin 6144 optional
 
-step A Plague Upon Thee
-  when onquest 6390
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1420
-  turnin 6390 optional
-
-step Just Compensation
-  when onquest 8940
+step Anthion's Parting Words
+  when onquest 8957
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 8940 optional
+  turnin 8957 optional
 
-step Just Compensation
-  when onquest 8943
+step Anthion's Parting Words
+  when onquest 9016
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 8943 optional
+  turnin 9016 optional
 
-step Just Compensation
-  when onquest 8944
+step Anthion's Parting Words
+  when onquest 9017
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 8944 optional
+  turnin 9017 optional
+
+step Anthion's Parting Words
+  when onquest 9018
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9018 optional
+
+step Anthion's Parting Words
+  when onquest 9019
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9019 optional
+
+step Anthion's Parting Words
+  when onquest 9020
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9020 optional
+
+step Anthion's Parting Words
+  when onquest 9021
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 9021 optional
+
+step An Earnest Proposition
+  when onquest 84155
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84155 optional
+
+step An Earnest Proposition
+  when onquest 84156
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84156 optional
+
+step An Earnest Proposition
+  when onquest 84158
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84158 optional
+
+step An Earnest Proposition
+  when onquest 84160
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84160 optional
 
 step Anthion's Parting Words
   when onquest 84187
@@ -302,3 +400,9 @@ step Anthion's Parting Words
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
   turnin 84194 optional
+
+step An Earnest Proposition
+  when onquest 97411
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 97411 optional

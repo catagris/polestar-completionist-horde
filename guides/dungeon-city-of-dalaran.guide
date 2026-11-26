@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-city-of-dalaran
-title City of Dalaran (Completionist)
+title City of Dalaran
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 24-33
 zone Alterac Mountains
 next completionist-horde/dungeon-razorfen-kraul

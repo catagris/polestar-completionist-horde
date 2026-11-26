@@ -1,8 +1,9 @@
 guide completionist-horde/12-ashenvale
-title 12 Ashenvale (19-30) (Completionist)
+title 12 Ashenvale
 faction Horde
 levels 19-30
 category Leveling
+folder Completionist 11-20
 zone Ashenvale
 next completionist-horde/dungeon-blackfathom-deeps
 next completionist-horde/13-hillsbrad-foothills-and-alterac-mountains
@@ -101,12 +102,37 @@ step The Lost Pages
 step Torek
   accept 6544
 
+step Craftsman's Writ: Herbalist's Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264040 x1 anywhere optional
+  collect 7349 x1 anywhere optional
+  turnin 94240 direct optional
+
+step Craftsman's Writ: Lesser Mana Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264013 x1 anywhere optional
+  collect 3385 x1 anywhere optional
+  turnin 94213 direct optional
+
 step Tideress
   accept 1918 item 16408 -- Drops from Tideress
 
 step Locke Okarr
   zone map 1413
   accept 6571
+
+step Craftsman's Writ: Iridescent Hammer
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1440
+  collect 264022 x1 anywhere optional
+  collect 5541 x1 anywhere optional
+  turnin 94222 direct optional
+
+step Craftsman's Writ: Azure Silk Hood
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264049 x1 anywhere optional
+  collect 7048 x1 anywhere optional
+  turnin 94249 direct optional
 
 step Warsong Saw Blades
   when onquest 6571
@@ -220,11 +246,11 @@ step Shadumbra
   goto 54.4,54.9 "Shadumbra"
   accept 24 item 16304 -- Drops from Shadumbra
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
-
 step Ursangous
   goto 39.8,65.2 "Ursangous"
   accept 23 item 16303 -- Drops from Ursangous
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Senani Thunderheart
   turnin 2
@@ -232,6 +258,12 @@ step Senani Thunderheart
   turnin 24
   accept 247
   turnin 247
+
+step Craftsman's Writ: Moonsight Rifle
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264031 x1 anywhere optional
+  collect 4383 x1 anywhere optional
+  turnin 94231 direct optional
 
 step The Ashenvale Hunt
   when onquest 742

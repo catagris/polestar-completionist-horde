@@ -1,39 +1,21 @@
-guide completionist-horde/53-odd-jobs-in-kalimdor-4
-title 53 Odd jobs in Kalimdor, visit 4 (58-60) (Completionist)
+guide completionist-horde/52-odd-jobs-in-kalimdor-4
+title 52 Odd jobs in Kalimdor, visit 4
 faction Horde
 levels 58-60
 category Leveling
+folder Completionist 51-59
 zone Ashenvale
-next completionist-horde/54-mount-hyjal
+next completionist-horde/53-mount-hyjal
 pitch On along the line: errands across Kalimdor, quests of level 58 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 9 quests; estimated level at the end 58.3 (heuristic XP, class quests not counted).
+# Routed 7 quests; estimated level at the end 58.2 (heuristic XP, class quests not counted).
 
 step Brivelthwerp
   zone map 1441
-  buy 7228 x1 npc 6496 -- for You Scream, I Scream...
+  buy 7228 x1 nearest -- for You Scream, I Scream...
 
 step Veteran of the Third War
   accept 92102
-
-step Gorhak
-  zone map 1443
-  accept 92811
-
-step Gelkis Guardian
-  collect 254432 x1 quest 92811.1
-
-step Molkar
-  accept 92812
-
-step Gelkis Guardian
-  collect 254432 x1 quest 92812.1
-
-step Molkar
-  turnin 92812
-
-step Gorhak
-  turnin 92811
 
 step Trull Failbane
   zone map 1439

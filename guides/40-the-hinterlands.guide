@@ -1,16 +1,23 @@
-guide completionist-horde/39-the-hinterlands
-title 39 The Hinterlands (43-52) (Completionist)
+guide completionist-horde/40-the-hinterlands
+title 40 The Hinterlands
 faction Horde
 levels 43-52
 category Leveling
+folder Completionist 31-40
 zone The Hinterlands
 next completionist-horde/dungeon-zulfarrak
-next completionist-horde/40-tirisfal-glades-and-the-undercity-3
+next completionist-horde/41-tirisfal-glades-and-the-undercity-3
 pitch On along the line: The Hinterlands, quests of level 43 to 52.
 # Generated from the reference data: change the planner, not this file.
 # Routed 40 quests; estimated level at the end 45.7 (heuristic XP, class quests not counted).
 
+step The Brokering of Peace
+  when onquest 8485
+  zone map 1454
+  turnin 8485 optional
+
 step Level 44
+  zone map 1425
   level 44
 
 step Katoom the Angler
@@ -135,6 +142,12 @@ step Vilebranch Kidnapper
 step Rin'ji
   accept 2742
 
+step Craftsman's Writ: Mechanical Repair Kit
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264090 x1 anywhere optional
+  collect 11590 x1 anywhere optional
+  turnin 94290 direct optional
+
 step Find OOX-09/HL!
   tip OOX-09/HL Distress Beacon drops from Jalinde Summerdrake, Zul'arek Hatefowler, Shadra: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
   collect 8704 x1 optional
@@ -151,6 +164,10 @@ step Venom Bottle
 
 step Book
   accept 81954 object 441252
+
+step Jammal'an the Prophet
+  tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 1446 optional
 
 step Level 47
   level 47
@@ -330,6 +347,12 @@ step Book
 step Atal'ai Exile
   accept 1444
 
+step Craftsman's Writ: Cindercloth Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264114 x1 anywhere optional
+  collect 10042 x1 anywhere optional
+  turnin 94314 direct optional
+
 step Smith Slagtree
   turnin 7839
   turnin 7850
@@ -409,6 +432,18 @@ step Rin'ji's Secret
   turnin 2742
   accept 2782
 
+step Craftsman's Writ: Elixir of Agility
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264066 x1 anywhere optional
+  collect 8949 x1 anywhere optional
+  turnin 94266 direct optional
+
+step Craftsman's Writ: Turtle Scale Breastplate
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264102 x1 anywhere optional
+  collect 8189 x1 anywhere optional
+  turnin 94302 direct optional
+
 step Apothecary Lydon
   zone map 1416
   turnin 2934
@@ -444,6 +479,10 @@ step Fel'zerul
   zone map 1435
   turnin 1444
 
+step The Temple of Atal'Hakkar
+  tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 1445 optional
+
 step Master Gadrin
   zone map 1411
   turnin 2935
@@ -451,3 +490,11 @@ step Master Gadrin
 step The Spider God
   tip For Zul'Farrak: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   accept 2936 optional
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step The Brokering of Peace
+  when onquest 8485
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 8485 optional

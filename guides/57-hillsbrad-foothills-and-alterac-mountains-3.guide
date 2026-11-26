@@ -1,14 +1,14 @@
-guide completionist-horde/58-hillsbrad-foothills-and-alterac-mountains-3
-title 58 Hillsbrad Foothills and Alterac Mountains, visit 3 (55-60) (Completionist)
+guide completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
+title 57 Hillsbrad Foothills and Alterac Mountains, visit 3
 faction Horde
 levels 55-60
 category Leveling
+folder Completionist 51-59
 zone Alterac Mountains
-next completionist-horde/59-tanaris-2
+next completionist-horde/58-tanaris-2
 pitch On along the line: Hillsbrad Foothills and Alterac Mountains, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 14 quests; estimated level at the end 56.1 (heuristic XP, class quests not counted).
-# Skipped: 1 no turn-in in data.
+# Routed 15 quests; estimated level at the end 56.1 (heuristic XP, class quests not counted).
 
 step Dran Droffers
   when onquest 81
@@ -25,33 +25,67 @@ step Rashona Straglash
   accept 7827
   accept 7831
 
+step Rashona Straglash
+  turnin 7826
+  turnin 7827
+  turnin 7831
+  accept 7824
+
+step Rashona Straglash
+  turnin 7824
+
 step Vehena
   accept 7833
   accept 7834
   accept 7835
 
+step Vehena
+  turnin 7833
+  turnin 7834
+  turnin 7835
+  accept 7836
+
+step Vehena
+  turnin 7836
+
 step Rumstag Proudstrider
   zone map 1456
   accept 7820
 
-step Tarren Mill
-  zone map 1424
-  sethome "Tarren Mill"
+step Rumstag Proudstrider
+  turnin 7820
+
+step Rumstag Proudstrider
+  accept 7823
+
+step Rumstag Proudstrider
+  turnin 7823
 
 step Apothecary Lydon
+  zone map 1416
   accept 2938
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x60 quest 7827.1
+step Fahrad
+  accept 98529
+  turnin 98529
 
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 7826.1
+step Junkboxes Needed
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 16885 x5 anywhere optional
+  turnin 8249 direct optional
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7831.1
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1454
+  collect 4306 x60 anywhere
+
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
+
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x60 anywhere
 
 step Warmaster Laggrond
   zone map 1416
@@ -208,26 +242,97 @@ step Towers and Bunkers
 step Strange Snowman
   turnin 79483
 
-step Junkboxes Needed
+step Craftsman's Writ: Elixir of Ogre's Strength
   tip A repeatable quest: hand it in once, with what it asks for.
-  collect 16885 x5 anywhere optional
-  turnin 8249 direct optional
+  collect 264011 x1 anywhere optional
+  collect 3391 x1 anywhere optional
+  turnin 94004 direct optional
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x60 quest 7834.1
+step Craftsman's Writ: Heavy Leather Ball
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264038 x1 anywhere optional
+  collect 18662 x1 anywhere optional
+  turnin 94238 direct optional
 
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 7833.1
+step Craftsman's Writ: Pearl-Handled Dagger
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264020 x1 anywhere optional
+  collect 5540 x1 anywhere optional
+  turnin 94220 direct optional
 
-step Baron Bloodbane
-  zone map 1423
-  collect 4338 x60 quest 7835.1
+step Craftsman's Writ: Lesser Wizard's Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264047 x1 anywhere optional
+  collect 5766 x1 anywhere optional
+  turnin 94247 direct optional
 
-step Farrin Daris
-  zone map 1431
-  collect 2592 x60 quest 7820.1
+step Craftsman's Writ: Ornate Spyglass
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264029 x1 anywhere optional
+  collect 5507 x1 anywhere optional
+  turnin 94229 direct optional
+
+step Craftsman's Writ: Phoenix Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264051 x1 anywhere optional
+  collect 4317 x1 anywhere optional
+  turnin 94251 direct optional
+
+step Runecloth
+  tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1454
+  collect 14047 x60 anywhere
+
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4306 x60 anywhere
+
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 2592 x60 anywhere
+
+step Mageweave Cloth
+  tip Dropped by 369 kinds of mob in 27 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4338 x60 anywhere
+
+step Runecloth
+  tip Dropped by 265 kinds of mob in 22 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 14047 x60 anywhere
+
+step Wool Cloth
+  tip Dropped by 436 kinds of mob in 25 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1456
+  collect 2592 x60 anywhere
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Tarren Mill
+  zone map 1424
+  sethome "Tarren Mill"
+
+step Craftsman's Writ: Free Action Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264015 x1 anywhere optional
+  collect 5634 x1 anywhere optional
+  turnin 94215 direct optional
+
+step Craftsman's Writ: Heavy Bronze Mace
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264024 x1 anywhere optional
+  collect 3491 x1 anywhere optional
+  turnin 94224 direct optional
+
+step Craftsman's Writ: Practice Lock
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264033 x1 anywhere optional
+  collect 6712 x1 anywhere optional
+  turnin 94233 direct optional
+
+step Craftsman's Writ: Pilferer's Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264042 x1 anywhere optional
+  collect 7358 x1 anywhere optional
+  turnin 94242 direct optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 

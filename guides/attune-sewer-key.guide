@@ -1,11 +1,12 @@
 guide completionist-horde/attune-sewer-key
-title Dalaran Sewer Key (City of Dalaran key) (Completionist)
+title Dalaran Sewer Key (City of Dalaran key)
 faction Horde
 levels 33-35
 category Dungeons
+folder Completionist attunements and keys
 zone Alterac Mountains
-pitch Dalaran Sewer Key: Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Alliance walks in through the sewer pipe in Cantrips & Crows.
-why Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Alliance walks in through the sewer pipe in Cantrips & Crows.
+pitch Dalaran Sewer Key: Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Image of Archmage Modera gives it with Heart of Disruption: keep that quest in your log until you are inside. The Alliance walks in through the sewer pipe in Cantrips & Crows.
+why Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Image of Archmage Modera gives it with Heart of Disruption: keep that quest in your log until you are inside. The Alliance walks in through the sewer pipe in Cantrips & Crows.
 # Generated from the reference data: change the planner, not this file.
 # Routed 3 quests; estimated level at the end 33.2 (heuristic XP, class quests not counted).
 
@@ -27,10 +28,8 @@ step Magus Wordeen Voidglare
   turnin 93680
   accept 545
 
-step Dalaran Summoner
+step Dalaran Summoner and Elemental Slave
   kill 2358 x6 quest 545.1
-
-step Elemental Slave
   kill 2359 x12 quest 545.2
 
 step Magus Wordeen Voidglare

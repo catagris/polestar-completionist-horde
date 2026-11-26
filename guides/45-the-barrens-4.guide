@@ -1,19 +1,16 @@
-guide completionist-horde/49-the-barrens-4
-title 49 The Barrens, visit 4 (49-60) (Completionist)
+guide completionist-horde/45-the-barrens-4
+title 45 The Barrens, visit 4
 faction Horde
 levels 49-60
 category Leveling
+folder Completionist 41-50
 zone The Barrens
-next completionist-horde/50-mulgore-and-thunder-bluff-3
+next completionist-horde/dungeon-alcaz-prison
+next completionist-horde/46-eastern-plaguelands
 pitch On along the line: The Barrens, quests of level 49 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 11 quests; estimated level at the end 49.4 (heuristic XP, class quests not counted).
-# Skipped: 2 exclusive with N (done); 2 prerequisite N not in this route.
-
-step The Brokering of Peace
-  when onquest 8485
-  zone map 1454
-  turnin 8485 optional
+# Routed 10 quests; estimated level at the end 49.4 (heuristic XP, class quests not counted).
+# Skipped: 2 exploration objective has no location in data; 2 prerequisite N not in this route.
 
 step Eitrigg
   zone map 1454
@@ -41,6 +38,12 @@ step The Battle for Darkspear Islands!
   tip One of several exclusive quests; the route takes The Battle for Darkspear Islands! (98906). This one shows for a character the game offers it to instead.
   zone map 1413
   accept 98907 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98907
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 98907 @65.0,34.9 optional
 
 step The Battle for Darkspear Islands!
   when onquest 98907
@@ -79,7 +82,6 @@ step No Orc Left Behind
 
 step Islen Waterseer
   zone map 1413
-  turnin 5158
   accept 5159
 
 step Liv Rizzlefix
@@ -138,6 +140,27 @@ step Outrider Advanced Care Package
   zone map 1413
   accept 7868 optional
 
+step Level 50
+  zone map 1413
+  level 50
+
+step The Battle for Darkspear Islands!
+  when available 98908
+  tip One of several exclusive quests; the route takes The Battle for Darkspear Islands! (98906). This one shows for a character the game offers it to instead.
+  zone map 1413
+  accept 98908 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98908
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1413
+  complete 98908 @65.0,34.9 optional
+
+step The Battle for Darkspear Islands!
+  when onquest 98908
+  zone map 1413
+  turnin 98908 optional
+
 step Outrider Advanced Care Package
   when onquest 7868
   zone map 1413
@@ -153,23 +176,8 @@ step For Great Honor
   collect 20559 x3 anywhere optional
   collect 20558 x3 anywhere optional
 
-step Level 50
-  level 50
-
-step The Battle for Darkspear Islands!
-  when available 98908
-  tip One of several exclusive quests; the route takes The Battle for Darkspear Islands! (98906). This one shows for a character the game offers it to instead.
-  zone map 1413
-  accept 98908 optional
-
-step The Battle for Darkspear Islands!
-  when onquest 98908
-  zone map 1413
-  turnin 98908 optional
-
 step Crate Return
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1413
   accept 93862
   complete 93862 @50.1,29.4
 
@@ -211,6 +219,10 @@ step A Sealed Crate
 
 step A Sealed Crate
   tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 91903 direct optional
+
+step A Sealed Crate
+  tip A repeatable quest: hand it in once, with what it asks for.
   turnin 91902 direct optional
 
 step A Sealed Crate
@@ -227,27 +239,14 @@ step A Sealed Crate
   collect 248765 x1 anywhere optional
   turnin 91899 direct optional
 
-step Level 51
-  level 51
-
-step For Great Honor
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 8367
-  complete 8367 @46.7,8.7
-
-step For Great Honor
-  turnin 8367
-
-step For Great Honor
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8388 direct optional
-
 step Shipping Label
   when has 280180
   tip Started by an item you may have found on the way; the reference data does not say where it comes from.
   zone map 1413
   accept 98248 item 280180
   complete 98248 @50.1,29.4
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Crate Return
   zone map 1413
@@ -262,16 +261,111 @@ step Cortello's Treasure
   zone map 1425
   turnin 626
 
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1429
+  turnin 7937 direct @84.8,64.4 map 1429 optional
 
-step Seeking Spiritual Aid
-  when onquest 5158
-  tip Still in your log from an earlier guide: hand it in now.
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1436
+  turnin 7938 direct @41.9,72.8 map 1436 optional
+
+step Level 51
   zone map 1413
-  turnin 5158 optional
+  level 51
 
-step The Brokering of Peace
-  when onquest 8485
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 8485 optional
+step For Great Honor
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8367
+  complete 8367 @46.7,8.7
+
+step For Great Honor
+  turnin 8367
+
+step For Great Honor
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8388 direct optional
+
+step Your Fortune Awaits You...
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 7944 direct @46.6,35.7 map 1413 optional
+
+step Craftsman's Writ: Draught of Water Breathing
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1437
+  collect 264019 x1 anywhere optional
+  collect 5996 x1 anywhere optional
+  turnin 94219 direct optional
+
+step Craftsman's Writ: Green Iron Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264028 x1 anywhere optional
+  collect 3484 x1 anywhere optional
+  turnin 94228 direct optional
+
+step Craftsman's Writ: Crafted Solid Shot
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264037 x1 anywhere optional
+  collect 8069 x1 anywhere optional
+  turnin 94237 direct optional
+
+step Craftsman's Writ: Red Whelp Gloves
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264046 x1 anywhere optional
+  collect 7284 x1 anywhere optional
+  turnin 94246 direct optional
+
+step Craftsman's Writ: Spider Silk Slippers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264055 x1 anywhere optional
+  collect 4321 x1 anywhere optional
+  turnin 94255 direct optional
+
+step Craftsman's Writ: Greater Fire Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1428
+  collect 264118 x1 anywhere optional
+  collect 13457 x1 anywhere optional
+  turnin 94318 direct optional
+
+step Craftsman's Writ: Draught of Detect Demon
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1430
+  collect 264119 x1 anywhere optional
+  collect 9233 x1 anywhere optional
+  turnin 94319 direct optional
+
+step Craftsman's Writ: Orcish War Leggings
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1428
+  collect 264127 x1 anywhere optional
+  collect 7929 x1 anywhere optional
+  turnin 94327 direct optional
+
+step Craftsman's Writ: Mithril Spurs
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1430
+  collect 264128 x1 anywhere optional
+  collect 7969 x1 anywhere optional
+  turnin 94328 direct optional
+
+step Craftsman's Writ: Runic Leather Headband
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264146 x1 anywhere optional
+  collect 15094 x1 anywhere optional
+  turnin 94346 direct optional
+
+step Craftsman's Writ: Runecloth Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1428
+  collect 264154 x1 anywhere optional
+  collect 13864 x1 anywhere optional
+  turnin 94354 direct optional
+
+step Craftsman's Writ: Tuxedo Jacket
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1430
+  collect 264155 x1 anywhere optional
+  collect 10036 x1 anywhere optional
+  turnin 94355 direct optional

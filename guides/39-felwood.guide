@@ -1,43 +1,31 @@
-guide completionist-horde/48-felwood
-title 48 Felwood (48-58) (Completionist)
+guide completionist-horde/39-felwood
+title 39 Felwood
 faction Horde
 levels 48-58
 category Leveling
+folder Completionist 31-40
 zone Felwood
-next completionist-horde/49-the-barrens-4
+next completionist-horde/40-the-hinterlands
 pitch On along the line: Felwood, quests of level 48 to 58.
 # Generated from the reference data: change the planner, not this file.
-# Routed 21 quests; estimated level at the end 49.8 (heuristic XP, class quests not counted).
+# Routed 19 quests; estimated level at the end 49.8 (heuristic XP, class quests not counted).
+
+step Zevrost
+  when onquest 91548
+  when group 91548
+  zone map 1454
+  turnin 91548
+
+step Jes'rimon
+  when onquest 4300
+  zone map 1454
+  turnin 4300
 
 step Mokvar
-  only Hunter
-  when complete 8938
+  when onquest 84159
+  when group 84159
   zone map 1454
-  turnin 8938
-
-step Mokvar
-  only Warrior
-  when complete 8944
-  zone map 1454
-  turnin 8944
-
-step Mokvar
-  only Priest
-  when complete 8940
-  zone map 1454
-  turnin 8940
-
-step Mokvar
-  only Rogue
-  when complete 8941
-  zone map 1454
-  turnin 8941
-
-step Mokvar
-  only Shaman
-  when complete 8942
-  zone map 1454
-  turnin 8942
+  turnin 84159
 
 step Bloodvenom Post
   zone map 1448
@@ -45,6 +33,12 @@ step Bloodvenom Post
 
 step Statue of Malorne
   accept 86612
+
+step Craftsman's Writ: Enchanted Mageweave Pouch
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264108 x1 anywhere optional
+  collect 22246 x1 anywhere optional
+  turnin 94308 direct optional
 
 step Corrupted Songflower
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -159,6 +153,7 @@ step Feathers for Nafien
 
 step Gorn One Eye
   accept 87346
+  turnin 86798
 
 step The Root of All Evil
   tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
@@ -202,53 +197,46 @@ step Chieftain Bloodmaw
   zone map 1448
   collect 236631 x1 quest 87346.1
 
-step Ketharas
-  zone map 2482
-  accept 95568
-  accept 95569
+step Salfa
+  turnin 8465
+  accept 8464
 
-step Corrupted Windblossom
-  tip A repeatable quest: hand it in once, with what it asks for.
+step Winterfall Den Watcher
+  zone map 1452
+  kill 7440 x8 quest 8464.2
+
+step Winterfall Ursa
+  kill 7438 x8 quest 8464.3
+
+step Winterfall Shaman
+  kill 7439 x8 quest 8464.1
+
+step Salfa
   zone map 1448
-  collect 11516 x2 anywhere optional
-  turnin 4115 direct optional
+  turnin 8464
 
-step Untainted Flower
-  collect 260176 x10 quest 95568.1
+step Beads for Salfa
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21383 x5 anywhere optional
+  turnin 8469 direct optional
 
-step Hyjal Owl Egg
-  collect 269920 x12 quest 95569.1
+step Gorn One Eye
+  turnin 87346
 
-step Ketharas
-  turnin 95568
-  turnin 95569
+step The Brokering of Peace
+  when turnedin 8481
+  tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
+  zone map 1448
+  accept 8485 optional
 
-step Greta Mosshoof
-  accept 5155
-  accept 91952
-  turnin 91952
-  accept 86577
+step Taronn Redfeather
+  zone map 1454
   accept 5156
-
-step Corrupted Songflower
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 11516 x2 anywhere optional
-  turnin 2523 direct optional
-
-step Angerclaw Bear
-  zone map 1440
-  collect 277958 x8 quest 86577.1
-
-step Felpaw Wolf
-  collect 277959 x10 quest 86577.2
-
-step Grazle
-  zone map 1448
-  accept 6131
-  accept 6221
-  accept 8460
+  accept 86577
+  accept 5155
 
 step Level 50
+  zone map 1448
   level 50
 
 step Sacred Cloth
@@ -272,6 +260,82 @@ step Runecloth
   tip Needs Friendly standing (3000) with Timbermaw Hold; without it the quest is not offered.
   zone map 1448
   accept 6031 optional
+
+step Runecloth
+  when onquest 6031
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1448
+  complete 6031 @65.7,2.8 optional
+
+step Prince Halanox
+  when group 86814
+  tip Blackmaw Counter-Offensive is group work: elites. Grouping up is advised.
+  zone map 1447
+  kill 235892 x1 quest 86814.1
+
+step Gatekeeper Rageroar
+  when group 86814
+  zone map 1447
+  turnin 86814
+
+step Runecloth
+  when onquest 6031
+  zone map 1448
+  turnin 6031 optional
+
+step Craftsman's Writ: Shadoweave Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1448
+  collect 264107 x1 anywhere optional
+  collect 10004 x1 anywhere optional
+  turnin 94307 direct optional
+
+step Craftsman's Writ: Wild Leather Helmet
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264095 x1 anywhere optional
+  collect 8214 x1 anywhere optional
+  turnin 94295 direct optional
+
+step Craftsman's Writ: Goblin Land Mine
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264083 x1 anywhere optional
+  collect 4395 x1 anywhere optional
+  turnin 94283 direct optional
+
+step Craftsman's Writ: Ornate Mithril Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264071 x1 anywhere optional
+  collect 7928 x1 anywhere optional
+  turnin 94271 direct optional
+
+step Craftsman's Writ: Nature Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264059 x1 anywhere optional
+  collect 6052 x1 anywhere optional
+  turnin 94259 direct optional
+
+step Corrupted Windblossom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 4115 direct optional
+
+step Corrupted Songflower
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11516 x2 anywhere optional
+  turnin 2523 direct optional
+
+step Angerclaw Bear
+  zone map 1440
+  collect 277958 x8 quest 86577.1
+
+step Felpaw Wolf
+  collect 277959 x10 quest 86577.2
+
+step Grazle
+  zone map 1448
+  accept 6131
+  accept 6221
+  accept 8460
 
 step Corrupted Night Dragon
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -320,62 +384,22 @@ step Deadwood Avenger
 step Deadwood Shaman
   kill 7158 x5 quest 6221.3
 
-step Gorn One Eye
-  turnin 87346
-
-step The Brokering of Peace
-  when turnedin 8481
-  tip Needs Exalted standing (42000) with Timbermaw Hold; without it the quest is not offered.
+step Level 52
   zone map 1448
-  accept 8485 optional
-
-step Runecloth
-  when onquest 6031
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1448
-  complete 6031 @65.7,2.8 optional
-
-step Prince Halanox
-  when group 86814
-  tip Blackmaw Counter-Offensive is group work: elites. Grouping up is advised.
-  zone map 1447
-  kill 235892 x1 quest 86814.1
-
-step Gatekeeper Rageroar
-  when group 86814
-  zone map 1447
-  turnin 86814
-
-step Runecloth
-  when onquest 6031
-  zone map 1448
-  turnin 6031 optional
+  level 52
 
 step Salfa
-  zone map 1448
-  turnin 8465
-  accept 8464
-
-step Level 54
-  level 54
-
-step Violence Into Verdure
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 93747
-  complete 93747 @51.2,82.2
-
-step Violence Into Verdure
-  turnin 93747
+  accept 6241
 
 step Winterfall Den Watcher
   zone map 1452
-  kill 7440 x8 quest 8464.2
+  kill 7440 x6 quest 6241.1
 
-step Winterfall Ursa
-  kill 7438 x8 quest 8464.3
+step Winterfall Pathfinder
+  kill 7442 x6 quest 6241.3
 
-step Winterfall Shaman
-  kill 7439 x8 quest 8464.1
+step Winterfall Totemic
+  kill 7441 x6 quest 6241.2
 
 step Winterfall Ritual Totem
   tip Winterfall Ritual Totem drops from Winterfall Totemic, Winterfall Runner, Winterfall Pathfinder: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
@@ -389,20 +413,6 @@ step Winterfall Ritual Totem
 
 step Salfa
   zone map 1448
-  turnin 8464
-
-step Beads for Salfa
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 21383 x5 anywhere optional
-  turnin 8469 direct optional
-
-step Salfa
-  accept 6241
-
-step Salfa
-  kill 7440 x6 quest 6241.1
-  kill 7441 x6 quest 6241.2
-  kill 7442 x6 quest 6241.3
   turnin 6241
 
 step Taronn Redfeather
@@ -599,3 +609,33 @@ step The Remains of Trey Lightforge
   when onquest 5385
   zone map 1448
   turnin 5385
+
+step Islen Waterseer
+  zone map 1413
+  turnin 5158
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Bone-Bladed Weapons
+  when onquest 4300
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 4300 optional
+
+step An Earnest Proposition
+  when onquest 84159
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84159 optional
+
+step Timbermaw Reinforcements
+  when onquest 86798
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1448
+  turnin 86798 optional
+
+step Vek'zol
+  when onquest 91548
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 91548 optional

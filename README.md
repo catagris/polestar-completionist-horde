@@ -43,7 +43,7 @@ How the route works:
 Install Polestar first. Then unzip the release into the game's `Interface/AddOns` folder; it shows in
 the AddOns list as "Polestar Community: Completionist Guides (Horde)" and its guides appear in
 Polestar's guide list. It needs Polestar 0.3.0 or newer (the build says so in its TOC) and is built
-with the tools and data of Polestar 0.4.2.
+with the tools and data of Polestar 0.4.3.
 
 ## Problems
 

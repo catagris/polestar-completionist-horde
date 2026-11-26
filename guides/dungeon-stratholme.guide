@@ -1,72 +1,73 @@
 guide completionist-horde/dungeon-stratholme
-title Stratholme, part 1 of 2 (Completionist)
+title Stratholme
 faction Horde
 category Dungeons
-levels 57-60
+folder Completionist dungeons and raids
+levels 58-60
 zone Eastern Plaguelands
-next completionist-horde/dungeon-stratholme-2
+next completionist-horde/47-tirisfal-glades-and-the-undercity-4
 pitch Stratholme, in Eastern Plaguelands.
 why Every Horde quest of Stratholme: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Level 58
+step Just Compensation
   zone map 1454
-  level 58
+  accept 84172
 
-step An Earnest Proposition
-  only Warrior
-  zone map 1454
-  accept 8920
-
-step An Earnest Proposition
-  only Warrior
+step Just Compensation
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8920 @34.95,38.29
+  complete 84172 @34.96,38.26
 
-step An Earnest Proposition
-  only Warrior
-  zone map 1454
-  turnin 8920
+step Just Compensation
+  turnin 84172
 
 step Mokvar
-  only Druid
-  zone map 1454
-  accept 8913
+  accept 84155
+  accept 84156
+  accept 84158
+  accept 84174
 
 step Mokvar
   only Shaman
   zone map 1454
-  accept 8918
-
-step A Supernatural Device
-  zone map 1454
-  accept 8923
+  accept 84160
 
 step Mokvar
-  only Hunter
+  only Paladin
   zone map 1454
-  accept 8914
+  accept 97411
 
-step An Earnest Proposition
-  only Mage
+step Just Compensation
   zone map 1454
-  accept 8915
+  accept 84175
 
-step An Earnest Proposition
-  only Mage
+step Just Compensation
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8915 @34.95,38.29
+  complete 84175 @34.96,38.26
 
-step An Earnest Proposition
-  only Mage
-  zone map 1454
-  turnin 8915
+step Just Compensation
+  turnin 84175
+
+step Just Compensation
+  accept 84176
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 84176 @34.96,38.26
+
+step Just Compensation
+  turnin 84176
 
 step Mokvar
-  only Priest
-  zone map 1454
-  accept 8916
+  accept 84177
+
+step Mokvar
+  accept 84178
+
+step Mokvar
+  accept 97412
+
+step In Search of Anthion
+  accept 8930
 
 step Getting there
   zone map 1423
@@ -191,8 +192,17 @@ step The Dying, Ras Frostwhisper
   zone map 1423
   turnin 5462
 
-step Betina Bigglezink
+step Anthion Harmon
   zone map 1423
+  accept 84187
+  accept 84188
+  accept 84189
+  accept 84190
+  accept 84191
+  accept 84192
+  accept 84193
+
+step Betina Bigglezink
   accept 5212
 
 step Duke Nicholas Zverenhoff
@@ -228,17 +238,6 @@ step Artist Renfray
 step Catalogue of the Wayward
   accept 5166
 
-step Bodley
-  zone map 1427
-  accept 8968
-
-step The Right Piece of Lord Valthalak's Amulet
-  when available 8991
-  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
-  when turnedin 8985
-  zone map 1427
-  accept 8991 optional
-
 step Lilith the Lithe
   zone map 1452
   accept 5305
@@ -270,7 +269,17 @@ step Inside Stratholme
   complete 5307 @26.3,18.3
   complete 5848 @26.3,18.3
   complete 6163 @26.3,18.3
-  complete 8968 @26.3,18.3
+  complete 84155 @26.3,18.3
+  complete 84156 @26.3,18.3
+  complete 84158 @26.3,18.3
+  complete 84174 @26.3,18.3
+  complete 84187 @26.3,18.3
+  complete 84188 @26.3,18.3
+  complete 84189 @26.3,18.3
+  complete 84190 @26.3,18.3
+  complete 84191 @26.3,18.3
+  complete 84192 @26.3,18.3
+  complete 84193 @26.3,18.3
 
 step Inside Stratholme
   when turnedin 5462
@@ -283,14 +292,14 @@ step Inside Stratholme
   complete 7480 @26.3,18.3
 
 step Inside Stratholme
-  only Druid
-  zone map 1423
-  complete 8913 @26.3,18.3
-
-step Inside Stratholme
   only Shaman
   zone map 1423
-  complete 8918 @26.3,18.3
+  complete 84160 @26.3,18.3
+
+step Inside Stratholme
+  only Paladin
+  zone map 1423
+  complete 97411 @26.3,18.3
 
 step Betina Bigglezink
   zone map 1423
@@ -357,21 +366,6 @@ step In Dreams
   zone map 1422
   turnin 5944
 
-step Bodley
-  zone map 1427
-  turnin 8968
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8991
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1427
-  complete 8991 @39.8,96.5 optional
-
-step The Right Piece of Lord Valthalak's Amulet
-  when onquest 8991
-  zone map 1427
-  turnin 8991 optional
-
 step Lilith the Lithe
   zone map 1452
   turnin 5305
@@ -384,65 +378,29 @@ step Malyfous Darkhammer
 step Seril Scourgebane
   turnin 5307
 
-step A Supernatural Device
-  zone map 1446
-  turnin 8923
-
-step The Ectoplasmic Distiller
-  accept 8921
-
-step The Ectoplasmic Distiller
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8921 @52.47,27.23
-
-step The Ectoplasmic Distiller
-  turnin 8921
-
-step Hunting for Ectoplasm
-  accept 8924
-
-step Hunting for Ectoplasm
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8924 @52.47,27.23
-
-step Hunting for Ectoplasm
-  turnin 8924
-
-step A Portable Power Source
-  accept 8925
-
-step A Portable Power Source
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8925 @52.47,27.23
-
 step Level 60
-  zone map 1423
+  zone map 1434
   level 60
 
+step Pix Xizzix
+  accept 96087
+
 step Inside Stratholme
+  zone map 1423
+  complete 96087 @26.3,18.3
+
+step Pix Xizzix
+  zone map 1434
+  turnin 96087
+
+step Inside Stratholme
+  zone map 1423
   accept 8829 item 21514
   complete 8829 @26.3,18.3
 
 step Aurel Goldleaf
   zone map 1451
   turnin 8829
-
-step A Portable Power Source
-  zone map 1446
-  turnin 8925
-
-step A Shifty Merchant
-  accept 8928
-
-step A Shifty Merchant
-  tip The reference data does not place this quest's objective: follow the quest text.
-  complete 8928 @52.47,27.23
-
-step A Shifty Merchant
-  turnin 8928
-
-step Return to Mokvar
-  accept 8978
 
 step Betina Bigglezink
   zone map 1423
@@ -454,16 +412,12 @@ step Inside Stratholme, again
   accept 5262 item 13250
   turnin 5125 @26.3,18.3
   complete 5213 @26.3,18.3
+  complete 84177 @26.3,18.3
 
 step Inside Stratholme
   when turnedin 5463
   zone map 1423
   accept 5464 @26.3,18.3
-
-step Inside Stratholme
-  only Hunter
-  zone map 1423
-  complete 8914 @26.3,18.3
 
 step Betina Bigglezink
   zone map 1423
@@ -483,62 +437,169 @@ step Duke Nicholas Zverenhoff
 
 step Inside Stratholme, again
   complete 5263 @26.3,18.3
-
-step Inside Stratholme
-  only Priest
-  zone map 1423
-  complete 8916 @26.3,18.3
+  complete 84178 @26.3,18.3
 
 step Duke Nicholas Zverenhoff
-  zone map 1423
   turnin 5263
 
 step Lord Maxwell Tyrosus
   accept 5264
 
-step Dead Man's Plea
-  when turnedin 8930
-  zone map 1423
-  accept 8945
-
-step Dead Man's Plea
-  when onquest 8945
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 8945 @26.1,11.3
-
-step Dead Man's Plea
-  when onquest 8945
-  tip The hand-in is inside the instance: the arrow leads to its entrance.
-  zone map 1423
-  turnin 8945 @26.3,18.3
-
-step Proof of Life
-  when turnedin 8945
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1423
-  turnin 8946 direct @26.1,11.3 map 1423
-
-step Anthion's Strange Request
-  when turnedin 8946
-  zone map 1423
-  accept 8947
-
-step Anthion's Strange Request
-  when onquest 8947
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1423
-  complete 8947 @26.1,11.3
-
-step Anthion's Strange Request
-  when onquest 8947
-  zone map 1423
-  turnin 8947
-
 step Lord Maxwell Tyrosus
   when onquest 5264
   zone map 1423
   turnin 5264
+
+step Inside Stratholme, again
+  zone map 1423
+  complete 97412 @26.3,18.3
+
+step In Search of Anthion
+  turnin 8930
+
+step Anthion Harmon
+  accept 8945
+
+step Inside Stratholme, again
+  complete 8945 @26.3,18.3
+  turnin 8945 @26.3,18.3
+
+step Proof of Life
+  accept 8946 @26.3,18.3
+
+step Proof of Life
+  turnin 8946
+
+step Anthion's Strange Request
+  accept 8947
+
+step Anthion's Strange Request
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8947 @26.11,11.3
+
+step Anthion's Strange Request
+  turnin 8947
+
+step Anthion's Old Friend
+  accept 8948
+
+step Anthion's Old Friend
+  turnin 8948 @26.3,18.3
+
+step Falrin's Vendetta
+  accept 8949 @26.3,18.3
+
+step Falrin's Vendetta
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8949 @26.3,18.3
+
+step Falrin's Vendetta
+  turnin 8949 @26.3,18.3
+
+step The Instigator's Enchantment
+  accept 8950 @26.3,18.3
+
+step The Instigator's Enchantment
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8950 @26.3,18.3
+
+step The Instigator's Enchantment
+  turnin 8950 @26.3,18.3
+
+step The Challenge
+  accept 9015 @26.3,18.3
+
+step The Challenge
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 9015 @26.3,18.3
+
+step The Challenge
+  turnin 9015
+
+step Anthion Harmon
+  only Shaman
+  zone map 1423
+  accept 8957
+
+step Anthion Harmon
+  only Druid
+  zone map 1423
+  accept 9016
+
+step Anthion Harmon
+  only Hunter
+  zone map 1423
+  accept 9017
+
+step Anthion Harmon
+  only Mage
+  zone map 1423
+  accept 9018
+
+step Anthion Harmon
+  only Priest
+  zone map 1423
+  accept 9019
+
+step Anthion Harmon
+  only Rogue
+  zone map 1423
+  accept 9020
+
+step Anthion Harmon
+  only Warlock
+  zone map 1423
+  accept 9021
+
+step Bodley
+  zone map 1427
+  accept 8968
+
+step The Right Piece of Lord Valthalak's Amulet
+  when available 8991
+  tip One of several exclusive quests; the route takes The Right Piece of Lord Valthalak's Amulet (8989). This one shows for a character the game offers it to instead.
+  when turnedin 8985
+  zone map 1427
+  accept 8991 optional
+
+step Inside Stratholme, again
+  zone map 1423
+  complete 8968 @26.3,18.3
+
+step Inside Stratholme
+  only Shaman
+  zone map 1423
+  complete 8957 @26.3,18.3
+
+step Inside Stratholme
+  only Druid
+  zone map 1423
+  complete 9016 @26.3,18.3
+
+step Inside Stratholme
+  only Hunter
+  zone map 1423
+  complete 9017 @26.3,18.3
+
+step Inside Stratholme
+  only Mage
+  zone map 1423
+  complete 9018 @26.3,18.3
+
+step Inside Stratholme
+  only Priest
+  zone map 1423
+  complete 9019 @26.3,18.3
+
+step Inside Stratholme
+  only Rogue
+  zone map 1423
+  complete 9020 @26.3,18.3
+
+step Inside Stratholme
+  only Warlock
+  zone map 1423
+  complete 9021 @26.3,18.3
 
 step The Argent Hold
   when turnedin 5264
@@ -549,6 +610,21 @@ step The Argent Hold
   when onquest 5265
   zone map 1423
   turnin 5265
+
+step Bodley
+  zone map 1427
+  turnin 8968
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8991
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1427
+  complete 8991 @39.8,96.5 optional
+
+step The Right Piece of Lord Valthalak's Amulet
+  when onquest 8991
+  zone map 1427
+  turnin 8991 optional
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
@@ -581,9 +657,3 @@ step The Restless Souls
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1423
   turnin 5282 optional
-
-step Of Love and Family
-  when onquest 5848
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1422
-  turnin 5848 optional

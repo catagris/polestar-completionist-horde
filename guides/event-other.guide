@@ -1,7 +1,8 @@
 guide completionist-horde/event-other
-title Other event quests (Completionist)
+title Other event quests
 faction Horde
 category Miscellaneous
+folder Completionist events and extras
 levels 1-60
 zone Orgrimmar
 pitch Event quests whose event the data numbers but does not name.

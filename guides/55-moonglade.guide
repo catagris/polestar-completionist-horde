@@ -1,19 +1,14 @@
-guide completionist-horde/56-moonglade
-title 56 Moonglade (55-60) (Completionist)
+guide completionist-horde/55-moonglade
+title 55 Moonglade
 faction Horde
 levels 55-60
 category Leveling
+folder Completionist 51-59
 zone Moonglade
-next completionist-horde/57-durotar-and-orgrimmar-4
+next completionist-horde/56-durotar-and-orgrimmar-4
 pitch On along the line: Moonglade, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 33 quests; estimated level at the end 55.9 (heuristic XP, class quests not counted).
-
-step Mokvar
-  only Warlock
-  when complete 8943
-  zone map 1454
-  turnin 8943
+# Routed 15 quests; estimated level at the end 55.6 (heuristic XP, class quests not counted).
 
 step Arch Druid Hamuul Runetotem
   zone map 1456
@@ -29,6 +24,24 @@ step Keeper Remulos
 step Rabine Saturna
   turnin 1123
   accept 1124
+
+step Craftsman's Writ: Quickdraw Quiver
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264097 x1 anywhere optional
+  collect 8217 x1 anywhere optional
+  turnin 94297 direct optional
+
+step Craftsman's Writ: Unstable Trigger
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264085 x1 anywhere optional
+  collect 10560 x1 anywhere optional
+  turnin 94285 direct optional
+
+step Craftsman's Writ: Moonsteel Broadsword
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264073 x1 anywhere optional
+  collect 3853 x1 anywhere optional
+  turnin 94273 direct optional
 
 step Level 60
   zone map 1425
@@ -64,166 +77,30 @@ step Dendrite Starblaze
   zone map 1425
   accept 96209
 
+step Craftsman's Writ: Star Belt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1450
+  collect 264109 x1 anywhere optional
+  collect 4329 x1 anywhere optional
+  turnin 94309 direct optional
+
+step Craftsman's Writ: Great Rage Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264061 x1 anywhere optional
+  collect 5633 x1 anywhere optional
+  turnin 94261 direct optional
+
 step Orokai
   getfp "Nighthaven"
   turnin 96209
 
 step Stolen Power
   tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1450
   accept 95006
   complete 95006 @41.5,43.6
 
 step Stolen Power
   turnin 95006
-
-step Dendrite Starblaze
-  zone map 1425
-  accept 93773
-
-step Ketharas
-  zone map 2482
-  turnin 93773
-
-step Ketharas
-  accept 92171
-
-step Skylord Omnuron
-  turnin 92171
-
-step Skylord Omnuron
-  zone map 1425
-  accept 92500
-
-step Ketharas
-  zone map 2482
-  accept 96930
-
-step The Jewel of the Horizon
-  collect 272974 quest 92500.1
-
-step Ketharas
-  zone map 1425
-  turnin 92500
-
-step Curious Crow
-  zone map 2482
-  turnin 96930
-
-step Curious Crow
-  zone map 1425
-  accept 96931
-
-step Jereman
-  turnin 96931
-
-step Jereman
-  accept 96939
-
-step Marrosis
-  turnin 96939
-
-step Marrosis
-  accept 92317
-
-step Marrosis
-  accept 96957
-
-step Sun-Bleached Bone
-  zone map 2482
-  collect 275927 x20 quest 96957.1
-
-step Marrosis
-  zone map 1425
-  turnin 96957
-
-step Jereman
-  accept 96964
-
-step Renalard
-  turnin 96964
-
-step Renalard
-  accept 92335
-
-step Azgalor's Ashes
-  zone map 2482
-  collect 253239 x1 quest 92335.1
-
-step Ketharas
-  zone map 1425
-  turnin 92335
-
-step Drop of Stolen Life
-  zone map 2482
-  collect 272973 x1 quest 92317.1
-
-step Ketharas
-  zone map 1425
-  turnin 92317
-
-step Ketharas
-  zone map 1448
-  accept 90647
-
-step Tiala Whitemane
-  turnin 90647
-
-step Tiala Whitemane
-  zone map 1425
-  accept 92169
-
-step Tiala Whitemane
-  complete 92169 @73.4,41.0 map 2482
-  turnin 92169
-
-step Tiala Whitemane
-  when group 92833
-  zone map 1425
-  accept 92833
-
-step Tiala Whitemane
-  when group 92833
-  zone map 1425
-  kill 267182 quest 92833.1
-  turnin 92833
-
-step Renalard
-  zone map 1425
-  accept 96971
-
-step Tiala Whitemane
-  accept 99670
-
-step Tiala Whitemane
-  accept 93848
-
-step Ketharas
-  turnin 93848
-
-step Abandoned Supplies
-  zone map 2482
-  collect 275958 x8 quest 96971.1
-
-step Renalard
-  zone map 1425
-  turnin 96971
-
-step Jereman
-  accept 96978
-
-step Jereman
-  turnin 99670
-
-step Kala'th
-  turnin 96978
-
-step Kala'th
-  accept 93617
-
-step Kala'th
-  kill 256809 quest 93617.1
-  turnin 93617
 
 step Keeper Remulos
   complete 8447 @40,48.6 map 1450

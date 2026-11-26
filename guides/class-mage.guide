@@ -1,5 +1,5 @@
 guide completionist-horde/class-mage
-title Mage class quests (10-60) (Completionist)
+title Mage class quests
 faction Horde
 class Mage
 levels 10-60
@@ -11,7 +11,30 @@ reward text What the Mage quests give, quest by quest: abilities, forms, pets, t
 # Routed 26 quests; estimated level at the end 17.1 (heuristic XP).
 # Skipped: 3 exclusive with N; 1 objective N (kill N) outside the zones.
 
+step Speak with Un'thuwa
+  only Mage,Orc,Troll
+  zone map 1454
+  accept 1883 npc 7311 optional only Orc,Troll
+
+step Speak with Un'thuwa
+  only Mage,Orc,Troll
+  zone map 1411
+  turnin 1883 optional only Orc,Troll
+
+step Ju-Ju Heaps
+  only Mage,Orc,Troll
+  zone map 1411
+  accept 1884 optional only Orc,Troll
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 1884 @56.3,75.1 optional only Orc,Troll
+
+step Ju-Ju Heaps
+  only Mage,Orc,Troll
+  zone map 1411
+  turnin 1884 optional only Orc,Troll
+
 step Owen Thadd
+  zone map 1411
   accept 97286 only Mage
   turnin 97286 only Mage
 
@@ -20,7 +43,7 @@ step Level 15
 
 step Cain Firesong
   zone map 1420
-  accept 1881 only Undead,Troll
+  accept 1881 only Undead
   accept 1959 npc 2128 only Undead,Troll
 
 step Level 15
@@ -28,23 +51,22 @@ step Level 15
 
 step Anastasia Hartwell
   zone map 1458
-  turnin 1881 only Undead,Troll
+  turnin 1881 only Undead
   turnin 1959 only Undead,Troll
   accept 1960 only Orc,Undead,Troll
 
 step The Balnir Farmstead
-  only Mage,Undead,Troll
+  only Mage,Undead
   zone map 1458
-  accept 1882 optional
+  accept 1882 optional only Undead
   tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1882 @85.1,10.0 optional
+  complete 1882 @85.1,10.0 optional only Undead
 
 step Filled Containment Coffer
   zone map 1458
   collect 7292 x3 quest 1960.1 only Orc,Undead,Troll
 
 step Chest of Containment Coffers and Cantation of Manifestation
-  zone map 1453
   collect 7247 x1 quest 1960.2 only Orc,Undead,Troll
   collect 7308 x1 quest 1960.3 only Orc,Undead,Troll
 
@@ -52,18 +74,18 @@ step Level 15
   level 15
 
 step Anastasia Hartwell
-  zone map 1458
   turnin 1960 only Orc,Undead,Troll
   accept 1961 only Orc,Undead,Troll
 
 step The Balnir Farmstead
-  only Mage,Undead,Troll
+  only Mage,Undead
   zone map 1458
-  turnin 1882 optional
+  turnin 1882 optional only Undead
 
-step Adam Lind
-  zone map 1437
-  collect 2589 x10 quest 1961.1 only Orc,Undead,Troll
+step Linen Cloth
+  tip Dropped by 481 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  zone map 1458
+  collect 2589 x10 anywhere only Orc,Undead,Troll
 
 step Dalaran Wizard
   zone map 1424
@@ -83,28 +105,6 @@ step Level 35
 
 step Anastasia Hartwell
   accept 1953 npc 4568 only Mage
-
-step Speak with Un'thuwa
-  only Mage
-  zone map 1456
-  accept 1883 optional
-
-step Speak with Un'thuwa
-  only Mage
-  zone map 1456
-  turnin 1883 optional
-
-step Ju-Ju Heaps
-  only Mage,Orc,Undead,Troll
-  zone map 1411
-  accept 1884 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1884 @56.3,75.1 optional
-
-step Ju-Ju Heaps
-  only Mage,Orc,Undead,Troll
-  zone map 1411
-  turnin 1884 optional
 
 step Level 50
   zone map 1411

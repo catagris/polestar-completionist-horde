@@ -1,5 +1,5 @@
 guide completionist-horde/class-shaman
-title Shaman class quests (10-60) (Completionist)
+title Shaman class quests
 faction Horde
 class Shaman
 levels 10-60
@@ -8,74 +8,111 @@ zone Durotar
 why Every Shaman class quest from level 10 on, in level order. The earlier ones are in the starting zone guides.
 reward text What the Shaman quests give, quest by quest: abilities, forms, pets, totems or gear.
 # Generated from the reference data: change the planner, not this file.
-# Routed 25 quests; estimated level at the end 19.3 (heuristic XP).
+# Routed 26 quests; estimated level at the end 19.3 (heuristic XP).
 # Skipped: 10 exclusive with N; 3 prerequisite N not in this route.
 
+step Call of Fire
+  only Shaman,Tauren
+  zone map 1456
+  accept 1523 optional only Tauren
+
+step Call of Fire
+  only Shaman,Tauren
+  when onquest 1523
+  zone map 1413
+  turnin 1523 optional only Tauren
+
+step Call of Fire
+  only Shaman,Tauren
+  zone map 1412
+  accept 2984 optional only Tauren
+
+step Call of Fire
+  only Shaman,Tauren
+  when onquest 2984
+  zone map 1413
+  turnin 2984 optional only Tauren
+
 step Searn Firewarder
-  zone Orgrimmar
-  accept 1522 only Orc,Tauren,Troll @38.0,37.7 map 1454
+  zone map 1454
+  accept 1522 only Orc,Troll
+  accept 98517 only Skyborne
 
 step Level 20
   level 20
 
+step Level 30
+  level 30
+
+step Call of Air
+  only Shaman,Tauren,Skyborne
+  zone map 1456
+  accept 1532 optional only Tauren,Skyborne
+
+step Call of Water
+  only Shaman,Tauren,Skyborne
+  zone map 1456
+  accept 1529 optional only Tauren,Skyborne
+
+step Call of Water
+  only Shaman,Tauren,Skyborne
+  when onquest 1529
+  zone map 1413
+  turnin 1529 optional only Tauren,Skyborne
+
+step Call of Water
+  only Shaman,Tauren,Skyborne
+  zone map 1412
+  accept 2986 optional only Tauren,Skyborne
+
+step Call of Air
+  only Shaman,Tauren,Skyborne
+  when onquest 1532
+  zone map 1441
+  turnin 1532 optional only Tauren,Skyborne
+
+step Call of Water
+  only Shaman,Tauren,Skyborne
+  when onquest 2986
+  zone map 1413
+  turnin 2986 optional only Tauren,Skyborne
+
 step Searn Firewarder
-  zone Orgrimmar
-  accept 1528 only Shaman
+  zone map 1454
+  accept 1528 only Orc,Troll,Skyborne
 
 step Level 58
   level 58
 
 step Sagorne Creststrider
-  zone Orgrimmar
   accept 7667 only Shaman
 
 step Doomguard Commander
-  zone Blasted Lands
+  zone map 1419
   collect 18335 x1 quest 7667.2 only Shaman
 
 step Sagorne Creststrider
-  zone Orgrimmar
+  zone map 1454
   accept 8410 npc 13417 only Shaman
 
-step Call of Air
-  only Shaman
-  when available 1532
-  tip One of several exclusive quests; the route takes Call of Air (1531). This one shows for a character the game offers it to instead.
-  zone map 1456
-  accept 1532 optional
-
-step Call of Water
-  only Shaman
-  when available 1529
-  tip One of several exclusive quests; the route takes Call of Water (1528). This one shows for a character the game offers it to instead.
-  zone map 1456
-  accept 1529 optional
-
-step Call of Fire
-  only Shaman,Orc,Tauren,Troll
-  when available 1523
-  tip One of several exclusive quests; the route takes Call of Fire (1522). This one shows for a character the game offers it to instead.
-  zone map 1456
-  accept 1523 @25.2,20.5 map 1456 optional
-
 step Avalanchion
-  zone Azshara
+  zone map 1447
   collect 7067 x1 quest 8410.3 only Shaman
 
 step Princess Tempestria
-  zone Winterspring
+  zone map 1452
   collect 7070 x1 quest 8410.4 only Shaman
 
 step Baron Charr
-  zone Un'Goro Crater
+  zone map 1449
   collect 7068 x1 quest 8410.2 only Shaman
 
 step The Windreaver
-  zone Silithus
+  zone map 1451
   collect 7069 x1 quest 8410.1 only Shaman
 
 step Bath'rah the Windwatcher
-  zone Alterac Mountains
+  zone map 1416
   turnin 8410 only Shaman
 
 step Mastering the Elements
@@ -86,7 +123,7 @@ step Mastering the Elements
   accept 8411 optional
 
 step Bath'rah the Windwatcher
-  zone Alterac Mountains
+  zone map 1416
   accept 8412 only Shaman
 
 step Mastering the Elements
@@ -103,120 +140,85 @@ step Mastering the Elements
   turnin 8411 optional
 
 step Bath'rah the Windwatcher
-  zone Alterac Mountains
+  zone map 1416
   accept 79365 only Shaman
 
 step Venom Mist Lurker
-  zone Tirisfal Glades
+  zone map 1420
   collect 20610 x8 quest 8412.1 only Shaman
 
 step Diseased Black Bear
-  zone Tirisfal Glades
+  zone map 1454
   collect 20611 x8 quest 8412.2 only Shaman
 
 step Rich Thorium Vein
-  zone Western Plaguelands
+  zone map 1422
   collect 12800 x1 quest 7667.1 only Shaman
 
 step Islen Waterseer
-  turnin 1528 only Shaman
+  turnin 1528 only Orc,Troll,Skyborne
   accept 1530 only Shaman
 
-step Call of Water
-  only Shaman
-  when onquest 1529
-  zone map 1413
-  turnin 1529 optional
-
 step Kranal Fiss
-  turnin 1522 only Orc,Tauren,Troll
-  accept 1524 only Orc,Tauren,Troll @56.0,19.9 map 1413
-
-step Call of Fire
-  only Shaman,Orc,Tauren,Troll
-  when onquest 1523
   zone map 1413
-  turnin 1523 optional
+  turnin 1522 only Orc,Troll
+  accept 1524 only Orc,Tauren,Troll
 
 step Telf Joolam
-  zone Durotar
+  zone map 1411
   turnin 1524 only Orc,Tauren,Troll
-  accept 1525 only Shaman @38.5,59.0 map 1411
+  accept 1525 only Shaman
 
 step Razormane Water Seeker
-  zone The Barrens
+  zone map 1413
   collect 5026 x1 quest 1525.1 only Shaman
 
 step Burning Blade Cultist
-  zone Durotar
+  zone map 1411
   collect 6652 x1 quest 1525.2 only Shaman
 
 step Sagorne Creststrider
-  zone Orgrimmar
+  zone map 1454
   turnin 7667 only Shaman
 
 step Telf Joolam
-  zone Durotar
+  zone map 1411
   turnin 1525 only Shaman
-  accept 1526 only Shaman @38.5,59.0 map 1411
+  accept 1526 only Shaman
 
 step Minor Manifestation of Fire
   collect 6655 x1 quest 1526.1 only Shaman
 
 step Brazier of the Dormant Flame
   turnin 1526 only Shaman
-  accept 1527 only Shaman @39.0,58.2 map 1411
+  accept 1527 only Shaman
 
 step Call of Water
-  only Shaman
-  when available 2985
-  tip One of several exclusive quests; the route takes Call of Water (1528). This one shows for a character the game offers it to instead.
+  only Shaman,Orc,Troll,Skyborne
   zone map 1411
-  accept 2985 optional
+  accept 2985 optional only Orc,Troll,Skyborne
 
 step Call of Fire
-  only Shaman,Orc,Tauren,Troll
-  when available 2983
-  tip One of several exclusive quests; the route takes Call of Fire (1522). This one shows for a character the game offers it to instead.
+  only Shaman,Orc,Troll
   zone map 1411
-  accept 2983 @54.4,42.6 map 1411 optional
+  accept 2983 optional only Orc,Troll
 
 step Kranal Fiss
-  zone The Barrens
+  zone map 1413
   turnin 1527 only Shaman
 
 step Call of Fire
-  only Shaman,Orc,Tauren,Troll
+  only Shaman,Orc,Troll
   when onquest 2983
   zone map 1413
-  turnin 2983 optional
+  turnin 2983 optional only Orc,Troll
 
 step Alaana Stormwalker
-  zone Mulgore
+  zone map 1412
   accept 96136 only Skyborne
 
-step Call of Water
-  only Shaman
-  when available 2986
-  tip One of several exclusive quests; the route takes Call of Water (1528). This one shows for a character the game offers it to instead.
-  zone map 1412
-  accept 2986 optional
-
-step Call of Fire
-  only Shaman,Orc,Tauren,Troll
-  when available 2984
-  tip One of several exclusive quests; the route takes Call of Fire (1522). This one shows for a character the game offers it to instead.
-  zone map 1412
-  accept 2984 @47.4,62.5 map 1412 optional
-
-step Call of Fire
-  only Shaman,Orc,Tauren,Troll
-  when onquest 2984
-  zone map 1413
-  turnin 2984 optional
-
 step Brine
-  zone The Barrens
+  zone map 1413
   turnin 1530 only Shaman
   accept 1535 only Shaman
 
@@ -228,7 +230,7 @@ step Brine
   accept 1536 only Shaman
 
 step Spring Well
-  zone Alterac Mountains
+  zone map 1416
   collect 7771 x1 quest 1536.1 only Shaman
 
 step Bath'rah the Windwatcher
@@ -236,12 +238,12 @@ step Bath'rah the Windwatcher
 
 step Geologist Larksbane
   when turnedin 8315
-  zone Silithus
+  zone map 1451
   accept 8380 only Shaman
   turnin 8380 only Shaman
 
 step Rau Cliffrunner
-  zone Thousand Needles
+  zone map 1441
   turnin 79365 only Shaman
 
 step Eyes on the Sky
@@ -251,6 +253,7 @@ step Eyes on the Sky
   accept 79364 optional
 
 step Prate Cloudseer
+  zone map 1441
   turnin 96136 only Skyborne
 
 step Eyes on the Sky
@@ -258,12 +261,6 @@ step Eyes on the Sky
   when onquest 79364
   zone map 1441
   turnin 79364 optional
-
-step Call of Air
-  only Shaman
-  when onquest 1532
-  zone map 1441
-  turnin 1532 optional
 
 step Storm, Earth, and Fire
   only Shaman
@@ -316,16 +313,16 @@ step The Tempest's Weapons
   turnin 79442 optional
 
 step Brine
-  zone The Barrens
+  zone map 1413
   turnin 1536 only Shaman
   accept 1534 only Shaman
 
 step Ruins of Stardust Fountain
-  zone Ashenvale
+  zone map 1440
   collect 7770 x1 quest 1534.1 only Shaman
 
 step Brine
-  zone The Barrens
+  zone map 1413
   turnin 1534 only Shaman
   accept 220 only Shaman
 
@@ -334,16 +331,10 @@ step Islen Waterseer
   accept 63 only Shaman
 
 step Call of Water
-  only Shaman
-  when onquest 2986
-  zone map 1413
-  turnin 2986 optional
-
-step Call of Water
-  only Shaman
+  only Shaman,Orc,Troll,Skyborne
   when onquest 2985
   zone map 1413
-  turnin 2985 optional
+  turnin 2985 optional only Orc,Troll,Skyborne
 
 step Water Sapta
   only Shaman
@@ -352,7 +343,7 @@ step Water Sapta
   turnin 972 direct optional
 
 step Corrupt Minor Manifestation of Water
-  zone Silverpine Forest
+  zone map 1421
   collect 7812 x1 quest 63.1 only Shaman
 
 step Brazier of Everfount
@@ -369,69 +360,75 @@ step Call of Water
   turnin 1103 direct optional
 
 step Odd Totem
-  zone Tanaris
+  zone map 1446
   accept 95753 only Shaman
 
 step Odd Totem
   turnin 95753 only Shaman
 
 step Islen Waterseer
-  zone The Barrens
+  zone map 1413
   turnin 96 only Shaman
 
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+step Sessaria Skystride
+  zone map 2521
+  turnin 98517 only Skyborne
 
 step Call of Fire
   only Shaman,Skyborne
   zone map 2521
-  accept 97243 @58.3,78.5 map 2521 optional
+  accept 97243 optional
 
 step Call of Fire
   only Shaman,Skyborne
+  zone map 2521
   turnin 97243 optional
 
 step Call of Fire
   only Shaman
   zone map 2521
-  accept 97244 @51.2,86.2 map 2521 optional
+  accept 97244 optional
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 97244 @51.2,86.2 optional
 
 step Call of Fire
   only Shaman
+  zone map 2521
   turnin 97244 optional
 
 step Call of Fire
   only Shaman
   zone map 2521
-  accept 97245 @51.2,86.2 map 2521 optional
+  accept 97245 optional
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 97245 @51.2,86.2 optional
 
 step Call of Fire
   only Shaman
+  zone map 2521
   turnin 97245 optional
 
 step Call of Fire
   only Shaman
   zone map 2521
-  accept 97257 @51.2,86.2 map 2521 optional
+  accept 97257 optional
   tip A class quest, done from the quest text: the reference data does not route it.
   complete 97257 @51.2,86.2 optional
 
 step Call of Fire
   only Shaman
+  zone map 2521
   turnin 97257 optional
 
-step Call of Air
-  only Shaman
-  when available 1531
-  tip One of several exclusive quests; the route takes Call of Air (1532). This one shows for a character the game offers it to instead.
-  zone map 1454
-  accept 1531 optional
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Call of Air
-  only Shaman
+  only Shaman,Orc,Troll,Skyborne
+  zone map 1454
+  accept 1531 optional only Orc,Troll,Skyborne
+
+step Call of Air
+  only Shaman,Orc,Troll,Skyborne
   when onquest 1531
   zone map 1441
-  turnin 1531 optional
+  turnin 1531 optional only Orc,Troll,Skyborne

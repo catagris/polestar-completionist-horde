@@ -1,8 +1,9 @@
 guide completionist-horde/15-stonetalon-mountains
-title 15 Stonetalon Mountains (18-29) (Completionist)
+title 15 Stonetalon Mountains
 faction Horde
 levels 18-29
 category Leveling
+folder Completionist 11-20
 zone Stonetalon Mountains
 next completionist-horde/16-the-barrens-2
 pitch On along the line: Stonetalon Mountains, quests of level 18 to 29.
@@ -37,6 +38,36 @@ step Gaea Dirt Mound
 
 step Ziz Fizziks
   accept 1093
+
+step Craftsman's Writ: Red Woolen Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264052 x1 anywhere optional
+  collect 4313 x1 anywhere optional
+  turnin 94252 direct optional
+
+step Craftsman's Writ: Heavy Quiver
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264043 x1 anywhere optional
+  collect 7371 x1 anywhere optional
+  turnin 94243 direct optional
+
+step Craftsman's Writ: Shadow Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264034 x1 anywhere optional
+  collect 4373 x1 anywhere optional
+  turnin 94234 direct optional
+
+step Craftsman's Writ: Rough Bronze Leggings
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264025 x1 anywhere optional
+  collect 2865 x1 anywhere optional
+  turnin 94225 direct optional
+
+step Craftsman's Writ: Elixir of Lesser Agility
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264016 x1 anywhere optional
+  collect 3390 x1 anywhere optional
+  turnin 94216 direct optional
 
 step Venture Co. Operator
   collect 5734 x1 quest 1093.1

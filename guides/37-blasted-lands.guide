@@ -1,28 +1,116 @@
 guide completionist-horde/37-blasted-lands
-title 37 Blasted Lands (45-60) (Completionist)
+title 37 Blasted Lands
 faction Horde
 levels 45-60
 category Leveling
+folder Completionist 31-40
 zone Blasted Lands
-next completionist-horde/38-odd-jobs-in-kalimdor-3
+next completionist-horde/38-ungoro-crater
 pitch On along the line: Blasted Lands, quests of level 45 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 14 quests; estimated level at the end 46.3 (heuristic XP, class quests not counted).
+# Routed 23 quests; estimated level at the end 46.7 (heuristic XP, class quests not counted).
 
-step Chemist Cuely
-  when onquest 3568
-  zone map 1458
-  turnin 3568
-
-step Seeping Corruption
-  when turnedin 3568
-  zone map 1458
-  accept 3569
-
-step Zevrost
-  when group 91548
+step Jes'rimon
+  when onquest 3541
   zone map 1454
-  accept 91548
+  turnin 3541
+  accept 3563
+
+step Nara Wildmane
+  when onquest 3518
+  zone map 1456
+  turnin 92346
+  turnin 3518
+  accept 3562
+
+step Nara Wildmane
+  when complete 92343
+  zone map 1456
+  turnin 92343
+
+step Andron Gant
+  when onquest 3542
+  zone map 1458
+  turnin 3542
+  accept 3564
+  accept 3568
+
+step Ag'tor Bloodfist
+  when onquest 3504
+  zone map 1447
+  turnin 3504
+  accept 3505
+  turnin 3563
+  turnin 3565
+
+step Blood Elf Reclaimer and Blood Elf Surveyor
+  zone map 1447
+  kill 6199 x10 quest 3505.1
+  kill 6198 x10 quest 3505.2
+
+step Kaldorei Tome of Summoning
+  when onquest 3505
+  zone map 1447
+  turnin 3505
+  accept 3506
+  accept 91497
+
+step Magus Rimtori
+  zone map 1447
+  collect 10597 x1 quest 3506.1
+
+step Ranger Lydrea
+  collect 246722 x1 quest 91497.3
+
+step Lieutenant Suncrest
+  collect 246725 x1 quest 91497.1
+
+step Magister Hawkhelm
+  collect 246721 x1 quest 91497.2
+
+step Sin'dorei Tome of Summoning
+  when onquest 91497
+  zone map 1447
+  turnin 91497
+  accept 91500
+  accept 91538
+
+step Magus Rimtori
+  zone map 1447
+  collect 10597 x1 quest 91500.1
+
+step Jediga
+  when onquest 3506
+  zone map 1447
+  turnin 91538
+  accept 91547
+  turnin 3506
+  turnin 91500
+  accept 3507
+  accept 91531
+
+step Jediga
+  when onquest 3562
+  zone map 1447
+  turnin 3562
+
+step the First Tide Pool
+  zone map 1447
+  collect 10691 x1 quest 3568.1
+
+step the Second Tide Pool
+  collect 10692 x1 quest 3568.2
+
+step the Third Tide Pool
+  collect 10693 x1 quest 3568.3
+
+step the Fourth Tide Pool
+  collect 10694 x1 quest 3568.4
+
+step Jediga
+  when onquest 3564
+  zone map 1447
+  turnin 3564
 
 step Bloodmage Lynnore
   zone map 1419
@@ -47,6 +135,30 @@ step Kum'isha the Collector
   accept 3501
   turnin 93684
   accept 93685
+
+step Craftsman's Writ: Runecloth Bag
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264153 x1 anywhere optional
+  collect 14046 x1 anywhere optional
+  turnin 94353 direct optional
+
+step Craftsman's Writ: Green Lens
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264135 x1 anywhere optional
+  collect 10504 x1 anywhere optional
+  turnin 94335 direct optional
+
+step Craftsman's Writ: Radiant Belt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264126 x1 anywhere optional
+  collect 12416 x1 anywhere optional
+  turnin 94326 direct optional
+
+step Craftsman's Writ: Dreamless Sleep Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264117 x1 anywhere optional
+  collect 12190 x1 anywhere optional
+  turnin 94317 direct optional
 
 step Helboar and Black Slayer
   collect 8392 x2 quest 2581.2
@@ -144,12 +256,6 @@ step Owen Thadd
   zone map 1458
   turnin 81956
 
-step Vek'zol
-  when group 91548
-  tip Vek'zol is group work: elites. Grouping up is advised.
-  zone map 1419
-  collect 246780 x1 quest 91548.1
-
 step The Demon Hunter
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1435
@@ -157,8 +263,126 @@ step The Demon Hunter
   complete 2744 @34.3,66.1
 
 step The Demon Hunter
-  zone map 1447
   turnin 2744
+
+step Loramus
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1447
+  accept 3141
+  complete 3141 @60.8,66.3
+
+step Loramus
+  turnin 3141
+
+step Loramus Thalipedes
+  accept 3508
+  turnin 3508
+
+step Loramus Thalipedes
+  accept 3509
+
+step Lord Arkkoroc
+  turnin 3509
+
+step Lord Arkkoroc
+  when group 3510
+  zone map 1454
+  accept 3510
+
+step Hetaera
+  when group 3510
+  tip The Name of the Beast is group work: elites. Grouping up is advised.
+  zone map 1454
+  collect 10599 x1 quest 3510.1
+  collect 10598 x1 quest 3510.2
+  collect 10600 x1 quest 3510.3
+
+step Lord Arkkoroc
+  when group 3510
+  zone map 1454
+  turnin 3510
+
+step Lord Arkkoroc
+  zone map 1454
+  accept 3511
+
+step Loramus Thalipedes
+  turnin 3511
+
+step Loramus Thalipedes
+  accept 3602
+
+step Azsharite Formation
+  collect 10714 x20 quest 3602.1
+
+step Loramus Thalipedes
+  turnin 3602
+
+step Loramus Thalipedes
+  accept 3621
+
+step Galvan the Ancient
+  zone map 1434
+  turnin 3621
+
+step Enchanted Azsharite Fel Weaponry
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 3625
+  complete 3625 @50.6,20.5
+
+step Enchanted Azsharite Fel Weaponry
+  turnin 3625
+
+step Galvan the Ancient
+  accept 3626
+
+step Fallen Hero of the Horde
+  zone map 1435
+  turnin 3626
+
+step Fallen Hero of the Horde
+  when group 3627
+  zone map 1435
+  accept 3627
+
+step Grol the Destroyer
+  when group 3627
+  tip Uniting the Shattered Amulet is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10753 x1 quest 3627.2
+
+step Lady Sevine
+  when group 3627
+  tip Uniting the Shattered Amulet is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10754 x1 quest 3627.3
+
+step Archmage Allistarj
+  when group 3627
+  tip Uniting the Shattered Amulet is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10755 x1 quest 3627.1
+
+step Fallen Hero of the Horde
+  when group 3627
+  zone map 1435
+  turnin 3627
+
+step Fallen Hero of the Horde
+  when group 3628
+  zone map 1435
+  accept 3628
+
+step Razelikh the Defiler
+  when group 3628
+  tip You Are Rakh'likh, Demon is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 10759 x1 quest 3628.1
+
+step Fallen Hero of the Horde
+  when group 3628
+  zone map 1435
+  turnin 3628
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
@@ -168,11 +392,47 @@ step Kirith
   zone map 1419
   turnin 2721 optional
 
-step Seeping Corruption
-  when onquest 3568
+step Betrayed
+  when onquest 3504
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1447
+  turnin 3504 optional
+
+step Delivery to Magatha
+  when onquest 3518
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 3518 optional
+
+step Delivery to Jes'rimon
+  when onquest 3541
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 3541 optional
+
+step Delivery to Andron Gant
+  when onquest 3542
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1458
-  turnin 3568 optional
+  turnin 3542 optional
+
+step Xylem's Payment to Jediga
+  when onquest 3565
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1447
+  turnin 3565 optional
+
+step Get to the Roots of It
+  when onquest 92343
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 92343 optional
+
+step Beneath Nordrassil
+  when onquest 92346
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 92346 optional
 
 step The Found One
   when onquest 93684

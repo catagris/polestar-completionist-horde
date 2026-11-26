@@ -1,0 +1,724 @@
+guide completionist-horde/53-mount-hyjal
+title 53 Mount Hyjal
+faction Horde
+levels 56-60
+category Leveling
+folder Completionist 51-59
+zone Mount Hyjal
+next completionist-horde/54-winterspring
+pitch On along the line: Mount Hyjal, quests of level 56 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 95 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
+
+step Nara Wildmane
+  when onquest 4883
+  zone map 1456
+  turnin 4883
+
+step Thylaen
+  when group 91923
+  zone map 2482
+  accept 91923
+
+step Hyacinth
+  zone map 2482
+  getfp "Tainted Foothills"
+  accept 91754
+  accept 91755
+
+step Tainted Shrubbery
+  collect 247892 x12 quest 91755.1
+
+step Hyacinth
+  turnin 91755
+
+step Untainted Soil
+  collect 247889 x6 quest 91754.1
+
+step Kaylaena Springwhisper
+  accept 92008
+  accept 92594
+
+step Tainted Shrubbery
+  kill 248395 x15 quest 92594.1
+
+step Hyacinth
+  turnin 91754
+
+step Hyacinth
+  accept 91770
+
+step Fraxinus
+  kill 248366 x1 quest 91770.1
+
+step Celastrus the Bitter
+  when group 91923
+  tip Celastrus the Bitter is group work: elites. Grouping up is advised.
+  zone map 2482
+  collect 282028 x1 quest 91923.1
+
+step Thylaen
+  when group 91923
+  zone map 2482
+  turnin 91923
+
+step Fraxinus
+  zone map 2482
+  turnin 91770
+
+step Fraxinus
+  accept 95766
+
+step Fraxinus
+  accept 92959
+  turnin 92959
+
+step Curious Crow
+  turnin 95766
+  accept 95317
+  accept 95320
+  accept 96931
+
+step Felflick
+  turnin 95320
+  accept 95318
+
+step Ashen Acolyte
+  collect 274396 x12 quest 95317.1
+  kill 260422 x12 quest 95318.1
+
+step Felflick
+  turnin 95318
+  accept 95319
+
+step Pristine Crystallized Fel-Slime
+  collect 268990 x1 quest 95319.2
+
+step Crystallized Fel-Slime
+  collect 274412 x8 quest 95319.1
+
+step Curious Crow
+  turnin 95317
+  accept 95380
+  accept 96262
+
+step Prickly Pinecone
+  collect 273304 x10 quest 96262.1
+
+step Noxious Slime
+  collect 273008 x8 quest 95380.1
+
+step Thark Gorax
+  accept 96830
+
+step Sebelia
+  sethome "Summit of Eternity"
+  accept 93197
+  accept 92169
+  accept 93407
+  accept 93584
+
+step Toron Rockhoof
+  accept 92533
+  accept 92017
+
+step Blackthorne Priest
+  collect 273828 x1 quest 92533.2
+
+step Thorn Bush
+  collect 263227 x1 quest 93407.1
+
+step Slay Blackthorne Pact Members and Blackthorne Cultist
+  collect 273832 x1 quest 92533.1
+  kill 249551 x1 quest 93584.1
+
+step Blackthorne Adept
+  kill 264570 x10 quest 93584.2
+
+step Troll Remains
+  accept 96998
+
+step Veteran of the Third War
+  turnin 92102
+  turnin 93551
+  accept 93567
+
+step Veteran of the Third War
+  turnin 93567
+  accept 96558
+
+step Wildbreath Chimaerok
+  collect 274288 x3 quest 92017.2
+
+step Veteran of the Third War
+  accept 92100
+
+step Mountain Squallclimber
+  collect 274287 x5 quest 92017.1
+
+step Barkskin Matriarch
+  accept 91698
+
+step Deadwood Warden
+  collect 272936 x1 quest 91698.1
+
+step Barkskin Matriarch
+  turnin 91698
+  accept 91696
+
+step Battle Cache
+  turnin 96558
+
+step Kits and Cats
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 93615
+  complete 93615 @31.3,50.3
+
+step Kits and Cats
+  turnin 93615
+
+step Galvinquam Leafsyre
+  accept 96979
+  turnin 96979
+  accept 96991
+
+step Old Wardrobe
+  accept 97001
+
+step Last Wishes
+  when has 274800
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 2482
+  turnin 96561 direct @35.7,45.2 map 2482
+
+step Jereman
+  zone map 2482
+  turnin 96931
+  accept 96939
+  accept 96964
+  accept 96978
+
+step Lisbael Highfeather
+  accept 96145
+
+step Corrupted Growth
+  accept 96296
+
+step Corrupted Growth
+  interact 651409 quest 96296.1
+
+step Phoebe Highfeather
+  turnin 96145
+  turnin 96296
+  accept 92147
+  accept 96252
+
+step Tarnished Highfeather Bangle
+  collect 273164 x8 quest 96252.1
+
+step Zarrat Wormwing
+  collect 268997 x1 quest 92147.1
+
+step Phoebe Highfeather
+  turnin 92147
+  turnin 96252
+  accept 91883
+
+step Zarrat Wormwing
+  collect 268998 x1 quest 91883.1
+
+step Skylord Omnuron
+  turnin 91883
+
+step Kaylaena Springwhisper
+  turnin 92594
+
+step Renalard
+  turnin 96964
+  accept 96971
+
+step Abandoned Supplies
+  collect 275958 x8 quest 96971.1
+
+step Yashiro
+  accept 96959
+
+step South Bonfire
+  interact 656668 quest 96959.1
+
+step Southeast Bonfire
+  interact 656669 quest 96959.2
+
+step Yashiro
+  turnin 96959
+
+step Yashiro
+  when group 96983
+  zone map 2482
+  accept 96983
+
+step Maerion Thaelemaches
+  zone map 2482
+  accept 97009
+
+step Defiling Hound
+  collect 276100 x12 quest 97009.1
+
+step Doomguard Xarkul
+  when group 96983
+  tip Yashiro's Windwalk is group work: elites. Grouping up is advised.
+  zone map 2482
+  kill 267439 x1 quest 96983.1
+
+step Yashiro
+  when group 96983
+  zone map 2482
+  turnin 96983
+
+step Maerion Thaelemaches
+  zone map 2482
+  turnin 97009
+
+step Marn Euhorn
+  turnin 92017
+  turnin 96991
+  accept 92016
+  accept 96302
+  turnin 96302
+  turnin 92533
+
+step Thisalee Crow
+  turnin 93584
+  accept 96303
+  turnin 96303
+
+step Tiala Whitemane
+  complete 92169 @73.4,41.0 map 2482
+  turnin 92169
+  turnin 93407
+  accept 93127
+  accept 93547
+  turnin 93127
+  turnin 93547
+
+step Tiala Whitemane
+  when group 92833
+  zone map 2482
+  accept 92833
+
+step Bookshelf
+  zone map 2482
+  accept 93521
+
+step Marn Euhorn
+  complete 92016 @74.3,36.4 map 2482
+  turnin 92016
+
+step Ve'han Talongrasp
+  when group 92833
+  tip Ve'han's Fall is group work: elites. Grouping up is advised.
+  zone map 2482
+  kill 267182 x1 quest 92833.1
+
+step Tiala Whitemane
+  zone map 2482
+  turnin 93521
+
+step Tiala Whitemane
+  when group 92833
+  zone map 2482
+  turnin 92833
+
+step Tiala Whitemane
+  zone map 2482
+  accept 99670
+
+step Renalard
+  turnin 96971
+
+step Jereman
+  turnin 99670
+
+step Elaena Moonwhisper
+  accept 92960
+  accept 95793
+
+step Felguard Sentinel
+  kill 249229 x12 quest 95793.1
+
+step Defiling Hound
+  collect 271220 x6 quest 92960.1
+
+step Elaena Moonwhisper
+  turnin 92960
+
+step Elaena Moonwhisper
+  when group 96003
+  zone map 2482
+  accept 96003
+
+step Witherbeard
+  zone map 2482
+  turnin 95793
+
+step Bethra'zel the Feeble
+  when group 96003
+  tip Drawing Down the Malevolent is group work: elites. Grouping up is advised.
+  zone map 2482
+  kill 263394 x1 quest 96003.1
+
+step Mazzogore
+  when group 96003
+  tip Drawing Down the Malevolent is group work: elites. Grouping up is advised.
+  zone map 2482
+  kill 252457 x1 quest 96003.2
+
+step Elaena Moonwhisper
+  when group 96003
+  zone map 2482
+  turnin 96003
+
+step Elaena Moonwhisper
+  zone map 2482
+  accept 96025
+
+step Kala'th
+  turnin 96978
+  accept 93617
+
+step Predatory Hyjal Stag
+  kill 256809 x1 quest 93617.1
+
+step Kala'th
+  turnin 93617
+
+step Marrosis
+  turnin 96939
+  accept 96957
+
+step Sun-Bleached Bonepile
+  collect 275927 x20 quest 96957.1
+
+step Marrosis
+  turnin 96957
+
+step Kal'tinzan
+  accept 91794
+  accept 95769
+  turnin 96830
+  accept 96616
+
+step Now We're Cooking
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 97119
+  complete 97119 @12.9,52.9
+
+step Zet'gan
+  turnin 96998
+  accept 92592
+  accept 92609
+  accept 95026
+  accept 96999
+
+step Now We're Cooking
+  turnin 97119
+
+step Scourge Reanimator and Forgotten Soldier
+  collect 268573 x1 quest 92592.1
+  kill 249247 x3 quest 95026.1
+
+step Fleshflay Ravener
+  kill 249228 x12 quest 95026.2
+
+step Hyjal Silphium
+  collect 274979 x12 quest 96616.1
+
+step Horde Flag and Mazzogore
+  collect 253249 x1 quest 91794.1
+  collect 274949 x3 quest 91794.2
+
+step Hyjal Owl Nest
+  collect 253341 x9 quest 92609.1
+
+step Shore Strider
+  zone map 1444
+  collect 14048 x6 quest 95769.1
+
+step Fennar Mossmane
+  accept 95273
+  turnin 95273
+  accept 93832
+  accept 94504
+  accept 95107
+  turnin 94504
+  accept 95108
+  turnin 95108
+
+step Zet'gan
+  turnin 92592
+  turnin 92609
+  turnin 95026
+  accept 92446
+  turnin 91794
+  turnin 95769
+  turnin 96616
+
+step A Rest Without Pain
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2482
+  accept 96622
+  complete 96622 @12.9,52.9
+
+step Leather for Inclement Weather
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 90854
+  complete 90854 @13.8,54.8
+
+step A Rest Without Pain
+  turnin 96622
+
+step Eternal Sentry
+  kill 249237 x6 quest 93832.1
+
+step Head Scratcher, Deadwood Totemic and Deadwood Fel-Tender
+  collect 251781 x1 quest 92446.1
+
+step Chieftain Deeproar
+  kill 259875 x1 quest 95107.1
+  collect 268507 x1 quest 95107.2
+
+step Brerufa
+  turnin 91696
+  accept 93952
+
+step Deadwood Den Guardian
+  kill 252063 x9 quest 93952.1
+
+step Velician
+  accept 96321
+
+step Felflick
+  turnin 95319
+  accept 95378
+  accept 95379
+
+step Brashann Grimdark
+  kill 260440 x1 quest 95379.1
+
+step Tyaeha Darkoath
+  collect 273291 x1 quest 95378.1
+
+step Dazka Shadowsleep
+  collect 273292 x1 quest 95378.2
+
+step Frezzlie Popwhiz
+  collect 273290 x1 quest 95378.3
+
+step Felflick
+  turnin 95378
+  turnin 95379
+  accept 96435
+
+step Curious Crow
+  turnin 95380
+  turnin 96262
+  turnin 96321
+  accept 95316
+  turnin 95316
+  accept 94782
+
+step Fennar Mossmane
+  zone map 1444
+  accept 93828
+  turnin 93828
+
+step Dala Fairmaw
+  accept 93834
+
+step Water of Hyjal
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2482
+  accept 93830
+  complete 93830 @20.2,78.0
+
+step Water of Hyjal
+  zone map 1444
+  turnin 93830
+
+step Burrow Beetle
+  collect 262803 x10 quest 93834.1
+
+step Dala Fairmaw
+  turnin 93834
+
+step Bone Pile
+  turnin 96435
+
+step Bone Pile
+  when group 96255
+  zone map 1444
+  accept 96255
+
+step Awakened Fel Ash Slime
+  when group 96255
+  tip Amalgamated Marrow is group work: elites. Grouping up is advised.
+  zone map 1444
+  kill 264306 x1 quest 96255.1
+
+step Felflick
+  when group 96255
+  zone map 1444
+  turnin 96255
+
+step Thisalee Crow
+  zone map 1444
+  turnin 96025
+
+step Brerufa
+  turnin 93952
+  accept 92111
+
+step Beads for Brerufa
+  zone map 2482
+  accept 93925 optional
+
+step Beads for Brerufa
+  when onquest 93925
+  zone map 2482
+  turnin 93925 optional
+
+step Elder Mistpaw
+  zone map 2482
+  turnin 93832
+  turnin 95107
+  turnin 92111
+  accept 93831
+
+step Zet'gan
+  turnin 92446
+  turnin 94782
+
+step Leather for Inclement Weather
+  turnin 90854
+
+step Zet'gan
+  zone map 1444
+  accept 95248
+
+step Thisalee Crow
+  turnin 95248
+
+step Bear Berries
+  collect 262818 x30 quest 93831.1
+
+step Osi Mistpaw
+  turnin 93831
+
+step Meet the Elders
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2482
+  accept 91697
+  complete 91697 @21.1,80.2
+
+step Meet the Elders
+  turnin 91697
+
+step Elder Mistpaw
+  zone map 1444
+  accept 93826
+
+step Suma Mossmane
+  accept 93825
+
+step Thobon Sapclaw
+  zone map 2482
+  accept 93827
+
+step Elder Pinespeaker
+  zone map 1444
+  kill 252116 x8 quest 93826.1
+  kill 252096 x8 quest 93826.2
+  turnin 93826
+
+step Moonveil Moss
+  zone map 2482
+  collect 262802 x12 quest 93825.1
+
+step Suma Mossmane
+  zone map 1444
+  turnin 93825
+
+step Enchanted Harpy Amulet
+  zone map 2482
+  collect 263028 x16 quest 93827.1
+
+step Thobon Sapclaw
+  turnin 93827
+
+step Elder Pinespeaker
+  zone map 1444
+  accept 96666
+  turnin 96666
+
+step Elder Pinespeaker
+  accept 93833
+
+step Intact Owl Body
+  zone map 2482
+  collect 262816 x5 quest 93833.1
+
+step Elder Pinespeaker
+  turnin 93833
+
+step Eluneth
+  accept 90865
+
+step Eternal Sentry
+  collect 273322 x8 quest 90865.1
+
+step Eluneth
+  turnin 90865
+
+step Embroidered Scabbard
+  turnin 92100
+  accept 96550
+  turnin 96550
+  accept 92101
+  accept 93510
+
+step Weathered Anchor
+  zone map 1433
+  turnin 93510
+
+step Carving
+  zone map 1441
+  turnin 92101
+
+step A Revenge Now Bitter
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 2482
+  accept 96322
+  complete 96322 @48.6,73.5
+
+step A Revenge Now Bitter
+  turnin 96322
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Guarding Secrets
+  when onquest 4883
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1456
+  turnin 4883 optional
+
+step Praise
+  when onquest 92102
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 2482
+  turnin 92102 optional
+
+step Praise
+  when onquest 93551
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 2482
+  turnin 93551 optional

@@ -1,0 +1,231 @@
+guide completionist-horde/56-durotar-and-orgrimmar-4
+title 56 Durotar and Orgrimmar, visit 4
+faction Horde
+levels 48-60
+category Leveling
+folder Completionist 51-59
+zone Durotar
+next completionist-horde/dungeon-scholomance
+next completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
+pitch On along the line: Durotar and Orgrimmar, quests of level 48 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 10 quests; estimated level at the end 48.4 (heuristic XP, class quests not counted).
+# Skipped: 3 prerequisite N not in this route; 2 exclusive with N (done); 1 no turn-in in data.
+
+step Dran Droffers
+  zone map 1454
+  accept 649
+  turnin 649
+  accept 650
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 97412 optional
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84178 optional
+
+step An Earnest Proposition
+  only Paladin
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 97411 optional
+
+step An Earnest Proposition
+  only Shaman
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84160 optional
+
+step Saving the Best for Last
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  zone map 1454
+  accept 84210 optional
+
+step Saving the Best for Last
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84208 optional
+
+step Saving the Best for Last
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84203 optional
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84177 optional
+
+step An Earnest Proposition
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84155 optional
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84176 optional
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84175 optional
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84174 optional
+
+step Just Compensation
+  tip For Scholomance: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 84172 optional
+
+step Additional Runecloth
+  when turnedin 7824
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 14047 x20 anywhere optional
+  turnin 7832 direct optional
+
+step Kaymard Copperpinch
+  zone map 1454
+  accept 79495
+  turnin 79495
+
+step Assisting Arch Druid Runetotem
+  when available 936
+  tip One of several exclusive quests; the route takes Assisting Arch Druid Runetotem (3784). This one shows for a character the game offers it to instead.
+  zone map 1454
+  accept 936 optional
+
+step Wolf Swapping - Red Wolf
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 12330 x1 anywhere optional
+  turnin 7661 direct optional
+
+step Wolf Swapping - Arctic Wolf
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 12351 x1 anywhere optional
+  turnin 7660 direct optional
+
+step Level 50
+  level 50
+
+step Zilzibin Drumlore
+  accept 4511
+
+step Karus
+  turnin 4511
+
+step Level 54
+  level 54
+
+step The New Frontier
+  when available 1018
+  tip One of several exclusive quests; the route takes The New Frontier (1000). This one shows for a character the game offers it to instead.
+  zone map 1454
+  accept 1018 optional
+
+step A Fair Trade
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 15997 x200 anywhere optional
+  turnin 7341 direct optional
+
+step Level 60
+  level 60
+
+step Ogunaro Wolfrunner
+  accept 99215 only Orc
+
+step Ogunaro Wolfrunner
+  complete 99215 only Orc
+  turnin 99215 only Orc
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84171
+  complete 84171 @35.0,38.3
+
+step Just Compensation
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 84173
+  complete 84173 @35.0,38.3
+
+step Just Compensation
+  turnin 84171
+
+step Just Compensation
+  turnin 84173
+
+step Kildar
+  accept 99204 only Orc
+
+step Ogunaro Wolfrunner
+  turnin 99204 only Orc
+
+step Additional Runecloth
+  when turnedin 7836
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1454
+  collect 14047 x20 anywhere optional
+  turnin 7837 direct optional
+
+step Assisting Arch Druid Runetotem
+  when onquest 936
+  zone map 1456
+  turnin 936 optional
+
+step The New Frontier
+  when onquest 1018
+  zone map 1456
+  turnin 1018 optional
+
+step Razor Hill
+  zone map 1411
+  sethome "Razor Hill"
+
+step Tai'tasi
+  turnin 96999
+
+step Red Raptor Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8586 x1 anywhere optional
+  turnin 7665 direct optional
+
+step Ivory Raptor Replacement
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 13317 x1 anywhere optional
+  turnin 7664 direct optional
+
+step Master Gadrin
+  when group 2937
+  zone map 1411
+  accept 2937
+
+step Shadra
+  when group 2937
+  tip Summoning Shadra is group work: elites. Grouping up is advised.
+  zone map 1425
+  collect 9324 x1 quest 2937.1
+
+step Gilveradin Sunchaser
+  zone map 1425
+  turnin 650
+  accept 77
+
+step Horde Supply Crate
+  collect 8684 x10 quest 77.1
+
+step Gilveradin Sunchaser
+  turnin 77
+  accept 81
+
+step Apothecary Lydon
+  when group 2937
+  zone map 1416
+  turnin 2937
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Wrap Return
+  when onquest 96999
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1411
+  turnin 96999 optional

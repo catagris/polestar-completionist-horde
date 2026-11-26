@@ -1,36 +1,30 @@
-guide completionist-horde/46-silithus
-title 46 Silithus (55-60) (Completionist)
+guide completionist-horde/51-silithus
+title 51 Silithus
 faction Horde
 levels 55-60
 category Leveling
+folder Completionist 51-59
 zone Silithus
-next completionist-horde/47-searing-gorge-2
+next completionist-horde/52-odd-jobs-in-kalimdor-4
 pitch On along the line: Silithus, quests of level 55 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 19 quests; estimated level at the end 56.1 (heuristic XP, class quests not counted).
-
-step Ralston Farnsley
-  when onquest 7813
-  zone map 1458
-  turnin 7813
-  turnin 7814
-  turnin 7817
-  accept 7818
+# Routed 20 quests; estimated level at the end 56.2 (heuristic XP, class quests not counted).
 
 step Cenarion Emissary Blackhoof
   zone map 1454
   accept 8276
 
-step Stormwind Royal Guard
-  zone map 1453
-  collect 14047 x60 quest 7818.1
-
-step Scout Bloodfist
+step Geologist Larksbane
   zone map 1451
   sethome "Cenarion Hold"
   getfp "Cenarion Hold"
-  accept 9416
   accept 8284
+
+step Craftsman's Writ: Truesilver Transformer
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264140 x1 anywhere optional
+  collect 18631 x1 anywhere optional
+  turnin 94340 direct optional
 
 step Allegiance to Cenarion Circle
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -73,6 +67,41 @@ step Desert Survival Kits
   collect 20452 x4 anywhere optional
   turnin 8804 direct optional
 
+step Twilight Marauders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8740 direct optional
+
+step Hive'Ashi Scout Report
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21161 x1 anywhere optional
+  turnin 8739 direct optional
+
+step Hive'Regal Scout Report
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21160 x1 anywhere optional
+  turnin 8738 direct optional
+
+step Azure Templar
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8737 direct optional
+
+step Crimson Templar
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8537 direct optional
+
+step Earthen Templar
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8536 direct optional
+
+step Hoary Templar
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8535 direct optional
+
+step Hive'Zora Scout Report
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 21158 x1 anywhere optional
+  turnin 8534 direct optional
+
 step Target: Hive'Regal Burrowers
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 8777 direct optional
@@ -100,82 +129,6 @@ step Target: Hive'Regal Spitfires
 step Target: Hive'Regal Ambushers
   tip A repeatable quest: hand it in once, with what it asks for.
   turnin 8774 direct optional
-
-step Target: Hive'Zora Reavers
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8773 direct optional
-
-step Target: Hive'Zora Waywatchers
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8772 direct optional
-
-step Target: Hive'Ashi Sandstalkers
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8771 direct optional
-
-step Target: Hive'Ashi Defenders
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8770 direct optional
-
-step Twilight Marauders
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8740 direct optional
-
-step Hive'Ashi Scout Report
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 21161 x1 anywhere optional
-  turnin 8739 direct optional
-
-step Hive'Regal Scout Report
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 21160 x1 anywhere optional
-  turnin 8738 direct optional
-
-step Azure Templar
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8737 direct optional
-
-step Target: Hive'Zora Tunnelers
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8687 direct optional
-
-step Target: Hive'Zora Hive Sisters
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8539 direct optional
-
-step The Four Dukes
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8538 direct optional
-
-step Crimson Templar
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8537 direct optional
-
-step Earthen Templar
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8536 direct optional
-
-step Hoary Templar
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8535 direct optional
-
-step Hive'Zora Scout Report
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 21158 x1 anywhere optional
-  turnin 8534 direct optional
-
-step Target: Hive'Ashi Workers
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8502 direct optional
-
-step Target: Hive'Ashi Stingers
-  tip A repeatable quest: hand it in once, with what it asks for.
-  turnin 8501 direct optional
-
-step Twilight Battle Orders
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 20803 x1 anywhere optional
-  turnin 8498 direct optional
 
 step Level 60
   level 60
@@ -220,22 +173,58 @@ step Scepter of the Council
   zone map 1451
   accept 8352 optional
 
+step What Tomorrow Brings
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1451
+  accept 8286
+  complete 8286 @49.5,36.5
+
+step Target: Hive'Zora Reavers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8773 direct optional
+
+step Target: Hive'Zora Waywatchers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8772 direct optional
+
+step Target: Hive'Ashi Sandstalkers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8771 direct optional
+
+step Target: Hive'Ashi Defenders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8770 direct optional
+
+step Target: Hive'Zora Tunnelers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8687 direct optional
+
+step Target: Hive'Zora Hive Sisters
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8539 direct optional
+
+step The Four Dukes
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8538 direct optional
+
+step Target: Hive'Ashi Workers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8502 direct optional
+
+step Target: Hive'Ashi Stingers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  turnin 8501 direct optional
+
+step Twilight Battle Orders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 20803 x1 anywhere optional
+  turnin 8498 direct optional
+
 step Scepter of the Council
   when onquest 8352
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1451
   complete 8352 @48.6,37.8 optional
-
-step Dearest Natalia
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1451
-  accept 8304
-  complete 8304 @49.2,34.2
-
-step What Tomorrow Brings
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 8286
-  complete 8286 @49.5,36.5
 
 step Scepter of the Council
   when onquest 8352
@@ -243,13 +232,10 @@ step Scepter of the Council
   turnin 8352 optional
 
 step Dearest Natalia
-  zone map 1451
-  turnin 8304
-
-step Into The Maw of Madness
   tip The reference data does not place this quest's objective: follow the quest text.
-  accept 8306
-  complete 8306 @49.2,34.2
+  zone map 1451
+  accept 8304
+  complete 8304 @49.2,34.2
 
 step Desert Recipe
   when skill Cooking 1
@@ -262,7 +248,7 @@ step Desert Recipe
   zone map 1451
   turnin 8307 optional
 
-step Desert Rumbler
+step Twilight Tablet Fragment
   zone map 1444
   collect 20378 x8 quest 8284.1
 
@@ -325,9 +311,14 @@ step Signet of the Dukes
   zone map 1451
   accept 8348 optional
 
-step Into The Maw of Madness
+step Dearest Natalia
   zone map 1451
-  turnin 8306
+  turnin 8304
+
+step Into The Maw of Madness
+  tip The reference data does not place this quest's objective: follow the quest text.
+  accept 8306
+  complete 8306 @49.2,34.2
 
 step Level 57
   level 57
@@ -440,41 +431,29 @@ step Stonelash Pincer
 
 step Hermit Ortell
   turnin 8285
+  accept 8279
+
+step Craftsman's Writ: Shadoweave Mask
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264158 x1 anywhere optional
+  collect 10025 x1 anywhere optional
+  turnin 94358 direct optional
 
 step Stonelash Flayer
   collect 20375 x3 quest 8278.1
 
-step Rock Stalker
+step Twilight Keeper Exeter
   zone map 1451
+  collect 20395 x1 quest 8279.2
+
+step Rock Stalker
   collect 20377 x3 quest 8278.3
 
-step General Kirika
-  turnin 9416
-  accept 9422
+step Twilight Keeper Mayna
+  collect 20394 x1 quest 8279.1
 
-step Armor Kits for the Field
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 15564 x8 anywhere optional
-  collect 4265 x8 anywhere optional
-  turnin 8787 direct optional
-
-step Arms for the Field
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 3855 x3 anywhere optional
-  turnin 8786 direct optional
-
-step The Orgrimmar Legion Needs Mojo!
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 8956 x8 anywhere optional
-  collect 8152 x6 anywhere optional
-  collect 12804 x6 anywhere optional
-  turnin 8785 direct optional
-
-step Silithus Dust Turnin Quest Doodad Horde
-  kill 18199 x1 quest 9422.1
-
-step General Kirika
-  turnin 9422
+step Twilight Keeper Havunth
+  collect 20396 x1 quest 8279.3
 
 step Beetix Ficklespragg
   turnin 8278
@@ -483,10 +462,31 @@ step Beetix Ficklespragg
 step Noggle's Satchel
   collect 20379 x1 quest 8282.1
 
+step Hermit Ortell
+  zone map 1449
+  turnin 8279
+  accept 8287
+  accept 8323
+
+step Twilight Prophet
+  zone map 1451
+  collect 20404 x10 quest 8323.1
+
+step Commander Mar'alith
+  turnin 8287
+
+step Into The Maw of Madness
+  turnin 8306
+
 step Noggle Ficklespragg
   turnin 8282
 
+step Hermit Ortell
+  zone map 1449
+  turnin 8323
+
 step Windcaller Proudhorn
+  zone map 1451
   turnin 8276
   accept 8280
 
@@ -498,6 +498,12 @@ step Bor Wildmane
 step Dredge Striker
   zone map 1449
   kill 11740 x15 quest 8280.1
+
+step Craftsman's Writ: Limited Invulnerability Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264122 x1 anywhere optional
+  collect 3387 x1 anywhere optional
+  turnin 94322 direct optional
 
 step Windcaller Proudhorn
   zone map 1451
@@ -544,13 +550,10 @@ step Frankal Stonebridge
   turnin 8310
 
 step Rutgar Glyphshaper
-  when turnedin 8310
   zone map 1444
-  accept 8314 optional
+  accept 8314
 
 step Geologist Larksbane
-  when onquest 8314
-  zone map 1444
   turnin 8314
 
 step Brann Bronzebeard's Lost Letter
@@ -558,6 +561,24 @@ step Brann Bronzebeard's Lost Letter
   zone map 1451
   collect 20461 x1 optional
   accept 8308 item 20461 optional
+
+step The Orgrimmar Legion Needs Mojo!
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8956 x8 anywhere optional
+  collect 8152 x6 anywhere optional
+  collect 12804 x6 anywhere optional
+  turnin 8785 direct optional
+
+step Armor Kits for the Field
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 15564 x8 anywhere optional
+  collect 4265 x8 anywhere optional
+  turnin 8787 direct optional
+
+step Arms for the Field
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 3855 x3 anywhere optional
+  turnin 8786 direct optional
 
 step Brann Bronzebeard's Lost Letter
   when onquest 8308
@@ -640,23 +661,3 @@ step Kitchen Assistance
   when skill Cooking 1
   zone map 1451
   turnin 8317 optional
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step A Donation of Wool
-  when onquest 7813
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7813 optional
-
-step A Donation of Silk
-  when onquest 7814
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7814 optional
-
-step A Donation of Mageweave
-  when onquest 7817
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7817 optional

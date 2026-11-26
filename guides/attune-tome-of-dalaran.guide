@@ -1,0 +1,14 @@
+guide completionist-horde/attune-tome-of-dalaran
+title Tome of Dalaran (City of Dalaran item)
+faction Horde
+category Dungeons
+folder Completionist attunements and keys
+levels 1-60
+zone Alterac Mountains
+pitch Tome of Dalaran: Calls up Lyn the Ignored, a hidden boss, at the summoning circle in the City of Dalaran's Underbelly, in the small room past Atrexis the Grave Knight. The Black Tome lies on a table up the stairs behind Archmage Arugal in Shadowfang Keep; use it at the Ambermill Leyline Focus, the blue crystal beside Archmage Ataeric in Ambermill's town hall, and it becomes the Tome of Dalaran.
+why Calls up Lyn the Ignored, a hidden boss, at the summoning circle in the City of Dalaran's Underbelly, in the small room past Atrexis the Grave Knight. The Black Tome lies on a table up the stairs behind Archmage Arugal in Shadowfang Keep; use it at the Ambermill Leyline Focus, the blue crystal beside Archmage Ataeric in Ambermill's town hall, and it becomes the Tome of Dalaran.
+
+step Tome of Dalaran
+  tip Calls up Lyn the Ignored, a hidden boss, at the summoning circle in the City of Dalaran's Underbelly, in the small room past Atrexis the Grave Knight. The Black Tome lies on a table up the stairs behind Archmage Arugal in Shadowfang Keep; use it at the Ambermill Leyline Focus, the blue crystal beside Archmage Ataeric in Ambermill's town hall, and it becomes the Tome of Dalaran. No quest gives it: it comes from inside City of Dalaran; the arrow leads to the entrance.
+  zone map 1416
+  collect 275989 x1 @8.8,59.6 map 1416 optional

@@ -1,8 +1,9 @@
 guide completionist-horde/14-duskwood
-title 14 Duskwood (20-27) (Completionist)
+title 14 Duskwood
 faction Horde
 levels 20-27
 category Leveling
+folder Completionist 11-20
 zone Duskwood
 next completionist-horde/15-stonetalon-mountains
 pitch On along the line: Duskwood, quests of level 20 to 27.
@@ -217,6 +218,36 @@ step Field Captain Palandar
 step Field Captain Palandar
   zone map 1431
   turnin 81736
+
+step Craftsman's Writ: Shadow Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264014 x1 anywhere optional
+  collect 6048 x1 anywhere optional
+  turnin 94214 direct optional
+
+step Craftsman's Writ: Small Silk Pack
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264050 x1 anywhere optional
+  collect 4245 x1 anywhere optional
+  turnin 94250 direct optional
+
+step Craftsman's Writ: Dark Leather Tunic
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264041 x1 anywhere optional
+  collect 2317 x1 anywhere optional
+  turnin 94241 direct optional
+
+step Craftsman's Writ: Minor Recombobulator
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264032 x1 anywhere optional
+  collect 4381 x1 anywhere optional
+  turnin 94232 direct optional
+
+step Craftsman's Writ: Silver Skeleton Key
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264023 x1 anywhere optional
+  collect 15869 x1 anywhere optional
+  turnin 94223 direct optional
 
 step Owen Thadd
   zone map 1458

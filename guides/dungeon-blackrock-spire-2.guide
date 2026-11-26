@@ -1,153 +1,157 @@
 guide completionist-horde/dungeon-blackrock-spire-2
-title Blackrock Spire, part 2 of 2 (Completionist)
+title Blackrock Spire, part 2 of 2
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 58-60
 zone Searing Gorge
-next completionist-horde/48-felwood
+next completionist-horde/50-odd-jobs-in-the-eastern-kingdoms-4
 pitch Blackrock Spire, in Searing Gorge.
 why Every Horde quest of Blackrock Spire: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
 step Mokvar
-  only Hunter
   zone map 1454
-  turnin 8914
-
-step Mokvar
-  only Warrior
-  zone map 1454
-  turnin 8920
-
-step Mokvar
-  zone map 1454
+  turnin 84156
+  turnin 84157
   turnin 84162
-
-step Return to Mokvar
-  turnin 8978
-
-step Just Compensation
-  only Druid
-  zone map 1454
-  accept 8927
-
-step Just Compensation
-  only Druid
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8927 @34.95,38.29
-
-step Just Compensation
-  only Druid
-  zone map 1454
-  turnin 8927
+  turnin 84172
+  turnin 84174
+  turnin 84187
+  turnin 84188
+  turnin 84190
+  turnin 84192
+  turnin 84203
+  turnin 84208
+  turnin 84210
 
 step Mokvar
-  only Hunter
-  zone map 1454
-  accept 8938
+  turnin 84175
 
 step Mokvar
-  only Warrior
-  zone map 1454
-  accept 8944
+  turnin 84176
 
 step Mokvar
-  only Mage
-  zone map 1454
-  turnin 8915
+  turnin 84178
 
-step Just Compensation
-  only Mage
-  zone map 1454
-  accept 8939
-
-step Just Compensation
-  only Mage
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8939 @34.95,38.29
-
-step Just Compensation
-  only Mage
-  zone map 1454
-  turnin 8939
-
-step Mokvar
-  only Priest
-  zone map 1454
-  accept 8940
-
-step Mokvar
-  only Rogue
-  zone map 1454
-  accept 8941
-
-step Mokvar
-  only Shaman
-  zone map 1454
-  accept 8942
+step In Search of Anthion
+  accept 8930
 
 step Back to the Beginning
   when onquest 8998
   zone map 1454
   turnin 8998
 
-step Anthion's Parting Words
+step In Search of Anthion
+  zone map 1423
+  turnin 8930
+
+step Dead Man's Plea
+  accept 8945
+
+step Dead Man's Plea
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8945 @26.11,11.3
+
+step Dead Man's Plea
+  zone map 1427
+  turnin 8945 @34.8,85.3
+
+step Proof of Life
+  accept 8946 @34.8,85.3
+
+step Proof of Life
+  zone map 1423
+  turnin 8946
+
+step Anthion's Strange Request
+  accept 8947
+
+step Anthion's Strange Request
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8947 @26.11,11.3
+
+step Anthion's Strange Request
+  turnin 8947
+
+step Anthion's Old Friend
+  accept 8948
+
+step Anthion's Old Friend
+  zone map 1427
+  turnin 8948 @34.8,85.3
+
+step Falrin's Vendetta
+  accept 8949 @34.8,85.3
+
+step Falrin's Vendetta
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8949 @34.8,85.3
+
+step Falrin's Vendetta
+  turnin 8949 @34.8,85.3
+
+step The Instigator's Enchantment
+  accept 8950 @34.8,85.3
+
+step The Instigator's Enchantment
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 8950 @34.8,85.3
+
+step The Instigator's Enchantment
+  turnin 8950 @34.8,85.3
+
+step The Challenge
+  accept 9015 @34.8,85.3
+
+step The Challenge
+  tip The reference data does not place this quest's objective: follow the quest text.
+  complete 9015 @34.8,85.3
+
+step The Challenge
+  zone map 1423
+  turnin 9015
+
+step Anthion Harmon
+  only Shaman
+  zone map 1423
+  accept 8957
+
+step Anthion Harmon
+  only Priest
+  zone map 1423
+  accept 9019
+
+step Inside Blackrock Spire
+  only Shaman
+  zone map 1427
+  complete 8957 @34.8,85.3
+
+step Inside Blackrock Spire
+  only Priest
+  zone map 1427
+  complete 9019 @34.8,85.3
+
+step Anthion Harmon
   only Druid
-  when onquest 9016
-  zone map 1454
-  turnin 9016 optional
+  zone map 1423
+  accept 9016
 
-step Anthion's Parting Words
+step Inside Blackrock Spire
+  only Druid
+  zone map 1427
+  complete 9016 @34.8,85.3
+
+step Anthion Harmon
   only Hunter
-  when onquest 9017
-  zone map 1454
-  turnin 9017 optional
-
-step Anthion's Parting Words
-  only Priest
-  when onquest 9019
-  zone map 1454
-  turnin 9019 optional
-
-step Anthion's Parting Words
-  only Shaman
-  when onquest 8957
-  zone map 1454
-  turnin 8957 optional
+  zone map 1423
+  accept 9017
 
 step Inside Blackrock Spire
   only Hunter
   zone map 1427
-  complete 8938 @34.8,85.3
-
-step Inside Blackrock Spire
-  only Warrior
-  zone map 1427
-  complete 8944 @34.8,85.3
-
-step Inside Blackrock Spire
-  only Priest
-  zone map 1427
-  complete 8940 @34.8,85.3
-
-step Inside Blackrock Spire
-  only Rogue
-  zone map 1427
-  complete 8941 @34.8,85.3
-
-step Inside Blackrock Spire
-  only Shaman
-  zone map 1427
-  complete 8942 @34.8,85.3
+  complete 9017 @34.8,85.3
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step Anthion's Parting Words
-  when onquest 8957
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 8957 optional
 
 step Back to the Beginning
   when onquest 8998
@@ -155,26 +159,32 @@ step Back to the Beginning
   zone map 1454
   turnin 8998 optional
 
-step Anthion's Parting Words
-  when onquest 9016
+step An Earnest Proposition
+  when onquest 84157
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 9016 optional
-
-step Anthion's Parting Words
-  when onquest 9017
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9017 optional
-
-step Anthion's Parting Words
-  when onquest 9019
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9019 optional
+  turnin 84157 optional
 
 step An Earnest Proposition
   when onquest 84162
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
   turnin 84162 optional
+
+step Saving the Best for Last
+  when onquest 84203
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84203 optional
+
+step Saving the Best for Last
+  when onquest 84208
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84208 optional
+
+step Saving the Best for Last
+  when onquest 84210
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 84210 optional

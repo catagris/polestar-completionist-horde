@@ -1,8 +1,9 @@
 guide completionist-horde/32-searing-gorge
-title 32 Searing Gorge (45-54) (Completionist)
+title 32 Searing Gorge
 faction Horde
 levels 45-54
 category Leveling
+folder Completionist 31-40
 zone Searing Gorge
 next completionist-horde/33-tanaris
 pitch On along the line: Searing Gorge, quests of level 45 to 54.
@@ -265,12 +266,11 @@ step Wooden Outhouse
 step Dark Iron Geologist
   kill 5839 x8 quest 4449.1
 
-step Ratchet Bruiser
-  zone map 1413
-  collect 4306 x15 quest 4449.2
+step Silk Cloth
+  tip Dropped by 545 kinds of mob in 30 zones: bring it from wherever you are. The arrow leads to no one for it.
+  collect 4306 x15 anywhere
 
 step Master Smith Burninate
-  zone map 1427
   turnin 7722
   turnin 7723
   turnin 7724

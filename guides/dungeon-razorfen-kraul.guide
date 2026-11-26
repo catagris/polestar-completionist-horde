@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-razorfen-kraul
-title Razorfen Kraul (Completionist)
+title Razorfen Kraul
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 26-36
 zone The Barrens
 next completionist-horde/18-dustwallow-marsh

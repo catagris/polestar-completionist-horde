@@ -1,8 +1,9 @@
 guide completionist-horde/31-feralas
-title 31 Feralas (42-52) (Completionist)
+title 31 Feralas
 faction Horde
 levels 42-52
 category Leveling
+folder Completionist 31-40
 zone Feralas
 next completionist-horde/32-searing-gorge
 pitch On along the line: Feralas, quests of level 42 to 52.
@@ -447,6 +448,30 @@ step Grimtotem Raider
 step Woodpaw Battle Map
   turnin 2902
   accept 2903
+
+step Craftsman's Writ: Catseye Draught
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264060 x1 anywhere optional
+  collect 10592 x1 anywhere optional
+  turnin 94260 direct optional
+
+step Craftsman's Writ: Wild Leather Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264096 x1 anywhere optional
+  collect 8210 x1 anywhere optional
+  turnin 94296 direct optional
+
+step Craftsman's Writ: Catseye Ultra Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264084 x1 anywhere optional
+  collect 10501 x1 anywhere optional
+  turnin 94284 direct optional
+
+step Craftsman's Writ: Blue Glittering Axe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264072 x1 anywhere optional
+  collect 7942 x1 anywhere optional
+  turnin 94272 direct optional
 
 step Hadoken Swiftstrider
   turnin 2903

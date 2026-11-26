@@ -1,16 +1,14 @@
 guide completionist-horde/unplaced-quests
-title Quests the data cannot place (Completionist)
+title Quests the data cannot place
 faction Horde
 category Miscellaneous
+folder Completionist events and extras
 levels 1-60
 zone Orgrimmar
 pitch A checklist: the quests Polestar's reference data names but cannot lead to.
 
 step About this guide
   note The reference data has no giver, hand-in, level or zone for these quests, so no guide can lead to them. Each is listed by its title for you to find and tick off. Some may not be in the game.
-
-step Alterac Mountains
-  task "Junkboxes Needed, level 60" optional -- quest 98529
 
 step Alterac Valley
   task "Launch the Attack!, level 60" optional -- quest 6901
@@ -20,6 +18,7 @@ step Darkspear Islands
   task "Darkspear's Advanced Care Package, level 60" optional -- quest 98912
 
 step Durotar
+  task "Swift as the Wind, level 60" optional only Troll -- quest 99201
   task "An Epic Ride, level 60" optional only Troll -- quest 99218
 
 step Eastern Plaguelands
@@ -27,33 +26,20 @@ step Eastern Plaguelands
   task "Orgrimmar's Windshapers, level 57" optional -- quest 97988
   task "Bleeding Edge, level 57" optional -- quest 98109
 
-step Elwynn Forest
-  task "Swift as the Wind, level 60" optional -- quest 99206
-  task "An Epic Ride, level 60" optional -- quest 99213
-
 step Ironforge
   task "Your Reward has Arrived!" optional -- quest 60860
-
-step Orgrimmar
-  task "Just Compensation, level 60" optional -- quest 97412
-  task "Swift as the Wind, level 60" optional -- quest 99201
 
 step Riverglades
   task "Magic Over Might, level 40" optional -- quest 96028
   task "Might Over Magic, level 41" optional -- quest 96027
 
-step Tirisfal Glades
-  task "An Epic Ride, level 60" optional only Undead -- quest 99211
-
 step Western Plaguelands
   task "Rapid Escape" optional -- quest 8152
 
-step Zephras Isle
-  task "Swift as the Wind, level 60" optional -- quest 99203
-  task "An Epic Ride, level 60" optional -- quest 99216
-
 step No zone in the data
-  task "A Taste of Darkness" optional -- quest 95771
   task "A Ticking Present, level 40" optional -- quest 79637
   task "Krol'dok No More!, level 42" optional -- quest 95056
+  task "Saving the Best for Last, level 60" optional -- quest 84198
+  task "Anthion's Parting Words, level 60" optional -- quest 97413
+  task "Conquering the Island, level 60" optional -- quest 98919
   task "Brawl at the Maul, level 60" optional -- quest 99234

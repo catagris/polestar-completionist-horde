@@ -1,13 +1,14 @@
-guide completionist-horde/40-tirisfal-glades-and-the-undercity-3
-title 40 Tirisfal Glades and the Undercity, visit 3 (45-57) (Completionist)
+guide completionist-horde/41-tirisfal-glades-and-the-undercity-3
+title 41 Tirisfal Glades and the Undercity, visit 3
 faction Horde
 levels 45-57
 category Leveling
+folder Completionist 41-50
 zone Tirisfal Glades
-next completionist-horde/41-odd-jobs-in-the-eastern-kingdoms-3
+next completionist-horde/42-odd-jobs-in-the-eastern-kingdoms-3
 pitch On along the line: Tirisfal Glades and the Undercity, quests of level 45 to 57.
 # Generated from the reference data: change the planner, not this file.
-# Routed 17 quests; estimated level at the end 45.4 (heuristic XP, class quests not counted).
+# Routed 18 quests; estimated level at the end 45.5 (heuristic XP, class quests not counted).
 # Skipped: 2 prerequisite N not in this route.
 
 step Owen Thadd
@@ -30,10 +31,6 @@ step Alessandro Luca
 step Oran Snakewrithe
   accept 8273
   turnin 8273
-
-step Apothecary Zinge
-  turnin 238
-  accept 243
 
 step Level 48
   level 48
@@ -72,6 +69,9 @@ step Testing Equipment
 step Chemist Fuely
   turnin 4293
 
+step Chemist Fuely
+  accept 4642
+
 step Level 54
   level 54
 
@@ -86,6 +86,10 @@ step Royal Overseer Bauhaus
 
 step Abigail Sawyer
   turnin 97007
+
+step Apothecary Zinge
+  turnin 238
+  accept 243
 
 step Uthel'nay
   when complete 7068
@@ -107,7 +111,11 @@ step Highvale Records
 step Highvale Notes
   interact 144072 quest 2995.2
 
-step Oran Snakewrithe
+step Gargantuan Ooze
+  zone map 1449
+  collect 12291 x1 quest 4642.1
+
+step Owen Thadd
   zone map 1458
   accept 82208
   turnin 82208

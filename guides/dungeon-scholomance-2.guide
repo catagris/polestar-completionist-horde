@@ -1,176 +1,70 @@
 guide completionist-horde/dungeon-scholomance-2
-title Scholomance, part 2 of 2 (Completionist)
+title Scholomance, part 2 of 2
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 58-60
 zone Western Plaguelands
-next completionist-horde/56-moonglade
+next completionist-horde/57-hillsbrad-foothills-and-alterac-mountains-3
 pitch Scholomance, in Western Plaguelands.
 why Every Horde quest of Scholomance: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Return to Mokvar
-  zone map 1454
-  turnin 8978
-
-step Just Compensation
-  only Druid
-  zone map 1454
-  accept 8927
-
-step Just Compensation
-  only Druid
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8927 @34.95,38.29
-
-step Just Compensation
-  only Druid
-  zone map 1454
-  turnin 8927
-
-step In Search of Anthion
-  zone map 1454
-  accept 8930
-
-step Just Compensation
-  only Hunter
-  zone map 1454
-  accept 8938
-
-step Just Compensation
-  only Hunter
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8938 @34.95,38.29
-
-step Just Compensation
-  only Hunter
-  zone map 1454
-  turnin 8938
-
-step Just Compensation
-  only Mage
-  zone map 1454
-  accept 8939
-
-step Just Compensation
-  only Mage
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8939 @34.95,38.29
-
-step Just Compensation
-  only Mage
-  zone map 1454
-  turnin 8939
-
-step Just Compensation
-  only Priest
-  zone map 1454
-  accept 8940
-
-step Just Compensation
-  only Priest
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8940 @34.95,38.29
-
-step Just Compensation
-  only Priest
-  zone map 1454
-  turnin 8940
-
-step Just Compensation
-  only Rogue
-  zone map 1454
-  accept 8941
-
-step Just Compensation
-  only Rogue
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8941 @34.95,38.29
-
-step Just Compensation
-  only Rogue
-  zone map 1454
-  turnin 8941
-
-step Just Compensation
-  only Shaman
-  zone map 1454
-  accept 8942
-
-step Just Compensation
-  only Shaman
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  complete 8942 @34.95,38.29
-
-step Just Compensation
-  only Shaman
-  zone map 1454
-  turnin 8942
-
 step Mokvar
-  only Warlock
   zone map 1454
-  accept 8943
-
-step Mokvar
-  only Druid
-  zone map 1454
-  turnin 8913
+  turnin 84155
+  turnin 84177
+  turnin 84189
+  turnin 84191
+  turnin 84193
+  turnin 84203
+  turnin 84208
+  turnin 84210
 
 step Mokvar
   only Shaman
   zone map 1454
-  turnin 8918
+  turnin 84160
 
-step Anthion's Parting Words
-  only Warlock
-  when onquest 9021
+step Mokvar
+  only Paladin
   zone map 1454
-  turnin 9021 optional
+  turnin 97411
 
 step Anthion's Parting Words
+  only Shaman
+  zone map 1454
+  turnin 8957
+
+step Bodley's Unfortunate Fate
+  zone map 1454
+  accept 9032
+
+step Anthion's Parting Words
+  only Druid
+  zone map 1454
+  turnin 9016
+
+step Anthion's Parting Words
+  only Hunter
+  zone map 1454
+  turnin 9017
+
+step Mokvar
   only Rogue
-  when onquest 9020
   zone map 1454
-  turnin 9020 optional
+  turnin 9020
 
-step Anthion's Parting Words
-  only Mage
-  when onquest 9018
-  zone map 1454
-  turnin 9018 optional
-
-step In Search of Anthion
-  when onquest 8930
-  zone map 1423
-  turnin 8930
-
-step Inside Scholomance
+step Mokvar
   only Warlock
-  zone map 1422
-  complete 8943 @69.9,74
-
-# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
-
-step Anthion's Parting Words
-  when onquest 9018
-  tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 9018 optional
+  turnin 9021
 
-step Anthion's Parting Words
-  when onquest 9020
-  tip Still in your log from an earlier guide: hand it in now.
+step Mokvar
+  only Mage
   zone map 1454
-  turnin 9020 optional
+  turnin 9018
 
-step Anthion's Parting Words
-  when onquest 9021
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 9021 optional
+step Bodley's Unfortunate Fate
+  when onquest 9032
+  zone map 1427
+  turnin 9032

@@ -1,94 +1,34 @@
-guide completionist-horde/47-searing-gorge-2
-title 47 Searing Gorge, visit 2 (60) (Completionist)
+guide completionist-horde/49-searing-gorge-2
+title 49 Searing Gorge, visit 2
 faction Horde
 levels 59-60
 category Leveling
+folder Completionist 41-50
 zone Searing Gorge
 next completionist-horde/dungeon-blackrock-spire
-next completionist-horde/48-felwood
+next completionist-horde/50-odd-jobs-in-the-eastern-kingdoms-4
 pitch On along the line: Searing Gorge, level 60 quests.
 # Generated from the reference data: change the planner, not this file.
 # Routed 3 quests; estimated level at the end 60.0 (heuristic XP, class quests not counted).
 # Skipped: 6 exclusive with N; 2 prerequisite N not in this route.
 
-step Ralston Farnsley
-  when onquest 7818
-  zone map 1458
-  turnin 7818
+step Nara Wildmane
+  when onquest 2967
+  zone map 1456
+  turnin 2967
 
-step Additional Runecloth
-  when onquest 7819
-  tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1458
-  collect 14047 x20 anywhere optional
-  turnin 7819 direct optional
+step Nara Wildmane
+  zone map 1456
+  accept 2968
 
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  accept 84175
-  complete 84175 @35.0,38.3
-
-step An Earnest Proposition
-  only Priest
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 8916 optional
-
-step An Earnest Proposition
-  only Mage
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 8915 optional
-
-step An Earnest Proposition
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 84162 optional
-
-step An Earnest Proposition
-  only Warrior
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 8920 optional
-
-step An Earnest Proposition
-  only Hunter
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 8914 optional
-
-step An Earnest Proposition
-  only Shaman
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 8918 optional
-
-step An Earnest Proposition
-  only Druid
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  zone map 1454
-  accept 8913 optional
-
-step Just Compensation
-  zone map 1454
-  turnin 84175
-
-step Just Compensation
-  tip The reference data does not place this quest's objective: follow the quest text.
-  accept 84176
-  complete 84176 @35.0,38.3
-
-step Just Compensation
-  turnin 84176
+step Sage Truthseeker
+  when onquest 2968
+  zone map 1456
+  turnin 2968
 
 step Bodley
   zone map 1427
   accept 8970
-
-step The Left Piece of Lord Valthalak's Amulet
-  tip For Blackrock Spire: taken here because the route passes its giver. Leave it if you will not run the dungeon.
-  accept 8966 optional
 
 step Basket of Bloodkelp
   zone map 1445
@@ -130,8 +70,6 @@ step Final Preparations
   accept 8994
   complete 8994 @39.8,96.5
 
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
 step More Components of Importance
   when onquest 8988
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -168,6 +106,38 @@ step More Components of Importance
 step Final Preparations
   zone map 1427
   turnin 8994
+
+step Craftsman's Writ: Fire Protection Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264063 x1 anywhere optional
+  collect 6049 x1 anywhere optional
+  turnin 94263 direct optional
+
+step Craftsman's Writ: Fire Goggles
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264087 x1 anywhere optional
+  collect 10500 x1 anywhere optional
+  turnin 94287 direct optional
+
+step Craftsman's Writ: Solid Sharpening Stone
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264075 x1 anywhere optional
+  collect 7964 x1 anywhere optional
+  turnin 94275 direct optional
+
+step Craftsman's Writ: Red Mageweave Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264111 x1 anywhere optional
+  collect 10009 x1 anywhere optional
+  turnin 94311 direct optional
+
+step Craftsman's Writ: Nightscape Shoulders
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264099 x1 anywhere optional
+  collect 8192 x1 anywhere optional
+  turnin 94299 direct optional
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Restoring Fiery Flux Supplies via Heavy Leather
   when turnedin 7722
@@ -218,8 +188,8 @@ step More Components of Importance
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step A Donation of Runecloth
-  when onquest 7818
+step Return to Thunder Bluff
+  when onquest 2967
   tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 7818 optional
+  zone map 1456
+  turnin 2967 optional

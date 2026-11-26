@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-razorfen-downs
-title Razorfen Downs, part 1 of 2 (Completionist)
+title Razorfen Downs, part 1 of 2
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 32-45
 zone The Barrens
 next completionist-horde/dungeon-razorfen-downs-2

@@ -1,8 +1,9 @@
 guide completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2
-title 26 Hillsbrad Foothills and Alterac Mountains, visit 2 (33-43) (Completionist)
+title 26 Hillsbrad Foothills and Alterac Mountains, visit 2
 faction Horde
 levels 33-43
 category Leveling
+folder Completionist 21-30
 zone Alterac Mountains
 next completionist-horde/dungeon-scarlet-monastery
 next completionist-horde/27-odd-jobs-in-the-eastern-kingdoms-2
@@ -39,11 +40,11 @@ step Keldran
 step Inside Ragefire Chasm
   when onquest 5722
   zone map 1454
-  complete 5723 @49.4,95.1
-  turnin 5722 @49.4,95.1
-  complete 5725 @49.4,95.1
-  complete 5728 @49.4,95.1
-  complete 5761 @49.4,95.1
+  complete 5723 @52,49.5
+  turnin 5722 @52,49.5
+  complete 5725 @52,49.5
+  complete 5728 @52,49.5
+  complete 5761 @52,49.5
 
 step Neeru Fireblade
   when complete 5761
@@ -60,7 +61,7 @@ step Thrall
   accept 5729
 
 step Inside Ragefire Chasm, again
-  accept 5724 @49.4,95.1
+  accept 5724 @52,49.5
 
 step Neeru Fireblade
   when onquest 5729
@@ -91,7 +92,7 @@ step Melor Stonehoof
   accept 1136
 
 step Compendium of the Fallen
-  only Orc,Tauren,Troll
+  only Orc,Tauren,Troll,Skyborne
   tip For Scarlet Monastery: taken here because the route passes its giver. Leave it if you will not run the dungeon.
   zone map 1456
   accept 1049 optional
@@ -316,7 +317,7 @@ step Nogg's Ring Redo
 step Searching for the Lost Satchel
   when onquest 5722
   tip Still in your log from an earlier guide: hand it in now.
-  turnin 5722 @49.4,95.1 optional
+  turnin 5722 @52,49.5 optional
 
 step Testing an Enemy's Strength
   when onquest 5723

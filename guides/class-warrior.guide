@@ -1,5 +1,5 @@
 guide completionist-horde/class-warrior
-title Warrior class quests (10-62) (Completionist)
+title Warrior class quests
 faction Horde
 class Warrior
 levels 10-62
@@ -18,19 +18,16 @@ step Red Bag
   zone map 1428
   accept 84211 npc 218236 only Warrior
 
-step Blackrock Bootlegger
+step Sulfuron Smuggler
   zone map 1427
   collect 226698 x1 quest 84211.1 only Warrior
   collect 226699 x1 quest 84211.2 only Warrior
 
-step Geologist Larksbane
-  when turnedin 8315
-  zone map 1451
-  accept 8316 only Warrior
-  turnin 8316 only Warrior
+step Baltus Fowler
+  zone map 1458
+  accept 1718 npc 4595 only Warrior
 
 step Christoph Walker
-  zone map 1458
   accept 8417 npc 4593 only Warrior
 
 step Fallen Hero of the Horde
@@ -59,9 +56,6 @@ step Baltus Fowler
   zone map 1458
   accept 1823 npc 4595 only Warrior
 
-step Baltus Fowler
-  accept 1718 npc 4595 only Warrior
-
 step Shadowsworn Cultist
   zone map 1419
   kill 6004 x10 quest 8424.2 only Warrior
@@ -73,9 +67,26 @@ step Fallen Hero of the Horde
   zone map 1435
   turnin 8424 only Warrior
 
+step Speak with Dillinger
+  only Warrior,Undead,Skyborne
+  zone map 1420
+  accept 1818 optional only Undead,Skyborne
+
+step Speak with Dillinger
+  only Warrior,Undead,Skyborne
+  when onquest 1818
+  zone map 1420
+  turnin 1818 optional only Undead,Skyborne
+
+step Geologist Larksbane
+  when turnedin 8315
+  zone map 1451
+  accept 8316 only Warrior
+  turnin 8316 only Warrior
+
 step Krang Stonehoof
   zone map 1412
-  accept 1505 npc 3063 only Warrior
+  accept 1505 npc 3063 only Orc,Tauren,Troll,Skyborne
 
 step Boarton Shadetotem
   zone map 1456
@@ -143,7 +154,7 @@ step Brutal Hauberk
 
 step Uzzek
   zone map 1413
-  turnin 1505 only Warrior
+  turnin 1505 only Orc,Tauren,Troll,Skyborne
 
 step Path of Defense
   only Warrior
@@ -156,66 +167,6 @@ step Path of Defense
   only Warrior
   zone map 1413
   turnin 1498 optional
-
-step Speak with Coleman
-  only Warrior
-  zone map 1420
-  accept 1820 optional
-
-step Ulag the Cleaver
-  only Warrior
-  when available 1819
-  tip One of several exclusive quests; the route takes Path of Defense (1498). This one shows for a character the game offers it to instead.
-  zone map 1420
-  accept 1819 optional
-
-step Ulag the Cleaver
-  only Warrior
-  when onquest 1819
-  zone map 1420
-  complete 1819 @59.5,48.3 optional
-
-step Ulag the Cleaver
-  only Warrior
-  when onquest 1819
-  zone map 1420
-  turnin 1819 optional
-
-step Speak with Coleman
-  only Warrior
-  zone map 1420
-  turnin 1820 optional
-
-step Speak with Dillinger
-  only Warrior
-  when available 1818
-  tip One of several exclusive quests; the route takes Veteran Uzzek (1505). This one shows for a character the game offers it to instead.
-  zone map 1420
-  accept 1818 optional
-
-step Speak with Dillinger
-  only Warrior
-  when onquest 1818
-  zone map 1420
-  turnin 1818 optional
-
-step Agamand Heirlooms
-  only Warrior
-  zone map 1420
-  accept 1821 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 1821 @61.7,52.3 optional
-
-step Agamand Heirlooms
-  only Warrior
-  zone map 1420
-  turnin 1821 optional
-
-step Heirloom Weapon
-  only Warrior
-  zone map 1420
-  accept 1822 optional
-  turnin 1822 optional
 
 step Thun'grim Firegaze
   only Warrior
@@ -343,6 +294,10 @@ step Forged Steel
   zone map 1411
   turnin 1503 optional
 
+step Alonso
+  zone map 1411
+  accept 78134 only Warrior
+
 step Satyr Hooves
   only Warrior
   when turnedin 1848
@@ -374,26 +329,6 @@ step Brutal Gauntlets
   zone map 1411
   turnin 1843 optional
 
-step Nami
-  zone map 2482
-  turnin 84211 only Warrior
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  accept 5126 optional
-  tip A class quest, done from the quest text: the reference data does not route it.
-  complete 5126 @63.8,73.8 optional
-
-step Lorax's Tale
-  only Warrior,Paladin,Shaman
-  zone map 1452
-  turnin 5126 optional
-
-step Alonso
-  zone map 1440
-  accept 78134 only Warrior
-
 step Dragonslayer's Shield
   only Warrior
   zone map 1440
@@ -415,7 +350,7 @@ step Dragonslayer's Shield
 
 step Dark Iron Entrepreneur
   zone map 1437
-  buy 209874 x1 npc 3180 -- for Dragonslayer's Lance
+  buy 209874 x1 nearest -- for Dragonslayer's Lance
 
 step Alonso
   zone map 1440
@@ -438,6 +373,22 @@ step Big Will and Step on the grate to begin the Affray
 step Klannoc Macleod
   turnin 1719 only Warrior
   accept 1791 only Warrior
+
+step Nami
+  zone map 1452
+  turnin 84211 only Warrior
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  accept 5126 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 5126 @63.8,73.8 optional
+
+step Lorax's Tale
+  only Warrior,Paladin,Shaman
+  zone map 1452
+  turnin 5126 optional
 
 step Half-Buried Mech
   zone map 1446
@@ -502,8 +453,55 @@ step Whirlwind Weapon
   turnin 1792 optional
 
 step Mech Arm
-  zone map 1436
+  zone map 1420
   turnin 84213 only Warrior
+
+step Speak with Coleman
+  only Warrior
+  zone map 1420
+  accept 1820 optional
+
+step Ulag the Cleaver
+  only Warrior
+  when available 1819
+  tip One of several exclusive quests; the route takes Path of Defense (1498). This one shows for a character the game offers it to instead.
+  zone map 1420
+  accept 1819 optional
+
+step Ulag the Cleaver
+  only Warrior
+  when onquest 1819
+  zone map 1420
+  complete 1819 @59.5,48.3 optional
+
+step Ulag the Cleaver
+  only Warrior
+  when onquest 1819
+  zone map 1420
+  turnin 1819 optional
+
+step Speak with Coleman
+  only Warrior
+  zone map 1420
+  turnin 1820 optional
+
+step Agamand Heirlooms
+  only Warrior
+  zone map 1420
+  accept 1821 optional
+  tip A class quest, done from the quest text: the reference data does not route it.
+  complete 1821 @61.7,52.3 optional
+
+step Agamand Heirlooms
+  only Warrior
+  zone map 1420
+  turnin 1821 optional
+
+step Heirloom Weapon
+  only Warrior
+  zone map 1420
+  accept 1822 optional
+  turnin 1822 optional
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 

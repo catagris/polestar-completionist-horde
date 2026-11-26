@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-excavation-site-wetlands
-title Excavation Site: Wetlands, part 1 of 2 (Completionist)
+title Excavation Site: Wetlands, part 1 of 2
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 24-31
 zone Wetlands
 next completionist-horde/dungeon-excavation-site-wetlands-2

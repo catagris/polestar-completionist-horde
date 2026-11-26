@@ -1,11 +1,11 @@
-guide completionist-horde/55-winterspring
-title 55 Winterspring (52-60) (Completionist)
+guide completionist-horde/54-winterspring
+title 54 Winterspring
 faction Horde
 levels 52-60
 category Leveling
+folder Completionist 51-59
 zone Winterspring
-next completionist-horde/dungeon-scholomance
-next completionist-horde/56-moonglade
+next completionist-horde/55-moonglade
 pitch On along the line: Winterspring, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
 # Routed 46 quests; estimated level at the end 54.6 (heuristic XP, class quests not counted).
@@ -43,63 +43,6 @@ step The Videre Elixir
 step Gregan Brewspewer
   zone map 1444
   collect 11243 x1 quest 3909.1
-
-step Nami
-  zone map 2482
-  sethome "Everlook"
-  getfp "Everlook"
-  turnin 92008
-
-step Hot Fiery Death
-  when skill Blacksmithing 270
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 1452
-  turnin 5103 direct @61.0,38.8 map 1452 optional
-
-step Sister Pamela
-  when available 5601
-  tip One of several exclusive quests; the route takes Little Pamela (5142). This one shows for a character the game offers it to instead.
-  zone map 1452
-  accept 5601 optional
-
-step Sister Pamela
-  when onquest 5601
-  zone map 1423
-  turnin 5601 optional
-
-step Level 54
-  zone map 2482
-  level 54
-
-step Nami
-  accept 92009
-
-step Kaylaena Springwhisper
-  complete 92009 @60.4,62.1 map 2482
-  turnin 92009
-
-step Kaylaena Springwhisper
-  accept 92011
-
-step Rusting Metal Chunk
-  collect 269246 x5 quest 92011.3
-
-step Tangle of Wire
-  collect 250775 x5 quest 92011.1
-
-step Calcified Excrement
-  collect 269244 x5 quest 92011.2
-
-step Kaylaena Springwhisper
-  turnin 92011
-
-step Kaylaena Springwhisper
-  accept 92328
-  turnin 92328
-
-step Kaylaena Springwhisper
-  accept 92329
-  turnin 92329
 
 step Donova Snowden
   zone map 1452
@@ -142,12 +85,34 @@ step Donova Snowden
 
 step Gregor Greystone
   zone map 1452
+  sethome "Everlook"
+  getfp "Everlook"
   accept 6029
   accept 6030
   turnin 93197
   accept 4809
   accept 6605
   accept 6603
+  accept 3783
+  turnin 92008
+
+step Craftsman's Writ: Frostsaber Boots
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264151 x1 anywhere optional
+  collect 15071 x1 anywhere optional
+  turnin 94351 direct optional
+
+step Craftsman's Writ: Ebon Shiv
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264133 x1 anywhere optional
+  collect 7947 x1 anywhere optional
+  turnin 94333 direct optional
+
+step Craftsman's Writ: Distilled Firewater
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264124 x1 anywhere optional
+  collect 246948 x1 anywhere optional
+  turnin 94324 direct optional
 
 step Making Amends
   tip A repeatable quest: hand it in once, with what it asks for.
@@ -155,46 +120,46 @@ step Making Amends
   collect 3857 x4 anywhere optional
   turnin 9266 direct optional
 
-step Level 58
-  zone map 2482
-  level 58
+step Hot Fiery Death
+  when skill Blacksmithing 270
+  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
+  zone map 1452
+  turnin 5103 direct @61.0,38.8 map 1452 optional
 
-step Nami
-  accept 84212
+step Sister Pamela
+  when available 5601
+  tip One of several exclusive quests; the route takes Little Pamela (5142). This one shows for a character the game offers it to instead.
+  zone map 1452
+  accept 5601 optional
 
-step Nami
-  accept 84146
-  accept 92859
-  accept 3783
+step Sister Pamela
+  when onquest 5601
+  zone map 1423
+  turnin 5601 optional
+
+step High Chief Winterfall
+  zone map 1423
+  accept 5123 item 12842 -- Drops from High Chief Winterfall
+
+step Level 56
+  zone map 1452
+  level 56
 
 step Innkeeper Vizzie
-  zone map 1452
   accept 93406
-
-step Umaron Stragarelm
-  when group 97490
-  zone map 1452
-  accept 97490
-
-step Harlo Wigglesworth
-  zone map 1452
-  accept 6606
-  turnin 6606
-  accept 969
-
-step Fayran Elthas
-  zone map 2482
-  accept 93444
-  turnin 93444
-
-step Marn Euhorn
-  accept 96301
 
 step Fiery Plate Gauntlets
   when turnedin 5103
   when skill Blacksmithing 275
   zone map 1452
   accept 5124 optional
+
+step Ice Thistle Matriarch
+  zone map 1452
+  collect 258323 x4 quest 93406.1
+
+step Harlo Wigglesworth
+  accept 6606
 
 step Fiery Plate Gauntlets
   when onquest 5124
@@ -207,23 +172,56 @@ step Fiery Plate Gauntlets
   zone map 1452
   turnin 5124 optional
 
-step Marn Euhorn
-  zone map 2482
-  complete 96301 @72.8,38.4 map 2482
-  turnin 96301
+step Witch Doctor Mau'ari
+  zone map 1452
+  turnin 6606
+
+step Evie Whirlbrew
+  accept 92859
+
+step Nami
+  accept 92009
+
+step Umaron Stragarelm
+  when group 97490
+  zone map 1452
+  accept 97490
+
+step Witch Doctor Mau'ari
+  zone map 1452
+  accept 969
+
+step Frostmaul Shards
+  collect 12334 x4 quest 969.1
 
 step Storm Shadowhoof
   when group 5054
-  zone map 2482
+  zone map 1452
   accept 5054
 
-step Winterspring Owl
-  zone map 2482
-  collect 281242 x5 quest 92859.2
+step Level 58
+  zone map 1452
+  level 58
 
-step Donova Snowden
-  turnin 6603
-  accept 5082
+step Nami
+  accept 84212
+
+step Nami
+  accept 84146
+
+step Kaylaena Springwhisper
+  complete 92009 @60.4,62.2 map 2482
+  turnin 92009
+  accept 92011
+
+step Rusting Metal Chunk
+  collect 269246 x5 quest 92011.3
+
+step Tangle of Wire
+  collect 250775 x5 quest 92011.1
+
+step Calcified Excrement
+  collect 269244 x5 quest 92011.2
 
 step Fledgling Chillwind
   collect 12444 x8 quest 4809.1
@@ -232,32 +230,20 @@ step Fledgling Chillwind
 step Rogue Ice Thistle
   collect 12366 x10 quest 3783.1
 
+step Donova Snowden
+  turnin 5123
+  turnin 6603
+  accept 5082
+  accept 5128
+
 step Winterfall Den Watcher
   kill 7440 x8 quest 5082.2
 
 step Winterfall Pathfinder
   kill 7442 x8 quest 5082.1
 
-step Evie Whirlbrew
-  turnin 92859
-  accept 98462
-  turnin 3783
-  accept 977
-  turnin 4809
-  accept 4810
-
-step High Chief Winterfall
-  accept 5123 item 12842 -- Drops from High Chief Winterfall
-
-step Ice Thistle Matriarch
-  collect 12367 x2 quest 977.1
-  collect 258323 x4 quest 93406.1
-
-step Frostmaul Shards
-  collect 12334 x4 quest 969.1
-
-step Fledgling Chillwind
-  collect 281241 x5 quest 98462.1
+step Winterspring Owl
+  collect 281242 x5 quest 92859.2
 
 step Winterfall Totemic
   kill 7441 x8 quest 5082.3
@@ -265,24 +251,24 @@ step Winterfall Totemic
 step High Chief Winterfall
   when group 5121
   tip High Chief Winterfall is group work: elites. Grouping up is advised.
-  zone map 2482
+  zone map 1452
   kill 10738 x1 quest 5121.1
 
-step Winterspring Owl
-  zone map 2482
-  collect 281242 x5 quest 98462.2
+step Donova Snowden
+  when group 5121
+  zone map 1452
+  turnin 5121
 
-step Evie Whirlbrew
-  turnin 98462
-  turnin 977
-  accept 5163
-
-step Legacki
-  kill 10978 x1 quest 5163.1
-
-step Innkeeper Vizzie
+step Umi Rumplesnicker
+  zone map 1452
+  turnin 3783
+  accept 977
+  turnin 92859
+  accept 98462
   turnin 93406
   accept 93269
+  turnin 4809
+  accept 4810
 
 step Witch Doctor Mau'ari
   turnin 969
@@ -291,7 +277,6 @@ step Witch Doctor Mau'ari
 
 step Wildkin E'ko
   tip A repeatable quest: hand it in once, with what it asks for.
-  zone map 1452
   collect 12433 x3 anywhere optional
   turnin 4807 direct optional
 
@@ -325,87 +310,106 @@ step Frostsaber E'ko
   collect 12430 x3 anywhere optional
   turnin 4801 direct optional
 
-step Quixxil
-  zone map 1449
-  kill 10977 x1 quest 5163.3
+step Winterspring Owl
+  collect 281242 x5 quest 98462.2
+
+step Fledgling Chillwind
+  collect 281241 x5 quest 98462.1
+
+step Ice Thistle Matriarch
+  collect 12367 x2 quest 977.1
+
+step Umi Rumplesnicker
+  turnin 977
+  accept 5163
+  turnin 98462
+
+step Legacki
+  kill 10978 x1 quest 5163.1
 
 step Sprinkle
   zone map 1446
   kill 7583 x1 quest 5163.2
 
+step Quixxil
+  zone map 1449
+  kill 10977 x1 quest 5163.3
+
 step Hailspite
   when group 97490
   tip Halt the Hail is group work: elites. Grouping up is advised.
-  zone map 2482
+  zone map 1452
   collect 278091 x1 quest 97490.1
 
 step Umaron Stragarelm
   when group 97490
-  zone map 2482
+  zone map 1452
   turnin 97490
 
 step Ursius
   when group 5054
   tip Ursius of the Shardtooth is group work: elites. Grouping up is advised.
-  zone map 2482
+  zone map 1452
   kill 10806 x1 quest 5054.1
 
 step Storm Shadowhoof
   when group 5054
-  zone map 2482
+  zone map 1452
   turnin 5054
 
 step Storm Shadowhoof
   when group 5055
-  zone map 2482
+  zone map 1452
   accept 5055
 
 step Brumeran
   when group 5055
   tip Brumeran of the Chillwind is group work: elites. Grouping up is advised.
-  zone map 2482
+  zone map 1452
   kill 10807 x1 quest 5055.1
 
 step Storm Shadowhoof
   when group 5055
-  zone map 2482
+  zone map 1452
   turnin 5055
 
 step Storm Shadowhoof
   when group 5056
-  zone map 2482
+  zone map 1452
   accept 5056
 
 step Shy-Rotam
   when group 5056
   tip Shy-Rotam is group work: elites. Grouping up is advised.
-  zone map 2482
+  zone map 1452
   kill 10737 x1 quest 5056.1
 
-step Gaeriyan
-  zone map 1446
-  turnin 3912
-
-step Sebastian Jurgens
-  turnin 84212
-
-step Sebelia
-  zone map 2482
-  turnin 93269
-
-step Donova Snowden
+step Sar Browneye
   zone map 1452
-  turnin 5082
-  turnin 5123
-  accept 5128
+  accept 97264
+  accept 97403
 
-step Donova Snowden
-  when group 5121
-  zone map 1452
-  turnin 5121
+step Elder Shardtooth
+  kill 7445 x12 quest 97264.1
+
+step Chillwind Ravager
+  kill 7449 x15 quest 97403.1
+
+step Rilan Howard
+  turnin 97403
+  turnin 97264
+  accept 97404
+
+step Kuroma
+  collect 278097 x1 quest 97404.1
+
+step Kamuro
+  collect 278098 x1 quest 97404.2
+
+step Sar Browneye
+  turnin 97404
 
 step Umi Rumplesnicker
-  zone map 1452
   turnin 5163
 
 step A Yeti of Your Own
@@ -429,30 +433,44 @@ step A Yeti of Your Own
   zone map 1452
   turnin 8798 optional
 
-step Rilan Howard
+step Sebelia
+  zone map 2482
+  turnin 93269
+
+step Kaylaena Springwhisper
+  turnin 92011
+  accept 92328
+  turnin 92328
+  accept 92329
+  turnin 92329
+
+step Fayran Elthas
+  accept 93444
+  turnin 93444
+
+step Marn Euhorn
+  zone map 1444
+  accept 96301
+
+step Marn Euhorn
+  complete 96301 @73.5,39.2 map 2482
+  turnin 96301
+
+step Donova Snowden
   zone map 1452
-  accept 97403
-  accept 97264
+  turnin 5082
 
-step Elder Shardtooth
-  kill 7445 x12 quest 97264.1
+step Craftsman's Writ: Chimeric Vest
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264148 x1 anywhere optional
+  collect 15075 x1 anywhere optional
+  turnin 94348 direct optional
 
-step Chillwind Ravager
-  kill 7449 x15 quest 97403.1
-
-step Rilan Howard
-  turnin 97403
-  turnin 97264
-  accept 97404
-
-step Kamuro
-  collect 278098 x1 quest 97404.2
-
-step Kuroma
-  collect 278097 x1 quest 97404.1
-
-step Sar Browneye
-  turnin 97404
+step Craftsman's Writ: Soul Pouch
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264160 x1 anywhere optional
+  collect 21340 x1 anywhere optional
+  turnin 94360 direct optional
 
 step Winna Hazzard
   zone map 1439
@@ -461,6 +479,13 @@ step Winna Hazzard
 step Kelek Skykeeper
   zone map 1448
   turnin 5128
+
+step Gaeriyan
+  zone map 1446
+  turnin 3912
+
+step Sebastian Jurgens
+  turnin 84212
 
 step Tinkee Steamboil
   zone map 1428

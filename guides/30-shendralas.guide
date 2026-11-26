@@ -1,8 +1,9 @@
 guide completionist-horde/30-shendralas
-title 30 Shen'dralas (38-45) (Completionist)
+title 30 Shen'dralas
 faction Horde
 levels 38-45
 category Leveling
+folder Completionist 21-30
 zone Shen'dralas
 next completionist-horde/dungeon-razorfen-downs
 next completionist-horde/31-feralas
@@ -17,12 +18,6 @@ step Mordent Evenshade
   complete 92914 @43.6,34.3 map 2652
   turnin 92914
   accept 96010
-
-step Tattered Journal
-  when has 260347
-  tip The reference data has no giver for this quest: it is handed in here once the game offers it.
-  zone map 2652
-  turnin 93644 direct @35.2,46.6 map 2652
 
 step Pylon Shard
   zone map 1443
@@ -118,7 +113,7 @@ step Forlorn Necklace
 
 step Mithera
   zone map 2652
-  complete 93341 @70.2,79.7 map 2652
+  complete 93341 @70.3,79.7 map 2652
   turnin 93341
 
 step Mithera
@@ -165,6 +160,17 @@ step Orgrul
   zone map 1443
   turnin 93188
   accept 93196
+
+step Tattered Journal
+  tip Tattered Journal drops from Outcast Necromancer, Magram Necromancer: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 260347 x1 optional
+  accept 93644 item 260347 optional
+  complete 93644 @35.2,46.6
+
+step Tattered Journal
+  when onquest 93644
+  zone map 2652
+  turnin 93644
 
 step Nerlokh
   zone map 2652

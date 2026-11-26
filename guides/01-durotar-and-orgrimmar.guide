@@ -1,8 +1,9 @@
 guide completionist-horde/01-durotar-and-orgrimmar
-title 01 Durotar and Orgrimmar (1-12) (Completionist)
+title 01 Durotar and Orgrimmar
 faction Horde
 levels 1-12
 category Leveling
+folder Completionist 01-10
 zone Durotar
 next completionist-horde/03-mulgore-and-thunder-bluff when !turnedin 765
 next completionist-horde/04-tirisfal-glades-and-the-undercity when !turnedin 408
@@ -218,7 +219,7 @@ step Raider's Shield
 step Raider's Battleaxe
   collect 275716 x1 quest 96822.2
 
-step Benedict's Chest
+step Raider's Bow
   collect 275713 x1 quest 96822.1
 
 step Level 6
@@ -546,7 +547,7 @@ step Heglan Shadeeye
 step Abandoned Dagger
   collect 286012 x1 quest 99049.1
 
-step Strange Debris
+step Weapon Piece
   collect 286010 x1 quest 99049.3
 
 step Strange Debris
@@ -603,46 +604,46 @@ step Vel'rin Fang
   accept 817
   accept 96821
 
-step Pygmy Surf Crawler
-  collect 4888 x8 quest 818.2
-
-step Slimeshell Makrura
-  zone map 1413
-  collect 4887 x4 quest 818.1
-
 step Ridgeshade Creeper
-  zone map 1411
   kill 266850 x6 quest 96821.1
 
 step Ridgeshade Lurker
   kill 266849 x6 quest 96821.2
 
-step Bloodtalon Matriarch
-  collect 277128 x1 quest 97223.1
+step Slimeshell Makrura
+  zone map 1413
+  collect 4887 x4 quest 818.1
 
-step Forgotten Loa Idol
-  collect 277135 x8 quest 97225.1
-
-step Hexed Troll and Voodoo Troll
-  kill 3207 x8 quest 826.1
-  kill 3206 x8 quest 826.2
-
-step Imprisoned Darkspear and Zalazane
-  collect 4864 x1 quest 808.1
-  collect 4866 x1 quest 826.3
+step Pygmy Surf Crawler
+  zone map 1411
+  collect 4888 x8 quest 818.2
 
 step Durotar Tiger
   zone map 1413
   collect 4892 x4 quest 817.1
 
-step Xar'Ti
+step Imprisoned Darkspear, Voodoo Troll and Zalazane
   zone map 1411
-  turnin 97223
+  collect 4864 x1 quest 808.1
+  kill 3206 x8 quest 826.2
+  collect 4866 x1 quest 826.3
+
+step Hexed Troll
+  kill 3207 x8 quest 826.1
+
+step Forgotten Loa Idol
+  collect 277135 x8 quest 97225.1
+
+step Bloodtalon Matriarch
+  collect 277128 x1 quest 97223.1
+
+step Vel'rin Fang
+  turnin 817
+  turnin 818
   turnin 808
   turnin 826
   turnin 97225
-  turnin 818
-  turnin 817
+  turnin 97223
 
 step Gar'Thok
   turnin 96821

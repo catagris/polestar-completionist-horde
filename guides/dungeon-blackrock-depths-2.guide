@@ -1,15 +1,19 @@
 guide completionist-horde/dungeon-blackrock-depths-2
-title Blackrock Depths, part 2 of 2 (Completionist)
+title Blackrock Depths, part 2 of 2
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 1-60
 zone Searing Gorge
-next completionist-horde/42-western-plaguelands
+next completionist-horde/43-western-plaguelands
 pitch Blackrock Depths, in Searing Gorge.
 why Every Horde quest of Blackrock Depths: the chains that lead to it, the pick-ups before the run and the hand-ins after it.
 
-step Thrall
+step Mokvar
   zone map 1454
+  turnin 97412
+
+step Thrall
   turnin 4001
 
 step Thrall
@@ -48,3 +52,9 @@ step Operation: Death to Angerforge
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1418
   turnin 4132 optional
+
+step Just Compensation
+  when onquest 97412
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 97412 optional

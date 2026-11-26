@@ -1,0 +1,47 @@
+guide completionist-horde/attune-scepter-of-celebras
+title Scepter of Celebras (Maraudon key)
+faction Horde
+levels 49-49
+category Dungeons
+folder Completionist attunements and keys
+zone Desolace
+pitch Scepter of Celebras: Opens a portal from the first khan's spot in Maraudon's outer caves to Earth Song Falls in inner Maraudon; the group walks through it. Celebras the Redeemed makes it once Celebras the Cursed is dead inside.
+why Opens a portal from the first khan's spot in Maraudon's outer caves to Earth Song Falls in inner Maraudon; the group walks through it. Celebras the Redeemed makes it once Celebras the Cursed is dead inside.
+
+
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Legends of Maraudon
+  zone map 1443
+  accept 7044
+
+step Legends of Maraudon
+  when onquest 7044
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 7044 @31.9,63.8
+
+step Legends of Maraudon
+  when onquest 7044
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1443
+  turnin 7044 @31,60.8
+
+step The Scepter of Celebras
+  when turnedin 7044
+  tip The giver stands inside the instance: the arrow leads to its entrance.
+  zone map 1443
+  accept 7046 @31,60.8
+
+step The Scepter of Celebras
+  when onquest 7046
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1443
+  complete 7046 @31,60.8
+
+step The Scepter of Celebras
+  when onquest 7046
+  tip The hand-in is inside the instance: the arrow leads to its entrance.
+  zone map 1443
+  turnin 7046 @31,60.8

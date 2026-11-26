@@ -1,0 +1,389 @@
+guide completionist-horde/38-ungoro-crater
+title 38 Un'Goro Crater
+faction Horde
+levels 50-60
+category Leveling
+folder Completionist 31-40
+zone Un'Goro Crater
+next completionist-horde/39-felwood
+pitch On along the line: Un'Goro Crater, quests of level 50 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 25 quests; estimated level at the end 51.4 (heuristic XP, class quests not counted).
+# Skipped: 1 prerequisite N not in this route.
+
+step Belgrom Rockmaul
+  when onquest 91531
+  when onquest 3507
+  zone map 1454
+  turnin 3507
+  turnin 91531
+
+step Zevrost
+  when onquest 91547
+  zone map 1454
+  turnin 91547
+
+step Zevrost
+  when group 91548
+  zone map 1454
+  accept 91548
+
+step Jes'rimon
+  zone map 1454
+  accept 4300
+
+step Shadowshard Fragments
+  tip For Maraudon: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 7068 optional
+
+step Mokvar
+  when group 84159
+  zone map 1454
+  accept 84159
+
+step Chemist Cuely
+  when onquest 3568
+  zone map 1458
+  turnin 3568
+
+step Seeping Corruption
+  when turnedin 3568
+  zone map 1458
+  accept 3569
+
+step Williden Marshal
+  zone map 1449
+  getfp "Marshal's Refuge"
+  accept 3881
+  accept 3883
+  accept 3882
+  accept 4501
+  accept 4492
+  accept 4145
+
+step Craftsman's Writ: Earthen Silk Belt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264115 x1 anywhere optional
+  collect 7061 x1 anywhere optional
+  turnin 94315 direct optional
+
+step Craftsman's Writ: Thick Leather Ammo Pouch
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264103 x1 anywhere optional
+  collect 8218 x1 anywhere optional
+  turnin 94303 direct optional
+
+step Craftsman's Writ: Dark Iron Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264091 x1 anywhere optional
+  collect 16005 x1 anywhere optional
+  turnin 94291 direct optional
+
+step Craftsman's Writ: Wildvine Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264067 x1 anywhere optional
+  collect 9144 x1 anywhere optional
+  turnin 94267 direct optional
+
+step Dadanga is Hungry!
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11315 x15 anywhere optional
+  turnin 5150 direct optional
+
+step Pterrordax
+  kill 9166 x10 quest 4501.1
+
+step Bloodpetal Lasher
+  kill 6509 x5 quest 4145.1
+
+step Crate of Foodstuffs
+  collect 11113 x1 quest 3881.1
+
+step Gorishi Hive Hatchery
+  collect 11131 x1 quest 3883.1
+
+step Bloodpetal Flayer
+  kill 6510 x5 quest 4145.3
+
+step Research Equipment
+  collect 11112 x1 quest 3881.2
+
+step Dinosaur Bone
+  collect 11114 x8 quest 3882.1
+
+step Bloodpetal Trapper
+  kill 6512 x5 quest 4145.2
+
+step Frenzied Pterrordax
+  zone map 1451
+  kill 9167 x15 quest 4501.2
+
+step Bloodpetal Thresher
+  zone map 1449
+  kill 6511 x5 quest 4145.4
+
+step Ringo
+  turnin 4492
+  accept 4491
+
+step Karna Remtravel
+  accept 4243
+  accept 4503
+
+step Spraggle Frock
+  turnin 4501
+  turnin 3882
+  turnin 3883
+  turnin 3881
+  turnin 4145
+  accept 4147
+
+step Young Diemetradon
+  collect 11830 x8 quest 4503.1
+
+step Fledgling Pterrordax
+  zone map 1446
+  collect 11831 x8 quest 4503.2
+
+step Shizzle
+  zone map 1449
+  turnin 4503
+
+step Spraggle Frock
+  turnin 4491
+
+step J.D. Collie
+  accept 4284
+
+step Red Power Crystal, Yellow Power Crystal, Green Power Crystal and Blue Power Crystal
+  zone map 1446
+  collect 11186 x7 quest 4284.1
+  collect 11188 x7 quest 4284.2
+  collect 11185 x7 quest 4284.3
+  collect 11184 x7 quest 4284.4
+
+step Level 55
+  zone map 1449
+  level 55
+
+step Hol'anyee Marshal
+  accept 92020
+
+step A-Me 01
+  turnin 4243
+  accept 4244
+
+step Clunk
+  zone map 1427
+  collect 10561 x1 quest 4244.1
+
+step Krakle
+  zone map 1449
+  accept 974
+
+step Fire Plume Ridge Hot Spot
+  interact 148503 quest 974.1
+
+step Krakle
+  turnin 974
+  accept 980
+
+step J.D. Collie
+  turnin 4284
+  accept 4285
+  accept 4287
+  accept 4288
+
+step Northern Crystal Pylon
+  interact 164955 quest 4285.1
+
+step Eastern Crystal Pylon
+  interact 164957 quest 4287.1
+
+step Western Crystal Pylon
+  interact 164956 quest 4288.1
+
+step A Wrecked Raft
+  accept 3844
+  turnin 3844
+
+step Microcrystal Contamination
+  tip Crystal Infused Scale drops from Ravasaur, Ravasaur Runner, Ravasaur Hunter: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 280459 x1 optional
+  accept 87494 item 280459 optional
+  complete 87494 @27.5,42.7
+
+step Microcrystal Contamination
+  when onquest 87494
+  zone map 1446
+  turnin 87494
+
+step It's a Secret to Everybody
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1449
+  accept 3845
+  complete 3845 @63.1,69.1
+
+step It's a Secret to Everybody
+  turnin 3845
+
+step Linken
+  accept 3908
+
+step A-Me 01
+  turnin 4244
+  accept 4245
+
+step Karna Remtravel
+  turnin 4245
+
+step J.D. Collie
+  turnin 4285
+  turnin 4287
+  turnin 4288
+  accept 4321
+  turnin 4321
+
+step Liv Rizzlefix
+  zone map 1413
+  turnin 4147
+
+step Zapper Fuel
+  tip For Sunken Temple: taken here because the route passes its giver. Leave it if you will not run the dungeon.
+  accept 4146 optional
+
+step Venomhide Ravasaur
+  zone map 1449
+  collect 11477 x8 quest 4300.1
+
+step Vek'zol
+  when group 91548
+  tip Vek'zol is group work: elites. Grouping up is advised.
+  zone map 1419
+  collect 246780 x1 quest 91548.1
+
+step Level 58
+  zone map 1449
+  level 58
+
+step Mor'vek
+  accept 94399
+
+step Fledgling Pterrordax
+  zone map 1446
+  collect 264361 x1 quest 94399.2
+
+step Craftsman's Writ: Heavy Mithril Axe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264079 x1 anywhere optional
+  collect 7941 x1 anywhere optional
+  turnin 94279 direct optional
+
+step Young Diemetradon
+  zone map 1449
+  collect 264360 x5 quest 94399.1
+
+step Mor'vek
+  turnin 94399
+
+step Williden's Journal
+  tip A Mangled Journal drops from Ravasaur Runner, Ravasaur, Thunderstomp Stegodon: it starts this quest. The data gives it a low drop rate: take it if it comes, and move on if it does not.
+  collect 11116 x1 optional
+  accept 3884 item 11116 optional
+
+step Crystal Restore
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11188 x10 anywhere optional
+  collect 11185 x10 anywhere optional
+  turnin 4381 direct optional
+
+step Crystal Charge
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11186 x10 anywhere optional
+  collect 11188 x10 anywhere optional
+  turnin 4385 direct optional
+
+step Crystal Force
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11185 x10 anywhere optional
+  collect 11184 x10 anywhere optional
+  turnin 4382 direct optional
+
+step Crystal Spire
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11184 x10 anywhere optional
+  collect 11188 x10 anywhere optional
+  turnin 4386 direct optional
+
+step Crystal Ward
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11186 x10 anywhere optional
+  collect 11185 x10 anywhere optional
+  turnin 4383 direct optional
+
+step Crystal Yield
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 11186 x10 anywhere optional
+  collect 11184 x10 anywhere optional
+  turnin 4384 direct optional
+
+step Still Believing
+  when turnedin 8323
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1449
+  collect 20404 x10 anywhere optional
+  turnin 8324 direct optional
+
+step Williden's Journal
+  when onquest 3884
+  zone map 1449
+  turnin 3884
+
+step Stonelash Scorpid
+  when group 84159
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1449
+  collect 22381 x15 quest 84159.1
+
+step Dark Shade
+  when group 84159
+  tip An Earnest Proposition is group work: elites. Grouping up is advised.
+  zone map 1422
+  collect 16710 x1 quest 84159.2
+
+step Tiala Whitemane
+  zone map 2482
+  turnin 92020
+
+step Donova Snowden
+  zone map 1452
+  turnin 980
+
+step Donova Snowden
+  turnin 3908
+
+# Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
+
+step Betrayed
+  when onquest 3507
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 3507 optional
+
+step Seeping Corruption
+  when onquest 3568
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1458
+  turnin 3568 optional
+
+step Revenge Exacted
+  when onquest 91531
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 91531 optional
+
+step Sin'dorei Tome of Summoning
+  when onquest 91547
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1454
+  turnin 91547 optional

@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-the-hall-of-thanes
-title The Hall of Thanes (Completionist)
+title The Hall of Thanes
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 10-15
 zone Ironforge
 pitch The Hall of Thanes, in Ironforge.
@@ -12,6 +13,6 @@ step Getting there
 
 step Inside The Hall of Thanes
   zone Ironforge
-  accept 96395 @15.1,86
-  complete 96395 @15.1,86
-  turnin 96395 @15.1,86
+  accept 96395 @28.4,47.7
+  complete 96395 @28.4,47.7
+  turnin 96395 @28.4,47.7

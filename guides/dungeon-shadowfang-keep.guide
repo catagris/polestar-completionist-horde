@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-shadowfang-keep
-title Shadowfang Keep (Completionist)
+title Shadowfang Keep
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 18-27
 zone Silverpine Forest
 next completionist-horde/17-thousand-needles
@@ -66,3 +67,13 @@ step Doan Karhan
   only Warlock
   zone map 1413
   turnin 1740
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  accept 78307
+
+step Dead Drop
+  only Rogue
+  zone map 1421
+  turnin 78307

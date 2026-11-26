@@ -1,72 +1,19 @@
-guide completionist-horde/36-swamp-of-sorrows-2
-title 36 Swamp of Sorrows, visit 2 (50-58) (Completionist)
+guide completionist-horde/35-swamp-of-sorrows-2
+title 35 Swamp of Sorrows, visit 2
 faction Horde
 levels 50-58
 category Leveling
+folder Completionist 31-40
 zone Swamp of Sorrows
-next completionist-horde/37-blasted-lands
+next completionist-horde/36-azshara
 pitch On along the line: Swamp of Sorrows, quests of level 50 to 58.
 # Generated from the reference data: change the planner, not this file.
 # Routed 9 quests; estimated level at the end 50.3 (heuristic XP, class quests not counted).
 
-step Jes'rimon
-  when onquest 3541
+step Zilzibin Drumlore
+  when onquest 4509
   zone map 1454
-  turnin 3541
-  accept 3563
-
-step Belgrom Rockmaul
-  when onquest 3507
-  zone map 1454
-  turnin 3507
-  turnin 91531
-
-step Zevrost
-  when onquest 91547
-  zone map 1454
-  turnin 91547
-
-step Nara Wildmane
-  when onquest 3518
-  zone map 1456
-  turnin 92346
-  turnin 3518
-  accept 3562
-
-step Andron Gant
-  when onquest 3542
-  zone map 1458
-  turnin 3542
-  accept 3564
-  accept 3568
-
-step Jediga
-  when onquest 3563
-  zone map 1447
-  turnin 3563
-
-step Jediga
-  when onquest 3562
-  zone map 1447
-  turnin 3562
-
-step the First Tide Pool
-  zone map 1447
-  collect 10691 x1 quest 3568.1
-
-step the Second Tide Pool
-  collect 10692 x1 quest 3568.2
-
-step the Third Tide Pool
-  collect 10693 x1 quest 3568.3
-
-step the Fourth Tide Pool
-  collect 10694 x1 quest 3568.4
-
-step Jediga
-  when onquest 3564
-  zone map 1447
-  turnin 3564
+  turnin 4509
 
 step Magtoor
   zone map 1435
@@ -101,8 +48,6 @@ step Bengor
 
 step Bengor
   accept 2623
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Warchief's Orders
   collect 8463 x1 quest 2623.1
@@ -144,6 +89,38 @@ step Spectral Lockbox
 step Fallen Hero of the Horde
   accept 2721
 
+step Craftsman's Writ: Shadow Oil
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264064 x1 anywhere optional
+  collect 3824 x1 anywhere optional
+  turnin 94264 direct optional
+
+step Craftsman's Writ: Big Voodoo Mask
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264100 x1 anywhere optional
+  collect 8201 x1 anywhere optional
+  turnin 94300 direct optional
+
+step Craftsman's Writ: Wicked Mithril Blade
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264076 x1 anywhere optional
+  collect 7943 x1 anywhere optional
+  turnin 94276 direct optional
+
+step Craftsman's Writ: Mithril Frag Bomb
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264088 x1 anywhere optional
+  collect 10514 x1 anywhere optional
+  turnin 94288 direct optional
+
+step Craftsman's Writ: Orange Martial Shirt
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264112 x1 anywhere optional
+  collect 10052 x1 anywhere optional
+  turnin 94312 direct optional
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
 step In Eranikus' Own Words
   when turnedin 3374
   zone map 1452
@@ -172,44 +149,8 @@ step Corrupted Night Dragon
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
-step Betrayed
-  when onquest 3507
+step Calm Before the Storm
+  when onquest 4509
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1454
-  turnin 3507 optional
-
-step Delivery to Magatha
-  when onquest 3518
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 3518 optional
-
-step Delivery to Jes'rimon
-  when onquest 3541
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 3541 optional
-
-step Delivery to Andron Gant
-  when onquest 3542
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1458
-  turnin 3542 optional
-
-step Revenge Exacted
-  when onquest 91531
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 91531 optional
-
-step Sin'dorei Tome of Summoning
-  when onquest 91547
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 91547 optional
-
-step Beneath Nordrassil
-  when onquest 92346
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 92346 optional
+  turnin 4509 optional

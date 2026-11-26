@@ -1,8 +1,9 @@
 guide completionist-horde/19-arathi-highlands
-title 19 Arathi Highlands (32-45) (Completionist)
+title 19 Arathi Highlands
 faction Horde
 levels 32-45
 category Leveling
+folder Completionist 11-20
 zone Arathi Highlands
 next completionist-horde/20-riverglades
 pitch On along the line: Arathi Highlands, quests of level 32 to 45.
@@ -327,9 +328,8 @@ step Tor'gan
   turnin 640
 
 step Tor'gan
-  when turnedin 640
   zone map 1417
-  accept 641 optional
+  accept 641
 
 step Tor'gan
   turnin 701
@@ -342,7 +342,6 @@ step Drum Fel
   accept 679
 
 step Zengu
-  when onquest 641
   zone map 1417
   turnin 641
 
@@ -462,12 +461,10 @@ step Keystone
   turnin 652
 
 step Keystone
-  when turnedin 652
   zone map 1417
-  accept 688 optional
+  accept 688
 
 step Zaruk
-  when onquest 688
   turnin 688
 
 step Owen Thadd
@@ -493,6 +490,36 @@ step The Giant in the Den
   collect 253711 x1 optional
   accept 92707 item 253711 optional
   complete 92707 @74.2,33.9
+
+step Craftsman's Writ: Elixir of Wisdom
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264012 x1 anywhere optional
+  collect 3383 x1 anywhere optional
+  turnin 94212 direct optional
+
+step Craftsman's Writ: Golden Rod
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264021 x1 anywhere optional
+  collect 11128 x1 anywhere optional
+  turnin 94221 direct optional
+
+step Craftsman's Writ: Explosive Sheep
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264030 x1 anywhere optional
+  collect 4384 x1 anywhere optional
+  turnin 94230 direct optional
+
+step Craftsman's Writ: Blue Overalls
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264048 x1 anywhere optional
+  collect 6263 x1 anywhere optional
+  turnin 94248 direct optional
+
+step Craftsman's Writ: Fine Leather Pants
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264039 x1 anywhere optional
+  collect 5958 x1 anywhere optional
+  turnin 94239 direct optional
 
 step The Giant in the Den
   when onquest 92707

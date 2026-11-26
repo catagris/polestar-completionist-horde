@@ -1,8 +1,9 @@
 guide completionist-horde/07-mulgore-and-thunder-bluff-2
-title 07 Mulgore and Thunder Bluff, visit 2 (8-14) (Completionist)
+title 07 Mulgore and Thunder Bluff, visit 2
 faction Horde
 levels 8-14
 category Leveling
+folder Completionist 01-10
 zone Mulgore
 next completionist-horde/08-silverpine-forest
 pitch On along the line: Mulgore and Thunder Bluff, quests of level 8 to 14.
@@ -74,57 +75,62 @@ step Gathering Leather
 step Exploring the Horde
   tip The reference data does not place this quest's objective: follow the quest text.
   zone map 1454
-  accept 93739
-  complete 93739 @31.7,37.8
+  accept 93739 only Skyborne
+  complete 93739 @31.7,37.8 only Skyborne
 
 # Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
 
 step Exploring the Horde
-  turnin 93739
+  turnin 93739 only Skyborne
 
 step Captain Perrine and Scarlet Missionary
-  zone map 1420
+  zone map 1435
   kill 1536 x3 quest 370.3
 
-step Deathguard Dillinger
-  when onquest 368
+step Scarlet Zealot
+  zone map 1422
+  kill 1537 x3 quest 370.2
+  collect 2875 x10 quest 374.1
+
+step Deathguard Burgess
+  when onquest 360
   zone map 1420
-  turnin 426
-  turnin 368
-  accept 369
+  turnin 374
   turnin 370
   accept 371
-  turnin 374
-
-step Captain Vachon
-  zone map 1420
-  kill 1664 x1 quest 371.1
-
-step Vicious Night Web Spider
-  collect 2872 x4 quest 369.1
+  turnin 360
+  turnin 408
 
 step Scarlet Friar
+  zone map 1420
   kill 1538 x5 quest 371.2
 
-step Magistrate Sevren
-  when onquest 369
+step Captain Vachon
+  kill 1664 x1 quest 371.1
+
+step Executor Zygand
+  when onquest 368
   zone map 1420
-  turnin 408
   turnin 371
   accept 372
-  turnin 369
-  accept 492
-  turnin 492
+  turnin 368
+  accept 369
+
+step Vicious Night Web Spider
+  zone map 1420
+  collect 2872 x4 quest 369.1
 
 step Captain Melrache and Scarlet Bodyguard
-  zone map 1420
   kill 1665 x1 quest 372.1
   kill 1660 x2 quest 372.2
 
 step Executor Zygand
-  when onquest 372
+  when onquest 369
   zone map 1420
   turnin 372
+  turnin 369
+  accept 492
+  turnin 492
 
 step Gunther's Books
   zone map 1420
@@ -383,6 +389,12 @@ step Bloodhoof Village
 
 # Loose ends: quests taken in an earlier guide and handed in in this one, once more, for whoever skipped the step.
 
+step Return to the Magistrate
+  when onquest 360
+  tip Still in your log from an earlier guide: hand it in now.
+  zone map 1420
+  turnin 360 optional
+
 step A New Plague
   when onquest 368
   tip Still in your log from an earlier guide: hand it in now.
@@ -412,12 +424,6 @@ step The Family Crypt
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1420
   turnin 408 optional
-
-step The Mills Overrun
-  when onquest 426
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1420
-  turnin 426 optional
 
 step Camping 101: Blacksmithing
   when onquest 97952

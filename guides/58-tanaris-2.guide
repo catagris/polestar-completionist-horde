@@ -1,13 +1,14 @@
-guide completionist-horde/59-tanaris-2
-title 59 Tanaris, visit 2 (52-60) (Completionist)
+guide completionist-horde/58-tanaris-2
+title 58 Tanaris, visit 2
 faction Horde
 levels 52-60
 category Leveling
+folder Completionist 51-59
 zone Tanaris
-next completionist-horde/60-last-hand-ins
+next completionist-horde/59-last-hand-ins
 pitch On along the line: Tanaris, quests of level 52 to 60.
 # Generated from the reference data: change the planner, not this file.
-# Routed 25 quests; estimated level at the end 53.1 (heuristic XP, class quests not counted).
+# Routed 30 quests; estimated level at the end 53.8 (heuristic XP, class quests not counted).
 # Skipped: 2 exclusive with N; 2 prerequisite N not in this route.
 
 step Master Apothecary Faranell
@@ -15,42 +16,9 @@ step Master Apothecary Faranell
   zone map 1458
   turnin 2938
 
-step Rashona Straglash
-  when onquest 7826
+step Mokvar
   zone map 1454
-  turnin 7826
-  turnin 7827
-  turnin 7831
-  accept 7824
-
-step Vehena
-  when onquest 7833
-  zone map 1454
-  turnin 7833
-  turnin 7834
-  turnin 7835
-  accept 7836
-
-step Rumstag Proudstrider
-  when onquest 7820
-  zone map 1456
-  turnin 7820
-
-step Rumstag Proudstrider
-  zone map 1456
-  accept 7823
-
-step Rumstag Proudstrider
-  when onquest 7823
-  zone map 1456
-  turnin 7823
-
-step Stormwind Royal Guard
-  zone map 1453
-  collect 14047 x60 quest 7824.1
-
-step Stormwind Royal Guard
-  collect 14047 x60 quest 7836.1
+  accept 8923 npc 16012
 
 step Tran'rek
   zone map 1446
@@ -60,17 +28,35 @@ step Tran'rek
   turnin 96913
   accept 2741
 
+step Craftsman's Writ: White Bandit Mask
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264113 x1 anywhere optional
+  collect 10008 x1 anywhere optional
+  turnin 94313 direct optional
+
+step Craftsman's Writ: Gyromatic Micro-Adjuster
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264089 x1 anywhere optional
+  collect 10498 x1 anywhere optional
+  turnin 94289 direct optional
+
+step Craftsman's Writ: Truesilver Rod
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264077 x1 anywhere optional
+  collect 11144 x1 anywhere optional
+  turnin 94277 direct optional
+
+step Craftsman's Writ: Goblin Rocket Fuel
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264065 x1 anywhere optional
+  collect 9061 x1 anywhere optional
+  turnin 94265 direct optional
+
 step War at Sea
   tip A repeatable quest: hand it in once, with what it asks for.
   collect 4338 x40 anywhere optional
   collect 3466 x4 anywhere optional
   turnin 9268 direct optional
-
-step A Blue Light Bargain
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7652 optional
 
 step Tar Lurker
   zone map 1449
@@ -80,8 +66,30 @@ step Hippogryph Egg
   zone map 1444
   collect 8564 x1 quest 2741.1
 
-step Torwa Pathfinder
+step Anachronos
   zone map 1446
+  turnin 8741
+
+step Egg-O-Matic
+  turnin 2741
+  turnin 4504
+
+step An Ordinary Egg
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8645 x1 anywhere optional
+  turnin 2749 direct optional
+
+step A Fine Egg
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8644 x1 anywhere optional
+  turnin 2748 direct optional
+
+step An Extraordinary Egg
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 8643 x1 anywhere optional
+  turnin 2747 direct optional
+
+step Torwa Pathfinder
   accept 4289
   accept 4290
   accept 87492
@@ -119,98 +127,89 @@ step Torwa Pathfinder
   turnin 4301
   accept 4292
 
+step Level 60
+  level 60
+
+step Wizzik Dustfizz
+  accept 96914
+  turnin 96914
+
+step Wizzik Dustfizz
+  accept 96912
+  turnin 96912
+
 step Lar'korwi
   zone map 1449
   collect 11510 x1 quest 4292.1
+
+step Meridith the Mermaiden
+  when onquest 8597
+  zone map 1446
+  accept 8599
+
+step Access Hatch
+  zone map 1446
+  accept 84137 object 456685
+
+step The Path of the Invoker
+  when available 8757
+  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
+  zone map 1446
+  accept 8757 optional
+
+step The Path of the Conqueror
+  when available 8752
+  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
+  zone map 1446
+  accept 8752 optional
+
+step Sebastian Jurgens
+  zone map 1446
+  turnin 84137
+
+step Sebastian Jurgens
+  accept 84138
+
+step The Path of the Invoker
+  when onquest 8757
+  zone map 1446
+  turnin 8757 optional
+
+step The Path of the Conqueror
+  when onquest 8752
+  zone map 1446
+  turnin 8752 optional
 
 step Torwa Pathfinder
   zone map 1446
   turnin 4292
 
-step Tran'rek
-  turnin 4504
-  turnin 2741
+step Vi'el
+  zone map 1452
+  buy 21939 x1 nearest -- for A Shifty Merchant
 
-step An Ordinary Egg
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 8645 x1 anywhere optional
-  turnin 2749 direct optional
+step Nami
+  turnin 84138
 
-step A Fine Egg
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 8644 x1 anywhere optional
-  turnin 2748 direct optional
-
-step An Extraordinary Egg
-  tip A repeatable quest: hand it in once, with what it asks for.
-  collect 8643 x1 anywhere optional
-  turnin 2747 direct optional
-
-step A Blue Light Bargain
-  when skill Blacksmithing 1
+step Narain Soothfancy
+  when onquest 8597
   zone map 1446
-  turnin 7652 optional
+  turnin 8599
+
+step Craftsman's Writ: Big Voodoo Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  zone map 1446
+  collect 264101 x1 anywhere optional
+  collect 8200 x1 anywhere optional
+  turnin 94301 direct optional
 
 step Gaeriyan
-  zone map 1446
   accept 3913
 
-step A Conspicuous Gravestone
+step Mux Manascrambler
+  turnin 8923
   turnin 3913
   accept 3914
-
-step Imperial Plate Shoulders
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7659 optional
-  complete 7659 @51.4,28.7 optional
-
-step Imperial Plate Leggings
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7658 optional
-  complete 7658 @51.4,28.7 optional
-
-step Imperial Plate Helm
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7657 optional
-  complete 7657 @51.4,28.7 optional
-
-step Imperial Plate Chest
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7656 optional
-  complete 7656 @51.4,28.7 optional
-
-step Imperial Plate Bracer
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7655 optional
-  complete 7655 @51.4,28.7 optional
-
-step Imperial Plate Boots
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7654 optional
-  complete 7654 @51.4,28.7 optional
-
-step Imperial Plate Belt
-  when skill Blacksmithing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1446
-  accept 7653 optional
-  complete 7653 @51.4,28.7 optional
-
-step Anachronos
-  zone map 1446
-  turnin 8741
 
 step Linken
   zone map 1449
@@ -230,80 +229,6 @@ step Felpaw Wolf
   zone map 1440
   collect 11172 x11 quest 4084.1
 
-step Level 60
-  zone map 1446
-  level 60
-
-step Wizzik Dustfizz
-  accept 96914
-  turnin 96914
-
-step Imperial Plate Shoulders
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7659 optional
-
-step Imperial Plate Leggings
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7658 optional
-
-step Imperial Plate Helm
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7657 optional
-
-step The Path of the Invoker
-  when available 8757
-  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
-  zone map 1446
-  accept 8757 optional
-
-step The Path of the Conqueror
-  when available 8752
-  tip One of several exclusive quests; the route takes The Path of the Protector (8747). This one shows for a character the game offers it to instead.
-  zone map 1446
-  accept 8752 optional
-
-step Imperial Plate Chest
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7656 optional
-
-step Imperial Plate Bracer
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7655 optional
-
-step Imperial Plate Boots
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7654 optional
-
-step Imperial Plate Belt
-  when skill Blacksmithing 1
-  zone map 1446
-  turnin 7653 optional
-
-step Wizzik Dustfizz
-  zone map 1446
-  accept 96912
-  turnin 96912
-
-step Meridith the Mermaiden
-  when onquest 8597
-  zone map 1446
-  accept 8599
-
-step Narain Soothfancy
-  when onquest 8597
-  zone map 1446
-  turnin 8599
-
-step Sebastian Jurgens
-  zone map 1446
-  accept 84138
-
 step Irontree Stomper
   zone map 1448
   collect 11173 x1 quest 4084.2
@@ -316,22 +241,173 @@ step Aquementas
   zone map 1446
   collect 11522 x1 quest 4005.1
 
-step The Path of the Invoker
-  when onquest 8757
-  zone map 1446
-  turnin 8757 optional
+step J.D. Collie
+  zone map 1449
+  turnin 4005
+  accept 3961
 
-step The Path of the Conqueror
-  when onquest 8752
-  zone map 1446
-  turnin 8752 optional
+step Linken
+  turnin 3961
 
-step Half-Buried Mech
-  zone map 1446
-  accept 84137 object 456682
+step Linken
+  when group 3962
+  zone map 1449
+  accept 3962
 
-step Sebastian Jurgens
-  turnin 84137
+step Blazerunner and Ornate Chest
+  when group 3962
+  tip It's Dangerous to Go Alone is group work: elites. Grouping up is advised.
+  zone map 1449
+  kill 9376 x1 quest 3962.1
+  collect 11179 x1 quest 3962.2
+
+step Linken
+  when group 3962
+  zone map 1449
+  turnin 3962
+
+step A Blue Light Bargain
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7652 optional
+
+step A Blue Light Bargain
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7652 optional
+
+step Imperial Plate Belt
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7653 optional
+  complete 7653 @51.4,28.7 optional
+
+step Imperial Plate Belt
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7653 optional
+
+step Imperial Plate Boots
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7654 optional
+  complete 7654 @51.4,28.7 optional
+
+step Imperial Plate Boots
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7654 optional
+
+step Imperial Plate Bracer
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7655 optional
+  complete 7655 @51.4,28.7 optional
+
+step Imperial Plate Bracer
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7655 optional
+
+step Imperial Plate Chest
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7656 optional
+  complete 7656 @51.4,28.7 optional
+
+step Imperial Plate Chest
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7656 optional
+
+step Imperial Plate Helm
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7657 optional
+  complete 7657 @51.4,28.7 optional
+
+step Imperial Plate Helm
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7657 optional
+
+step Imperial Plate Leggings
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7658 optional
+  complete 7658 @51.4,28.7 optional
+
+step Imperial Plate Leggings
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7658 optional
+
+step Imperial Plate Shoulders
+  when skill Blacksmithing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 7659 optional
+  complete 7659 @51.4,28.7 optional
+
+step Imperial Plate Shoulders
+  when skill Blacksmithing 1
+  zone map 1446
+  turnin 7659 optional
+
+step The Ectoplasmic Distiller
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1446
+  accept 8921
+  complete 8921 @52.5,27.2
+
+step The Ectoplasmic Distiller
+  turnin 8921
+
+step Mux Manascrambler
+  accept 8924
+
+step Tortured Sentinel
+  zone map 1451
+  collect 21937 x12 quest 8924.1
+
+step Suffering Highborne
+  zone map 1452
+  collect 21936 x12 quest 8924.2
+
+step Hate Shrieker
+  zone map 1423
+  collect 21935 x12 quest 8924.3
+
+step Mux Manascrambler
+  zone map 1446
+  turnin 8924
+
+step Mux Manascrambler
+  accept 8925
+
+step Magma Lord Bokk
+  zone map 1428
+  collect 21938 x1 quest 8925.1
+
+step Mux Manascrambler
+  zone map 1446
+  turnin 8925
+
+step Mux Manascrambler
+  accept 8928
+
+step Mux Manascrambler
+  turnin 8928
+
+step Mux Manascrambler
+  accept 8978
 
 step The Path of the Invoker
   when available 8758
@@ -474,8 +550,6 @@ step The Qiraji Conqueror
   zone map 1446
   accept 8756 optional
 
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
-
 step The Qiraji Conqueror
   when onquest 8756
   tip The reference data does not place this quest's objective: follow the quest text.
@@ -487,34 +561,7 @@ step The Qiraji Conqueror
   zone map 1446
   turnin 8756 optional
 
-step J.D. Collie
-  zone map 1449
-  turnin 4005
-  accept 3961
-
-step Linken
-  turnin 3961
-
-step Linken
-  when group 3962
-  zone map 1449
-  accept 3962
-
-step Blazerunner and Ornate Chest
-  when group 3962
-  tip It's Dangerous to Go Alone is group work: elites. Grouping up is advised.
-  zone map 1449
-  kill 9376 x1 quest 3962.1
-  collect 11179 x1 quest 3962.2
-
-step Linken
-  when group 3962
-  zone map 1449
-  turnin 3962
-
-step Nami
-  zone map 2482
-  turnin 84138
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step The Path of the Protector
   when available 8747
@@ -610,48 +657,6 @@ step Venom to the Undercity
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1458
   turnin 2938 optional
-
-step A Donation of Wool
-  when onquest 7820
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1456
-  turnin 7820 optional
-
-step A Donation of Wool
-  when onquest 7826
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7826 optional
-
-step A Donation of Silk
-  when onquest 7827
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7827 optional
-
-step A Donation of Mageweave
-  when onquest 7831
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7831 optional
-
-step A Donation of Wool
-  when onquest 7833
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7833 optional
-
-step A Donation of Silk
-  when onquest 7834
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7834 optional
-
-step A Donation of Mageweave
-  when onquest 7835
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 7835 optional
 
 step The Champion Returns
   when onquest 8741

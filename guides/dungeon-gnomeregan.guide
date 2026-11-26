@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-gnomeregan
-title Gnomeregan (Completionist)
+title Gnomeregan
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 25-40
 zone Dun Morogh
 next completionist-horde/dungeon-excavation-site-wetlands

@@ -1,0 +1,130 @@
+guide completionist-horde/50-odd-jobs-in-the-eastern-kingdoms-4
+title 50 Odd jobs in the Eastern Kingdoms, visit 4
+faction Horde
+levels 58-60
+category Leveling
+folder Completionist 41-50
+zone Arathi Highlands
+next completionist-horde/51-silithus
+pitch On along the line: errands across the Eastern Kingdoms, quests of level 58 to 60.
+# Generated from the reference data: change the planner, not this file.
+# Routed 12 quests; estimated level at the end 58.2 (heuristic XP, class quests not counted).
+
+step Mokvar
+  only Shaman
+  when complete 8957
+  zone map 1454
+  turnin 8957
+
+step Mokvar
+  only Priest
+  when complete 9019
+  zone map 1454
+  turnin 9019
+
+step Mokvar
+  only Druid
+  when complete 9016
+  zone map 1454
+  turnin 9016
+
+step Mokvar
+  only Hunter
+  when complete 9017
+  zone map 1454
+  turnin 9017
+
+step Oran Snakewrithe
+  zone map 1458
+  accept 84396 npc 7825
+  accept 84397 npc 7825
+  accept 84398 npc 7825
+  accept 84399 npc 7825
+  accept 84400 npc 7825
+  accept 84401 npc 7825
+
+step Book
+  zone map 1422
+  accept 84402 object 463211
+
+step Book
+  collect 228141 x1 quest 84402.1
+
+step Book
+  accept 84395 object 463213
+
+step Book
+  collect 228132 x1 quest 84395.1
+
+step Oran Snakewrithe
+  zone map 1458
+  turnin 84395
+  turnin 84402
+
+step Book
+  zone map 1423
+  collect 228140 x1 quest 84401.1
+
+step Book
+  collect 228138 x1 quest 84400.1
+
+step Book
+  collect 228135 x1 quest 84398.1
+
+step Book
+  zone map 1452
+  collect 228136 x1 quest 84399.1
+
+step Book
+  zone map 1448
+  collect 228134 x1 quest 84397.1
+
+step Book
+  zone map 1428
+  collect 228133 x1 quest 84396.1
+
+step Veteran of the Third War
+  zone map 1433
+  accept 93551
+
+step Night Watch Guard
+  zone map 1431
+  accept 98372
+  turnin 98372
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Oran Snakewrithe
+  zone map 1458
+  turnin 84396
+  turnin 84397
+  turnin 84398
+  turnin 84399
+  turnin 84400
+  turnin 84401
+
+step Level 60
+  zone map 2521
+  level 60
+
+step Genn Fairweather
+  accept 99203 only Skyborne
+  accept 99216 only Skyborne
+  turnin 99203 only Skyborne
+
+step Swift Empyrean Galestrider, Swift Stormy Galestrider and Swift Umber Galestrider
+  kill 265762 x1 quest 99216.1 only Skyborne
+  kill 265761 x1 quest 99216.2 only Skyborne
+  kill 265760 x1 quest 99216.3 only Skyborne
+
+step Genn Fairweather
+  turnin 99216 only Skyborne
+
+step Cut Arathor Supply Lines
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1417
+  accept 8299
+  complete 8299 @73.5,29.8
+
+step Cut Arathor Supply Lines
+  turnin 8299

@@ -1,7 +1,8 @@
 guide completionist-horde/dungeon-ragefire-chasm
-title Ragefire Chasm (Completionist)
+title Ragefire Chasm
 faction Horde
 category Dungeons
+folder Completionist dungeons and raids
 levels 9-16
 zone Orgrimmar
 next completionist-horde/26-hillsbrad-foothills-and-alterac-mountains-2

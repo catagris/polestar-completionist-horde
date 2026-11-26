@@ -1,8 +1,9 @@
 guide completionist-horde/18-dustwallow-marsh
-title 18 Dustwallow Marsh (35-45) (Completionist)
+title 18 Dustwallow Marsh
 faction Horde
 levels 35-45
 category Leveling
+folder Completionist 11-20
 zone Dustwallow Marsh
 next completionist-horde/19-arathi-highlands
 pitch On along the line: Dustwallow Marsh, quests of level 35 to 45.
@@ -34,37 +35,16 @@ step Melor Stonehoof
   zone map 1456
   accept 1205
 
-step Belgrom Rockmaul
-  when onquest 1184
-  zone map 1454
-  turnin 1184
-
-step Nogg
-  when complete 2841
-  zone map 1454
-  turnin 2841
-
-step Nogg
-  when onquest 2949
-  zone map 1454
-  turnin 2949
-
-step You Too Good.
-  when skill Fishing 1
-  tip The reference data does not place this quest's objective: follow the quest text.
-  zone map 1454
-  accept 6608 optional
-
-step Parqual Fintallas
-  when onquest 1159
-  zone map 1458
-  turnin 1159
-
 step Calder Gray
   when onquest 97985
   when group 97985
   zone map 1458
   turnin 97985
+
+step Parqual Fintallas
+  when onquest 1159
+  zone map 1458
+  turnin 1159
 
 step Doctor Martin Felben
   when complete 96988
@@ -84,6 +64,22 @@ step Varimathras
 step Owen Thadd
   zone map 1458
   accept 79952 npc 211022
+
+step Nogg
+  when complete 2841
+  zone map 1454
+  turnin 2841
+
+step Nogg
+  when onquest 2949
+  zone map 1454
+  turnin 2949
+
+step You Too Good.
+  when skill Fishing 1
+  tip The reference data does not place this quest's objective: follow the quest text.
+  zone map 1454
+  accept 6608 optional
 
 step Arikara and Sacred Fire of Life
   when group 5088
@@ -112,11 +108,10 @@ step Jarl Needs a Blade
   zone map 1445
   accept 81570 optional
 
-step Banalash
-  zone map 1435
-  buy 3713 x3 npc 989 -- for Soothing Spices
-
-# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+step Buy Soothing Spices
+  tip Sold in 28 places: the arrow leads to the nearest vendor.
+  zone map 1458
+  buy 3713 x3 nearest -- for Soothing Spices
 
 step Waterlogged Book
   zone map 1445
@@ -138,28 +133,100 @@ step Darkmist Silkspinner
 step Nazeer Bloodpike
   turnin 1238
 
-step "Stinky" Ignatz
-  zone map 1445
-  accept 1270
+step Craftsman's Writ: Lesser Stoneshield Potion
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264058 x1 anywhere optional
+  collect 4623 x1 anywhere optional
+  turnin 94258 direct optional
 
 step Loose Dirt
   accept 1239
   turnin 1206
 
 step Nazeer Bloodpike
-  zone map 1413
   turnin 1239
   accept 1240
-
-step Mebok Mizzyrix
-  complete 1270 @48.9,24.6 map 1445
-  turnin 1270
-
-# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
 
 step Deadmire
   zone map 1445
   collect 5945 x1 quest 1205.1
+
+step Level 36
+  level 36
+
+step "Stinky" Ignatz
+  accept 1270
+
+step Craftsman's Writ: Steel Weapon Chain
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264070 x1 anywhere optional
+  collect 6041 x1 anywhere optional
+  turnin 94270 direct optional
+
+step Mebok Mizzyrix
+  zone map 1413
+  complete 1270 @48.9,24.6 map 1445
+  turnin 1270
+
+step Level 39
+  zone map 1445
+  level 39
+
+step Drazzit Dripvalve
+  accept 98205
+
+step Searing Hatchling and Searing Whelp
+  zone map 1413
+  kill 4323 x8 quest 98205.1
+  kill 4324 x8 quest 98205.2
+
+step Drazzit Dripvalve
+  zone map 1445
+  turnin 98205
+
+# Written in: quests the drafter could not route and the route does not pass. Each is taken once what it follows is handed in.
+
+step Drazzit Dripvalve
+  accept 98215
+
+step Firemane Ash Tail
+  zone map 1413
+  collect 279934 x20 quest 98215.1
+
+# Written in: quests the drafter could not route. Each is taken once what it follows is handed in.
+
+step Drazzit Dripvalve
+  zone map 1445
+  turnin 98215
+
+step Gizzix Grimegurgle
+  zone map 1413
+  accept 98231
+
+step Wyrmtail
+  collect 280092 x10 quest 98231.1
+
+step Gizzix Grimegurgle
+  zone map 1445
+  turnin 98231
+
+step Craftsman's Writ: Craftsman's Monocle
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264082 x1 anywhere optional
+  collect 4393 x1 anywhere optional
+  turnin 94282 direct optional
+
+step Craftsman's Writ: Crimson Silk Robe
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264106 x1 anywhere optional
+  collect 7063 x1 anywhere optional
+  turnin 94306 direct optional
+
+step Craftsman's Writ: Dusky Bracers
+  tip A repeatable quest: hand it in once, with what it asks for.
+  collect 264094 x1 anywhere optional
+  collect 7378 x1 anywhere optional
+  turnin 94294 direct optional
 
 step You Too Good.
   when skill Fishing 1
@@ -185,40 +252,6 @@ step Owen Thadd
 step Kin'weelay
   zone map 1434
   turnin 1240
-
-step Level 39
-  zone map 1445
-  level 39
-
-step Drazzit Dripvalve
-  accept 98205
-
-step Drazzit Dripvalve
-  kill 4323 x8 quest 98205.1
-  kill 4324 x8 quest 98205.2
-  turnin 98205
-
-step Gizzix Grimegurgle
-  zone map 1413
-  accept 98231
-
-step Wyrmtail
-  zone map 1445
-  collect 280092 x10 quest 98231.1
-
-step Gizzix Grimegurgle
-  zone map 1413
-  turnin 98231
-
-step Drazzit Dripvalve
-  zone map 1445
-  accept 98215
-
-step Shed Dark Dragonscale
-  collect 279934 x20 quest 98215.1
-
-step Drazzit Dripvalve
-  turnin 98215
 
 step Jarl Needs a Blade
   when available 1203
@@ -262,12 +295,6 @@ step Test of Lore
   tip Still in your log from an earlier guide: hand it in now.
   zone map 1458
   turnin 1159 optional
-
-step Parts of the Swarm
-  when onquest 1184
-  tip Still in your log from an earlier guide: hand it in now.
-  zone map 1454
-  turnin 1184 optional
 
 step Rig Wars
   when onquest 2841
